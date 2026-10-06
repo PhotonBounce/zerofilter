@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 81,
+  "total_releases": 82,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -648,6 +648,14 @@
       "title": "Donald Hoffman Interface Theory, Fitness Beats Truth Theorems & KGB Reality Distortion Protocols",
       "audio": "audio/2026-10-09-09.mp3",
       "cover_video": "thumbs/2026-10-09-09.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-10",
+      "seconds": 183,
+      "title": "Barents Sea Nuclear Submarine Bastions, Arctic SOSUS Hydrophone Arrays & Northern Fleet Sanctuary Doctrines",
+      "audio": "audio/2026-10-09-10.mp3",
+      "cover_video": "thumbs/2026-10-09-10.mp4",
       "status": "published_production"
     }
   ]

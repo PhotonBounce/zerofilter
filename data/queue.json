@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-10",
-      "date": "2026-10-09",
-      "hour": "10:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Barents Sea nuclear submarine bastions, Arctic SOSUS hydrophone chokepoints, and Yuri Shvets on Northern Fleet strategic sanctuary doctrines"
-    },
-    {
       "id": "2026-10-09-11",
       "date": "2026-10-09",
       "hour": "11:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Macroscopic quantum entanglement in mechanical drum resonators, optomechanical phase noise suppression, and Yuri Shvets on Soviet laser interferometry espionage"
+    },
+    {
+      "id": "2026-10-09-13",
+      "date": "2026-10-09",
+      "hour": "13:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Stuart Hameroff microsecond anesthetic gas binding in tubulin hydrophobic pockets, quantum collapse disruption, and Yuri Shvets on KGB bio-telemetry interrogation dossiers"
     }
   ]
 }

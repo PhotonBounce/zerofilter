@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-10",
+      "hour": "10:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Barents Sea Nuclear Submarine Bastions, Arctic SOSUS Hydrophone Arrays & Northern Fleet Sanctuary Doctrines",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates Russian Northern Fleet ballistic missile submarine bastion warfare in the Barents Sea, NATO Arctic SOSUS hydrophone barriers, and Yuri Shvets on Soviet undersea strategic nuclear sanctuary doctrines.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is ten hundred hours. Beneath the shifting polar pack ice and frigid waters of the Barents Sea lies the ultimate center of gravity for Russian strategic nuclear deterrence: the Arctic naval bastion. Since the early 1970s, the Russian Northern Fleet has organized its entire surface, subsurface, and aerospace combat architecture around a single imperative—protecting its nuclear-powered ballistic missile submarines, or SSBNs, within heavily fortified maritime sanctuaries. From the Kola Peninsula to the ice edge north of Novaya Zemlya, the Barents Sea is engineered as a layered acoustic fortress.",
+        "To penetrate this sanctuary, Western naval planners have deployed advanced SOSUS hydrophone barriers along the Greenland-Iceland-United Kingdom Gap and across the Svalbard-Norway maritime corridor. Fixed seabed sonar arrays listening for acoustic cavitation signatures are supplemented by autonomous underwater gliders and Virginia-class attack submarines. However, inside the Barents bastion, extreme acoustic thermoclines, jagged undersea ridges, and seasonal ice keels create intense acoustic baffling. Russian Borei-class SSBNs navigate beneath the polar ice shelf, utilizing the natural ambient acoustic noise of fracturing ice sheets to mask their pump-jet propulsion signatures from Western passive sonars.",
+        "This sanctuary warfare concept is the purest surviving legacy of Soviet maritime strategic planning. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently detailed, Soviet naval leadership recognized after the Cuban Missile Crisis that their nuclear submarines could not survive open-ocean transit across the North Atlantic against NATO's pervasive SOSUS network. Under Admiral Sergey Gorshkov, Soviet doctrine executed a radical strategic pivot: rather than sending submarines out into contested oceans, the USSR brought its ballistic missile submarines home into heavily defended bastions.",
+        "According to Shvets, the KGB's First Chief Directorate and technical intelligence departments played a pivotal role in constructing this northern fortress. The KGB secured bathymetric profiles of the Barents seabed and smuggled acoustic quieting technology, including precision multi-axis Japanese CNC milling machines, to manufacture silent submarine propellers. Shvets revealed that corrupt Soviet naval procurement officials engaged in massive budget inflation, diverting billions in Arctic defense appropriations while reporting inflated readiness statistics to the Kremlin. Yet despite pervasive institutional graft, the geopolitical geometry of the Arctic bastion remains unaltered.",
+        "As melting Arctic ice sheets open new northern sea routes and intensify great power competition, NATO and Russian forces are locked in an escalating acoustic arms race. The Barents Sea remains the primary flashpoint where covert undersea collisions could trigger strategic nuclear escalation. In the high north, silence is the only margin of survival.",
+        "Audit the Arctic bathymetric contours, monitor the Barents hydrophone telemetry, and track the northern bastions. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-10/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-10/f02.webp"
+          },
+          {
+            "t": 61,
+            "src": "art/2026-10-09-10/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-09-10/f04.webp"
+          },
+          {
+            "t": 122,
+            "src": "art/2026-10-09-10/f05.webp"
+          },
+          {
+            "t": 152,
+            "src": "art/2026-10-09-10/f06.webp"
+          }
+        ]
+      },
+      "seconds": 183,
+      "thumb": "thumbs/2026-10-09-10.webp",
+      "audio": "audio/2026-10-09-10.mp3",
+      "cover_video": "thumbs/2026-10-09-10.mp4"
+    },
+    {
       "id": "2026-10-09-09",
       "hour": "09:00",
       "date": "2026-10-09",
