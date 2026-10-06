@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 125,
+  "total_releases": 126,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1000,6 +1000,14 @@
       "title": "Penrose-Hameroff Orch-OR Anesthesia, Tubulin Dipoles & KGB Pharmacological Telemetry",
       "audio": "audio/2026-10-11-05.mp3",
       "cover_video": "thumbs/2026-10-11-05.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-11-06",
+      "seconds": 187,
+      "title": "Arctic Northern Sea Route Monopolies, Yamal LNG Escorts & Soviet Glavsevmorput Logistics",
+      "audio": "audio/2026-10-11-06.mp3",
+      "cover_video": "thumbs/2026-10-11-06.mp4",
       "status": "published_production"
     }
   ]

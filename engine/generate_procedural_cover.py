@@ -2182,6 +2182,70 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 118), "KGB 12TH DEPT NARCO-ANALYSIS", fill=(255, 200, 80))
         draw.text((width - 310, 138), "PSYCHOTROPIC TELEMETRY LABS", fill=(255, 100, 80))
         draw.text((width - 310, 158), "CONSCIOUSNESS SUPPRESSION", fill=(255, 220, 120))
+    elif theme in ("northern_sea_route", "arctic_route", "yamal_icebreaker", "glavsevmorput"):
+        # Arctic Northern Sea Route, Nuclear Icebreaker Escort & Yamal LNG Logistics
+        # 1. Background Polar Coordinate / Arctic Latitude Grid
+        for r_pol in range(80, 260, 35):
+            draw.arc([cx - r_pol, cy - 30 - r_pol, cx + r_pol, cy - 30 + r_pol], 0, 360, fill=(15, 32, 45), width=1)
+        for ang in range(0, 360, 30):
+            rad = math.radians(ang)
+            draw.line([(cx + int(60 * math.cos(rad)), cy - 30 + int(60 * math.sin(rad))),
+                       (cx + int(250 * math.cos(rad)), cy - 30 + int(250 * math.sin(rad)))], fill=(15, 32, 45), width=1)
+
+        # 2. Polar Sea Ice Sheet (Polygon fractured ice pack)
+        ice_pts = [
+            (cx - 260, cy - 140), (cx - 180, cy - 170), (cx - 60, cy - 150), (cx + 80, cy - 180),
+            (cx + 220, cy - 140), (cx + 260, cy - 80), (cx + 190, cy - 20), (cx + 240, cy + 40),
+            (cx + 120, cy + 80), (cx - 40, cy + 60), (cx - 160, cy + 90), (cx - 250, cy + 20)
+        ]
+        draw.polygon(ice_pts, fill=(8, 22, 34), outline=(120, 220, 255))
+        draw.text((cx - 110, cy - 165), "ARCTIC PACK ICE // MULTI-YEAR POLAR CAP", fill=(140, 230, 255))
+
+        # 3. Carved Open Lead Channel / Wake Corridor (West to East)
+        channel_y = cy - 20
+        draw.polygon([(cx - 240, channel_y - 20), (cx + 240, channel_y - 20),
+                      (cx + 240, channel_y + 20), (cx - 240, channel_y + 20)], fill=(5, 12, 22), outline=(0, 255, 220), width=1)
+        draw.text((cx - 120, channel_y - 38), "SEVMORPUT OPEN LEAD [ICEBREAKER CARVED CHANNEL]", fill=(0, 255, 220))
+
+        # 4. Nuclear Icebreaker Lead Vessel (Project 22220 Arktika-class)
+        ib_x, ib_y = cx + 80, channel_y
+        # Slanted ice-breaking bow rake & hull
+        draw.polygon([(ib_x + 60, ib_y), (ib_x + 35, ib_y - 14), (ib_x - 50, ib_y - 14),
+                      (ib_x - 50, ib_y + 14), (ib_x + 35, ib_y + 14)], fill=(20, 35, 50), outline=(255, 80, 60), width=2)
+        # Nuclear superstructure & dual RITM-200 reactors
+        draw.rectangle([ib_x - 20, ib_y - 8, ib_x + 15, ib_y + 8], fill=(255, 60, 40))
+        draw.ellipse([ib_x - 4, ib_y - 4, ib_x + 4, ib_y + 4], fill=(255, 255, 255))
+        draw.text((ib_x - 45, ib_y - 28), "PROJECT 22220 NUCLEAR ICEBREAKER", fill=(255, 100, 80))
+
+        # Arc7 Yamal LNG Carrier in Escort Wake (Trailing behind icebreaker)
+        lng_x, lng_y = cx - 120, channel_y
+        draw.rectangle([lng_x - 55, lng_y - 12, lng_x + 45, lng_y + 12], fill=(15, 28, 40), outline=(0, 200, 255), width=2)
+        # Spherical / membrane LNG cargo tanks
+        for tx in range(lng_x - 35, lng_x + 35, 22):
+            draw.ellipse([tx - 8, lng_y - 8, tx + 8, lng_y + 8], outline=(0, 255, 200), width=1)
+        draw.text((lng_x - 50, lng_y + 18), "YAMAL ARC7 LNG CARRIER", fill=(0, 220, 255))
+
+        # 5. Sabetta Port & Coastal Bastion Defense Radar Gate
+        draw.ellipse([cx - 200, cy + 110, cx - 140, cy + 170], outline=(255, 200, 60), width=1)
+        draw.point((cx - 170, cy + 140), fill=(255, 255, 255))
+        draw.text((cx - 195, cy + 125), "SABETTA LNG HUB", fill=(255, 220, 80))
+        draw.text((cx - 210, cy + 175), "BASTION-P MISSILE PERIMETER", fill=(255, 90, 70))
+
+        # 6. Telemetry Dossiers (NSR Logistics & Soviet Glavsevmorput)
+        # Left HUD Box: NSR Transit Metrics
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 22, 32), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[NORTHERN SEA ROUTE HUD]", fill=(0, 240, 255))
+        draw.text((70, 118), "ROUTE: BARENTS TO BERING STRAIT", fill=(255, 220, 100))
+        draw.text((70, 138), "DISTANCE SAVINGS: 4,000 NM", fill=(0, 255, 200))
+        draw.text((70, 158), "ESCORT MONOPOLY: ROSATOMFLOT", fill=(120, 220, 255))
+        draw.text((70, 178), "YAMAL LNG VOLUME: 20 MTPA", fill=(255, 140, 50))
+
+        # Right HUD Box: Glavsevmorput & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET GLAVSEVMORPUT]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "POLAR STRATEGIC CORRIDOR", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "KGB BORDER GUARD FLOTILLA", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "NORTHERN FLEET SUB ESCORT", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
     else:

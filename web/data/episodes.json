@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T14:20:00Z",
+  "updated": "2026-10-06T14:25:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-06",
+      "hour": "06:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Arctic Northern Sea Route Monopolies, Yamal LNG Escorts & Soviet Glavsevmorput Logistics",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the militarization of the Arctic Northern Sea Route, Rosatomflot nuclear icebreaker escort monopolies, Yamal Arc7 LNG shadow export corridors, and Yuri Shvets on Soviet Glavsevmorput strategic polar logistics, KGB maritime border flotillas, and Arctic submarine bastions.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero six hundred hours. Across the freezing waters of the Arctic Ocean, the melting polar cap is not creating an open global maritime commons. Instead, the Kremlin is transforming the Northern Sea Route—stretching five thousand six hundred nautical miles from the Barents Sea to the Bering Strait—into a fortified, toll-collecting sovereign tollgate. By slashing maritime transit times between East Asia and Europe by up to forty percent compared to the Suez Canal, Moscow is leveraging geographic chokepoints and ice-breaking escort laws to exert total geopolitical control over Arctic trade.",
+        "At the center of this monopoly is state atomic corporation Rosatom and its specialized subsidiary, Atomflot. Russian federal maritime law mandates that any commercial vessel traversing the Northern Sea Route must submit to state navigation permits, transmit real-time telemetry to military coastal radar centers, and pay exorbitant fees for mandatory nuclear icebreaker escorts. Operating new Project 22220 Arktika-class dual-reactor vessels, Rosatomflot maintains an absolute monopoly over polar lead carving, dictating which foreign cargo carriers are granted safe passage through shifting pack ice and which are left stranded.",
+        "This commercial escort regime directly subsidizes Russia's sanctions evasion and energy exports. From the Sabetta terminal on the Yamal Peninsula, specialized Arc7 ice-class liquefied natural gas carriers make year-round Arctic transits toward Chinese and European import hubs. Protected by coastal Bastion-P anti-ship missile batteries and Northern Fleet air defense umbrellas along Franz Josef Land and Novaya Zemlya, Yamal LNG flows unimpeded, generating billions in hard-currency energy revenue outside Western maritime sanctions jurisdictions.",
+        "This weaponization of Arctic waterways is not a modern innovation; it is the resurrection of Soviet polar strategic doctrine. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has exposed, the Soviet Union treated Arctic logistics as an exclusive military bastion long before modern climate change opened seasonal shipping lanes.",
+        "According to Shvets, the Chief Directorate of the Northern Sea Route, or Glavsevmorput, functioned as an operational arm of the Soviet military and state security apparatus. Shvets revealed that KGB Maritime Border Guard flotillas and Northern Fleet naval intelligence integrated civilian cargo shipping directly into ballistic missile submarine defense bastions. Every civilian icebreaker and meteorological station was retrofitted with SIGINT intercept arrays and acoustic hydrophone relays, designed to track NATO submarine ingress beneath the polar ice while maintaining an impenetrable logistics conduit linking Murmansk to Vladivostok.",
+        "From Soviet Glavsevmorput polar convoys to modern Rosatomflot nuclear escorts, the Arctic game has never changed: control the ice, collect the escort toll, and seal the northern flank behind naval missile perimeters. As polar shipping accelerates, the illusion of an open Arctic dissolves into an armed sovereign corridor. Track the icebreaker wakes, audit the LNG manifests, and watch the northern frontier. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-06/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-11-06/f02.webp"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-11-06/f03.webp"
+          },
+          {
+            "t": 94,
+            "src": "art/2026-10-11-06/f04.webp"
+          },
+          {
+            "t": 125,
+            "src": "art/2026-10-11-06/f05.webp"
+          },
+          {
+            "t": 156,
+            "src": "art/2026-10-11-06/f06.webp"
+          }
+        ]
+      },
+      "seconds": 187,
+      "audio": "audio/2026-10-11-06.mp3",
+      "thumb": "thumbs/2026-10-11-06.webp",
+      "cover_video": "thumbs/2026-10-11-06.mp4"
+    },
     {
       "id": "2026-10-11-05",
       "hour": "05:00",

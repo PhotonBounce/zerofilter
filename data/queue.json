@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-06",
-      "date": "2026-10-11",
-      "hour": "06:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Arctic Northern Sea Route icebreaker escort monopoly, Yamal LNG radar corridors, and Yuri Shvets on Soviet Glavsevmorput strategic polar logistics"
-    },
-    {
       "id": "2026-10-11-07",
       "date": "2026-10-11",
       "hour": "07:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Topological Majorana zero modes, non-Abelian anyon braiding, and Yuri Shvets on Soviet low-temperature quantum physics institutes and submarine cryptographic hardware"
+    },
+    {
+      "id": "2026-10-11-09",
+      "date": "2026-10-11",
+      "hour": "09:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Anil Seth controlled hallucination model, Bayesian predictive coding sensory suppression, and Yuri Shvets on KGB reflexive control perception-shaping operations"
     }
   ]
 }
