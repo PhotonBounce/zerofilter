@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-13",
+      "hour": "13:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Integrated Information Theory Phi Topology, Causal Complexes & Soviet Toxicology Trials",
+      "subject": "Hourly uncensored breakdown: Rex Vance explores Giulio Tononi's Integrated Information Theory 4.0, mathematical maximal causal complexes (Phi), loss of consciousness under general anesthesia, and Yuri Shvets on KGB Lab-12 chemical interrogation protocols targeting conscious integration.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is thirteen hundred hours. What is consciousness? In neuroscience and theoretical physics, the question has transitioned from metaphysical speculation to rigorous mathematical formalism. Giulio Tononi's Integrated Information Theory—or IIT 4.0—posits that subjective experience is identical to a maximal cause-effect structure, quantified by the metric Phi. An physical substrate is conscious not because of computational throughput or functional behavior, but to the precise degree that its internal components exert irreducible, integrated causal power over themselves.",
+        "Under IIT, consciousness requires five foundational postulates: existence, composition, information, integration, and exclusion. When a system satisfies these axioms, it condenses into a maximal causal complex—a unified geometric shape in multidimensional cause-effect space whose irreducible integrated information value, Phi-max, determines the quantity and quality of awareness. During general anesthesia, propofol and xenon do not extinguish neural activity wholesale; instead, they selectively break reciprocal cortico-thalamic feedback loops, causing Phi to collapse to zero as the brain fragments into isolated, causally disconnected modules.",
+        "This mathematical dissociation of conscious integration mirrors dark historical intelligence programs designed to weaponize chemical disruption of human awareness. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has exposed, Soviet intelligence dedicated massive black-budget resources to decoding and systematically destroying the biological architecture of conscious agency.",
+        "According to Shvets, the KGB First Chief Directorate worked in close coordination with the notorious Lab-12—the Soviet secret toxicology and interrogation facility in Moscow. Soviet pharmacologists tested synthetic GABA agonists, anticholinergics, and thallium derivatives on political prisoners to calibrate precise dosages that disintegrated high-level cognitive integration while leaving basic motor reflexes operational. Shvets revealed that KGB interrogators sought compounds that induced complete dissociative amnesia and ego dissolution, functionally engineering a biochemical shutdown of the subject's maximal causal complex to bypass ideological resistance.",
+        "Decades later, the intersection of IIT and defense intelligence is entering an ominous new chapter. From automated coma prognosis and objective conscious assessment in traumatic brain injury to evaluating whether massive transformer neural networks possess genuine internal experience, Phi has become a crucial diagnostic boundary. Intelligence agencies are utilizing perturbational complexity index telemetry to detect covert consciousness in unresponsive soldiers while modeling how adversarial electromagnetic warfare could selectively decouple human command-and-control networks.",
+        "Never mistake simulated conversational fluency for irreducible internal experience, demand objective causal-power verification in frontier artificial intelligence, and remember that when integration collapses, conscious reality disintegrates. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-13/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-10-13/f02.webp"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-10-13/f03.webp"
+          },
+          {
+            "t": 93,
+            "src": "art/2026-10-10-13/f04.webp"
+          },
+          {
+            "t": 124,
+            "src": "art/2026-10-10-13/f05.webp"
+          },
+          {
+            "t": 155,
+            "src": "art/2026-10-10-13/f06.webp"
+          }
+        ]
+      },
+      "seconds": 186,
+      "thumb": "thumbs/2026-10-10-13.webp",
+      "audio": "audio/2026-10-10-13.mp3",
+      "cover_video": "thumbs/2026-10-10-13.mp4"
+    },
+    {
       "id": "2026-10-10-12",
       "hour": "12:00",
       "date": "2026-10-10",
