@@ -1259,6 +1259,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "RED SEA SUBSEA CABLE CORRIDOR // BAB EL-MANDEB CHOKEPOINT // SOVIET HORN OF AFRICA SIGINT", fill=(255, 140, 40))
     elif theme in ("malacca_blockade", "hydrophone_gate", "malacca_strait"):
         draw.text((40, 60), "STRAIT OF MALACCA DRONE BLOCKADE // SUBSEA ACOUSTIC GATES // SOVIET NAVAL DOCTRINE", fill=(0, 220, 255))
+    elif theme in ("suwalki_gap", "suwalki_corridor", "kaliningrad_corridor"):
+        draw.text((40, 60), "SUWALKI GAP HEAVY ARMOR LOGISTICS // RAIL GAUGE CHOKEPOINTS // KALININGRAD CORRIDOR", fill=(255, 90, 70))
     elif theme in ("giuk_gap", "undersea_drones", "titanium_sub"):
         draw.text((40, 60), "GIUK GAP ACOUSTIC BARRIER // UNDERSEA DRONE SWARMS // SOVIET TITANIUM SUBMARINES", fill=(0, 220, 255))
     elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "arctic_seabed", "svalbard_cable", "barents_bastion", "bastion_doctrine", "northern_fleet"):

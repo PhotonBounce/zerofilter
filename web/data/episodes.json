@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-08-18",
+      "hour": "18:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Suwalki Gap Heavy Armor Logistics, Railway Gauge Incompatibility & Soviet Kaliningrad Corridor Doctrine",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the logistical nightmare of defending NATO's Suwalki Gap, railway break-of-gauge chokepoints between European standard and Russian broad gauge, and Yuri Shvets's insider analysis of Soviet military operational plans for the Kaliningrad transit corridor.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is eighteen hundred hours. The Suwalki Gap—a narrow, sixty-five-mile strip of land wedged between the heavily fortified Russian military exclave of Kaliningrad and Belarus—is universally recognized as the most perilous strategic choke point on NATO's eastern frontier. But while defense think tanks obsess over hypersonic strikes and electronic warfare, the fatal vulnerability is far more mundane, brutal, and mechanical: railway transport logistics. If hostile forces sever this narrow corridor, the Baltic republics of Lithuania, Latvia, and Estonia are instantly severed from overland allied reinforcement.",
+        "The physical mechanics of heavy armor mobility across Eastern Europe collapse at the break-of-gauge boundary. Western European railways operate on standard gauge of 1,435 millimeters, whereas the Baltic rail networks still rely on the legacy Soviet broad gauge of 1,520 millimeters. Moving heavy armored divisions, M1A2 Abrams main battle tanks, and heavy artillery requires painstaking break-of-gauge transshipment at the Polish-Lithuanian border—manually swapping wheel bogies or crane-lifting sixty-ton armored hulls between incompatible rail cars. In a contested combat environment saturated by loitering drone munitions and ballistic missile strikes, this logistical bottleneck creates a catastrophic stationary target.",
+        "This geographic and logistical vulnerability was engineered by design during the Soviet era. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently detailed, Soviet General Staff operational planning explicitly preserved railway gauge incompatibility across former satellite states to prevent rapid Western mechanized counter-offensives. The Soviet Baltic Military District and Belarusian military commands maintained detailed operational dossiers on the Suwalki approaches, designating the corridor as the supreme operational axis to secure land communications with Kaliningrad.",
+        "According to Shvets, the KGB's military counter-intelligence directorates closely coordinated with the Soviet Ministry of Railways to ensure that transport infrastructure directly served strategic deterrence. Today, modern interoperability projects like Rail Baltica remain years behind schedule and billions over budget due to bureaucratic inertia, contractor grift, and political infighting. Shvets emphasizes that while Western politicians deliver hawkish speeches on Baltic deterrence, they have systematically failed to fund the heavy transport logistics, reinforced railbeds, and heavy bridges required to move mechanized divisions across the Suwalki choke point.",
+        "Today, the Suwalki Gap stands as an unforgiving reality check: wars are won by heavy logistics, industrial rail capacity, and supply lines, not empty political rhetoric. Without standardized rail corridors, reinforced river crossings, and hardened transshipment depots, rapid response forces remain paralyzed in transit. Military deterrence is a paper tiger without the steel rails to move it.",
+        "Audit the rail gauge transfers, track the heavy armor logistics, and verify the transit corridors. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 185,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-18/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-08-18/f02.webp"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-08-18/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-08-18/f04.webp"
+          },
+          {
+            "t": 123,
+            "src": "art/2026-10-08-18/f05.webp"
+          },
+          {
+            "t": 154,
+            "src": "art/2026-10-08-18/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-08-18.webp",
+      "audio": "audio/2026-10-08-18.mp3",
+      "cover_video": "thumbs/2026-10-08-18.mp4"
+    },
+    {
       "id": "2026-10-08-17",
       "hour": "17:00",
       "date": "2026-10-08",

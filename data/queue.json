@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-18",
-      "date": "2026-10-08",
-      "hour": "18:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Suwalki Gap heavy armor logistics, railway gauge incompatibility, and Yuri Shvets on Soviet Kaliningrad corridor operational doctrine"
-    },
-    {
       "id": "2026-10-08-19",
       "date": "2026-10-08",
       "hour": "19:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Superconducting fluxonium qubits, high-harmonic phase slip, and Yuri Shvets on Soviet cryogenic solid-state physics archives"
+    },
+    {
+      "id": "2026-10-08-21",
+      "date": "2026-10-08",
+      "hour": "21:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Microtubular resonance in cortical pyramidal neurons, megahertz anesthetic lock, and Yuri Shvets on Soviet bio-telemetry interrogation archives"
     }
   ]
 }
