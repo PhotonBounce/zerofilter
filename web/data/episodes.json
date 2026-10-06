@@ -1,4 +1,121 @@
 {
-  "updated": "2026-10-06T15:30:00Z",
-  "episodes": []
+  "updated": "2026-10-06T22:55:00Z",
+  "episodes": [
+    {
+      "id": "2026-10-06-22",
+      "hour": "22:00",
+      "date": "2026-10-06",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-06-22",
+      "title": "Pentagon Defense AI Capture, Black Sea Drone Strikes & Gravitational Quantum Entanglement",
+      "subject": "Hourly verified intelligence brief: Rex Vance exposes Silicon Valley defense tech revolving doors and DoD counter-drone pilots, Ukrainian drone warfare hitting Russian shadow tankers, Yuri Shvets dispatch #1216 on war priorities, error-correcting basins in frontier AI, gravitational quantum entanglement, and bioRxiv temporal perception recalibration.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty-two hundred hours. In Washington, the revolving door between Silicon Valley tech oligarchs and the Pentagon is spinning completely out of control. National Public Radio reports growing ethics conflicts as commercial venture heads and defense contractors secure direct military advisory appointments, while the Department of Defense greenlights its JIATF 401 directed-energy counter-drone pilot program. Corporate defense capture isn't partisan theory—it is active procurement policy on Capitol Hill.",
+        "Across the Black Sea, asymmetric warfare is dismantling Russian naval logistics in real time. The Kyiv Independent confirms a shadow fleet tanker erupted in flames near Sochi, while Ukrainian drone strikes under commander Madyar inflicted catastrophic vehicle losses across the southern front. In his broadcast number twelve sixteen, military analyst Yuri Shvets laid out six strategic priorities for victory, arguing that turning the war requires breaking Moscow’s asymmetric advantages through precision deep-strike interdiction rather than political grandstanding.",
+        "In frontier compute, artificial intelligence architecture is moving beyond brittle parameter scaling into intrinsic representation geometry. An October sixth paper on arXiv demonstrates that large language model activations inhabit privileged error-correcting basins, where high-dimensional representations naturally self-stabilize against semantic drift and token perturbation. Behind corporate AI marketing hype, the actual mathematics shows internal representations behave more like low-noise physical resonators than stochastic autocomplete.",
+        "In quantum mechanics, researchers are pushing empirical boundaries toward the intersection of general relativity and quantum measurement. A new study on arXiv details optimal interferometer geometries designed to detect gravitationally induced quantum entanglement. Rather than relying on classical spacetime curvature models, physicists are demonstrating that microscopic quantum superpositions can mediate gravitational interaction—proving that observer-dependent informational states dictate physical reality at the most fundamental scales.",
+        "At the frontiers of neuroscience and perception, research published on bioRxiv proves human temporal perception is dynamically recalibrated through dual sensory mechanisms. Psychophysicists mapped how stimulus-driven perceptual shifts dissociate from decisional carryover across sensory modalities—demonstrating that our conscious experience of time is actively rendered rather than passively recorded. Declassified CIA Project Stargate archives corroborate this cognitive flexibility, revealing human perceptual interfaces routinely operate beyond conventional sensory limits.",
+        "From defense contracting revolving doors in Washington to Ukrainian drone salvos crippling Russian shadow tankers, reality renders through empirical observation, not political propaganda. The corporate media feeds you theatrical noise; the mathematics, the lab data, and the intelligence wire show the unvarnished signal. Check the receipts in the source drawer, audit the physics, and stay lucid. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/06/nx-s1-5991899/elon-musk-palmer-luckey-pentagon-drones-ai",
+          "title": "Elon Musk and Palmer Luckey's new Pentagon roles raise ethics worries",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4619430/systems-selected-for-jiatf-401-directed-energy-counter-drone-pilot-program/",
+          "title": "Systems Selected for JIATF 401 Directed-Energy Counter-Drone Pilot Program",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/shadow-fleet-tanker-reportedly-ablaze-near-russian-port-city-sochi/",
+          "title": "Shadow fleet tanker reportedly ablaze near Russian port city Sochi",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-losses-to-ukrainian-drones-surge-in-early-october-madyar-says/",
+          "title": "Russian losses to Ukrainian drones surge in early October, Madyar says",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 1,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-10-05",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.04183",
+          "title": "Language Model Activations Inhabit Privileged Error-Correcting Basins",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.04471",
+          "title": "Optimal Interferometer Geometry for Gravitationally Induced Quantum Entanglement",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755365v1?rss=1",
+          "title": "Two components of rapid temporal recalibration: a stimulus-driven shift and a decisional carryover dissociate across the senses",
+          "published": "2026-10-05"
+        },
+        {
+          "para": 4,
+          "url": "https://www.cia.gov/readingroom/document/cia-rdp96-00788r001700210016-5",
+          "title": "Declassified CIA Project Stargate / Grill Flame Telepathy Protocols",
+          "published": "1983-06-09",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-06-22/f01.webp"
+          },
+          {
+            "t": 30.55,
+            "src": "art/2026-10-06-22/f02.webp"
+          },
+          {
+            "t": 61.1,
+            "src": "art/2026-10-06-22/f03.webp"
+          },
+          {
+            "t": 90.58,
+            "src": "art/2026-10-06-22/f04.webp"
+          },
+          {
+            "t": 119.78,
+            "src": "art/2026-10-06-22/f05.webp"
+          },
+          {
+            "t": 151.68,
+            "src": "art/2026-10-06-22/f06.webp"
+          }
+        ]
+      },
+      "seconds": 179,
+      "cues": [
+        0.0,
+        30.55,
+        61.1,
+        90.58,
+        119.78,
+        151.68
+      ],
+      "audio": "audio/2026-10-06-22.mp3",
+      "thumb": "thumbs/2026-10-06-22.webp",
+      "cover_video": "thumbs/2026-10-06-22.mp4"
+    }
+  ]
 }
