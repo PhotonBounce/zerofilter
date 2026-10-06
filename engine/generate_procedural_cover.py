@@ -824,6 +824,72 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, cy - 90), "DIRECTORATE T DISINFORMATION", fill=(255, 80, 80))
         draw.text((width - 310, cy - 70), "STATUS: ARCHIVAL SIGINT REVEALED", fill=(200, 200, 200))
 
+    elif theme in ("pear_reg", "cognitive_field", "anomalous_entanglement", "field_reg"):
+        # Princeton PEAR Laboratory Quantum Noise REG & Field Consciousness Network
+        # 1. Statistical Random Walk Coordinates & Parabolic Sigma Envelopes
+        chart_left = cx - 380
+        chart_right = cx + 380
+        chart_top = cy - 180
+        chart_bot = cy + 180
+        
+        # Grid lines and zero expectation baseline
+        draw.rectangle([chart_left, chart_top, chart_right, chart_bot], fill=(8, 16, 26), outline=(20, 60, 90), width=1)
+        draw.line([(chart_left, cy), (chart_right, cy)], fill=(0, 180, 220), width=2)
+        draw.text((chart_left + 15, cy - 18), "EXPECTATION BASELINE: μ = 0.00", fill=(0, 220, 255))
+        
+        # Parabolic Sigma Confidence Envelopes (±2σ 95%, ±3σ 99.7%)
+        pts_p2, pts_m2 = [], []
+        pts_p3, pts_m3 = [], []
+        for x in range(chart_left, chart_right + 1, 10):
+            n = (x - chart_left) / 10.0
+            sigma = math.sqrt(n) * 8.5
+            pts_p2.append((x, int(cy - 2 * sigma)))
+            pts_m2.append((x, int(cy + 2 * sigma)))
+            pts_p3.append((x, int(cy - 3 * sigma)))
+            pts_m3.append((x, int(cy + 3 * sigma)))
+            
+        draw.line(pts_p2, fill=(30, 120, 160), width=1)
+        draw.line(pts_m2, fill=(30, 120, 160), width=1)
+        draw.line(pts_p3, fill=(180, 60, 60), width=1)
+        draw.line(pts_m3, fill=(180, 60, 60), width=1)
+        draw.text((chart_right - 90, pts_p2[-1][1] - 14), "+2σ (95%)", fill=(30, 160, 200))
+        draw.text((chart_right - 90, pts_p3[-1][1] - 14), "+3σ (99.7%)", fill=(255, 80, 80))
+        
+        # 2. Cumulative Deviation Trace (Operator Intention Bias Trail)
+        random.seed(914)
+        walk_pts = []
+        cur_y = float(cy)
+        for x in range(chart_left, chart_right + 1, 6):
+            # Intentional upward drift + quantum noise
+            step = random.gauss(0.85, 2.8)
+            cur_y -= step
+            walk_pts.append((x, int(cur_y)))
+            
+        draw.line(walk_pts, fill=(255, 200, 50), width=3)
+        draw.line(walk_pts, fill=(255, 255, 255), width=1)
+        
+        # Final terminal point and significance badge
+        term_x, term_y = walk_pts[-1]
+        draw.ellipse([term_x - 6, term_y - 6, term_x + 6, term_y + 6], fill=(255, 220, 50), outline=(255, 255, 255), width=2)
+        draw.rectangle([term_x - 170, term_y - 45, term_x - 15, term_y + 5], fill=(35, 25, 10), outline=(255, 180, 40), width=1)
+        draw.text((term_x - 160, term_y - 40), "CUMULATIVE DEVIATION", fill=(255, 220, 60))
+        draw.text((term_x - 160, term_y - 22), "Z = 4.12 // p = 3.8 x 10^-5", fill=(255, 255, 255))
+        draw.text((term_x - 160, term_y - 6), "NON-RANDOM BIAS DETECTED", fill=(0, 255, 220))
+
+        # 3. Telemetry Sidebars: Noise Diode Apparatus & Soviet Psychic Disinformation
+        draw.rectangle([60, cy - 160, 280, cy - 70], fill=(10, 25, 35), outline=(0, 255, 240), width=1)
+        draw.text((70, cy - 150), "[PEAR NOISE DIODE REG]", fill=(0, 255, 240))
+        draw.text((70, cy - 130), "SOLID-STATE SHOT NOISE SOURCE", fill=(255, 220, 80))
+        draw.text((70, cy - 110), "SAMPLE RATE: 1,000 BITS/SEC", fill=(200, 220, 255))
+        draw.text((70, cy - 90), "OPERATOR INTENTION COUPLING", fill=(0, 240, 180))
+
+        draw.rectangle([width - 320, cy + 50, width - 50, cy + 160], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, cy + 60), "[KGB PSYCHOTRONICS DOSSIER]", fill=(255, 140, 50))
+        draw.text((width - 310, cy + 80), "BIO-INFORMATION BLACK BUDGET", fill=(255, 200, 80))
+        draw.text((width - 310, cy + 100), "FABRICATED TELEPATHY CLAIMS", fill=(255, 220, 120))
+        draw.text((width - 310, cy + 120), "PURPOSE: SLUSH FUND DIVERSION", fill=(255, 80, 80))
+        draw.text((width - 310, cy + 140), "STATUS: DISCLOSURE BY SHVETS", fill=(200, 200, 200))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -902,6 +968,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "PENROSE ORCH-OR OBJECTIVE REDUCTION // TUBULIN DIPOLE HARMONICS 8.3 MHz // E_G = ℏ/τ", fill=(30, 240, 160))
     elif theme in ("photonic_crystals", "laser_optics", "microcavity", "nonlinear_optics"):
         draw.text((40, 60), "PHOTONIC BANDGAP MICROCAVITY // 1550nm SHG CONVERSION // SARY-SHAGAN TERRA-3 AUDIT", fill=(0, 240, 255))
+    elif theme in ("pear_reg", "cognitive_field", "anomalous_entanglement", "field_reg"):
+        draw.text((40, 60), "PEAR QUANTUM NOISE REG // CUMULATIVE DEVIATION p = 3.8 x 10^-5 // KGB SLUSH AUDIT", fill=(255, 210, 50))
     elif theme == "consciousness":
         draw.text((40, 60), "NEURAL BIOPHOTON TELEMETRY // TUBULIN DIPOLE HARMONICS // BANDWIDTH 614 THz", fill=(80, 255, 180))
     else:

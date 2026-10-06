@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-15",
-      "date": "2026-10-07",
-      "hour": "15:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Anomalous cognitive entanglement, PEAR random event generator field effects, and Yuri Shvets on KGB psychic research funding diverts"
-    },
-    {
       "id": "2026-10-07-16",
       "date": "2026-10-07",
       "hour": "16:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Superconducting transmon qubit coherence limits, surface code syndrome extraction, and Yuri Shvets on Soviet quantum cryptography intercept efforts"
+    },
+    {
+      "id": "2026-10-07-18",
+      "date": "2026-10-07",
+      "hour": "18:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Hormuz Strait electronic spoofing, Iranian drone guidance backdoors, and Yuri Shvets on Moscow-Tehran military intelligence exchanges"
     }
   ]
 }

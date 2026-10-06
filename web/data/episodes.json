@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-15",
+      "hour": "15:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "PEAR Field Effects, Cognitive Entanglement & KGB Psychic Research Diverts",
+      "subject": "Hourly uncensored breakdown: Rex Vance analyzes Princeton PEAR laboratory quantum noise random event generators, non-local FieldREG collective entropy decreases, and Yuri Shvets's insider revelations regarding Soviet KGB psychotronics black-budget diversion schemes.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is fifteen hundred hours. For nearly three decades inside Princeton University's School of Engineering and Applied Science, the Princeton Engineering Anomalies Research program, or PEAR, conducted rigorous, double-blind laboratory trials on human-machine interaction. Led by former aerospace dean Robert Jahn and developmental psychologist Brenda Dunne, the laboratory amassed millions of experimental trials using microelectronic random event generators driven by intrinsically unpredictable quantum tunnel diode shot noise, seeking to determine whether human intention could alter physical entropy.",
+        "Their findings were mathematically staggering: across hundreds of volunteer human operators attempting to mentally bias binary random sequences, the cumulative statistical departure from theoretical chance achieved an overall p-value exceeding four standard deviations. When deployed as portable FieldREG units during high-coherence collective global gatherings, these quantum noise diodes recorded synchronous entropy drops—suggesting that conscious human awareness generates an objective, non-local field capable of subtly structuring quantum probability distributions across space.",
+        "During the height of the Cold War, this intersection of mind and matter triggered intense intelligence competition and bureaucratic hysteria. As Washington counter-intelligence insider and former KGB Major Yuri Shvets has revealed, Soviet state security apparatuses were thoroughly consumed by parapsychological rivalries. Within the First Chief Directorate, opportunistic officers and pseudo-scientific researchers established highly classified psychotronic laboratories, claiming they could weaponize remote sensory disruption and psychokinetic sabotage against Western political leadership.",
+        "Yet Shvets emphasizes that the vast majority of Soviet psychotronics was not rigorous science; it was an elaborate bureaucratic grift. Corrupt KGB managers leveraged Politburo paranoia regarding American technological breakthroughs to secure immense, unvouchered black-budget allocations. In turn, American intelligence analysts intercepted Soviet disinformation regarding psychotronic weapons, panicked, and pressured the Pentagon to pour millions into Project Stargate and SRI International—creating a self-reinforcing geopolitical feedback loop of manufactured psychic warfare.",
+        "Separating genuine quantum cognitive anomalies from cynical intelligence disinformation is the ultimate mandate of ZeroFilter. While corrupt security bureaucracies routinely exploit the unknown to embezzle public funds and sow psychological paranoia, rigorous empirical physics—like the archival PEAR trials—demonstrates that mind and physical reality share profound, non-local quantum underpinnings. The future of science belongs not to authoritarian superstition, but to fearless mathematical investigation.",
+        "Audit the cumulative deviation envelopes, discard the intelligence grift, and recognize the non-local reach of conscious intention. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 171,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-15/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-07-15/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-07-15/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-07-15/f04.webp"
+          },
+          {
+            "t": 114,
+            "src": "art/2026-10-07-15/f05.webp"
+          },
+          {
+            "t": 142,
+            "src": "art/2026-10-07-15/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-15.webp",
+      "audio": "audio/2026-10-07-15.mp3",
+      "cover_video": "thumbs/2026-10-07-15.mp4"
+    },
+    {
       "id": "2026-10-07-14",
       "hour": "14:00",
       "date": "2026-10-07",
