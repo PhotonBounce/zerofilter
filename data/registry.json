@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 84,
+  "total_releases": 85,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -672,6 +672,14 @@
       "title": "Macroscopic Drum Resonator Entanglement, Optomechanical Phase Noise & Soviet Laser Espionage",
       "audio": "audio/2026-10-09-12.mp3",
       "cover_video": "thumbs/2026-10-09-12.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-13",
+      "seconds": 176,
+      "title": "Stuart Hameroff Quantum Anesthesia, Tubulin Dipole Quenching & KGB Interrogation Pharmacology",
+      "audio": "audio/2026-10-09-13.mp3",
+      "cover_video": "thumbs/2026-10-09-13.mp4",
       "status": "published_production"
     }
   ]

@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **680 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **688 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 84 completed, 84 total releases published.
-  - `data/queue.json`: Head item is Episode 85 (`2026-10-09-13`).
-  - `data/registry.json`: 84 active releases logged.
+  - `status/pipeline_state.json`: Episode 85 completed, 85 total releases published.
+  - `data/queue.json`: Head item is Episode 86 (`2026-10-09-14`).
+  - `data/registry.json`: 85 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -111,10 +111,11 @@
   - `2026-10-09-10` (183s) — Barents Sea Nuclear Submarine Bastions, Arctic SOSUS Hydrophone Arrays & Northern Fleet Sanctuary Doctrines
   - `2026-10-09-11` (171s) — Defense Cloud Procurement Collusion, FISA 702 Warrantless Carve-Outs & KGB OTU Wiretap Slush Funds
   - `2026-10-09-12` (186s) — Macroscopic Drum Resonator Entanglement, Optomechanical Phase Noise & Soviet Laser Espionage
+  - `2026-10-09-13` (176s) — Stuart Hameroff Quantum Anesthesia, Tubulin Dipole Quenching & KGB Interrogation Pharmacology
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 504 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `9499102cc88c8435156bad56c99910754ca0a76d`).
+- **Story Art Frames:** 510 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `c24ffdd73b9cbe8068832f5f83c657ea380956a7`).
 
 ---
 
