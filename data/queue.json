@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-10",
-      "date": "2026-10-10",
-      "hour": "10:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Barents Sea polar fiber monitoring, Spitsbergen seabed surveillance, and Yuri Shvets on Soviet Northern Fleet polar cable interdiction"
-    },
-    {
       "id": "2026-10-10-11",
       "date": "2026-10-10",
       "hour": "11:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Topological Majorana zero modes in semiconductor-superconductor nanowires, non-Abelian anyon braiding, and Yuri Shvets on Soviet cryogenic solid-state espionage"
+    },
+    {
+      "id": "2026-10-10-13",
+      "date": "2026-10-10",
+      "hour": "13:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Integrated information theory phi topology, maximum causal complexes under anesthesia, and Yuri Shvets on Soviet toxicology degradation experiments"
     }
   ]
 }

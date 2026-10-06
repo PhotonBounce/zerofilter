@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-10",
+      "hour": "10:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Barents Sea Polar Fiber Sabotage, Spitsbergen Surveillance & Soviet Northern Fleet Cable Warfare",
+      "subject": "Hourly uncensored breakdown: Rex Vance examines deep-seabed hybrid warfare targeting dual-use polar fiber-optic cables and acoustic hydrophone arrays across the Barents Sea and Svalbard archipelago, and Yuri Shvets on Soviet Northern Fleet undersea cable interdiction.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is ten hundred hours. In the frozen expanse of the high Arctic, geopolitical warfare is sinking beneath the polar ice caps. The Svalbard archipelago and the Barents Sea floor host some of the most sensitive critical infrastructure on Earth, including dual-use polar fiber-optic telecommunications cables and acoustic oceanographic sensor grids. Connecting polar satellite downlinks to European defense command hubs, these abyssal data conduits have become prime targets for Russian deep-sea reconnaissance and seabed sabotage operations.",
+        "Operating under Russia's Main Directorate of Deep-Sea Research, or GUGI, specialized oceanographic research ships like the Yantar deploy unmanned autonomous submersibles and titanium-hulled deep-diving submarines to loiter directly above subsea fiber lines. At depths exceeding three thousand meters, these submersibles cut dual-redundant power and data fibers or attach non-invasive inductive taps. Forensic investigations following suspicious severed cable incidents between Longyearbyen and mainland Norway revealed clear mechanical trauma consistent with specialized seabed dredging and heavy subsea manipulator arms.",
+        "This modern Arctic seabed offensive represents the systematic expansion of Soviet naval interdiction doctrines developed at the height of the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, the Soviet Northern Fleet and naval intelligence maintained dedicated special-purpose underwater reconnaissance brigades tasked with cutting Western undersea telegraph and SOSUS acoustic tracking cables across the Greenland-Iceland-United Kingdom Gap.",
+        "According to Shvets, Soviet naval planners understood that in the opening phase of any major conflict, severing NATO undersea communications was essential to blind American anti-submarine warfare networks and allow Northern Fleet nuclear submarines to surge through the Barents Sea bastion into open Atlantic waters. Shvets revealed that KGB coastal surveillance posts in Murmansk and Kola tracked commercial cable maintenance ships closely, mapping physical coordinates of subsea repeaters to ensure rapid demolition by Spetsnaz combat divers and midget submarines.",
+        "Today, that acoustic and telecommunication battlefield has intensified as commercial Arctic shipping lanes open and satellite downlink volumes surge. Svalbard's unique legal demilitarized status under the 1920 treaty creates an exploitable grey-zone operational vacuum, allowing Russian state vessels to conduct hydrographic mapping under the guise of marine scientific research. By pre-positioning sabotage payloads and acoustic monitoring beacons, Moscow retains the capability to instantly plunge Arctic intelligence collection into absolute darkness.",
+        "Track the deployment of GUGI seabed surveillance vessels, monitor polar fiber telemetry across the Barents shelf, and recognize that the most vulnerable arteries of modern digital civilization lie silent on the ocean floor. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-10/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-10-10/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-10-10/f03.webp"
+          },
+          {
+            "t": 85,
+            "src": "art/2026-10-10-10/f04.webp"
+          },
+          {
+            "t": 113,
+            "src": "art/2026-10-10-10/f05.webp"
+          },
+          {
+            "t": 142,
+            "src": "art/2026-10-10-10/f06.webp"
+          }
+        ]
+      },
+      "seconds": 170,
+      "thumb": "thumbs/2026-10-10-10.webp",
+      "audio": "audio/2026-10-10-10.mp3",
+      "cover_video": "thumbs/2026-10-10-10.mp4"
+    },
+    {
       "id": "2026-10-10-09",
       "hour": "09:00",
       "date": "2026-10-10",
