@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-22",
-      "date": "2026-10-07",
-      "hour": "22:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Red Sea subsea communications cables, Bab el-Mandeb surveillance nodes, and Yuri Shvets on Soviet naval intelligence bases in the Horn of Africa"
-    },
-    {
       "id": "2026-10-07-23",
       "date": "2026-10-07",
       "hour": "23:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Pentagon black budget audits, Special Access Program phantom line items, and Yuri Shvets on Soviet Gosplan military intelligence diversion schemes"
+    },
+    {
+      "id": "2026-10-08-01",
+      "date": "2026-10-08",
+      "hour": "01:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Topological insulators, dissipationless helical edge states, and Yuri Shvets on Soviet solid-state physics intelligence acquisition rings"
     }
   ]
 }

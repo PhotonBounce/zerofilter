@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **368 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **376 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 45 completed, 45 total releases published.
-  - `data/queue.json`: Head item is Episode 46 (`2026-10-07-22`).
-  - `data/registry.json`: 45 active releases logged.
+  - `status/pipeline_state.json`: Episode 46 completed, 46 total releases published.
+  - `data/queue.json`: Head item is Episode 47 (`2026-10-07-23`).
+  - `data/registry.json`: 46 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -72,10 +72,11 @@
   - `2026-10-07-19` (185s) — Monroe Gateway Hemi-Sync Archives, Frequency Following & Soviet Psychotronic Telemetry
   - `2026-10-07-20` (180s) — Silicon Valley Defense Cloud Lobbying, FISA 702 Renewals & KGB Wiretap Lineage
   - `2026-10-07-21` (181s) — Quantum Annealing in Flux Qubits, Adiabatic Shortcuts & Soviet Supercomputing Cryptanalysis
+  - `2026-10-07-22` (177s) — Red Sea Subsea Cable Sabotage, Bab el-Mandeb Chokepoints & Soviet Horn of Africa SIGINT
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 270 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `59c7eec7fdf6db0b95b280fdee251472555f661a`).
+- **Story Art Frames:** 276 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `0f2554bc2ca5b68c7d5c16ec2bebef60d1c439eb`).
 
 ---
 

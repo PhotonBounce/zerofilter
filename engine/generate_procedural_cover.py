@@ -483,7 +483,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 320, cy + 170), "SOVIET CIPHER APPARATUS // FIALKA-M", fill=(255, 220, 100))
         draw.text((width - 320, cy + 185), "STATUS: NON-COMPUTABLE CODEBREAKING", fill=(255, 60, 60))
 
-    elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "arctic_seabed", "svalbard_cable"):
+    elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "arctic_seabed", "svalbard_cable", "red_sea_cables", "bab_el_mandeb"):
         # Deep Seabed Infrastructure & Russian GUGI Covert Reconnaissance
         # 1. Abyssal Bathymetry Contour Lines (Depth 3,000m+)
         for depth_y in range(120, height, 45):
@@ -1237,6 +1237,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "QUANTUM SPIN LIQUID // NON-ABELIAN TOPOLOGICAL BRAIDING // 8TH CHIEF CIPHER AUDIT", fill=(0, 255, 220))
     elif theme in ("free_energy", "markov_blanket", "active_inference"):
         draw.text((40, 60), "FREE ENERGY PRINCIPLE // MARKOV BLANKET NEURAL INFERENCE // REFLEXIVE CONTROL MODEL", fill=(200, 140, 255))
+    elif theme in ("red_sea_cables", "bab_el_mandeb"):
+        draw.text((40, 60), "RED SEA SUBSEA CABLE CORRIDOR // BAB EL-MANDEB CHOKEPOINT // SOVIET HORN OF AFRICA SIGINT", fill=(255, 140, 40))
     elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "arctic_seabed", "svalbard_cable"):
         draw.text((40, 60), "ARCTIC FIBER OPTIC INFRASTRUCTURE // SVALBARD CABLE SIGINT // GUGI RECON DETECTED", fill=(255, 90, 70))
     elif theme in ("quantum_darwinism", "pointer_states", "theremin_bug"):
