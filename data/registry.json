@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 83,
+  "total_releases": 84,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -664,6 +664,14 @@
       "title": "Defense Cloud Procurement Collusion, FISA 702 Warrantless Carve-Outs & KGB OTU Wiretap Slush Funds",
       "audio": "audio/2026-10-09-11.mp3",
       "cover_video": "thumbs/2026-10-09-11.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-12",
+      "seconds": 186,
+      "title": "Macroscopic Drum Resonator Entanglement, Optomechanical Phase Noise & Soviet Laser Espionage",
+      "audio": "audio/2026-10-09-12.mp3",
+      "cover_video": "thumbs/2026-10-09-12.mp4",
       "status": "published_production"
     }
   ]

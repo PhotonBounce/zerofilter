@@ -1165,6 +1165,86 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "NP-HARD CIPHER CONVERGENCE", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("optomechanics", "drum_resonator", "mechanical_resonator", "optomechanical_entanglement", "quantum_drum"):
+        # Macroscopic Quantum Entanglement in Mechanical Drum Resonators
+        # 1. Background laser interferometry grid & cavity mode lines
+        for gy in range(cy - 220, cy + 220, 25):
+            draw.line([(60, gy), (width - 60, gy)], fill=(10, 24, 38), width=1)
+        for gx in range(60, width - 60, 45):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(10, 24, 38), width=1)
+
+        # 2. Optical Fabry-Perot Cavity Laser Axis (Horizontal circulating beam)
+        laser_y = cy
+        beam_glow_pts = []
+        for x in range(80, width - 80, 4):
+            # Standing wave optical intensity envelope
+            env = math.sin((x - 80) * 0.08) * 6.0
+            beam_glow_pts.append((x, laser_y + env))
+        draw.line(beam_glow_pts, fill=(0, 180, 220), width=4)
+        draw.line([(80, laser_y), (width - 80, laser_y)], fill=(255, 255, 255), width=1)
+
+        # Cavity coupling mirrors
+        for mx in [cx - 280, cx + 280]:
+            draw.rectangle([mx - 6, cy - 70, mx + 6, cy + 70], fill=(20, 45, 65), outline=(0, 240, 255), width=2)
+            draw.text((mx - 25, cy - 88), "MIRROR R=99.99%", fill=(100, 220, 255))
+
+        # 3. Dual Macroscopic Drum Resonators (Micro-fabricated Al Membranes)
+        drums = [
+            (cx - 140, "DRUM RESONATOR A [10.4 MHz]"),
+            (cx + 140, "DRUM RESONATOR B [10.4 MHz]")
+        ]
+
+        for dx, dlabel in drums:
+            # Outer silicon substrate frame
+            draw.rectangle([dx - 80, cy - 80, dx + 80, cy + 80], fill=(12, 22, 34), outline=(40, 80, 110), width=2)
+            # Membrane anchor suspension cross-beams
+            draw.line([(dx - 78, cy), (dx + 78, cy)], fill=(0, 160, 200), width=2)
+            draw.line([(dx, cy - 78), (dx, cy + 78)], fill=(0, 160, 200), width=2)
+            
+            # Vibrating Drum Membrane (Concentric acoustic mode contours)
+            for r, col in [(52, (20, 60, 90)), (40, (0, 180, 220)), (28, (0, 240, 255)), (14, (200, 255, 255))]:
+                draw.ellipse([dx - r, cy - r, dx + r, cy + r], outline=col, width=2)
+            
+            # Drum center displacement node
+            draw.ellipse([dx - 5, cy - 5, dx + 5, cy + 5], fill=(255, 255, 255))
+            draw.text((dx - 70, cy + 90), dlabel, fill=(0, 240, 255))
+
+        # 4. Macroscopic Entanglement Bridge (Two-Mode Squeezing Correlation Waves)
+        entangle_pts = []
+        for ex in range(cx - 140, cx + 140, 3):
+            # Phase-locked entangled phonon trajectory
+            t = (ex - (cx - 140)) / 280.0 * 6.0 * math.pi
+            ey = cy + math.sin(t) * 28.0 * (1.0 - abs(ex - cx) / 160.0)
+            entangle_pts.append((ex, ey))
+        if len(entangle_pts) > 1:
+            draw.line(entangle_pts, fill=(180, 100, 255), width=3)
+        draw.text((cx - 130, cy - 35), "EPR ENTANGLEMENT LINK // E_N = 0.54", fill=(220, 160, 255))
+
+        # 5. Balanced Homodyne Detector (Bottom Center)
+        bs_y = cy + 150
+        draw.polygon([(cx - 16, bs_y - 16), (cx + 16, bs_y - 16), (cx, bs_y + 16)], fill=(20, 35, 55), outline=(0, 240, 255), width=2)
+        draw.line([(cx, cy), (cx, bs_y)], fill=(0, 200, 240), width=2)
+        draw.text((cx - 85, bs_y + 22), "BALANCED HOMODYNE DETECTOR", fill=(0, 255, 220))
+
+        # 6. Telemetry Dossiers (Optomechanics & Soviet Laser Espionage)
+        # Left HUD Box: Macroscopic Optomechanics Telemetry
+        draw.rectangle([60, 90, 310, cy - 120], fill=(12, 22, 35), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[MACROSCOPIC DRUM TELEMETRY]", fill=(0, 240, 255))
+        draw.text((70, 118), "MEMBRANE: 15μm Al ON SiN", fill=(255, 220, 100))
+        draw.text((70, 138), "MECH FREQ: Ω_m = 10.4 MHz", fill=(0, 255, 200))
+        draw.text((70, 158), "COOLING: 0.18 PHONONS", fill=(120, 220, 255))
+        draw.text((70, 178), "PHASE NOISE: -142 dBc/Hz", fill=(255, 140, 50))
+        draw.text((70, 198), "ENTANGLEMENT: E_N = 0.54", fill=(180, 140, 255))
+
+        # Right HUD Box: Soviet Laser Espionage & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 120], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET LASER ESPIONAGE]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "FACILITY: LEBEDEV PHYSICAL INST", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "TARGET: LASER INTERFEROMETRY", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "LINE X MILITARY SMUGGLING", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "DEEP ASW ACOUSTIC DETECTORS", fill=(255, 60, 60))
+        draw.text((width - 310, 198), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -1287,6 +1367,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "DEFENSE CLOUD LOBBYING // FISA 702 WARRANTLESS BACKDOORS // KGB OTU SURVEILLANCE", fill=(255, 100, 70))
     elif theme in ("gateway_hemisync", "hemisync", "monroe_gateway", "binaural_beat"):
         draw.text((40, 60), "MONROE GATEWAY HEMI-SYNC // BINAURAL 4.0Hz THETA COHERENCE // SOVIET PSYCHOTRONICS", fill=(200, 160, 255))
+    elif theme in ("optomechanics", "drum_resonator", "mechanical_resonator", "optomechanical_entanglement", "quantum_drum"):
+        draw.text((40, 60), "MACROSCOPIC DRUM ENTANGLEMENT // OPTOMECHANICAL PHASE NOISE SUPPRESSION // SOVIET LASER ESPIONAGE", fill=(0, 240, 255))
     elif theme == "consciousness":
         draw.text((40, 60), "NEURAL BIOPHOTON TELEMETRY // TUBULIN DIPOLE HARMONICS // BANDWIDTH 614 THz", fill=(80, 255, 180))
     else:
