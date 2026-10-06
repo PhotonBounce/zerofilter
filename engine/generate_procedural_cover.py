@@ -377,6 +377,46 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((d1_x + 24, d1_y - 8), "TEETH [D1: WAVE]", fill=(0, 255, 200))
         draw.text((d2_x + 24, d2_y - 8), "TEETH [D2: PARTICLE]", fill=(255, 100, 80))
 
+    elif theme in ("supply_chain_fraud", "subcontractor_grift", "defense_fraud"):
+        # Defense Industrial Base Supply Chain Fraud & Phantom Subcontractor Invoicing
+        # 1. Procurement Cascading Waterfall Funnel (Top-down tiers)
+        tiers = [
+            (cy - 200, 700, "PRIME CONTRACTOR // COST-PLUS AWARD [DOD PRIME]", (0, 220, 255), "$520 BASE PART"),
+            (cy - 100, 560, "TIER-1 SYSTEMS INTEGRATOR // MANAGEMENT OVERHEAD [+38%]", (255, 200, 60), "$1,480 BILLED"),
+            (cy, 420, "TIER-2 SHELL ENTITY // BROKERAGE & PASS-THROUGH [+85%]", (255, 140, 50), "$4,650 BILLED"),
+            (cy + 100, 280, "TIER-3 SHADOW SUPPLIER // UNVERIFIED COMMERCIAL OFF-THE-SHELF", (255, 80, 60), "$8,900 BILLED"),
+            (cy + 200, 160, "FINAL PENTAGON INVOICE // LINE ITEM TOTAL", (255, 40, 40), "$12,450 DELIVERED")
+        ]
+
+        # Draw funnel outline and tiers
+        for i, (ty, tw, label, col, price) in enumerate(tiers):
+            draw.rectangle([cx - tw // 2, ty - 24, cx + tw // 2, ty + 24], fill=(15, 20, 30), outline=col, width=2)
+            draw.text((cx - tw // 2 + 15, ty - 8), label, fill=col)
+            draw.text((cx + tw // 2 - 130, ty - 8), price, fill=(255, 255, 255))
+            if i < len(tiers) - 1:
+                next_y, next_w = tiers[i+1][0], tiers[i+1][1]
+                # Downward connector arrows
+                draw.line([(cx - 40, ty + 24), (cx - 40, next_y - 24)], fill=(255, 120, 50), width=2)
+                draw.line([(cx + 40, ty + 24), (cx + 40, next_y - 24)], fill=(255, 120, 50), width=2)
+                draw.line([(cx, ty + 24), (cx, next_y - 24)], fill=(255, 220, 60), width=1)
+
+        # 2. Forensic Audit Warnings & Counterfeit Alerts (Side boxes)
+        draw.rectangle([60, cy - 120, 240, cy + 120], fill=(40, 12, 16), outline=(255, 60, 60), width=2)
+        draw.text((75, cy - 100), "[FORENSIC AUDIT]", fill=(255, 80, 80))
+        draw.text((75, cy - 60), "PHANTOM BILLING", fill=(255, 220, 100))
+        draw.text((75, cy - 30), "ZERO PHYSICAL", fill=(255, 255, 255))
+        draw.text((75, cy - 10), "DELIVERY LOGGED", fill=(255, 255, 255))
+        draw.text((75, cy + 30), "STATUS: FRAUD", fill=(255, 40, 40))
+        draw.text((75, cy + 60), "AUDIT REF #8942", fill=(200, 200, 200))
+
+        draw.rectangle([width - 240, cy - 120, width - 60, cy + 120], fill=(30, 25, 15), outline=(255, 160, 40), width=2)
+        draw.text((width - 225, cy - 100), "[LINE X INTERCEPT]", fill=(255, 180, 50))
+        draw.text((width - 225, cy - 60), "COUNTERFEIT CHIP", fill=(255, 80, 60))
+        draw.text((width - 225, cy - 30), "TRACE: UNVERIFIED", fill=(255, 255, 255))
+        draw.text((width - 225, cy - 10), "BROKER NETWORK", fill=(255, 255, 255))
+        draw.text((width - 225, cy + 30), "TAMPER DETECTED", fill=(255, 60, 40))
+        draw.text((width - 225, cy + 60), "DIRECTORATE T", fill=(255, 200, 80))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -427,8 +467,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "BEC MICROGRAVITY ATOM INTERFEROMETRY // RUBIDIUM-87 CONDENSATE // TEMP: 50 PICOKELVIN", fill=(120, 220, 255))
     elif theme == "corruption":
         draw.text((40, 60), "DEFENSE PROCUREMENT FORENSICS // AUDIT TRAIL: COST-PLUS CARTELS // UNREDACTED", fill=(255, 90, 70))
-    elif theme == "vc_theft":
-        draw.text((40, 60), "DEFENSE VC FORENSICS // DUAL-USE TECH DIVERSION // DIRECTORATE T INTERCEPT", fill=(255, 120, 50))
+    elif theme in ("supply_chain_fraud", "subcontractor_grift", "defense_fraud"):
+        draw.text((40, 60), "DEFENSE PROCUREMENT FORENSICS // PHANTOM SUBCONTRACTOR BILLING // LINE X INFILTRATION", fill=(255, 60, 60))
     elif theme in ("casimir", "vacuum_thruster"):
         draw.text((40, 60), "DYNAMIC CASIMIR NANOCAVITY // ZERO-POINT VACUUM FLUCTUATION PRESSURE // ASYMMETRIC REACTION", fill=(255, 200, 60))
     elif theme in ("orbital_qkd", "space_sigint"):
