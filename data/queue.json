@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-09",
-      "date": "2026-10-07",
-      "hour": "09:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Quantum Darwinism, pointer state redundancy in environmental monitoring, and Yuri Shvets on Soviet passive resonant acoustic surveillance devices"
-    },
-    {
       "id": "2026-10-07-10",
       "date": "2026-10-07",
       "hour": "10:00",
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Suwalki Gap electronic warfare corridors, Kaliningrad nuclear signaling bluffs, and Yuri Shvets on Russian General Staff escalatory threshold deception"
+    },
+    {
+      "id": "2026-10-07-11",
+      "date": "2026-10-07",
+      "hour": "11:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Penrose Orch-OR gravitational collapse, quantum anesthetic action in tubulin dipoles, and Yuri Shvets on KGB psychopharmacological interrogation records"
     }
   ]
 }

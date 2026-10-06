@@ -621,6 +621,63 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 330, cy - 170), "LEFEBVRE ALGEBRA // AFFECT MATRIX", fill=(255, 180, 60))
         draw.text((width - 330, cy - 150), "TARGET INFERENCE HACK: ACTIVE INJECTION", fill=(255, 60, 60))
 
+    elif theme in ("quantum_darwinism", "pointer_states", "theremin_bug"):
+        # Wojciech Zurek Quantum Darwinism & Soviet Passive Resonant Bugging
+        # 1. Environmental Proliferation Sectors (Information Redundancy)
+        for ring_r in range(70, 360, 45):
+            draw.ellipse([cx - ring_r, cy - ring_r, cx + ring_r, cy + ring_r], outline=(20, 50, 70), width=1)
+            # Sector partition spokes
+            for deg in range(0, 360, 30):
+                rad = math.radians(deg)
+                px = cx + int(ring_r * math.cos(rad))
+                py = cy + int(ring_r * math.sin(rad))
+                draw.point((px, py), fill=(0, 255, 240))
+
+        # Replicated pointer state information bits in environment
+        random.seed(137)
+        for i in range(64):
+            ang = random.uniform(0, 2 * math.pi)
+            rad_dist = random.uniform(80, 340)
+            px = cx + int(rad_dist * math.cos(ang))
+            py = cy + int(rad_dist * math.sin(ang))
+            bit_val = (i % 2 == 0)
+            col_bit = (0, 240, 255) if bit_val else (255, 140, 60)
+            draw.text((px, py), "1" if bit_val else "0", fill=col_bit)
+
+        # 2. Central Quantum System (The Seed)
+        sys_r = 35
+        draw.ellipse([cx - sys_r, cy - sys_r, cx + sys_r, cy + sys_r], fill=(15, 30, 50), outline=(0, 255, 240), width=2)
+        draw.text((cx - 24, cy - 8), "|ψ_S⟩", fill=(255, 255, 255))
+
+        # 3. Léon Theremin Passive Cavity Resonator (The Great Seal Bug cross-section)
+        bug_x = cx + 380
+        bug_y = cy - 40
+        # Cylindrical brass cavity
+        draw.ellipse([bug_x - 45, bug_y - 80, bug_x + 45, bug_y + 80], outline=(255, 180, 50), width=2)
+        # Thin metallic membrane (Capacitive microphone)
+        draw.line([(bug_x, bug_y - 70), (bug_x, bug_y + 70)], fill=(255, 240, 100), width=2)
+        # Monopole antenna rod protruding
+        draw.line([(bug_x, bug_y - 80), (bug_x, bug_y - 140)], fill=(255, 200, 60), width=3)
+        draw.ellipse([bug_x - 4, bug_y - 144, bug_x + 4, bug_y - 136], fill=(255, 255, 255))
+        draw.text((bug_x - 55, bug_y + 90), "THEREMIN CAVITY", fill=(255, 200, 60))
+        draw.text((bug_x - 50, bug_y + 110), "MEMBRANE Q: 45K", fill=(200, 220, 255))
+
+        # Acoustic RF interrogation wave incident on bug
+        for wav_x in range(bug_x - 160, bug_x - 40, 25):
+            draw.arc([wav_x, bug_y - 50, wav_x + 30, bug_y + 50], start=300, end=60, fill=(0, 220, 255), width=2)
+        draw.text((bug_x - 150, bug_y - 65), "330MHz RF BEAM", fill=(0, 220, 255))
+
+        # 4. Quantum Darwinism Classicality HUD
+        draw.rectangle([60, cy - 200, 320, cy - 130], fill=(10, 25, 40), outline=(0, 255, 240), width=1)
+        draw.text((70, cy - 190), "MUTUAL INFO: I(S : E_k) = H(S) [PLATEAU]", fill=(0, 255, 220))
+        draw.text((70, cy - 170), "REDUNDANCY R = 10^12 COPIES // OBJECTIVE", fill=(255, 220, 80))
+        draw.text((70, cy - 150), "DECOHERENCE TIME: τ_D = 10^-23 SECONDS", fill=(120, 255, 200))
+
+        draw.rectangle([60, cy + 130, 320, cy + 200], fill=(25, 20, 15), outline=(255, 140, 50), width=1)
+        draw.text((70, cy + 140), "[KGB PASSIVE RESONANCE AUDIT]", fill=(255, 160, 50))
+        draw.text((70, cy + 160), "BATTERYLESS CAVITY // ZERO EMISSION", fill=(255, 220, 100))
+        draw.text((70, cy + 180), "STATUS: ILLUMINATION-ACTIVATED ONLY", fill=(255, 80, 80))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -691,6 +748,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "FREE ENERGY PRINCIPLE // MARKOV BLANKET NEURAL INFERENCE // REFLEXIVE CONTROL MODEL", fill=(200, 140, 255))
     elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare"):
         draw.text((40, 60), "ABYSSAL FIBER OPTIC INFRASTRUCTURE // RUSSIAN GUGI SEABED RECONNAISSANCE // TAP DETECTED", fill=(255, 90, 70))
+    elif theme in ("quantum_darwinism", "pointer_states", "theremin_bug"):
+        draw.text((40, 60), "QUANTUM DARWINISM // POINTER STATE PROLIFERATION // THEREMIN CAVITY RESONATOR Q: 45K", fill=(0, 255, 240))
     elif theme == "consciousness":
         draw.text((40, 60), "NEURAL BIOPHOTON TELEMETRY // TUBULIN DIPOLE HARMONICS // BANDWIDTH 614 THz", fill=(80, 255, 180))
     else:

@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-09",
+      "hour": "09:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Quantum Darwinism, Environmental Witnessing & Soviet Passive Resonator Surveillance",
+      "subject": "Hourly uncensored breakdown: Rex Vance explores Wojciech Zurek's Quantum Darwinism and pointer state redundancy in emergent classicality, alongside Yuri Shvets's revelations regarding Soviet passive resonant acoustic surveillance apparatus like Léon Theremin's Thing.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero nine hundred hours. How does our familiar, objective classical reality emerge from the delicate, probabilistic fog of the quantum realm? The prevailing answer is Wojciech Zurek's formulation of Quantum Darwinism. Rather than environmental decoherence merely acting as a passive destroyer of quantum superpositions, the environment acts as an active witness. It relentlessly measures the system, proliferating trillions of redundant copies of robust, non-fragile quantum states known as pointer states into surrounding photon and particle fields.",
+        "Because countless independent observers can measure separate fragments of the surrounding environment without perturbing the original system, they all deduce the exact same classical outcome. Objectivity is not an intrinsic property of solitary matter; it is an emergent consensus manufactured by information redundancy across an omnipresent ambient environment. If a quantum state cannot leave multiple indelible footprints in its surrounding thermal bath, it is systematically culled from classical existence.",
+        "In the operational history of technical surveillance, Soviet intelligence pioneered this exact principle of using the ambient environment as an invisible witness. As Washington counter-intelligence insider and former KGB Major Yuri Shvets has recounted, Soviet inventor Léon Theremin designed 'The Thing'—a covert passive cavity resonator bug embedded inside a carved wooden Great Seal of the United States hung in the American ambassador's Moscow office. The device contained no batteries, no vacuum tubes, and no active transmitter; it was completely inert until illuminated by an external radio frequency beam.",
+        "When spoken words vibrated a microscopic metallic diaphragm across the cavity, the sound modulated the reflected radio wave, transmitting diplomatic conversations across Moscow rooftops. Just as Quantum Darwinism treats stray photons as passive carriers of redundant quantum pointer states, Soviet technical counter-intelligence recognized that passive acoustic reflection transforms the electromagnetic environment itself into an unmonitored intelligence conduit, defying standard swept radio frequency detectors for seven years.",
+        "Today, the intersection of quantum sensing and passive ambient reconnaissance represents the frontier of modern electronic warfare. From optomechanical laser microphones measuring microscopic window vibrations to quantum magnetometer arrays detecting submarine magnetic anomalies through oceanic noise, security perimeters can no longer focus solely on active emitters. True counter-intelligence requires auditing every photon and acoustic wave that witnesses classified activity before environmental redundancy broadcasts your secrets to an adversary.",
+        "Audit your physical environments, inspect the passive cavity reflections, and remember that nature is always keeping redundant records. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 166,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-09/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-07-09/f02.webp"
+          },
+          {
+            "t": 55,
+            "src": "art/2026-10-07-09/f03.webp"
+          },
+          {
+            "t": 83,
+            "src": "art/2026-10-07-09/f04.webp"
+          },
+          {
+            "t": 111,
+            "src": "art/2026-10-07-09/f05.webp"
+          },
+          {
+            "t": 138,
+            "src": "art/2026-10-07-09/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-09.webp",
+      "audio": "audio/2026-10-07-09.mp3",
+      "cover_video": "thumbs/2026-10-07-09.mp4"
+    },
+    {
       "id": "2026-10-07-08",
       "hour": "08:00",
       "date": "2026-10-07",

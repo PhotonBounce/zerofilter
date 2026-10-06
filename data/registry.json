@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 32,
+  "total_releases": 33,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -256,6 +256,14 @@
       "title": "Aerospace Maintenance Monopolies, Diagnostic Paywalls & Soviet Line X Infiltration",
       "audio": "audio/2026-10-07-08.mp3",
       "cover_video": "thumbs/2026-10-07-08.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-07-09",
+      "seconds": 166,
+      "title": "Quantum Darwinism, Environmental Witnessing & Soviet Passive Resonator Surveillance",
+      "audio": "audio/2026-10-07-09.mp3",
+      "cover_video": "thumbs/2026-10-07-09.mp4",
       "status": "published_production"
     }
   ]
