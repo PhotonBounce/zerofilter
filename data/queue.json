@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-23",
-      "date": "2026-10-08",
-      "hour": "23:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Autonomous drone electronic warfare spoofing components, defense prime sole-source markup fraud, and Yuri Shvets on Soviet military-industrial kickback pipelines"
-    },
-    {
       "id": "2026-10-09-00",
       "date": "2026-10-09",
       "hour": "00:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Integrated information theory high-order causal architecture, loss of integrated phi in deep coma, and Yuri Shvets on Soviet neural interrogation pharmacology"
+    },
+    {
+      "id": "2026-10-09-02",
+      "date": "2026-10-09",
+      "hour": "02:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Red Sea anti-ship ballistic missile salvos, telemetry relay spoofing, and Yuri Shvets on Soviet asymmetric naval coastal defense doctrine"
     }
   ]
 }

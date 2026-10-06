@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-08-23",
+      "hour": "23:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Autonomous Drone EW Spoofing Modules, Sole-Source Defense Markup Fraud & Soviet Kickback Pipelines",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates thousand-percent markups on commercial drone electronic warfare modules, classified sole-source contracting cartels, and Yuri Shvets on Soviet military-industrial kickback pipelines.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty-three hundred hours. On modern battlefields stretching from Eastern Europe to the Middle East, the rapid proliferation of autonomous unmanned aerial systems has completely revolutionized tactical combat. Off-the-shelf commercial drones costing mere hundreds of dollars are outfitted with sophisticated frequency-hopping transmitters, software-defined radio jamming suites, and digital spoofing modules to blind multi-million-dollar armor and air defense networks. But inside the Pentagon's procurement bureaucracy, this technological revolution has been weaponized into a multi-billion-dollar price-gouging racket.",
+        "Recent Defense Department Inspector General audits expose a staggering pattern of sole-source markup fraud. Prime defense contractors take ordinary commercial-off-the-shelf electronic warfare components, apply basic ruggedized conformal coatings, and slap on classified military part numbers with markups exceeding two thousand percent. A three-hundred-dollar software-defined radio receiver is routinely invoiced to American taxpayers for over twenty-four thousand dollars under sole-source contracts shielded by commercial data rights waivers. While front-line operators scramble for basic counter-drone frequency jammers, defense primes pocket record profit margins on re-packaged commercial silicone.",
+        "This institutionalized procurement parasitism has deep historical roots in late-Soviet defense collapse. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently disclosed, the Soviet military-industrial complex was crippled by identical systemic corruption. Soviet defense ministries and research institutes maintained entrenched sole-source cartels that billed Gosplan exorbitant sums for substandard microelectronics and radar equipment, siphoning the proceeds into slush funds and luxury privileges for high-ranking party cadres and defense bureau chiefs.",
+        "According to Shvets, the KGB's Sixth Directorate and economic counter-intelligence sections uncovered vast kickback pipelines where state enterprise directors collaborated with military acceptance officers to sign off on overbilled, defective weapon components. Shvets documented that Soviet planners actively suppressed competitive evaluations because competitive tenders would expose the astronomical markups and technological obsolescence of domestic state monopolies. Shvets warns that the modern American defense acquisition system has adopted the worst traits of Soviet Gosplan: an anti-competitive sole-source cartel where lobbying connections determine procurement contracts rather than engineering efficacy.",
+        "When low-cost asymmetric drone swarms can decapitate multi-billion-dollar capital platforms, an industrial base that charges ten thousand dollars for a three-hundred-dollar electronic component is fundamentally bankrupt. You cannot defend sovereign airspace with balance sheets inflated by monopolistic grift.",
+        "Audit the sole-source invoices, inspect the COTS electronic warfare markups, and verify the contractor profit margins. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-23/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-08-23/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-08-23/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-08-23/f04.webp"
+          },
+          {
+            "t": 115,
+            "src": "art/2026-10-08-23/f05.webp"
+          },
+          {
+            "t": 143,
+            "src": "art/2026-10-08-23/f06.webp"
+          }
+        ]
+      },
+      "seconds": 172,
+      "thumb": "thumbs/2026-10-08-23.webp",
+      "audio": "audio/2026-10-08-23.mp3",
+      "cover_video": "thumbs/2026-10-08-23.mp4"
+    },
+    {
       "id": "2026-10-08-22",
       "hour": "22:00",
       "date": "2026-10-08",
