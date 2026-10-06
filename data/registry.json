@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 80,
+  "total_releases": 81,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -640,6 +640,14 @@
       "title": "Diamond NV Center Quantum Gravimetry, Subterranean Bunker Mapping & Soviet Deep ASW Sensors",
       "audio": "audio/2026-10-09-08.mp3",
       "cover_video": "thumbs/2026-10-09-08.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-09",
+      "seconds": 183,
+      "title": "Donald Hoffman Interface Theory, Fitness Beats Truth Theorems & KGB Reality Distortion Protocols",
+      "audio": "audio/2026-10-09-09.mp3",
+      "cover_video": "thumbs/2026-10-09-09.mp4",
       "status": "published_production"
     }
   ]

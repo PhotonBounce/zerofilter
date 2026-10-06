@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-09",
-      "date": "2026-10-09",
-      "hour": "09:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Donald Hoffman Interface Theory of Perception, fitness payoff evolutionary game simulations, and Yuri Shvets on KGB cognitive reality distortion operations"
-    },
-    {
       "id": "2026-10-09-10",
       "date": "2026-10-09",
       "hour": "10:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Defense cloud computing sole-source award manipulation, NSA warrantless upstream database carving, and Yuri Shvets on KGB technical surveillance kickbacks"
+    },
+    {
+      "id": "2026-10-09-12",
+      "date": "2026-10-09",
+      "hour": "12:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Macroscopic quantum entanglement in mechanical drum resonators, optomechanical phase noise suppression, and Yuri Shvets on Soviet laser interferometry espionage"
     }
   ]
 }

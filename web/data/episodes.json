@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-09",
+      "hour": "09:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Donald Hoffman Interface Theory, Fitness Beats Truth Theorems & KGB Reality Distortion Protocols",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates Donald Hoffman's Interface Theory of Perception, mathematical proofs that evolution selects against perceiving objective reality, and Yuri Shvets on KGB cognitive reality distortion operations.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero nine hundred hours. For centuries, Western natural philosophy has assumed that human sensory organs evolved to disclose objective physical reality. We instinctively believe that physical space, time, matter, and velocity exist precisely as our eyes and ears perceive them. However, cognitive scientist Donald Hoffman and evolutionary game theorists have proven mathematically that this foundational assumption is completely false. Through the Fitness Beats Truth theorem, computational simulations demonstrate that natural selection systematically drives the probability of perceiving objective reality to absolute zero.",
+        "Under evolutionary game theory, organisms tuned to see objective reality are driven to extinction by competing organisms tuned strictly to fitness payoffs. Hoffman demonstrates that space, time, and physical objects are not objective features of the cosmos, but a biological desktop interface—analogous to icons on a computer screen. A blue rectangular icon on your computer does not mean the underlying file is physically blue or rectangular; it is a simplified, functional compression that hides the complex silicon diodes, voltages, and binary machine code underneath. Human sensory perception is nothing more than an evolutionary headset hiding true mathematical ontology.",
+        "The profound insight that human perception is an easily manipulated desktop interface was understood and weaponized behind the Iron Curtain long before Western cognitive science formalized the theorem. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently detailed, Soviet foreign intelligence built its entire strategic deception doctrine—known as Reflexive Control—around exploiting the gap between human sensory models and actual strategic reality. Soviet practitioners recognized that you do not need to manipulate physical facts if you can alter the opponent's perceptual desktop icons.",
+        "According to Shvets, the KGB's Service A for Active Measures designed sophisticated perception management campaigns specifically engineered to feed Western intelligence agencies distorted sensory inputs. By strategically planting counterfeit documents, funding controlled front organizations, and orchestrating staged military parades, Soviet intelligence caused Western analysts to calculate mathematical models based on fabricated interface icons. Shvets revealed that corrupt Soviet generals routinely used these same interface distortion techniques against the Politburo itself, fabricating nonexistent military capabilities to siphon billions into secret First Chief Directorate foreign bank accounts.",
+        "Today, as social media recommendation algorithms and neural synthetic media completely mediate human perception, Hoffman's theorem takes on urgent geopolitical significance. When individuals believe their sensory interface reveals absolute truth, they become infinitely susceptible to cognitive warfare. The desktop interface is not reality; it is a control surface.",
+        "Audit the evolutionary fitness payoffs, question your perceptual interface icons, and inspect the classified reflexive control archives. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-09/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-09/f02.webp"
+          },
+          {
+            "t": 61,
+            "src": "art/2026-10-09-09/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-09-09/f04.webp"
+          },
+          {
+            "t": 122,
+            "src": "art/2026-10-09-09/f05.webp"
+          },
+          {
+            "t": 152,
+            "src": "art/2026-10-09-09/f06.webp"
+          }
+        ]
+      },
+      "seconds": 183,
+      "thumb": "thumbs/2026-10-09-09.webp",
+      "audio": "audio/2026-10-09-09.mp3",
+      "cover_video": "thumbs/2026-10-09-09.mp4"
+    },
+    {
       "id": "2026-10-09-08",
       "hour": "08:00",
       "date": "2026-10-09",
