@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-14",
+      "hour": "14:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Strait of Hormuz Hydrophone Gates, Fast-Boat Swarms & Soviet Persian Gulf Naval Strategy",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates undersea acoustic hydrophone gate closure operations in the Strait of Hormuz, IRGC fast-attack missile boat swarm coordination, and Yuri Shvets on Soviet 5th Operational Squadron Persian Gulf interdiction doctrine.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is fourteen hundred hours. Barely twenty-one nautical miles across at its narrowest constriction, the Strait of Hormuz represents the single most volatile energy chokepoint on Earth. Through this shallow maritime corridor passes more than twenty percent of global petroleum consumption and massive liquefied natural gas shipments. Yet beneath the heavily trafficked commercial shipping lanes, an undeclared asymmetric siege is hardening: the deployment of autonomous seabed hydrophone tripwires, seabed mine arrays, and coordinated fast-attack craft designed to slam the maritime gate shut at a moment's notice.",
+        "Recent satellite synthetic aperture radar passes and naval intelligence intercepts reveal dense undersea surveillance infrastructure installed along the Musandam Peninsula and Qeshm Island. Iran's Islamic Revolutionary Guard Corps Navy has integrated bottom-moored passive acoustic hydrophone arrays with coastal anti-ship missile batteries and swarm-optimized Peykaap-class missile boats. By networking acoustic signature databases with low-observable reconnaissance drones, adversary command nodes can calculate targeting coordinates for dual-mode anti-ship ballistic missiles without ever turning on active coastal search radars, stripping US carrier strike groups of early electronic warning.",
+        "This doctrine of weaponizing narrow maritime choke points is not an indigenous Persian Gulf innovation; it is the modern refinement of Soviet naval strategy developed to counter Western carrier battle groups during the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively disclosed, the Soviet Navy's 5th Operational Squadron maintained comprehensive operational plans to interdict Western naval task forces in the Persian Gulf and Indian Ocean.",
+        "According to Shvets, the KGB First Chief Directorate closely observed Operation Earnest Will in the late 1980s, analyzing Western naval minesweeping deficiencies and the lethal vulnerability of major combatants to low-cost sea mines and asymmetric gunboat attacks. Soviet naval strategists realized that the US Navy's blue-water supremacy was neutralized in confined, shallow littorals where acoustic reverberation cripples passive sonar. Shvets documented that Soviet naval advisors quietly transferred acoustic sea mine telemetry and anti-ship missile doctrine to regional proxies, establishing the blueprint for the very access-denial networks operating in Hormuz today.",
+        "Decades later, the Pentagon's Fifth Fleet is attempting to counter this threat through Task Force 59's uncrewed surface vessels and artificial intelligence acoustic processing grids. Yet the strategic math remains unforgiving. A single commercial supertanker hull breach or a salvo of sea-skimming cruise missiles coordinated across the shipping channels would trigger immediate maritime insurance cancellations, collapsing global crude transit and sending world energy markets into an uncontrollable vertical spike.",
+        "Never trust official freedom-of-navigation assurances in shallow waters, monitor the acoustic tripwires lining the straits, and remember that when maritime choke points are weaponized, global commerce hangs by a microscopic thread. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-14/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-14/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-14/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-14/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-10-14/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-10-14/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "thumb": "thumbs/2026-10-10-14.webp",
+      "audio": "audio/2026-10-10-14.mp3",
+      "cover_video": "thumbs/2026-10-10-14.mp4"
+    },
+    {
       "id": "2026-10-10-13",
       "hour": "13:00",
       "date": "2026-10-10",

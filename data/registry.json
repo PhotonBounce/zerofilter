@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 109,
+  "total_releases": 110,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -872,6 +872,14 @@
       "title": "Integrated Information Theory Phi Topology, Causal Complexes & Soviet Toxicology Trials",
       "audio": "audio/2026-10-10-13.mp3",
       "cover_video": "thumbs/2026-10-10-13.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-14",
+      "seconds": 180,
+      "title": "Strait of Hormuz Hydrophone Gates, Fast-Boat Swarms & Soviet Persian Gulf Naval Strategy",
+      "audio": "audio/2026-10-10-14.mp3",
+      "cover_video": "thumbs/2026-10-10-14.mp4",
       "status": "published_production"
     }
   ]

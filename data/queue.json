@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-14",
-      "date": "2026-10-10",
-      "hour": "14:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Strait of Hormuz acoustic hydrophone gate closure, IRGC fast-boat swarm coordination, and Yuri Shvets on Soviet Persian Gulf naval strategy"
-    },
-    {
       "id": "2026-10-10-15",
       "date": "2026-10-10",
       "hour": "15:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Quantum optomechanical macroscopic membrane entanglement, phonon cooling, and Yuri Shvets on Soviet laser interferometry acoustics"
+    },
+    {
+      "id": "2026-10-10-17",
+      "date": "2026-10-10",
+      "hour": "17:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Karl Friston active inference predictive coding in adversarial electronic warfare environments, neuro-adaptive cockpit stress metrics, and Yuri Shvets on Soviet pilot psychophysiology tests"
     }
   ]
 }
