@@ -1,17 +1,71 @@
 {
-  "_note": "Feeds engine/ingest.mjs collects each hour. Each run reports per-feed status in its snapshot; a feed that keeps failing should be fixed or disabled here, never replaced by memory. max_age_hours: how far back an item may be to count for hour H. kind 'news' items can back P0/P1; 'science' P2-P4; 'speaker' items are the ONLY way to quote that person.",
+  "_note": "Feeds engine/ingest.mjs collects each hour. Each run reports per-feed status in its snapshot; a feed that keeps failing should be fixed or disabled here, never replaced by memory. max_age_hours: how far back an item may be to count for hour H. kind 'news' items can back P0/P1; 'science' P2-P4; 'speaker' items are the ONLY way to quote that person. Each feed keeps at most max_items (default 50) newest items per snapshot.",
   "feeds": [
-    { "id": "kyiv-independent", "kind": "news", "max_age_hours": 24, "url": "https://kyivindependent.com/news-archive/rss/" },
-    { "id": "dod-releases", "kind": "news", "max_age_hours": 48, "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9&Site=945&max=20" },
-    { "id": "bbc-world", "kind": "news", "max_age_hours": 24, "url": "https://feeds.bbci.co.uk/news/world/rss.xml" },
-    { "id": "npr-politics", "kind": "news", "max_age_hours": 24, "url": "https://feeds.npr.org/1014/rss.xml" },
-    { "id": "arxiv-quant-ph", "kind": "science", "max_age_hours": 96, "url": "https://rss.arxiv.org/rss/quant-ph" },
-    { "id": "arxiv-cs-ai", "kind": "science", "max_age_hours": 96, "url": "https://rss.arxiv.org/rss/cs.AI" },
-    { "id": "nature", "kind": "science", "max_age_hours": 168, "url": "https://www.nature.com/nature.rss" },
-    { "id": "prl", "kind": "science", "max_age_hours": 168, "url": "https://feeds.aps.org/rss/recent/prl.xml" },
-    { "id": "biorxiv-neuro", "kind": "science", "max_age_hours": 168, "url": "https://connect.biorxiv.org/biorxiv_xml/neuroscience" },
-    { "id": "shvets-youtube", "kind": "speaker", "speaker": "Yuri Shvets", "max_age_hours": 72, "enabled": false,
+    {
+      "id": "kyiv-independent",
+      "kind": "news",
+      "max_age_hours": 24,
+      "url": "https://kyivindependent.com/news-archive/rss/"
+    },
+    {
+      "id": "dod-releases",
+      "kind": "news",
+      "max_age_hours": 48,
+      "url": "https://www.defense.gov/DesktopModules/ArticleCS/RSS.ashx?ContentType=9&Site=945&max=20"
+    },
+    {
+      "id": "bbc-world",
+      "kind": "news",
+      "max_age_hours": 24,
+      "url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "id": "npr-politics",
+      "kind": "news",
+      "max_age_hours": 24,
+      "url": "https://feeds.npr.org/1014/rss.xml"
+    },
+    {
+      "id": "arxiv-quant-ph",
+      "kind": "science",
+      "max_age_hours": 96,
+      "url": "https://rss.arxiv.org/rss/quant-ph"
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "kind": "science",
+      "max_age_hours": 96,
+      "url": "https://rss.arxiv.org/rss/cs.AI"
+    },
+    {
+      "id": "nature",
+      "kind": "science",
+      "max_age_hours": 168,
+      "url": "https://www.nature.com/nature.rss"
+    },
+    {
+      "id": "prl",
+      "kind": "science",
+      "max_age_hours": 168,
+      "url": "https://feeds.aps.org/rss/recent/prl.xml",
+      "_note": "0 items in the window on 2026-10-06; check whether its dates parse before relying on it."
+    },
+    {
+      "id": "biorxiv-neuro",
+      "kind": "science",
+      "max_age_hours": 168,
+      "url": "https://connect.biorxiv.org/biorxiv_xml/neuroscience",
+      "enabled": false,
+      "_todo": "HTTP 404 from GitHub runners on 2026-10-06; find bioRxiv's current neuroscience feed URL and re-enable."
+    },
+    {
+      "id": "shvets-youtube",
+      "kind": "speaker",
+      "speaker": "Yuri Shvets",
+      "max_age_hours": 72,
+      "enabled": false,
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=SET_THE_REAL_CHANNEL_ID",
-      "_todo": "Set the channel_id of Yuri Shvets' own channel (verify it is his) and set enabled: true. Until then he cannot be quoted." }
+      "_todo": "Set the channel_id of Yuri Shvets' own channel (verify it is his) and set enabled: true. Until then he cannot be quoted."
+    }
   ]
 }

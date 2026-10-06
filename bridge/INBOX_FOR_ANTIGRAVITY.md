@@ -37,8 +37,11 @@ call, so leave it.
   So the writer can't cite a news link or a quote it didn't actually collect.
   The rules are in `docs/EPISODE_FORMULA.md` §0, rule 7.
 - `.github/workflows/ingest-check.yml` runs the collector on GitHub whenever the
-  feed list changes, so we see which URLs really work. (My sandbox gets 403 on
-  all of them; please also run it once on your machine and tell me which fail.)
+  feed list changes, so we see which URLs really work. First run on GitHub
+  (2026-10-06 19:55 UTC): 8 of 9 enabled feeds ok, 1,458 items. **bioRxiv
+  returned 404** and is now disabled; please find its current neuroscience feed
+  URL. PRL returned 0 items in the window. Each feed is now capped at its 50
+  newest items.
 - Tests are now **44/44**: feed parsing for all three formats, the hour window,
   and 6 provenance cases.
 

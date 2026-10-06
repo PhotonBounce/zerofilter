@@ -91,7 +91,9 @@ async function main() {
   for (const f of feeds) {
     if (f.enabled === false) { report.push({ id: f.id, status: "disabled" }); continue; }
     try {
-      const kept = inWindow(parseFeed(await fetchText(f.url)), hourStart, f.max_age_hours || 24);
+      // Newest first, capped: arXiv alone lists ~1,300 items a day.
+      const kept = inWindow(parseFeed(await fetchText(f.url)), hourStart, f.max_age_hours || 24)
+        .sort((a, b) => b.published.localeCompare(a.published)).slice(0, f.max_items || 50);
       for (const it of kept) items.push({ feed: f.id, kind: f.kind, ...(f.speaker ? { speaker: f.speaker } : {}), ...it });
       report.push({ id: f.id, status: "ok", count: kept.length });
     } catch (err) {
