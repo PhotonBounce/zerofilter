@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 36,
+  "total_releases": 37,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -288,6 +288,14 @@
       "title": "Defense AI Non-Competes, Revolving-Door Advisory Boards & Soviet Kickback Rings",
       "audio": "audio/2026-10-07-12.mp3",
       "cover_video": "thumbs/2026-10-07-12.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-07-13",
+      "seconds": 171,
+      "title": "Nonlinear Optics in Photonic Crystals, Microcavities & Soviet Laser Weapon Deception",
+      "audio": "audio/2026-10-07-13.mp3",
+      "cover_video": "thumbs/2026-10-07-13.mp4",
       "status": "published_production"
     }
   ]

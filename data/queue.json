@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-13",
-      "date": "2026-10-07",
-      "hour": "13:00",
-      "category": "physics",
-      "priority": "normal",
-      "intel_focus": "Nonlinear optics in photonic crystals, optical microcavities, and Yuri Shvets on Soviet laser weapon research deception programs"
-    },
-    {
       "id": "2026-10-07-14",
       "date": "2026-10-07",
       "hour": "14:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Anomalous cognitive entanglement, PEAR random event generator field effects, and Yuri Shvets on KGB psychic research funding diverts"
+    },
+    {
+      "id": "2026-10-07-16",
+      "date": "2026-10-07",
+      "hour": "16:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Defense hypersonic scramjet testing failures, cost-plus audit coverups, and Yuri Shvets on Soviet aerospace procurement fraud"
     }
   ]
 }

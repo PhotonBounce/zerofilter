@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-13",
+      "hour": "13:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Nonlinear Optics in Photonic Crystals, Microcavities & Soviet Laser Weapon Deception",
+      "subject": "Hourly uncensored breakdown: Rex Vance analyzes photonic crystal bandgaps, slow-light microcavities, second-harmonic generation, and Yuri Shvets's insider revelations regarding Soviet Terra-3 laser weapon deception programs at Sary-Shagan.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is thirteen hundred hours. Controlling the propagation of light at the sub-micron scale has long represented the holy grail of modern optical physics. By etching periodic arrays of nanoscale dielectric structures into high-index silicon, physicists create photonic crystals—synthetic materials possessing a photonic bandgap that completely forbids specific optical frequencies from propagating through the lattice. When engineered with point defect microcavities, these crystals trap photons for millions of oscillations, compressing electromagnetic energy and slowing the group velocity of light to a crawl.",
+        "At these ultra-slow velocities, nonlinear optical effects are amplified by multiple orders of magnitude. Phenomena like second-harmonic generation, Kerr-effect phase modulation, and four-wave mixing—ordinarily requiring massive high-intensity pulse lasers—can now be triggered on a microscopic chip at milliwatt power levels. This breakthrough is revolutionizing integrated photonics, enabling all-optical quantum switching, chip-scale frequency combs, and unbreakable on-chip cryptographic key distribution networks.",
+        "Yet the weaponization of laser optics carries a long history of geopolitical deception and intelligence theater. As Washington counter-intelligence insider and former KGB Major Yuri Shvets has documented, the Soviet Union executed one of the most sophisticated disinformation campaigns in military history around its laser weapons programs. In the late 1970s and 1980s, Soviet intelligence actively fed exaggerated intelligence reports to Western defense attaches regarding the Terra-3 and Omega laser test complexes at Sary-Shagan in Kazakhstan.",
+        "According to Shvets, the KGB's First Chief Directorate and Directorate T deliberately stoked American fears that Soviet scientists had achieved a functional ground-based anti-satellite laser weapon capable of blinding orbital surveillance. In reality, Soviet gas-dynamic and excimer lasers were plagued by atmospheric thermal blooming, catastrophic beam jitter, and insufficient electrical power grids. The Kremlin's primary objective was not immediate deployment, but baiting the United States into sinking hundreds of billions into counter-programs while concealing genuine technological bottlenecks.",
+        "Today, as global superpowers race to field directed-energy weapons, laser anti-satellite counter-measures, and optical quantum networks, separating physical reality from strategic posturing remains paramount. While megawatt-class thermal lasers still grapple with atmospheric turbulence and weather attenuation, the real optical revolution is occurring in microscopic silicon photonics—where nonlinear microcavities process and encrypt telemetry faster than electronic interceptors can track.",
+        "Audit the photonic bandgaps, separate physical capability from intelligence deception, and judge optical supremacy by mathematical proof rather than geopolitical theater. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 171,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-13/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-07-13/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-07-13/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-07-13/f04.webp"
+          },
+          {
+            "t": 114,
+            "src": "art/2026-10-07-13/f05.webp"
+          },
+          {
+            "t": 142,
+            "src": "art/2026-10-07-13/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-13.webp",
+      "audio": "audio/2026-10-07-13.mp3",
+      "cover_video": "thumbs/2026-10-07-13.mp4"
+    },
+    {
       "id": "2026-10-07-12",
       "hour": "12:00",
       "date": "2026-10-07",

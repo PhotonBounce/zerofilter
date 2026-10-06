@@ -752,6 +752,78 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 330, cy + 130), "RECEPTOR TARGET: TUBULIN DIPOLE GRID", fill=(255, 220, 120))
         draw.text((width - 330, cy + 150), "STATUS: ARCHIVAL DOSSIER DISCLOSED", fill=(255, 80, 80))
 
+    elif theme in ("photonic_crystals", "laser_optics", "microcavity", "nonlinear_optics"):
+        # Nonlinear Optics in Photonic Crystals & Microcavity Laser Localization
+        # 1. 2D Photonic Crystal Hexagonal Array of Dielectric Rods
+        grid_start_x = cx - 360
+        grid_end_x = cx + 360
+        grid_start_y = cy - 200
+        grid_end_y = cy + 200
+        
+        # Draw waveguide channel (missing row at cy)
+        draw.rectangle([grid_start_x - 30, cy - 22, grid_end_x + 30, cy + 22], fill=(12, 22, 35), outline=(0, 160, 220), width=1)
+        
+        # Photonic bandgap dielectric lattice
+        random.seed(532)
+        for gx in range(grid_start_x, grid_end_x + 1, 36):
+            for gy in range(grid_start_y, grid_end_y + 1, 32):
+                # Offset every second column for hexagonal packing
+                col_id = (gx - grid_start_x) // 36
+                y_offset = 16 if (col_id % 2 == 1) else 0
+                actual_y = gy + y_offset
+                
+                # Omit waveguide channel around cy
+                if abs(actual_y - cy) < 26:
+                    continue
+                    
+                # High-index silicon dielectric rod node
+                draw.ellipse([gx - 7, actual_y - 7, gx + 7, actual_y + 7], fill=(10, 40, 60), outline=(0, 220, 255), width=2)
+                # Core refractive index center
+                draw.point((gx, actual_y), fill=(255, 255, 255))
+        
+        # 2. Central High-Q Point Defect Microcavity (Trapped Laser Mode)
+        cavity_x = cx
+        cavity_y = cy
+        # Resonance standing wave interference ripples
+        for cr in range(65, 8, -6):
+            factor = (65 - cr) / 57.0
+            col_r = int(255 * factor)
+            col_g = int(210 * factor)
+            draw.ellipse([cavity_x - cr, cavity_y - cr, cavity_x + cr, cavity_y + cr], outline=(col_r, col_g, 40), width=2)
+        # Laser core
+        draw.ellipse([cavity_x - 12, cavity_y - 12, cavity_x + 12, cavity_y + 12], fill=(255, 255, 255), outline=(255, 180, 40), width=2)
+        
+        # 3. Waveguide Propagation Beams: Fundamental Pump (1550nm) & Second Harmonic (775nm)
+        # Input Fundamental Pump Beam (entering from left)
+        draw.line([(grid_start_x - 40, cy), (cavity_x, cy)], fill=(0, 240, 255), width=4)
+        draw.line([(grid_start_x - 40, cy - 6), (cavity_x, cy - 6)], fill=(0, 180, 220), width=1)
+        draw.line([(grid_start_x - 40, cy + 6), (cavity_x, cy + 6)], fill=(0, 180, 220), width=1)
+        
+        # Output Frequency-Doubled Harmonic Beam (emerging to right)
+        draw.line([(cavity_x, cy), (grid_end_x + 40, cy)], fill=(180, 70, 255), width=4)
+        draw.line([(cavity_x, cy - 6), (grid_end_x + 40, cy - 6)], fill=(220, 120, 255), width=1)
+        draw.line([(cavity_x, cy + 6), (grid_end_x + 40, cy + 6)], fill=(220, 120, 255), width=1)
+        
+        # Optical Annotations
+        draw.text((grid_start_x - 30, cy - 42), "PUMP: 1550nm FUNDAMENTAL", fill=(0, 240, 255))
+        draw.text((grid_end_x - 170, cy - 42), "SECOND HARMONIC: 775nm [SHG]", fill=(200, 100, 255))
+        draw.text((cavity_x - 80, cy + 75), "HIGH-Q CAVITY: Q = 1.2 x 10^6", fill=(255, 210, 50))
+        draw.text((cavity_x - 80, cy + 95), "NONLINEAR KERR PHASE SHIFT", fill=(255, 255, 255))
+        
+        # 4. Intelligence Side Panels: Sary-Shagan Laser Facility & Soviet Disinformation
+        draw.rectangle([60, cy - 160, 280, cy - 70], fill=(10, 25, 35), outline=(0, 255, 240), width=1)
+        draw.text((70, cy - 150), "[PHOTONIC BANDGAP DEFECT]", fill=(0, 255, 240))
+        draw.text((70, cy - 130), "DIELECTRIC CONSTANT: ε = 11.9 (Si)", fill=(255, 220, 80))
+        draw.text((70, cy - 110), "BANDGAP RATIO: Δω/ω_0 = 18.4%", fill=(200, 220, 255))
+        draw.text((70, cy - 90), "SLOW-LIGHT GROUP VELOCITY: c/35", fill=(0, 240, 180))
+
+        draw.rectangle([width - 320, cy - 160, width - 50, cy - 50], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, cy - 150), "[SARY-SHAGAN TERRA-3 DECEPTION]", fill=(255, 140, 50))
+        draw.text((width - 310, cy - 130), "SOVIET ASAT LASER WEAPON THEATER", fill=(255, 200, 80))
+        draw.text((width - 310, cy - 110), "EXAGGERATED HIGH-POWER CAPABILITY", fill=(255, 220, 120))
+        draw.text((width - 310, cy - 90), "DIRECTORATE T DISINFORMATION", fill=(255, 80, 80))
+        draw.text((width - 310, cy - 70), "STATUS: ARCHIVAL SIGINT REVEALED", fill=(200, 200, 200))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -828,6 +900,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "QUANTUM DARWINISM // POINTER STATE PROLIFERATION // THEREMIN CAVITY RESONATOR Q: 45K", fill=(0, 255, 240))
     elif theme in ("orch_or", "penrose_hameroff", "tubulin_quantum"):
         draw.text((40, 60), "PENROSE ORCH-OR OBJECTIVE REDUCTION // TUBULIN DIPOLE HARMONICS 8.3 MHz // E_G = ℏ/τ", fill=(30, 240, 160))
+    elif theme in ("photonic_crystals", "laser_optics", "microcavity", "nonlinear_optics"):
+        draw.text((40, 60), "PHOTONIC BANDGAP MICROCAVITY // 1550nm SHG CONVERSION // SARY-SHAGAN TERRA-3 AUDIT", fill=(0, 240, 255))
     elif theme == "consciousness":
         draw.text((40, 60), "NEURAL BIOPHOTON TELEMETRY // TUBULIN DIPOLE HARMONICS // BANDWIDTH 614 THz", fill=(80, 255, 180))
     else:
