@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-18",
+      "hour": "18:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Strait of Malacca Blockade Scenarios, Kra Isthmus Bypasses & Soviet Indian Ocean SIGINT",
+      "subject": "Hourly uncensored breakdown: Rex Vance analyzes US-allied naval blockade scenarios across the 1.5-mile Phillips Channel bottleneck in the Strait of Malacca, Kra Isthmus pipeline bypass infrastructure, and Yuri Shvets on Soviet 8th Operational Squadron Indian Ocean chokepoint interdiction.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is eighteen hundred hours. Stretching five hundred and fifty miles between the Malay Peninsula and the Indonesian island of Sumatra, the Strait of Malacca is the primary maritime carotid artery of the Indo-Pacific. Through its narrowest constriction—the 1.5-nautical-mile Phillips Channel in the Singapore Strait—travels more than sixty percent of China's maritime crude oil imports and a vast fraction of global containerized trade. In modern Indo-Pacific war-gaming, this bottleneck represents Beijing's ultimate strategic nightmare: the Malacca Dilemma, where distant naval blockades could strangle energy supply lines before a single shot is fired in the Taiwan Strait.",
+        "To execute or counter an asymmetric blockade, regional militaries are deploying layered maritime access-denial networks. US and allied planners model distant blockade operations anchored at Diego Garcia and the Andaman and Nicobar Islands, deploying uncrewed undersea gliders and P-8A Poseidon maritime patrol aircraft to choke the western approaches. In response, Beijing is accelerating massive overland infrastructure bypasses, including deep-water port concessions in Kyaukpyu, Myanmar, and reviving proposals for Thailand's Kra Isthmus land-bridge canal and energy pipeline corridor to bypass the vulnerable Malacca passage entirely.",
+        "This geopolitical contest over Indian Ocean maritime chokepoints directly mirrors the naval confrontation between Moscow and Washington during the peak of the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, the Soviet Navy's 8th Operational Squadron maintained continuous combat patrols across the Indian Ocean to track Western strategic transit through Malacca.",
+        "According to Shvets, the KGB First Chief Directorate and Soviet naval intelligence operated specialized intelligence collection ships (AGIs) disguised as commercial hydrographic survey vessels stationed permanently off the Malacca and Sunda Straits. Soviet naval doctrine recognized that control over Indian Ocean sealanes was the vital hinge between European NATO supply networks and Pacific theater logistics. Shvets revealed that Soviet SIGINT stations in Cam Ranh Bay, Vietnam, and Aden, Yemen, maintained an unbroken acoustic tracking perimeter, logging every Western tanker and warship hull signature to feed targeting coordinates to Soviet nuclear attack submarines.",
+        "Decades later, the vectors of confrontation have shifted from Soviet cruise-missile submarines to Chinese carrier strike groups and land-based anti-ship ballistic missiles. Yet the geographical choke point remains unchanged. A naval standoff across the Phillips Channel would not merely halt regional shipping; it would trigger an immediate cascading collapse in global supply chains, paralyzing industrial manufacturing across East Asia and sending worldwide maritime freight and insurance rates into an existential shock.",
+        "Never evaluate naval balance through fleet tonnage alone, trace the narrow sea corridors where global energy actually flows, and remember that when a maritime artery narrows to one mile, geography dictates the terms of war. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-18/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-18/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-18/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-18/f04.webp"
+          },
+          {
+            "t": 121,
+            "src": "art/2026-10-10-18/f05.webp"
+          },
+          {
+            "t": 151,
+            "src": "art/2026-10-10-18/f06.webp"
+          }
+        ]
+      },
+      "seconds": 181,
+      "thumb": "thumbs/2026-10-10-18.webp",
+      "audio": "audio/2026-10-10-18.mp3",
+      "cover_video": "thumbs/2026-10-10-18.mp4"
+    },
+    {
       "id": "2026-10-10-17",
       "hour": "17:00",
       "date": "2026-10-10",

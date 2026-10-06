@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-18",
-      "date": "2026-10-10",
-      "hour": "18:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Strait of Malacca naval blockade scenarios, Kra Isthmus bypass pipeline logistics, and Yuri Shvets on Soviet Indian Ocean fleet surveillance"
-    },
-    {
       "id": "2026-10-10-19",
       "date": "2026-10-10",
       "hour": "19:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Quantum diamond nitrogen-vacancy center subterranean gravimetry, void detection, and Yuri Shvets on Soviet non-acoustic submarine detection"
+    },
+    {
+      "id": "2026-10-10-21",
+      "date": "2026-10-10",
+      "hour": "21:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Donald Hoffman conscious agent mathematical projection matrices, spacetime emergence as data structure, and Yuri Shvets on KGB perception management doctrines"
     }
   ]
 }
