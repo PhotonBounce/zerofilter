@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-06-17",
-      "date": "2026-10-06",
-      "hour": "17:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Pentagon cost-plus contracting cartels, hypersonic test failures, and Yuri Shvets on defense procurement intelligence audits"
-    },
-    {
       "id": "2026-10-06-18",
       "date": "2026-10-06",
       "hour": "18:00",
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Stuart Hameroff quantum anesthesia mechanisms, biophoton emission in neural tissue, and Yuri Shvets on declassified psychic research archives"
+    },
+    {
+      "id": "2026-10-06-19",
+      "date": "2026-10-06",
+      "hour": "19:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Red Sea maritime drone blockades, Iranian Shahed guidance telemetry, and Yuri Shvets on Tehran-Moscow drone barter agreements"
     }
   ]
 }

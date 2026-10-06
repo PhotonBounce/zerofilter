@@ -2,6 +2,61 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-17",
+      "date": "2026-10-06",
+      "hour": "17:00",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Pentagon Cost-Plus Contracting Cartels, Hypersonic Failure Audits & Revolving-Door Grift",
+      "subject": "Hourly uncensored breakdown: Yuri Shvets analyzes Washington defense contracting monopolies billing billions for stalled hypersonic glide prototypes, F-35 supply chain failures, and how former defense officials cash out onto military-industrial corporate boards.",
+      "seconds": 185,
+      "audio": "audio/2026-10-06-17.mp3",
+      "thumb": "thumbs/2026-10-06-17.webp",
+      "cover_video": "thumbs/2026-10-06-17.mp4",
+      "paragraphs": [
+        "ZeroFilter broadcast seventeen. I'm Rex Vance. If an aerospace startup in Silicon Valley burned twelve billion dollars over a decade without delivering a functioning commercial prototype, their investors would fire leadership and liquidate the assets by sunset. But if you are Lockheed Martin, Raytheon, or General Dynamics billing the United States Department of Defense under a cost-plus contract, catastrophic technical failure is not a liability\u2014it is an annuity. The more delays you engineer, the larger your taxpayer-funded management margin becomes.",
+        "Look at America's stalled hypersonic glide weapon programs. While China fields operational Mach-8 DF-17 glide vehicles and Russia hypes its Kinzhal platforms, American defense conglomerates have consumed over fifteen billion dollars in developmental contracts, yielding aborted flight tests, sensor thermal fractures, and endless scheduling extensions. The problem is not engineering talent; American laboratory physicists are the finest on Earth. The disease is institutional procurement design: cost-plus contracts reward inefficiency and penalize rapid, cost-effective completion.",
+        "Former KGB foreign counter-intelligence analyst Yuri Shvets exposes the underlying architecture that keeps this parasitic ecosystem intact: the Washington revolving door. When a three-star admiral or Pentagon undersecretary oversees procurement milestones, their final years in uniform are an audition for defense industry board seats. The moment they retire, they register as corporate advisors, collecting seven-figure retainers and stock options from the exact contractors whose cost overruns they routinely rubber-stamped.",
+        "Yuri Shvets notes that this structural rot mirrors the internal decay that paralyzed the Soviet military-industrial complex in the 1980s. When centralized bureaucratic ministries prioritize patronage networks over frontline operational reality, equipment becomes bloated, unmaintainable, and astronomically expensive. Today, the Government Accountability Office reports that the F-35 fleet suffers from mission-capable rates hovering near fifty percent due to proprietary software locks and contractor maintenance monopolies that prevent military mechanics from fixing their own aircraft.",
+        "Asymmetric warfare on the Ukrainian front line has thoroughly dismantled this legacy procurement paradigm. Low-cost autonomous FPV strike drones fabricated for five hundred dollars apiece are systematically destroying multi-million-dollar armored vehicles and surface-to-air missile radars. A thousand dispersed garage workshops out-produce rigid corporate monopolies every single day. The future of defense is rapid modular iteration, open software architectures, and fixed-price competitive delivery.",
+        "The verdict is indisputable: our national security is being held hostage by a protected cartel that trades frontline readiness for quarterly stock buybacks. Yuri Shvets' analysis gives us the unredacted diagnosis: an empire that cannot audit its Pentagon expenditures is an empire rotting from the inside out. Real strength requires accountability, transparency, and dismantling the corporate grift. I'm Rex Vance. Track the invoices, question the consensus, and never accept excuses for incompetence."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-17/f01.webp",
+            "caption": "Cost-Plus Defense Contracting Cartels & Waste"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-06-17/f02.webp",
+            "caption": "Hypersonic Glide Vehicle Test Telemetry & Delays"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-06-17/f03.webp",
+            "caption": "Yuri Shvets on Pentagon Revolving Door Retainers"
+          },
+          {
+            "t": 95,
+            "src": "art/2026-10-06-17/f04.webp",
+            "caption": "F-35 Maintenance Monopolies & Mission-Capable Deficits"
+          },
+          {
+            "t": 125,
+            "src": "art/2026-10-06-17/f05.webp",
+            "caption": "Low-Cost Asymmetric FPV Swarms vs Bloated Armor"
+          },
+          {
+            "t": 155,
+            "src": "art/2026-10-06-17/f06.webp",
+            "caption": "Rex Vance Procurement Forensic Audit"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026-10-06-16",
       "date": "2026-10-06",
       "hour": "16:00",
