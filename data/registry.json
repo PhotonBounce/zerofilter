@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 39,
+  "total_releases": 40,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -312,6 +312,14 @@
       "title": "PEAR Field Effects, Cognitive Entanglement & KGB Psychic Research Diverts",
       "audio": "audio/2026-10-07-15.mp3",
       "cover_video": "thumbs/2026-10-07-15.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-07-16",
+      "seconds": 173,
+      "title": "Hypersonic Scramjet Failures, Cost-Plus Coverups & Soviet Aerospace Procurement Fraud",
+      "audio": "audio/2026-10-07-16.mp3",
+      "cover_video": "thumbs/2026-10-07-16.mp4",
       "status": "published_production"
     }
   ]

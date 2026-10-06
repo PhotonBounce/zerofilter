@@ -1,6 +1,6 @@
 # ZeroFilter — Project State & Bridge Status
 
-**Updated:** 2026-10-06 09:27 UTC  
+**Updated:** 2026-10-06 09:31 UTC  
 **Primary Developers:** Antigravity (Frontend, Automation Engine & Media Synthesis) + Claude (QA, Architecture, Code Mode)  
 **Root Path:** `D:\zerofilter`  
 **Live GitHub Pages Deployment:** `https://photon-bounce.com/zerofilter/` (folder `zerofilter/` on branch `gh-pages` of `photonbounce`)  
@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **320 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **328 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 39 completed, 39 total releases published.
-  - `data/queue.json`: Head item is Episode 40 (`2026-10-07-16`).
-  - `data/registry.json`: 39 active releases logged.
+  - `status/pipeline_state.json`: Episode 40 completed, 40 total releases published.
+  - `data/queue.json`: Head item is Episode 41 (`2026-10-07-17`).
+  - `data/registry.json`: 40 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -66,9 +66,10 @@
   - `2026-10-07-13` (171s) — Nonlinear Optics in Photonic Crystals, Microcavities & Soviet Laser Weapon Deception
   - `2026-10-07-14` (168s) — Arctic Undersea Mineral Rights, Svalbard Cable Sabotage & Northern Fleet Kinematics
   - `2026-10-07-15` (171s) — PEAR Field Effects, Cognitive Entanglement & KGB Psychic Research Diverts
+  - `2026-10-07-16` (173s) — Hypersonic Scramjet Failures, Cost-Plus Coverups & Soviet Aerospace Procurement Fraud
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 234 synchronized frames in `web/art/`.
+- **Story Art Frames:** 240 synchronized frames in `web/art/`.
 - **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root.
 
 ---

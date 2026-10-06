@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-16",
-      "date": "2026-10-07",
-      "hour": "16:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Defense hypersonic scramjet testing failures, cost-plus audit coverups, and Yuri Shvets on Soviet aerospace procurement fraud"
-    },
-    {
       "id": "2026-10-07-17",
       "date": "2026-10-07",
       "hour": "17:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Hormuz Strait electronic spoofing, Iranian drone guidance backdoors, and Yuri Shvets on Moscow-Tehran military intelligence exchanges"
+    },
+    {
+      "id": "2026-10-07-19",
+      "date": "2026-10-07",
+      "hour": "19:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Robert Monroe Gateway hemi-sync binaural frequency following response, astral projection archives, and Yuri Shvets on Soviet psychotronic remote observation units"
     }
   ]
 }

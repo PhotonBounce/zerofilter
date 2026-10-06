@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-16",
+      "hour": "16:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Hypersonic Scramjet Failures, Cost-Plus Coverups & Soviet Aerospace Procurement Fraud",
+      "subject": "Hourly uncensored breakdown: Rex Vance analyzes Pentagon hypersonic test aborts, thermal plasma blackouts, cost-plus contract padding, and Yuri Shvets's insider revelations regarding Soviet aerospace design bureau falsifications and KGB Third Chief Directorate coverups.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is sixteen hundred hours. Over the past six years, the Department of Defense has poured more than twelve billion dollars into hypersonic glide vehicles and scramjet-powered cruise missile prototypes. Billed as the ultimate asymmetric deterrent against near-peer adversaries, these systems are promised to achieve speeds exceeding Mach 5 with unpredictable maneuverability. Yet behind the classification veils and glossy press releases from prime aerospace contractors, the actual testing record reveals a catastrophic sequence of flight-test aborts, premature booster separations, and persistent telemetry blackouts.",
+        "At velocities above Mach 5, friction generates extreme thermal boundary layers exceeding three thousand degrees Fahrenheit, enveloping vehicles in ionized plasma that scrambles satellite guidance and burns through ceramic composites. Rather than resolving these foundational aerodynamic bottlenecks, aerospace primes operating under open-ended cost-plus contracts routinely reclassify catastrophic disintegrations as partial test successes. They lobby congressional defense subcommittees for retroactive metric adjustments and multi-billion-dollar contract extensions, privatizing taxpayer funding while delivering zero deployable inventory.",
+        "This institutionalized failure mode is intimately familiar to students of totalitarian defense bureaucracies. As Washington counter-intelligence insider and former KGB Major Yuri Shvets has documented, the Soviet aerospace sector operated under identical corruption. Soviet aviation design bureaus routinely falsified flight-test telemetry, masked severe engine thermal failures, and submitted doctored readiness certifications to the Ministry of Aviation Industry to meet five-year plan production quotas and secure state bonuses.",
+        "Shvets reveals that the KGB's Third Chief Directorate—tasked with military counter-intelligence and defense plant surveillance—was thoroughly complicit in the coverup. Rather than arresting dishonest plant directors and chief engineers, KGB officers accepted luxury kickbacks, imported consumer goods, and institutional patronage to bury defect reports. When Soviet frontline regiments received defective aircraft with uncalibrated guidance and cracked structural bulkheads, the state security apparatus simply stamped the dossiers state secrets.",
+        "When democratic defense procurement mimics the institutional secrecy and self-dealing of decayed authoritarian empires, national security becomes an illusion. Spending billions on unverified, proprietary hypersonic programs without public testing telemetry or independent physical audits does not deter adversaries—it merely enriches defense lobbyists and corporate contractors. Real military deterrence is forged through transparent engineering, ruthless testing accountability, and verifiable physics.",
+        "Audit the cost-plus hypersonic contracts, demand unredacted telemetry from flight tests, and refuse to fund failure disguised as national security. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 173,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-16/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-07-16/f02.webp"
+          },
+          {
+            "t": 58,
+            "src": "art/2026-10-07-16/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-07-16/f04.webp"
+          },
+          {
+            "t": 115,
+            "src": "art/2026-10-07-16/f05.webp"
+          },
+          {
+            "t": 144,
+            "src": "art/2026-10-07-16/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-16.webp",
+      "audio": "audio/2026-10-07-16.mp3",
+      "cover_video": "thumbs/2026-10-07-16.mp4"
+    },
+    {
       "id": "2026-10-07-15",
       "hour": "15:00",
       "date": "2026-10-07",
