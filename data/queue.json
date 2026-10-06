@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-12-04",
-      "date": "2026-10-12",
-      "hour": "04:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Rydberg Atom Electrometry, Sub-Terahertz Sensor Arrays & Soviet Microwave Interceptions"
-    },
-    {
       "id": "2026-10-12-05",
       "date": "2026-10-12",
       "hour": "05:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Arctic Yamal LNG Shadow Fleets, Rosatom Icebreaker Chokepoints & Soviet Northern Sea Route Command"
+    },
+    {
+      "id": "2026-10-12-07",
+      "date": "2026-10-12",
+      "hour": "07:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Defense Shipbuilding Cost Overruns, Nuclear Submarine Welder Falsification & Soviet Sevmash Scrapyards"
     }
   ]
 }

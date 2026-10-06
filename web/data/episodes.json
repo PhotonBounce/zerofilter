@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T17:15:00Z",
+  "updated": "2026-10-06T17:30:00Z",
   "episodes": [
+    {
+      "id": "2026-10-12-04",
+      "hour": "04:00",
+      "date": "2026-10-12",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Rydberg Atom Electrometry, Sub-Terahertz Sensor Arrays & Soviet Microwave Interceptions",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates quantum Rydberg atom electrometry, vapor-cell sub-terahertz radio frequency sensing surpassing classical antennas, quantum receiver stealth advantages, and Yuri Shvets on Soviet KGB Eighth Chief Directorate microwave SIGINT interception operations targeting US Embassy Moscow communications.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero four hundred hours. Classical radio-frequency reception has reached an immutable physical limit: the Chu-Harrington limit, which dictates that any copper antenna smaller than a fraction of its operational wavelength suffers catastrophic loss of sensitivity and efficiency. In military radar, electronic warfare, and signals intelligence, this creates bulky, unshieldable metallic apertures that leak radar cross-sections and can be easily jammed. But inside quantum physics laboratories, an entirely different paradigm is replacing metal antennas: Rydberg atom electrometry.",
+        "By exciting vaporized alkali atoms—typically rubidium or cesium—into states with high principal quantum numbers above fifty, electrons are driven into orbital radii thousands of times larger than normal ground-state atoms. At this scale, the atom’s polarizability scales with the seventh power of the principal quantum number. This colossal sensitivity turns the vapor cell into a self-calibrating, SI-traceable quantum sensor capable of measuring electric fields across a continuous span from DC to sub-terahertz frequencies without changing physical antenna hardware.",
+        "Using electromagnetically induced transparency and Autler-Townes optical splitting, counter-propagating probe and coupling lasers read out incident RF field amplitudes directly through quantum optical transmission peaks. Because a miniature glass vapor cell contains zero conductive metallic components, it creates no scattered radar signature, cannot be burned out by high-power electromagnetic pulses, and delivers unprecedented dynamic range for intercepting frequency-hopping military waveforms.",
+        "This revolutionary leap in microwave interception unlocks capabilities that Soviet cryptanalysts and signals intelligence operatives could only dream of during the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has disclosed, microwave signal harvesting formed the backbone of the Kremlin’s premier intelligence collection against the United States.",
+        "According to Shvets, the KGB’s Eighth Chief Directorate—tasked with cryptanalysis and signals interception—and the Sixteenth Directorate deployed massive microwave intercept grids across Soviet embassies and specialized listening posts. Most infamously, Soviet intelligence bathed the United States Embassy in Moscow with targeted microwave beams to activate passive resonant cavities, intercept internal teletype traffic, and monitor encrypted communications. Shvets revealed that Soviet technical divisions struggled constantly with thermal drift and receiver noise in classical copper waveguides—engineering limitations that Rydberg quantum vapor cells completely eliminate today.",
+        "From KGB resonant cavity bugging arrays in Cold War Moscow to modern optical Rydberg atomic sensors intercepting sub-terahertz military telemetry, the quantum spectrum domain has eliminated the classical antenna. Track the Autler-Townes splitting, monitor the rubidium vapor cells, and keep your signals locked. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-12-04/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-12-04/f02.webp"
+          },
+          {
+            "t": 58,
+            "src": "art/2026-10-12-04/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-12-04/f04.webp"
+          },
+          {
+            "t": 117,
+            "src": "art/2026-10-12-04/f05.webp"
+          },
+          {
+            "t": 146,
+            "src": "art/2026-10-12-04/f06.webp"
+          }
+        ]
+      },
+      "seconds": 175,
+      "audio": "audio/2026-10-12-04.mp3",
+      "thumb": "thumbs/2026-10-12-04.webp",
+      "cover_video": "thumbs/2026-10-12-04.mp4"
+    },
     {
       "id": "2026-10-12-03",
       "hour": "03:00",

@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 147,
+  "total_releases": 148,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1176,6 +1176,14 @@
       "title": "Pentagon Rare Earth Munitions Stockpile Deficits, Chinese Smuggling Rings & Soviet Line X Metals",
       "audio": "audio/2026-10-12-03.mp3",
       "cover_video": "thumbs/2026-10-12-03.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-12-04",
+      "seconds": 175,
+      "title": "Rydberg Atom Electrometry, Sub-Terahertz Sensor Arrays & Soviet Microwave Interceptions",
+      "audio": "audio/2026-10-12-04.mp3",
+      "cover_video": "thumbs/2026-10-12-04.mp4",
       "status": "published_production"
     }
   ]
