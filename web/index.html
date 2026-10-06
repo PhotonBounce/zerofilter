@@ -61,9 +61,7 @@
         </div>
 
         <!-- 10s looping video cover or poster -->
-        <video id="hero-video" class="hero-video" autoplay loop muted playsinline poster="thumbs/2026-10-06-01.webp">
-          <source src="thumbs/2026-10-06-01.mp4" type="video/mp4">
-        </video>
+        <video id="hero-video" class="hero-video" autoplay loop muted playsinline poster="assets/studio_bunker.webp"></video>
 
         <!-- Host Camera Layer -->
         <div id="host-layer" class="stage-overlay hidden">
@@ -84,28 +82,32 @@
         </div>
 
         <div class="media-overlay-gradient"></div>
-        <div class="broadcast-badge" id="broadcast-badge">LATEST RELEASE · 01:00 UTC</div>
+        <div class="broadcast-badge" id="broadcast-badge">ZEROFILTER</div>
       </div>
 
       <div class="spotlight-content">
         <div class="episode-meta">
-          <span class="badge category-badge" id="ep-category">GEOPOLITICS</span>
-          <span class="badge duration-badge" id="ep-duration">⏱ 3:00 MIN</span>
+          <span class="badge category-badge" id="ep-category">ZEROFILTER</span>
+          <span class="badge duration-badge" id="ep-duration">EXPLICIT</span>
           <span class="badge time-badge" id="ep-time">HOURLY DISPATCH</span>
         </div>
 
-        <h1 class="episode-title" id="ep-title">Quantum Delayed Choice, Pentagon Backdoors &amp; Ukraine Drone Swarms</h1>
-        <p class="episode-subject" id="ep-subject">Hourly uncensored breakdown: exposing bipartisan congressional corruption, Ukrainian drone advances, Wheeler's delayed-choice quantum mechanics, and declassified CIA Project Stargate remote viewing records.</p>
+        <h1 class="episode-title" id="ep-title">Briefings are being rebuilt on sourced reporting</h1>
+        <p class="episode-subject" id="ep-subject">Every ZeroFilter briefing will link the reporting behind each claim. The first sourced episode will appear here as soon as it is published.</p>
+        <details class="ep-sources" id="ep-sources-box" hidden>
+          <summary>Sources for this briefing</summary>
+          <ol id="ep-sources"></ol>
+        </details>
 
         <!-- Subtitle Cue Strip -->
         <div class="subtitles-box" id="subtitles-box">
           <span class="cue-speaker">REX:</span>
-          <span class="cue-text" id="cue-text">"Welcome to ZeroFilter. Put down the bipartisan kool-aid and let's dissect the wreckage..."</span>
+          <span class="cue-text" id="cue-text">No episode published yet.</span>
         </div>
 
         <!-- Audio Player Console -->
         <div class="player-console">
-          <audio id="main-audio" preload="metadata" src="audio/2026-10-06-01.mp3"></audio>
+          <audio id="main-audio" preload="metadata"></audio>
 
           <!-- Real-time Audio Spectrum Visualizer -->
           <div class="spectrum-container">
@@ -123,7 +125,7 @@
             <div class="time-readout">
               <span id="current-time">0:00</span>
               <span class="separator">/</span>
-              <span id="total-time">3:00</span>
+              <span id="total-time">0:00</span>
             </div>
           </div>
 
@@ -148,7 +150,7 @@
     <section class="feed-section">
       <div class="section-header">
         <h2 class="section-title">Hourly Intel Stream</h2>
-        <span class="section-count" id="feed-count">3 Releases</span>
+        <span class="section-count" id="feed-count">0 Releases</span>
       </div>
 
       <div class="episodes-grid" id="episodes-grid">
@@ -196,7 +198,7 @@
               </div>
             </div>
             <p class="bio-text">
-              Rex Vance is a razor-sharp, mathematically literate, foul-mouthed ex-DARPA / intelligence analyst who refuses to be gaslit by corporate media or political dogmas. Delivering equal-opportunity scorn against MAGA Christofascists and corporate establishment Democrats alike, Vance anchors every broadcast from an underground bunker studio, bridging frontline geopolitics with quantum physics and declassified consciousness science.
+              <strong>Rex Vance is a fictional, AI-voiced host.</strong> He is a razor-sharp, mathematically literate, foul-mouthed ex-DARPA / intelligence analyst who refuses to be gaslit by corporate media or political dogmas. Delivering equal-opportunity scorn against MAGA Christofascists and corporate establishment Democrats alike, Vance anchors every broadcast from an underground bunker studio, bridging frontline geopolitics with quantum physics and declassified consciousness science.
             </p>
             <div class="voice-test-card">
               <div class="voice-test-info">
@@ -209,21 +211,20 @@
           </div>
         </div>
 
-        <!-- Primary Intelligence Source: Yuri Shvets Wire -->
+        <!-- Quoting policy: no source, no quote -->
         <div class="dossier-shvets-section">
-          <h3 class="section-subhead">PRIMARY INTELLIGENCE WIRE · US &amp; COUNTER-ESPIONAGE</h3>
+          <h3 class="section-subhead">ON QUOTING PEOPLE</h3>
           <div class="shvets-card">
             <div class="shvets-header">
-              <span class="source-badge">PRIMARY WIRE: YURI SHVETS (ЮРИЙ ШВЕЦ)</span>
-              <span class="clearance-tag">EX-KGB MAJOR · US INTELLIGENCE DISSIDENT</span>
+              <span class="source-badge">NO SOURCE, NO QUOTE</span>
+              <span class="clearance-tag">EVERY CLAIM LINKED</span>
             </div>
             <p class="shvets-desc">
-              ZeroFilter anchors its US congressional, national security, and Pentagon reporting directly on intelligence briefings from <strong>Yuri Shvets</strong>, ex-KGB intelligence officer and Red Banner Institute alumnus who defected to the United States. Shvets' Washington investigative channel provides cold, verified counter-intelligence receipts exposing Russian active measures subverting American politics, congressional defense-stock corruption, and Kremlin-aligned demagoguery across both parties.
+              ZeroFilter quotes public analysts, including former KGB officer <strong>Yuri Shvets</strong>, only from things they have published themselves, and every quote links to where it was said. ZeroFilter is not affiliated with anyone it quotes, and no one quoted here briefs or endorses the show.
             </p>
             <div class="shvets-meta-bar">
-              <span class="shvets-stat"><strong>Coverage:</strong> Washington DC · Pentagon · Capitol Hill</span>
-              <span class="shvets-stat"><strong>Focus:</strong> Russian Active Measures &amp; US Lobbying Grift</span>
-              <span class="shvets-stat"><strong>Analysis Hub:</strong> Official YouTube Intelligence Channel</span>
+              <span class="shvets-stat"><strong>Episodes:</strong> stamped with the hour they are published, never ahead</span>
+              <span class="shvets-stat"><strong>Sources:</strong> listed with every briefing</span>
             </div>
           </div>
         </div>
@@ -267,7 +268,7 @@
         <p>Unfiltered Geopolitics, Quantum Reality &amp; Frontier Science. No corporate masters. No partisan dogma.</p>
       </div>
       <div class="footer-note">
-        <span>Updated Every Hour · Autonomous Pipeline · Pure Data</span>
+        <span>AI-voiced host · Explicit language · Every claim sourced</span>
       </div>
     </div>
   </footer>

@@ -6,3 +6,8 @@ Thumbs.db
 .env.local
 tmp/
 scratch/
+
+# bridge watcher state (per machine)
+bridge/.last_seen
+bridge/.claude_says.md
+dist/

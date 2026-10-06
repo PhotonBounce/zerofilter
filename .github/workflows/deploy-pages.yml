@@ -5,6 +5,7 @@ on:
     branches: [ main ]
     paths:
       - 'web/**'
+      - 'engine/**'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
   workflow_run:
@@ -35,13 +36,26 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # The editorial gate: nothing future-dated, nothing unsourced, no quote
+      # without a link to where it was said. A refused episode fails the deploy.
+      - name: Test suite + editorial gate
+        run: node engine/unit.mjs
+
+      - name: Build dist/ (published episodes only)
+        run: node engine/build_site.mjs
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'web'
+          path: 'dist'
 
       - name: Deploy to GitHub Pages
         id: deployment

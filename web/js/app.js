@@ -1,6 +1,6 @@
 // app.js — Main frontend client application for ZeroFilter
 
-import { parseEpisodes, formatTime } from "./episodes.js";
+import { parseEpisodes, formatTime, cueStarts, paragraphAt, escapeHtml } from "./episodes.js";
 import { categoryOf } from "./categories.js";
 
 const $ = (id) => document.getElementById(id);
@@ -8,6 +8,8 @@ const $$ = (sel) => document.querySelectorAll(sel);
 
 let episodes = [];
 let currentEpisode = null;
+let currentStarts = [];
+let currentPara = -1;
 let activeFilter = "all";
 let activeCam = "loop"; // "loop" | "host" | "bunker" | "story"
 
@@ -34,6 +36,8 @@ let audioCtx = null;
 let analyser = null;
 let source = null;
 let animFrameId = null;
+let barGradients = null; // [normal, peak], rebuilt on resize — not 32 per frame
+const BARS = 32;
 
 // Dossier modal
 const dossierModal = $("dossier-modal");
@@ -58,8 +62,12 @@ async function init() {
     console.error("Failed to load episodes manifest:", err);
   }
 
-  if (episodes.length > 0) {
-    loadEpisode(episodes[0], false);
+  if (episodes.length === 0) {
+    btnPlay.disabled = true;
+  } else {
+    // A shared link (#<episode-id>) opens that release; otherwise the latest.
+    const wanted = episodes.find((e) => e.id === location.hash.slice(1));
+    loadEpisode(wanted || episodes[0], false);
   }
 
   renderFeed();
@@ -78,6 +86,12 @@ function switchCamera(cam) {
   bunkerLayer.classList.add("hidden");
   stageOverlay.classList.add("hidden");
 
+  // The cover video only decodes while it is the visible camera.
+  if (heroVideo) {
+    if (cam === "loop") heroVideo.play().catch(() => {});
+    else heroVideo.pause();
+  }
+
   if (cam === "loop") {
     // Let video display
   } else if (cam === "host") {
@@ -92,10 +106,16 @@ function switchCamera(cam) {
 
 function loadEpisode(ep, autoPlay = true) {
   currentEpisode = ep;
+  currentStarts = cueStarts(ep);
+  currentPara = -1;
+  const badge = $("broadcast-badge");
+  if (badge) badge.textContent = `${ep === episodes[0] ? "LATEST RELEASE" : "ARCHIVE"} · ${ep.hour || "HOURLY"} UTC`;
+  if (location.hash.slice(1) !== ep.id) history.replaceState(null, "", `#${ep.id}`);
 
   // Update spotlight UI
   $("ep-title").textContent = ep.title;
   $("ep-subject").textContent = ep.subject;
+  renderSources(ep);
   $("ep-category").textContent = categoryOf(ep.category).label.toUpperCase();
   $("ep-duration").textContent = `⏱ ${formatTime(ep.seconds)} MIN`;
   $("ep-time").textContent = `${ep.date} · ${ep.hour || "HOURLY"} UTC`;
@@ -106,7 +126,7 @@ function loadEpisode(ep, autoPlay = true) {
     if (ep.cover_video) {
       heroVideo.src = ep.cover_video;
       heroVideo.load();
-      heroVideo.play().catch(() => {});
+      if (activeCam === "loop") heroVideo.play().catch(() => {});
     }
   }
 
@@ -128,6 +148,26 @@ function loadEpisode(ep, autoPlay = true) {
   } else {
     pauseAudio();
   }
+}
+
+// Every published episode carries its sources (engine/editorial.mjs).
+function renderSources(ep) {
+  const box = $("ep-sources-box");
+  const list = $("ep-sources");
+  if (!box || !list) return;
+  list.textContent = "";
+  const sources = (Array.isArray(ep.sources) ? ep.sources : []).filter((s) => /^https:\/\//.test(s?.url || ""));
+  for (const s of sources) {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = s.url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.textContent = s.title || s.url;
+    li.append(a, ` · ${s.published || ""}${s.speaker ? ` · ${s.speaker}` : ""}`);
+    list.append(li);
+  }
+  box.hidden = sources.length === 0;
 }
 
 function playAudio() {
@@ -162,11 +202,10 @@ function syncPlayback() {
 
   if (!currentEpisode) return;
 
-  // Subtitle cue sync by estimated paragraph timing
-  const nParas = currentEpisode.paragraphs.length;
-  const paraDuration = (currentEpisode.seconds || 180) / nParas;
-  const paraIdx = Math.min(nParas - 1, Math.floor(t / paraDuration));
-  if (currentEpisode.paragraphs[paraIdx]) {
+  // Subtitle cue sync: real cues from voice.py, else word-weighted estimate
+  const paraIdx = paragraphAt(currentStarts, t);
+  if (paraIdx !== currentPara && currentEpisode.paragraphs[paraIdx]) {
+    currentPara = paraIdx;
     cueText.textContent = `"${currentEpisode.paragraphs[paraIdx]}"`;
   }
 
@@ -179,7 +218,7 @@ function syncPlayback() {
     }
 
     if (activeFrame && activeFrame.src) {
-      if (stageImg.src !== activeFrame.src) {
+      if (stageImg.getAttribute("src") !== activeFrame.src) {
         stageImg.src = activeFrame.src;
       }
       stageCaption.textContent = activeFrame.caption || "";
@@ -202,8 +241,39 @@ function setupSpectrumVisualizer() {
 
 function resizeCanvas() {
   if (!canvas) return;
-  canvas.width = canvas.parentElement.clientWidth || 500;
-  canvas.height = 36;
+  // Draw at device pixels so the bars stay sharp on phones (DPR 2-3).
+  const dpr = Math.min(window.devicePixelRatio || 1, 3);
+  const cssW = canvas.parentElement.clientWidth || 500;
+  canvas.style.width = cssW + "px";
+  canvas.style.height = "36px";
+  canvas.width = Math.round(cssW * dpr);
+  canvas.height = Math.round(36 * dpr);
+  barGradients = null;
+  if (audio.paused) drawDefaultSpectrum();
+}
+
+function gradients() {
+  if (barGradients) return barGradients;
+  // Canvas-wide vertical gradients: a bar of any height shows the right slice.
+  const normal = canvasCtx.createLinearGradient(0, 0, 0, canvas.height);
+  normal.addColorStop(0, "#00e5ff");
+  normal.addColorStop(1, "rgba(0, 229, 255, 0.3)");
+  const peak = canvasCtx.createLinearGradient(0, 0, 0, canvas.height);
+  peak.addColorStop(0, "#ffb300");
+  peak.addColorStop(0.35, "#00e5ff");
+  peak.addColorStop(1, "rgba(0, 229, 255, 0.3)");
+  return (barGradients = [normal, peak]);
+}
+
+// Speech energy sits below ~5 kHz. Map 32 bars logarithmically over
+// 80 Hz-8 kHz instead of linearly over 0-24 kHz, where most bars stayed flat.
+let barBins = null;
+function binsForBars(binCount, sampleRate) {
+  const hzPerBin = sampleRate / 2 / binCount;
+  const lo = 80, hi = Math.min(8000, sampleRate / 2);
+  const edges = [];
+  for (let i = 0; i <= BARS; i++) edges.push(Math.round(lo * Math.pow(hi / lo, i / BARS) / hzPerBin));
+  return edges.map((e, i) => i < BARS ? [Math.min(e, binCount - 1), Math.max(e + 1, Math.min(edges[i + 1], binCount))] : null).slice(0, BARS);
 }
 
 function initAudioContext() {
@@ -215,11 +285,17 @@ function initAudioContext() {
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     audioCtx = new AudioContext();
     analyser = audioCtx.createAnalyser();
-    analyser.fftSize = 64;
+    analyser.fftSize = 1024;
     analyser.smoothingTimeConstant = 0.8;
     source = audioCtx.createMediaElementSource(audio);
     source.connect(analyser);
     analyser.connect(audioCtx.destination);
+    barBins = binsForBars(analyser.frequencyBinCount, audioCtx.sampleRate);
+    // iOS Safari suspends/"interrupts" the context on calls, lock and tab
+    // switches; resume when the page comes back and audio should be playing.
+    document.addEventListener("visibilitychange", () => {
+      if (!document.hidden && !audio.paused && audioCtx.state !== "running") audioCtx.resume();
+    });
   } catch (err) {
     console.warn("AudioContext init error:", err);
   }
@@ -228,11 +304,11 @@ function initAudioContext() {
 function drawDefaultSpectrum() {
   if (!canvasCtx || !canvas) return;
   canvasCtx.clearRect(0, 0, canvas.width, canvas.height);
-  const bars = 32;
-  const barWidth = canvas.width / bars - 2;
-  for (let i = 0; i < bars; i++) {
-    const h = 3;
-    const x = i * (barWidth + 2);
+  const gap = canvas.width / BARS > 6 ? 2 : 1;
+  const barWidth = canvas.width / BARS - gap;
+  const h = Math.max(2, Math.round(canvas.height / 12));
+  for (let i = 0; i < BARS; i++) {
+    const x = i * (barWidth + gap);
     canvasCtx.fillStyle = "rgba(0, 229, 255, 0.2)";
     canvasCtx.fillRect(x, canvas.height - h, barWidth, h);
   }
@@ -241,8 +317,9 @@ function drawDefaultSpectrum() {
 function startSpectrumLoop() {
   if (animFrameId) cancelAnimationFrame(animFrameId);
 
-  const bufferLength = analyser ? analyser.frequencyBinCount : 32;
+  const bufferLength = analyser ? analyser.frequencyBinCount : BARS;
   const dataArray = new Uint8Array(bufferLength);
+  const levels = new Float32Array(BARS);
 
   function renderFrame() {
     animFrameId = requestAnimationFrame(renderFrame);
@@ -253,38 +330,31 @@ function startSpectrumLoop() {
       return;
     }
 
-    if (analyser) {
+    if (analyser && barBins) {
       analyser.getByteFrequencyData(dataArray);
+      for (let i = 0; i < BARS; i++) {
+        const [a, b] = barBins[i];
+        let max = 0;
+        for (let k = a; k < b; k++) if (dataArray[k] > max) max = dataArray[k];
+        levels[i] = max / 255;
+      }
     } else {
       // Simulated responsive pulse if Web Audio is restricted
-      for (let i = 0; i < bufferLength; i++) {
-        dataArray[i] = Math.floor(Math.sin(Date.now() / 150 + i * 0.4) * 80 + 120);
-      }
+      const now = performance.now();
+      for (let i = 0; i < BARS; i++) levels[i] = (Math.sin(now / 150 + i * 0.4) * 80 + 120) / 255;
     }
 
     canvasCtx.clearRect(0, 0, canvas.width, canvas.height);
-    const bars = 32;
-    const barWidth = (canvas.width / bars) - 2;
+    const gap = canvas.width / BARS > 6 ? 2 : 1;
+    const barWidth = (canvas.width / BARS) - gap;
+    const minH = Math.max(2, Math.round(canvas.height / 12));
+    const [normal, peak] = gradients();
 
-    for (let i = 0; i < bars; i++) {
-      const val = dataArray[i] || 0;
-      const percent = val / 255;
-      const h = Math.max(3, percent * (canvas.height - 4));
-      const x = i * (barWidth + 2);
-      const y = canvas.height - h;
-
-      // Color gradient from cyber cyan to amber at peak
-      const gradient = canvasCtx.createLinearGradient(0, y, 0, canvas.height);
-      if (percent > 0.75) {
-        gradient.addColorStop(0, "#ffb300");
-        gradient.addColorStop(1, "#00e5ff");
-      } else {
-        gradient.addColorStop(0, "#00e5ff");
-        gradient.addColorStop(1, "rgba(0, 229, 255, 0.3)");
-      }
-
-      canvasCtx.fillStyle = gradient;
-      canvasCtx.fillRect(x, y, barWidth, h);
+    for (let i = 0; i < BARS; i++) {
+      const percent = levels[i];
+      const h = Math.max(minH, percent * (canvas.height - 4));
+      canvasCtx.fillStyle = percent > 0.75 ? peak : normal;
+      canvasCtx.fillRect(i * (barWidth + gap), canvas.height - h, barWidth, h);
     }
   }
 
@@ -298,6 +368,15 @@ function renderFeed() {
     : episodes.filter(e => e.category === activeFilter);
 
   $("feed-count").textContent = `${filtered.length} Release${filtered.length === 1 ? "" : "s"}`;
+  if (filtered.length === 0) {
+    const empty = document.createElement("p");
+    empty.className = "feed-empty";
+    empty.textContent = episodes.length === 0
+      ? "No briefings published yet. Each one goes up only once every claim in it links to a real, dated source."
+      : "No briefings in this category yet.";
+    episodesGrid.appendChild(empty);
+    return;
+  }
 
   filtered.forEach(ep => {
     const card = document.createElement("article");
@@ -306,17 +385,17 @@ function renderFeed() {
 
     card.innerHTML = `
       <div class="card-media">
-        <video class="card-video" loop muted playsinline poster="${ep.thumb}">
-          <source src="${ep.cover_video || ''}" type="video/mp4">
+        <video class="card-video" loop muted playsinline preload="none" poster="${escapeHtml(ep.thumb)}">
+          <source src="${escapeHtml(ep.cover_video || '')}" type="video/mp4">
         </video>
-        <span class="card-time-badge">${ep.hour || '00:00'} UTC</span>
+        <span class="card-time-badge">${escapeHtml(ep.hour || '00:00')} UTC</span>
       </div>
       <div class="card-body">
         <div class="card-tags">
-          <span class="badge category-badge">${categoryOf(ep.category).label}</span>
+          <span class="badge category-badge">${escapeHtml(categoryOf(ep.category).label)}</span>
         </div>
-        <h3 class="card-title">${ep.title}</h3>
-        <p class="card-desc">${ep.subject}</p>
+        <h3 class="card-title">${escapeHtml(ep.title)}</h3>
+        <p class="card-desc">${escapeHtml(ep.subject)}</p>
         <div class="card-footer">
           <span class="card-duration">⏱ ${formatTime(ep.seconds)}</span>
           <button type="button" class="btn-card-play">LISTEN NOW ▶</button>
@@ -324,10 +403,11 @@ function renderFeed() {
       </div>
     `;
 
-    // Looping preview on card hover
+    // Looping preview on card hover. The URL sits on a <source> child, so
+    // video.src is always "" — checking it meant previews never played.
     const video = card.querySelector("video");
     card.addEventListener("mouseenter", () => {
-      if (video && video.src) video.play().catch(() => {});
+      if (video && ep.cover_video) video.play().catch(() => {});
     });
     card.addEventListener("mouseleave", () => {
       if (video) video.pause();
@@ -346,6 +426,24 @@ function setupEventListeners() {
   btnPlay.addEventListener("click", togglePlay);
 
   audio.addEventListener("timeupdate", syncPlayback);
+  // Lock-screen controls, headsets and other tabs can pause/play the element
+  // without going through our button; mirror its real state.
+  audio.addEventListener("play", () => {
+    btnPlay.classList.add("playing");
+    playIcon.textContent = "❚❚";
+    startSpectrumLoop();
+  });
+  audio.addEventListener("pause", () => {
+    btnPlay.classList.remove("playing");
+    playIcon.textContent = "▶";
+  });
+  // The file, not the manifest, decides how long the seek bar is.
+  audio.addEventListener("loadedmetadata", () => {
+    if (Number.isFinite(audio.duration) && audio.duration > 0) {
+      seekBar.max = audio.duration;
+      totalTimeEl.textContent = formatTime(audio.duration);
+    }
+  });
   audio.addEventListener("ended", () => {
     pauseAudio();
     audio.currentTime = 0;
@@ -415,9 +513,14 @@ function setupEventListeners() {
 
   // Share episode button
   $("btn-share").addEventListener("click", () => {
-    if (navigator.clipboard && currentEpisode) {
-      navigator.clipboard.writeText(window.location.href);
-      alert("ZeroFilter release link copied to clipboard!");
+    if (!currentEpisode) return;
+    const url = `${location.origin}${location.pathname}#${currentEpisode.id}`;
+    if (navigator.share) {
+      navigator.share({ title: currentEpisode.title, url }).catch(() => {});
+    } else if (navigator.clipboard) {
+      navigator.clipboard.writeText(url).then(() => {
+        $("btn-share").title = "Link copied";
+      }).catch(() => {});
     }
   });
 

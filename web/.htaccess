@@ -1,0 +1,28 @@
+# ZeroFilter — https://photon-bounce.com/zerofilter/
+Options -Indexes
+
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType audio/mpeg .mp3
+  AddType video/mp4 .mp4
+  AddType application/json .json
+</IfModule>
+
+# LiteSpeed has cached 404s and day-old JS on this host. Keep its page cache
+# off; the feed (data/episodes.json) must always be current.
+<IfModule LiteSpeed>
+  CacheDisable public /
+  CacheDisable private /
+</IfModule>
+
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html|json)$">
+    Header set Cache-Control "no-cache, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.(js|css)$">
+    Header set Cache-Control "private, max-age=3600, must-revalidate"
+  </FilesMatch>
+  <FilesMatch "\.(webp|mp3|mp4)$">
+    Header set Cache-Control "private, max-age=86400"
+  </FilesMatch>
+</IfModule>

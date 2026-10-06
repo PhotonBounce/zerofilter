@@ -17,7 +17,7 @@ export function validateEpisode(ep) {
   const audio = typeof ep.audio === "string" ? ep.audio : `audio/${ep.id}.mp3`;
 
   const frames = Array.isArray(ep.art?.frames) ? ep.art.frames.map((f, i) => ({
-    t: Number(f.t) || i * (seconds / (ep.art.frames.length || 1)),
+    t: Number.isFinite(Number(f.t)) && f.t !== null && f.t !== "" ? Number(f.t) : i * (seconds / (ep.art.frames.length || 1)),
     src: f.src,
     caption: f.caption || ""
   })) : [];
@@ -32,9 +32,36 @@ export function validateEpisode(ep) {
   };
 }
 
+// Newest first: the hero shows episodes[0], so the order must not depend on
+// how the manifest happens to be written.
 export function parseEpisodes(data) {
   const list = Array.isArray(data) ? data : (data?.episodes || []);
-  return list.map(validateEpisode).filter(Boolean);
+  return list.map(validateEpisode).filter(Boolean)
+    .sort((a, b) => `${b.date || ""} ${b.hour || ""}`.localeCompare(`${a.date || ""} ${a.hour || ""}`));
+}
+
+// Start time (s) of each paragraph. Uses ep.cues when the voice engine wrote
+// real timings; otherwise estimates by word count (paragraphs run 46-92 words,
+// so an equal split drifts by 20+ seconds).
+export function cueStarts(ep) {
+  const n = ep.paragraphs.length;
+  if (Array.isArray(ep.cues) && ep.cues.length === n && ep.cues.every(Number.isFinite)) return ep.cues.slice();
+  const words = ep.paragraphs.map((p) => p.split(/\s+/).filter(Boolean).length);
+  const total = words.reduce((a, b) => a + b, 0) || 1;
+  const starts = [];
+  let acc = 0;
+  for (const w of words) { starts.push((acc / total) * ep.seconds); acc += w; }
+  return starts;
+}
+
+export function paragraphAt(starts, t) {
+  let idx = 0;
+  for (let i = 0; i < starts.length; i++) if (t >= starts[i]) idx = i;
+  return idx;
+}
+
+export function escapeHtml(s) {
+  return String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 }
 
 export function formatTime(seconds) {

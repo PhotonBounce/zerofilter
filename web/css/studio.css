@@ -549,3 +549,66 @@
   font-size: 0.85rem;
   color: var(--text-secondary);
 }
+
+/* ---- Phones & tablets (QA 2026-10-06: at 360px the STORY ART camera and the
+   dossier button sat off-screen, and the category filters vanished < 1024px) ---- */
+@media (max-width: 1024px) {
+  /* minmax(0, 1fr): the nowrap camera row must not widen the hero card */
+  .hero-spotlight { grid-template-columns: minmax(0, 1fr); }
+  .hero-spotlight > * { min-width: 0; }
+  .header-inner { flex-wrap: wrap; gap: 0.6rem 1rem; }
+  .nav-links {
+    display: flex;
+    order: 3;
+    width: 100%;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .nav-links::-webkit-scrollbar { display: none; }
+  .nav-btn { flex: 0 0 auto; }
+}
+
+@media (max-width: 600px) {
+  .zf-header { padding: 0.6rem max(16px, env(safe-area-inset-left)); }
+  .brand { gap: 0.5rem; min-width: 0; }
+  .live-pill { display: none; }
+  .dossier-tag, .host-label { display: none; }
+  .host-pill-btn { padding: 0.3rem; }
+  .host-avatar-mini { width: 32px; height: 32px; }
+
+  .studio-switcher {
+    left: 0.5rem;
+    right: 0.5rem;
+    top: 0.5rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .studio-switcher::-webkit-scrollbar { display: none; }
+  .cam-btn { flex: 0 0 auto; white-space: nowrap; padding: 0.4rem 0.55rem; }
+
+  /* 44px touch targets for the transport */
+  .speed-btn, .btn-share { min-height: 44px; min-width: 44px; }
+}
+
+/* Firefox range thumb (only the WebKit thumb was styled) */
+.seek-bar::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--accent-cyan);
+  box-shadow: 0 0 8px rgba(0, 229, 255, 0.8);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pulse-dot, .live-rec-dot { animation: none; }
+}
+
+/* Sources list + empty feed (editorial gate, 2026-10-06) */
+.ep-sources { margin: 0 0 1rem; font-size: 0.85rem; color: var(--text-secondary); }
+.ep-sources summary { cursor: pointer; font-family: var(--font-mono); font-size: 0.75rem; letter-spacing: 0.5px; color: var(--accent-cyan); }
+.ep-sources ol { margin: 0.5rem 0 0 1.2rem; display: grid; gap: 0.3rem; }
+.ep-sources a { color: var(--text-primary); overflow-wrap: anywhere; }
+.feed-empty { grid-column: 1 / -1; color: var(--text-muted); font-size: 0.95rem; padding: 2rem 0; }
+.btn-play:disabled { opacity: 0.4; cursor: not-allowed; }
