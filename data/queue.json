@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-12-00",
-      "date": "2026-10-12",
-      "hour": "00:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Quantum Diamond Nitrogen-Vacancy Vector Magnetometry, Deep Subterranean Tunnel Mapping & Soviet Underground Vaults"
-    },
-    {
       "id": "2026-10-12-01",
       "date": "2026-10-12",
       "hour": "01:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Kuril Islands Bastion Anti-Submarine Barriers, Sea of Okhotsk Deep Sanctuary & Soviet Pacific Fleet Chokepoints"
+    },
+    {
+      "id": "2026-10-12-03",
+      "date": "2026-10-12",
+      "hour": "03:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Pentagon Rare Earth Munitions Stockpile Deficits, Chinese Smuggling Rings & Soviet Line X Metals"
     }
   ]
 }
