@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **120 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **128 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 14 completed, 14 total releases published.
-  - `data/queue.json`: Head item is Episode 15 (`2026-10-06-15`).
-  - `data/registry.json`: 14 active releases logged.
+  - `status/pipeline_state.json`: Episode 15 completed, 15 total releases published.
+  - `data/queue.json`: Head item is Episode 16 (`2026-10-06-16`).
+  - `data/registry.json`: 15 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -41,9 +41,10 @@
   - `2026-10-06-12` (171s) — Taiwan Strait Hellscape Doctrine, Beijing-Moscow Axis & EUV Chokepoints
   - `2026-10-06-13` (178s) — Quantum Vacuum Fluctuations, Casimir Micro-Thrusters & Orbital Surveillance
   - `2026-10-06-14` (180s) — Roger Penrose Orch-OR Quantum Biology, Non-Computable Algorithms & KGB Bio-Telemetry
+  - `2026-10-06-15` (174s) — Baltic Sea GPS Jamming Corridors, Kremlin Shadow Tankers & Electronic Warfare Countermeasures
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 84 synchronized frames in `web/art/`.
+- **Story Art Frames:** 90 synchronized frames in `web/art/`.
 - **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root.
 
 ---

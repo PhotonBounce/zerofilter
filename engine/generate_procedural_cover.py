@@ -3,8 +3,8 @@
 Procedural Offline Cover Generator for ZeroFilter Pipeline.
 Fallback engine when external cloud image generation APIs hit rate limits or 429 quotas.
 Generates high-definition (1280x720) cyber-noir scientific broadcast visuals:
-- Multi-frequency quantum wave interference fields
-- Nanoscale lattice / microtubule matrix representations
+- Themes: 'quantum', 'consciousness', 'geopolitics', 'corruption'
+- Multi-frequency quantum wave interference fields or radar/sonar vector grids
 - CRT scanlines, chromatic aberration & phosphor blooms
 - Classified intelligence heads-up telemetry HUD overlays
 """
@@ -15,65 +15,98 @@ import random
 import sys
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-def generate_quantum_field(width=1280, height=720, theme="consciousness"):
-    im = Image.new("RGB", (width, height), (8, 12, 18))
+def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
+    im = Image.new("RGB", (width, height), (6, 10, 16))
     draw = ImageDraw.Draw(im)
 
-    # 1. Background radial gradient & ambient glow
     cx, cy = width // 2, height // 2
-    for r in range(max(width, height), 0, -16):
-        intensity = int(35 * (1.0 - r / max(width, height)))
-        color = (intensity // 2, intensity, int(intensity * 1.5))
-        draw.ellipse([cx - r, cy - r, cx + r, cy + r], outline=color, width=8)
 
-    # 2. Procedural quantum interference / microtubule lattice waves
-    for y in range(0, height, 4):
-        points = []
-        for x in range(0, width, 10):
-            # Interference of two spatial frequencies
-            w1 = math.sin(x * 0.015 + y * 0.02)
-            w2 = math.cos(x * 0.008 - y * 0.01)
-            w3 = math.sin((x + y) * 0.005)
-            dy = (w1 + w2 + w3) * 18.0
-            points.append((x, y + dy))
-        
-        # Color gradient based on depth/position
-        alpha = int(90 + 80 * math.sin(y * 0.01))
-        line_color = (
-            int(15 + 20 * math.sin(y * 0.02)),
-            int(120 + 80 * math.cos(y * 0.015)),
-            int(180 + 70 * math.sin(y * 0.01))
-        )
-        if len(points) > 1:
-            draw.line(points, fill=line_color, width=1)
+    if theme == "geopolitics":
+        # Amber/Cyan Radar & Maritime Electronic Warfare Sweep
+        # 1. Concentric radar range rings
+        for r in range(60, max(width, height), 70):
+            draw.ellipse([cx - r, cy - r, cx + r, cy + r], outline=(15, 60, 80), width=1)
+            # Distance tick markers
+            draw.text((cx + r - 35, cy + 4), f"{r*2}NM", fill=(20, 90, 110))
 
-    # 3. Microtubule hexagonal / lattice nodes if theme == consciousness
-    random.seed(42)
-    for _ in range(45):
-        nx = random.randint(150, width - 150)
-        ny = random.randint(100, height - 100)
-        nr = random.randint(4, 18)
-        draw.ellipse([nx - nr, ny - nr, nx + nr, ny + nr], outline=(0, 240, 255), width=2)
-        draw.ellipse([nx - 2, ny - 2, nx + 2, ny + 2], fill=(255, 255, 255))
-        # Connect nearby nodes
-        if random.random() > 0.4:
-            draw.line([(nx, ny), (nx + random.randint(-80, 80), ny + random.randint(-60, 60))], fill=(0, 180, 220), width=1)
+        # 2. Polar radar grid spokes
+        for deg in range(0, 360, 30):
+            rad = math.radians(deg)
+            ex = cx + int(math.cos(rad) * max(width, height))
+            ey = cy + int(math.sin(rad) * max(width, height))
+            draw.line([(cx, cy), (ex, ey)], fill=(12, 45, 60), width=1)
 
-    # 4. Blur pass for bloom & atmosphere
+        # 3. Radar sweep cone glow
+        sweep_angle = 125
+        for offset in range(35):
+            rad = math.radians(sweep_angle - offset)
+            alpha_int = int(80 * (1.0 - offset / 35.0))
+            ex = cx + int(math.cos(rad) * 600)
+            ey = cy + int(math.sin(rad) * 600)
+            draw.line([(cx, cy), (ex, ey)], fill=(int(alpha_int * 0.2), alpha_int, int(alpha_int * 1.2)), width=3)
+
+        # 4. Maritime track vectors & spoofing anomaly targets
+        random.seed(105)
+        for i in range(28):
+            tx = random.randint(120, width - 120)
+            ty = random.randint(80, height - 80)
+            # Hostile / Shadow fleet tanker (Amber/Orange) vs Friendly (Cyan)
+            is_shadow = (i % 3 == 0)
+            col = (255, 140, 40) if is_shadow else (0, 220, 240)
+            
+            # Target blip
+            draw.rectangle([tx - 4, ty - 4, tx + 4, ty + 4], outline=col, width=1)
+            draw.point((tx, ty), fill=(255, 255, 255))
+            
+            # Heading vector line
+            angle = random.uniform(0, 2 * math.pi)
+            v_len = random.randint(20, 50)
+            vx = tx + int(math.cos(angle) * v_len)
+            vy = ty + int(math.sin(angle) * v_len)
+            draw.line([(tx, ty), (vx, vy)], fill=col, width=1)
+            
+            # AIS metadata callout
+            tag = f"SPOOF-AIS #{8400+i}" if is_shadow else f"TRK-{100+i}"
+            draw.text((tx + 8, ty - 8), tag, fill=col)
+
+        # 5. GPS EW Jamming distortion zone (wavy interference)
+        for jx in range(250, 550, 6):
+            for jy in range(150, 400, 6):
+                dist = math.hypot(jx - 400, jy - 275)
+                if dist < 120:
+                    draw.point((jx + int(math.sin(jy*0.2)*4), jy), fill=(240, 70, 40))
+
+    else:
+        # Quantum / Consciousness wave field
+        for r in range(max(width, height), 0, -16):
+            intensity = int(35 * (1.0 - r / max(width, height)))
+            color = (intensity // 2, intensity, int(intensity * 1.5))
+            draw.ellipse([cx - r, cy - r, cx + r, cy + r], outline=color, width=8)
+
+        for y in range(0, height, 4):
+            points = []
+            for x in range(0, width, 10):
+                w1 = math.sin(x * 0.015 + y * 0.02)
+                w2 = math.cos(x * 0.008 - y * 0.01)
+                dy = (w1 + w2) * 16.0
+                points.append((x, y + dy))
+            line_color = (int(15 + 20 * math.sin(y * 0.02)), int(120 + 80 * math.cos(y * 0.015)), int(180 + 70 * math.sin(y * 0.01)))
+            if len(points) > 1:
+                draw.line(points, fill=line_color, width=1)
+
+    # Ambient bloom filter
     bloom = im.filter(ImageFilter.GaussianBlur(radius=3))
-    im = Image.blend(im, bloom, 0.35)
+    im = Image.blend(im, bloom, 0.3)
     draw = ImageDraw.Draw(im)
 
-    # 5. Cyber-noir CRT scanlines
+    # Cyber-noir CRT scanlines
     for y in range(0, height, 3):
         draw.line([(0, y), (width, y)], fill=(0, 0, 0), width=1)
 
-    # 6. HUD / Telemetry Overlays
-    # Border & crosshairs
+    # Frame border & corner brackets
     draw.rectangle([20, 20, width - 20, height - 20], outline=(0, 220, 240), width=1)
-    draw.rectangle([24, 24, width - 24, height - 24], outline=(0, 100, 120), width=1)
+    draw.rectangle([24, 24, width - 24, height - 24], outline=(0, 90, 110), width=1)
     
-    # Corner brackets
     c_len = 30
     for cx_c, cy_c in [(20, 20), (width - 20, 20), (20, height - 20), (width - 20, height - 20)]:
         sx = 1 if cx_c == 20 else -1
@@ -81,17 +114,21 @@ def generate_quantum_field(width=1280, height=720, theme="consciousness"):
         draw.line([(cx_c, cy_c), (cx_c + sx * c_len, cy_c)], fill=(0, 255, 240), width=3)
         draw.line([(cx_c, cy_c), (cx_c, cy_c + sy * c_len)], fill=(0, 255, 240), width=3)
 
-    # Status text overlay
+    # Classified Telemetry Overlay
     draw.text((40, 40), "[CLASSIFIED INTEL // ZEROFILTER BROADCAST TELEMETRY]", fill=(0, 255, 240))
-    draw.text((40, 60), "ORCH-OR QUANTUM MICROTUBULE RESONANCE // SIGINT FREQ: 432.8 MHz", fill=(0, 180, 200))
+    if theme == "geopolitics":
+        draw.text((40, 60), "BALTIC THEATER SIGINT // EW GPS SPOOFING CORRIDOR // COORD: 55.4°N, 19.8°E", fill=(255, 160, 50))
+    else:
+        draw.text((40, 60), "QUANTUM SPECTROMETRY // RESONANCE SPECTRUM 432.8 MHz", fill=(0, 180, 200))
+        
     draw.text((40, height - 60), "SYS: FALLBACK PROCEDURAL GENERATOR // RESTRAINT LEVEL: UNREDACTED", fill=(0, 255, 200))
-    draw.text((width - 320, height - 60), "HOST: REX VANCE // 24/7 AUTOPILOT", fill=(0, 220, 255))
+    draw.text((width - 340, height - 60), "HOST: REX VANCE // 24/7 AUTOPILOT", fill=(0, 220, 255))
 
     return im
 
 if __name__ == "__main__":
     out_path = sys.argv[1] if len(sys.argv) > 1 else "procedural_test.webp"
-    theme = sys.argv[2] if len(sys.argv) > 2 else "consciousness"
-    img = generate_quantum_field(theme=theme)
+    theme = sys.argv[2] if len(sys.argv) > 2 else "geopolitics"
+    img = generate_cover(theme=theme)
     img.save(out_path, "WEBP", quality=92)
-    print(f"[+] Successfully generated procedural cover: {out_path}")
+    print(f"[+] Successfully generated procedural cover: {out_path} ({theme})")

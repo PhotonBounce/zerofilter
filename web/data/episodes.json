@@ -2,6 +2,61 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-15",
+      "date": "2026-10-06",
+      "hour": "15:00",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Baltic Sea GPS Jamming Corridors, Kremlin Shadow Tankers & Electronic Warfare Countermeasures",
+      "subject": "Hourly uncensored breakdown: Yuri Shvets analyzes Kaliningrad Tobol electronic warfare batteries jamming Baltic civil aviation, illicit Russian shadow fleet sanctions-evasion oil tankers, and NATO autonomous counter-EW telemetry.",
+      "seconds": 174,
+      "audio": "audio/2026-10-06-15.mp3",
+      "thumb": "thumbs/2026-10-06-15.webp",
+      "cover_video": "thumbs/2026-10-06-15.mp4",
+      "paragraphs": [
+        "ZeroFilter broadcast fifteen. I'm Rex Vance. If you're flying commercial airspace anywhere between Helsinki, Tallinn, and Gdansk tonight, your aircraft's primary satellite navigation receiver is flashing intermittent warning flags. Thousands of civilian flights across Northern Europe have reported complete loss of GPS lock, forced to rely on legacy inertial navigation and terrestrial radio beacons. This is not atmospheric turbulence or solar flare interference; this is persistent, offensive electronic warfare radiating straight out of Russia's Kaliningrad enclave.",
+        "Former KGB foreign counter-intelligence analyst Yuri Shvets breaks down the operational hardware: Russia's 14214 military unit operating the Tobol and Zhitel electronic warfare complexes near Pionersky. Originally designed as defensive anti-satellite protection systems for ballistic missile command centers, Moscow has turned these high-power directional emitters into an asymmetric bludgeon against European critical infrastructure, testing NATO's response thresholds without firing a single kinetic munition.",
+        "Why blanket the Baltic corridor in navigation distortion? Yuri Shvets exposes the dual objective: first, tactical shielding for the Kremlin's illicit shadow fleet. Hundreds of uninsured, rust-bucket crude oil tankers under false flags of convenience traverse these narrow maritime choke points, smuggling sanctioned Russian petroleum to finance Moscow's war effort. By spoofing Automatic Identification System transmitters and blinding civilian tracking satellites, these ghost vessels slip through Danish straits undetected while Western regulators dither.",
+        "The second objective is psychological testing\u2014what Yuri Shvets identifies as classic Soviet reflexive control doctrine. By creating an ambient environment of digital friction and civil aviation vulnerability, Moscow projects an illusion of technological invulnerability while measuring the exact latency and political fractures of Baltic and Nordic governments. If the West treats GPS jamming as an acceptable inconvenience rather than a hostile violation of international aviation treaties, the gray-zone perimeter advances.",
+        "NATO's counter-strategy, however, is rendering this electronic bullying obsolete. Modern military strike packages and autonomous reconnaissance platforms no longer depend on fragile civilian satellite constellations. Instead, allied forces are deploying quantum gravimetric map-matching and optical landmark correlation engines\u2014guidance suites that operate in total radio silence, completely immune to RF jamming and spoofing pulses.",
+        "Here is your bottom-line truth: dictatorships rely on friction, spoofing, and shadows because transparency is fatal to their survival. Yuri Shvets' analysis cuts through the diplomatic noise: you cannot negotiate with gray-zone aggression; you expose the logistics network, seize the ghost tankers, and out-engineer their jamming arrays. I'm Rex Vance. Keep your beacons tuned to raw signal, verify every heading, and never mistake electronic noise for real authority."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-15/f01.webp",
+            "caption": "Baltic Sea GPS Jamming & Civil Aviation Disruption"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-06-15/f02.webp",
+            "caption": "Kaliningrad Tobol & Zhitel Electronic Warfare Arrays"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-06-15/f03.webp",
+            "caption": "Yuri Shvets on Kremlin Shadow Tanker Fleet Telemetry"
+          },
+          {
+            "t": 95,
+            "src": "art/2026-10-06-15/f04.webp",
+            "caption": "Reflexive Control Gray-Zone Doctrine & NATO Response"
+          },
+          {
+            "t": 125,
+            "src": "art/2026-10-06-15/f05.webp",
+            "caption": "Quantum Gravimetric Navigation & Optical Land-Matching"
+          },
+          {
+            "t": 155,
+            "src": "art/2026-10-06-15/f06.webp",
+            "caption": "Rex Vance Baltic SIGINT Summary"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026-10-06-14",
       "date": "2026-10-06",
       "hour": "14:00",
