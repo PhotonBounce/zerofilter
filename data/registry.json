@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 140,
+  "total_releases": 141,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1120,6 +1120,14 @@
       "title": "Topological Quantum Memory in Toric Code Lattices, Anyon Syndrome Extraction & Soviet Cipher Vaults",
       "audio": "audio/2026-10-11-20.mp3",
       "cover_video": "thumbs/2026-10-11-20.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-11-21",
+      "seconds": 176,
+      "title": "Thomas Campbell Multiverse Rendering, Reality Simulation Latency & Soviet Bio-Information psi-Arrays",
+      "audio": "audio/2026-10-11-21.mp3",
+      "cover_video": "thumbs/2026-10-11-21.mp4",
       "status": "published_production"
     }
   ]

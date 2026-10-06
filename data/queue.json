@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-21",
-      "date": "2026-10-11",
-      "hour": "21:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Thomas Campbell Multiverse Rendering, Reality Simulation Latency & Soviet Bio-Information psi-Arrays"
-    },
-    {
       "id": "2026-10-11-22",
       "date": "2026-10-11",
       "hour": "22:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Pentagon Joint All-Domain Command and Control (JADC2) Cloud Pass-Throughs & KGB SIGINT Interception"
+    },
+    {
+      "id": "2026-10-12-00",
+      "date": "2026-10-12",
+      "hour": "00:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Quantum Diamond Nitrogen-Vacancy Vector Magnetometry, Deep Subterranean Tunnel Mapping & Soviet Underground Vaults"
     }
   ]
 }

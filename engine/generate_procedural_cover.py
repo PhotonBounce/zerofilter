@@ -3059,6 +3059,76 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "KGB 8TH CHIEF DIR CRYPTOGRAPHY", fill=(255, 80, 80))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("campbell_simulation", "big_toe", "digital_physics", "multiverse_rendering", "reality_simulation", "cellular_automata"):
+        # Thomas Campbell My-Big-TOE Digital Simulation Engine & Soviet IRE Bio-Psi Arrays
+        # 1. Background Discrete Voxel / Cellular Automaton Matrix (Digital Spacetime)
+        for vx in range(80, width - 80, 40):
+            for vy in range(cy - 220, cy + 220, 32):
+                draw.rectangle([vx - 2, vy - 2, vx + 2, vy + 2], fill=(15, 25, 45))
+        
+        # 2. Central Observer Node & Render-on-Demand Frustum
+        obs_x, obs_y = cx - 220, cy
+        # Observer (IUOC - Individuated Unit of Consciousness)
+        draw.ellipse([obs_x - 22, obs_y - 22, obs_x + 22, obs_y + 22], fill=(25, 20, 45), outline=(200, 140, 255), width=2)
+        draw.ellipse([obs_x - 10, obs_y - 10, obs_x + 10, obs_y + 10], fill=(220, 180, 255))
+        draw.text((obs_x - 28, obs_y + 28), "IUOC OBSERVER", fill=(200, 160, 255))
+
+        # Render frustum cone (Perspective view volume into VR simulation)
+        frust_top = (cx + 240, cy - 140)
+        frust_bot = (cx + 240, cy + 140)
+        draw.polygon([(obs_x + 22, obs_y), frust_top, frust_bot], outline=(160, 90, 240), fill=(20, 15, 35))
+        draw.line([(obs_x + 22, obs_y), (cx + 240, cy)], fill=(0, 255, 240), width=1)
+
+        # Rendered Object (Collapsed Probability Waveform / Rendered Voxel Cluster)
+        obj_x, obj_y = cx + 120, cy - 15
+        draw.rectangle([obj_x - 45, obj_y - 45, obj_x + 45, obj_y + 45], fill=(30, 40, 70), outline=(0, 255, 200), width=2)
+        # 3D wireframe cube illusion inside frustum
+        draw.rectangle([obj_x - 25, obj_y - 65, obj_x + 65, obj_y + 25], outline=(0, 200, 255), width=1)
+        draw.line([(obj_x - 45, obj_y - 45), (obj_x - 25, obj_y - 65)], fill=(0, 255, 240), width=1)
+        draw.line([(obj_x + 45, obj_y - 45), (obj_x + 65, obj_y - 65)], fill=(0, 255, 240), width=1)
+        draw.line([(obj_x + 45, obj_y + 45), (obj_x + 65, obj_y + 25)], fill=(0, 255, 240), width=1)
+        draw.line([(obj_x - 45, obj_y + 45), (obj_x - 25, obj_y + 25)], fill=(0, 255, 240), width=1)
+        draw.text((obj_x - 40, obj_y - 10), "RENDER-ON-DEMAND", fill=(255, 220, 80))
+        draw.text((obj_x - 30, obj_y + 10), "COLLAPSED VOXEL", fill=(0, 255, 200))
+
+        # Unrendered Probabilistic State (Outside frustum)
+        draw.text((cx + 100, cy - 170), "UNRENDERED PROBABILITY WAVE (ZERO RENDERING COST)", fill=(100, 120, 160))
+        draw.text((cx + 100, cy + 160), "VR ENGINE: DATA-STREAM PACKET RENDERING", fill=(100, 120, 160))
+
+        # 3. Data Packet Flow between LCS (Larger Consciousness System) & IUOC
+        lcs_x, lcs_y = cx, cy - 190
+        draw.rectangle([lcs_x - 130, lcs_y - 25, lcs_x + 130, lcs_y + 25], fill=(22, 16, 38), outline=(220, 160, 255), width=2)
+        draw.text((lcs_x - 115, lcs_y - 18), "LARGER CONSCIOUSNESS SYSTEM [LCS]", fill=(220, 180, 255))
+        draw.text((lcs_x - 115, lcs_y + 2), "SOURCE COMPUTER // DIGITAL RULESET", fill=(0, 255, 220))
+        # Data stream arrow to IUOC
+        draw.line([(lcs_x - 60, lcs_y + 25), (obs_x, obs_y - 22)], fill=(200, 120, 255), width=2)
+        draw.text((obs_x - 40, cy - 80), "VR DATA-STREAM", fill=(200, 140, 255))
+
+        # 4. Latency & Entropy Telemetry Plot (Lower Center HUD)
+        sim_x, sim_y = cx - 180, cy + 145
+        sim_w, sim_h = 360, 65
+        draw.rectangle([sim_x, sim_y, sim_x + sim_w, sim_y + sim_h], fill=(14, 12, 26), outline=(200, 140, 255), width=1)
+        draw.text((sim_x + 10, sim_y + 6), "SIMULATION LATENCY: t_p = 5.39 x 10^-44 s // REFRESH: 10^43 Hz", fill=(0, 255, 220))
+        draw.text((sim_x + 10, sim_y + 24), "CONSCIOUSNESS ENTROPY EVOLUTION: dS/dt < 0 (LOV/ORDER)", fill=(255, 200, 80))
+        draw.text((sim_x + 10, sim_y + 42), "MULTIVERSE PROBABILITY TREE: BRANCH FACTOR b = 1.414", fill=(200, 160, 255))
+
+        # 5. Telemetry Dossiers (Left & Right Boxes)
+        # Left HUD: Campbell My-Big-TOE Telemetry
+        draw.rectangle([60, 90, 310, cy - 140], fill=(18, 14, 28), outline=(200, 140, 255), width=1)
+        draw.text((70, 98), "[MY BIG TOE ONTOLOGY]", fill=(200, 160, 255))
+        draw.text((70, 118), "PHYSICAL REALITY = DIGITAL VR", fill=(0, 255, 200))
+        draw.text((70, 138), "CONSCIOUSNESS = COMPUTATION", fill=(255, 220, 100))
+        draw.text((70, 158), "COLLAPSE = OBSERVER REQUEST", fill=(120, 220, 255))
+        draw.text((70, 178), "PLANCK TIME = SIMULATION DELTA t", fill=(255, 100, 180))
+
+        # Right HUD: Soviet IRE Bio-Psi Array Dossier
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 14, 20), outline=(255, 100, 120), width=1)
+        draw.text((width - 310, 98), "[SOVIET IRE BIO-PSI ARRAYS]", fill=(255, 120, 140))
+        draw.text((width - 310, 118), "INST RADIOENGINEERING & ELECTR", fill=(255, 180, 100))
+        draw.text((width - 310, 138), "BIO-INFORMATION FIELD SENSORS", fill=(200, 220, 240))
+        draw.text((width - 310, 158), "KGB DEPT 8 REMOTE TELEMETRY", fill=(255, 80, 80))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
