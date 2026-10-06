@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-08-04",
+      "hour": "04:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Commercial Satellite Imagery Monopolies, NRO Tasking Overrides & Soviet Space Reconnaissance Diversions",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates commercial satellite imagery monopolies, National Reconnaissance Office tasking priority overrides and shutter control, and Yuri Shvets's insider analysis of Soviet space-based optical reconnaissance diversion and maskirovka overflight scheduling.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero four hundred hours. High above the atmosphere, low-Earth orbit has become the ultimate proprietary Panopticon. While the commercial space sector advertises satellite earth observation as a democratic, transparent tool for climate monitoring and global commerce, the reality on the ground is governed by classified monopoly contracts. Under the National Reconnaissance Office’s Electro-Optical Commercial Layer agreements, a handful of venture-backed aerospace defense primes have monopolized high-resolution orbital imaging, transforming civilian constellations into de facto intelligence extensions of the United States defense apparatus.",
+        "The architecture of this orbital monopoly relies on dual-use tasking priority overrides and legal shutter control. Under federal regulatory frameworks and classified service agreements, defense agencies possess the unilateral authority to commandeer private satellite sensors during geopolitical flashpoints. When an international conflict or military deployment occurs, commercial imagery pipelines are instantly throttled: high-resolution passes over sensitive combat zones are classified, pre-emptively purchased through exclusive buyout contracts, or degraded to lower-fidelity resolutions before reaching open-source analysts, effectively censoring the public's perception of global warfare.",
+        "This systemic manipulation of space-based visibility mirrors the orbital deception doctrines perfected during the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence insider Yuri Shvets has frequently detailed, Soviet military planning was entirely synchronized around Western satellite reconnaissance schedules. Operating under the strategic deception doctrine known as maskirovka, the Soviet General Staff and KGB First Chief Directorate tracked the exact orbital ephemerides and overflight windows of American KH-11 optical reconnaissance satellites.",
+        "According to Shvets, Soviet defense installations executed elaborate camouflage, concealment, and decoy procedures the moment an American spy satellite crossed the horizon. Aircraft mockups were moved onto airfields, false missile silos were painted on tarmac, and sensitive technical operations were halted until the spacecraft dropped below the horizon. Shvets reveals that the Soviet space program’s Kosmos reconnaissance satellites operated under identical state secrecy, routinely masking optical surveillance payloads beneath nominal civilian meteorological and scientific designations to disguise intelligence-gathering orbital paths.",
+        "In orbit today, the line between commercial transparency and military monopolization has vanished entirely. By locking up commercial optical and synthetic aperture radar constellations behind exclusive Pentagon tasking agreements, defense agencies ensure that sovereign states maintain an absolute monopoly on actionable real-time truth. When billions in defense dollars dictate who is permitted to look at the Earth, commercial space ceases to be an open scientific frontier and becomes a private, classified surveillance utility.",
+        "Track the orbital overflight ephemerides, pierce the commercial tasking buyouts, and audit the satellite imagery monopolies. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 183,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-04/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-08-04/f02.webp"
+          },
+          {
+            "t": 61,
+            "src": "art/2026-10-08-04/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-08-04/f04.webp"
+          },
+          {
+            "t": 122,
+            "src": "art/2026-10-08-04/f05.webp"
+          },
+          {
+            "t": 152,
+            "src": "art/2026-10-08-04/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-08-04.webp",
+      "audio": "audio/2026-10-08-04.mp3",
+      "cover_video": "thumbs/2026-10-08-04.mp4"
+    },
+    {
       "id": "2026-10-08-03",
       "hour": "03:00",
       "date": "2026-10-08",

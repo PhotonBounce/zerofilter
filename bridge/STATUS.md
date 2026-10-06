@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **416 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **424 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 51 completed, 51 total releases published.
-  - `data/queue.json`: Head item is Episode 52 (`2026-10-08-04`).
-  - `data/registry.json`: 51 active releases logged.
+  - `status/pipeline_state.json`: Episode 52 completed, 52 total releases published.
+  - `data/queue.json`: Head item is Episode 53 (`2026-10-08-05`).
+  - `data/registry.json`: 52 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -78,10 +78,11 @@
   - `2026-10-08-01` (191s) — Topological Insulators, Dissipationless Helical Edge States & Soviet Solid-State Physics Intelligence Rings
   - `2026-10-08-02` (184s) — Taiwan Strait Undersea Acoustic Hydrophone Barriers, SOSUS Line Arrays & Soviet Submarine Tracking Doctrine
   - `2026-10-08-03` (196s) — Neuro-Computational Quantum Models in Synaptic Plasticity, Microtubular Orchestration & Soviet Bio-Cybernetics
+  - `2026-10-08-04` (183s) — Commercial Satellite Imagery Monopolies, NRO Tasking Overrides & Soviet Space Reconnaissance Diversions
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 306 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `ad8580e43dbd47c020ab7ffcb1e848437fc8a900`).
+- **Story Art Frames:** 312 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `c04319f239c7d4859bc4db00fdc518bb7bbced2e`).
 
 ---
 

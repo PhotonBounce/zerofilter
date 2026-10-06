@@ -158,7 +158,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
             py = cy + int(math.sin(angle) * dist)
             draw.ellipse([px - 2, py - 2, px + 2, py + 2], fill=(255, 240, 120), outline=(255, 255, 255))
 
-    elif theme in ("orbital_qkd", "space_sigint"):
+    elif theme in ("orbital_qkd", "space_sigint", "satellite_monopoly", "nro_recon", "space_recon", "satellite_imagery"):
         # Orbital QKD Downlinks & Space-Based SIGINT Laser Architecture
         # 1. Earth limb curved horizon (large arc at bottom)
         earth_cy = height + 400
@@ -1229,6 +1229,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "DYNAMIC CASIMIR NANOCAVITY // ZERO-POINT VACUUM FLUCTUATION PRESSURE // ASYMMETRIC REACTION", fill=(255, 200, 60))
     elif theme in ("orbital_qkd", "space_sigint"):
         draw.text((40, 60), "ORBITAL QKD DOWNLINK // 1550nm ADAPTIVE OPTICS // 500KM LEO TRACK // GROUND SIGINT CONDUIT", fill=(0, 255, 200))
+    elif theme in ("satellite_monopoly", "nro_recon", "space_recon", "satellite_imagery"):
+        draw.text((40, 60), "SATELLITE IMAGERY MONOPOLY // NRO DUAL-USE PRIORITY OVERRIDES // SOVIET KOSMOS SIGINT", fill=(255, 140, 40))
     elif theme in ("holographic", "scrambler"):
         draw.text((40, 60), "HAYDEN-PRESKILL QUANTUM SCRAMBLING // EVENT HORIZON HAWKING EMISSION // ADS/CFT HORIZON", fill=(200, 160, 255))
     elif theme in ("smoky_dragon", "retrocausality"):

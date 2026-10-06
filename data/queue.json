@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-04",
-      "date": "2026-10-08",
-      "hour": "04:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Commercial satellite imagery monopolies, NRO dual-use tasking priority overrides, and Yuri Shvets on Soviet space-based optical reconnaissance diversion"
-    },
-    {
       "id": "2026-10-08-05",
       "date": "2026-10-08",
       "hour": "05:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Barents Sea nuclear submarine bastion doctrine, SOSUS-trench acoustic baffles, and Yuri Shvets on Soviet Northern Fleet strategic deterrence deployment"
+    },
+    {
+      "id": "2026-10-08-07",
+      "date": "2026-10-08",
+      "hour": "07:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Neuro-feedback biometrics in high-frequency trading execution, cognitive fatigue telemetry, and Yuri Shvets on KGB reflex modification experiments"
     }
   ]
 }

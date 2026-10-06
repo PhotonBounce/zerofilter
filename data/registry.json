@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 51,
+  "total_releases": 52,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -408,6 +408,14 @@
       "title": "Neuro-Computational Quantum Models in Synaptic Plasticity, Microtubular Orchestration & Soviet Bio-Cybernetics",
       "audio": "audio/2026-10-08-03.mp3",
       "cover_video": "thumbs/2026-10-08-03.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-08-04",
+      "seconds": 183,
+      "title": "Commercial Satellite Imagery Monopolies, NRO Tasking Overrides & Soviet Space Reconnaissance Diversions",
+      "audio": "audio/2026-10-08-04.mp3",
+      "cover_video": "thumbs/2026-10-08-04.mp4",
       "status": "published_production"
     }
   ]
