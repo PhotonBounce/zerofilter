@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-15",
-      "date": "2026-10-08",
-      "hour": "15:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Pentagon microelectronics counterfeiting, gray-market broker rings, and Yuri Shvets on Soviet Line X technology smuggling operations"
-    },
-    {
       "id": "2026-10-08-16",
       "date": "2026-10-08",
       "hour": "16:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Karl Friston Active Inference in Generative AI Agents, Predictive Coding & KGB Cognitive Warfare"
+    },
+    {
+      "id": "2026-10-08-18",
+      "date": "2026-10-08",
+      "hour": "18:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Suwalki Gap heavy armor logistics, railway gauge incompatibility, and Yuri Shvets on Soviet Kaliningrad corridor operational doctrine"
     }
   ]
 }
