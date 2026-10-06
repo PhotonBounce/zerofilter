@@ -28,10 +28,13 @@
         <button type="button" class="nav-btn" data-filter="geopolitics">Geopolitics</button>
         <button type="button" class="nav-btn" data-filter="quantum">Quantum &amp; AI</button>
         <button type="button" class="nav-btn" data-filter="consciousness">Consciousness</button>
-        <button type="button" class="nav-btn" data-filter="corruption">Exposed</button>
       </nav>
       <div class="header-actions">
-        <span class="host-badge">Host: Rex Vance</span>
+        <button type="button" class="host-pill-btn" id="btn-open-dossier" title="View Rex Vance Profile & Studio Specs">
+          <span class="host-avatar-mini" style="background-image: url('assets/rex_vance.webp');"></span>
+          <span class="host-label">Rex Vance</span>
+          <span class="dossier-tag">STUDIO DOSSIER</span>
+        </button>
       </div>
     </div>
   </header>
@@ -41,15 +44,45 @@
     <!-- Hero Broadcast Spotlight -->
     <section class="hero-spotlight" id="hero-spotlight">
       <div class="spotlight-media" id="spotlight-media">
+        <!-- Tactical Studio Camera Angle Switcher -->
+        <div class="studio-switcher" id="studio-switcher" aria-label="Camera Angle Switcher">
+          <button type="button" class="cam-btn active" data-cam="loop" title="10s Looping Video Cover">
+            <span class="cam-dot"></span> 10s COVER
+          </button>
+          <button type="button" class="cam-btn" data-cam="host" title="Cam 1: Rex Vance Broadcast Desk">
+            <span class="cam-dot"></span> HOST CAM
+          </button>
+          <button type="button" class="cam-btn" data-cam="bunker" title="Cam 2: ZeroFilter Command Bunker">
+            <span class="cam-dot"></span> BUNKER
+          </button>
+          <button type="button" class="cam-btn" data-cam="story" title="Synchronized Story Art Frames">
+            <span class="cam-dot"></span> STORY ART
+          </button>
+        </div>
+
         <!-- 10s looping video cover or poster -->
         <video id="hero-video" class="hero-video" autoplay loop muted playsinline poster="thumbs/2026-10-06-01.webp">
           <source src="thumbs/2026-10-06-01.mp4" type="video/mp4">
         </video>
+
+        <!-- Host Camera Layer -->
+        <div id="host-layer" class="stage-overlay hidden">
+          <img src="assets/rex_vance.webp" alt="Rex Vance at Broadcast Desk">
+          <div class="stage-hud-tag"><span class="live-rec-dot"></span> CAM 01 // HOST DESK · REX VANCE</div>
+        </div>
+
+        <!-- Studio Bunker Layer -->
+        <div id="bunker-layer" class="stage-overlay hidden">
+          <img src="assets/studio_bunker.webp" alt="ZeroFilter Underground Command Studio">
+          <div class="stage-hud-tag"><span class="live-rec-dot"></span> CAM 02 // WAR ROOM BUNKER · TELEMETRY ACTIVE</div>
+        </div>
+
         <!-- Real-time Synchronized Stage Overlay -->
         <div id="stage-overlay" class="stage-overlay hidden">
           <img id="stage-img" src="" alt="Story visual context">
           <div id="stage-caption" class="stage-caption"></div>
         </div>
+
         <div class="media-overlay-gradient"></div>
         <div class="broadcast-badge" id="broadcast-badge">LATEST RELEASE · 01:00 UTC</div>
       </div>
@@ -73,6 +106,15 @@
         <!-- Audio Player Console -->
         <div class="player-console">
           <audio id="main-audio" preload="metadata" src="audio/2026-10-06-01.mp3"></audio>
+
+          <!-- Real-time Audio Spectrum Visualizer -->
+          <div class="spectrum-container">
+            <canvas id="audio-spectrum" class="audio-spectrum" height="36" width="600"></canvas>
+            <div class="spectrum-hud">
+              <span class="freq-tag">20Hz - 20kHz SPECTRUM</span>
+              <span class="voice-tag" id="voice-tag">REX VANCE · 100% UNFILTERED</span>
+            </div>
+          </div>
           
           <div class="playback-controls">
             <button type="button" class="btn-play" id="btn-play" aria-label="Play or Pause">
@@ -96,7 +138,7 @@
               <button type="button" class="speed-btn" data-speed="1.2">1.2x</button>
               <button type="button" class="speed-btn" data-speed="1.5">1.5x</button>
             </div>
-            <button type="button" class="btn-share" id="btn-share" title="Share Release">↗</button>
+            <button type="button" class="btn-share" id="btn-share" title="Copy Episode Link">↗</button>
           </div>
         </div>
       </div>
@@ -114,6 +156,108 @@
       </div>
     </section>
   </main>
+
+  <!-- Host & Studio Intelligence Dossier Drawer -->
+  <div class="dossier-modal hidden" id="dossier-modal" aria-hidden="true" role="dialog">
+    <div class="dossier-backdrop" id="dossier-backdrop"></div>
+    <div class="dossier-panel">
+      <div class="dossier-header">
+        <div class="dossier-title-wrap">
+          <span class="dossier-sub">DECLASSIFIED INTELLIGENCE FILE</span>
+          <h2 class="dossier-title">OPERATIVE PROFILE: REX VANCE</h2>
+        </div>
+        <button type="button" class="dossier-close" id="btn-close-dossier" aria-label="Close Dossier">✕</button>
+      </div>
+
+      <div class="dossier-body">
+        <!-- Host Profile Card -->
+        <div class="dossier-hero">
+          <div class="dossier-photo-wrap">
+            <img src="assets/rex_vance.webp" alt="Rex Vance in ZeroFilter Bunker" class="dossier-photo">
+            <div class="photo-overlay-tag">REX VANCE // 42 // EX-INTEL</div>
+          </div>
+          <div class="dossier-bio">
+            <div class="dossier-meta-grid">
+              <div class="meta-item">
+                <span class="meta-label">ROLE</span>
+                <span class="meta-val">Lead Anchor &amp; Investigator</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">CLEARANCE</span>
+                <span class="meta-val">Rogue Intelligence / Public</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">CADENCE</span>
+                <span class="meta-val">Hourly · 180s Rigid Formula</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">VOICE ARCHITECTURE</span>
+                <span class="meta-val">Neural Baritone (+10% Tempo)</span>
+              </div>
+            </div>
+            <p class="bio-text">
+              Rex Vance is a razor-sharp, mathematically literate, foul-mouthed ex-DARPA / intelligence analyst who refuses to be gaslit by corporate media or political dogmas. Delivering equal-opportunity scorn against MAGA Christofascists and corporate establishment Democrats alike, Vance anchors every broadcast from an underground bunker studio, bridging frontline geopolitics with quantum physics and declassified consciousness science.
+            </p>
+            <div class="voice-test-card">
+              <div class="voice-test-info">
+                <strong>Voice Signature Test:</strong>
+                <span>"Put down the kool-aid and dissect the wreckage"</span>
+              </div>
+              <button type="button" class="btn-voice-sample" id="btn-test-voice">TEST VOICE SYNTHESIS ▶</button>
+              <audio id="sample-audio" src="assets/test_rex.mp3" preload="none"></audio>
+            </div>
+          </div>
+        </div>
+
+        <!-- Primary Intelligence Source: Yuri Shvets Wire -->
+        <div class="dossier-shvets-section">
+          <h3 class="section-subhead">PRIMARY INTELLIGENCE WIRE · US &amp; COUNTER-ESPIONAGE</h3>
+          <div class="shvets-card">
+            <div class="shvets-header">
+              <span class="source-badge">PRIMARY WIRE: YURI SHVETS (ЮРИЙ ШВЕЦ)</span>
+              <span class="clearance-tag">EX-KGB MAJOR · US INTELLIGENCE DISSIDENT</span>
+            </div>
+            <p class="shvets-desc">
+              ZeroFilter anchors its US congressional, national security, and Pentagon reporting directly on intelligence briefings from <strong>Yuri Shvets</strong>, ex-KGB intelligence officer and Red Banner Institute alumnus who defected to the United States. Shvets' Washington investigative channel provides cold, verified counter-intelligence receipts exposing Russian active measures subverting American politics, congressional defense-stock corruption, and Kremlin-aligned demagoguery across both parties.
+            </p>
+            <div class="shvets-meta-bar">
+              <span class="shvets-stat"><strong>Coverage:</strong> Washington DC · Pentagon · Capitol Hill</span>
+              <span class="shvets-stat"><strong>Focus:</strong> Russian Active Measures &amp; US Lobbying Grift</span>
+              <span class="shvets-stat"><strong>Analysis Hub:</strong> Official YouTube Intelligence Channel</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Studio & Bunker Specs -->
+        <div class="dossier-studio-section">
+          <h3 class="section-subhead">BROADCAST BUNKER &amp; STUDIO INFRASTRUCTURE</h3>
+          <div class="studio-specs-card">
+            <div class="studio-img-wrap">
+              <img src="assets/studio_bunker.webp" alt="ZeroFilter Underground Studio Command" class="studio-img">
+            </div>
+            <div class="specs-list">
+              <div class="spec-row">
+                <span class="spec-name">Facility:</span>
+                <span class="spec-desc">Underground Brutalist War Room with Faraday EMP shielding</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-name">Audio Chain:</span>
+                <span class="spec-desc">Shure SM7B dynamic studio mic with analog optical compression</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-name">Telemetry Screens:</span>
+                <span class="spec-desc">Real-time orbital tracking, Wheeler delayed-choice wave monitors, PEAR REG probability drift meters</span>
+              </div>
+              <div class="spec-row">
+                <span class="spec-name">Autonomous Engine:</span>
+                <span class="spec-desc">Automated hourly synthesis pipeline with Veo 10s looping covers and Ken-Burns stage art</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Footer -->
   <footer class="zf-footer">

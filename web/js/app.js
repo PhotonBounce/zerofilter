@@ -9,6 +9,7 @@ const $$ = (sel) => document.querySelectorAll(sel);
 let episodes = [];
 let currentEpisode = null;
 let activeFilter = "all";
+let activeCam = "loop"; // "loop" | "host" | "bunker" | "story"
 
 const audio = $("main-audio");
 const btnPlay = $("btn-play");
@@ -18,14 +19,37 @@ const seekProgress = $("seek-progress");
 const currentTimeEl = $("current-time");
 const totalTimeEl = $("total-time");
 const heroVideo = $("hero-video");
+const hostLayer = $("host-layer");
+const bunkerLayer = $("bunker-layer");
 const stageOverlay = $("stage-overlay");
 const stageImg = $("stage-img");
 const stageCaption = $("stage-caption");
 const cueText = $("cue-text");
 const episodesGrid = $("episodes-grid");
 
+// Spectrum visualizer
+const canvas = $("audio-spectrum");
+let canvasCtx = null;
+let audioCtx = null;
+let analyser = null;
+let source = null;
+let animFrameId = null;
+
+// Dossier modal
+const dossierModal = $("dossier-modal");
+const btnOpenDossier = $("btn-open-dossier");
+const btnCloseDossier = $("btn-close-dossier");
+const dossierBackdrop = $("dossier-backdrop");
+const btnTestVoice = $("btn-test-voice");
+const sampleAudio = $("sample-audio");
+
 // Initialize application
 async function init() {
+  if (canvas) {
+    canvasCtx = canvas.getContext("2d");
+    drawDefaultSpectrum();
+  }
+
   try {
     const res = await fetch("data/episodes.json?nocache=" + Date.now());
     const data = await res.json();
@@ -40,6 +64,30 @@ async function init() {
 
   renderFeed();
   setupEventListeners();
+  setupSpectrumVisualizer();
+}
+
+function switchCamera(cam) {
+  activeCam = cam;
+  $$(".cam-btn").forEach(btn => {
+    btn.classList.toggle("active", btn.getAttribute("data-cam") === cam);
+  });
+
+  // Reset layers
+  hostLayer.classList.add("hidden");
+  bunkerLayer.classList.add("hidden");
+  stageOverlay.classList.add("hidden");
+
+  if (cam === "loop") {
+    // Let video display
+  } else if (cam === "host") {
+    hostLayer.classList.remove("hidden");
+  } else if (cam === "bunker") {
+    bunkerLayer.classList.remove("hidden");
+  } else if (cam === "story") {
+    // Show current synchronized story frame
+    syncPlayback();
+  }
 }
 
 function loadEpisode(ep, autoPlay = true) {
@@ -70,9 +118,10 @@ function loadEpisode(ep, autoPlay = true) {
   totalTimeEl.textContent = formatTime(ep.seconds);
   currentTimeEl.textContent = "0:00";
 
-  // Reset stage
-  stageOverlay.classList.add("hidden");
   cueText.textContent = `"${ep.paragraphs[0] || 'Broadcasting now...'}"`;
+
+  // Reset to active camera
+  switchCamera(activeCam);
 
   if (autoPlay) {
     playAudio();
@@ -82,9 +131,11 @@ function loadEpisode(ep, autoPlay = true) {
 }
 
 function playAudio() {
+  initAudioContext();
   audio.play().then(() => {
     btnPlay.classList.add("playing");
     playIcon.textContent = "❚❚";
+    startSpectrumLoop();
   }).catch((err) => {
     console.warn("Autoplay blocked or audio not yet loaded:", err);
   });
@@ -122,7 +173,6 @@ function syncPlayback() {
   // Synchronized Stage Overlay
   const frames = currentEpisode.art?.frames || [];
   if (frames.length > 0) {
-    // Find highest frame whose timestamp t <= current audio t
     let activeFrame = null;
     for (const f of frames) {
       if (t >= f.t) activeFrame = f;
@@ -133,13 +183,112 @@ function syncPlayback() {
         stageImg.src = activeFrame.src;
       }
       stageCaption.textContent = activeFrame.caption || "";
-      stageOverlay.classList.remove("hidden");
+      if (activeCam === "story") {
+        stageOverlay.classList.remove("hidden");
+      }
     } else {
-      stageOverlay.classList.add("hidden");
+      if (activeCam === "story") stageOverlay.classList.add("hidden");
     }
   } else {
-    stageOverlay.classList.add("hidden");
+    if (activeCam === "story") stageOverlay.classList.add("hidden");
   }
+}
+
+// Spectrum Visualizer
+function setupSpectrumVisualizer() {
+  window.addEventListener("resize", resizeCanvas);
+  resizeCanvas();
+}
+
+function resizeCanvas() {
+  if (!canvas) return;
+  canvas.width = canvas.parentElement.clientWidth || 500;
+  canvas.height = 36;
+}
+
+function initAudioContext() {
+  if (audioCtx) {
+    if (audioCtx.state === "suspended") audioCtx.resume();
+    return;
+  }
+  try {
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    audioCtx = new AudioContext();
+    analyser = audioCtx.createAnalyser();
+    analyser.fftSize = 64;
+    analyser.smoothingTimeConstant = 0.8;
+    source = audioCtx.createMediaElementSource(audio);
+    source.connect(analyser);
+    analyser.connect(audioCtx.destination);
+  } catch (err) {
+    console.warn("AudioContext init error:", err);
+  }
+}
+
+function drawDefaultSpectrum() {
+  if (!canvasCtx || !canvas) return;
+  canvasCtx.clearRect(0, 0, canvas.width, canvas.height);
+  const bars = 32;
+  const barWidth = canvas.width / bars - 2;
+  for (let i = 0; i < bars; i++) {
+    const h = 3;
+    const x = i * (barWidth + 2);
+    canvasCtx.fillStyle = "rgba(0, 229, 255, 0.2)";
+    canvasCtx.fillRect(x, canvas.height - h, barWidth, h);
+  }
+}
+
+function startSpectrumLoop() {
+  if (animFrameId) cancelAnimationFrame(animFrameId);
+
+  const bufferLength = analyser ? analyser.frequencyBinCount : 32;
+  const dataArray = new Uint8Array(bufferLength);
+
+  function renderFrame() {
+    animFrameId = requestAnimationFrame(renderFrame);
+
+    if (audio.paused) {
+      drawDefaultSpectrum();
+      cancelAnimationFrame(animFrameId);
+      return;
+    }
+
+    if (analyser) {
+      analyser.getByteFrequencyData(dataArray);
+    } else {
+      // Simulated responsive pulse if Web Audio is restricted
+      for (let i = 0; i < bufferLength; i++) {
+        dataArray[i] = Math.floor(Math.sin(Date.now() / 150 + i * 0.4) * 80 + 120);
+      }
+    }
+
+    canvasCtx.clearRect(0, 0, canvas.width, canvas.height);
+    const bars = 32;
+    const barWidth = (canvas.width / bars) - 2;
+
+    for (let i = 0; i < bars; i++) {
+      const val = dataArray[i] || 0;
+      const percent = val / 255;
+      const h = Math.max(3, percent * (canvas.height - 4));
+      const x = i * (barWidth + 2);
+      const y = canvas.height - h;
+
+      // Color gradient from cyber cyan to amber at peak
+      const gradient = canvasCtx.createLinearGradient(0, y, 0, canvas.height);
+      if (percent > 0.75) {
+        gradient.addColorStop(0, "#ffb300");
+        gradient.addColorStop(1, "#00e5ff");
+      } else {
+        gradient.addColorStop(0, "#00e5ff");
+        gradient.addColorStop(1, "rgba(0, 229, 255, 0.3)");
+      }
+
+      canvasCtx.fillStyle = gradient;
+      canvasCtx.fillRect(x, y, barWidth, h);
+    }
+  }
+
+  renderFrame();
 }
 
 function renderFeed() {
@@ -208,6 +357,14 @@ function setupEventListeners() {
     syncPlayback();
   });
 
+  // Camera angle switcher
+  $$(".cam-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const cam = btn.getAttribute("data-cam");
+      switchCamera(cam);
+    });
+  });
+
   // Playback speeds
   $$(".speed-btn").forEach(btn => {
     btn.addEventListener("click", () => {
@@ -227,12 +384,51 @@ function setupEventListeners() {
     });
   });
 
+  // Dossier modal handlers
+  btnOpenDossier.addEventListener("click", () => {
+    dossierModal.classList.remove("hidden");
+    dossierModal.setAttribute("aria-hidden", "false");
+  });
+
+  const closeDossier = () => {
+    dossierModal.classList.add("hidden");
+    dossierModal.setAttribute("aria-hidden", "true");
+    if (sampleAudio) sampleAudio.pause();
+  };
+
+  btnCloseDossier.addEventListener("click", closeDossier);
+  dossierBackdrop.addEventListener("click", closeDossier);
+
+  btnTestVoice.addEventListener("click", () => {
+    if (sampleAudio.paused) {
+      sampleAudio.play();
+      btnTestVoice.textContent = "PLAYING SAMPLE... ❚❚";
+    } else {
+      sampleAudio.pause();
+      btnTestVoice.textContent = "TEST VOICE SYNTHESIS ▶";
+    }
+  });
+
+  sampleAudio.addEventListener("ended", () => {
+    btnTestVoice.textContent = "TEST VOICE SYNTHESIS ▶";
+  });
+
+  // Share episode button
+  $("btn-share").addEventListener("click", () => {
+    if (navigator.clipboard && currentEpisode) {
+      navigator.clipboard.writeText(window.location.href);
+      alert("ZeroFilter release link copied to clipboard!");
+    }
+  });
+
   // Keyboard navigation
   window.addEventListener("keydown", (e) => {
     if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
     if (e.code === "Space") {
       e.preventDefault();
       togglePlay();
+    } else if (e.code === "Escape") {
+      closeDossier();
     } else if (e.code === "ArrowRight") {
       audio.currentTime = Math.min(audio.duration || 180, audio.currentTime + 5);
     } else if (e.code === "ArrowLeft") {

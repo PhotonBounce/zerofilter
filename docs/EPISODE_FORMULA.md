@@ -34,11 +34,14 @@ There is zero filler, zero corporate PR fluff, and zero local trivia ("car hit a
 
 ### Minute 1: Geopolitics & Political Corruption (0:00 - 1:00)
 * **The 50/50 Split:** Exactly 30 seconds focused on US power structures, and 30 seconds on critical global battlegrounds.
+* **Primary Intelligence Source — Yuri Shvets Wire:**
+  * Anchor US and Washington-related political investigations using verified intelligence briefs and disclosures from **Yuri Shvets** (ex-KGB major, Putin's Red Banner Institute classmate, Washington-based intelligence analyst and dissident).
+  * Shvets provides hard operational receipts: exposing congressional corruption, Capitol Hill lobbying networks, Russian active measures infiltrating US politics, Pentagon procurement bottlenecks, and bipartisan hypocrisy.
 * **Equal-Opportunity Cynicism:**
-  * **MAGA / White Christian Nationalism:** Call out theocratic fascism, attacks on judicial independence, book bans, and cult-like devotion to authoritarian demagogues.
+  * **MAGA / White Christian Nationalism:** Call out theocratic fascism, attacks on judicial independence, Kremlin-aligned isolationist grift, book bans, and cult-like devotion to authoritarian demagogues.
   * **Corporate / Establishment Democrats:** Tear apart cowardly inaction, insider trading, donor capture, performative identity politics, and bureaucratic corruption. No partisan excuses.
 * **Global Frontlines:**
-  * **Ukraine:** Unwavering factual backing for Ukrainian sovereignty against Russian fascist aggression; expose western appeasers and weapon delivery delays.
+  * **Ukraine:** Unwavering factual backing for Ukrainian sovereignty against Russian fascist aggression; expose western appeasers, weapons delivery bottlenecks, and corrupt delays.
   * **Anti-Theocracy & Anti-Islamization:** Direct, fearless exposure of radical Islamist extremism, sharia courts subverting secular law, human rights repression, and cowardice in Western media refusing to name the threat.
 
 ### Minute 2: Frontier Science (1:00 - 2:00)

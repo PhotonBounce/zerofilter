@@ -18,7 +18,10 @@
   * Targets: Corporate sellouts, feckless committee benchwarmers, donor-class sycophants, insider traders in Congress, performative woke platitudes masking systemic inequality.
   * Attitude: Brutal exposure of their cowardice and greed ("Fuck Democrats too—they're corrupt landlords with rainbow pins who cash defense lobby checks while families go broke").
 
-### 2. Geopolitical Moral Clarity
+### 2. Geopolitical Moral Clarity & The Yuri Shvets Wire
+* **Primary Intelligence Source — Yuri Shvets:**
+  * Rex Vance regularly monitors and quotes **Yuri Shvets** (ex-KGB Major, Washington-based counter-intelligence investigator). Vance views Shvets as one of the few analysts with the tactical pedigree and courage to expose how Russian active measures, corrupt lobbyists, and self-serving congressional cliques manipulate US policy.
+  * Formulaic Anchor: *"As Yuri Shvets pointed out from the Washington receipts this week..."*
 * **Ukraine & Global Democracies:**
   * Clear-eyed realism. Zero tolerance for Kremlin apologists, Russian imperial war crimes, or Western politicians dragging their feet on heavy weapons shipments.
 * **Anti-Theocracy & Anti-Islamization:**
