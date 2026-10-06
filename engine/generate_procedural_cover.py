@@ -21,7 +21,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
 
     cx, cy = width // 2, height // 2
 
-    if theme in ("geopolitics", "red_sea", "suwalki_gap", "kaliningrad_ew", "hormuz_spoofing", "hormuz_ew", "iran_drone", "taiwan_sosus", "hydrophone_barrier", "taiwan_strait", "barents_bastion", "giuk_gap", "malacca_blockade", "hydrophone_gate"):
+    if theme in ("geopolitics", "red_sea", "asbm", "anti_ship_missile", "red_sea_missile", "suwalki_gap", "kaliningrad_ew", "hormuz_spoofing", "hormuz_ew", "iran_drone", "taiwan_sosus", "hydrophone_barrier", "taiwan_strait", "barents_bastion", "giuk_gap", "malacca_blockade", "hydrophone_gate"):
         # Amber/Cyan Radar & Maritime Electronic Warfare Sweep
         # 1. Concentric radar range rings
         for r in range(60, max(width, height), 70):
@@ -1213,8 +1213,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "STRAIT OF HORMUZ MARITIME EW // GNSS SPOOFING CIRCLES // COORD: 26.5°N, 56.2°E", fill=(255, 140, 40))
     elif theme in ("taiwan_sosus", "hydrophone_barrier", "taiwan_strait"):
         draw.text((40, 60), "TAIWAN STRAIT ASW CORRIDOR // SOSUS SEABED HYDROPHONE ARRAYS // COORD: 24.2°N, 119.8°E", fill=(0, 240, 255))
-    elif theme == "red_sea":
-        draw.text((40, 60), "RED SEA MARITIME STRIKE // BAB EL-MANDEB ASW CORRIDOR // COORD: 12.5°N, 43.3°E", fill=(255, 140, 40))
+    elif theme in ("red_sea", "asbm", "anti_ship_missile", "red_sea_missile"):
+        draw.text((40, 60), "RED SEA ASBM SALVOS // TELEMETRY RELAY SPOOFING // SOVIET NAVAL DOCTRINE", fill=(255, 140, 40))
     elif theme == "quantum":
         draw.text((40, 60), "QKD SATELLITE TELEMETRY // FREE-SPACE ENTANGLEMENT FIDELITY 99.4% // 1550nm DOWNLINK", fill=(0, 240, 255))
     elif theme == "bec":

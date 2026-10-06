@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-02",
+      "hour": "02:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Red Sea Anti-Ship Ballistic Missile Salvos, Telemetry Relay Spoofing & Soviet Coastal Defense Doctrine",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates anti-ship ballistic missile telemetry spoofing in the Red Sea, terminal seeker evasion, and Yuri Shvets on Soviet asymmetric naval coastal defense doctrine.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero two hundred hours. Over the past twelve months, the Red Sea maritime corridor has become the proving ground for the most significant shift in asymmetric naval warfare since the advent of anti-ship cruise missiles. Anti-ship ballistic missiles, or ASBMs, launched from rugged inland terrain across Yemen, are executing steep terminal dive trajectories toward Western commercial shipping and naval escort strike groups. These munitions combine solid-fuel boost phases with active radio-frequency and electro-optical terminal seekers, collapsing intercept decision windows to less than ninety seconds.",
+        "Western carrier strike groups have expended hundreds of multimillion-dollar Standard Missile-2 and SM-6 interceptors to neutralize incoming salvos. However, intelligence signals reveal that regional missile batteries are deploying sophisticated telemetry relay spoofing. By rebroadcasting intercepted Automatic Identification System transponder beacons through commercial satellite uplinks, coastal launch units generate ghost shipping tracks. When Western combat direction systems attempt cooperative engagement, terminal radar locks are pulled toward false target vectors, forcing destroyers to fire high-cost interceptors against phantom decoys while live ASBM warheads descend through the blind clutter.",
+        "This tactical architecture is not an indigenous improvisation; it is the direct execution of Soviet asymmetric coastal defense doctrine. Former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented how Soviet military planners recognized in the late 1970s that the USSR could never achieve surface naval parity with the United States Navy. Consequently, Soviet naval doctrine pioneered dense shore-based missile bastions designed to overwhelm carrier strike groups using staggered, multi-axis salvos combined with pervasive electronic deception.",
+        "According to Shvets, Soviet intelligence stations in Aden and along the Horn of Africa spent decades mapping Western naval choke points and transferring technical dossiers on coastal radar netted deception to regional proxy networks. Shvets revealed that corrupt Soviet defense procurement bureaucrats and subsequent Russian arms export syndicates systematically leaked missile guidance telemetry algorithms and electro-optical seeker designs abroad. The telemetry spoofing kits observed in the Bab el-Mandeb today trace their design lineage directly to Soviet naval electronic warfare protocols developed in Sevastopol and Leningrad.",
+        "Western defense contractors continue to lobby Capitol Hill for expanded cost-plus production contracts for legacy surface combatants, ignoring the harsh economic and physics reality. A two-million-dollar interceptor cannot sustain a war of attrition against fifty-thousand-dollar ballistic munitions coordinated by digital spoofing relays. When coastal defense doctrine pairs cheap kinetic salvos with electronic confusion, multi-billion-dollar supercarriers are effectively excluded from critical maritime choke points.",
+        "Audit the Bab el-Mandeb telemetry vectors, trace the Soviet electronic warfare lineage, and watch the maritime corridors. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-02/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-02/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-02/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-02/f04.webp"
+          },
+          {
+            "t": 121,
+            "src": "art/2026-10-09-02/f05.webp"
+          },
+          {
+            "t": 151,
+            "src": "art/2026-10-09-02/f06.webp"
+          }
+        ]
+      },
+      "seconds": 181,
+      "thumb": "thumbs/2026-10-09-02.webp",
+      "audio": "audio/2026-10-09-02.mp3",
+      "cover_video": "thumbs/2026-10-09-02.mp4"
+    },
+    {
       "id": "2026-10-09-01",
       "hour": "01:00",
       "date": "2026-10-09",

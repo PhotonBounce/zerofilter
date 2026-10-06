@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-02",
-      "date": "2026-10-09",
-      "hour": "02:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Red Sea anti-ship ballistic missile salvos, telemetry relay spoofing, and Yuri Shvets on Soviet asymmetric naval coastal defense doctrine"
-    },
-    {
       "id": "2026-10-09-03",
       "date": "2026-10-09",
       "hour": "03:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Rydberg atom electric field sensing, quantum radio-frequency receivers, and Yuri Shvets on Soviet microwave spectrum surveillance"
+    },
+    {
+      "id": "2026-10-09-05",
+      "date": "2026-10-09",
+      "hour": "05:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Predictive processing in visual hallucinations, Bayesian priors during sensory deprivation, and Yuri Shvets on KGB psychotronic isolation experiments"
     }
   ]
 }

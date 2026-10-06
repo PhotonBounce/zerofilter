@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 73,
+  "total_releases": 74,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -584,6 +584,14 @@
       "title": "Integrated Information Theory Causal Maxima, Loss of Phi in Coma & Soviet Interrogation Pharmacology",
       "audio": "audio/2026-10-09-01.mp3",
       "cover_video": "thumbs/2026-10-09-01.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-02",
+      "seconds": 181,
+      "title": "Red Sea Anti-Ship Ballistic Missile Salvos, Telemetry Relay Spoofing & Soviet Coastal Defense Doctrine",
+      "audio": "audio/2026-10-09-02.mp3",
+      "cover_video": "thumbs/2026-10-09-02.mp4",
       "status": "published_production"
     }
   ]
