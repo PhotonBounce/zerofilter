@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 6,
+  "total_releases": 7,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -48,6 +48,14 @@
       "title": "Robert Monroe Gateway Archives, Yuri Shvets on KGB Psychotronics & SRI Telemetry",
       "audio": "audio/2026-10-06-06.mp3",
       "cover_video": "thumbs/2026-10-06-06.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-06-07",
+      "seconds": 181,
+      "title": "Defense Revolving Doors, Dark Money PAC Laundering & Counter-Intel Leaks",
+      "audio": "audio/2026-10-06-07.mp3",
+      "cover_video": "thumbs/2026-10-06-07.mp4",
       "status": "published_production"
     }
   ]

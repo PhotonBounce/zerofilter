@@ -2,6 +2,61 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-07",
+      "date": "2026-10-06",
+      "hour": "07:00",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Defense Revolving Doors, Dark Money PAC Laundering & Counter-Intel Leaks",
+      "subject": "Hourly uncensored breakdown: Yuri Shvets exposes Pentagon procurement graft, Ukrainian low-cost drone asymmetry vs Western contractor price-gouging, information theory entropy, and graph neural network shell company tracking.",
+      "seconds": 181,
+      "audio": "audio/2026-10-06-07.mp3",
+      "thumb": "thumbs/2026-10-06-07.webp",
+      "cover_video": "thumbs/2026-10-06-07.mp4",
+      "paragraphs": [
+        "Welcome to hour seven of ZeroFilter. Let's pull back the curtain on the institutional corruption rotting Washington's national security apparatus, guided by former KGB intelligence analyst Yuri Shvets. Shvets' newest investigative ledger tracks senior Pentagon procurement officers retiring on Friday and joining the boards of primary defense contractors by Monday morning, rewarded with seven-figure stock options. These same corporate executives funnel hundreds of millions through 501(c)(4) dark-money political action committees into critical congressional swing districts. It's not a defense strategy; it's a legal money-laundering conveyor belt disguised as patriotic national security.",
+        "Look at the empirical contrast on the Ukrainian battlefield: Ukrainian engineers are building three-hundred-dollar autonomous fiber-optic FPV strike drones that routinely vaporize five-million-dollar Russian main battle tanks. Meanwhile, legacy Western defense conglomerates charge eight thousand dollars for a single basic unguided 155-millimeter artillery shell, pocketing record quarterly dividends while military stockpiles run dry. Bureaucratic price-gouging is actively sabotaging democratic deterrence, and congressional armed services committees refuse to audit the contractor invoices because those very contractors fund their reelection campaigns.",
+        "From an informational physics perspective, institutional corruption behaves identically to thermodynamic entropy. In Claude Shannon's information theory, when a system is deliberately obscured by bureaucratic noise, the entropy of the channel spikes, preventing observers from extracting the true signal. State secrecy rarely protects operational security; its primary mathematical function is concealing financial theft from taxpayers. The observer effect cuts through this entropy: the moment unvarnished forensic telemetry is brought to light, the corrupt institutional wave function collapses into empirical receipts.",
+        "In forensic technology, decentralized graph neural networks are now parsing millions of corporate registry filings, Panama Papers archives, and government contract databases in milliseconds. By tracing synthetic beneficial ownership across nested shell entities in Delaware, London, and the Cayman Islands, open-source intelligence analysts are exposing the real owners behind shady defense lobbying fronts before congressional watchdogs even schedule their first hearing.",
+        "As Shvets repeatedly warns from his decades inside Soviet intelligence, systemic financial corruption is the ultimate attack vector for hostile foreign services. Russian and Chinese intelligence agencies don't need to steal blueprints when they can simply co-opt compromised lobbyists, grease political PACs, and exploit the greed of Western bureaucrats who treat national survival as a private equity cash grab.",
+        "Both legacy political parties are bought and paid for by the same defense-industrial grift. Stop taking their staged culture wars seriously and start tracking where the money flows. Reality is informational, truth is uncompromising, and consciousness will always outlast bureaucratic deceit. Stay vigilant, trust the hard data, and I'll catch you at the top of the next hour. I'm Rex Vance, and this was ZeroFilter."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-07/f01.webp",
+            "caption": "Pentagon procurement revolving door dossier"
+          },
+          {
+            "t": 32,
+            "src": "art/2026-10-06-07/f02.webp",
+            "caption": "Ukrainian low-cost drone assembly line"
+          },
+          {
+            "t": 68,
+            "src": "art/2026-10-06-07/f03.webp",
+            "caption": "Claude Shannon informational entropy telemetry"
+          },
+          {
+            "t": 105,
+            "src": "art/2026-10-06-07/f04.webp",
+            "caption": "Graph neural network offshore shell tracking"
+          },
+          {
+            "t": 138,
+            "src": "art/2026-10-06-07/f05.webp",
+            "caption": "Yuri Shvets counter-intelligence vulnerability matrix"
+          },
+          {
+            "t": 165,
+            "src": "art/2026-10-06-07/f06.webp",
+            "caption": "Rex Vance broadcasting live from bunker"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026-10-06-06",
       "date": "2026-10-06",
       "hour": "06:00",
