@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 53,
+  "total_releases": 54,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -424,6 +424,14 @@
       "title": "Cavity Quantum Electrodynamics in Photonic Microresonators, Vacuum Rabi Splitting & Soviet Atomic Spectroscopy",
       "audio": "audio/2026-10-08-05.mp3",
       "cover_video": "thumbs/2026-10-08-05.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-08-06",
+      "seconds": 186,
+      "title": "Barents Sea Nuclear Submarine Bastion Doctrine, SOSUS Trench Baffles & Soviet Northern Fleet Deterrence",
+      "audio": "audio/2026-10-08-06.mp3",
+      "cover_video": "thumbs/2026-10-08-06.mp4",
       "status": "published_production"
     }
   ]
