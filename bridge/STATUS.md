@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **552 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **560 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 68 completed, 68 total releases published.
-  - `data/queue.json`: Head item is Episode 69 (`2026-10-08-21`).
-  - `data/registry.json`: 68 active releases logged.
+  - `status/pipeline_state.json`: Episode 69 completed, 69 total releases published.
+  - `data/queue.json`: Head item is Episode 70 (`2026-10-08-22`).
+  - `data/registry.json`: 69 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -95,10 +95,11 @@
   - `2026-10-08-18` (185s) — Suwalki Gap Heavy Armor Logistics, Railway Gauge Incompatibility & Soviet Kaliningrad Corridor Doctrine
   - `2026-10-08-19` (183s) — Defense Hypersonic Flight Test Concealment, Cost-Plus Lobbying Waivers & Soviet Scramjet Espionage
   - `2026-10-08-20` (178s) — Superconducting Fluxonium Qubits, High-Harmonic Phase Slip & Soviet Cryogenic Solid-State Archives
+  - `2026-10-08-21` (180s) — Microtubular Resonance in Cortical Pyramidal Neurons, Megahertz Anesthetic Lock & Soviet Bio-Telemetry Archives
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 408 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `9140ceffea5da567c50d8a606139967fa7d7a39b`).
+- **Story Art Frames:** 414 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `9114d7a9f243aa088c5331c3fa7b2aabc1bbb499`).
 
 ---
 

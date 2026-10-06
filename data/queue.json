@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-21",
-      "date": "2026-10-08",
-      "hour": "21:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Microtubular resonance in cortical pyramidal neurons, megahertz anesthetic lock, and Yuri Shvets on Soviet bio-telemetry interrogation archives"
-    },
-    {
       "id": "2026-10-08-22",
       "date": "2026-10-08",
       "hour": "22:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Autonomous drone electronic warfare spoofing components, defense prime sole-source markup fraud, and Yuri Shvets on Soviet military-industrial kickback pipelines"
+    },
+    {
+      "id": "2026-10-09-00",
+      "date": "2026-10-09",
+      "hour": "00:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Nonlinear Josephson parametric amplifiers, quantum vacuum squeezed states, and Yuri Shvets on Soviet low-noise radar cryptanalysis"
     }
   ]
 }
