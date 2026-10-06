@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **536 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **544 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 66 completed, 66 total releases published.
-  - `data/queue.json`: Head item is Episode 67 (`2026-10-08-19`).
-  - `data/registry.json`: 66 active releases logged.
+  - `status/pipeline_state.json`: Episode 67 completed, 67 total releases published.
+  - `data/queue.json`: Head item is Episode 68 (`2026-10-08-20`).
+  - `data/registry.json`: 67 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -74,7 +74,7 @@
   - `2026-10-07-21` (181s) — Quantum Annealing in Flux Qubits, Adiabatic Shortcuts & Soviet Supercomputing Cryptanalysis
   - `2026-10-07-22` (177s) — Red Sea Subsea Cable Sabotage, Bab el-Mandeb Chokepoints & Soviet Horn of Africa SIGINT
   - `2026-10-07-23` (175s) — Active Inference in Generative Neural Architectures, Predictive Coding & Soviet Neuro-Cybernetics
-  - `2026-10-08-00` (180s) — Pentagon Black Budget Audits, Special Access Program Phantom Line Items & Soviet Gosplan Diversions
+  - `2026-10-08-00` (180s) — Pentagon Black Budget Audits, Special Access Program Phantom Line items & Soviet Gosplan Diversions
   - `2026-10-08-01` (191s) — Topological Insulators, Dissipationless Helical Edge States & Soviet Solid-State Physics Intelligence Rings
   - `2026-10-08-02` (184s) — Taiwan Strait Undersea Acoustic Hydrophone Barriers, SOSUS Line Arrays & Soviet Submarine Tracking Doctrine
   - `2026-10-08-03` (196s) — Neuro-Computational Quantum Models in Synaptic Plasticity, Microtubular Orchestration & Soviet Bio-Cybernetics
@@ -93,10 +93,11 @@
   - `2026-10-08-16` (189s) — Quantum Spin Liquids in Kagome Antiferromagnets, Fractionalized Excitations & Soviet Solid-State Theory
   - `2026-10-08-17` (181s) — Karl Friston Active Inference in Generative AI Agents, Predictive Coding & KGB Cognitive Warfare
   - `2026-10-08-18` (185s) — Suwalki Gap Heavy Armor Logistics, Railway Gauge Incompatibility & Soviet Kaliningrad Corridor Doctrine
+  - `2026-10-08-19` (183s) — Defense Hypersonic Flight Test Concealment, Cost-Plus Lobbying Waivers & Soviet Scramjet Espionage
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 396 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `9bed3758702f8e4536a5850b21c429e8603cbc47`).
+- **Story Art Frames:** 402 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `f2ca6d88f792f31683a73716831d96612a2351fc`).
 
 ---
 

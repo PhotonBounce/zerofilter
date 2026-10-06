@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 66,
+  "total_releases": 67,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -528,6 +528,14 @@
       "title": "Suwalki Gap Heavy Armor Logistics, Railway Gauge Incompatibility & Soviet Kaliningrad Corridor Doctrine",
       "audio": "audio/2026-10-08-18.mp3",
       "cover_video": "thumbs/2026-10-08-18.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-08-19",
+      "seconds": 183,
+      "title": "Defense Hypersonic Flight Test Concealment, Cost-Plus Lobbying Waivers & Soviet Scramjet Espionage",
+      "audio": "audio/2026-10-08-19.mp3",
+      "cover_video": "thumbs/2026-10-08-19.mp4",
       "status": "published_production"
     }
   ]

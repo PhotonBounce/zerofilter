@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-19",
-      "date": "2026-10-08",
-      "hour": "19:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Defense hypersonic flight test concealment, cost-plus lobbying waivers, and Yuri Shvets on Soviet scramjet technology espionage"
-    },
-    {
       "id": "2026-10-08-20",
       "date": "2026-10-08",
       "hour": "20:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Microtubular resonance in cortical pyramidal neurons, megahertz anesthetic lock, and Yuri Shvets on Soviet bio-telemetry interrogation archives"
+    },
+    {
+      "id": "2026-10-08-22",
+      "date": "2026-10-08",
+      "hour": "22:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Arctic undersea fiber-optic cable sabotage, Svalbard seabed sonar arrays, and Yuri Shvets on Soviet GUGI deep-sea operations"
     }
   ]
 }

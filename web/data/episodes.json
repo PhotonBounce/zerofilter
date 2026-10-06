@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-08-19",
+      "hour": "19:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Defense Hypersonic Flight Test Concealment, Cost-Plus Lobbying Waivers & Soviet Scramjet Espionage",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates chronic hypersonic flight test failures concealed from congressional oversight, revolving-door cost-plus lobbying waivers, and Yuri Shvets's insider analysis of Soviet scramjet aerodynamic espionage networks.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is nineteen hundred hours. While the Pentagon publicly broadcasts panicked alarms of Russian and Chinese hypersonic missile supremacy, American hypersonic glide vehicle and scramjet development programs have quietly descended into a multi-billion-dollar quagmire of concealed test aborts, thermal boundary-layer delaminations, and chronic cost-plus contracting abuse. Behind classified special access program firewalls, prime aerospace contractors routinely mask catastrophic flight test disintegrations under vague bureaucratic press releases citing telemetry anomalies and partial data collection successes.",
+        "The physical reality of hypersonic flight at velocities exceeding Mach 5 is violently unforgiving. Air-breathing scramjet engines must sustain supersonic combustion within a millimeter-thin airflow channel where volatile hydrocarbon or hydrogen fuel has barely one millisecond to mix, atomize, and ignite. At sustained hypersonic speeds, extreme atmospheric friction creates stagnation temperatures surpassing two thousand degrees Celsius, ionizing surrounding atmospheric gases into a blinding plasma sheath that severs radio-frequency telemetry and causes microscopic delaminations in carbon-carbon leading edges. Rather than solving fundamental boundary-layer turbulence and severe thermal shock physics, contractors rely on classified lobbying waivers to bypass mandatory flight test benchmarks while collecting lucrative cost-plus award fees.",
+        "This cycle of technological overpromising and procurement deception has a direct historical parallel in Soviet defense procurement. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently detailed, Soviet aerospace ministries and Gosplan planners routinely concealed scramjet test failures and aerodynamic research dead-ends to preserve their classified black budgets. Directorate T of the KGB was specifically tasked with stealing American scramjet computational fluid dynamics codes and high-temperature alloy patents to cover up domestic design blunders.",
+        "According to Shvets, Soviet intelligence stations across North America systematically targeted university aerospace engineering departments, wind tunnel facilities, and defense sub-tier contractors to harvest telemetry and ceramic matrix composite secrets. Soviet planners understood that bureaucratic self-preservation in the defense industrial complex always takes precedence over engineering truth. Shvets emphasizes that modern American defense procurement mirrors late-Soviet Gosplan stagnation: a lucrative revolving door of retired flag officers joining aerospace lobbying boards, securing classified cost-plus contract extensions regardless of catastrophic flight failures.",
+        "Today, the systematic concealment of hypersonic flight failures represents an existential threat to sovereign defense credibility. You cannot deceive the immutable laws of aerothermodynamics with slick marketing spin or congressional lobbying waivers. When kinetic reality confronts the balance sheet, paper hypersonic prototypes incinerate upon re-entry.",
+        "Audit the flight telemetry, inspect the lobbying waivers, and verify the scramjet combustors. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 183,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-19/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-08-19/f02.webp"
+          },
+          {
+            "t": 61,
+            "src": "art/2026-10-08-19/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-08-19/f04.webp"
+          },
+          {
+            "t": 122,
+            "src": "art/2026-10-08-19/f05.webp"
+          },
+          {
+            "t": 152,
+            "src": "art/2026-10-08-19/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-08-19.webp",
+      "audio": "audio/2026-10-08-19.mp3",
+      "cover_video": "thumbs/2026-10-08-19.mp4"
+    },
+    {
       "id": "2026-10-08-18",
       "hour": "18:00",
       "date": "2026-10-08",
