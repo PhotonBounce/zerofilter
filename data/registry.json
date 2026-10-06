@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 141,
+  "total_releases": 142,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1128,6 +1128,14 @@
       "title": "Thomas Campbell Multiverse Rendering, Reality Simulation Latency & Soviet Bio-Information psi-Arrays",
       "audio": "audio/2026-10-11-21.mp3",
       "cover_video": "thumbs/2026-10-11-21.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-11-22",
+      "seconds": 166,
+      "title": "Strait of Malacca Drone Submersible Chokepoints, Singapore Sensor Corridors & Soviet Pacific Escort Tactics",
+      "audio": "audio/2026-10-11-22.mp3",
+      "cover_video": "thumbs/2026-10-11-22.mp4",
       "status": "published_production"
     }
   ]

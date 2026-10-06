@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-22",
-      "date": "2026-10-11",
-      "hour": "22:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Strait of Malacca Drone Submersible Chokepoints, Singapore Sensor Corridors & Soviet Pacific Escort Tactics"
-    },
-    {
       "id": "2026-10-11-23",
       "date": "2026-10-11",
       "hour": "23:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Quantum Diamond Nitrogen-Vacancy Vector Magnetometry, Deep Subterranean Tunnel Mapping & Soviet Underground Vaults"
+    },
+    {
+      "id": "2026-10-12-01",
+      "date": "2026-10-12",
+      "hour": "01:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Donald Hoffman Interface Theory of Perception, Evolutionary Fitness Payoffs & Soviet Psy-Warfare"
     }
   ]
 }
