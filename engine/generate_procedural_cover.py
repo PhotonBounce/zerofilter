@@ -553,7 +553,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 130), "ANOMALOUS CAVITATION DETECTED", fill=(255, 180, 60))
         draw.text((width - 310, 150), "CLASSIFICATION: RUSSIAN SPECIAL SUBS", fill=(255, 60, 40))
 
-    elif theme in ("free_energy", "markov_blanket", "active_inference"):
+    elif theme in ("free_energy", "markov_blanket", "active_inference", "hft_neuro_feedback", "neuro_feedback", "trading_biometrics", "reflex_modification"):
         # Karl Friston Free Energy Principle & Markov Blanket Architecture
         # 1. External States: Chaotic Langevin Fluctuations in outer perimeter
         random.seed(77)
@@ -1243,6 +1243,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "TOPOLOGICAL INSULATOR // HELICAL EDGE STATES // SOVIET SOLID-STATE INTELLIGENCE AUDIT", fill=(0, 255, 220))
     elif theme in ("free_energy", "markov_blanket", "active_inference"):
         draw.text((40, 60), "FREE ENERGY PRINCIPLE // MARKOV BLANKET NEURAL INFERENCE // REFLEXIVE CONTROL MODEL", fill=(200, 140, 255))
+    elif theme in ("hft_neuro_feedback", "neuro_feedback", "trading_biometrics", "reflex_modification"):
+        draw.text((40, 60), "HFT NEURO-FEEDBACK BIOMETRICS // COGNITIVE FATIGUE TELEMETRY // KGB REFLEX MODIFICATION", fill=(200, 140, 255))
     elif theme in ("red_sea_cables", "bab_el_mandeb"):
         draw.text((40, 60), "RED SEA SUBSEA CABLE CORRIDOR // BAB EL-MANDEB CHOKEPOINT // SOVIET HORN OF AFRICA SIGINT", fill=(255, 140, 40))
     elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "arctic_seabed", "svalbard_cable", "barents_bastion", "bastion_doctrine", "northern_fleet"):

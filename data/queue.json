@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-07",
-      "date": "2026-10-08",
-      "hour": "07:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Neuro-feedback biometrics in high-frequency trading execution, cognitive fatigue telemetry, and Yuri Shvets on KGB reflex modification experiments"
-    },
-    {
       "id": "2026-10-08-08",
       "date": "2026-10-08",
       "hour": "08:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Topological superconductivity, Majorana zero modes in semiconductor nanowires, and Yuri Shvets on Soviet Landau Institute cryogenic research programs"
+    },
+    {
+      "id": "2026-10-08-10",
+      "date": "2026-10-08",
+      "hour": "10:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Undersea autonomous drone swarms, GIUK Gap acoustic barriers, and Yuri Shvets on Soviet titanium-hull deep-diving submarine doctrines"
     }
   ]
 }
