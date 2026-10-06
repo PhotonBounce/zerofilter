@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **352 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **360 passed, 0 failed clean**.
 - **State On Disk:**
--  - `status/pipeline_state.json`: Episode 43 completed, 43 total releases published.
--  - `data/queue.json`: Head item is Episode 44 (`2026-10-07-20`).
--  - `data/registry.json`: 43 active releases logged.
+  - `status/pipeline_state.json`: Episode 44 completed, 44 total releases published.
+  - `data/queue.json`: Head item is Episode 45 (`2026-10-07-21`).
+  - `data/registry.json`: 44 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -70,10 +70,11 @@
   - `2026-10-07-17` (180s) — Superconducting Transmon Qubits, Surface Codes & Soviet SIGINT Cryptanalysis
   - `2026-10-07-18` (180s) — Hormuz Strait Electronic Spoofing, Drone Guidance Backdoors & Axis Tech Barter
   - `2026-10-07-19` (185s) — Monroe Gateway Hemi-Sync Archives, Frequency Following & Soviet Psychotronic Telemetry
+  - `2026-10-07-20` (180s) — Silicon Valley Defense Cloud Lobbying, FISA 702 Renewals & KGB Wiretap Lineage
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 258 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `974e57592701a1d15d10b7bfb0b1e88cb124a604`).
+- **Story Art Frames:** 264 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `058ad6f5f31d19c10afaf507ba7320704fdb180e`).
 
 ---
 

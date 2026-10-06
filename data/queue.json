@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-20",
-      "date": "2026-10-07",
-      "hour": "20:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Silicon Valley defense cloud lobbying, FISA 702 backdoor renewals, and Yuri Shvets on KGB domestic surveillance telecommunications wiretaps"
-    },
-    {
       "id": "2026-10-07-21",
       "date": "2026-10-07",
       "hour": "21:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Red Sea subsea communications cables, Bab el-Mandeb surveillance nodes, and Yuri Shvets on Soviet naval intelligence bases in the Horn of Africa"
+    },
+    {
+      "id": "2026-10-07-23",
+      "date": "2026-10-07",
+      "hour": "23:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Active inference in deep generative neural networks, predictive coding, and Yuri Shvets on Soviet Pavlovian neuro-cybernetic modeling"
     }
   ]
 }

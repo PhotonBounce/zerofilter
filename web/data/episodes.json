@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-20",
+      "hour": "20:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Silicon Valley Defense Cloud Lobbying, FISA 702 Renewals & KGB Wiretap Lineage",
+      "subject": "Hourly uncensored breakdown: Rex Vance exposes the multi-billion-dollar defense cloud lobbying machine, FISA Section 702 warrantless backdoor search loopholes, and Yuri Shvets's insider analysis of Soviet KGB Operational-Technical Directorate telecommunications wiretaps.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty hundred hours. Behind the slick marketing of enterprise innovation, Silicon Valley's tech giants have quietly fused with the American national security state. The Pentagon's nine-billion-dollar Joint Warfighting Cloud Capability contract—divided among Amazon, Microsoft, Google, and Oracle—has unleashed an aggressive, behind-the-scenes lobbying war. Millions of dollars in political action committee funds and revolving-door advisory retainers flood Capitol Hill every quarter, ensuring that federal procurement specifications are tailored exclusively to protect this defense cloud oligopoly.",
+        "Simultaneously, this defense cloud infrastructure serves as the primary processing engine for Section 702 of the Foreign Intelligence Surveillance Act. While statutory provisions claim Section 702 strictly targets non-citizens abroad, automated 'backdoor search' exceptions permit domestic intelligence agencies to query captured databases for Americans' personal communications without a judicial warrant. By siphoning raw telecommunications traffic through commercial optical splitters and hosting the resulting repositories on commercial defense cloud servers, the line between foreign signals intelligence and warrantless domestic surveillance has evaporated.",
+        "This marriage between telecommunications infrastructure and state security mirrors an established authoritarian playbook. As former KGB foreign intelligence officer and Washington counter-intelligence insider Yuri Shvets has frequently detailed, Soviet intelligence perfected this exact model decades ago. The KGB's Operational-Technical Directorate, specifically the Twelfth Department, held total, uninhibited authority over the Soviet telecommunications grid, hardwiring permanent taps directly into telephone exchanges without requiring legal oversight or institutional justification.",
+        "According to Shvets, the institutional philosophy governing domestic wiretapping never changes: once an intelligence agency constructs a technological capability to intercept civilian communications, it will manufacture legal pretexts to preserve that conduit indefinitely. In the Soviet Union, state security invoked internal stability; in Washington, intelligence cartels invoke counter-terrorism and cyber defense. The underlying architecture remains identical: total communications visibility laundered through legal fictions and rubber-stamp compliance reviews.",
+        "What makes today's surveillance architecture vastly more dangerous is private-sector collusion. Soviet engineers were constrained by analog copper lines and human transcribers. Today's commercial cloud cartels provide automated machine-learning classifiers, natural language parsing, and indefinite data storage, all funded by taxpayer defense appropriations. Silicon Valley lobbyists aggressively fight legislative warrant requirements because bulk data ingestion constitutes their most lucrative, recurring government revenue stream.",
+        "Audit the cloud lobbying slush funds, close the warrantless 702 loopholes, and dismantle the surveillance-industrial complex before civil liberty is encrypted away. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 180,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-20/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-07-20/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-07-20/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-07-20/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-07-20/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-07-20/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-20.webp",
+      "audio": "audio/2026-10-07-20.mp3",
+      "cover_video": "thumbs/2026-10-07-20.mp4"
+    },
+    {
       "id": "2026-10-07-19",
       "hour": "19:00",
       "date": "2026-10-07",

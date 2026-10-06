@@ -1026,6 +1026,72 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 178), "SLUSH FUNDING: UNRESTRICTED", fill=(255, 60, 60))
         draw.text((width - 310, 198), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("defense_cloud_fisa", "fisa_702", "cloud_lobbying", "jwcc"):
+        # Silicon Valley Defense Cloud Lobbying & FISA 702 Warrantless Surveillance
+        # 1. Hyperscale Datacenter Server Racks (JWCC Multi-Cloud Architecture)
+        rack_y = cy - 120
+        rack_h = 240
+        rack_w = 110
+        racks = [
+            (cx - 380, "AWS SECRET"),
+            (cx - 240, "AZURE GOV"),
+            (cx - 100, "GCP CLOUD"),
+            (cx + 40, "ORACLE IC"),
+            (cx + 180, "NSA UPSTREAM"),
+            (cx + 320, "FISA 702 REPO")
+        ]
+
+        for rx, rlabel in racks:
+            # Server chassis rack
+            draw.rectangle([rx, rack_y, rx + rack_w, rack_y + rack_h], fill=(12, 18, 28), outline=(0, 180, 240), width=2)
+            draw.text((rx + 8, rack_y + 8), rlabel, fill=(0, 240, 255))
+            
+            # Server blade units (individual 2U server slots)
+            for s_idx in range(9):
+                by = rack_y + 30 + s_idx * 22
+                draw.rectangle([rx + 4, by, rx + rack_w - 4, by + 18], fill=(18, 28, 42), outline=(30, 60, 90), width=1)
+                # LED activity array (green/cyan/amber)
+                for led_i in range(5):
+                    lx = rx + 12 + led_i * 10
+                    ly = by + 9
+                    col_led = (0, 255, 180) if (s_idx + led_i) % 2 == 0 else (255, 180, 50)
+                    draw.point((lx, ly), fill=col_led)
+                # Blade slot ID
+                draw.text((rx + 68, by + 4), f"U-{s_idx+1}", fill=(100, 160, 200))
+
+        # 2. Optical Fiber Backbones & FISA 702 Optical Splitter Beam
+        fiber_y = cy + 150
+        draw.line([(60, fiber_y), (width - 60, fiber_y)], fill=(0, 220, 255), width=4)
+        draw.line([(60, fiber_y), (width - 60, fiber_y)], fill=(255, 255, 255), width=1)
+        draw.text((70, fiber_y + 10), "COMMERCIAL TRANSIT FIBER TRUNK [100G DWDM]", fill=(0, 220, 255))
+
+        # Optical Splitter Prism (Room 641A Style Beam Splitter)
+        tap_x = cx + 80
+        draw.polygon([(tap_x - 16, fiber_y - 20), (tap_x + 16, fiber_y - 20), (tap_x, fiber_y + 20)], fill=(30, 40, 60), outline=(255, 80, 60), width=2)
+        draw.text((tap_x - 45, fiber_y - 38), "FISA 702 BEAM SPLITTER", fill=(255, 90, 70))
+
+        # 10% Interception Tap Line diverted straight into NSA Upstream / FISA Repo rack
+        tap_pts = [(tap_x, fiber_y), (tap_x, fiber_y - 70), (cx + 230, rack_y + rack_h), (cx + 230, rack_y + 120)]
+        draw.line(tap_pts, fill=(255, 60, 50), width=3)
+        draw.text((cx + 120, fiber_y - 45), "WARRANTLESS INTERCEPTION TAP (10% DIVERTER)", fill=(255, 80, 60))
+
+        # 3. Silicon Valley Lobbying & KGB OTU Telecommunications Wiretap Dossiers
+        # Left HUD Box: Defense Cloud Lobbying Flow
+        draw.rectangle([60, 90, 310, cy - 140], fill=(15, 20, 30), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[DEFENSE CLOUD LOBBYING]", fill=(0, 240, 255))
+        draw.text((70, 118), "PROGRAM: JWCC ($9.0 BILLION)", fill=(255, 220, 100))
+        draw.text((70, 138), "TECH CARTEL: BIG 4 ALLIANCE", fill=(0, 255, 200))
+        draw.text((70, 158), "K STREET PAC CONTRIBS: $48M", fill=(255, 140, 50))
+        draw.text((70, 178), "REVOLVING DOOR: SECDEF ADVISORS", fill=(255, 80, 80))
+
+        # Right HUD Box: FISA 702 & KGB OTU Surveillance Lineage
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 15), outline=(255, 80, 60), width=1)
+        draw.text((width - 310, 98), "[SURVEILLANCE LINEAGE]", fill=(255, 100, 70))
+        draw.text((width - 310, 118), "FISA 702 BACKDOOR SEARCHES", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "US PERSON QUERIES: 278,000+", fill=(255, 60, 60))
+        draw.text((width - 310, 158), "KGB 12TH DEPT OTU LINEAGE", fill=(255, 160, 50))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DISCLOSURE", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -1110,6 +1176,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "PEAR QUANTUM NOISE REG // CUMULATIVE DEVIATION p = 3.8 x 10^-5 // KGB SLUSH AUDIT", fill=(255, 210, 50))
     elif theme in ("transmon_qubit", "surface_code", "quantum_cryptanalysis", "fault_tolerant_qc"):
         draw.text((40, 60), "SUPERCONDUCTING TRANSMON SURFACE CODE d=7 // 14.8mK CRYOSTAT // 8TH CHIEF SIGINT", fill=(0, 240, 255))
+    elif theme in ("defense_cloud_fisa", "fisa_702", "cloud_lobbying", "jwcc"):
+        draw.text((40, 60), "DEFENSE CLOUD LOBBYING // FISA 702 WARRANTLESS BACKDOORS // KGB OTU SURVEILLANCE", fill=(255, 100, 70))
     elif theme in ("gateway_hemisync", "hemisync", "monroe_gateway", "binaural_beat"):
         draw.text((40, 60), "MONROE GATEWAY HEMI-SYNC // BINAURAL 4.0Hz THETA COHERENCE // SOVIET PSYCHOTRONICS", fill=(200, 160, 255))
     elif theme == "consciousness":
