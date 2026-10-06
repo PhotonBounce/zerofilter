@@ -636,7 +636,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 320, cy + 170), "SOVIET CIPHER APPARATUS // FIALKA-M", fill=(255, 220, 100))
         draw.text((width - 320, cy + 185), "STATUS: NON-COMPUTABLE CODEBREAKING", fill=(255, 60, 60))
 
-    elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "arctic_seabed", "svalbard_cable", "red_sea_cables", "bab_el_mandeb", "barents_bastion", "bastion_doctrine", "northern_fleet", "giuk_gap", "undersea_drones", "titanium_sub"):
+    elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "arctic_seabed", "lomonosov_ridge", "svalbard_cable", "red_sea_cables", "bab_el_mandeb", "barents_bastion", "bastion_doctrine", "northern_fleet", "giuk_gap", "undersea_drones", "titanium_sub"):
         # Deep Seabed Infrastructure & Russian GUGI Covert Reconnaissance
         # 1. Abyssal Bathymetry Contour Lines (Depth 3,000m+)
         for depth_y in range(120, height, 45):
@@ -1654,7 +1654,9 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "SUWALKI GAP HEAVY ARMOR LOGISTICS // RAIL GAUGE CHOKEPOINTS // KALININGRAD CORRIDOR", fill=(255, 90, 70))
     elif theme in ("giuk_gap", "undersea_drones", "titanium_sub"):
         draw.text((40, 60), "GIUK GAP ACOUSTIC BARRIER // UNDERSEA DRONE SWARMS // SOVIET TITANIUM SUBMARINES", fill=(0, 220, 255))
-    elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "arctic_seabed", "svalbard_cable", "barents_bastion", "bastion_doctrine", "northern_fleet"):
+    elif theme in ("lomonosov_ridge", "arctic_seabed"):
+        draw.text((40, 60), "ARCTIC LOMONOSOV RIDGE ANNEXATION // SEABED BATHYMETRY MAPPING // SOVIET POLAR BASTION ASW", fill=(0, 240, 255))
+    elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "svalbard_cable", "barents_bastion", "bastion_doctrine", "northern_fleet"):
         draw.text((40, 60), "BARENTS BASTION ASW DOCTRINE // ARCTIC SOSUS TRENCH BAFFLES // NORTHERN FLEET SIGINT", fill=(255, 90, 70))
     elif theme in ("quantum_darwinism", "pointer_states", "theremin_bug"):
         draw.text((40, 60), "QUANTUM DARWINISM // POINTER STATE PROLIFERATION // THEREMIN CAVITY RESONATOR Q: 45K", fill=(0, 255, 240))

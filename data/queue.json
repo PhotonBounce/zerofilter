@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-22",
-      "date": "2026-10-09",
-      "hour": "22:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Arctic seabed mapping, Lomonosov Ridge continental shelf annexation, and Yuri Shvets on Soviet polar submarine bastion acoustic bathymetry"
-    },
-    {
       "id": "2026-10-09-23",
       "date": "2026-10-09",
       "hour": "23:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Rydberg atom electric field sensing, ultra-wideband radar intercept, and Yuri Shvets on Soviet microwave bugging and electronic counter-surveillance"
+    },
+    {
+      "id": "2026-10-10-01",
+      "date": "2026-10-10",
+      "hour": "01:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Neuro-adaptive cognitive load telemetry, EEG P300 biometric targeting, and Yuri Shvets on KGB bio-information weaponization"
     }
   ]
 }

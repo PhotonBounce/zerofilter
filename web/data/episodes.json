@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-22",
+      "hour": "22:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Arctic Seabed Annexation, Lomonosov Ridge Mapping & Soviet Polar Bastion Acoustic Bathymetry",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the militarized battle for the Arctic seabed, unilateral continental shelf claims over the Lomonosov Ridge, and Yuri Shvets on Soviet polar nuclear submarine bastion acoustic bathymetry.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty-two hundred hours. Beneath the permanent ice cap of the high Arctic, an aggressive geopolitical land-grab is unfolding largely out of sight of international public awareness. For more than two decades, the Kremlin has staged high-profile scientific expeditions to plant titanium flags on the seafloor at the North Pole, claiming that the underwater Lomonosov and Mendeleev Ridges are direct geological extensions of the Siberian continental shelf. Under the United Nations Convention on the Law of the Sea, this legal maneuvers seek exclusive sovereign rights over more than one point two million square kilometers of hydrocarbon-rich Arctic seabed.",
+        "However, scientific resource extraction claims are merely a diplomatic smoke screen for intense seabed militarization. The Lomonosov Ridge spans eighteen hundred kilometers directly across the central Arctic basin, dividing the Amerasian and Eurasian sub-basins. By deploying specialized deep-submergence bathymetric mapping submersibles operated by the secretive Main Directorate of Undersea Research, or GUGI, Moscow is not merely gathering core samples; it is laying the acoustic foundation for an unassailable polar bastion strategy, installing autonomous nuclear-powered seabed listening posts and hydrophone transponders directly along underwater mountain ranges.",
+        "This weaponization of polar oceanography is the direct modern continuation of Cold War naval doctrine. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively detailed, Soviet Northern Fleet SSBN survivability was predicated entirely on mastering the treacherous, uncharted acoustic environment beneath the Arctic pack ice.",
+        "According to Shvets, the KGB First Chief Directorate and Soviet hydrographic institutes prioritized bathymetric mapping of polar underwater canyons above almost all conventional oceanographic research. Soviet Typhoon and Delta-class ballistic missile submarines utilized the ice canopy to baffle Western passive sonar, but navigating these sub-zero trenches without colliding with deep-draft ice keels required ultra-precise seafloor topographic telemetry. Shvets revealed that Soviet oceanographic research ships routinely falsified academic research clearances, using civilian academic oceanography covers to record acoustic reflection profiles that allowed Soviet missile submarines to launch nuclear retaliatory strikes directly from under the polar ice cap.",
+        "Today, climate warming has opened previously inaccessible northern transit corridors, transforming the high Arctic from an impassable frozen desert into a premier military theater. As allied surface combatants and anti-submarine aircraft attempt to pierce the polar frontier, they face a heavily instrumented underwater fortress. The battle over the Lomonosov Ridge is not about scientific pride; it is an armed contest to secure absolute nuclear strike impunity beneath the polar ice.",
+        "Audit the international continental shelf commission filings, track the deep-sea research submersible deployments, and never mistake Arctic science for civilian neutrality. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-22/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-22/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-09-22/f03.webp"
+          },
+          {
+            "t": 89,
+            "src": "art/2026-10-09-22/f04.webp"
+          },
+          {
+            "t": 119,
+            "src": "art/2026-10-09-22/f05.webp"
+          },
+          {
+            "t": 148,
+            "src": "art/2026-10-09-22/f06.webp"
+          }
+        ]
+      },
+      "seconds": 178,
+      "thumb": "thumbs/2026-10-09-22.webp",
+      "audio": "audio/2026-10-09-22.mp3",
+      "cover_video": "thumbs/2026-10-09-22.mp4"
+    },
+    {
       "id": "2026-10-09-21",
       "hour": "21:00",
       "date": "2026-10-09",
