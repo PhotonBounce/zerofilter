@@ -1,0 +1,29 @@
+{
+  "queue_version": "1.0",
+  "pending_episodes": [
+    {
+      "id": "2026-10-12-08",
+      "date": "2026-10-12",
+      "hour": "08:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Circuit QED Transmon Qubit Parity Measurements, Quantum Error Correction & Soviet Superconducting Cryo-Troughs"
+    },
+    {
+      "id": "2026-10-12-09",
+      "date": "2026-10-12",
+      "hour": "09:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Karl Friston Active Inference in Neuronal Populations, Free Energy Minimization & Soviet Cybernetic Control"
+    },
+    {
+      "id": "2026-10-12-10",
+      "date": "2026-10-12",
+      "hour": "10:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Suwalki Gap Heavy Armor Bottlenecks, Rail Bogie Exchange Delays & Kaliningrad Iskander Threat Envelopes"
+    }
+  ]
+}

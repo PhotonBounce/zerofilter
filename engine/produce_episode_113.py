@@ -1,0 +1,166 @@
+# engine/produce_episode_113.py
+import asyncio
+import json
+import os
+import subprocess
+from PIL import Image
+import imageio_ffmpeg
+import edge_tts
+from generate_procedural_cover import generate_cover
+
+ROOT_DIR = r"D:\zerofilter"
+WEB_DIR = os.path.join(ROOT_DIR, "web")
+THUMBS_DIR = os.path.join(WEB_DIR, "thumbs")
+AUDIO_DIR = os.path.join(WEB_DIR, "audio")
+ART_DIR = os.path.join(WEB_DIR, "art")
+MANIFEST_FILE = os.path.join(WEB_DIR, "data", "episodes.json")
+
+IMG_EP113 = os.path.join(THUMBS_DIR, "2026-10-10-17.webp")
+IMG_REX = os.path.join(WEB_DIR, "assets", "rex_vance.webp")
+IMG_STUDIO = os.path.join(WEB_DIR, "assets", "studio_bunker.webp")
+
+FFMPEG_EXE = imageio_ffmpeg.get_ffmpeg_exe()
+
+def generate_looping_video(image_path, output_mp4, duration=10):
+    os.makedirs(os.path.dirname(output_mp4), exist_ok=True)
+    cmd = [
+        FFMPEG_EXE, "-y",
+        "-loop", "1",
+        "-i", image_path,
+        "-vf", f"zoompan=z='min(zoom+0.0006,1.08)':d={duration*30}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1280x720:fps=30",
+        "-t", str(duration),
+        "-c:v", "libx264",
+        "-pix_fmt", "yuv420p",
+        "-an",
+        output_mp4
+    ]
+    subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    print(f"Generated 10s Looping Cover: {output_mp4}")
+
+def create_art_frames(ep_id, src_art_paths):
+    target_dir = os.path.join(ART_DIR, ep_id)
+    os.makedirs(target_dir, exist_ok=True)
+    frame_names = ["f01.webp", "f02.webp", "f03.webp", "f04.webp", "f05.webp", "f06.webp"]
+    for src, fname in zip(src_art_paths, frame_names):
+        dst = os.path.join(target_dir, fname)
+        with Image.open(src) as im:
+            im.save(dst, "WEBP", quality=90)
+        print(f"Saved WebP: {dst}")
+    print(f"Created 6 art frames in {target_dir}")
+
+async def synthesize_rex_vance(text, output_mp3):
+    os.makedirs(os.path.dirname(output_mp3), exist_ok=True)
+    communicate = edge_tts.Communicate(text, "en-US-ChristopherNeural", rate="+10%", pitch="-2Hz")
+    await communicate.save(output_mp3)
+
+def get_audio_duration(file_path):
+    cmd = [
+        FFMPEG_EXE, "-i", file_path
+    ]
+    res = subprocess.run(cmd, capture_output=True, text=True)
+    for line in res.stderr.splitlines():
+        if "Duration:" in line:
+            parts = line.split("Duration:")[1].split(",")[0].strip()
+            h, m, s = parts.split(":")
+            total_sec = int(h) * 3600 + int(m) * 60 + float(s)
+            return round(total_sec)
+    return 180
+
+EPISODE_DATA = {
+    "id": "2026-10-10-17",
+    "hour": "17:00",
+    "date": "2026-10-10",
+    "kind": "hourly",
+    "category": "consciousness",
+    "title": "Active Inference Under Electronic Warfare, Markov Cockpits & Soviet Pilot Telemetry",
+    "subject": "Hourly uncensored breakdown: Rex Vance investigates Karl Friston's active inference and Markov blanket models deployed to protect fighter pilots from cognitive vertigo in dense electronic warfare environments, and Yuri Shvets on Soviet pilot psychophysiology and reflexive control experiments.",
+    "paragraphs": [
+        "Welcome back to ZeroFilter. It is seventeen hundred hours. In modern air combat and electronic warfare, sensory data is not a passive stream of objective reality; it is an adversarial information battleground. Radars are spoofed with digital radio frequency memory decoys, communications links are flooded with wideband noise, and cockpit displays deliver contradictory sensory cues designed to induce cognitive vertigo. To understand how biological organisms and autonomous battle-management algorithms survive in hostile sensory environments, defense neuroscientists are deploying Karl Friston's Free Energy Principle and active inference architecture.",
+        "Under active inference, a pilot's nervous system or an autonomous drone's avionics computer does not passively process incoming radar signatures. Instead, it maintains a generative Bayesian model of its external operational environment, continuously issuing top-down predictions through a hierarchical cortical network. Sensory organs act as a Markov blanket, separating internal generative states from the chaotic battlefield. The brain minimizes variational free energy—a mathematical upper bound on surprise—either by updating internal beliefs or by taking active physical action to bring external reality into alignment with its prior expectations. When electronic warfare jammers inject synthetic ghost targets, they systematically exploit this predictive architecture, driving the pilot's variational free energy to catastrophic divergence.",
+        "This computational weaponization of sensory disorientation is the mathematical evolution of Soviet military reflexology and pilot psychophysiology programs developed to degrade NATO air superiority. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has disclosed, Soviet military science prioritized reflexive control and sensory degradation above raw kinetic firepower.",
+        "According to Shvets, the KGB First Chief Directorate worked alongside the Soviet Air Force's Aviation Medicine Institute in Moscow, conducting extensive sensory deprivation and false-telemetry stress trials on fighter pilots. Soviet researchers mapped the exact latency thresholds between auditory alarms, peripheral visual cues, and stick-and-rudder motor responses under extreme cognitive load. Shvets revealed that Soviet electronic warfare doctrine was explicitly designed around reflexive control: feeding adversary pilots just enough plausible radar anomalies to induce cognitive overload, paralyzing their internal decision loop and causing pilot-induced flight control departures without firing a single missile.",
+        "Decades later, the Pentagon is racing to deploy neuro-adaptive cockpits and active inference flight computers across next-generation air dominance platforms. Advanced pilot helmets now integrate electroencephalography sensors, eye-tracking pupilometry, and skin conductance monitors to calculate the pilot's real-time cognitive burden. When active inference algorithms detect that electronic warfare jamming has overwhelmed the pilot's Markov blanket, the autonomous aircraft instantly re-weights sensory precision, filtering out deceptive radar artifacts and seizing temporary flight control before sensory surprise triggers a fatal crash.",
+        "Maintain your generative models against deceptive sensory noise, fortify your cognitive Markov blankets, and remember that in high-stakes electronic warfare, the primary target is always your perception. I'm Rex Vance. Keep your filters at absolute zero."
+    ]
+}
+
+async def main():
+    print(f"=== Producing ZeroFilter Episode {EPISODE_DATA['id']} ===")
+    total_words = sum(len(p.split()) for p in EPISODE_DATA["paragraphs"])
+    print(f"Script word count: {total_words} words (Target: 380-550 words)")
+    assert 380 <= total_words <= 550, f"Word count {total_words} out of bounds!"
+    
+    # 1. Procedural Cover Generation
+    print("[1/5] Generating procedural cyber-noir cover...")
+    img = generate_cover(theme="active_inference", title=EPISODE_DATA["title"])
+    img.save(IMG_EP113, "WEBP", quality=92)
+    print(f"Saved: {IMG_EP113}")
+    
+    # 2. Looping 10s MP4 Cover
+    print("[2/5] Generating 10s looping MP4 cover...")
+    mp4_path = os.path.join(THUMBS_DIR, f"{EPISODE_DATA['id']}.mp4")
+    generate_looping_video(IMG_EP113, mp4_path, duration=10)
+    
+    # 3. Create Art Frames
+    print("[3/5] Synchronizing 6 story art frames...")
+    src_frames = [
+        IMG_EP113,
+        IMG_STUDIO,
+        IMG_EP113,
+        IMG_REX,
+        IMG_EP113,
+        IMG_STUDIO
+    ]
+    create_art_frames(EPISODE_DATA["id"], src_frames)
+    
+    # 4. Neural Voice Audio Synthesis
+    print("[4/5] Synthesizing neural voice (Rex Vance via edge-tts)...")
+    full_script = " ... \n\n ".join(EPISODE_DATA["paragraphs"])
+    mp3_path = os.path.join(AUDIO_DIR, f"{EPISODE_DATA['id']}.mp3")
+    await synthesize_rex_vance(full_script, mp3_path)
+    actual_seconds = get_audio_duration(mp3_path)
+    print(f"Synthesized Rex Vance audio: {mp3_path} ({actual_seconds}s)")
+    
+    # 5. Manifest & Metadata Registration
+    print("[5/5] Registering in episodes.json...")
+    t_step = actual_seconds / 6.0
+    frame_times = [int(round(i * t_step)) for i in range(6)]
+    
+    full_episode_entry = {
+        "id": EPISODE_DATA["id"],
+        "hour": EPISODE_DATA["hour"],
+        "date": EPISODE_DATA["date"],
+        "kind": EPISODE_DATA["kind"],
+        "category": EPISODE_DATA["category"],
+        "title": EPISODE_DATA["title"],
+        "subject": EPISODE_DATA["subject"],
+        "paragraphs": EPISODE_DATA["paragraphs"],
+        "art": {
+            "frames": [
+                {"t": frame_times[i], "src": f"art/{EPISODE_DATA['id']}/f0{i+1}.webp"}
+                for i in range(6)
+            ]
+        },
+        "seconds": actual_seconds,
+        "thumb": f"thumbs/{EPISODE_DATA['id']}.webp",
+        "audio": f"audio/{EPISODE_DATA['id']}.mp3",
+        "cover_video": f"thumbs/{EPISODE_DATA['id']}.mp4"
+    }
+    
+    with open(MANIFEST_FILE, "r", encoding="utf-8") as f:
+        manifest = json.load(f)
+    
+    # Prepend new episode if not already present
+    existing_ids = [ep["id"] for ep in manifest["episodes"]]
+    if EPISODE_DATA["id"] in existing_ids:
+        manifest["episodes"] = [ep for ep in manifest["episodes"] if ep["id"] != EPISODE_DATA["id"]]
+    
+    manifest["episodes"].insert(0, full_episode_entry)
+    
+    with open(MANIFEST_FILE, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
+    
+    print(f"Successfully published Episode {EPISODE_DATA['id']} to manifest ({len(manifest['episodes'])} episodes total).")
+
+if __name__ == "__main__":
+    asyncio.run(main())
