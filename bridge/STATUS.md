@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **1,208 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **1,216 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 150 completed, 150 total releases published.
-  - `data/queue.json`: Head item is Episode 151 (`2026-10-12-07`).
-  - `data/registry.json`: 150 active releases logged.
+  - `status/pipeline_state.json`: Episode 151 completed, 151 total releases published. Status: `paused_for_reboot`.
+  - `data/queue.json`: Head item is Episode 152 (`2026-10-12-08`).
+  - `data/registry.json`: 151 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -177,10 +177,11 @@
   - `2026-10-12-04` (175s) — Rydberg Atom Electrometry, Sub-Terahertz Sensor Arrays & Soviet Microwave Interceptions
   - `2026-10-12-05` (187s) — Stuart Hameroff Quantum Microtubule Anesthesia, Xenon Dipoles & Soviet Neuro-Aerosol Telemetry
   - `2026-10-12-06` (171s) — Arctic Yamal LNG Shadow Fleets, Rosatom Icebreaker Chokepoints & Soviet Northern Sea Route Command
+  - `2026-10-12-07` (169s) — Defense Shipbuilding Cost Overruns, Nuclear Submarine Welder Falsification & Soviet Sevmash Scrapyards
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 900 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `d9ea43dc4d11d7804adbdd6ae11e6b90180bce86`).
+- **Story Art Frames:** 906 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `b301422ff0e2ee7e38024feae4b40ae63e80d561`).
 
 ---
 

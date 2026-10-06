@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-12-07",
-      "date": "2026-10-12",
-      "hour": "07:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Defense Shipbuilding Cost Overruns, Nuclear Submarine Welder Falsification & Soviet Sevmash Scrapyards"
-    },
-    {
       "id": "2026-10-12-08",
       "date": "2026-10-12",
       "hour": "08:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Karl Friston Active Inference in Neuronal Populations, Free Energy Minimization & Soviet Cybernetic Control"
+    },
+    {
+      "id": "2026-10-12-10",
+      "date": "2026-10-12",
+      "hour": "10:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Suwalki Gap Heavy Armor Bottlenecks, Rail Bogie Exchange Delays & Kaliningrad Iskander Threat Envelopes"
     }
   ]
 }

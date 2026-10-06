@@ -460,7 +460,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((d1_x + 24, d1_y - 8), "TEETH [D1: WAVE]", fill=(0, 255, 200))
         draw.text((d2_x + 24, d2_y - 8), "TEETH [D2: PARTICLE]", fill=(255, 100, 80))
 
-    elif theme in ("supply_chain_fraud", "subcontractor_grift", "defense_fraud", "aerospace_monopoly", "maintenance_cartel", "diagnostic_lockin", "defense_ai_cartel", "revolving_door", "advisory_collusion", "hypersonic_fraud", "scramjet_failure", "wind_tunnel_fraud", "cfd_falsification", "black_budget", "sap_audit", "pentagon_sap", "gosplan_diversion", "rare_earths", "critical_minerals", "mineral_cartel", "tungsten_carbide", "munitions_fraud", "strategic_metals", "propellant_fraud", "nitrocellulose_cartel", "munitions_degradation", "drone_gouging", "sbir_fraud", "tech_front_company", "counterfeit_chip", "microelectronics_fraud", "line_x"):
+    elif theme in ("supply_chain_fraud", "subcontractor_grift", "defense_fraud", "aerospace_monopoly", "maintenance_cartel", "diagnostic_lockin", "defense_ai_cartel", "revolving_door", "advisory_collusion", "hypersonic_fraud", "scramjet_failure", "wind_tunnel_fraud", "cfd_falsification", "black_budget", "sap_audit", "pentagon_sap", "gosplan_diversion", "rare_earths", "critical_minerals", "mineral_cartel", "tungsten_carbide", "munitions_fraud", "strategic_metals", "propellant_fraud", "nitrocellulose_cartel", "munitions_degradation", "drone_gouging", "sbir_fraud", "tech_front_company", "counterfeit_chip", "microelectronics_fraud", "line_x", "shipbuilding_fraud", "submarine_fraud", "welder_falsification", "sevmash_fraud"):
         # Defense Industrial Base Supply Chain Fraud & Phantom Subcontractor Invoicing
         # 1. Procurement Cascading Waterfall Funnel (Top-down tiers)
         tiers = [
@@ -3345,6 +3345,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "DEFENSE MICROELECTRONICS FORENSICS // COUNTERFEIT BROKER RINGS // LINE X INFILTRATION", fill=(255, 60, 60))
     elif theme in ("fuel_smuggling", "bunkering_fraud", "fuel_cartel", "oil_theft", "bunkering_price_fixing"):
         draw.text((40, 60), "DEFENSE FUEL LOGISTICS FORENSICS // NATO BUNKERING PRICE-FIXING CARTELS // BLACK SEA SIPHON", fill=(255, 140, 40))
+    elif theme in ("shipbuilding_fraud", "submarine_fraud", "welder_falsification", "sevmash_fraud"):
+        draw.text((40, 60), "DEFENSE SHIPBUILDING FORENSICS // NUCLEAR SUBMARINE WELD FALSIFICATION // SEVMASH OVERRUNS", fill=(255, 60, 60))
     elif theme in ("casimir", "vacuum_thruster"):
         draw.text((40, 60), "DYNAMIC CASIMIR NANOCAVITY // ZERO-POINT VACUUM FLUCTUATION PRESSURE // ASYMMETRIC REACTION", fill=(255, 200, 60))
     elif theme in ("orbital_qkd", "space_sigint"):

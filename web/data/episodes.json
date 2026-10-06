@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T18:00:00Z",
+  "updated": "2026-10-06T18:15:00Z",
   "episodes": [
+    {
+      "id": "2026-10-12-07",
+      "hour": "07:00",
+      "date": "2026-10-12",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Defense Shipbuilding Cost Overruns, Nuclear Submarine Welder Falsification & Soviet Sevmash Scrapyards",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates systemic non-destructive testing falsification and radiographic weld coverups in Virginia and Columbia-class nuclear submarines, multi-billion-dollar cost overruns at Newport News and Electric Boat, and Yuri Shvets on Soviet Sevmash shipyard corruption, metallurgical fraud on Alfa-class titanium hulls, and Gosplan industrial diversion.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero seven hundred hours. In the dry docks of Newport News Shipbuilding and General Dynamics Electric Boat, the United States Navy’s nuclear submarine construction pipeline—the crown jewel of Western undersea deterrence—is in the throes of a silent, compounding crisis. Delivery schedules for both Virginia-class fast-attack submarines and the Columbia-class ballistic missile program have slipped by years, while program cost overruns have ballooned into tens of billions of dollars. But behind polite corporate excuses regarding workforce shortages lies a far darker scandal: systemic quality control falsification.",
+        "Federal whistleblowers and internal Naval Sea Systems Command audits revealed that shipyard workers and quality assurance inspectors had systematically falsified non-destructive testing records and radiographic weld inspections across active submarine hulls. Welds securing high-pressure seawater piping, nuclear propulsion boundary bulkheads, and steam generator loops—joints that must withstand immense hydrostatic pressures at operational test depth—were certified as compliant without physical inspection or with knowingly doctored radiographic film.",
+        "Rather than facing immediate criminal accountability or contract forfeiture, prime defense contractors utilized cost-plus contracting loopholes to bill the Pentagon hundreds of millions in additional taxpayer dollars to re-inspect and rework the very defects their own lax oversight created. With only two private shipyards capable of manufacturing nuclear-powered submarines in the entire country, the Navy exists in a state of captive monopoly, unable to penalize contractors whose systemic negligence directly endangers submarine crews.",
+        "This deadly intersection of industrial corner-cutting and bureaucratic collusion mirrors the exact rot that crippled the Soviet naval industrial base. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet naval shipbuilding suffered from identical systemic fraud throughout the Cold War.",
+        "According to Shvets, the colossal Sevmash shipyard in Severodvinsk—the exclusive builder of Soviet nuclear submarines—was plagued by chronic production quotas and metallurgical deception under Gosplan mandates. Shvets revealed that during the construction of the revolutionary titanium-hulled Alfa and Sierra-class submarines, shipyard managers routinely concealed micro-cracks in brittle titanium welds, falsified hydrostatic pressure test certificates, and siphoned strategic metals into black-market barter networks to meet unrealistic Central Committee five-year production targets.",
+        "From the cracked titanium welds concealed at Cold War Sevmash to modern American shipyards forging radiographic inspection logs on nuclear hulls, the defense shipbuilding cartel prioritizes profit and schedule preservation over deep-sea survivability. Track the metallurgical inspection logs, audit the cost-plus re-work bilking, and stay vigilant. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-12-07/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-12-07/f02.webp"
+          },
+          {
+            "t": 56,
+            "src": "art/2026-10-12-07/f03.webp"
+          },
+          {
+            "t": 84,
+            "src": "art/2026-10-12-07/f04.webp"
+          },
+          {
+            "t": 113,
+            "src": "art/2026-10-12-07/f05.webp"
+          },
+          {
+            "t": 141,
+            "src": "art/2026-10-12-07/f06.webp"
+          }
+        ]
+      },
+      "seconds": 169,
+      "audio": "audio/2026-10-12-07.mp3",
+      "thumb": "thumbs/2026-10-12-07.webp",
+      "cover_video": "thumbs/2026-10-12-07.mp4"
+    },
     {
       "id": "2026-10-12-06",
       "hour": "06:00",
