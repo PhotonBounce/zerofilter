@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 92,
+  "total_releases": 93,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -736,6 +736,14 @@
       "title": "Bose-Einstein Condensate Atom Interferometry, Subterranean Bunker Gravimetry & Soviet Non-Acoustic ASW",
       "audio": "audio/2026-10-09-20.mp3",
       "cover_video": "thumbs/2026-10-09-20.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-21",
+      "seconds": 186,
+      "title": "Binaural Frequency-Following Response, EEG Microstates & Soviet Telepathy Disinformation Protocols",
+      "audio": "audio/2026-10-09-21.mp3",
+      "cover_video": "thumbs/2026-10-09-21.mp4",
       "status": "published_production"
     }
   ]

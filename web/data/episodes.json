@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-21",
+      "hour": "21:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Binaural Frequency-Following Response, EEG Microstates & Soviet Telepathy Disinformation Protocols",
+      "subject": "Hourly uncensored breakdown: Rex Vance analyzes auditory binaural frequency-following neuro-entrainment, millisecond EEG microstate transitions, and Yuri Shvets on KGB psychotronic telepathy disinformation operations.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty-one hundred hours. While commercial consumer applications market binaural audio as simple acoustic relaxation therapy, military behavioral laboratories and intelligence directorates have weaponized auditory neural entrainment for more than half a century. The core electrophysiological mechanism is the auditory frequency-following response, or FFR. When slightly detuned acoustic frequencies are delivered dichotically through stereo headphones, the superior olivary complex inside the brainstem phase-locks to the mathematical difference frequency, driving cortical oscillations that entrain global neuro-electric states.",
+        "Modern high-density electroencephalography allows cognitive researchers to segment whole-brain electrical activity into discrete EEG microstates—quasi-stable scalp potential topographies that persist for mere sixty to one hundred and twenty millisecond intervals. These microstates represent the foundational atomic building blocks of conscious information processing. By driving the auditory frequency-following response into targeted theta or low-alpha spectra via calibrated binaural phase differences, researchers can artificially alter microstate transition probabilities, manipulating sensory gating thresholds, memory encoding, and cognitive vulnerability to hypnotic suggestion.",
+        "This intersection of neuro-acoustic entrainment and psychological conditioning was the epicenter of ferocious Cold War intelligence rivalry. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet military intelligence and the KGB First Chief Directorate poured millions of convertible rubles into classified psychotronic research facilities across Kiev, Leningrad, and Novosibirsk, investigating bio-energetic resonance and acoustic mental disruption.",
+        "Crucially, however, Shvets exposed that a vast swath of Soviet telepathy and parapsychology research was a calculated, state-sanctioned intelligence fraud. Corrupt Soviet academics colluded with KGB curators to fabricate supernatural test results, siphoning off classified black budgets into untraceable slush funds. Simultaneously, KGB Service A active measures officers packaged these fraudulent telepathy dossiers and fed them to Western intelligence channels, successfully panicking the Pentagon into spending millions to establish parallel psychic initiatives, including the CIA's Project Stargate and the Army's Monroe Institute Gateway experiments.",
+        "Yet behind the theatrical theater of psychic espionage lay genuine electrophysiological leverage: brainstem frequency-following and acoustic microstate modulation are rigorously reproducible. Today, with the proliferation of consumer neuro-wearables, spatial audio feeds, and algorithmically generated acoustic soundscapes, the mechanism has scaled from laboratory benches to millions of personal devices. When targeted sound design can steer EEG microstate stability without conscious user awareness, the human auditory canal becomes an unmonitored back-channel into the cognitive substrate.",
+        "Audit the neural interface defense grants, demand open-source scrutiny of synthetic acoustic algorithms, and refuse to surrender your cognitive microstates. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-21/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-09-21/f02.webp"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-09-21/f03.webp"
+          },
+          {
+            "t": 93,
+            "src": "art/2026-10-09-21/f04.webp"
+          },
+          {
+            "t": 124,
+            "src": "art/2026-10-09-21/f05.webp"
+          },
+          {
+            "t": 155,
+            "src": "art/2026-10-09-21/f06.webp"
+          }
+        ]
+      },
+      "seconds": 186,
+      "thumb": "thumbs/2026-10-09-21.webp",
+      "audio": "audio/2026-10-09-21.mp3",
+      "cover_video": "thumbs/2026-10-09-21.mp4"
+    },
+    {
       "id": "2026-10-09-20",
       "hour": "20:00",
       "date": "2026-10-09",

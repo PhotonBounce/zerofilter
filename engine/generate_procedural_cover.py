@@ -1192,7 +1192,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, cy - 70), "POST-QUANTUM MIGRATION REQ", fill=(200, 200, 200))
         draw.text((width - 310, cy - 50), "STATUS: SHVETS DISCLOSURE", fill=(0, 255, 220))
 
-    elif theme in ("gateway_hemisync", "hemisync", "monroe_gateway", "binaural_beat"):
+    elif theme in ("gateway_hemisync", "hemisync", "monroe_gateway", "binaural_beat", "binaural_ffr", "eeg_microstates", "ffr", "telepathy_disinfo"):
         # Robert Monroe Gateway Hemi-Sync & Soviet Psychotronic Telemetry
         # 1. Background EEG frequency spectral grid
         for gy in range(cy - 220, cy + 220, 30):
@@ -1676,7 +1676,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "SUPERCONDUCTING FLUXONIUM QUBIT // HIGH-HARMONIC PHASE SLIP // SOVIET CRYOGENICS ARCHIVES", fill=(0, 240, 255))
     elif theme in ("defense_cloud_fisa", "fisa_702", "cloud_lobbying", "jwcc"):
         draw.text((40, 60), "DEFENSE CLOUD LOBBYING // FISA 702 WARRANTLESS BACKDOORS // KGB OTU SURVEILLANCE", fill=(255, 100, 70))
-    elif theme in ("gateway_hemisync", "hemisync", "monroe_gateway", "binaural_beat"):
+    elif theme in ("gateway_hemisync", "hemisync", "monroe_gateway", "binaural_beat", "binaural_ffr", "eeg_microstates", "ffr", "telepathy_disinfo"):
         draw.text((40, 60), "MONROE GATEWAY HEMI-SYNC // BINAURAL 4.0Hz THETA COHERENCE // SOVIET PSYCHOTRONICS", fill=(200, 160, 255))
     elif theme in ("optomechanics", "drum_resonator", "mechanical_resonator", "optomechanical_entanglement", "quantum_drum"):
         draw.text((40, 60), "MACROSCOPIC DRUM ENTANGLEMENT // OPTOMECHANICAL PHASE NOISE SUPPRESSION // SOVIET LASER ESPIONAGE", fill=(0, 240, 255))

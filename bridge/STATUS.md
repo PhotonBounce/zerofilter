@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **744 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **752 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 92 completed, 92 total releases published.
-  - `data/queue.json`: Head item is Episode 93 (`2026-10-09-21`).
-  - `data/registry.json`: 92 active releases logged.
+  - `status/pipeline_state.json`: Episode 93 completed, 93 total releases published.
+  - `data/queue.json`: Head item is Episode 94 (`2026-10-09-22`).
+  - `data/registry.json`: 93 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -119,10 +119,11 @@
   - `2026-10-09-18` (172s) — Red Sea Subsea Cable Sabotage, Bab el-Mandeb Chokepoints & Soviet Horn of Africa Naval Reconnaissance
   - `2026-10-09-19` (182s) — Defense Fuel Smuggling Syndicates, NATO Bunkering Fraud & Soviet Black Sea Fleet Diversion Cartels
   - `2026-10-09-20` (182s) — Bose-Einstein Condensate Atom Interferometry, Subterranean Bunker Gravimetry & Soviet Non-Acoustic ASW
+  - `2026-10-09-21` (186s) — Binaural Frequency-Following Response, EEG Microstates & Soviet Telepathy Disinformation Protocols
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 552 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `dad61b069ac7a9c0c008214046e36d7ca93cd775`).
+- **Story Art Frames:** 558 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `00fdac9dabb8bf1ab2f0a454b66d3520f5bc00d9`).
 
 ---
 
