@@ -2098,6 +2098,90 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 118), "MOSCOW EMBASSY MICROWAVES", fill=(255, 200, 80))
         draw.text((width - 310, 138), "KGB 8TH CHIEF ILLUMINATION", fill=(255, 100, 80))
         draw.text((width - 310, 158), "ANTENNA-LESS SENSOR ARRAY", fill=(255, 220, 120))
+    elif theme in ("orch_or", "orch_or_anesthesia", "tubulin_quantum", "quantum_anesthesia"):
+        # Penrose-Hameroff Orch-OR Microtubule Lattice & Anesthetic Dipole Decoupling
+        # 1. Background hexagonal lattice grid & quantum coherence field
+        for gy in range(cy - 220, cy + 220, 26):
+            draw.line([(60, gy), (width - 60, gy)], fill=(12, 28, 36), width=1)
+        for gx in range(60, width - 60, 44):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(12, 28, 36), width=1)
+
+        # 2. Central Cylindrical Microtubule Lattice
+        # Representing 13 protofilaments of alpha & beta tubulin heterodimers
+        tub_x_start = cx - 240
+        tub_x_end = cx + 240
+        tub_y_center = cy - 20
+        num_cols = 16
+        col_w = (tub_x_end - tub_x_start) // num_cols
+
+        # Outer sheath envelope
+        draw.rectangle([tub_x_start - 10, tub_y_center - 75, tub_x_end + 10, tub_y_center + 75], fill=(8, 16, 26), outline=(0, 255, 200), width=1)
+        draw.text((tub_x_start, tub_y_center - 95), "MICROTUBULE CYLINDER (25nm DIAMETER // 13 PROTOFILAMENTS)", fill=(0, 255, 200))
+
+        # Tubulin Dimers (Alternating Alpha and Beta subunits with pi-electron dipoles)
+        for col in range(num_cols):
+            x_pos = tub_x_start + col * col_w + col_w // 2
+            for row in range(-3, 4):
+                y_pos = tub_y_center + row * 18
+                # Alternate alpha/beta tubulin
+                is_alpha = (col + row) % 2 == 0
+                color_sub = (0, 220, 255) if is_alpha else (180, 100, 255)
+                # Dimer ellipse
+                draw.ellipse([x_pos - 9, y_pos - 7, x_pos + 9, y_pos + 7], fill=(15, 30, 45), outline=color_sub, width=1)
+                # Hydrophobic core dipole point
+                dipole_color = (255, 230, 100) if (col * 3 + row) % 4 == 0 else (100, 255, 220)
+                draw.ellipse([x_pos - 2, y_pos - 2, x_pos + 2, y_pos + 2], fill=dipole_color)
+
+        # Coherent terahertz quantum resonance wave traversing the microtubule
+        wave_pts = []
+        for wx in range(tub_x_start, tub_x_end, 6):
+            rel_x = (wx - tub_x_start) * 0.05
+            wy = tub_y_center + int(28 * math.sin(rel_x))
+            wave_pts.append((wx, wy))
+        if len(wave_pts) > 1:
+            draw.line(wave_pts, fill=(255, 220, 80), width=2)
+        draw.text((tub_x_start + 40, tub_y_center + 80), "COHERENT THz DIPOLE OSCILLATION (614 THz RESONANCE)", fill=(255, 220, 100))
+
+        # 3. Anesthetic Molecule Insertion & Quantum Decoherence Pinning
+        # Xenon / Halothane molecules binding in hydrophobic pockets
+        anes_positions = [(cx - 100, tub_y_center - 15), (cx + 80, tub_y_center + 20), (cx + 10, tub_y_center - 35)]
+        for ax, ay in anes_positions:
+            draw.ellipse([ax - 12, ay - 12, ax + 12, ay + 12], fill=(255, 50, 70), outline=(255, 255, 255), width=2)
+            draw.text((ax - 6, ay - 6), "Xe", fill=(255, 255, 255))
+            # Decoherence perturbation field
+            draw.arc([ax - 18, ay - 18, ax + 18, ay + 18], 0, 360, fill=(255, 120, 120), width=1)
+        draw.text((cx - 120, tub_y_center - 45), "ANESTHETIC BINDING // DIPOLE QUENCHING", fill=(255, 80, 80))
+
+        # 4. Penrose Gravitational Collapse Curve (Lower center plot)
+        spec_x, spec_y = cx - 180, cy + 105
+        spec_w, spec_h = 360, 65
+        draw.rectangle([spec_x, spec_y, spec_x + spec_w, spec_y + spec_h], fill=(10, 18, 26), outline=(0, 200, 240), width=1)
+        draw.text((spec_x + 10, spec_y + 6), "PENROSE ORCH-OR COLLAPSE: τ = ℏ / E_G (SELF-COLLAPSE)", fill=(0, 255, 220))
+        # Decay / quantum superposition collapse trajectory
+        col_pts = []
+        for sx in range(spec_w - 20):
+            norm_x = sx / (spec_w - 20)
+            amp = math.exp(-2.5 * norm_x) * math.cos(norm_x * 22)
+            cy_val = spec_y + 35 - int(amp * 20)
+            col_pts.append((spec_x + 10 + sx, cy_val))
+        if len(col_pts) > 1:
+            draw.line(col_pts, fill=(0, 255, 180), width=2)
+
+        # 5. Telemetry Dossiers (Orch-OR Quantum Bio & KGB Telemetry)
+        # Left HUD Box: Orch-OR Metrics
+        draw.rectangle([60, 90, 310, cy - 140], fill=(10, 22, 32), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[ORCH-OR QUANTUM BIOLOGY]", fill=(0, 240, 255))
+        draw.text((70, 118), "LATTICE: 13-PROTOFILAMENT TUBULIN", fill=(255, 220, 100))
+        draw.text((70, 138), "DIPOLE FREQ: 614 THz COHERENCE", fill=(0, 255, 200))
+        draw.text((70, 158), "COLLAPSE: GRAVITATIONAL E_G", fill=(120, 220, 255))
+        draw.text((70, 178), "ANESTHESIA: ELECTRON QUENCH", fill=(255, 100, 100))
+
+        # Right HUD Box: KGB Pharmacological Dossier & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 14, 18), outline=(255, 90, 120), width=1)
+        draw.text((width - 310, 98), "[KGB PHARMACOLOGICAL TELEMETRY]", fill=(255, 100, 120))
+        draw.text((width - 310, 118), "KGB 12TH DEPT NARCO-ANALYSIS", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "PSYCHOTROPIC TELEMETRY LABS", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "CONSCIOUSNESS SUPPRESSION", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
     else:

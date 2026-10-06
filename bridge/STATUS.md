@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **1,000 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **1,008 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 124 completed, 124 total releases published.
-  - `data/queue.json`: Head item is Episode 125 (`2026-10-11-05`).
-  - `data/registry.json`: 124 active releases logged.
+  - `status/pipeline_state.json`: Episode 125 completed, 125 total releases published.
+  - `data/queue.json`: Head item is Episode 126 (`2026-10-11-06`).
+  - `data/registry.json`: 125 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -151,10 +151,11 @@
   - `2026-10-11-02` (177s) — Strait of Gibraltar ASW Acoustic Barriers, Moroccan Radar & Soviet 5th Eskadra Chokepoints
   - `2026-10-11-03` (177s) — Defense Logistics Phantom Container Invoicing, Freight Pass-Throughs & Soviet Warehouse Grift
   - `2026-10-11-04` (200s) — Rydberg Atom Electrometry, Sub-THz Sensors & Soviet Microwave Eavesdropping
+  - `2026-10-11-05` (176s) — Penrose-Hameroff Orch-OR Anesthesia, Tubulin Dipoles & KGB Pharmacological Telemetry
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 744 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `1b5bf4bab6afdaef748e83b86ef40d6828dc8581`).
+- **Story Art Frames:** 750 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `1d427cf31391f55580bb2c32b71a08b173de6eb8`).
 
 ---
 

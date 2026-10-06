@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-05",
-      "date": "2026-10-11",
-      "hour": "05:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Penrose-Hameroff Orch-OR anesthetic dipole binding, aromatic tubulin lattices, and Yuri Shvets on KGB bio-chemical interrogation research"
-    },
-    {
       "id": "2026-10-11-06",
       "date": "2026-10-11",
       "hour": "06:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Pentagon F-35 Autonomic Logistics Information System (ODIN/ALIS) cost escalations, subcontractor proprietary data locks, and Soviet Defense Ministry factory kickbacks"
+    },
+    {
+      "id": "2026-10-11-08",
+      "date": "2026-10-11",
+      "hour": "08:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Topological Majorana zero modes, non-Abelian anyon braiding, and Yuri Shvets on Soviet low-temperature quantum physics institutes and submarine cryptographic hardware"
     }
   ]
 }
