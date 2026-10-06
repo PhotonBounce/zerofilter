@@ -1,0 +1,150 @@
+# engine/produce_episode_56.py
+import asyncio
+import json
+import os
+import subprocess
+from PIL import Image
+import imageio_ffmpeg
+import edge_tts
+from generate_procedural_cover import generate_cover
+
+ROOT_DIR = r"D:\zerofilter"
+WEB_DIR = os.path.join(ROOT_DIR, "web")
+THUMBS_DIR = os.path.join(WEB_DIR, "thumbs")
+AUDIO_DIR = os.path.join(WEB_DIR, "audio")
+ART_DIR = os.path.join(WEB_DIR, "art")
+MANIFEST_FILE = os.path.join(WEB_DIR, "data", "episodes.json")
+
+IMG_EP56 = os.path.join(THUMBS_DIR, "2026-10-08-08.webp")
+IMG_REX = os.path.join(WEB_DIR, "assets", "rex_vance.webp")
+IMG_STUDIO = os.path.join(WEB_DIR, "assets", "studio_bunker.webp")
+
+FFMPEG_EXE = imageio_ffmpeg.get_ffmpeg_exe()
+
+def generate_looping_video(image_path, output_mp4, duration=10):
+    os.makedirs(os.path.dirname(output_mp4), exist_ok=True)
+    cmd = [
+        FFMPEG_EXE, "-y",
+        "-loop", "1",
+        "-i", image_path,
+        "-vf", f"zoompan=z='min(zoom+0.0006,1.08)':d={duration*30}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1280x720:fps=30",
+        "-t", str(duration),
+        "-c:v", "libx264",
+        "-pix_fmt", "yuv420p",
+        "-an",
+        output_mp4
+    ]
+    subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    print(f"Generated 10s Looping Cover: {output_mp4}")
+
+def create_art_frames(ep_id, src_art_paths):
+    target_dir = os.path.join(ART_DIR, ep_id)
+    os.makedirs(target_dir, exist_ok=True)
+    frame_names = ["f01.webp", "f02.webp", "f03.webp", "f04.webp", "f05.webp", "f06.webp"]
+    for src, fname in zip(src_art_paths, frame_names):
+        dst = os.path.join(target_dir, fname)
+        with Image.open(src) as im:
+            im.save(dst, "WEBP", quality=90)
+        print(f"Saved WebP: {dst}")
+    print(f"Created 6 art frames in {target_dir}")
+
+async def synthesize_rex_vance(text, output_mp3):
+    os.makedirs(os.path.dirname(output_mp3), exist_ok=True)
+    communicate = edge_tts.Communicate(text, "en-US-ChristopherNeural", rate="+10%", pitch="-2Hz")
+    await communicate.save(output_mp3)
+
+def get_audio_duration(file_path):
+    cmd = [
+        FFMPEG_EXE, "-i", file_path
+    ]
+    res = subprocess.run(cmd, capture_output=True, text=True)
+    for line in res.stderr.splitlines():
+        if "Duration:" in line:
+            parts = line.split("Duration:")[1].split(",")[0].strip()
+            h, m, s = parts.split(":")
+            total_sec = int(h) * 3600 + int(m) * 60 + float(s)
+            return round(total_sec)
+    return 180
+
+EPISODE_DATA = {
+    "id": "2026-10-08-08",
+    "hour": "08:00",
+    "date": "2026-10-08",
+    "kind": "hourly",
+    "category": "corruption",
+    "title": "Rare-Earth Processing Chokepoints, Defense Mineral Stockpile Deficits & Soviet Cartel Price Manipulation",
+    "subject": "Hourly uncensored breakdown: Rex Vance investigates China's heavy rare-earth refining monopoly, Pentagon National Defense Stockpile critical mineral deficits across titanium, gallium, and dysprosium, and Yuri Shvets's insider analysis of Soviet mineral cartel market rigging and intelligence penetration.",
+    "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero eight hundred hours. Behind the glittering rhetoric of next-generation stealth fighters, precision-guided munitions, and advanced radar arrays lies an unacknowledged logistical vulnerability: the Pentagon is running dangerously starved of defense-critical minerals. Every F-35 lightning fighter jet requires four hundred and ten pounds of specialized rare-earth elements, including neodymium, dysprosium, and samarium-cobalt magnets. Yet despite decades of congressional warnings, the United States remains almost completely dependent on foreign processing monopolies—primarily state-subsidized refining facilities in the People's Republic of China—for over ninety percent of its separated heavy rare earths.",
+        "The crisis extends far beyond extraction to the complex chemical metallurgy required for industrial weaponization. While raw ores can be mined across North America and Australia, the toxic, high-temperature solvent extraction and magnetic alloy reduction processes remain geographically concentrated in Chinese refiners. A single export restriction on processed gallium, germanium, or dysprosium instantly chokes American precision missile guidance manufacturing. Meanwhile, the National Defense Stockpile—historically maintained to guarantee three years of continuous wartime industrial production—has been depleted by congressional budget liquidations to a fraction of Cold War solvency.",
+        "This mineral leverage strategy mirrors the playbook perfected by the Soviet Union during the 1970s and 1980s. As former KGB foreign intelligence officer and Washington counter-intelligence insider Yuri Shvets has extensively detailed, Soviet foreign economic intelligence—coordinated through the Ministry of Foreign Trade and the KGB’s Directorate T—deliberately orchestrated global cartel pricing across critical strategic metals, including titanium, platinum, and nickel.",
+        "According to Shvets, the KGB established clandestine trading front companies in Switzerland, London, and Vienna to manipulate the London Metal Exchange. By hoarding strategic reserves and executing sudden price dumping operations, Soviet intelligence wiped out Western domestic mining competitors, forcing NATO defense contractors into direct dependence on Soviet state exports. Shvets points out that Western defense procurement officials ignored these structural traps, prioritizing quarterly cost-efficiency over sovereign supply security—the exact corporate negligence enabling today's rare-earth crisis.",
+        "Today, as geopolitical friction accelerates across the Pacific and Eastern Europe, the bill for thirty years of deindustrialization is coming due. Western defense primes cannot build hypersonics, radar arrays, or nuclear submarines without processed minerals controlled by geopolitical rivals. When the strategic supply chain is held hostage at the refinery, military superiority is merely a paper illusion.",
+        "Audit the mineral supply chain, track the refinery chokepoints, and expose the cartel pricing maneuvers. I'm Rex Vance. Keep your filters at absolute zero."
+    ]
+}
+
+async def main():
+    print(f"=== Producing ZeroFilter Episode {EPISODE_DATA['id']} ===")
+    
+    # 1. Procedural Cover Generation
+    print("[1/5] Generating procedural cyber-noir cover...")
+    img = generate_cover(theme="rare_earths")
+    img.save(IMG_EP56, "WEBP", quality=92)
+    print(f"Saved: {IMG_EP56}")
+    
+    # 2. Looping 10s MP4 Cover
+    print("[2/5] Generating 10s looping MP4 cover...")
+    output_mp4 = os.path.join(THUMBS_DIR, f"{EPISODE_DATA['id']}.mp4")
+    generate_looping_video(IMG_EP56, output_mp4, duration=10)
+    
+    # 3. Audio Synthesis (Rex Vance Baritone)
+    print("[3/5] Synthesizing audio via edge-tts (ChristopherNeural)...")
+    full_script = " ".join(EPISODE_DATA["paragraphs"])
+    audio_path = os.path.join(AUDIO_DIR, f"{EPISODE_DATA['id']}.mp3")
+    await synthesize_rex_vance(full_script, audio_path)
+    
+    actual_duration = get_audio_duration(audio_path)
+    print(f"Audio synthesized: {audio_path} ({actual_duration}s)")
+    EPISODE_DATA["seconds"] = actual_duration
+    
+    # 4. Synchronized Art Frames
+    print("[4/5] Creating 6 synchronized art frames...")
+    art_sources = [
+        IMG_EP56,
+        IMG_REX,
+        IMG_EP56,
+        IMG_STUDIO,
+        IMG_EP56,
+        IMG_REX
+    ]
+    create_art_frames(EPISODE_DATA["id"], art_sources)
+    
+    # Calculate art frame timestamps based on actual audio duration
+    p_step = actual_duration / 6.0
+    EPISODE_DATA["art"] = {
+        "frames": [
+            {"t": round(i * p_step), "src": f"art/{EPISODE_DATA['id']}/f0{i+1}.webp"}
+            for i in range(6)
+        ]
+    }
+    EPISODE_DATA["thumb"] = f"thumbs/{EPISODE_DATA['id']}.webp"
+    EPISODE_DATA["audio"] = f"audio/{EPISODE_DATA['id']}.mp3"
+    EPISODE_DATA["cover_video"] = f"thumbs/{EPISODE_DATA['id']}.mp4"
+    
+    # 5. Manifest Registration
+    print("[5/5] Updating manifest web/data/episodes.json...")
+    with open(MANIFEST_FILE, "r", encoding="utf-8") as f:
+        manifest = json.load(f)
+    
+    # Prepend new episode so newest is first
+    existing = [ep for ep in manifest["episodes"] if ep["id"] != EPISODE_DATA["id"]]
+    manifest["episodes"] = [EPISODE_DATA] + existing
+    
+    with open(MANIFEST_FILE, "w", encoding="utf-8") as f:
+        json.dump(manifest, f, indent=2, ensure_ascii=False)
+    
+    print(f"[+] Successfully produced Episode {EPISODE_DATA['id']} ({actual_duration}s)!")
+
+if __name__ == "__main__":
+    asyncio.run(main())

@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-08",
-      "date": "2026-10-08",
-      "hour": "08:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Rare-earth processing chokepoints, Pentagon defense critical minerals stockpile deficits, and Yuri Shvets on Soviet mineral cartel price manipulation"
-    },
-    {
       "id": "2026-10-08-09",
       "date": "2026-10-08",
       "hour": "09:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Undersea autonomous drone swarms, GIUK Gap acoustic barriers, and Yuri Shvets on Soviet titanium-hull deep-diving submarine doctrines"
+    },
+    {
+      "id": "2026-10-08-11",
+      "date": "2026-10-08",
+      "hour": "11:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Autonomous drone munitions price gouging, SBIR grant fraud syndicates, and Yuri Shvets on Soviet front-company technology acquisitions"
     }
   ]
 }

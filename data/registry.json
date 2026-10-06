@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 55,
+  "total_releases": 56,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -440,6 +440,14 @@
       "title": "Neuro-Feedback Biometrics in High-Frequency Trading Execution & KGB Reflex Modification",
       "audio": "audio/2026-10-08-07.mp3",
       "cover_video": "thumbs/2026-10-08-07.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-08-08",
+      "seconds": 175,
+      "title": "Rare-Earth Processing Chokepoints, Defense Mineral Stockpile Deficits & Soviet Cartel Price Manipulation",
+      "audio": "audio/2026-10-08-08.mp3",
+      "cover_video": "thumbs/2026-10-08-08.mp4",
       "status": "published_production"
     }
   ]
