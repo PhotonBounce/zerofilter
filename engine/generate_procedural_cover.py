@@ -76,6 +76,54 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
                 if dist < 120:
                     draw.point((jx + int(math.sin(jy*0.2)*4), jy), fill=(240, 70, 40))
 
+    elif theme in ("conscious_agents", "hoffman"):
+        # Donald Hoffman Conscious Agent Network & Mathematical Spacetime Emergence
+        # 1. Perspective spacetime grid projection (emerging from below)
+        horizon_y = cy + 40
+        for gx in range(0, width + 100, 40):
+            # Perspective rays radiating from vanishing point (cx, horizon_y)
+            draw.line([(cx, horizon_y), (gx, height)], fill=(20, 50, 70), width=1)
+        for gy in range(horizon_y, height, 15):
+            factor = (gy - horizon_y) / (height - horizon_y)
+            alpha_b = int(25 + 70 * factor)
+            draw.line([(0, gy), (width, gy)], fill=(15, alpha_b, int(alpha_b * 1.4)), width=1)
+
+        # 2. Markovian Conscious Agent Network (Constellation of connected nodes)
+        random.seed(42)
+        agent_nodes = []
+        for a_idx in range(18):
+            ax = random.randint(140, width - 140)
+            ay = random.randint(70, horizon_y - 20)
+            agent_nodes.append((ax, ay, random.randint(12, 28)))
+
+        # Transition kernel connections between agents
+        for i, (ax1, ay1, r1) in enumerate(agent_nodes):
+            for j, (ax2, ay2, r2) in enumerate(agent_nodes):
+                if i < j:
+                    dist = math.hypot(ax1 - ax2, ay1 - ay2)
+                    if dist < 260:
+                        # Arc intensity inversely proportional to distance
+                        p_intensity = int(180 * (1.0 - dist / 260.0))
+                        draw.line([(ax1, ay1), (ax2, ay2)], fill=(int(p_intensity * 0.4), p_intensity, int(p_intensity * 0.8)), width=1)
+                        # Probability weight label on mid-point
+                        if dist < 140 and (i + j) % 3 == 0:
+                            mx, my = (ax1 + ax2) // 2, (ay1 + ay2) // 2
+                            draw.text((mx + 2, my - 6), f"P_{i}{j}={dist/300:.2f}", fill=(p_intensity, 255, 200))
+
+        # Agent node rendering (glowing spheres with core and ring)
+        for idx, (ax, ay, rad) in enumerate(agent_nodes):
+            # Outer aura ring
+            draw.ellipse([ax - rad - 6, ay - rad - 6, ax + rad + 6, ay + rad + 6], outline=(30, 160, 220), width=1)
+            # Core circle
+            draw.ellipse([ax - rad, ay - rad, ax + rad, ay + rad], fill=(10, 45, 75), outline=(0, 240, 255), width=2)
+            # Center nexus
+            draw.ellipse([ax - 3, ay - 3, ax + 3, ay + 3], fill=(255, 255, 255))
+            draw.text((ax + rad + 4, ay - 8), f"AGENT α_{idx}", fill=(0, 255, 220))
+
+        # 3. Asymptotic projection cone from network to spacetime plane
+        for (ax, ay, _) in agent_nodes[::4]:
+            draw.line([(ax, ay), (cx + (ax - cx) * 1.3, height - 30)], fill=(0, 180, 240), width=1)
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -128,6 +176,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "DEFENSE PROCUREMENT FORENSICS // AUDIT TRAIL: COST-PLUS CARTELS // UNREDACTED", fill=(255, 90, 70))
     elif theme == "vc_theft":
         draw.text((40, 60), "DEFENSE VC FORENSICS // DUAL-USE TECH DIVERSION // DIRECTORATE T INTERCEPT", fill=(255, 120, 50))
+    elif theme in ("conscious_agents", "hoffman"):
+        draw.text((40, 60), "CONSCIOUS AGENT DYNAMICS // MARKOVIAN TRANSITION KERNELS // SPACETIME PROJECTION MATRIX", fill=(0, 255, 220))
     elif theme == "consciousness":
         draw.text((40, 60), "NEURAL BIOPHOTON TELEMETRY // TUBULIN DIPOLE HARMONICS // BANDWIDTH 614 THz", fill=(80, 255, 180))
     else:
