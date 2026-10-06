@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 131,
+  "total_releases": 132,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1048,6 +1048,14 @@
       "title": "Pentagon Unacknowledged SAP Carve-Outs, Audit Waiver Networks & Soviet Slush Funds",
       "audio": "audio/2026-10-11-11.mp3",
       "cover_video": "thumbs/2026-10-11-11.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-11-12",
+      "seconds": 183,
+      "title": "Optomechanical Membrane Entanglement, Gravitational Decoherence & Soviet Laser Acoustics",
+      "audio": "audio/2026-10-11-12.mp3",
+      "cover_video": "thumbs/2026-10-11-12.mp4",
       "status": "published_production"
     }
   ]

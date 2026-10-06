@@ -2495,6 +2495,77 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 118), "BALTIC MD RAPID INTERDICTION", fill=(255, 200, 80))
         draw.text((width - 310, 138), "KALININGRAD FLEET LOGISTICS", fill=(255, 100, 80))
         draw.text((width - 310, 158), "KGB RAIL SURVEILLANCE RINGS", fill=(255, 220, 120))
+    elif theme in ("optomechanics_entanglement", "optomechanics", "membrane_entanglement", "laser_acoustics"):
+        # Optomechanical Membrane Entanglement, Gravitational Decoherence & Laser Acoustics
+        # 1. Background Optical Cavity Standing Wave Grid
+        for gy in range(cy - 220, cy + 220, 24):
+            draw.line([(60, gy), (width - 60, gy)], fill=(12, 24, 38), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(12, 24, 38), width=1)
+
+        # 2. Fabry-Pérot Optical Cavity (Mirrors M1 and M2)
+        cav_w = 400
+        m1_x, m2_x = cx - cav_w//2, cx + cav_w//2
+        cav_y = cy - 30
+        cav_h = 120
+        # Left Mirror M1 (Curved dielectric mirror)
+        draw.rectangle([m1_x - 16, cav_y - cav_h//2, m1_x, cav_y + cav_h//2], fill=(20, 40, 60), outline=(0, 255, 240), width=2)
+        draw.text((m1_x - 30, cav_y + cav_h//2 + 8), "MIRROR M1 [R > 99.99%]", fill=(0, 240, 255))
+
+        # Right Mirror M2
+        draw.rectangle([m2_x, cav_y - cav_h//2, m2_x + 16, cav_y + cav_h//2], fill=(20, 40, 60), outline=(0, 255, 240), width=2)
+        draw.text((m2_x - 80, cav_y + cav_h//2 + 8), "MIRROR M2 [PIEZO-TUNED]", fill=(0, 240, 255))
+
+        # Intracavity Standing Optical Wave (1064nm intra-cavity red/cyan photons)
+        stand_pts = []
+        for x_pos in range(m1_x, m2_x, 4):
+            rel_ph = (x_pos - m1_x) * 0.12
+            y_val = cav_y + int(36 * math.sin(rel_ph))
+            stand_pts.append((x_pos, y_val))
+        if len(stand_pts) > 1:
+            draw.line(stand_pts, fill=(0, 255, 220), width=2)
+
+        # 3. High-Stress Silicon Nitride Membrane (Si3N4) at Intra-cavity Node
+        mem_x = cx
+        mem_h = 100
+        # Vibrating membrane line with quantum displacement amplitude
+        draw.line([(mem_x, cav_y - mem_h//2), (mem_x, cav_y + mem_h//2)], fill=(255, 220, 60), width=3)
+        # Membrane mechanical vibration envelope
+        draw.ellipse([mem_x - 12, cav_y - 30, mem_x + 12, cav_y + 30], outline=(255, 180, 50), width=1)
+        draw.text((mem_x - 65, cav_y - cav_h//2 - 22), "Si3N4 VIBRATING MEMBRANE", fill=(255, 220, 80))
+        draw.text((mem_x - 60, cav_y + cav_h//2 - 12), "PHONON GROUND STATE: n < 0.2", fill=(255, 180, 50))
+
+        # 4. Gravitational Decoherence & Self-Collapse Lower HUD Plot
+        spec_x, spec_y = cx - 180, cy + 90
+        spec_w, spec_h = 360, 75
+        draw.rectangle([spec_x, spec_y, spec_x + spec_w, spec_y + spec_h], fill=(10, 18, 28), outline=(0, 200, 240), width=1)
+        draw.text((spec_x + 10, spec_y + 6), "GRAVITATIONAL DECOHERENCE BOUND // DIÓSI-PENROSE COLLAPSE", fill=(0, 255, 220))
+        # Quantum coherence vs mass-displacement curve
+        dec_pts = []
+        for sx in range(spec_w - 20):
+            norm_x = sx / (spec_w - 20)
+            amp_val = math.exp(-2.2 * norm_x) * math.cos(norm_x * 18)
+            cy_val = spec_y + 38 - int(amp_val * 24)
+            dec_pts.append((spec_x + 10 + sx, cy_val))
+        if len(dec_pts) > 1:
+            draw.line(dec_pts, fill=(255, 100, 80), width=2)
+        draw.text((spec_x + spec_w - 130, spec_y + 45), "E_G = ℏ / τ_COLLAPSE", fill=(255, 220, 100))
+
+        # 5. Telemetry Dossiers (Optomechanics & Soviet Laser Acoustics)
+        # Left HUD Box: Optomechanical Metrics
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 22, 34), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[OPTOMECHANICS QUANTUM HUD]", fill=(0, 240, 255))
+        draw.text((70, 118), "CAVITY FINESSE: F = 120,000", fill=(255, 220, 100))
+        draw.text((70, 138), "COUPLING RATE: g_0 = 2π × 180 kHz", fill=(0, 255, 200))
+        draw.text((70, 158), "ENTANGLEMENT: PHONON-PHOTON", fill=(120, 220, 255))
+        draw.text((70, 178), "MACROSCOPIC MASS: 10 ng SUPERPOS", fill=(200, 140, 255))
+
+        # Right HUD Box: Soviet Laser Acoustics & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET LASER ACOUSTICS]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "KGB OTU WINDOW INTERFEROMETRY", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "SEABED OPTICAL HYDROPHONES", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "NON-ACOUSTIC SUB WAKE LASER", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
     else:
