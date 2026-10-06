@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-19",
-      "date": "2026-10-10",
-      "hour": "19:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Pentagon drone swarm telemetry pricing inflation, venture capital pass-through shell entities, and Yuri Shvets on Soviet design bureau price-fixing cartels"
-    },
-    {
       "id": "2026-10-10-20",
       "date": "2026-10-10",
       "hour": "20:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Donald Hoffman conscious agent mathematical projection matrices, spacetime emergence as data structure, and Yuri Shvets on KGB perception management doctrines"
+    },
+    {
+      "id": "2026-10-10-22",
+      "date": "2026-10-10",
+      "hour": "22:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Red Sea Bab el-Mandeb subsea telecommunications cable interdiction, Houthi ROV seabed salvage, and Yuri Shvets on Soviet Horn of Africa naval doctrine"
     }
   ]
 }

@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-19",
+      "hour": "19:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Drone Swarm Telemetry Price Gouging, VC Pass-Through Shells & Soviet Bureau Cartels",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates congressional audits exposing Silicon Valley defense venture capital syndicates inflating commercial off-the-shelf drone telemetry avionics by 4,000 percent through pass-through shell entities, and Yuri Shvets on Soviet design bureau price-fixing cartels.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is nineteen hundred hours. In modern tactical warfare, low-cost autonomous drone swarms were supposed to democratize firepower, delivering asymmetric strike capabilities for a fraction of the cost of traditional missiles. Commercial off-the-shelf quadcopters and fixed-wing kamikaze drones manufactured for five hundred dollars have repeatedly neutralized multimillion-dollar armored columns and naval combatants. Yet inside the Pentagon's procurement labyrinth, that low-cost promise has been captured and mutilated by defense venture capital syndicates passing off rebranded hobbyist avionics at catastrophic, four-thousand-percent taxpayer markups.",
+        "Recent congressional oversight hearings and Department of Defense Inspector General audits reveal a systematic pattern of procurement price gouging. Silicon Valley venture-backed defense startups establish cascading layers of pass-through shell companies to launder dual-use commercial telemetry modules. A flight controller board purchased from overseas consumer suppliers for forty dollars is repackaged in a ruggedized aluminum shell, assigned a proprietary mil-spec part number, and invoiced to the Defense Logistics Agency for eight thousand two hundred dollars per unit. When whistleblowers question the margins, contractors claim proprietary algorithmic intellectual property and threaten supply-chain blackouts.",
+        "This institutionalized padding of military technology costs is the modern capitalist reincarnation of the bureaucratic cartels that hollowed out the Soviet defense budget from within. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively disclosed, Soviet defense design bureaus perfected price-fixing and artificial cost inflation decades ago.",
+        "According to Shvets, Soviet defense design bureaus like Mikoyan, Sukhoi, and Tupolev operated as entrenched monopoly cartels under Gosplan. Rather than competing to reduce military expenditures, chief designers colluded to pad technical specifications, demanding ever-larger allocations of state roubles, rare titanium alloys, and Western microchips procured by KGB Line X. Shvets revealed that design bureau chiefs routinely inflated development costs by five hundred percent, claiming fictitious scientific breakthroughs and falsifying test logs to justify continuous state subsidies while delivering aircraft plagued by severe avionics flaws.",
+        "Today, the faces on the marketing brochures are venture capitalists in fleece vests rather than Soviet bureaucrats in grey suits, but the extraction mechanism is identical. Cost-plus research grants and unvetted rapid-procurement contracts allow tech-defense syndicates to bleed military budgets dry while delivering frontline troops overpriced, fragile gear. When national defense relies on monopoly brokers laundering commercial chips behind classified billing codes, fiscal discipline collapses and soldiers pay the price in blood.",
+        "Audit the pass-through shell entities draining tactical defense budgets, strip proprietary shields off commercial drone avionics, and remember that when a five-hundred-dollar drone costs eight thousand dollars, corruption is the primary payload. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-19/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-19/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-19/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-19/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-10-19/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-10-19/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "thumb": "thumbs/2026-10-10-19.webp",
+      "audio": "audio/2026-10-10-19.mp3",
+      "cover_video": "thumbs/2026-10-10-19.mp4"
+    },
+    {
       "id": "2026-10-10-18",
       "hour": "18:00",
       "date": "2026-10-10",
