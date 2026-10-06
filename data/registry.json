@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 112,
+  "total_releases": 113,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -896,6 +896,14 @@
       "title": "Macroscopic Optomechanical Entanglement, Phonon Ground States & Soviet Laser Acoustics",
       "audio": "audio/2026-10-10-16.mp3",
       "cover_video": "thumbs/2026-10-10-16.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-17",
+      "seconds": 198,
+      "title": "Active Inference Under Electronic Warfare, Markov Cockpits & Soviet Pilot Telemetry",
+      "audio": "audio/2026-10-10-17.mp3",
+      "cover_video": "thumbs/2026-10-10-17.mp4",
       "status": "published_production"
     }
   ]

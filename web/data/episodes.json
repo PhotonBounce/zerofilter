@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-17",
+      "hour": "17:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Active Inference Under Electronic Warfare, Markov Cockpits & Soviet Pilot Telemetry",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates Karl Friston's active inference and Markov blanket models deployed to protect fighter pilots from cognitive vertigo in dense electronic warfare environments, and Yuri Shvets on Soviet pilot psychophysiology and reflexive control experiments.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is seventeen hundred hours. In modern air combat and electronic warfare, sensory data is not a passive stream of objective reality; it is an adversarial information battleground. Radars are spoofed with digital radio frequency memory decoys, communications links are flooded with wideband noise, and cockpit displays deliver contradictory sensory cues designed to induce cognitive vertigo. To understand how biological organisms and autonomous battle-management algorithms survive in hostile sensory environments, defense neuroscientists are deploying Karl Friston's Free Energy Principle and active inference architecture.",
+        "Under active inference, a pilot's nervous system or an autonomous drone's avionics computer does not passively process incoming radar signatures. Instead, it maintains a generative Bayesian model of its external operational environment, continuously issuing top-down predictions through a hierarchical cortical network. Sensory organs act as a Markov blanket, separating internal generative states from the chaotic battlefield. The brain minimizes variational free energy—a mathematical upper bound on surprise—either by updating internal beliefs or by taking active physical action to bring external reality into alignment with its prior expectations. When electronic warfare jammers inject synthetic ghost targets, they systematically exploit this predictive architecture, driving the pilot's variational free energy to catastrophic divergence.",
+        "This computational weaponization of sensory disorientation is the mathematical evolution of Soviet military reflexology and pilot psychophysiology programs developed to degrade NATO air superiority. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has disclosed, Soviet military science prioritized reflexive control and sensory degradation above raw kinetic firepower.",
+        "According to Shvets, the KGB First Chief Directorate worked alongside the Soviet Air Force's Aviation Medicine Institute in Moscow, conducting extensive sensory deprivation and false-telemetry stress trials on fighter pilots. Soviet researchers mapped the exact latency thresholds between auditory alarms, peripheral visual cues, and stick-and-rudder motor responses under extreme cognitive load. Shvets revealed that Soviet electronic warfare doctrine was explicitly designed around reflexive control: feeding adversary pilots just enough plausible radar anomalies to induce cognitive overload, paralyzing their internal decision loop and causing pilot-induced flight control departures without firing a single missile.",
+        "Decades later, the Pentagon is racing to deploy neuro-adaptive cockpits and active inference flight computers across next-generation air dominance platforms. Advanced pilot helmets now integrate electroencephalography sensors, eye-tracking pupilometry, and skin conductance monitors to calculate the pilot's real-time cognitive burden. When active inference algorithms detect that electronic warfare jamming has overwhelmed the pilot's Markov blanket, the autonomous aircraft instantly re-weights sensory precision, filtering out deceptive radar artifacts and seizing temporary flight control before sensory surprise triggers a fatal crash.",
+        "Maintain your generative models against deceptive sensory noise, fortify your cognitive Markov blankets, and remember that in high-stakes electronic warfare, the primary target is always your perception. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-17/f01.webp"
+          },
+          {
+            "t": 33,
+            "src": "art/2026-10-10-17/f02.webp"
+          },
+          {
+            "t": 66,
+            "src": "art/2026-10-10-17/f03.webp"
+          },
+          {
+            "t": 99,
+            "src": "art/2026-10-10-17/f04.webp"
+          },
+          {
+            "t": 132,
+            "src": "art/2026-10-10-17/f05.webp"
+          },
+          {
+            "t": 165,
+            "src": "art/2026-10-10-17/f06.webp"
+          }
+        ]
+      },
+      "seconds": 198,
+      "thumb": "thumbs/2026-10-10-17.webp",
+      "audio": "audio/2026-10-10-17.mp3",
+      "cover_video": "thumbs/2026-10-10-17.mp4"
+    },
+    {
       "id": "2026-10-10-16",
       "hour": "16:00",
       "date": "2026-10-10",

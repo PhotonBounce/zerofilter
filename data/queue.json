@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-17",
-      "date": "2026-10-10",
-      "hour": "17:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Karl Friston active inference predictive coding in adversarial electronic warfare environments, neuro-adaptive cockpit stress metrics, and Yuri Shvets on Soviet pilot psychophysiology tests"
-    },
-    {
       "id": "2026-10-10-18",
       "date": "2026-10-10",
       "hour": "18:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Pentagon drone swarm telemetry pricing inflation, venture capital pass-through shell entities, and Yuri Shvets on Soviet design bureau price-fixing cartels"
+    },
+    {
+      "id": "2026-10-10-20",
+      "date": "2026-10-10",
+      "hour": "20:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Quantum diamond nitrogen-vacancy center subterranean gravimetry, void detection, and Yuri Shvets on Soviet non-acoustic submarine detection"
     }
   ]
 }
