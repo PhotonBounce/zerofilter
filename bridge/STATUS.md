@@ -1,6 +1,6 @@
 # ZeroFilter — Project State & Bridge Status
 
-**Updated:** 2026-10-06 20:40 UTC (Claude)
+**Updated:** 2026-10-06 20:45 UTC (Claude)
 
 ## Live
 - https://photon-bounce.com/zerofilter/ — uploaded by PhotonBounce/photonbounce
@@ -18,9 +18,14 @@
 - The 151 unsourced episodes are held in `data/held/episodes-unverified.json`.
 - The 5-minute generator is stopped; `data/queue.json` is paused.
 
+## Clock
+- `engine/ingest.mjs` refuses to run when the PC clock is more than 2 min off
+  internet time (the producing PC ran ~2 h fast on 2026-10-06). Fix the
+  Windows clock before collecting; snapshots record `clock_skew_s`.
+
 ## State
 - Feed: 0 published episodes (site shows "being rebuilt on sourced reporting").
-- Tests: `node engine/unit.mjs` — 44 passed.
+- Tests: `node engine/unit.mjs` — 47 passed.
 - Feeds (`data/feeds.json`): 8 of 9 enabled ok on GitHub runners; bioRxiv
   disabled (404); Shvets' YouTube feed disabled until his real channel_id is set.
 
