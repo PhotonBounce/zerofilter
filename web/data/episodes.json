@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-00",
+      "hour": "00:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Rydberg Atom Electrometry, Ultra-Wideband Radar Intercept & Soviet Microwave Surveillance",
+      "subject": "Hourly uncensored breakdown: Rex Vance explores vapor-cell Rydberg atom quantum electrometry intercepting ultra-wideband radar pulses across gigahertz spectra, and Yuri Shvets on KGB microwave surveillance operations.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero hundred hours. In electronic warfare and signals intelligence, the physical dimensions of metallic antennas have dictated operational constraints for a century. Traditional receiving antennas are bound by the Chu-Harrington limit, requiring large physical apertures to detect low-frequency radio waves or radar pulses. However, quantum electrometry utilizing alkali vapor Rydberg atoms is breaking this physical bottleneck entirely, transforming tiny glass vapor cells into self-calibrating, ultra-wideband electromagnetic sensors spanning from zero Hertz up to the terahertz frontier.",
+        "Rydberg atoms are atoms excited by optical lasers to extraordinarily high principal quantum numbers, often where n exceeds fifty. At these extreme energy states, the outermost valence electron orbits thousands of Bohr radii from the atomic nucleus, creating enormous electric dipole moments and extreme polarizabilities proportional to the seventh power of the principal quantum number. By utilizing electromagnetically induced transparency and Autler-Townes splitting in cesium or rubidium vapor cells, quantum SIGINT sensors can detect microvolt-per-meter radar fields and phase-modulated wireless signals without requiring a single metal component that would scatter enemy radar.",
+        "This pursuit of unmasking covert electromagnetic fields and invisible communications mirrors one of the most secretive technical chapters of Cold War intelligence. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively detailed, the KGB's Operational-Technical Directorate, or OTU, and the Soviet Eighth Chief Directorate were obsessed with ambient microwave surveillance, electronic bugging, and signals interception.",
+        "According to Shvets, the KGB pioneered microwave bombardment of the United States Embassy in Moscow—the infamous Moscow Signal—to activate passive acoustic resonant cavities and study electromagnetic interference on Western intelligence encryption hardware. Soviet SIGINT stations in Lourdes, Cuba, and Cam Ranh Bay, Vietnam, monitored military radar bands around the clock, attempting to decode frequency-hopping patterns. Shvets revealed that Soviet military intelligence attempted to build wideband microwave receivers capable of intercepting NATO airborne radar emissions without revealing the intercept station's physical position through antenna reflection.",
+        "Today, Rydberg atom quantum receivers achieve that exact operational capability. Because an all-optical vapor cell has near-zero radar cross-section and requires no metal elements, it can be mounted directly on stealth airframes, unmanned surveillance drones, or forward intelligence buoys to silently monitor adversary radar sweeps across continuous frequency ranges without emitting detectable backscatter. In the modern electromagnetic domain, the metallic antenna is obsolete; the atom itself has become the ultimate SIGINT sensor.",
+        "Audit the military quantum electrometry defense contracts, monitor the transition to atomic RF sensors across signals intelligence platforms, and remember that electromagnetic invisibility is the first step toward total spectrum dominance. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-00/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-00/f02.webp"
+          },
+          {
+            "t": 61,
+            "src": "art/2026-10-10-00/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-10-00/f04.webp"
+          },
+          {
+            "t": 122,
+            "src": "art/2026-10-10-00/f05.webp"
+          },
+          {
+            "t": 152,
+            "src": "art/2026-10-10-00/f06.webp"
+          }
+        ]
+      },
+      "seconds": 183,
+      "thumb": "thumbs/2026-10-10-00.webp",
+      "audio": "audio/2026-10-10-00.mp3",
+      "cover_video": "thumbs/2026-10-10-00.mp4"
+    },
+    {
       "id": "2026-10-09-23",
       "hour": "23:00",
       "date": "2026-10-09",

@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 95,
+  "total_releases": 96,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -760,6 +760,14 @@
       "title": "Strategic Tungsten Carbide Diversion, Munitions Stockpile Fraud & Soviet Line X Metal Smuggling",
       "audio": "audio/2026-10-09-23.mp3",
       "cover_video": "thumbs/2026-10-09-23.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-00",
+      "seconds": 183,
+      "title": "Rydberg Atom Electrometry, Ultra-Wideband Radar Intercept & Soviet Microwave Surveillance",
+      "audio": "audio/2026-10-10-00.mp3",
+      "cover_video": "thumbs/2026-10-10-00.mp4",
       "status": "published_production"
     }
   ]
