@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-07",
-      "date": "2026-10-09",
-      "hour": "07:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Defense microelectronics gray market brokers, counterfeit FPGA diversion to sanctioned Russian drone plants, and Yuri Shvets on Line X semiconductor smuggling"
-    },
-    {
       "id": "2026-10-09-08",
       "date": "2026-10-09",
       "hour": "08:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Donald Hoffman Interface Theory of Perception, fitness payoff evolutionary game simulations, and Yuri Shvets on KGB cognitive reality distortion operations"
+    },
+    {
+      "id": "2026-10-09-10",
+      "date": "2026-10-09",
+      "hour": "10:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Barents Sea nuclear submarine bastions, Arctic SOSUS hydrophone chokepoints, and Yuri Shvets on Northern Fleet strategic sanctuary doctrines"
     }
   ]
 }

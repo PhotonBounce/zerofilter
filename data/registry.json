@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 78,
+  "total_releases": 79,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -624,6 +624,14 @@
       "title": "Strait of Hormuz Acoustic Sensor Gates, Iranian Midget Subs & Soviet Persian Gulf Choke Point Doctrines",
       "audio": "audio/2026-10-09-06.mp3",
       "cover_video": "thumbs/2026-10-09-06.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-07",
+      "seconds": 176,
+      "title": "Defense Microelectronics Gray Markets, Counterfeit FPGA Diversion & Soviet Line X Semiconductor Smuggling",
+      "audio": "audio/2026-10-09-07.mp3",
+      "cover_video": "thumbs/2026-10-09-07.mp4",
       "status": "published_production"
     }
   ]

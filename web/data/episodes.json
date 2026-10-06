@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-07",
+      "hour": "07:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Defense Microelectronics Gray Markets, Counterfeit FPGA Diversion & Soviet Line X Semiconductor Smuggling",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates gray market defense microelectronics brokers, re-marked counterfeit FPGAs in military drones, and Yuri Shvets on KGB Directorate T Line X semiconductor smuggling networks.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero seven hundred hours. In the complex supply chains supporting modern aerospace and defense weapons systems, the most critical single point of vulnerability is not advanced stealth coatings or aerodynamic airframes, but integrated circuit silicon. Across military drones, radar transceivers, and precision-guided glide bombs, defense primes rely on advanced Field-Programmable Gate Arrays, or FPGAs. However, decades of commercial offshoring and unregulated defense sub-tier contracting have created a thriving global gray market where counterfeit, reclaimed, and cloned microchips routinely infiltrate the Department of Defense inventory.",
+        "Recent investigations into recovered reconnaissance drones in Eastern Europe have revealed commercial-grade microcontrollers and repurposed consumer FPGAs that were chemically scraped, laser re-marked with false military specification part numbers, and laundered through third-country brokers. Because prime defense contractors frequently waive physical destructive lot testing to avoid production bottlenecks, counterfeit chips with altered firmware and severe thermal vulnerabilities enter active weapons inventories. Simultaneously, unmonitored broker rings divert genuine military-grade radiation-hardened chips directly into sanctioned Russian missile manufacturing facilities.",
+        "This global microelectronics smuggling pipeline is the direct contemporary evolution of Soviet clandestine technology acquisition. Former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively documented how the KGB's Directorate T—specifically the elite officers of Line X—spent the Cold War orchestrating illicit technology pipelines. Line X officers embedded within Soviet trade delegations, embassies, and academic exchanges were tasked with bypassing Western export controls to acquire embargoed American microelectronics and semiconductor manufacturing machinery.",
+        "According to Shvets, the KGB established intricate networks of dummy import-export firms across Austria, Switzerland, Singapore, and West Germany to siphon Silicon Valley microprocessors back to Moscow. Soviet military aviation and ballistic missile guidance systems were entirely dependent on reverse-engineered Intel and Texas Instruments architectures smuggled by Line X couriers. Shvets revealed that corrupt Soviet defense ministers funneled millions in hard-currency kickbacks to Western middleman brokers while suppressing internal reports warning that reverse-engineered chips exhibited catastrophic reliability failures in field operations.",
+        "Today, the names have changed, but the structural corruption remains identical. By allowing defense procurement to rely on tiered, opaque broker networks without end-to-end silicon provenance verification, Western defense agencies are actively funding the illicit diversion networks that arm their adversaries while delivering compromised hardware to their own frontlines.",
+        "Audit the silicon wafer provenance, trace the third-country broker conduits, and verify the microelectronics lot testing. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-07/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-09-07/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-09-07/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-09-07/f04.webp"
+          },
+          {
+            "t": 117,
+            "src": "art/2026-10-09-07/f05.webp"
+          },
+          {
+            "t": 147,
+            "src": "art/2026-10-09-07/f06.webp"
+          }
+        ]
+      },
+      "seconds": 176,
+      "thumb": "thumbs/2026-10-09-07.webp",
+      "audio": "audio/2026-10-09-07.mp3",
+      "cover_video": "thumbs/2026-10-09-07.mp4"
+    },
+    {
       "id": "2026-10-09-06",
       "hour": "06:00",
       "date": "2026-10-09",
