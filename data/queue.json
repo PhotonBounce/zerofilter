@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-11",
-      "date": "2026-10-07",
-      "hour": "11:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Penrose Orch-OR gravitational collapse, quantum anesthetic action in tubulin dipoles, and Yuri Shvets on KGB psychopharmacological interrogation records"
-    },
-    {
       "id": "2026-10-07-12",
       "date": "2026-10-07",
       "hour": "12:00",
@@ -24,6 +16,14 @@
       "category": "physics",
       "priority": "normal",
       "intel_focus": "Nonlinear optics in photonic crystals, optical microcavities, and Yuri Shvets on Soviet laser weapon research deception programs"
+    },
+    {
+      "id": "2026-10-07-14",
+      "date": "2026-10-07",
+      "hour": "14:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Arctic undersea mineral rights, Svalbard cable sabotage risks, and Yuri Shvets on Russian Northern Fleet submarine deployments"
     }
   ]
 }

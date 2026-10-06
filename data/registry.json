@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 34,
+  "total_releases": 35,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -272,6 +272,14 @@
       "title": "Suwalki Gap Electronic Warfare, Kaliningrad Nuclear Bluffs & Reflexive Escalation",
       "audio": "audio/2026-10-07-10.mp3",
       "cover_video": "thumbs/2026-10-07-10.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-07-11",
+      "seconds": 184,
+      "title": "Penrose Orch-OR Gravitational Collapse, Anesthetic Binding & Soviet Bio-Telemetry",
+      "audio": "audio/2026-10-07-11.mp3",
+      "cover_video": "thumbs/2026-10-07-11.mp4",
       "status": "published_production"
     }
   ]

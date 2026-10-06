@@ -678,6 +678,80 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((70, cy + 160), "BATTERYLESS CAVITY // ZERO EMISSION", fill=(255, 220, 100))
         draw.text((70, cy + 180), "STATUS: ILLUMINATION-ACTIVATED ONLY", fill=(255, 80, 80))
 
+    elif theme in ("orch_or", "penrose_hameroff", "tubulin_quantum"):
+        # Penrose Orch-OR Gravitational Collapse & Tubulin Quantum Anesthesia
+        # 1. Spacetime bifurcation sheets (Gravitational Objective Reduction)
+        sheet_top = cy - 220
+        sheet_bot = cy + 220
+        for sx in range(80, width - 80, 30):
+            # Curved geodesics bifurcating into two alternate spacetime geometries
+            t_ratio = (sx - 80) / (width - 160)
+            sep = int(math.sin(t_ratio * math.pi) * 75)
+            
+            # Geometry sheet A (cyan superposition branch)
+            draw.line([(sx, cy - sep), (sx + 20, cy - sep - 15)], fill=(0, int(160 + 90 * t_ratio), 255), width=1)
+            # Geometry sheet B (magenta/violet superposition branch)
+            draw.line([(sx, cy + sep), (sx + 20, cy + sep + 15)], fill=(int(200 * t_ratio), 100, 255), width=1)
+
+        # Objective Reduction threshold boundary (gravitational collapse line at x = width//2 + 80)
+        collapse_x = width // 2 + 80
+        draw.line([(collapse_x, 80), (collapse_x, height - 80)], fill=(255, 220, 60), width=2)
+        draw.text((collapse_x + 8, 95), "ORCH-OR COLLAPSE THRESHOLD: E_G = ℏ / τ", fill=(255, 220, 80))
+        draw.text((collapse_x + 8, 115), "NON-COMPUTABLE REDUCTION // 40Hz GAMMA", fill=(0, 255, 220))
+
+        # 2. Microtubule Protofilament Lattice (Cylindrical Array of Tubulin Dimers)
+        mt_left = cx - 380
+        mt_right = cx + 60
+        random.seed(137)
+        for col_idx, tx in enumerate(range(mt_left, mt_right, 32)):
+            for row_idx, ty in enumerate(range(cy - 160, cy + 160, 24)):
+                # Tubulin dimer: alpha-tubulin (emerald) & beta-tubulin (amber/gold)
+                is_alpha = ((col_idx + row_idx) % 2 == 0)
+                dimer_col = (30, 240, 160) if is_alpha else (255, 200, 50)
+                
+                # Superposition oscillation offset
+                osc = math.sin(tx * 0.04 + ty * 0.03) * 6
+                
+                # Tubulin dimer node
+                draw.ellipse([tx - 8, int(ty + osc - 7), tx + 8, int(ty + osc + 7)], fill=(10, 35, 45), outline=dimer_col, width=2)
+                
+                # Aromatic ring pi-cloud resonance center
+                if (col_idx * 3 + row_idx) % 5 == 0:
+                    draw.ellipse([tx - 3, int(ty + osc - 3), tx + 3, int(ty + osc + 3)], fill=(0, 255, 240))
+                    # Dipole vector line
+                    draw.line([(tx, int(ty + osc)), (tx + 12, int(ty + osc - 8))], fill=(0, 240, 255), width=1)
+                
+                # Anesthetic binding site (quenched dipole shown in red)
+                if col_idx == 4 and row_idx in (5, 6, 7):
+                    draw.rectangle([tx - 6, int(ty + osc - 6), tx + 6, int(ty + osc + 6)], outline=(255, 60, 60), width=2)
+                    draw.point((tx, int(ty + osc)), fill=(255, 100, 100))
+
+        # Annotations on Microtubule Lattice
+        draw.text((mt_left, cy - 195), "13-PROTOFILAMENT MICROTUBULE CYLINDER", fill=(0, 255, 240))
+        draw.text((mt_left, cy + 175), "TUBULIN DIPOLE AROMATIC CLOUD // 8.3 MHz HARMONIC", fill=(30, 240, 160))
+        
+        # Anesthetic Lock Callout
+        callout_x = mt_left + 4 * 32
+        callout_y = cy - 20
+        draw.line([(callout_x, callout_y), (callout_x + 90, callout_y - 70)], fill=(255, 70, 70), width=1)
+        draw.rectangle([callout_x + 90, callout_y - 110, callout_x + 310, callout_y - 50], fill=(30, 10, 10), outline=(255, 60, 60), width=1)
+        draw.text((callout_x + 100, callout_y - 100), "ANESTHETIC BINDING POCKET", fill=(255, 100, 100))
+        draw.text((callout_x + 100, callout_y - 80), "ISOFLURANE DIPOLE QUENCH: LOSS OF CONSCIOUSNESS", fill=(255, 180, 180))
+        draw.text((callout_x + 100, callout_y - 65), "QUANTUM COHERENCE COLLAPSED", fill=(255, 60, 60))
+
+        # 3. Telemetry HUD: Non-Computability & Soviet KGB Bio-Telemetry
+        draw.rectangle([width - 340, cy - 180, width - 50, cy - 90], fill=(10, 25, 40), outline=(0, 255, 240), width=1)
+        draw.text((width - 330, cy - 170), "[PENROSE NON-COMPUTABILITY]", fill=(0, 255, 240))
+        draw.text((width - 330, cy - 150), "GÖDELIAN COGNITIVE UNBOUNDEDNESS", fill=(255, 220, 80))
+        draw.text((width - 330, cy - 130), "AI ARCHITECTURE LIMIT: TURING TAPE", fill=(200, 220, 255))
+        draw.text((width - 330, cy - 110), "BIOLOGICAL ORCH-OR: GRAVITATIONAL", fill=(0, 240, 180))
+
+        draw.rectangle([width - 340, cy + 80, width - 50, cy + 180], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 330, cy + 90), "[KGB 1ST CHIEF BIO-TELEMETRY]", fill=(255, 140, 50))
+        draw.text((width - 330, cy + 110), "LAB-12 INTERROGATION PHARMACOLOGY", fill=(255, 200, 80))
+        draw.text((width - 330, cy + 130), "RECEPTOR TARGET: TUBULIN DIPOLE GRID", fill=(255, 220, 120))
+        draw.text((width - 330, cy + 150), "STATUS: ARCHIVAL DOSSIER DISCLOSED", fill=(255, 80, 80))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -752,6 +826,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "ABYSSAL FIBER OPTIC INFRASTRUCTURE // RUSSIAN GUGI SEABED RECONNAISSANCE // TAP DETECTED", fill=(255, 90, 70))
     elif theme in ("quantum_darwinism", "pointer_states", "theremin_bug"):
         draw.text((40, 60), "QUANTUM DARWINISM // POINTER STATE PROLIFERATION // THEREMIN CAVITY RESONATOR Q: 45K", fill=(0, 255, 240))
+    elif theme in ("orch_or", "penrose_hameroff", "tubulin_quantum"):
+        draw.text((40, 60), "PENROSE ORCH-OR OBJECTIVE REDUCTION // TUBULIN DIPOLE HARMONICS 8.3 MHz // E_G = ℏ/τ", fill=(30, 240, 160))
     elif theme == "consciousness":
         draw.text((40, 60), "NEURAL BIOPHOTON TELEMETRY // TUBULIN DIPOLE HARMONICS // BANDWIDTH 614 THz", fill=(80, 255, 180))
     else:
