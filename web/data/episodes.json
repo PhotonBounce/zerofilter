@@ -2,6 +2,61 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-16",
+      "date": "2026-10-06",
+      "hour": "16:00",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Quantum Key Distribution Downlinks, Atmospheric Decoherence & China's Micius Network",
+      "subject": "Hourly uncensored breakdown: Yuri Shvets analyzes Beijing's state-backed quantum communications infrastructure, free-space entangled photon satellite links, adaptive optics counter-decoherence, and Western intelligence cryptographic vulnerabilities.",
+      "seconds": 189,
+      "audio": "audio/2026-10-06-16.mp3",
+      "thumb": "thumbs/2026-10-06-16.webp",
+      "cover_video": "thumbs/2026-10-06-16.mp4",
+      "paragraphs": [
+        "ZeroFilter broadcast sixteen. I'm Rex Vance. If you rely on RSA-4096 or elliptic-curve cryptography to secure your communications, you are living on borrowed mathematical time. Within the decade, fault-tolerant quantum computing clusters running Shor's algorithm will crack legacy public-key encryption in seconds. Western intelligence agencies know this; they call it Harvest Now, Decrypt Later. But while Washington engages in endless committee hearings, Beijing has spent billions building a functioning sovereign quantum communications backbone in low Earth orbit.",
+        "The centerpiece of this capability began with the Micius satellite platform. Chinese physicists achieved what Western skeptics called impossible: transmitting entangled photon pairs across twelve hundred kilometers of free space directly to ground optical telescope stations in Delingha and Lijiang, verifying violation of Bell's inequalities at satellite scale. Under the laws of quantum mechanics, any third-party interception attempt irrevocably collapses the quantum wave function, instantly alerting both sender and receiver to the intrusion.",
+        "The engineering obstacle to practical quantum key distribution has never been orbital optics; it is atmospheric turbulence. When an entangled photon beam traverses the lowest ten kilometers of Earth's atmosphere, thermal air pockets, wind shear, and particulate scatter induce phase decoherence and beam wander, destroying the quantum bit error rate. Chinese defense laboratories solved this by integrating dual-wavelength adaptive optics mirrors pulsing at ten kilohertz, actively deforming telescope mirrors to cancel atmospheric wavefront distortion in real time.",
+        "Here is the strategic reality former KGB counter-intelligence analyst Yuri Shvets emphasizes: technology is only as sovereign as the state apparatus controlling it. Beijing claims their two-thousand-kilometer Beijing-Shanghai quantum trunk line and satellite links represent an unhackable democratic science achievement. In reality, as Shvets points out, every quantum repeater node across that infrastructure requires classical trusted relays managed directly by the Ministry of State Security. The quantum link between nodes is provably uncrackable, but the nodes themselves are centralized totalitarian inspection points.",
+        "Meanwhile, Western defense contractors have prioritized software-based post-quantum mathematical algorithms\u2014lattice-based cryptography\u2014because it requires zero expensive aerospace infrastructure. But mathematical complexity is an assumption, not a physical law. An adversary with a revolutionary quantum algorithm can shatter lattice cryptography overnight. Physical quantum key distribution, grounded in the Heisenberg uncertainty principle, is the only security architecture guaranteed by the laws of physics themselves.",
+        "The strategic takeaway is transparent: you cannot protect tomorrow's intelligence with yesterday's mathematical comfort blankets. True information dominance requires mastering both the quantum physical substrate and the human institutional integrity operating it. Yuri Shvets' warning remains absolute: authoritarian states will always attempt to centralize the bottleneck; free minds must decentralize the architecture. I'm Rex Vance. Protect your encryption, verify every node, and never trust a black box."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-16/f01.webp",
+            "caption": "Harvest Now Decrypt Later & Post-Quantum Vulnerability"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-06-16/f02.webp",
+            "caption": "Micius Free-Space Entanglement Satellite Downlink"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-06-16/f03.webp",
+            "caption": "Adaptive Optics Atmospheric Turbulence Correction"
+          },
+          {
+            "t": 95,
+            "src": "art/2026-10-06-16/f04.webp",
+            "caption": "Yuri Shvets on Beijing MSS Quantum Relay Nodes"
+          },
+          {
+            "t": 125,
+            "src": "art/2026-10-06-16/f05.webp",
+            "caption": "Lattice Cryptography vs Physical Quantum Key Distribution"
+          },
+          {
+            "t": 155,
+            "src": "art/2026-10-06-16/f06.webp",
+            "caption": "Rex Vance Quantum Information Sovereignty Synthesis"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026-10-06-15",
       "date": "2026-10-06",
       "hour": "15:00",

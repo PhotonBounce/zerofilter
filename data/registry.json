@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 15,
+  "total_releases": 16,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -120,6 +120,14 @@
       "title": "Baltic Sea GPS Jamming Corridors, Kremlin Shadow Tankers & Electronic Warfare Countermeasures",
       "audio": "audio/2026-10-06-15.mp3",
       "cover_video": "thumbs/2026-10-06-15.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-06-16",
+      "seconds": 189,
+      "title": "Quantum Key Distribution Downlinks, Atmospheric Decoherence & China's Micius Network",
+      "audio": "audio/2026-10-06-16.mp3",
+      "cover_video": "thumbs/2026-10-06-16.mp4",
       "status": "published_production"
     }
   ]
