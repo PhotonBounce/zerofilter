@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 20,
+  "total_releases": 21,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -160,6 +160,14 @@
       "title": "Bose-Einstein Condensates in Microgravity, Atom Interferometry & Orbital Gravimetry",
       "audio": "audio/2026-10-06-20.mp3",
       "cover_video": "thumbs/2026-10-06-20.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-06-21",
+      "seconds": 175,
+      "title": "Silicon Valley Defense VC Cartels, Dual-Use Tech Diversion & KGB Directorate T Lineage",
+      "audio": "audio/2026-10-06-21.mp3",
+      "cover_video": "thumbs/2026-10-06-21.mp4",
       "status": "published_production"
     }
   ]

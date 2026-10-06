@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **168 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **176 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 20 completed, 20 total releases published.
-  - `data/queue.json`: Head item is Episode 21 (`2026-10-06-21`).
-  - `data/registry.json`: 20 active releases logged.
+  - `status/pipeline_state.json`: Episode 21 completed, 21 total releases published.
+  - `data/queue.json`: Head item is Episode 22 (`2026-10-06-22`).
+  - `data/registry.json`: 21 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -47,9 +47,10 @@
   - `2026-10-06-18` (199s) — Stuart Hameroff's Quantum Anesthesia, Neural Biophotons & KGB Bio-Resonance Files
   - `2026-10-06-19` (184s) — Red Sea Asymmetric Drone Blockades, Iranian Guidance Telemetry & Axis Barter Pacts
   - `2026-10-06-20` (188s) — Bose-Einstein Condensates in Microgravity, Atom Interferometry & Orbital Gravimetry
+  - `2026-10-06-21` (175s) — Silicon Valley Defense VC Cartels, Dual-Use Tech Diversion & KGB Directorate T Lineage
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 120 synchronized frames in `web/art/`.
+- **Story Art Frames:** 126 synchronized frames in `web/art/`.
 - **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root.
 
 ---

@@ -2,6 +2,61 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-21",
+      "date": "2026-10-06",
+      "hour": "21:00",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Silicon Valley Defense VC Cartels, Dual-Use Tech Diversion & KGB Directorate T Lineage",
+      "subject": "Hourly uncensored breakdown: Yuri Shvets analyzes how Soviet Directorate T industrial espionage pipelines laid the groundwork for modern Beijing and Moscow shell companies laundering venture-backed dual-use semiconductor and autonomous drone IP out of California.",
+      "seconds": 175,
+      "audio": "audio/2026-10-06-21.mp3",
+      "thumb": "thumbs/2026-10-06-21.webp",
+      "cover_video": "thumbs/2026-10-06-21.mp4",
+      "paragraphs": [
+        "ZeroFilter broadcast twenty-one. I'm Rex Vance. Walk through Sand Hill Road in Menlo Park tonight, and every venture capital fund has rebranded itself as an American dynamism patriot\u2014claiming to build sovereign defense tech for the Pentagon. But follow the limited partnership capitalization tables and cap-table Cayman shells, and you find a web of sovereign wealth capital, front companies, and technology transfer conduits bleeding critical dual-use intellectual property directly to foreign adversaries.",
+        "Former KGB foreign counter-intelligence analyst Yuri Shvets traces this exact corporate deception doctrine back to its historical genesis: the KGB's Directorate T, the scientific and technological intelligence branch of the First Chief Directorate. In the late 1970s and 1980s, the Soviet Union could not fabricate high-density microprocessors; Directorate T orchestrated front companies in Vienna, Zurich, and Hong Kong to purchase American photolithography steppers and computer numerical control milling machines under the guise of civilian laboratory supply firms.",
+        "Today, as Yuri Shvets exposes, foreign intelligence services do not need to smuggle hardware through neutral European embassies. Instead, they exploit Silicon Valley's obsession with liquidity. Adversary intelligence networks set up venture syndicates and angel networks, taking non-controlling five-percent stakes in American autonomous robotics, gallium-nitride radar semiconductor, and computer-vision startups. Under standard investor agreements, those minority stakes grant full technical information rights\u2014blueprints, source code, and supply-chain supplier lists.",
+        "The Department of Commerce's Bureau of Industry and Security and the Committee on Foreign Investment in the United States remain chronically under-resourced, caught in twentieth-century bureaucratic definitions of defense articles. An inertial measurement unit or an FPGA chip is classified as dual-use commercial goods until it ends up inside a Russian Iskander cruise missile or an Iranian Shahed loitering drone recovering from a Ukrainian impact site.",
+        "Yuri Shvets emphasizes that when captured Russian missiles are disassembled in Kyiv laboratories, over seventy percent of the precision guidance microelectronics\u2014micro-controllers, digital signal processors, and high-frequency RF transceivers\u2014originate from American and European chip manufacturers. They do not arrive through official defense channels; they are routed through three layers of shell corporations in Kazakhstan, Turkey, and the United Arab Emirates, funded by Western-backed venture capital arbitrage.",
+        "The bottom line is an indictment of corporate greed masquerading as patriotism. You cannot defend the free world with one hand while selling the blueprint of your defense grid to an adversarial shell company with the other. Yuri Shvets' counter-intelligence warning is clear: financial forensics must penetrate every venture capital cap-table, unmask the hidden proxies, and treat technology diversion as treason. I'm Rex Vance. Audit the cap tables, protect the source code, and never trade strategic survival for venture returns."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-21/f01.webp",
+            "caption": "Silicon Valley Sand Hill Road Defense VC Rebrand"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-06-21/f02.webp",
+            "caption": "Yuri Shvets on KGB Directorate T Tech Diversion Lineage"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-06-21/f03.webp",
+            "caption": "Minority Stake Angel Syndicates & Source Code Rights"
+          },
+          {
+            "t": 95,
+            "src": "art/2026-10-06-21/f04.webp",
+            "caption": "Dual-Use BIS Regulatory Loopholes & FPGA Smuggling"
+          },
+          {
+            "t": 125,
+            "src": "art/2026-10-06-21/f05.webp",
+            "caption": "Kyiv Laboratory Teardowns of Western Electronics in Missiles"
+          },
+          {
+            "t": 155,
+            "src": "art/2026-10-06-21/f06.webp",
+            "caption": "Rex Vance Cap-Table Financial Forensics Synthesis"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026-10-06-20",
       "date": "2026-10-06",
       "hour": "20:00",

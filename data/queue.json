@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-06-21",
-      "date": "2026-10-06",
-      "hour": "21:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Silicon Valley defense venture capital cartels, dual-use IP theft, and Yuri Shvets on KGB Directorate T technology diversion networks"
-    },
-    {
       "id": "2026-10-06-22",
       "date": "2026-10-06",
       "hour": "22:00",
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Donald Hoffman conscious agent networks, mathematical spacetime emergence, and Yuri Shvets on KGB psychological warfare reflexivity"
+    },
+    {
+      "id": "2026-10-06-23",
+      "date": "2026-10-06",
+      "hour": "23:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Holographic principle and quantum black hole information scrambling, combined with Yuri Shvets on Cyprus financial laundering conduits for military microelectronics"
     }
   ]
 }
