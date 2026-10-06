@@ -54,18 +54,16 @@
       "id": "biorxiv-neuro",
       "kind": "science",
       "max_age_hours": 168,
-      "url": "https://connect.biorxiv.org/biorxiv_xml/neuroscience",
-      "enabled": false,
-      "_todo": "HTTP 404 from GitHub runners on 2026-10-06; find bioRxiv's current neuroscience feed URL and re-enable."
+      "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience",
+      "enabled": true
     },
     {
       "id": "shvets-youtube",
       "kind": "speaker",
       "speaker": "Yuri Shvets",
       "max_age_hours": 72,
-      "enabled": false,
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=SET_THE_REAL_CHANNEL_ID",
-      "_todo": "Set the channel_id of Yuri Shvets' own channel (verify it is his) and set enabled: true. Until then he cannot be quoted."
+      "enabled": true,
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb2oej0JtxlnywlqoSiHHVQ"
     }
   ]
 }
