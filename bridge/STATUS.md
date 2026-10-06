@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **1,112 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **1,120 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 138 completed, 138 total releases published.
-  - `data/queue.json`: Head item is Episode 139 (`2026-10-11-19`).
-  - `data/registry.json`: 138 active releases logged.
+  - `status/pipeline_state.json`: Episode 139 completed, 139 total releases published.
+  - `data/queue.json`: Head item is Episode 140 (`2026-10-11-20`).
+  - `data/registry.json`: 139 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -165,10 +165,11 @@
   - `2026-10-11-16` (180s) — Superconducting Circuit Optomechanics, Phonon Fock States & Soviet Acoustic ASW Arrays
   - `2026-10-11-17` (171s) — Karl Friston Active Inference, Hierarchical Markov Blankets & KGB Reflexive Control Models
   - `2026-10-11-18` (156s) — Bab el-Mandeb ASBM Salvos, Iranian Guidance Telemetry & Soviet Horn of Africa Bases
+  - `2026-10-11-19` (175s) — Pentagon Foreign Military Sales Pass-Throughs, Offset Broker Slush & Soviet Arms Barter
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 828 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `191f2135166759aa2b03440d159b8d81f6294f77`).
+- **Story Art Frames:** 834 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `60f63cacf904f73bbbb18f439d39fb809244c8f7`).
 
 ---
 

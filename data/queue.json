@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-19",
-      "date": "2026-10-11",
-      "hour": "19:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Pentagon Foreign Military Sales Pass-Through Schemes, Offset Broker Accounts & Soviet Arms Barter Cartels"
-    },
-    {
       "id": "2026-10-11-20",
       "date": "2026-10-11",
       "hour": "20:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Thomas Campbell Multiverse Rendering, Reality Simulation Latency & Soviet Bio-Information psi-Arrays"
+    },
+    {
+      "id": "2026-10-11-22",
+      "date": "2026-10-11",
+      "hour": "22:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Strait of Malacca Drone Submersible Chokepoints, Singapore Sensor Corridors & Soviet Pacific Escort Tactics"
     }
   ]
 }

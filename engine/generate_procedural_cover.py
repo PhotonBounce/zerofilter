@@ -2052,6 +2052,55 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "SEMICONDUCTOR & AI IP EXFIL", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("fms_offsets", "foreign_military_sales", "arms_barter", "offset_broker"):
+        # Pentagon Foreign Military Sales Pass-Through Schemes & Soviet Arms Barter Cartels
+        # 1. Background Ledger Matrix & Escrow Grid
+        for gy in range(cy - 220, cy + 220, 24):
+            draw.line([(60, gy), (width - 60, gy)], fill=(32, 18, 14), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(32, 18, 14), width=1)
+
+        # 2. FMS Capital Cascading Pipeline (Center)
+        nodes = [
+            (cx - 320, cy, "FOREIGN BUYER", "$4.8B APPROPRIATION", (0, 240, 255)),
+            (cx - 160, cy, "DSCA TRUST FUND", "+3.2% ADMIN SURCHARGE", (255, 200, 80)),
+            (cx, cy, "DEFENSE PRIME", "WEAPONS DELIVERY", (0, 255, 200)),
+            (cx + 160, cy, "OFFSET BROKER", "60% OFFSET COMMITMENT", (255, 140, 50)),
+            (cx + 320, cy, "OFFSHORE ESCROW", "SWISS / PANAMA CONDUIT", (255, 60, 60))
+        ]
+
+        for i, (nx, ny, nlabel, subtext, ncol) in enumerate(nodes):
+            draw.rectangle([nx - 68, ny - 36, nx + 68, ny + 36], fill=(22, 16, 24), outline=ncol, width=2)
+            draw.text((nx - 60, ny - 24), nlabel, fill=ncol)
+            draw.text((nx - 60, ny + 6), subtext, fill=(200, 200, 200))
+            if i < len(nodes) - 1:
+                next_x = nodes[i + 1][0]
+                draw.line([(nx + 68, ny), (next_x - 68, ny)], fill=(255, 120, 50), width=3)
+                draw.polygon([(next_x - 68, ny), (next_x - 78, ny - 6), (next_x - 78, ny + 6)], fill=(255, 120, 50))
+
+        # 3. Phantom Offset Siphon Loop (Top Arc)
+        draw.arc([cx - 40, cy - 130, cx + 280, cy - 30], start=180, end=360, fill=(255, 80, 80), width=2)
+        draw.text((cx + 10, cy - 145), "PHANTOM INDUSTRIAL OFFSET CREDITS ($2.8B)", fill=(255, 90, 70))
+
+        # 4. Currency / Commodity Barter Exchange Loop (Bottom Arc)
+        draw.arc([cx - 240, cy + 30, cx + 80, cy + 130], start=0, end=180, fill=(255, 180, 50), width=2)
+        draw.text((cx - 190, cy + 135), "SOVIET ARMS-FOR-CRUDE CLEARING ACCOUNTS", fill=(255, 180, 60))
+
+        # 5. Telemetry Dossiers (FMS Audit & Soviet GIU Barter)
+        draw.rectangle([60, 90, 310, cy - 140], fill=(24, 14, 12), outline=(255, 80, 60), width=1)
+        draw.text((70, 98), "[DSCA / FMS FORENSIC AUDIT]", fill=(255, 90, 70))
+        draw.text((70, 118), "FMS ADMINISTRATIVE TAKE: $1.2B", fill=(255, 200, 80))
+        draw.text((70, 138), "THIRD-PARTY BROKER CUT: 14.5%", fill=(255, 60, 60))
+        draw.text((70, 158), "LOCAL FACTORY BUILDS: 0% REAL", fill=(255, 140, 50))
+        draw.text((70, 178), "UNVOUCHERED OFFSETS: $4.2B", fill=(255, 100, 80))
+
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET GIU ARMS BARTER]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "MAIN ENGINEERING DIRECTORATE", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "WEAPONS FOR OIL & GOLD CLEARING", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "KGB 3RD DIR / SWISS SLUSH FUNDS", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     elif theme in ("logistics_fraud", "phantom_containers", "freight_grift", "warehouse_theft", "demurrage_fraud"):
         # Defense Logistics Phantom Container Invoicing & Warehouse Theft Networks
         # 1. Background Shipping Manifest Ledger Grid
@@ -2831,6 +2880,89 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "CONSCIOUS INTEGRATION SHUTDOWN", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("fms_offsets", "fms_pass_through", "offset_broker", "foreign_military_sales", "arms_barter"):
+        # Pentagon Foreign Military Sales & Offset Broker Slush Flow
+        # 1. Flowchart / Financial Conduit Grid
+        for gx in range(80, width - 80, 80):
+            draw.line([(gx, 90), (gx, height - 90)], fill=(18, 24, 34), width=1)
+        for gy in range(100, height - 90, 60):
+            draw.line([(80, gy), (width - 80, gy)], fill=(18, 24, 34), width=1)
+
+        # 2. Key Transaction Nodes
+        # Node 1: Pentagon DSCA Trust Fund (Top Left)
+        n1_x, n1_y = cx - 340, cy - 80
+        draw.rectangle([n1_x - 90, n1_y - 45, n1_x + 90, n1_y + 45], fill=(16, 26, 38), outline=(0, 220, 240), width=2)
+        draw.text((n1_x - 75, n1_y - 35), "DSCA TRUST FUND", fill=(0, 255, 240))
+        draw.text((n1_x - 75, n1_y - 15), "FOREIGN MIL SALES", fill=(200, 220, 240))
+        draw.text((n1_x - 75, n1_y + 5), "ALLOCATED: $14.2B", fill=(0, 255, 180))
+        draw.text((n1_x - 75, n1_y + 22), "ESCROW CODE: AECA-92", fill=(120, 180, 200))
+
+        # Node 2: Prime Defense Contractor (Center Left)
+        n2_x, n2_y = cx - 110, cy - 80
+        draw.rectangle([n2_x - 85, n2_y - 45, n2_x + 85, n2_y + 45], fill=(22, 28, 38), outline=(255, 200, 60), width=2)
+        draw.text((n2_x - 75, n2_y - 35), "PRIME CONTRACTOR", fill=(255, 210, 60))
+        draw.text((n2_x - 75, n2_y - 15), "HARDWARE EXPORT", fill=(220, 220, 200))
+        draw.text((n2_x - 75, n2_y + 5), "BASE VALUE: $9.8B", fill=(255, 255, 255))
+        draw.text((n2_x - 75, n2_y + 22), "OFFSET OBLIGATION: 45%", fill=(255, 140, 50))
+
+        # Node 3: Zurich/Cyprus Offset Broker Shell (Center Right)
+        n3_x, n3_y = cx + 130, cy - 80
+        draw.rectangle([n3_x - 90, n3_y - 45, n3_x + 90, n3_y + 45], fill=(32, 18, 24), outline=(255, 60, 60), width=2)
+        draw.text((n3_x - 80, n3_y - 35), "OFFSET CONSULTANCY", fill=(255, 90, 80))
+        draw.text((n3_x - 80, n3_y - 15), "CYPRUS / GENEVA SHELL", fill=(255, 160, 140))
+        draw.text((n3_x - 80, n3_y + 5), "BROKER FEE: $4.4B", fill=(255, 60, 60))
+        draw.text((n3_x - 80, n3_y + 22), "STATUS: UNTRACKED SLUSH", fill=(255, 200, 50))
+
+        # Node 4: Foreign Sovereign Defense Ministry (Far Right)
+        n4_x, n4_y = cx + 350, cy - 80
+        draw.rectangle([n4_x - 85, n4_y - 45, n4_x + 85, n4_y + 45], fill=(18, 30, 32), outline=(0, 220, 180), width=2)
+        draw.text((n4_x - 75, n4_y - 35), "BUYER MIN OF DEFENSE", fill=(0, 240, 200))
+        draw.text((n4_x - 75, n4_y - 15), "SOVEREIGN PROCUREMENT", fill=(180, 220, 210))
+        draw.text((n4_x - 75, n4_y + 5), "DELIVERY RATIO: 62%", fill=(255, 180, 60))
+        draw.text((n4_x - 75, n4_y + 22), "REBATE INVOICED: YES", fill=(255, 100, 80))
+
+        # 3. Directed Flow Arrows & Siphon Pipes
+        # DSCA -> Prime Contractor
+        draw.line([(n1_x + 90, n1_y), (n2_x - 85, n1_y)], fill=(0, 240, 240), width=3)
+        draw.polygon([(n2_x - 90, n1_y - 6), (n2_x - 75, n1_y), (n2_x - 90, n1_y + 6)], fill=(0, 240, 240))
+        draw.text((cx - 240, cy - 105), "$14.2B WIRE", fill=(0, 255, 200))
+
+        # Prime -> Offset Broker (Kickback / Offset Obligation)
+        draw.line([(n2_x + 85, n1_y), (n3_x - 90, n1_y)], fill=(255, 140, 50), width=3)
+        draw.polygon([(n3_x - 95, n1_y - 6), (n3_x - 80, n1_y), (n3_x - 95, n1_y + 6)], fill=(255, 140, 50))
+        draw.text((cx - 15, cy - 105), "OFFSET COMMIT", fill=(255, 180, 60))
+
+        # Prime -> Foreign Buyer
+        draw.line([(n2_x, n1_y + 45), (n2_x, cy + 30), (n4_x, cy + 30), (n4_x, n4_y + 45)], fill=(0, 180, 220), width=2)
+        draw.text((cx, cy + 15), "HARDWARE SHIPMENT (AVIONICS & MISSILES)", fill=(120, 220, 255))
+
+        # Offset Broker -> Siphon Loop / Slush Pool (Circular Arc)
+        siphon_y = cy + 105
+        draw.rectangle([cx - 140, siphon_y - 35, cx + 140, siphon_y + 35], fill=(30, 14, 18), outline=(255, 60, 60), width=2)
+        draw.text((cx - 120, siphon_y - 25), "OFFSHORE REBATE & SLUSH POOL", fill=(255, 80, 80))
+        draw.text((cx - 120, siphon_y - 5), "BENEFICIAL OWNERS: REDACTED", fill=(255, 200, 60))
+        draw.text((cx - 120, siphon_y + 12), "CIRCULAR OFFSET RE-PURCHASE FRAUD", fill=(255, 120, 100))
+
+        # Connecting Siphon lines
+        draw.line([(n3_x, n3_y + 45), (n3_x, siphon_y), (cx + 140, siphon_y)], fill=(255, 60, 60), width=3)
+        draw.line([(n4_x - 30, n4_y + 45), (n4_x - 30, siphon_y + 15), (cx + 140, siphon_y + 15)], fill=(255, 80, 80), width=2)
+
+        # 4. Telemetry Dossiers (Left & Right Boxes)
+        # Left: Pentagon FMS Audit Findings
+        draw.rectangle([60, cy - 200, 310, cy - 110], fill=(16, 20, 30), outline=(255, 180, 60), width=1)
+        draw.text((70, cy - 192), "[GAO / DOD IG FMS REPORT]", fill=(255, 200, 80))
+        draw.text((70, cy - 172), "ARMS EXPORT CONTROL ACT SEC 36", fill=(200, 220, 240))
+        draw.text((70, cy - 152), "OFFSET CREDITS: ZERO DOD OVERSIGHT", fill=(255, 100, 80))
+        draw.text((70, cy - 132), "COMMERCIAL SLUSH SINKHOLE: 30-50%", fill=(255, 60, 60))
+
+        # Right: Soviet Oboronexport & Directorate T Barter Dossier
+        draw.rectangle([width - 320, cy - 200, width - 60, cy - 110], fill=(26, 16, 18), outline=(255, 80, 60), width=1)
+        draw.text((width - 310, cy - 192), "[SOVIET GVK / OBORONEXPORT AUDIT]", fill=(255, 100, 70))
+        draw.text((width - 310, cy - 172), "GLAVNOYE INZHENERNOYE UPRAVLENIYE", fill=(255, 180, 100))
+        draw.text((width - 310, cy - 152), "BARTER CLEARING: OIL FOR WEAPONS", fill=(255, 140, 80))
+        draw.text((width - 310, cy - 132), "DIRECTORATE T KICKBACK SIPHONS", fill=(255, 60, 60))
+        draw.text((width - 310, cy - 112), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -2933,6 +3065,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "UNACKNOWLEDGED SAP CARVE-OUTS // PENTAGON AUDIT BLACK HOLE // KGB OFF-BOOK SLUSH FUNDS", fill=(255, 100, 70))
     elif theme in ("logistics_fraud", "phantom_containers", "freight_grift", "warehouse_theft", "demurrage_fraud"):
         draw.text((40, 60), "DEFENSE LOGISTICS PHANTOM INVOICING // FREIGHT PASS-THROUGH SHELLS // SOVIET WAREHOUSE THEFT", fill=(255, 120, 50))
+    elif theme in ("fms_offsets", "fms_pass_through", "offset_broker", "foreign_military_sales", "arms_barter"):
+        draw.text((40, 60), "PENTAGON FMS PASS-THROUGHS // OFFSET BROKER SLUSH FUNDS // SOVIET ARMS BARTER CARTELS", fill=(255, 100, 70))
     elif theme in ("gibraltar_asw", "gibraltar_strait", "strait_of_gibraltar", "morocco_radar"):
         draw.text((40, 60), "STRAIT OF GIBRALTAR ASW BARRIER // THERMOCLINE ACOUSTIC BAFFLE // SOVIET 5TH ESKADRA INTEL", fill=(0, 240, 255))
     elif theme in ("turkish_straits", "bosphorus_asw", "bosphorus_chokepoint", "montreux_convention"):

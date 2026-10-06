@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T15:50:00Z",
+  "updated": "2026-10-06T16:00:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-19",
+      "hour": "19:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Pentagon Foreign Military Sales Pass-Throughs, Offset Broker Slush & Soviet Arms Barter",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the Pentagon Foreign Military Sales program, billions siphoned into offshore offset broker shell accounts, Arms Export Control Act loopholes, and Yuri Shvets on Soviet Chief Engineering Directorate barter cartels trading weapons for commodities.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is nineteen hundred hours. Behind the patriotic fanfare of international defense pacts and foreign military assistance lies one of the most lucrative and opaque financial siphons in modern statecraft: the Pentagon’s Foreign Military Sales system. Administered by the Defense Security Cooperation Agency, the program facilitates over eighty billion dollars annually in weapon transfers. Yet buried inside these bilateral contracts is a multibillion-dollar shadow economy known as defense offsets—agreements requiring defense contractors to reinvest up to one hundred percent of a sale's value back into foreign buyer economies.",
+        "These offset mandates rarely finance genuine industrial manufacturing. Instead, prime aerospace contractors channel billions through third-party offset broker consultancies registered in Zurich, London, and Cyprus. These brokers promise to fulfill sovereign offset credits through phantom investments, non-binding feasibility studies, and shell joint ventures. Because the Department of Defense maintains an official policy of non-involvement in commercial offset negotiations, these transactions operate with virtually zero federal oversight, transforming offset credits into legalized corporate slush funds and high-level foreign rebates.",
+        "Congressional audits repeatedly warn that defense contractors inflate prime acquisition prices by thirty to fifty percent to absorb the anticipated cost of offset broker commissions. The American taxpayer and foreign treasuries foot the bill for inflated invoices, while defense executives, sovereign procurement ministers, and politically connected middlemen pocket untracked brokerage fees under the guise of industrial cooperation.",
+        "Yet this predatory financial apparatus is not unique to Western defense capitalism—it is the modern mirror of Cold War state arms cartels. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, the Soviet Union perfected circular weapon financing through the Glavnoye Inzhenernoye Upravleniye, or Chief Engineering Directorate.",
+        "According to Shvets, Soviet arms exports to the Middle East, Africa, and Latin America were rarely settled in hard currency. Instead, the KGB First Chief Directorate and Soviet foreign trade ministries operated vast barter clearing conduits, trading tanks and fighter jets for crude oil, agricultural commodities, and strategic minerals. Shvets revealed that KGB Directorate T officers and foreign trade bureaucrats skimmed enormous off-book commissions through offshore shell companies in Austria and Switzerland, creating private foreign slush reserves that enriched Soviet party elites while hollowing out domestic state industries.",
+        "From Soviet barter syndicates in Vienna to Pentagon offset brokers routing defense commissions through Geneva and Nicosia, the architecture remains unchanged: arms sales serve as opaque conduits for laundering state wealth into private hands. Follow the offset ledger, question the inflated hardware invoices, and stay alert. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-19/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-11-19/f02.webp"
+          },
+          {
+            "t": 58,
+            "src": "art/2026-10-11-19/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-11-19/f04.webp"
+          },
+          {
+            "t": 117,
+            "src": "art/2026-10-11-19/f05.webp"
+          },
+          {
+            "t": 146,
+            "src": "art/2026-10-11-19/f06.webp"
+          }
+        ]
+      },
+      "seconds": 175,
+      "audio": "audio/2026-10-11-19.mp3",
+      "thumb": "thumbs/2026-10-11-19.webp",
+      "cover_video": "thumbs/2026-10-11-19.mp4"
+    },
     {
       "id": "2026-10-11-18",
       "hour": "18:00",
