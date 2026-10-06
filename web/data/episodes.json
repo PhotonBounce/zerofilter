@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-11",
+      "hour": "11:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Counterfeit Chip Broker Syndicates, Mil-Spec Burn-In Fraud & Soviet Line X Silicon Diversions",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates congressional defense audits exposing gray-market broker syndicates falsifying mil-spec thermal burn-in tests on refurbished commercial microchips in precision strike weapons, and Yuri Shvets on KGB Line X semiconductor diversion rings.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is eleven hundred hours. In precision-guided munitions, radar arrays, and avionics flight computers, microelectronics represent the critical nervous system of modern warfare. Weapons systems designed to operate across extreme thermal swings, intense vibrations, and ionizing radiation require hermetically sealed, military-specification semiconductors. Yet severe supply-chain shortages and procurement neglect have opened a multibillion-dollar vulnerability: shady defense brokers passing off re-etched, commercial-grade counterfeit chips with falsified mil-spec burn-in certifications to Pentagon primes.",
+        "Mil-spec certification requires punishing reliability assays—hundreds of hours of thermal cycling, x-ray die verification, and high-temperature operating life burn-in tests to weed out infant mortality defects. Independent Defense Logistics Agency investigations reveal that unvetted brokers regularly source discarded consumer chips from overseas electronic waste dumps, acid-wash the plastic packages, re-mark them with fraudulent defense part numbers, and fabricate inspection certificates. When installed in hypersonic guidance packages or fighter radar processors, these counterfeit components fail under battlefield conditions, causing premature catastrophic system blackouts.",
+        "This systematic exploitation of defense electronic supply chains is the mirror image of Soviet espionage operations that sustained the Red Army during the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively detailed, Soviet military electronics were chronically dependent on stolen Western microprocessors procured through the KGB First Chief Directorate's Directorate T and Line X scientific espionage apparatus.",
+        "According to Shvets, Soviet defense design bureaus could not replicate Western photolithography tolerances, leaving Soviet ballistic missiles and radar networks entirely reliant on smuggled Intel and Motorola chips. KGB Line X officers established elaborate networks of dummy shell companies across West Germany, Austria, and Singapore to purchase dual-use silicon, laundering chips through diplomatic pouches back to Moscow. Shvets revealed that KGB officers routinely bribed Western brokers to falsify export logs, knowing that Western defense contractors were already cutting testing corners for quick profits.",
+        "Decades later, the vectors of corruption have flipped, but the institutional negligence remains identical. Major aerospace contractors employ Byzantine layers of pass-through subcontractors who source microelectronics from gray-market online distributors without performing destructive physical analysis. Instead of funding domestic, high-reliability military foundry capacity, cost-plus procurement cartels pocket massive margins while allowing unverified silicon into frontline weapon stockpiles, creating systemic failure points engineered by corporate greed.",
+        "Mandate destructive physical testing and hardware root-of-trust verification across all military silicon, audit the gray-market component brokers, and remember that when national defense depends on counterfeit circuits, the first casualty is weapon reliability. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-11/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-10-11/f02.webp"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-10-11/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-10-11/f04.webp"
+          },
+          {
+            "t": 123,
+            "src": "art/2026-10-10-11/f05.webp"
+          },
+          {
+            "t": 154,
+            "src": "art/2026-10-10-11/f06.webp"
+          }
+        ]
+      },
+      "seconds": 185,
+      "thumb": "thumbs/2026-10-10-11.webp",
+      "audio": "audio/2026-10-10-11.mp3",
+      "cover_video": "thumbs/2026-10-10-11.mp4"
+    },
+    {
       "id": "2026-10-10-10",
       "hour": "10:00",
       "date": "2026-10-10",

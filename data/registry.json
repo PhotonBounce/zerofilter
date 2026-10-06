@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 106,
+  "total_releases": 107,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -848,6 +848,14 @@
       "title": "Barents Sea Polar Fiber Sabotage, Spitsbergen Surveillance & Soviet Northern Fleet Cable Warfare",
       "audio": "audio/2026-10-10-10.mp3",
       "cover_video": "thumbs/2026-10-10-10.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-11",
+      "seconds": 185,
+      "title": "Counterfeit Chip Broker Syndicates, Mil-Spec Burn-In Fraud & Soviet Line X Silicon Diversions",
+      "audio": "audio/2026-10-10-11.mp3",
+      "cover_video": "thumbs/2026-10-10-11.mp4",
       "status": "published_production"
     }
   ]

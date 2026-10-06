@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-11",
-      "date": "2026-10-10",
-      "hour": "11:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Defense microelectronics counterfeit broker networks, mil-spec burn-in test tampering, and Yuri Shvets on Line X semiconductor diversion rings"
-    },
-    {
       "id": "2026-10-10-12",
       "date": "2026-10-10",
       "hour": "12:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Integrated information theory phi topology, maximum causal complexes under anesthesia, and Yuri Shvets on Soviet toxicology degradation experiments"
+    },
+    {
+      "id": "2026-10-10-14",
+      "date": "2026-10-10",
+      "hour": "14:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Strait of Hormuz acoustic hydrophone gate closure, IRGC fast-boat swarm coordination, and Yuri Shvets on Soviet Persian Gulf naval strategy"
     }
   ]
 }
