@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 122,
+  "total_releases": 123,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -976,6 +976,14 @@
       "title": "Strait of Gibraltar ASW Acoustic Barriers, Moroccan Radar & Soviet 5th Eskadra Chokepoints",
       "audio": "audio/2026-10-11-02.mp3",
       "cover_video": "thumbs/2026-10-11-02.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-11-03",
+      "seconds": 177,
+      "title": "Defense Logistics Phantom Container Invoicing, Freight Pass-Throughs & Soviet Warehouse Grift",
+      "audio": "audio/2026-10-11-03.mp3",
+      "cover_video": "thumbs/2026-10-11-03.mp4",
       "status": "published_production"
     }
   ]

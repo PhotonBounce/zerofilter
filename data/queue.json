@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-03",
-      "date": "2026-10-11",
-      "hour": "03:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Defense logistics phantom container invoicing, freight forwarding pass-throughs, and Yuri Shvets on Soviet military warehouse theft networks"
-    },
-    {
       "id": "2026-10-11-04",
       "date": "2026-10-11",
       "hour": "04:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Penrose-Hameroff Orch-OR anesthetic dipole binding, aromatic tubulin lattices, and Yuri Shvets on KGB bio-chemical interrogation research"
+    },
+    {
+      "id": "2026-10-11-06",
+      "date": "2026-10-11",
+      "hour": "06:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Arctic Northern Sea Route icebreaker escort monopoly, Yamal LNG radar corridors, and Yuri Shvets on Soviet Glavsevmorput strategic polar logistics"
     }
   ]
 }

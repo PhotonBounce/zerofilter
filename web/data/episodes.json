@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T14:08:00Z",
+  "updated": "2026-10-06T14:10:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-03",
+      "hour": "03:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Defense Logistics Phantom Container Invoicing, Freight Pass-Throughs & Soviet Warehouse Grift",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates systemic defense logistics procurement fraud, phantom shipping container billing, freight forwarding shell pass-throughs in CENTCOM operational theaters, and Yuri Shvets on Soviet Ministry of Defense military warehouse theft networks and black-market diversion syndicates.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero three hundred hours. Inside the chaotic supply chains supporting United States expeditionary deployments, hundreds of millions of taxpayer dollars vanish into an accounting vacuum known as container demurrage fraud. In operational theaters across the Middle East and Central Asia, defense logistics contractors routinely bill the Pentagon exorbitant daily detention fees for commercial shipping containers that either sit abandoned in desert holding yards for years, were never delivered to their destination, or never physically existed in the first place.",
+        "Special Inspector General audits have repeatedly uncovered staggering discrepancies where freight forwarding syndicates establish nested corporate shell pass-throughs in Dubai and Kuwait. These entities lease standard intermodal containers, inflate transport invoices by hundreds of percent, and exploit inadequate cargo tracking databases to bill detention penalties exceeding forty thousand dollars per individual box. In multiple audited depots, military inventory databases recorded delivered container serial numbers while physical on-site inspections revealed completely empty desert lots and fabricated barcode scans.",
+        "This grift thrives because wartime logistics contracts operate under emergency sole-source authorizations and cost-plus reimbursement models where prime contractors have zero financial incentive to audit subcontractors. Demurrage penalties and container loss claims are simply passed through directly to the Pentagon, allowing freight middlemen to pocket multimillion-dollar profit margins while active-duty units face chronic logistical delays and missing equipment.",
+        "This commercial looting of military logistics is the direct ideological successor to the institutionalized theft that crippled Soviet military logistics during the Afghan War and the Cold War's twilight. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has exposed, procurement embezzlement and inventory falsification permeated every level of Soviet military supply.",
+        "According to Shvets, the Main Missile and Artillery Directorate, or GRAU, alongside the military retail trade network Voentorg, operated sprawling black-market diversion syndicates. Military warehouse commanders routinely recorded phantom railcars of rations, uniforms, fuel, and precision components as received and distributed, while the physical goods were immediately diverted to civilian black-market distributors for hard cash. Shvets revealed that KGB Third Chief Directorate military counter-intelligence officers repeatedly uncovered massive supply depots that existed solely on paper, kept afloat by bribery networks that extended directly into the Ministry of Defense.",
+        "From Soviet supply depots to modern expeditionary freight pass-throughs, the mechanics of defense logistics corruption never change: confuse the manifest, bill the phantom box, and let the treasury pay the demurrage. Real defense readiness requires forensic supply chain verification, not unaccountable blank checks written to logistics syndicates. Track every container serial, audit the freight middlemen, and never accept a ghost receipt. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-03/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-11-03/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-11-03/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-11-03/f04.webp"
+          },
+          {
+            "t": 118,
+            "src": "art/2026-10-11-03/f05.webp"
+          },
+          {
+            "t": 148,
+            "src": "art/2026-10-11-03/f06.webp"
+          }
+        ]
+      },
+      "seconds": 177,
+      "audio": "audio/2026-10-11-03.mp3",
+      "thumb": "thumbs/2026-10-11-03.webp",
+      "cover_video": "thumbs/2026-10-11-03.mp4"
+    },
     {
       "id": "2026-10-11-02",
       "hour": "02:00",

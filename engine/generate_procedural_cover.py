@@ -1941,6 +1941,80 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "HALOCLINE ACOUSTIC SHADOW", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("logistics_fraud", "phantom_containers", "freight_grift", "warehouse_theft", "demurrage_fraud"):
+        # Defense Logistics Phantom Container Invoicing & Warehouse Theft Networks
+        # 1. Background Shipping Manifest Ledger Grid
+        for gy in range(cy - 220, cy + 220, 24):
+            draw.line([(60, gy), (width - 60, gy)], fill=(28, 20, 14), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(28, 20, 14), width=1)
+
+        # Shipping manifest codes across background
+        manifest_codes = [
+            ("MSKU-98214-7 // SHUAIBA PORT", 70, cy - 190),
+            ("TGHU-41092-3 // GHOST CONTAINER", cx - 80, cy - 190),
+            ("DEMURRAGE: 412 DAYS BILLED", width - 300, cy - 190),
+            ("CARGO: TACTICAL FIELD GEAR", 70, cy - 150),
+            ("DISCREPANCY: 0 TONS DELIVERED", cx - 80, cy - 150),
+            ("PASS-THROUGH: DUBAI FZE LLC", width - 300, cy - 150)
+        ]
+        for m_text, mx, my in manifest_codes:
+            draw.text((mx, my), m_text, fill=(200, 100, 60))
+
+        # 2. Intermodal Shipping Container Stacks (Center)
+        # Stack A (Left Center): Solid billed container
+        stack_x1, stack_y1 = cx - 180, cy - 40
+        c_w, c_h = 160, 60
+        # Solid container body (Amber/Orange)
+        draw.rectangle([stack_x1, stack_y1, stack_x1 + c_w, stack_y1 + c_h], fill=(35, 22, 14), outline=(255, 140, 40), width=2)
+        # Corrugated vertical ribs
+        for rib_x in range(stack_x1 + 15, stack_x1 + c_w - 10, 15):
+            draw.line([(rib_x, stack_y1 + 4), (rib_x, stack_y1 + c_h - 4)], fill=(180, 90, 30), width=1)
+        draw.text((stack_x1 + 12, stack_y1 + 10), "BILLED CONTAINER", fill=(255, 180, 50))
+        draw.text((stack_x1 + 12, stack_y1 + 28), "STATUS: PHANTOM MANIFEST", fill=(255, 80, 60))
+        draw.text((stack_x1 + 12, stack_y1 + 44), "INVOICE: $184,000", fill=(255, 220, 100))
+
+        # Stack B (Right Center): Wireframe "Ghost" Phantom Container
+        stack_x2, stack_y2 = cx + 20, cy - 40
+        # Dashed / Wireframe outline representing phantom container
+        draw.rectangle([stack_x2, stack_y2, stack_x2 + c_w, stack_y2 + c_h], fill=(18, 10, 14), outline=(255, 60, 40), width=2)
+        for rib_x in range(stack_x2 + 15, stack_x2 + c_w - 10, 20):
+            draw.line([(rib_x, stack_y2 + 8), (rib_x, stack_y2 + c_h - 8)], fill=(120, 40, 30), width=1)
+        # Big "GHOST" warning stamp across container
+        draw.text((stack_x2 + 25, stack_y2 + 10), "[GHOST INVOICE]", fill=(255, 60, 60))
+        draw.text((stack_x2 + 15, stack_y2 + 28), "CONTAINER UNLOCATED", fill=(255, 100, 80))
+        draw.text((stack_x2 + 15, stack_y2 + 44), "DEMURRAGE: +620%", fill=(255, 140, 50))
+
+        # Bottom Container Foundation (Stacked below)
+        stack_y3 = cy + 30
+        draw.rectangle([stack_x1 + 40, stack_y3, stack_x1 + 40 + c_w + 80, stack_y3 + c_h], fill=(24, 16, 12), outline=(200, 120, 50), width=2)
+        draw.text((stack_x1 + 55, stack_y3 + 12), "FREIGHT FORWARDING PASS-THROUGH CONDUIT", fill=(255, 160, 60))
+        draw.text((stack_x1 + 55, stack_y3 + 30), "SHELL ENTITY MARKUP: 42% // CENTCOM THEATER", fill=(255, 90, 70))
+
+        # 3. Capital Diverting Arrow Flow (Appropriations -> Dubai Shell -> Kickback)
+        draw.line([(cx - 240, cy + 130), (cx + 240, cy + 130)], fill=(255, 100, 50), width=2)
+        draw.polygon([(cx + 240, cy + 130), (cx + 228, cy + 124), (cx + 228, cy + 136)], fill=(255, 100, 50))
+        draw.text((cx - 220, cy + 110), "DEFENSE LOGISTICS ALLOCATION", fill=(255, 180, 80))
+        draw.text((cx - 30, cy + 110), "PORT DEMURRAGE CHURN", fill=(255, 80, 60))
+        draw.text((cx + 120, cy + 110), "SUBCONTRACTOR REBATE", fill=(255, 220, 100))
+
+        # 4. Telemetry Dossiers (Logistics Fraud & Soviet Voentorg Grift)
+        # Left HUD Box: Defense Logistics Fraud Metrics
+        draw.rectangle([60, 90, 310, cy - 140], fill=(22, 14, 12), outline=(255, 80, 60), width=1)
+        draw.text((70, 98), "[DEFENSE LOGISTICS FRAUD HUD]", fill=(255, 90, 70))
+        draw.text((70, 118), "AUDIT: CENTCOM CONTAINER AUDIT", fill=(255, 200, 80))
+        draw.text((70, 138), "PHANTOM DEMURRAGE: $720M", fill=(255, 60, 60))
+        draw.text((70, 158), "GHOST UNITS: 1,840 CONTAINERS", fill=(255, 160, 50))
+        draw.text((70, 178), "INSPECTION SEAL: BYPASSED", fill=(255, 100, 80))
+
+        # Right HUD Box: Soviet Voentorg Lineage & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET WAREHOUSE THEFT]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "VOENTORG DEPOT DIVERSIONS", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "GRAU RAILCAR THEFT RINGS", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "BLACK MARKET LOGISTICS AXIS", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -2041,6 +2115,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "THOMAS CAMPBELL BIG TOE // DIGITAL CELLULAR AUTOMATA // KGB BIO-INFORMATION PSI ARCHIVES", fill=(200, 140, 255))
     elif theme in ("black_budget", "pentagon_sap", "sap_carveouts", "defense_audit", "failed_audit"):
         draw.text((40, 60), "UNACKNOWLEDGED SAP CARVE-OUTS // PENTAGON AUDIT BLACK HOLE // KGB OFF-BOOK SLUSH FUNDS", fill=(255, 100, 70))
+    elif theme in ("logistics_fraud", "phantom_containers", "freight_grift", "warehouse_theft", "demurrage_fraud"):
+        draw.text((40, 60), "DEFENSE LOGISTICS PHANTOM INVOICING // FREIGHT PASS-THROUGH SHELLS // SOVIET WAREHOUSE THEFT", fill=(255, 120, 50))
     elif theme in ("gibraltar_asw", "gibraltar_strait", "strait_of_gibraltar", "morocco_radar"):
         draw.text((40, 60), "STRAIT OF GIBRALTAR ASW BARRIER // THERMOCLINE ACOUSTIC BAFFLE // SOVIET 5TH ESKADRA INTEL", fill=(0, 240, 255))
     elif theme in ("red_sea_cables", "bab_el_mandeb"):
