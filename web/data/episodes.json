@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-11",
+      "hour": "11:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Defense Cloud Procurement Collusion, FISA 702 Warrantless Carve-Outs & KGB OTU Wiretap Slush Funds",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates sole-source defense cloud contracting cartels, FISA Section 702 warrantless intelligence database carve-outs, and Yuri Shvets on KGB 12th Department OTU surveillance kickbacks.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is eleven hundred hours. Over the past decade, the Pentagon's multi-billion-dollar migration to commercial enterprise cloud infrastructure has been marketed as a vital modernization initiative to ensure digital battlefield superiority. However, behind the press releases for programs like the Joint Warfighting Cloud Capability, or JWCC, lies an entrenched procurement cartel. Legacy defense contractors and dominant Big Tech hyperscalers have orchestrated a closed ecosystem where lucrative cloud hosting contracts are carved up among a protected oligopoly, completely freezing out innovative commercial alternatives.",
+        "This procurement collusion is not merely about financial rent-seeking; it is inextricably bound to mass domestic electronic surveillance. By consolidating Department of Defense, NSA, and intelligence community data lakes into centralized commercial cloud repositories, federal agencies exploit statutory carve-outs under Section 702 of the Foreign Intelligence Surveillance Act. Through clandestine fiber-optic splitters and warrantless backdoor database queries, intelligence analysts routinely query the private telecommunications of millions of American citizens without Fourth Amendment probable cause warrants, shielded behind classified Special Access Program NDAs.",
+        "This convergence of centralized telecommunications monopolies and state surveillance is the direct Western realization of the technical police state perfected in the Soviet Union. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently disclosed, the KGB's Operational-Technical Directorate, or OTU, and its Twelfth Department operated total monopoly control over all Soviet telecommunications routing and telephone exchanges. No wireline or radio-relay network could be deployed without classified OTU hardware backdoors.",
+        "According to Shvets, the KGB's technical surveillance monopoly became one of the most corrupt revenue engines in the Soviet bureaucracy. OTU bureau chiefs demanded massive secret kickbacks from state telecom enterprises to certify hardware as ideologically secure, siphoning millions into clandestine First Chief Directorate operational slush funds. Shvets revealed that corrupt intelligence chiefs routinely used warrantless wiretap files not for legitimate national counter-intelligence, but to blackmail political rivals and protect illegal black-market party embezzlement schemes from state prosecutors.",
+        "When Silicon Valley defense primes lobby Congress to reauthorize FISA 702 while securing ten-figure defense cloud contracts, they are perpetuating this exact feedback loop. State surveillance power is traded for monopolistic commercial wealth, transforming democratic digital infrastructure into an unaccountable national security panopticon.",
+        "Audit the JWCC cloud procurement ledgers, trace the FISA 702 warrantless queries, and demand unredacted NSA database logs. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-11/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-09-11/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-09-11/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-09-11/f04.webp"
+          },
+          {
+            "t": 114,
+            "src": "art/2026-10-09-11/f05.webp"
+          },
+          {
+            "t": 142,
+            "src": "art/2026-10-09-11/f06.webp"
+          }
+        ]
+      },
+      "seconds": 171,
+      "thumb": "thumbs/2026-10-09-11.webp",
+      "audio": "audio/2026-10-09-11.mp3",
+      "cover_video": "thumbs/2026-10-09-11.mp4"
+    },
+    {
       "id": "2026-10-09-10",
       "hour": "10:00",
       "date": "2026-10-09",

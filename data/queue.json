@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-11",
-      "date": "2026-10-09",
-      "hour": "11:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Defense cloud computing sole-source award manipulation, NSA warrantless upstream database carving, and Yuri Shvets on KGB technical surveillance kickbacks"
-    },
-    {
       "id": "2026-10-09-12",
       "date": "2026-10-09",
       "hour": "12:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Stuart Hameroff microsecond anesthetic gas binding in tubulin hydrophobic pockets, quantum collapse disruption, and Yuri Shvets on KGB bio-telemetry interrogation dossiers"
+    },
+    {
+      "id": "2026-10-09-14",
+      "date": "2026-10-09",
+      "hour": "14:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Suwalki Gap heavy armor transit bottlenecks, 1520mm Russian rail gauge vs 1435mm European standard gauge, and Yuri Shvets on Soviet rapid reinforcement corridors"
     }
   ]
 }
