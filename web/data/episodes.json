@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T05:00:00Z",
+  "updated": "2026-10-06T13:54:00Z",
   "episodes": [
+    {
+      "id": "2026-10-10-22",
+      "hour": "22:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Bab el-Mandeb Subsea Cable Sabotage, Houthi ROVs & Soviet Red Sea Naval Doctrine",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the vulnerability of Red Sea subsea telecommunications corridors in the Bab el-Mandeb strait, commercial anchor-dragging interdictions versus specialized Houthi ROV seabed salvage capabilities, and Yuri Shvets on Soviet 8th Operational Squadron maritime choke point warfare in the Horn of Africa.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty-two hundred hours. Beneath the turquoise waters of the Bab el-Mandeb strait lies one of the most concentrated and vulnerable digital bottlenecks on planet Earth. Over seventeen percent of all global internet traffic—carrying trillions of dollars in daily intercontinental banking clearances, cloud server synchronization, and military command data between Europe and Asia—transits through submarine fiber-optic cables traversing this narrow twenty-nine-kilometer maritime passage separating Djibouti and Yemen. Four major transcontinental systems—the Asia-Africa-Europe-One, the Europe India Gateway, SEA-ME-WE Five, and Seacom—run tightly clustered along a shallow, volatile seafloor.",
+        "When multiple subsea conduits were severed in a single catastrophic disruption, global telecommunications routing was instantly destabilized. Over twenty-five percent of data traffic between Asia and Europe was severed, forcing automated traffic failovers onto terrestrial paths or the grueling route around the Cape of Good Hope, adding over one hundred and forty milliseconds of critical latency. While initial commercial maritime reports attributed the severing to the dragging anchor of the missile-damaged cargo vessel Rubymar drifting through the strait, technical analysis of optical time-domain reflectometry traces revealed suspicious spatial precision along the bathymetric trench.",
+        "Naval intelligence assessments confirmed that regional maritime forces, bolstered by Iranian advisory cadres, have actively integrated autonomous underwater vehicles and commercial remotely operated submersibles equipped with manipulator claws and acoustic beacons. Operating in shallow coastal shelves of less than one hundred and fifty meters depth, these unmanned submersibles can easily locate, tag, and mechanically disrupt armored telecom cables, transforming abyssal infrastructure into an asymmetric weapon of economic and digital warfare.",
+        "This systematic targeting of maritime choke points and seabed infrastructure is not a modern innovation; it is the direct tactical inheritance of Soviet Cold War naval doctrine in the Horn of Africa. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet naval planners under Admiral Sergey Gorshkov recognized the Bab el-Mandeb as a decisive planetary pressure point.",
+        "According to Shvets, the Soviet Navy's 8th Operational Squadron established forward operating bases on Eritrea's Dahlak Archipelago and permanent anchorages off Socotra Island specifically to contest the Red Sea and monitor Western maritime lifelines. Shvets revealed that KGB Directorate T and naval hydrographic survey vessels meticulously charted every subsea telegraph and telephone cable traversing the Red Sea bed. Soviet planners developed specialized seabed sabotage and wiretap tactics engineered to instantly isolate Western capitals from Middle Eastern oil hubs and Asian allies upon the outbreak of hostilities.",
+        "Today, the democratization of cheap subsea drones and state-sponsored proxy warfare has resurrected Soviet seabed interdiction at scale. When regional non-state actors can paralyze continental communications from a fishing dhow without firing a missile, the digital backbone of civilization is dangerously exposed. Track the conduits beneath the waves, audit the physical security of your data packets, and never assume the seabed is secure. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-22/f01.webp"
+          },
+          {
+            "t": 32,
+            "src": "art/2026-10-10-22/f02.webp"
+          },
+          {
+            "t": 65,
+            "src": "art/2026-10-10-22/f03.webp"
+          },
+          {
+            "t": 97,
+            "src": "art/2026-10-10-22/f04.webp"
+          },
+          {
+            "t": 129,
+            "src": "art/2026-10-10-22/f05.webp"
+          },
+          {
+            "t": 162,
+            "src": "art/2026-10-10-22/f06.webp"
+          }
+        ]
+      },
+      "seconds": 194,
+      "audio": "audio/2026-10-10-22.mp3",
+      "thumb": "thumbs/2026-10-10-22.webp",
+      "cover_video": "thumbs/2026-10-10-22.mp4"
+    },
     {
       "id": "2026-10-10-21",
       "hour": "21:00",

@@ -1628,6 +1628,98 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "HARVEST-NOW DECRYPT-LATER FAILS", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("red_sea_cables", "bab_el_mandeb", "houthi_cables", "subsea_cables"):
+        # Bab el-Mandeb Subsea Telecommunications Cable Interdiction & Bathymetric Trench
+        # 1. Background hydrographic grid & depth sounding lines
+        for gy in range(cy - 220, cy + 220, 25):
+            draw.line([(60, gy), (width - 60, gy)], fill=(8, 20, 32), width=1)
+        for gx in range(60, width - 60, 45):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(8, 20, 32), width=1)
+
+        # 2. Strait Coastlines & Bathymetric Shelves
+        # West Coast (Djibouti / Ras Siyyan, Left)
+        draw.polygon([(60, cy - 220), (cx - 240, cy - 140), (cx - 210, cy + 30), (cx - 280, cy + 220), (60, cy + 220)], fill=(12, 22, 28), outline=(60, 120, 140), width=2)
+        draw.text((80, cy - 120), "DJIBOUTI / RAS SIYYAN", fill=(80, 160, 180))
+        draw.text((80, cy - 100), "BAB EL-MANDEB WESTERN SHORE", fill=(60, 120, 140))
+
+        # East Coast (Yemen / Ras Bab el-Mandeb, Right)
+        draw.polygon([(width - 60, cy - 220), (cx + 240, cy - 160), (cx + 200, cy - 10), (cx + 270, cy + 220), (width - 60, cy + 220)], fill=(24, 16, 14), outline=(160, 90, 60), width=2)
+        draw.text((width - 290, cy - 120), "YEMEN / RAS MENHELI", fill=(200, 120, 80))
+        draw.text((width - 290, cy - 100), "HOUTHI A2/AD COASTAL BATTERY", fill=(255, 80, 60))
+
+        # Perim Island (Mayyun) in center of strait
+        draw.ellipse([cx - 45, cy - 65, cx + 45, cy - 15], fill=(20, 30, 25), outline=(180, 160, 70), width=2)
+        draw.text((cx - 38, cy - 45), "PERIM ISLAND", fill=(255, 220, 100))
+        draw.text((cx - 36, cy - 30), "(MAYYUN)", fill=(200, 180, 80))
+
+        # Bathymetric depth contour lines (Depth 20m, 50m, 100m, 180m Trench)
+        for r_depth, d_label, col in [
+            (160, "DEPTH CONTOUR: -50M", (0, 120, 150)),
+            (110, "DEPTH CONTOUR: -100M", (0, 160, 200)),
+            (70, "DEEP CHANNEL: -185M", (0, 210, 240))
+        ]:
+            draw.arc([cx - r_depth, cy - 140, cx + r_depth, cy + 180], start=45, end=315, fill=col, width=1)
+
+        # 3. Submarine Fiber-Optic Cables traversing the channel
+        cables = [
+            ("AAE-1 (ASIA-AFRICA-EUROPE 1)", cx - 120, cx - 10, (0, 240, 255), False),
+            ("EIG (EUROPE INDIA GATEWAY)", cx - 70, cx + 30, (0, 255, 200), True),
+            ("SEA-ME-WE 5 (SMW-5)", cx - 20, cx + 70, (255, 200, 50), False),
+            ("SEACOM / TGN-EURASIA", cx + 30, cx + 110, (180, 120, 255), True)
+        ]
+
+        for c_name, start_x, end_x, col, is_severed in cables:
+            pts = []
+            for y_step in range(cy - 220, cy + 220, 10):
+                # Gentle curve through the maritime trench
+                t = (y_step - (cy - 220)) / 440.0
+                x_pos = int(start_x * (1 - t) + end_x * t + math.sin(t * math.pi * 3) * 18)
+                pts.append((x_pos, y_step))
+
+            if is_severed:
+                # Cable severed at mid-point (anchor drag / ROV cut)
+                sever_idx = len(pts) // 2
+                draw.line(pts[:sever_idx - 2], fill=col, width=2)
+                draw.line(pts[sever_idx + 2:], fill=col, width=2)
+                
+                # Sever fracture point & OTDR fault reflection alert
+                sx, sy = pts[sever_idx]
+                draw.ellipse([sx - 10, sy - 10, sx + 10, sy + 10], outline=(255, 60, 40), width=2)
+                draw.line([(sx - 8, sy - 8), (sx + 8, sy + 8)], fill=(255, 60, 40), width=2)
+                draw.line([(sx - 8, sy + 8), (sx + 8, sy - 8)], fill=(255, 60, 40), width=2)
+                draw.text((sx + 14, sy - 12), "SEVER FAULT: OTDR +0.0KM", fill=(255, 80, 60))
+                draw.text((sx + 14, sy + 4), f"{c_name.split()[0]} DISRUPTED", fill=(255, 140, 50))
+            else:
+                draw.line(pts, fill=col, width=2)
+                draw.text((pts[-1][0] - 40, cy + 200), c_name.split()[0], fill=col)
+
+        # 4. Houthi Underwater ROV / Anchor Drag Interdiction Vector
+        rov_x, rov_y = cx + 55, cy + 30
+        draw.rectangle([rov_x - 18, rov_y - 14, rov_x + 18, rov_y + 14], fill=(30, 20, 25), outline=(255, 80, 50), width=2)
+        draw.line([(rov_x - 12, rov_y), (rov_x + 12, rov_y)], fill=(255, 200, 80), width=1)
+        draw.text((rov_x - 55, rov_y - 32), "[HOUTHI SUBMERSIBLE ROV]", fill=(255, 90, 60))
+        draw.text((rov_x - 45, rov_y + 18), "DEPTH: -142M // CLAW ENGAGED", fill=(255, 160, 60))
+        # Anchor drag chain vector across seabed
+        draw.line([(cx + 120, cy - 80), (rov_x, rov_y)], fill=(255, 120, 40), width=1)
+        draw.text((cx + 80, cy - 60), "RUBYMAR ANCHOR SCARRING", fill=(255, 140, 50))
+
+        # 5. Telemetry Dossiers (Subsea Cable Infrastructure & Soviet Horn of Africa SIGINT)
+        # Left HUD Box: Subsea Infrastructure Telemetry
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 22, 35), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[BAB EL-MANDEB CABLE HUD]", fill=(0, 240, 255))
+        draw.text((70, 118), "TRANSIT: 17% GLOBAL INTERNET", fill=(255, 220, 100))
+        draw.text((70, 138), "CHOKEPOINT WIDTH: 29 KM", fill=(0, 255, 200))
+        draw.text((70, 158), "LATENCY PENALTY: +148ms CAPE", fill=(120, 220, 255))
+        draw.text((70, 178), "FIBER STATUS: 4 LINES SEVERED", fill=(255, 80, 60))
+
+        # Right HUD Box: Soviet 8th Eskadra Naval Doctrine & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET 8TH ESKADRA RED SEA]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "DAHLAK ISLAND NAVAL BASE", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "SOCOTRA ANCHORAGE SIGINT", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "SEABED WARFARE PRECEDENT", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):

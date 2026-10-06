@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-22",
-      "date": "2026-10-10",
-      "hour": "22:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Red Sea Bab el-Mandeb subsea telecommunications cable interdiction, Houthi ROV seabed salvage, and Yuri Shvets on Soviet Horn of Africa naval doctrine"
-    },
-    {
       "id": "2026-10-10-23",
       "date": "2026-10-10",
       "hour": "23:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Continuous-variable quantum key distribution, Gaussian modulation, and Yuri Shvets on Soviet telecom fiber tapping"
+    },
+    {
+      "id": "2026-10-11-01",
+      "date": "2026-10-11",
+      "hour": "01:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Thomas Campbell's Big TOE cellular automaton digital physics, informational entropy reduction, and Yuri Shvets on KGB bio-informational psi research"
     }
   ]
 }
