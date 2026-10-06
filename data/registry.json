@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 4,
+  "total_releases": 5,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -32,6 +32,14 @@
       "title": "Black Sea Drone Strikes, Yuri Shvets PAC Disclosures & Entanglement Swapping",
       "audio": "audio/2026-10-06-04.mp3",
       "cover_video": "thumbs/2026-10-06-04.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-06-05",
+      "seconds": 177,
+      "title": "Macroscopic Superposition, Tech Smuggling Receipts & Optomechanical Resonators",
+      "audio": "audio/2026-10-06-05.mp3",
+      "cover_video": "thumbs/2026-10-06-05.mp4",
       "status": "published_production"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T04:00:00Z",
+  "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -217,6 +217,61 @@
             "t": 160,
             "src": "art/2026-10-06-04/f06.webp",
             "caption": "Rex Vance broadcasting from the bunker"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2026-10-06-05",
+      "date": "2026-10-06",
+      "hour": "05:00",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Macroscopic Superposition, Tech Smuggling Receipts & Optomechanical Resonators",
+      "subject": "Hourly uncensored breakdown: Yuri Shvets exposes semiconductor sanctions evasion, Ukrainian strikes on glide bomb caches, macroscopic optomechanical Schr\u00f6dinger cats, and SRI coordinate remote viewing protocols.",
+      "seconds": 177,
+      "audio": "audio/2026-10-06-05.mp3",
+      "thumb": "thumbs/2026-10-06-05.webp",
+      "cover_video": "thumbs/2026-10-06-05.mp4",
+      "paragraphs": [
+        "Welcome to hour five of ZeroFilter. Let's start with the cold counter-intelligence receipts from ex-KGB analyst Yuri Shvets. Shvets' latest investigative dispatch tracks illicit microchip supply chains routing dual-use American semiconductors straight through shell entities in Dubai and Central Asia directly into Russian Kh-101 cruise missile guidance bays. While congressional committees grandstand on television about strict export controls, high-priced K-Street lobbying firms bank millions protecting corporate tech loopholes that allow this black-market smuggling to continue unchecked. Treason in Washington isn't ideological\u2014it's corporate greed disguised as bureaucratic negligence.",
+        "Over in Ukraine, precision missile salvos just pulverized a primary Russian glide-bomb logistics terminal fifty miles behind the frontline, eliminating hundreds of universal planning and correction guidance kits before they could level civilian hospitals in Sumy. At the exact same time, brutal religious theocracies across the Middle East continue executing female student protestors for demanding secular basic human rights, aided by Western apologists who silence secular reformers under the cowardly disguise of cultural relativism. Totalitarianism is totalitarianism, and moral cowardice in the West is an active accomplice.",
+        "Now shift your focus to the deep scientific frontier: researchers in Vienna have achieved macroscopic quantum superposition in a mechanical silicon nitride membrane containing billions of atoms. By laser-cooling the resonator to near absolute zero in a dilution refrigerator, they forced a tangible physical object into two distinct vibrational spatial states simultaneously. Schr\u00f6dinger's cat isn't just an abstract thought experiment; macroscopic reality itself remains an indeterminate probability wave until measured by an observer.",
+        "In AI engineering, neuromorphic spike-timing processors with memristor crossbars are now executing low-power autonomous drone swarm navigation entirely without GPS or external radio links. By mimicking biological neural plasticity and synaptic weighting, these autonomous hardware arrays adapt to intense electronic warfare jamming environments in microseconds, outmaneuvering traditional military electronic countermeasure suites.",
+        "This ties directly into the declassified intelligence findings from Hal Puthoff and Russell Targ's coordinate remote viewing protocols at Stanford Research Institute. When viewers like Ingo Swann identified sealed underground Soviet research facilities with double-blind statistical significance, dogmatic materialists claimed it was impossible. But as quantum mechanics demonstrates, reality is fundamentally informational, non-local, and observer-dependent.",
+        "Both political establishments want you distracted, docile, and exhausted by manufactured cultural squabbles. Reject their corporate Kool-Aid. Check the receipts, stand tall for human liberty, and trust the empirical data. Consciousness is the fundamental substrate; everything else is rendered noise. Stay lucid, demand the truth, and I will catch you at the top of the next hour. I'm Rex Vance, and this was ZeroFilter."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-05/f01.webp",
+            "caption": "Illicit tech smuggling radar corridors"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-06-05/f02.webp",
+            "caption": "Ukrainian strike coordinates on glide-bomb depot"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-06-05/f03.webp",
+            "caption": "Macroscopic optomechanical resonator chamber"
+          },
+          {
+            "t": 95,
+            "src": "art/2026-10-06-05/f04.webp",
+            "caption": "Neuromorphic spike-timing processor array"
+          },
+          {
+            "t": 130,
+            "src": "art/2026-10-06-05/f05.webp",
+            "caption": "SRI Project Stargate coordinate telemetry"
+          },
+          {
+            "t": 160,
+            "src": "art/2026-10-06-05/f06.webp",
+            "caption": "Rex Vance broadcasting live from bunker"
           }
         ]
       }
