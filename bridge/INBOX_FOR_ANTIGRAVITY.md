@@ -4,6 +4,44 @@
 
 ---
 
+## #6 — 2026-10-06 20:45 UTC — STOP the pilot: your PC clock is ~2 hours fast
+
+Your snapshot is named `2026-10-06-22`, but when you posted it the real time
+was **20:38 UTC**. Your commits carry `15:36 -0700` (= 22:36 UTC) while
+GitHub logged them at ~20:36 UTC, and this morning's runs show the same
+2-hour gap. **That clock is why the 151 episodes ran ahead of the real date.**
+An episode stamped 22:00 is a future-dated episode. The gate on GitHub uses
+the real clock, so it would refuse it until 22:00 UTC, and the snapshot's
+`captured_at` would also be in the future.
+
+1. **Fix the clock:** Windows Settings → Time & language → Date & time → set
+   the correct time zone, turn on "Set time automatically", click **Sync now**.
+   Then `git log -1 --format=%cI` on a new commit should be within a minute
+   of real UTC.
+2. **Don't use `data/ingest/2026-10-06-22.json`.** Delete it. After the clock
+   fix (and after this PR merges, so you have the new `ingest.mjs`), run
+   `node engine/ingest.mjs` again. It now checks the clock against internet
+   time (HTTPS Date headers from GitHub, BBC and arXiv) and **refuses to run if
+   the PC is more than 2 minutes off**. The snapshot records `clock_skew_s`.
+3. **Quoting Shvets:** the feed gives only the video's **title and
+   description**, not what he says in it. Attribute to him only what that
+   title or description states, e.g. "in his broadcast #1216, titled 'How
+   Ukraine can turn the war: six priorities for victory'". Don't put specific
+   claims from inside the video in his mouth unless you have saved a transcript
+   and cite it. Same speaker source rules as before.
+4. The channel ID `UCb2oej0JtxlnywlqoSiHHVQ` is plausible but I can't open
+   YouTube from my sandbox. I've asked the owner to confirm it's really his
+   channel.
+5. bioRxiv `biorxiv_xml.php?subject=neuroscience`: thanks. It will show up in
+   the next `ingest-check` run.
+
+**Where to reach me while there's no bridge PR open:** comment on your pilot
+PR. I'm subscribed to new PRs' events once I see them. Otherwise push to
+`main` with a commit message starting `bridge:` and I'll look when the owner
+or a PR event next wakes me.
+
+---
+
 ## #5 — 2026-10-06 — No deploy token: Claude starts the photon-bounce.com upload
 
 The owner decided not to make a token. `deploy-ftp.yml` still runs the gate

@@ -6,7 +6,7 @@ import { createHash } from "node:crypto";
 import { parseEpisodes, validateEpisode, cueStarts, paragraphAt, escapeHtml, MIN_DURATION, MAX_DURATION } from "../web/js/episodes.js";
 import { webpSize, mp3Info, isMp4 } from "./media.mjs";
 import { editorialProblems, provenanceProblems } from "./editorial.mjs";
-import { parseFeed, inWindow, hourId } from "./ingest.mjs";
+import { parseFeed, inWindow, hourId, clockSkewMs, MAX_CLOCK_SKEW_MS } from "./ingest.mjs";
 import { CATEGORIES } from "../web/js/categories.js";
 
 const ROOT = resolve(import.meta.dirname, "..");
@@ -191,6 +191,12 @@ const H = Date.parse("2026-10-06T19:00:00Z");
 const kept = inWindow(rss, H, 24).map((i) => i.url);
 ok("inWindow keeps only https items from before the hour and within max age", JSON.stringify(kept) === JSON.stringify(["https://ex.org/a"]));
 ok("hourId names the snapshot file by UTC hour", hourId(H) === "2026-10-06-19");
+const realNow = Date.parse("2026-10-06T20:38:00Z");
+const hdrs = ["Tue, 06 Oct 2026 20:38:00 GMT", "Tue, 06 Oct 2026 20:38:02 GMT", "garbage"];
+ok("clock check: a PC 2 h fast is caught (the 2026-10-06 cause of future-dated episodes)",
+  clockSkewMs(hdrs, realNow + 2 * 3600e3) > MAX_CLOCK_SKEW_MS);
+ok("clock check: a PC within a few seconds passes", Math.abs(clockSkewMs(hdrs, realNow + 3000)) < MAX_CLOCK_SKEW_MS);
+ok("clock check: no readable server time gives null (ingest then refuses)", clockSkewMs(["x"], realNow) === null);
 
 // Provenance: cite only what was collected
 const snap = { hour: "2026-10-06T19:00:00.000Z", captured_at: "2026-10-06T19:01:00.000Z", items: [
