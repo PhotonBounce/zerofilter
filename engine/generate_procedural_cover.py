@@ -21,7 +21,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
 
     cx, cy = width // 2, height // 2
 
-    if theme in ("geopolitics", "red_sea", "asbm", "anti_ship_missile", "red_sea_missile", "hormuz_spoofing", "hormuz_ew", "iran_drone", "hormuz_hydrophone", "persian_gulf", "taiwan_sosus", "hydrophone_barrier", "taiwan_strait", "barents_bastion", "giuk_gap", "malacca_blockade", "hydrophone_gate"):
+    if theme in ("geopolitics", "red_sea", "asbm", "anti_ship_missile", "red_sea_missile", "hormuz_spoofing", "hormuz_ew", "iran_drone", "hormuz_hydrophone", "persian_gulf", "taiwan_sosus", "hydrophone_barrier", "taiwan_strait", "barents_bastion", "giuk_gap", "malacca_blockade", "hydrophone_gate", "kuril_bastion", "okhotsk_bastion", "kuril_islands", "sea_of_okhotsk"):
         # Amber/Cyan Radar & Maritime Electronic Warfare Sweep
         # 1. Concentric radar range rings
         for r in range(60, max(width, height), 70):
@@ -1728,6 +1728,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "SUWALKI GAP HEAVY ARMOR LOGISTICS // RAIL GAUGE CHOKEPOINTS // KALININGRAD CORRIDOR", fill=(255, 90, 70))
     elif theme in ("giuk_gap", "undersea_drones", "titanium_sub"):
         draw.text((40, 60), "GIUK GAP ACOUSTIC BARRIER // UNDERSEA DRONE SWARMS // SOVIET TITANIUM SUBMARINES", fill=(0, 220, 255))
+    elif theme in ("kuril_bastion", "okhotsk_bastion", "kuril_islands", "sea_of_okhotsk"):
+        draw.text((40, 60), "KURIL ISLANDS BASTION // SEA OF OKHOTSK ASW GATE // SOVIET PACIFIC FLEET DOCTRINE", fill=(255, 140, 40))
     elif theme in ("lomonosov_ridge", "arctic_seabed"):
         draw.text((40, 60), "ARCTIC LOMONOSOV RIDGE ANNEXATION // SEABED BATHYMETRY MAPPING // SOVIET POLAR BASTION ASW", fill=(0, 240, 255))
     elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "svalbard_cable", "barents_bastion", "bastion_doctrine", "northern_fleet"):

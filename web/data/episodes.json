@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-02",
+      "hour": "02:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Kuril Islands Bastion Fortification, Sea of Okhotsk Anti-Access Gates & Soviet Pacific Fleet ASW Doctrine",
+      "subject": "Hourly uncensored breakdown: Rex Vance examines the strategic fortification of the Kuril Islands chain turning the Sea of Okhotsk into an impenetrable ballistic missile submarine sanctuary, and Yuri Shvets on Soviet Pacific Fleet bastion defense architecture.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero two hundred hours. In Pacific naval strategy, geography dictates oceanic chokepoints with brutal clarity. While global maritime attention remains fixated on the First Island Chain and the Taiwan Strait, a far more militarized anti-access bastion has locked down the Northwest Pacific. Spanning twelve hundred kilometers from the Kamchatka Peninsula to northern Hokkaido, the Kuril Islands archipelago serves as a natural volcanic wall, converting the entire Sea of Okhotsk into a fortified sovereign naval bastion.",
+        "The military geography of the Sea of Okhotsk is engineered around an asymmetric defensive objective: protecting Russian nuclear ballistic missile submarines from Western anti-submarine warfare penetration. Through the deployment of K-300P Bastion-P supersonic coastal anti-ship missile complexes on Matua and Paramushir islands, paired with long-range S-400 air defense batteries, the transit straits have been transformed into lethal interception gates. Any hostile surface combatant or maritime patrol aircraft attempting to penetrate deep straits like Bussol or Kruzenstern faces multi-tiered hypersonic crossfire.",
+        "This contemporary bastion doctrine represents the direct execution of plans formulated during the height of the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has illuminated, the Soviet General Staff and the KGB's Third Chief Directorate for military counter-intelligence viewed the Pacific Fleet's submarine sanctuary in the Sea of Okhotsk as an indispensable pillar of nuclear survivability.",
+        "According to Shvets, Soviet intelligence was gripped by deep alarm over US Navy maritime strategy under Admiral James Watkins in the 1980s, which explicitly planned for American attack submarines to breach Soviet bastions and hunt Delta-class SSBNs during the opening hours of a conflict. In response, the Kremlin directed immense defense resources toward lining the Kuril trenches with deep-water stationary hydrophone arrays and acoustic tripwires. Shvets noted that Soviet Pacific Fleet commanders considered losing control over a single Kuril passage an existential vulnerability to their second-strike deterrent.",
+        "Today, that acoustic fortification is being aggressively modernized with autonomous subsea gliders, seabed sonar nodes, and Tu-142 maritime reconnaissance patrols. As geopolitical tensions rise across East Asia, Moscow's refusal to negotiate Kuril sovereignty with Tokyo reflects not diplomatic stubbornness, but raw naval physics: relinquishing the southern islands would rupture the acoustic perimeter, allowing Allied nuclear attack submarines unmonitored entry into the Pacific Fleet's primary underwater redoubt.",
+        "Map the maritime choke points, track the deployment of hypersonic coastal defense batteries along the volcanic island arc, and understand that in modern naval warfare, natural geography remains the ultimate force multiplier. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-02/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-10-02/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-10-02/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-10-02/f04.webp"
+          },
+          {
+            "t": 114,
+            "src": "art/2026-10-10-02/f05.webp"
+          },
+          {
+            "t": 142,
+            "src": "art/2026-10-10-02/f06.webp"
+          }
+        ]
+      },
+      "seconds": 171,
+      "thumb": "thumbs/2026-10-10-02.webp",
+      "audio": "audio/2026-10-10-02.mp3",
+      "cover_video": "thumbs/2026-10-10-02.mp4"
+    },
+    {
       "id": "2026-10-10-01",
       "hour": "01:00",
       "date": "2026-10-10",

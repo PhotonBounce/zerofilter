@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-02",
-      "date": "2026-10-10",
-      "hour": "02:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Kuril Islands bastion fortification, Sea of Okhotsk anti-access bubbles, and Yuri Shvets on Soviet Pacific Fleet bastion defense"
-    },
-    {
       "id": "2026-10-10-03",
       "date": "2026-10-10",
       "hour": "03:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Topological photonic crystal waveguides, quantum Hall light routing, and Yuri Shvets on Soviet optical analog computing"
+    },
+    {
+      "id": "2026-10-10-05",
+      "date": "2026-10-10",
+      "hour": "05:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Transcranial focused ultrasound neuromodulation, blood-brain barrier sonoporation, and Yuri Shvets on Soviet remote neuro-intervention trials"
     }
   ]
 }

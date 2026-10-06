@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 97,
+  "total_releases": 98,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -776,6 +776,14 @@
       "title": "Neuro-Adaptive Cognitive Load Telemetry, EEG P300 Biometrics & KGB Bio-Information Weaponization",
       "audio": "audio/2026-10-10-01.mp3",
       "cover_video": "thumbs/2026-10-10-01.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-02",
+      "seconds": 171,
+      "title": "Kuril Islands Bastion Fortification, Sea of Okhotsk Anti-Access Gates & Soviet Pacific Fleet ASW Doctrine",
+      "audio": "audio/2026-10-10-02.mp3",
+      "cover_video": "thumbs/2026-10-10-02.mp4",
       "status": "published_production"
     }
   ]
