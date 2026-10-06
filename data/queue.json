@@ -1,0 +1,21 @@
+{
+  "queue_version": "1.0",
+  "pending_episodes": [
+    {
+      "id": "2026-10-06-04",
+      "date": "2026-10-06",
+      "hour": "04:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Yuri Shvets Washington disclosures on Black Sea grain corridors and GOP PAC lobbying ties"
+    },
+    {
+      "id": "2026-10-06-05",
+      "date": "2026-10-06",
+      "hour": "05:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Macroscopic superposition in optomechanical resonators and frontier AI reasoning scaling"
+    }
+  ]
+}
