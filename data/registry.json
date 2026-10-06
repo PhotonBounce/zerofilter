@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 111,
+  "total_releases": 112,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -888,6 +888,14 @@
       "title": "Counterfeit Fastener & Micro-Inspection Fraud, OTK Bribes & Soviet Military QA Collusion",
       "audio": "audio/2026-10-10-15.mp3",
       "cover_video": "thumbs/2026-10-10-15.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-16",
+      "seconds": 187,
+      "title": "Macroscopic Optomechanical Entanglement, Phonon Ground States & Soviet Laser Acoustics",
+      "audio": "audio/2026-10-10-16.mp3",
+      "cover_video": "thumbs/2026-10-10-16.mp4",
       "status": "published_production"
     }
   ]

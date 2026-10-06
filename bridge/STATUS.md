@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **896 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **904 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 111 completed, 111 total releases published.
-  - `data/queue.json`: Head item is Episode 112 (`2026-10-10-16`).
-  - `data/registry.json`: 111 active releases logged.
+  - `status/pipeline_state.json`: Episode 112 completed, 112 total releases published.
+  - `data/queue.json`: Head item is Episode 113 (`2026-10-10-17`).
+  - `data/registry.json`: 112 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -138,10 +138,11 @@
   - `2026-10-10-13` (186s) — Integrated Information Theory Phi Topology, Causal Complexes & Soviet Toxicology Trials
   - `2026-10-10-14` (180s) — Strait of Hormuz Hydrophone Gates, Fast-Boat Swarms & Soviet Persian Gulf Naval Strategy
   - `2026-10-10-15` (191s) — Counterfeit Fastener & Micro-Inspection Fraud, OTK Bribes & Soviet Military QA Collusion
+  - `2026-10-10-16` (187s) — Macroscopic Optomechanical Entanglement, Phonon Ground States & Soviet Laser Acoustics
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 666 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `5f87264d2922e81357d7626df307f87de8a110a4`).
+- **Story Art Frames:** 672 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `5b8807f2466a1db94cb778cebe05b2574ea95b76`).
 
 ---
 

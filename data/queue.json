@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-16",
-      "date": "2026-10-10",
-      "hour": "16:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Quantum optomechanical macroscopic membrane entanglement, phonon cooling, and Yuri Shvets on Soviet laser interferometry acoustics"
-    },
-    {
       "id": "2026-10-10-17",
       "date": "2026-10-10",
       "hour": "17:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Strait of Malacca naval blockade scenarios, Kra Isthmus bypass pipeline logistics, and Yuri Shvets on Soviet Indian Ocean fleet surveillance"
+    },
+    {
+      "id": "2026-10-10-19",
+      "date": "2026-10-10",
+      "hour": "19:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Pentagon drone swarm telemetry pricing inflation, venture capital pass-through shell entities, and Yuri Shvets on Soviet design bureau price-fixing cartels"
     }
   ]
 }
