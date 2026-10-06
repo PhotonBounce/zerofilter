@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T17:05:00Z",
+  "updated": "2026-10-06T17:15:00Z",
   "episodes": [
+    {
+      "id": "2026-10-12-02",
+      "hour": "02:00",
+      "date": "2026-10-12",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Kuril Islands Bastion Anti-Submarine Barriers, Sea of Okhotsk Sanctuary & Soviet Pacific Fleet Chokepoints",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the strategic Kuril Island volcanic archipelago, the fortified Sea of Okhotsk ballistic missile submarine bastion, deep-water acoustic gate barriers, and Yuri Shvets on Soviet Pacific Fleet submarine bastion doctrine and KGB anti-submarine counter-reconnaissance.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero two hundred hours. Stretching twelve hundred kilometers from Japan’s northern island of Hokkaido to the tip of Russia’s Kamchatka Peninsula, the volcanic archipelago of the Kuril Islands forms one of the most heavily fortified maritime barriers on Earth. Comprising fifty-six islands and narrow deep-water straits, this chain transforms the semi-enclosed Sea of Okhotsk into an impregnable naval bastion: a protected deep-water sanctuary where Russia’s Pacific Fleet ballistic missile submarines patrol under continuous air, surface, and subsea defense umbrellas.",
+        "To guarantee the survivability of its nuclear deterrent, Moscow rings the Kuril chain with advanced coastal defense missiles, supersonic batteries, and hydrophone arrays. The deep straits between the islands—most notably Bussol and Vries Straits, plunging over two thousand meters—serve as the only navigable gateways for submarines passing from the Pacific Ocean into the Okhotsk basin. These chasms are wired with seabed acoustic sensors and patrolled by uncrewed gliders, creating acoustic tripwires to detect any Western attack submarine attempting to breach the bastion.",
+        "For Tokyo and Washington, this volcanic barrier represents a permanent geostrategic obstacle. The militarization of the Kuril chain locks Japanese maritime forces out of northern transit routes, while providing Russian naval strike groups unhindered egress into the open Pacific. In the event of a Pacific conflict, closing the Kuril chokepoints would allow Russia to secure its eastern nuclear flank while threatening maritime trade lines linking North America, Japan, and the Korean peninsula.",
+        "Yet this modern bastion fortress is the direct continuation of Soviet nuclear strategy. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet naval doctrine designated the Sea of Okhotsk an untouchable internal redoubt during the height of the Cold War.",
+        "According to Shvets, the Soviet Navy realized by the late nineteen seventies that surface fleet competition with the United States was economically unsustainable. Instead, Soviet naval leadership and KGB First Chief Directorate analysts developed the bastion concept: concentrating Delta and Typhoon-class nuclear submarines within the Sea of Okhotsk, protected by surface combatants and land-based naval aviation. Shvets revealed that KGB counter-intelligence operated intensive operations to prevent US Navy attack submarines from penetrating the Kuril acoustic gates, actively hunting for Western undersea wiretaps following the discovery of Operation Ivy Bells.",
+        "From Soviet Delta-class patrols hiding under seasonal ice sheets in the Sea of Okhotsk to modern anti-ship missile batteries bristling along the Kuril archipelago, control of these volcanic straits remains the Pacific's ultimate nuclear gateway. Track the chokepoint telemetry, monitor the abyssal straits, and stay alert. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-12-02/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-12-02/f02.webp"
+          },
+          {
+            "t": 56,
+            "src": "art/2026-10-12-02/f03.webp"
+          },
+          {
+            "t": 84,
+            "src": "art/2026-10-12-02/f04.webp"
+          },
+          {
+            "t": 113,
+            "src": "art/2026-10-12-02/f05.webp"
+          },
+          {
+            "t": 141,
+            "src": "art/2026-10-12-02/f06.webp"
+          }
+        ]
+      },
+      "seconds": 169,
+      "audio": "audio/2026-10-12-02.mp3",
+      "thumb": "thumbs/2026-10-12-02.webp",
+      "cover_video": "thumbs/2026-10-12-02.mp4"
+    },
     {
       "id": "2026-10-12-01",
       "hour": "01:00",

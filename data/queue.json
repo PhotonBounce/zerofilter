@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-12-02",
-      "date": "2026-10-12",
-      "hour": "02:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Kuril Islands Bastion Anti-Submarine Barriers, Sea of Okhotsk Deep Sanctuary & Soviet Pacific Fleet Chokepoints"
-    },
-    {
       "id": "2026-10-12-03",
       "date": "2026-10-12",
       "hour": "03:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Rydberg Atom Electrometry, Sub-Terahertz Sensor Arrays & Soviet Microwave Interceptions"
+    },
+    {
+      "id": "2026-10-12-05",
+      "date": "2026-10-12",
+      "hour": "05:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Stuart Hameroff Quantum Microtubule Anesthesia, Xenon Dipoles & Soviet Neuro-Aerosol Telemetry"
     }
   ]
 }

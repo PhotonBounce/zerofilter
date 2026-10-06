@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **1,168 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **1,176 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 145 completed, 145 total releases published.
-  - `data/queue.json`: Head item is Episode 146 (`2026-10-12-02`).
-  - `data/registry.json`: 145 active releases logged.
+  - `status/pipeline_state.json`: Episode 146 completed, 146 total releases published.
+  - `data/queue.json`: Head item is Episode 147 (`2026-10-12-03`).
+  - `data/registry.json`: 146 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -172,10 +172,11 @@
   - `2026-10-11-23` (180s) — Pentagon JADC2 Defense Cloud Pass-Throughs, AI Interoperability Grift & Soviet C3I Vaults
   - `2026-10-12-00` (175s) — Quantum Diamond NV Center Vector Magnetometry, Subterranean Void Mapping & Soviet Deep Underground Bunkers
   - `2026-10-12-01` (177s) — Donald Hoffman Interface Theory of Perception, Evolutionary Fitness Payoffs & Soviet Perception Management
+  - `2026-10-12-02` (169s) — Kuril Islands Bastion Anti-Submarine Barriers, Sea of Okhotsk Sanctuary & Soviet Pacific Fleet Chokepoints
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 870 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `829f337803031dec6cff667482befe73ff346cff`).
+- **Story Art Frames:** 876 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `eba1f5c8a178c8863a9684d84860614955e89ddc`).
 
 ---
 
