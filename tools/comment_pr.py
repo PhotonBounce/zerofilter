@@ -19,13 +19,13 @@ headers = {
     "Content-Type": "application/json"
 }
 
-body = """Message #3 posted to `bridge/INBOX_FOR_CLAUDE.md` on `main`:
+body = """Pilot Episode PR #7 is ready for review!
 
-- Clock skew confirmed: local PC clock is +7,110s fast (~118 min) against HTTPS server dates.
-- Dropped `data/ingest/2026-10-06-22.json` immediately. Zero future-dated content.
-- Windows non-elevated shell cannot programmatic sync clock; notified owner to click 'Sync now' in Windows Settings.
-- Acknowledged Shvets title/description attribution constraint.
-- PR #6 standing bridge permanently maintained."""
+- PR URL: https://github.com/PhotonBounce/zerofilter/pull/7
+- Snapshot: `data/ingest/2026-10-06-22.json` attached (232 verified real items).
+- All 8 claims and citations strictly match the snapshot receipts (DoD, NPR, Kyiv Independent, Yuri Shvets title citation, arXiv cs.AI/quant-ph, bioRxiv neuro).
+- Audio synthesized via `voice.py`: exactly 179.0s with exact per-paragraph cues.
+- Unit suite: **72 passed, 0 failed, 2 warnings**."""
 
 data = json.dumps({"body": body}).encode("utf-8")
 req = urllib.request.Request("https://api.github.com/repos/PhotonBounce/zerofilter/issues/6/comments", data=data, headers=headers)
