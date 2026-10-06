@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 101,
+  "total_releases": 102,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -808,6 +808,14 @@
       "title": "Transcranial Focused Ultrasound Neuromodulation, Blood-Brain Sonoporation & Soviet Remote Neuro-Targeting",
       "audio": "audio/2026-10-10-05.mp3",
       "cover_video": "thumbs/2026-10-10-05.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-06",
+      "seconds": 165,
+      "title": "Suwalki Corridor Rail Bottlenecks, Kaliningrad Iskander Repositioning & Soviet Baltic Battle Plans",
+      "audio": "audio/2026-10-10-06.mp3",
+      "cover_video": "thumbs/2026-10-10-06.mp4",
       "status": "published_production"
     }
   ]

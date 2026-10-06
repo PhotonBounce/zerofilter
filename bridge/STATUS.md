@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **816 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **824 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 101 completed, 101 total releases published.
-  - `data/queue.json`: Head item is Episode 102 (`2026-10-10-06`).
-  - `data/registry.json`: 101 active releases logged.
+  - `status/pipeline_state.json`: Episode 102 completed, 102 total releases published.
+  - `data/queue.json`: Head item is Episode 103 (`2026-10-10-07`).
+  - `data/registry.json`: 102 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -128,10 +128,11 @@
   - `2026-10-10-03` (183s) — Hypersonic Wind Tunnel Telemetry Falsification, CFD Grant Diversions & Soviet Scramjet Program Padding
   - `2026-10-10-04` (175s) — Topological Photonic Crystal Waveguides, Quantum Hall Light Routing & Soviet Optical Analog Computing [EPISODE 100 MILESTONE]
   - `2026-10-10-05` (177s) — Transcranial Focused Ultrasound Neuromodulation, Blood-Brain Sonoporation & Soviet Remote Neuro-Targeting
+  - `2026-10-10-06` (165s) — Suwalki Corridor Rail Bottlenecks, Kaliningrad Iskander Repositioning & Soviet Baltic Battle Plans
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 606 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `e6014b9a2c44aa50b5b1cb38d3840acf0c4a644b`).
+- **Story Art Frames:** 612 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `5ffa5f926498dd7d64480ff1ea54e92a2df68731`).
 
 ---
 

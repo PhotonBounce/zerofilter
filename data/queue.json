@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-06",
-      "date": "2026-10-10",
-      "hour": "06:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Suwalki Corridor rail sabotage, Kaliningrad Iskander-M repositioning, and Yuri Shvets on Soviet Baltic military district contingency planning"
-    },
-    {
       "id": "2026-10-10-07",
       "date": "2026-10-10",
       "hour": "07:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Superconducting qubit parity measurements, cat-state quantum error correction, and Yuri Shvets on Soviet quantum telemetry intercept attempts"
+    },
+    {
+      "id": "2026-10-10-09",
+      "date": "2026-10-10",
+      "hour": "09:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Neural biophoton emission in cerebellar Purkinje cells, metabolic uncoupling, and Yuri Shvets on Soviet bio-energetic psychotronics archives"
     }
   ]
 }

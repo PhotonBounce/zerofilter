@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-06",
+      "hour": "06:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Suwalki Corridor Rail Bottlenecks, Kaliningrad Iskander Repositioning & Soviet Baltic Battle Plans",
+      "subject": "Hourly uncensored breakdown: Rex Vance analyzes electronic warfare jamming corridors and rail gauge discrepancies across the sixty-five kilometer Suwalki Gap between Poland and Lithuania, and Yuri Shvets on Soviet Baltic military district war planning.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero six hundred hours. In NATO European defense planning, no strip of land presents a more precarious vulnerability than the Suwalki Corridor. Stretching sixty-five kilometers along the Polish-Lithuanian border, this narrow overland transit corridor separates the heavily fortified Russian military exclave of Kaliningrad from Belarus. In any high-intensity Baltic confrontation, closing this corridor would instantly sever overland reinforcement to Estonia, Latvia, and Lithuania, trapping Allied forces in a maritime pocket.",
+        "The operational bottleneck is exacerbated by a physical engineering barrier: the rail gauge discrepancy between Western Europe and the former Soviet zone. While Poland operates on standard fourteen-thirty-five millimeter rail gauge, Baltic states inherit the Soviet fifteen-twenty millimeter broad gauge, forcing military logistics transshipments at border transfer terminals like Mockava. Combined with forward-deployed Iskander-M missile batteries and Krasukha-four electronic warfare complexes in Kaliningrad capable of blacking out GPS and tactical radios across northeastern Poland, transit is a logistical nightmare.",
+        "This tactical choke point represents the modern iteration of deeply studied Soviet invasion corridors. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has illuminated, the Soviet General Staff and the KGB's Third Chief Directorate treated the Baltic Military District and the Belorussian Military District as the armored sledgehammer of any prospective European offensive during the Cold War.",
+        "According to Shvets, Soviet war plans did not envision protracted diplomacy in the Baltic theater; operational doctrines dictated rapid armored thrusts to link the Baltic coast with inland staging hubs, isolating Scandinavia and northern Germany. Shvets revealed that Soviet military counter-intelligence maintained extensive sabotage reconnaissance units tasked with blowing up European railway switches, sabotaging electrical transformers, and cutting undersea telegraph lines in the first hours of conflict to prevent Western reserves from mobilizing eastward.",
+        "Decades later, Moscow's coercive playbook against the Suwalki Gap utilizes modern hybrid warfare tools. Electronic warfare jamming corridors disrupt commercial aviation and maritime GPS across the Baltic basin daily, while state-sponsored cyber sabotage probes rail signaling networks and border substations. The strategic objective remains unchanged from Shvets's Cold War briefings: testing the physical and political threshold at which NATO can reliably project armor into its most exposed eastern salient.",
+        "Track the rail gauge harmonization projects, monitor Iskander-M telemetry across the Kaliningrad border perimeter, and recognize that geography always reasserts its primacy over geopolitical treaties. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-06/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-10-06/f02.webp"
+          },
+          {
+            "t": 55,
+            "src": "art/2026-10-10-06/f03.webp"
+          },
+          {
+            "t": 82,
+            "src": "art/2026-10-10-06/f04.webp"
+          },
+          {
+            "t": 110,
+            "src": "art/2026-10-10-06/f05.webp"
+          },
+          {
+            "t": 138,
+            "src": "art/2026-10-10-06/f06.webp"
+          }
+        ]
+      },
+      "seconds": 165,
+      "thumb": "thumbs/2026-10-10-06.webp",
+      "audio": "audio/2026-10-10-06.mp3",
+      "cover_video": "thumbs/2026-10-10-06.mp4"
+    },
+    {
       "id": "2026-10-10-05",
       "hour": "05:00",
       "date": "2026-10-10",
