@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-14",
-      "date": "2026-10-07",
-      "hour": "14:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Arctic undersea mineral rights, Svalbard cable sabotage risks, and Yuri Shvets on Russian Northern Fleet submarine deployments"
-    },
-    {
       "id": "2026-10-07-15",
       "date": "2026-10-07",
       "hour": "15:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Defense hypersonic scramjet testing failures, cost-plus audit coverups, and Yuri Shvets on Soviet aerospace procurement fraud"
+    },
+    {
+      "id": "2026-10-07-17",
+      "date": "2026-10-07",
+      "hour": "17:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Superconducting transmon qubit coherence limits, surface code syndrome extraction, and Yuri Shvets on Soviet quantum cryptography intercept efforts"
     }
   ]
 }

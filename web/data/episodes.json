@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-14",
+      "hour": "14:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Arctic Undersea Mineral Rights, Svalbard Cable Sabotage & Northern Fleet Kinematics",
+      "subject": "Hourly uncensored breakdown: Rex Vance analyzes High North polar transit routes, Svalbard undersea fiber-optic cable sabotage risks, Russian GUGI deep-sea reconnaissance vessels, and Yuri Shvets's insider revelations regarding Soviet Northern Fleet bastion defense doctrine.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is fourteen hundred hours. As polar ice packs recede across the High North, the Arctic Ocean is rapidly transforming from a frozen peripheral barrier into humanity's most contested maritime battleground. Beneath the frigid waters of the Barents and Norwegian Seas lie trillions of dollars in untapped critical mineral deposits, rare earths, and massive hydrocarbon reserves. But the true immediate flashpoint is not mining concessions—it is the fragile constellation of subsea fiber-optic cables connecting Arctic satellite ground stations to the global internet backbone.",
+        "Nowhere is this vulnerability more acute than the Svalbard undersea dual-fiber archipelago link. Running hundreds of kilometers across the abyssal seafloor, this conduit transmits raw telemetry from the SvalSat ground station—a critical polar downlink tracking civilian weather constellations, European Space Agency missions, and classified Western military reconnaissance satellites. A severed cable here does not merely cause an isolated communications outage; it creates an immediate strategic blind spot in orbital early-warning and missile-defense networks.",
+        "This seabed vulnerability is being actively probed by Russia's Main Directorate of Deep-Sea Research, known by its Russian acronym GUGI. Operating covertly under civilian cover, GUGI deploys specialized nuclear auxiliary submersibles and oceanographic reconnaissance ships like the Yantar, equipped with autonomous deep-diving robotic arms capable of tapping or severing fiber lines at depths exceeding three thousand meters. These operations are integrated directly into the operational kinematics of Russia's Northern Fleet, based along the Kola Peninsula.",
+        "As Washington counter-intelligence insider and former KGB Major Yuri Shvets has documented, Kremlin strategic doctrine treats the High North as an impregnable submarine bastion. During the Cold War, the Soviet Northern Fleet designed complex layered anti-access zones across the Barents Sea to protect ballistic missile submarines from NATO attack. Shvets points out that today's Russian General Staff applies identical bastion logic to hybrid warfare: threatening critical subsea infrastructure to hold European economies hostage while daring NATO to escalate under the threshold of Article Five.",
+        "Countering this asymmetric threat requires persistent undersea situational awareness and autonomous seabed patrols. NATO and Nordic allies must deploy distributed acoustic hydrophone grids, uncrewed underwater autonomous drones, and permanent surface escort task forces to monitor Russian auxiliary vessels throughout the GIUK Gap and Arctic transit corridors. Freedom of navigation and data integrity beneath the waves are just as vital to democratic sovereignty as defending airspace.",
+        "Audit the abyssal bathymetry, expose the covert seabed warfare, and never permit authoritarian aggression to operate in the darkness of the deep ocean. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 168,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-14/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-07-14/f02.webp"
+          },
+          {
+            "t": 56,
+            "src": "art/2026-10-07-14/f03.webp"
+          },
+          {
+            "t": 84,
+            "src": "art/2026-10-07-14/f04.webp"
+          },
+          {
+            "t": 112,
+            "src": "art/2026-10-07-14/f05.webp"
+          },
+          {
+            "t": 140,
+            "src": "art/2026-10-07-14/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-14.webp",
+      "audio": "audio/2026-10-07-14.mp3",
+      "cover_video": "thumbs/2026-10-07-14.mp4"
+    },
+    {
       "id": "2026-10-07-13",
       "hour": "13:00",
       "date": "2026-10-07",
