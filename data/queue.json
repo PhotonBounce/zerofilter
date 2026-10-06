@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-22",
-      "date": "2026-10-08",
-      "hour": "22:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Arctic undersea fiber-optic cable sabotage, Svalbard seabed sonar arrays, and Yuri Shvets on Soviet GUGI deep-sea operations"
-    },
-    {
       "id": "2026-10-08-23",
       "date": "2026-10-08",
       "hour": "23:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Nonlinear Josephson parametric amplifiers, quantum vacuum squeezed states, and Yuri Shvets on Soviet low-noise radar cryptanalysis"
+    },
+    {
+      "id": "2026-10-09-01",
+      "date": "2026-10-09",
+      "hour": "01:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Integrated information theory high-order causal architecture, loss of integrated phi in deep coma, and Yuri Shvets on Soviet neural interrogation pharmacology"
     }
   ]
 }

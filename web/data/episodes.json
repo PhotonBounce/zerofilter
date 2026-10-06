@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-08-22",
+      "hour": "22:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Arctic Undersea Fiber-Optic Cable Sabotage, Svalbard Seabed Sonar Arrays & Soviet GUGI Operations",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates severed Arctic fiber-optic trunks, seabed warfare along the Svalbard undersea acoustic perimeter, and Yuri Shvets's insider analysis of Soviet GUGI deep-sea reconnaissance operations.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty-two hundred hours. Beneath the freezing surface waters of the Norwegian and Barents Seas, an invisible shadow war is unfolding along the abyssal seabed. Over ninety-five percent of transoceanic internet traffic, interbank financial transfers, and allied military command communications transit through pencil-thin undersea fiber-optic cables resting entirely unprotected on the continental shelf. In the Arctic, repeated catastrophic cable severances around the Svalbard archipelago have exposed a calculated campaign of seabed sabotage and underwater reconnaissance that Western defense ministries are struggling to contain.",
+        "The strategic geography of the Svalbard undersea corridor is critical. The twin fiber-optic cables linking Longyearbyen to mainland Norway provide high-speed data transmission for polar satellite ground stations tracking allied reconnaissance orbits. When undersea seismic sensors and fiber trunks were physically cut, forensic oceanographic telemetry revealed that the severed conduits were not damaged by commercial fishing trawlers or natural ice scouring, but cleanly severed by specialized submersibles equipped with robotic manipulators. Beneath the acoustic thermocline, Russian deep-sea special mission submarines operating under the Main Directorate of Deep-Sea Research, known as GUGI, utilize nuclear-powered motherships and auxiliary oceanographic intelligence vessels to map and tap critical seabed chokepoints.",
+        "This abyssal warfare doctrine has deep institutional lineage in Cold War intelligence operations. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently detailed, Soviet naval intelligence and the KGB's First Chief Directorate maintained dedicated seabed reconnaissance teams focused on finding, tapping, and neutralizing NATO's SOSUS acoustic hydrophone arrays. The Soviet Union recognized that controlling the seabed floor was essential to guaranteeing the safe egress of Northern Fleet ballistic missile submarines into the North Atlantic.",
+        "According to Shvets, Soviet specialized oceanographic ships routinely operated under the cover of civilian marine biology expeditions and commercial trawler flags to mask their hydrographic charting missions. Shvets documented that Soviet naval engineers developed specialized seabed crawlers and deep-diving bathyscaphes capable of descending thousands of meters to inspect transoceanic cables and plant explosive charges. Shvets emphasizes that today's GUGI operations in the Arctic are the direct evolution of these Cold War programs: a deniable asymmetric weapon designed to blind Western satellite downlinks and severed financial backbones before a broader kinetic escalation.",
+        "Western navies are now racing to deploy autonomous undersea drone swarms and seabed acoustic arrays to establish persistent maritime surveillance over critical infrastructure. But protecting hundreds of thousands of kilometers of unarmored glass fibers on the dark ocean floor remains a logistical nightmare. In twenty-first-century conflict, the nation that severs the undersea cables blinds its adversary without firing a single missile.",
+        "Audit the abyssal bathymetry, track the shadow oceanographic research vessels, and monitor the Svalbard fiber links. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-22/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-08-22/f02.webp"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-08-22/f03.webp"
+          },
+          {
+            "t": 93,
+            "src": "art/2026-10-08-22/f04.webp"
+          },
+          {
+            "t": 124,
+            "src": "art/2026-10-08-22/f05.webp"
+          },
+          {
+            "t": 155,
+            "src": "art/2026-10-08-22/f06.webp"
+          }
+        ]
+      },
+      "seconds": 186,
+      "thumb": "thumbs/2026-10-08-22.webp",
+      "audio": "audio/2026-10-08-22.mp3",
+      "cover_video": "thumbs/2026-10-08-22.mp4"
+    },
+    {
       "id": "2026-10-08-21",
       "hour": "21:00",
       "date": "2026-10-08",
