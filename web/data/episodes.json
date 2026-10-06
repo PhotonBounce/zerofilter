@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-19",
+      "hour": "19:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Monroe Gateway Hemi-Sync Archives, Frequency Following & Soviet Psychotronic Telemetry",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the Robert Monroe Gateway Experience, binaural frequency following response in hemispheric synchronization, and Yuri Shvets's insider analysis of Soviet KGB psychotronic programs and Kiev remote observation laboratories.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is nineteen hundred hours. In 1983, the Central Intelligence Agency declassified a comprehensive operational assessment of the Monroe Institute's Gateway Experience. Spearheaded by radio executive turned consciousness researcher Robert Monroe, the protocol utilized hemispheric synchronization, or Hemi-Sync, to alter human brainwave states through acoustic neuromodulation. By introducing slightly differentiated audio frequencies to each ear—such as one hundred hertz in the left and one hundred four hertz in the right—the brain's superior olivary nucleus computes the differential, entraining both cortical hemispheres into a synchronized four-hertz theta frequency following response.",
+        "Monroe categorized these calibrated mental architectures into distinct Focus levels. Participants systematically advanced from Focus 10, characterized as mind awake and body asleep, to Focus 12, an expanded spatial awareness beyond physical sensory input, and ultimately Focus 15, an apparent state of non-temporal consciousness. Army intelligence officers deployed to Virginia documented profound perceptual anomalies, including localized out-of-body experiences and non-local coordinate viewing, suggesting that human consciousness operates as an entangled quantum holographic receiver rather than a purely closed neurochemical computer.",
+        "Across the Atlantic, Soviet intelligence watched these American neuro-acoustic developments with obsessive paranoia. As former KGB foreign intelligence officer and Washington insider Yuri Shvets has documented, the Soviet security apparatus poured millions of rubles into psychotronic and bio-resonance warfare throughout the 1970s and 1980s. Operating out of classified laboratories in Moscow, Novosibirsk, and Kiev, Soviet researchers sought to harness altered mental states for strategic intelligence gathering, attempting to remotely observe American military installations and intercontinental ballistic missile silos.",
+        "According to Shvets, while Soviet military leadership genuinely feared American consciousness-projection breakthroughs, the KGB's internal psychotronics division devolved into a massive, unregulated slush fund. Charismatic researchers and state-sanctioned psychics extracted endless defense allocations by promising mind-control frequencies and remote telepathic sabotage. Soviet counter-intelligence operatives eventually realized that much of the domestic psychotronic telemetry was pseudoscientific deception designed to siphon state capital, mirroring the exact bureaucratic grift afflicting conventional defense procurement.",
+        "Yet beneath the bureaucratic fraud, the underlying biophysics of acoustic neural entrainment remains experimentally verified. Clinical electroencephalography confirms that binaural coherence alters cortical phase locking, alters default mode network activity, and induces deep parasympathetic dominance. The real battlefield is not mystical telepathy; it is cognitive sovereignty in an era where synthetic acoustic frequencies, digital algorithms, and sensory feeds continually manipulate human neural states.",
+        "Synchronize your hemispheres, audit the archives, and maintain absolute signal clarity against algorithmic conditioning. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 185,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-19/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-07-19/f02.webp"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-07-19/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-07-19/f04.webp"
+          },
+          {
+            "t": 123,
+            "src": "art/2026-10-07-19/f05.webp"
+          },
+          {
+            "t": 154,
+            "src": "art/2026-10-07-19/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-19.webp",
+      "audio": "audio/2026-10-07-19.mp3",
+      "cover_video": "thumbs/2026-10-07-19.mp4"
+    },
+    {
       "id": "2026-10-07-18",
       "hour": "18:00",
       "date": "2026-10-07",

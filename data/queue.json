@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-19",
-      "date": "2026-10-07",
-      "hour": "19:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Robert Monroe Gateway hemi-sync binaural frequency following response, astral projection archives, and Yuri Shvets on Soviet psychotronic remote observation units"
-    },
-    {
       "id": "2026-10-07-20",
       "date": "2026-10-07",
       "hour": "20:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Quantum annealing in flux qubits, adiabatic shortcuts to ground states, and Yuri Shvets on Soviet cryogenic supercomputing and SIGINT cryptanalysis"
+    },
+    {
+      "id": "2026-10-07-22",
+      "date": "2026-10-07",
+      "hour": "22:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Red Sea subsea communications cables, Bab el-Mandeb surveillance nodes, and Yuri Shvets on Soviet naval intelligence bases in the Horn of Africa"
     }
   ]
 }

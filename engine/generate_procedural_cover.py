@@ -956,6 +956,76 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, cy - 70), "POST-QUANTUM MIGRATION REQ", fill=(200, 200, 200))
         draw.text((width - 310, cy - 50), "STATUS: SHVETS DISCLOSURE", fill=(0, 255, 220))
 
+    elif theme in ("gateway_hemisync", "hemisync", "monroe_gateway", "binaural_beat"):
+        # Robert Monroe Gateway Hemi-Sync & Soviet Psychotronic Telemetry
+        # 1. Background EEG frequency spectral grid
+        for gy in range(cy - 220, cy + 220, 30):
+            draw.line([(60, gy), (width - 60, gy)], fill=(12, 25, 40), width=1)
+        for gx in range(60, width - 60, 50):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(12, 25, 40), width=1)
+
+        # 2. Dual Binaural Waves & Amplitude Modulated Envelope (Hemi-Sync)
+        # Left channel (100 Hz Carrier, Cyan), Right channel (104 Hz Carrier, Amber)
+        left_pts = []
+        right_pts = []
+        beat_pts = []
+        env_top = []
+        env_bot = []
+
+        w_start, w_end = 80, width - 80
+        for px in range(w_start, w_end, 2):
+            t = (px - w_start) / (w_end - w_start) * 12.0 * math.pi
+            # Left carrier (cyan)
+            yl = (cy - 40) + math.sin(t * 1.00) * 35.0
+            left_pts.append((px, yl))
+            # Right carrier (amber)
+            yr = (cy - 40) + math.sin(t * 1.04) * 35.0
+            right_pts.append((px, yr))
+            # Beat wave (superposition)
+            carrier = math.sin(t * 1.02)
+            envelope = math.cos(t * 0.04)
+            yb = (cy + 110) + (carrier * envelope) * 55.0
+            beat_pts.append((px, yb))
+            env_top.append((px, (cy + 110) - abs(envelope) * 55.0))
+            env_bot.append((px, (cy + 110) + abs(envelope) * 55.0))
+
+        # Draw carrier waveforms
+        if len(left_pts) > 1:
+            draw.line(left_pts, fill=(0, 220, 255), width=2)
+        if len(right_pts) > 1:
+            draw.line(right_pts, fill=(255, 180, 50), width=2)
+
+        # Draw modulated beat envelope (Theta frequency following response)
+        if len(env_top) > 1:
+            draw.line(env_top, fill=(160, 100, 240), width=1)
+            draw.line(env_bot, fill=(160, 100, 240), width=1)
+        if len(beat_pts) > 1:
+            draw.line(beat_pts, fill=(220, 140, 255), width=3)
+
+        # Channel labels
+        draw.text((w_start, cy - 90), "LEFT AUDIO: 100.0 Hz CARRIER [CYAN]", fill=(0, 220, 255))
+        draw.text((w_start + 320, cy - 90), "RIGHT AUDIO: 104.0 Hz CARRIER [AMBER]", fill=(255, 180, 50))
+        draw.text((w_start, cy + 35), "HEMI-SYNC SUPERIOR OLIVARY NUCLEUS: 4.0 Hz THETA BEAT ENVELOPE [PURPLE]", fill=(220, 140, 255))
+
+        # 3. Brainwave Coherence Telemetry Dossier & Soviet Psychotronics
+        # Left HUD Box: Gateway Experience Protocol
+        draw.rectangle([60, 90, 310, cy - 110], fill=(15, 10, 25), outline=(180, 100, 240), width=1)
+        draw.text((70, 98), "[MONROE GATEWAY INTERFACE]", fill=(200, 140, 255))
+        draw.text((70, 118), "STATE: FOCUS 12 (EXPANDED)", fill=(255, 220, 100))
+        draw.text((70, 138), "HEMISPHERIC SYNC: 98.4%", fill=(0, 255, 200))
+        draw.text((70, 158), "FREQ RESPONSE: 4.0 Hz THETA", fill=(180, 140, 255))
+        draw.text((70, 178), "PHASE CONJUGATION: LOCKED", fill=(100, 220, 255))
+        draw.text((70, 198), "CIA ARCHIVE: IR-83-0001", fill=(200, 200, 200))
+
+        # Right HUD Box: Soviet Psychotronic Telemetry & Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 110], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET PSYCHOTRONIC LAB]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "FACILITY: KIEV / NOVOSIBIRSK", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "RESEARCH: BIO-RESONANCE EW", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "REMOTE VIEW: ENCRYPTED SITE", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SLUSH FUNDING: UNRESTRICTED", fill=(255, 60, 60))
+        draw.text((width - 310, 198), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -1040,6 +1110,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "PEAR QUANTUM NOISE REG // CUMULATIVE DEVIATION p = 3.8 x 10^-5 // KGB SLUSH AUDIT", fill=(255, 210, 50))
     elif theme in ("transmon_qubit", "surface_code", "quantum_cryptanalysis", "fault_tolerant_qc"):
         draw.text((40, 60), "SUPERCONDUCTING TRANSMON SURFACE CODE d=7 // 14.8mK CRYOSTAT // 8TH CHIEF SIGINT", fill=(0, 240, 255))
+    elif theme in ("gateway_hemisync", "hemisync", "monroe_gateway", "binaural_beat"):
+        draw.text((40, 60), "MONROE GATEWAY HEMI-SYNC // BINAURAL 4.0Hz THETA COHERENCE // SOVIET PSYCHOTRONICS", fill=(200, 160, 255))
     elif theme == "consciousness":
         draw.text((40, 60), "NEURAL BIOPHOTON TELEMETRY // TUBULIN DIPOLE HARMONICS // BANDWIDTH 614 THz", fill=(80, 255, 180))
     else:

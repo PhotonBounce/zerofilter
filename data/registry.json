@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 42,
+  "total_releases": 43,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -336,6 +336,14 @@
       "title": "Hormuz Strait Electronic Spoofing, Drone Guidance Backdoors & Axis Tech Barter",
       "audio": "audio/2026-10-07-18.mp3",
       "cover_video": "thumbs/2026-10-07-18.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-07-19",
+      "seconds": 185,
+      "title": "Monroe Gateway Hemi-Sync Archives, Frequency Following & Soviet Psychotronic Telemetry",
+      "audio": "audio/2026-10-07-19.mp3",
+      "cover_video": "thumbs/2026-10-07-19.mp4",
       "status": "published_production"
     }
   ]
