@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 116,
+  "total_releases": 117,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -928,6 +928,14 @@
       "title": "Quantum Diamond NV Gravimetry, Subterranean Voids & Soviet Non-Acoustic ASW",
       "audio": "audio/2026-10-10-20.mp3",
       "cover_video": "thumbs/2026-10-10-20.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-21",
+      "seconds": 190,
+      "title": "Conscious Agent Projection Matrices, Spacetime Illusions & KGB Perception Management",
+      "audio": "audio/2026-10-10-21.mp3",
+      "cover_video": "thumbs/2026-10-10-21.mp4",
       "status": "published_production"
     }
   ]
