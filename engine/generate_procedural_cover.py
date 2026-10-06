@@ -890,7 +890,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, cy + 120), "PURPOSE: SLUSH FUND DIVERSION", fill=(255, 80, 80))
         draw.text((width - 310, cy + 140), "STATUS: DISCLOSURE BY SHVETS", fill=(200, 200, 200))
 
-    elif theme in ("transmon_qubit", "surface_code", "quantum_cryptanalysis", "fault_tolerant_qc"):
+    elif theme in ("transmon_qubit", "surface_code", "quantum_cryptanalysis", "fault_tolerant_qc", "jpa", "quantum_amplifier", "squeezed_vacuum"):
         # Superconducting Transmon Qubits & Surface Code Fault-Tolerance
         # 1. Planar 2D Surface Code Lattice Grid
         grid_origin_x = cx - 280
@@ -1277,8 +1277,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "CAVITY QUANTUM ELECTRODYNAMICS // VACUUM RABI SPLITTING // SOVIET ATOMIC SPECTROSCOPY", fill=(0, 240, 255))
     elif theme in ("pear_reg", "cognitive_field", "anomalous_entanglement", "field_reg"):
         draw.text((40, 60), "PEAR QUANTUM NOISE REG // CUMULATIVE DEVIATION p = 3.8 x 10^-5 // KGB SLUSH AUDIT", fill=(255, 210, 50))
-    elif theme in ("transmon_qubit", "surface_code", "quantum_cryptanalysis", "fault_tolerant_qc"):
-        draw.text((40, 60), "SUPERCONDUCTING TRANSMON SURFACE CODE d=7 // 14.8mK CRYOSTAT // 8TH CHIEF SIGINT", fill=(0, 240, 255))
+    elif theme in ("transmon_qubit", "surface_code", "quantum_cryptanalysis", "fault_tolerant_qc", "jpa", "quantum_amplifier", "squeezed_vacuum"):
+        draw.text((40, 60), "JOSEPHSON PARAMETRIC AMPLIFIER // SQUEEZED VACUUM STATES // SOVIET RADAR SIGINT", fill=(0, 240, 255))
     elif theme in ("quantum_annealing", "flux_qubit", "adiabatic_quantum", "ising_spin", "fluxonium_qubit", "fluxonium", "phase_slip"):
         draw.text((40, 60), "SUPERCONDUCTING FLUXONIUM QUBIT // HIGH-HARMONIC PHASE SLIP // SOVIET CRYOGENICS ARCHIVES", fill=(0, 240, 255))
     elif theme in ("defense_cloud_fisa", "fisa_702", "cloud_lobbying", "jwcc"):

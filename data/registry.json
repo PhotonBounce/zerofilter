@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 71,
+  "total_releases": 72,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -568,6 +568,14 @@
       "title": "Autonomous Drone EW Spoofing Modules, Sole-Source Defense Markup Fraud & Soviet Kickback Pipelines",
       "audio": "audio/2026-10-08-23.mp3",
       "cover_video": "thumbs/2026-10-08-23.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-00",
+      "seconds": 190,
+      "title": "Nonlinear Josephson Parametric Amplifiers, Quantum Squeezed Vacuum & Soviet Low-Noise Radar Cryptanalysis",
+      "audio": "audio/2026-10-09-00.mp3",
+      "cover_video": "thumbs/2026-10-09-00.mp4",
       "status": "published_production"
     }
   ]

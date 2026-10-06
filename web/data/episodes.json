@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-00",
+      "hour": "00:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Nonlinear Josephson Parametric Amplifiers, Quantum Squeezed Vacuum & Soviet Low-Noise Radar Cryptanalysis",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates quantum-limited microwave amplification with Josephson parametric amplifiers, quantum vacuum squeezed states beating the standard quantum limit, and Yuri Shvets on Soviet low-noise radar cryptanalysis.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is midnight, zero hundred hours. In the ultra-sensitive realm of superconducting quantum measurement and deep-space signals intelligence, amplifying microwave photons without adding quantum noise has long represented the ultimate technological frontier. Conventional semiconductor cryogenic amplifiers inevitably introduce thermal and electronic fluctuations that destroy fragile quantum states. Today, nonlinear Josephson parametric amplifiers, or JPAs, operate right at the fundamental Heisenberg limit, squeezing vacuum fluctuations to read out single-photon microwave signals with unprecedented fidelity.",
+        "At the core of a Josephson parametric amplifier is an array of non-dissipative superconducting Josephson junctions embedded within a high-Q microwave resonator. By pumping the non-linear inductance of the junctions with a strong microwave tone at twice the signal frequency, four-wave or three-wave mixing parametric processes amplify the input signal while actively squeezing one quadrature of quantum vacuum noise below the standard quantum limit. In dilution cryostats chilled to ten millikelvin, JPAs allow researchers to perform single-shot, non-destructive dispersive readout of superconducting transmon and fluxonium qubits in under two hundred nanoseconds. Beyond quantum computing, squeezed-state microwave amplification provides astronomical radar and SIGINT intercept receivers with quantum-enhanced sensitivity capable of extracting micro-watt stealth communications from cosmic background noise.",
+        "The strategic implications of quantum-limited microwave sensing were understood decades ago by Soviet electronic warfare planners. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently detailed, the Soviet 8th Chief Directorate, responsible for cryptanalysis and SIGINT, and the KGB's Directorate T conducted intensive research into cryogenic parametric amplifiers and maser technology throughout the Cold War. Soviet defense institutes sought to build quantum-limited receivers to intercept NATO deep-space satellite uplinks and detect low-radar-cross-section experimental aircraft.",
+        "According to Shvets, Soviet intelligence stations targeted American cryogenic engineering contractors and radar research laboratories across Southern California to exfiltrate patents on niobium thin films and superconducting tunnel junctions. Shvets documented that while Soviet theorists at the Steklov and Lebedev Institutes formulated groundbreaking mathematical proofs on squeezed quantum states and non-classical radiation fields, Gosplan industrial fabrication was plagued by contaminated vacuum chambers and inconsistent junction barriers. Soviet military intelligence attempted to bypass these domestic manufacturing deficits by purchasing dual-use commercial cryogenic microwave equipment through front companies in Vienna and Zurich.",
+        "Today, the mastery of quantum-squeezed microwave amplification is quietly determining the future of electronic warfare, post-quantum SIGINT, and quantum radar. The nation that controls quantum-limited detection can penetrate advanced electronic cloaking and decrypt faint orbital communications that classical receivers perceive as empty vacuum noise.",
+        "Audit the dilution cryostats, measure the squeezed-state quadratures, and inspect the Josephson parametric circuits. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-00/f01.webp"
+          },
+          {
+            "t": 32,
+            "src": "art/2026-10-09-00/f02.webp"
+          },
+          {
+            "t": 63,
+            "src": "art/2026-10-09-00/f03.webp"
+          },
+          {
+            "t": 95,
+            "src": "art/2026-10-09-00/f04.webp"
+          },
+          {
+            "t": 127,
+            "src": "art/2026-10-09-00/f05.webp"
+          },
+          {
+            "t": 158,
+            "src": "art/2026-10-09-00/f06.webp"
+          }
+        ]
+      },
+      "seconds": 190,
+      "thumb": "thumbs/2026-10-09-00.webp",
+      "audio": "audio/2026-10-09-00.mp3",
+      "cover_video": "thumbs/2026-10-09-00.mp4"
+    },
+    {
       "id": "2026-10-08-23",
       "hour": "23:00",
       "date": "2026-10-08",

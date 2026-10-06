@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-00",
-      "date": "2026-10-09",
-      "hour": "00:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Nonlinear Josephson parametric amplifiers, quantum vacuum squeezed states, and Yuri Shvets on Soviet low-noise radar cryptanalysis"
-    },
-    {
       "id": "2026-10-09-01",
       "date": "2026-10-09",
       "hour": "01:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Red Sea anti-ship ballistic missile salvos, telemetry relay spoofing, and Yuri Shvets on Soviet asymmetric naval coastal defense doctrine"
+    },
+    {
+      "id": "2026-10-09-03",
+      "date": "2026-10-09",
+      "hour": "03:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Special Access Program financial obfuscation, defense intelligence SAP unvouchered funds, and Yuri Shvets on KGB First Chief Directorate clandestine bank accounts"
     }
   ]
 }
