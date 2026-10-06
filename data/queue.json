@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-09",
-      "date": "2026-10-11",
-      "hour": "09:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Anil Seth controlled hallucination model, Bayesian predictive coding sensory suppression, and Yuri Shvets on KGB reflexive control perception-shaping operations"
-    },
-    {
       "id": "2026-10-11-10",
       "date": "2026-10-11",
       "hour": "10:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Pentagon unacknowledged SAP carve-outs, audit waiver shell networks, and Yuri Shvets on Soviet defense ministry slush funds and off-the-books intelligence conduits"
+    },
+    {
+      "id": "2026-10-11-12",
+      "date": "2026-10-11",
+      "hour": "12:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Optomechanical membrane entanglement, gravitational decoherence bounds, and Yuri Shvets on Soviet laser acoustic eavesdropping and non-acoustic ASW research"
     }
   ]
 }

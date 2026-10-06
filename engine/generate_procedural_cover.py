@@ -2387,6 +2387,56 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 118), "KAPITZA INSTITUTE RESEARCH", fill=(255, 200, 80))
         draw.text((width - 310, 138), "KGB 8TH CHIEF HARDWARE", fill=(255, 100, 80))
         draw.text((width - 310, 158), "JOSEPHSON JUNCTION CIPHERS", fill=(255, 220, 120))
+    elif theme in ("anil_seth_hallucination", "controlled_hallucination", "bayesian_brain", "predictive_coding"):
+        # Anil Seth Controlled Hallucination & KGB Reflexive Perception Warfare
+        # 1. Background Cortical Layer Grid & Neural Predictive Flow
+        for gy in range(cy - 220, cy + 220, 26):
+            draw.line([(60, gy), (width - 60, gy)], fill=(18, 20, 36), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(18, 20, 36), width=1)
+
+        # 2. Hierarchical Predictive Coding Architecture (Top-Down Priors vs Bottom-Up Errors)
+        # Cortical Hierarchy Layers: Higher Cortex (Top) to Sensory Periphery (Bottom)
+        layer_names = ["PREFRONTAL PRIOR P(H)", "ASSOCIATION CORTEX", "PRIMARY SENSORY V1", "RAW SENSORY INPUT Y"]
+        layer_ys = [cy - 90, cy - 30, cy + 30, cy + 90]
+        for l_idx, (l_name, ly) in enumerate(zip(layer_names, layer_ys)):
+            draw.line([(cx - 200, ly), (cx + 200, ly)], fill=(0, 200, 255), width=2)
+            draw.text((cx - 190, ly - 18), f"LAYER {4 - l_idx} // {l_name}", fill=(120, 220, 255))
+
+        # Descending Top-Down Predictions (Cyan Arrows pointing downward: g(μ))
+        for ax in (-120, 0, 120):
+            for ly_top, ly_bot in zip(layer_ys[:-1], layer_ys[1:]):
+                draw.line([(cx + ax - 25, ly_top + 4), (cx + ax - 25, ly_bot - 4)], fill=(0, 255, 200), width=2)
+                draw.polygon([(cx + ax - 25, ly_bot - 4), (cx + ax - 29, ly_bot - 12), (cx + ax - 21, ly_bot - 12)], fill=(0, 255, 200))
+        draw.text((cx - 165, cy - 5), "TOP-DOWN PREDICTION: g(μ) [CONTROLLED HALLUCINATION]", fill=(0, 255, 180))
+
+        # Ascending Prediction Errors (Red/Amber Arrows pointing upward: ε = y - g(μ))
+        for ax in (-120, 0, 120):
+            for ly_top, ly_bot in zip(layer_ys[:-1], layer_ys[1:]):
+                draw.line([(cx + ax + 25, ly_bot - 4), (cx + ax + 25, ly_top + 4)], fill=(255, 80, 80), width=2)
+                draw.polygon([(cx + ax + 25, ly_top + 4), (cx + ax + 21, ly_top + 12), (cx + ax + 29, ly_top + 12)], fill=(255, 80, 80))
+        draw.text((cx + 10, cy - 5), "PREDICTION ERROR: ε = y - g(μ)", fill=(255, 100, 80))
+
+        # 3. Central Perceptual Attractor Well (Center HUD Circle)
+        draw.ellipse([cx - 45, cy - 45, cx + 45, cy + 45], outline=(255, 220, 80), width=2)
+        draw.text((cx - 38, cy - 8), "PERCEPT", fill=(255, 220, 80))
+        draw.text((cx - 32, cy + 8), "EQUILIBRIUM", fill=(255, 180, 50))
+
+        # 4. Telemetry Dossiers (Bayesian Brain & KGB Reflexive Control)
+        # Left HUD Box: Bayesian Predictive Metrics
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 16, 28), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[BAYESIAN PREDICTIVE HUD]", fill=(0, 240, 255))
+        draw.text((70, 118), "PRIOR BIAS: 91.4% DOMINANCE", fill=(255, 220, 100))
+        draw.text((70, 138), "SENSORY SUPPRESSION: ACTIVE", fill=(0, 255, 200))
+        draw.text((70, 158), "PRECISION WEIGHTING: HYPER-TUNED", fill=(120, 220, 255))
+        draw.text((70, 178), "HALLUCINATED CONSENSUS: TRUE", fill=(200, 140, 255))
+
+        # Right HUD Box: KGB Reflexive Perception Warfare & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 12, 18), outline=(255, 100, 60), width=1)
+        draw.text((width - 310, 98), "[KGB REFLEXIVE PERCEPTION]", fill=(255, 110, 70))
+        draw.text((width - 310, 118), "SERVICE A ACTIVE MEASURES", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "COGNITIVE PRIOR INVERSION", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "REALITY FABRICATION DOCTRINE", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
     else:

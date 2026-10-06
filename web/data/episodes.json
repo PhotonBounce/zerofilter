@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T14:35:00Z",
+  "updated": "2026-10-06T14:40:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-09",
+      "hour": "09:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Anil Seth Controlled Hallucinations, Bayesian Priors & KGB Reflexive Perception Warfare",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates cognitive neuroscientist Anil Seth's predictive processing framework, the brain as a Bayesian prediction engine generating controlled hallucinations, and Yuri Shvets on KGB Service A reflexive control doctrine, active measures, and state-sponsored perceptual manipulation.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero nine hundred hours. The intuitive assumption that our eyes and ears function like transparent video cameras feeding objective reality directly into our conscious minds is a profound evolutionary illusion. According to cognitive neuroscientist Anil Seth and modern predictive processing theory, perception is not a passive readout of the external world. It is an actively generated, internally simulated fantasy: a controlled hallucination constructed by hierarchical Bayesian prediction engines inside the cerebral cortex.",
+        "In the Bayesian brain framework, neural processing runs backwards. The brain does not wait for sensory data to construct perception; instead, higher cortical areas continuously project top-down generative predictions about what is causing incoming sensory inputs. The primary role of our sensory organs is merely to transmit bottom-up prediction errors—the mathematical difference between what the brain predicted and what the receptors registered. When predictions successfully minimize prediction error, the internal hallucination is stabilized and experienced as objective physical reality.",
+        "Crucially, the brain balances predictions against incoming data using precision weighting. By dynamically adjusting the gain on prediction error channels, neuromodulators like dopamine and acetylcholine determine whether the brain updates its internal beliefs or stubbornly suppresses contrary sensory evidence. If top-down priors are granted overwhelming precision weight, the brain literally sees what it expects to see, hallucinating certainty while filtering out contradictory external facts.",
+        "This computational vulnerability in human consciousness is precisely what psychological warfare and counter-intelligence doctrines have exploited for decades. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has exposed, Soviet strategic deception was never about convincing targets of overt lies—it was about systematically manipulating their baseline perceptual priors.",
+        "According to Shvets, the KGB First Chief Directorate's Service A—specializing in Active Measures and reflexive control—engineered disinformative operational environments designed to hack adversary decision-makers. Shvets revealed that Soviet specialists studied reflexive control theory developed by Vladimir Lefebvre to inject carefully tailored data streams that reinforced the target's pre-existing cognitive biases. By systematically feeding the adversary's predictive priors, the KGB ensured that the victim's own brain filtered out anomalies and willingly generated the exact false reality desired by Moscow, believing they were acting on independent deductive analysis.",
+        "From Anil Seth's Bayesian predictive coding to modern algorithmic information warfare, the battleground of geopolitical power is fought inside the perceptual apparatus itself. When an adversary controls your priors, your own brain manufactures their reality. Question your mental models, audit the prediction errors you suppress, and never mistake a controlled hallucination for objective truth. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-09/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-11-09/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-11-09/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-11-09/f04.webp"
+          },
+          {
+            "t": 117,
+            "src": "art/2026-10-11-09/f05.webp"
+          },
+          {
+            "t": 147,
+            "src": "art/2026-10-11-09/f06.webp"
+          }
+        ]
+      },
+      "seconds": 176,
+      "audio": "audio/2026-10-11-09.mp3",
+      "thumb": "thumbs/2026-10-11-09.webp",
+      "cover_video": "thumbs/2026-10-11-09.mp4"
+    },
     {
       "id": "2026-10-11-08",
       "hour": "08:00",

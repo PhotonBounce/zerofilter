@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **1,032 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **1,040 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 128 completed, 128 total releases published.
-  - `data/queue.json`: Head item is Episode 129 (`2026-10-11-09`).
-  - `data/registry.json`: 128 active releases logged.
+  - `status/pipeline_state.json`: Episode 129 completed, 129 total releases published.
+  - `data/queue.json`: Head item is Episode 130 (`2026-10-11-10`).
+  - `data/registry.json`: 129 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -155,10 +155,11 @@
   - `2026-10-11-06` (187s) — Arctic Northern Sea Route Monopolies, Yamal LNG Escorts & Soviet Glavsevmorput Logistics
   - `2026-10-11-07` (180s) — Pentagon F-35 ALIS Software Cost Escalations, Lockheed IP Lock-In & Soviet Plant Kickbacks
   - `2026-10-11-08` (186s) — Majorana Zero Modes, Non-Abelian Anyon Braiding & Soviet Cryogenic Cryptography
+  - `2026-10-11-09` (176s) — Anil Seth Controlled Hallucinations, Bayesian Priors & KGB Reflexive Perception Warfare
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 768 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `de1962a6788fff4e8835a0b647332a9855da20f1`).
+- **Story Art Frames:** 774 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `682aa45bffd16a23de5bab4d4480ab82f7bc8ad8`).
 
 ---
 
