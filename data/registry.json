@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 133,
+  "total_releases": 134,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1064,6 +1064,14 @@
       "title": "Tononi Integrated Information Theory 4.0, Complex Φ & KGB Psychotropic Degradation Arrays",
       "audio": "audio/2026-10-11-13.mp3",
       "cover_video": "thumbs/2026-10-11-13.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-11-14",
+      "seconds": 172,
+      "title": "Turkish Straits Montreux Chokepoints, Bosphorus Submarine Deception & Soviet 5th Eskadra",
+      "audio": "audio/2026-10-11-14.mp3",
+      "cover_video": "thumbs/2026-10-11-14.mp4",
       "status": "published_production"
     }
   ]

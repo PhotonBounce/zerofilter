@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-06T14:48:30Z",
+  "updated": "2026-10-06T14:53:00Z",
   "active_stage": "idle_ready",
-  "current_episode_id": "2026-10-11-13",
-  "completed_episodes_count": 133,
-  "last_deploy_commit": "e2faa445ff01ef770b2138dff35545ffd84e9af0",
-  "last_deploy_timestamp": "2026-10-06T14:48:10Z",
+  "current_episode_id": "2026-10-11-14",
+  "completed_episodes_count": 134,
+  "last_deploy_commit": "91a73690a52756b8ea5a374c57fd4461227bef26",
+  "last_deploy_timestamp": "2026-10-06T14:52:39Z",
   "consecutive_failures": 0,
   "primary_intel_source": "Yuri Shvets (ex-KGB Major / US Intelligence Dissident)",
   "production_url": "https://photon-bounce.com/zerofilter/"

@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T15:00:00Z",
+  "updated": "2026-10-06T15:10:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-14",
+      "hour": "14:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Turkish Straits Montreux Chokepoints, Bosphorus Submarine Deception & Soviet 5th Eskadra",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates Turkey's Montreux Convention enforcement across the Bosphorus and Dardanelles straits, submarine transit deception protocols, naval electronic warfare sensor networks, and Yuri Shvets on Soviet KGB & Navy 5th Eskadra clandestine Mediterranean egress operations.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is fourteen hundred hours. Maritime geography dictates global grand strategy, and nowhere is that chokehold tighter than the Turkish Straits. Stretching across the Bosphorus and Dardanelles, this thirty-kilometer waterway links the Black Sea to the Mediterranean, binding Russian naval movements to the nineteen thirty-six Montreux Convention. Under Article Twelve, Black Sea littoral states may only transit submarines for shipyard repairs, and strictly on the surface during daylight. But behind Turkey’s Vessel Traffic Service radar towers and NATO coastal hydrophones lies decades of high-stakes covert deception.",
+        "The physical hydrography of the Bosphorus creates an extraordinary acoustic environment. A low-salinity surface layer from the Black Sea flows southward at four knots, while thirty meters beneath, a dense saline undercurrent drives northward at two knots. This severe halocline and thermocline boundary creates an acoustic shadow zone, bending active sonar pings and absorbing engine cavitations. At its narrowest point—just seven hundred meters wide at Kandilli—submerged navigation without surface escorts is considered operational madness.",
+        "Yet this precarious acoustic channel was precisely the staging ground for Soviet power projection. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Moscow’s naval command treated Montreux restrictions not as an impassable barrier, but as an operational puzzle to systematically circumvent.",
+        "According to Shvets, the Soviet Navy’s Fifth Operational Eskadra in the Mediterranean relied on clandestine egress protocols developed with KGB Directorate S. Shvets revealed that Soviet Kilo and Foxtrot diesel submarines executed covert drift maneuvers, trimming buoyancy to ride the deep saline undercurrent with main diesel engines shut down, running silent on low-RPM electric creep motors. Navigators matched speeds directly beneath commercial merchant tankers, utilizing civilian propeller cavitation to mask their acoustic profiles through Turkish sonar gates.",
+        "Shvets further disclosed that Soviet military attachés in Ankara ran aggressive penetration operations against Turkish maritime authorities. By compromising local pilots and monitoring harbor radar telemetry, KGB rezidenturas mapped maintenance blind spots in NATO’s acoustic listening posts, securing clandestine transit windows for submarines heading to Syria’s Tartus naval base. When violations were detected, diplomatic leverage and energy coercion were deployed to avert formal sanctions.",
+        "From Montreux treaty mandates to the turbulent depths of the Bosphorus, maritime chokepoints remain the ultimate testing ground of naval deception. Treaties exist on paper, but strategic geography is enforced by acoustic physics and counter-intelligence vigilance. Watch the straits, track the undercurrents, and never assume what glides beneath commercial traffic is benign. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-14/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-11-14/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-11-14/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-11-14/f04.webp"
+          },
+          {
+            "t": 115,
+            "src": "art/2026-10-11-14/f05.webp"
+          },
+          {
+            "t": 143,
+            "src": "art/2026-10-11-14/f06.webp"
+          }
+        ]
+      },
+      "seconds": 172,
+      "audio": "audio/2026-10-11-14.mp3",
+      "thumb": "thumbs/2026-10-11-14.webp",
+      "cover_video": "thumbs/2026-10-11-14.mp4"
+    },
     {
       "id": "2026-10-11-13",
       "hour": "13:00",

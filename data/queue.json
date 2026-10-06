@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-14",
-      "date": "2026-10-11",
-      "hour": "14:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Turkish Straits Montreux Convention chokepoints, Bosphorus submarine transit deception, and Yuri Shvets on Soviet 5th Eskadra Mediterranean egress operations"
-    },
-    {
       "id": "2026-10-11-15",
       "date": "2026-10-11",
       "hour": "15:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Cavity Optomechanics in Superconducting Circuits, Phonon Fock States & Soviet Acoustic Anti-Submarine Sonar Arrays"
+    },
+    {
+      "id": "2026-10-11-17",
+      "date": "2026-10-11",
+      "hour": "17:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Karl Friston Active Inference in Cortical Hierarchies, Markov Blankets & KGB Reflexive Control Disinformation Models"
     }
   ]
 }

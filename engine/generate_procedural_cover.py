@@ -1941,6 +1941,117 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "HALOCLINE ACOUSTIC SHADOW", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("turkish_straits", "bosphorus_asw", "bosphorus_chokepoint", "montreux_convention"):
+        # Turkish Straits Montreux Convention Chokepoints & Bosphorus Submarine Transit Deception
+        # 1. Background hydrographic grid & depth sounding lines
+        for gy in range(cy - 220, cy + 220, 24):
+            draw.line([(60, gy), (width - 60, gy)], fill=(10, 24, 32), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(10, 24, 32), width=1)
+
+        # 2. S-Curved Bosphorus Channel Geometry (European Shore West, Asian Shore East)
+        draw.polygon([
+            (60, cy - 220), (cx - 180, cy - 220), (cx - 140, cy - 100),
+            (cx - 70, cy), (cx - 160, cy + 120), (cx - 200, cy + 220), (60, cy + 220)
+        ], fill=(16, 26, 28), outline=(60, 150, 160), width=2)
+        draw.text((cx - 220, cy - 180), "EUROPEAN SHORE // RUMELI HISARI", fill=(80, 200, 220))
+        draw.text((cx - 210, cy - 160), "TURKISH VTS RADAR STATION", fill=(255, 200, 80))
+
+        draw.polygon([
+            (width - 60, cy - 220), (cx + 180, cy - 220), (cx + 150, cy - 90),
+            (cx + 80, cy), (cx + 140, cy + 110), (cx + 220, cy + 220), (width - 60, cy + 220)
+        ], fill=(26, 20, 16), outline=(160, 110, 60), width=2)
+        draw.text((cx + 90, cy + 140), "ASIAN SHORE // ANADOLU HISARI", fill=(220, 150, 80))
+        draw.text((cx + 90, cy + 160), "KANDILLI POINT // WIDTH: 700M", fill=(255, 90, 60))
+
+        # 3. Two-Layer Counter Current Flow (Black Sea surface outflow vs Marmara undercurrent)
+        for arrow_y in range(cy - 160, cy + 160, 65):
+            arr_x = cx - 20 if arrow_y < cy else cx + 10
+            draw.line([(arr_x, arrow_y), (arr_x, arrow_y + 40)], fill=(0, 240, 255), width=2)
+            draw.polygon([(arr_x, arrow_y + 40), (arr_x - 5, arrow_y + 32), (arr_x + 5, arrow_y + 32)], fill=(0, 240, 255))
+        draw.text((cx - 65, cy - 80), "SURFACE FLOW: +4.0 KTS (SOUTH)", fill=(0, 255, 240))
+
+        for arrow_y in range(cy - 140, cy + 140, 65):
+            arr_x = cx + 25 if arrow_y < cy else cx - 20
+            draw.line([(arr_x, arrow_y + 40), (arr_x, arrow_y)], fill=(255, 140, 40), width=2)
+            draw.polygon([(arr_x, arrow_y), (arr_x - 5, arrow_y + 8), (arr_x + 5, arrow_y + 8)], fill=(255, 140, 40))
+        draw.text((cx - 75, cy + 70), "SALINE UNDERCURRENT: -2.0 KTS", fill=(255, 160, 50))
+
+        # 4. Turkish ASW Coastal Sonar Gate & Merchant Acoustic Masking
+        gate_y = cy
+        draw.line([(cx - 70, gate_y), (cx + 80, gate_y)], fill=(255, 60, 40), width=2)
+        for gx_s in range(cx - 60, cx + 75, 25):
+            draw.ellipse([gx_s - 3, gate_y - 3, gx_s + 3, gate_y + 3], fill=(255, 255, 255), outline=(255, 60, 40), width=1)
+        draw.text((cx - 60, gate_y - 14), "TURKISH NAVY ASW SONAR GATE", fill=(255, 80, 60))
+
+        sub_x, sub_y = cx, cy + 20
+        draw.ellipse([sub_x - 30, sub_y - 7, sub_x + 30, sub_y + 7], fill=(18, 14, 20), outline=(255, 210, 60), width=2)
+        draw.rectangle([sub_x - 5, sub_y - 14, sub_x + 5, sub_y - 7], fill=(255, 210, 60))
+        draw.text((sub_x - 55, sub_y + 12), "SOVIET KILO DEEP DRIFT", fill=(255, 220, 80))
+
+        tanker_y = cy - 40
+        draw.polygon([(cx - 45, tanker_y - 8), (cx + 45, tanker_y - 8), (cx + 55, tanker_y + 8), (cx - 55, tanker_y + 8)], fill=(30, 40, 55), outline=(0, 220, 255), width=1)
+        draw.text((cx - 50, tanker_y - 22), "COMMERCIAL TANKER NOISE MASK", fill=(0, 240, 255))
+
+        # 5. Telemetry Dossiers (Montreux Convention & Soviet 5th Eskadra)
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 22, 35), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[MONTREUX CONVENTION HUD]", fill=(0, 240, 255))
+        draw.text((70, 118), "ARTICLE 12: DAYTIME SURFACE ONLY", fill=(255, 220, 100))
+        draw.text((70, 138), "SUBMERGED TRANSIT: STRICTLY BANNED", fill=(255, 80, 60))
+        draw.text((70, 158), "BLACK SEA FLEET ESCORT MANDATE", fill=(0, 255, 200))
+        draw.text((70, 178), "NOTIFICATION: 8 DAYS ADVANCE", fill=(120, 220, 255))
+
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET 5TH ESKADRA EGRESS]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "SEVASTOPOL TO TARTUS SQUADRON", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "ACOUSTIC BLINDING & DRIFT DECEPTION", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "KGB OTU DIVERSION PROTOCOLS", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
+    elif theme in ("in_q_tel_venture", "dual_use_fraud", "venture_conduit", "tech_diversion"):
+        # Pentagon In-Q-Tel Venture Conduits, Dual-Use Tech Diversion & Soviet Directorate T Fronts
+        # 1. Background Venture Cap Ledger Grid
+        for gy in range(cy - 220, cy + 220, 24):
+            draw.line([(60, gy), (width - 60, gy)], fill=(30, 20, 15), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(30, 20, 15), width=1)
+
+        # 2. Equity Dilution & Tech Siphon Flow Diagram
+        flow_nodes = [
+            (cx - 300, cy, "IN-Q-TEL SEED FUND", "$15M NON-DILUTIVE", (0, 240, 255)),
+            (cx - 100, cy, "DUAL-USE DEFENSE TECH", "IP LOCK & WAIVERS", (255, 220, 80)),
+            (cx + 100, cy, "CAYMAN / DELAWARE SPV", "EQUITY DILUTION WASH", (255, 140, 50)),
+            (cx + 300, cy, "DIRECTORATE T FRONT", "TECH EXFILTRATION", (255, 60, 60))
+        ]
+
+        for i, (nx, ny, nlabel, subtext, ncol) in enumerate(flow_nodes):
+            draw.rectangle([nx - 85, ny - 35, nx + 85, ny + 35], fill=(20, 15, 25), outline=ncol, width=2)
+            draw.text((nx - 75, ny - 22), nlabel, fill=ncol)
+            draw.text((nx - 75, ny + 5), subtext, fill=(200, 200, 200))
+            if i < len(flow_nodes) - 1:
+                next_x = flow_nodes[i + 1][0]
+                draw.line([(nx + 85, ny), (next_x - 85, ny)], fill=(255, 120, 50), width=3)
+                draw.polygon([(next_x - 85, ny), (next_x - 95, ny - 6), (next_x - 95, ny + 6)], fill=(255, 120, 50))
+
+        # 3. Founder Equity Strip Siphon Loop (Top)
+        draw.arc([cx - 100, cy - 130, cx + 100, cy - 30], start=180, end=360, fill=(255, 80, 80), width=2)
+        draw.text((cx - 80, cy - 145), "FOUNDER CAP TABLE DILUTION (-78%)", fill=(255, 90, 70))
+
+        # 4. Telemetry Dossiers
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 22, 35), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[IN-Q-TEL VENTURE AUDIT]", fill=(0, 240, 255))
+        draw.text((70, 118), "DUAL-USE CONVERTIBLE NOTES", fill=(255, 220, 100))
+        draw.text((70, 138), "BOARD SEAT GOVERNANCE CONTROL", fill=(0, 255, 200))
+        draw.text((70, 158), "ITAR / EAR EXPORT EXEMPTIONS", fill=(255, 140, 50))
+        draw.text((70, 178), "UNMONITORED CLOUD CODE ACCESS", fill=(255, 80, 60))
+
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET DIRECTORATE T DOSSIER]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "LINE X VENTURE SHELL CONDUITS", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "WESTERN FOUNDER BUYOUT SCHEMES", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "SEMICONDUCTOR & AI IP EXFIL", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     elif theme in ("logistics_fraud", "phantom_containers", "freight_grift", "warehouse_theft", "demurrage_fraud"):
         # Defense Logistics Phantom Container Invoicing & Warehouse Theft Networks
         # 1. Background Shipping Manifest Ledger Grid
@@ -2743,6 +2854,10 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "DEFENSE LOGISTICS PHANTOM INVOICING // FREIGHT PASS-THROUGH SHELLS // SOVIET WAREHOUSE THEFT", fill=(255, 120, 50))
     elif theme in ("gibraltar_asw", "gibraltar_strait", "strait_of_gibraltar", "morocco_radar"):
         draw.text((40, 60), "STRAIT OF GIBRALTAR ASW BARRIER // THERMOCLINE ACOUSTIC BAFFLE // SOVIET 5TH ESKADRA INTEL", fill=(0, 240, 255))
+    elif theme in ("turkish_straits", "bosphorus_asw", "bosphorus_chokepoint", "montreux_convention"):
+        draw.text((40, 60), "TURKISH STRAITS MONTREUX CHOKEPOINT // BOSPHORUS ASW GATE // SOVIET 5TH ESKADRA EGRESS", fill=(0, 240, 255))
+    elif theme in ("in_q_tel_venture", "dual_use_fraud", "venture_conduit", "tech_diversion"):
+        draw.text((40, 60), "IN-Q-TEL VENTURE CONDUITS // DUAL-USE TECH DIVERSION // SOVIET DIRECTORATE T FRONTS", fill=(255, 60, 60))
     elif theme in ("red_sea_cables", "bab_el_mandeb"):
         draw.text((40, 60), "RED SEA SUBSEA CABLE CORRIDOR // BAB EL-MANDEB CHOKEPOINT // SOVIET HORN OF AFRICA SIGINT", fill=(255, 140, 40))
     elif theme in ("malacca_blockade", "hydrophone_gate", "malacca_strait"):

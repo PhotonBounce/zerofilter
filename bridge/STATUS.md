@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **1,072 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **1,080 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 133 completed, 133 total releases published.
-  - `data/queue.json`: Head item is Episode 134 (`2026-10-11-14`).
-  - `data/registry.json`: 133 active releases logged.
+  - `status/pipeline_state.json`: Episode 134 completed, 134 total releases published.
+  - `data/queue.json`: Head item is Episode 135 (`2026-10-11-15`).
+  - `data/registry.json`: 134 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -160,10 +160,11 @@
   - `2026-10-11-11` (184s) — Pentagon Unacknowledged SAP Carve-Outs, Audit Waiver Networks & Soviet Slush Funds
   - `2026-10-11-12` (183s) — Optomechanical Membrane Entanglement, Gravitational Decoherence & Soviet Laser Acoustics
   - `2026-10-11-13` (183s) — Tononi Integrated Information Theory 4.0, Complex Φ & KGB Psychotropic Degradation Arrays
+  - `2026-10-11-14` (172s) — Turkish Straits Montreux Chokepoints, Bosphorus Submarine Deception & Soviet 5th Eskadra
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 798 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `e2faa445ff01ef770b2138dff35545ffd84e9af0`).
+- **Story Art Frames:** 804 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `91a73690a52756b8ea5a374c57fd4461227bef26`).
 
 ---
 
