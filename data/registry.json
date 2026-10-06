@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 8,
+  "total_releases": 9,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -64,6 +64,14 @@
       "title": "Black Sea Naval Drone Perimeters, Oil Refinery Flaring & Reflexive Control Bluffs",
       "audio": "audio/2026-10-06-08.mp3",
       "cover_video": "thumbs/2026-10-06-08.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-06-09",
+      "seconds": 184,
+      "title": "Delayed-Choice Quantum Eraser, Wheeler's Smoky Dragon & SIGINT Interceptions",
+      "audio": "audio/2026-10-06-09.mp3",
+      "cover_video": "thumbs/2026-10-06-09.mp4",
       "status": "published_production"
     }
   ]
