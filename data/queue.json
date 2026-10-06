@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-11",
-      "date": "2026-10-08",
-      "hour": "11:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Autonomous drone munitions price gouging, SBIR grant fraud syndicates, and Yuri Shvets on Soviet front-company technology acquisitions"
-    },
-    {
       "id": "2026-10-08-12",
       "date": "2026-10-08",
       "hour": "12:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Quantum diamond nitrogen-vacancy center magnetometry, GPS-denied navigation, and Yuri Shvets on Soviet solid-state sensor espionage"
+    },
+    {
+      "id": "2026-10-08-14",
+      "date": "2026-10-08",
+      "hour": "14:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Strait of Malacca maritime drone blockades, subsea acoustic hydrophone gates, and Yuri Shvets on Soviet Indian Ocean naval operational doctrine"
     }
   ]
 }

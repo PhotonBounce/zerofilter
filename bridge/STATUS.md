@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **472 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **480 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 58 completed, 58 total releases published.
-  - `data/queue.json`: Head item is Episode 59 (`2026-10-08-11`).
-  - `data/registry.json`: 58 active releases logged.
+  - `status/pipeline_state.json`: Episode 59 completed, 59 total releases published.
+  - `data/queue.json`: Head item is Episode 60 (`2026-10-08-12`).
+  - `data/registry.json`: 59 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -85,10 +85,11 @@
   - `2026-10-08-08` (175s) — Rare-Earth Processing Chokepoints, Defense Mineral Stockpile Deficits & Soviet Cartel Price Manipulation
   - `2026-10-08-09` (189s) — Topological Superconductivity, Majorana Zero Modes & Soviet Cryogenic Physics Secrets
   - `2026-10-08-10` (183s) — Undersea Autonomous Drone Swarms, GIUK Gap Acoustic Barriers & Soviet Titanium-Hull Submarines
+  - `2026-10-08-11` (178s) — Autonomous Drone Munitions Price Gouging, SBIR Grant Fraud & Soviet Tech Front Companies
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 348 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `d225032139b249013539d5bece1cd1ad47c34794`).
+- **Story Art Frames:** 354 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `aad4b7e7af8e8affcf39f8d852da320d272b5f5b`).
 
 ---
 
