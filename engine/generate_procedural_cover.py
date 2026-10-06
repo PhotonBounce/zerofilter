@@ -678,7 +678,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((70, cy + 160), "BATTERYLESS CAVITY // ZERO EMISSION", fill=(255, 220, 100))
         draw.text((70, cy + 180), "STATUS: ILLUMINATION-ACTIVATED ONLY", fill=(255, 80, 80))
 
-    elif theme in ("orch_or", "penrose_hameroff", "tubulin_quantum"):
+    elif theme in ("orch_or", "penrose_hameroff", "tubulin_quantum", "synaptic_plasticity", "microtubules", "bio_cybernetics"):
         # Penrose Orch-OR Gravitational Collapse & Tubulin Quantum Anesthesia
         # 1. Spacetime bifurcation sheets (Gravitational Objective Reduction)
         sheet_top = cy - 220
@@ -1247,8 +1247,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "ARCTIC FIBER OPTIC INFRASTRUCTURE // SVALBARD CABLE SIGINT // GUGI RECON DETECTED", fill=(255, 90, 70))
     elif theme in ("quantum_darwinism", "pointer_states", "theremin_bug"):
         draw.text((40, 60), "QUANTUM DARWINISM // POINTER STATE PROLIFERATION // THEREMIN CAVITY RESONATOR Q: 45K", fill=(0, 255, 240))
-    elif theme in ("orch_or", "penrose_hameroff", "tubulin_quantum"):
-        draw.text((40, 60), "PENROSE ORCH-OR OBJECTIVE REDUCTION // TUBULIN DIPOLE HARMONICS 8.3 MHz // E_G = ℏ/τ", fill=(30, 240, 160))
+    elif theme in ("orch_or", "penrose_hameroff", "tubulin_quantum", "synaptic_plasticity", "microtubules", "bio_cybernetics"):
+        draw.text((40, 60), "QUANTUM SYNAPTIC PLASTICITY // MICROTUBULE ORCHESTRATION // KGB BIO-CYBERNETIC TELEMETRY", fill=(30, 240, 160))
     elif theme in ("photonic_crystals", "laser_optics", "microcavity", "nonlinear_optics"):
         draw.text((40, 60), "PHOTONIC BANDGAP MICROCAVITY // 1550nm SHG CONVERSION // SARY-SHAGAN TERRA-3 AUDIT", fill=(0, 240, 255))
     elif theme in ("pear_reg", "cognitive_field", "anomalous_entanglement", "field_reg"):

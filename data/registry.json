@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 50,
+  "total_releases": 51,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -400,6 +400,14 @@
       "title": "Taiwan Strait Undersea Acoustic Hydrophone Barriers, SOSUS Line Arrays & Soviet Submarine Tracking Doctrine",
       "audio": "audio/2026-10-08-02.mp3",
       "cover_video": "thumbs/2026-10-08-02.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-08-03",
+      "seconds": 196,
+      "title": "Neuro-Computational Quantum Models in Synaptic Plasticity, Microtubular Orchestration & Soviet Bio-Cybernetics",
+      "audio": "audio/2026-10-08-03.mp3",
+      "cover_video": "thumbs/2026-10-08-03.mp4",
       "status": "published_production"
     }
   ]

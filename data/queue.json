@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-03",
-      "date": "2026-10-08",
-      "hour": "03:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Neuro-computational quantum models in synaptic plasticity, micro-tubular orchestration, and Yuri Shvets on KGB bio-cybernetic telemetric tracking"
-    },
-    {
       "id": "2026-10-08-04",
       "date": "2026-10-08",
       "hour": "04:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Cavity quantum electrodynamics in photonic microresonators, vacuum Rabi splitting, and Yuri Shvets on Soviet atomic laser spectroscopy surveillance"
+    },
+    {
+      "id": "2026-10-08-06",
+      "date": "2026-10-08",
+      "hour": "06:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Barents Sea nuclear submarine bastion doctrine, SOSUS-trench acoustic baffles, and Yuri Shvets on Soviet Northern Fleet strategic deterrence deployment"
     }
   ]
 }
