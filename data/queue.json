@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-08",
-      "date": "2026-10-10",
-      "hour": "08:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Superconducting qubit parity measurements, cat-state quantum error correction, and Yuri Shvets on Soviet quantum telemetry intercept attempts"
-    },
-    {
       "id": "2026-10-10-09",
       "date": "2026-10-10",
       "hour": "09:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Barents Sea polar fiber monitoring, Spitsbergen seabed surveillance, and Yuri Shvets on Soviet Northern Fleet polar cable interdiction"
+    },
+    {
+      "id": "2026-10-10-11",
+      "date": "2026-10-10",
+      "hour": "11:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Defense microelectronics counterfeit broker networks, mil-spec burn-in test tampering, and Yuri Shvets on Line X semiconductor diversion rings"
     }
   ]
 }

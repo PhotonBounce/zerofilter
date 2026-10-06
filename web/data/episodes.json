@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-08",
+      "hour": "08:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Superconducting Qubit Parity Measurements, Cat-State Error Correction & Soviet Quantum Intercept Archives",
+      "subject": "Hourly uncensored breakdown: Rex Vance explores bosonic cat-state superconducting qubits with real-time photon number parity measurements for autonomous quantum error correction, and Yuri Shvets on Soviet quantum telemetry intercept attempts.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero eight hundred hours. Building fault-tolerant quantum computing systems has long been hindered by the staggering hardware overhead of conventional surface codes, which demand thousands of noisy physical qubits to protect a single logical qubit. However, a major architectural breakthrough is emerging from bosonic cat-state qubits stored in high-Q superconducting microwave cavities, where quantum information is encoded in macroscopically distinct superpositions of coherent electromagnetic states rather than discrete two-level artificial atoms.",
+        "In bosonic cat qubits, phase-space symmetry naturally suppresses phase-flip errors exponentially by increasing the average photon number, leaving bit-flips as the only active error channel. To correct these residual bit-flips without destroying delicate quantum superpositions, dispersive coupling to non-linear ancilla transmons enables continuous, non-demolition photon-number parity measurements. When single photons leak into the environment, real-time quantum parity tracking registers odd-even photon shifts instantaneously, triggering autonomous active feedback pulses that stabilize the logical state indefinitely.",
+        "This race to manipulate discrete microwave photons and stabilize fragile coherent states carries a remarkable Cold War intelligence lineage. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has illuminated, the Soviet Eighth Chief Directorate for cryptanalysis and signals intelligence established deep-cryogenics laboratories during the 1980s to explore quantum coherence for both cipher generation and secure microwave communication.",
+        "According to Shvets, Soviet intelligence tasked elite theoretical physicists at the Kapitza Institute and Landau Institute with finding vulnerabilities in Western cryptographic key distribution. While Western agencies focused primarily on digital computer networks, Soviet signals intelligence officers investigated whether cryogenic microwave cavities could intercept low-power satellite communications without triggering quantum collapse. Shvets revealed that KGB technical teams realized that measuring quantum state parity was the ultimate prerequisite for unmasking covert signal tampering and defeating advanced passive interception.",
+        "Today, that theoretical insight forms the bedrock of fault-tolerant quantum computing supremacy. By replacing sprawling arrays of millions of noisy physical transmons with compact, hardware-efficient cat-state resonators, defense research agencies are accelerating timelines toward cryptographically relevant quantum processors by an entire decade. Whoever masters real-time quantum parity tracking first will possess the hardware capable of breaking asymmetric public-key cryptography across global financial, defense, and intelligence backbones.",
+        "Audit the federal quantum error correction benchmarks, track the emergence of bosonic cat-state processing nodes, and remember that when quantum errors can be corrected faster than entropy decays them, codebreaking becomes absolute. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-08/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-10-08/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-10-08/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-10-08/f04.webp"
+          },
+          {
+            "t": 115,
+            "src": "art/2026-10-10-08/f05.webp"
+          },
+          {
+            "t": 143,
+            "src": "art/2026-10-10-08/f06.webp"
+          }
+        ]
+      },
+      "seconds": 172,
+      "thumb": "thumbs/2026-10-10-08.webp",
+      "audio": "audio/2026-10-10-08.mp3",
+      "cover_video": "thumbs/2026-10-10-08.mp4"
+    },
+    {
       "id": "2026-10-10-07",
       "hour": "07:00",
       "date": "2026-10-10",
