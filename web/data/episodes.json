@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T16:00:00Z",
+  "updated": "2026-10-06T16:15:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-20",
+      "hour": "20:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Topological Quantum Memory in Toric Code Lattices, Anyon Syndrome Extraction & Soviet Cipher Vaults",
+      "subject": "Hourly uncensored breakdown: Rex Vance explores topological quantum error correction, Alexei Kitaev's toric code lattices, non-Abelian anyon syndrome measurement and decoding, fault-tolerant quantum memory storage, and Yuri Shvets on Soviet Academy of Sciences Steklov Institute mathematical models for topological cipher vaults.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty hundred hours. In the race toward fault-tolerant quantum computing, the central roadblock has never been raw qubit count—it is decoherence. Fragile physical qubits collapse under thermal noise and stray electromagnetic fluctuations within microseconds. To store quantum information indefinitely, physicists turn to topological quantum memory, where information is encoded not in localized quantum states, but in non-local global topological invariants across two-dimensional lattices.",
+        "At the mathematical foundation of this paradigm lies Alexei Kitaev’s toric code. By arranging physical qubits on the edges of a torus or planar grid, the system defines commuting star and plaquette stabilizer operators. Local phase-flips and bit-flips do not destroy the encoded logical qubit; instead, they create localized quasiparticle defects known as anyons—electric charges on vertices and magnetic flux vortices on faces. Because logical states correspond to non-contractible loops winding around the entire lattice, no local perturbation can corrupt the stored quantum data.",
+        "Active fault tolerance requires continuous syndrome extraction. Cryogenic microwave circuits measure stabilizer eigenvalues every few hundred nanoseconds, generating an error syndrome map. Classical minimum-weight perfect matching algorithms then pair and annihilate the anyon defects before random walks can form a fatal topological loop. Below an error threshold of roughly eleven percent, logical memory lifetime scales exponentially with code distance, promising quantum coherence measured in days rather than microseconds.",
+        "Yet the mathematical machinery protecting these topological qubits has deep historical roots in Cold War cryptanalysis. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet mathematical physics prioritized non-local topological geometries decades before Western quantum computing emerged.",
+        "According to Shvets, during the nineteen seventies and eighties, the KGB Eighth Chief Directorate—responsible for state cryptography and communications security—funded classified research at Moscow’s Steklov Mathematical Institute. Shvets revealed that Soviet topologists explored multidimensional torus lattices and invariant knot theories to design uncrackable one-time pad permutations and physical cipher vaults. The goal was identical to modern quantum error correction: encoding strategic state secrets across non-local global invariants so that partial physical interception of the communication grid yielded zero usable intelligence.",
+        "From Soviet mathematical cipher vaults in Moscow to superconducting toric lattices extracting anyon syndromes in dilution refrigerators, the principle endures: true security resides in non-local topology that cannot be unraveled by localized intrusion. Trace the syndrome graphs, watch the error thresholds, and stay alert. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-20/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-11-20/f02.webp"
+          },
+          {
+            "t": 58,
+            "src": "art/2026-10-11-20/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-11-20/f04.webp"
+          },
+          {
+            "t": 115,
+            "src": "art/2026-10-11-20/f05.webp"
+          },
+          {
+            "t": 144,
+            "src": "art/2026-10-11-20/f06.webp"
+          }
+        ]
+      },
+      "seconds": 173,
+      "audio": "audio/2026-10-11-20.mp3",
+      "thumb": "thumbs/2026-10-11-20.webp",
+      "cover_video": "thumbs/2026-10-11-20.mp4"
+    },
     {
       "id": "2026-10-11-19",
       "hour": "19:00",

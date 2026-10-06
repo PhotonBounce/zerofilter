@@ -2963,6 +2963,102 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, cy - 132), "DIRECTORATE T KICKBACK SIPHONS", fill=(255, 60, 60))
         draw.text((width - 310, cy - 112), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("toric_code", "quantum_memory", "topological_memory", "anyon_syndrome", "kitaev_toric"):
+        # Kitaev Toric Code 2D Lattice & Anyon Syndrome Extraction Engine
+        # 1. 2D Toric Square Lattice Grid
+        grid_step = 54
+        cols = 9
+        rows = 7
+        ox = cx - (cols * grid_step) // 2
+        oy = cy - (rows * grid_step) // 2 - 20
+        
+        # Lattice lines (edges represent physical qubits)
+        for r in range(rows + 1):
+            ly = oy + r * grid_step
+            draw.line([(ox, ly), (ox + cols * grid_step, ly)], fill=(20, 45, 65), width=2)
+        for c in range(cols + 1):
+            lx = ox + c * grid_step
+            draw.line([(lx, oy), (lx, oy + rows * grid_step)], fill=(20, 45, 65), width=2)
+
+        # Plaquette stabilizers B_p = \prod \sigma^z (Faces of the lattice)
+        for r in range(rows):
+            for c in range(cols):
+                px = ox + c * grid_step + grid_step // 2
+                py = oy + r * grid_step + grid_step // 2
+                # Highlight select plaquettes with magnetic flux defect syndromes (m anyons)
+                if (r, c) in ((2, 3), (2, 5)):
+                    # Magnetic anyon defect pair
+                    draw.rectangle([px - 18, py - 18, px + 18, py + 18], fill=(30, 20, 40), outline=(255, 60, 180), width=2)
+                    draw.text((px - 14, py - 8), "m (-1)", fill=(255, 80, 200))
+                else:
+                    draw.rectangle([px - 12, py - 12, px + 12, py + 12], fill=(10, 22, 32), outline=(0, 160, 200), width=1)
+                    draw.text((px - 8, py - 6), "+1", fill=(0, 200, 240))
+
+        # Star stabilizers A_s = \prod \sigma^x (Vertices of the lattice)
+        for r in range(rows + 1):
+            for c in range(cols + 1):
+                vx = ox + c * grid_step
+                vy = oy + r * grid_step
+                # Highlight star electric charge defect syndromes (e anyons)
+                if (r, c) in ((4, 2), (4, 6)):
+                    draw.ellipse([vx - 14, vy - 14, vx + 14, vy + 14], fill=(40, 25, 10), outline=(255, 180, 40), width=2)
+                    draw.text((vx - 12, vy - 6), "e (-1)", fill=(255, 200, 60))
+                else:
+                    draw.ellipse([vx - 7, vy - 7, vx + 7, vy + 7], fill=(15, 30, 45), outline=(0, 220, 255), width=1)
+
+        # Physical Qubits on Edges (Dots on midpoints)
+        for r in range(rows + 1):
+            for c in range(cols):
+                qx = ox + c * grid_step + grid_step // 2
+                qy = oy + r * grid_step
+                draw.ellipse([qx - 3, qy - 3, qx + 3, qy + 3], fill=(0, 255, 220))
+        for r in range(rows):
+            for c in range(cols + 1):
+                qx = ox + c * grid_step
+                qy = oy + r * grid_step + grid_step // 2
+                draw.ellipse([qx - 3, qy - 3, qx + 3, qy + 3], fill=(0, 255, 220))
+
+        # 2. Minimum-Weight Perfect Matching (MWPM) Anyon Correction Strings
+        # Electric anyon matching string (connecting (4,2) to (4,6))
+        ey = oy + 4 * grid_step
+        draw.line([(ox + 2 * grid_step, ey), (ox + 6 * grid_step, ey)], fill=(255, 200, 60), width=3)
+        draw.text((ox + 3 * grid_step + 10, ey - 18), "MWPM CORRECTION STRING [e-e PAIR]", fill=(255, 220, 80))
+
+        # Magnetic anyon matching string (connecting (2,3) to (2,5))
+        my = oy + 2 * grid_step + grid_step // 2
+        draw.line([(ox + 3 * grid_step + grid_step // 2, my), (ox + 5 * grid_step + grid_step // 2, my)], fill=(255, 60, 180), width=3)
+        draw.text((ox + 3 * grid_step + 40, my - 18), "DUAL LATTICE CORRECTION [m-m PAIR]", fill=(255, 120, 220))
+
+        # Non-trivial homological loop (Logical Operator \bar{Z}_1 wrapping boundary)
+        loop_y = oy + rows * grid_step + 14
+        draw.line([(ox, loop_y), (ox + cols * grid_step, loop_y)], fill=(0, 255, 240), width=2)
+        draw.text((cx - 100, loop_y + 4), "NON-TRIVIAL HOMOLOGICAL CYCLE // LOGICAL OPERATOR Z_L1", fill=(0, 255, 240))
+
+        # 3. Syndrome Extraction Cycle Plot (Lower Center HUD)
+        dec_x, dec_y = cx - 180, cy + 145
+        dec_w, dec_h = 360, 65
+        draw.rectangle([dec_x, dec_y, dec_x + dec_w, dec_y + dec_h], fill=(10, 16, 26), outline=(0, 200, 240), width=1)
+        draw.text((dec_x + 10, dec_y + 6), "SYNDROME EXTRACTION CYCLE: τ = 240ns // CODE DISTANCE d = 7", fill=(0, 255, 220))
+        draw.text((dec_x + 10, dec_y + 24), "FAULT-TOLERANT THRESHOLD: p_th = 10.9% // PHYS ERROR: 0.12%", fill=(255, 200, 80))
+        draw.text((dec_x + 10, dec_y + 42), "LOGICAL MEMORY COHERENCE: T_1L > 10^4 x PHYSICAL T_1", fill=(255, 100, 180))
+
+        # 4. Telemetry Dossiers (Left & Right Boxes)
+        # Left HUD: Toric Code Error Correction Telemetry
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 20, 32), outline=(0, 220, 240), width=1)
+        draw.text((70, 98), "[TORIC CODE TELEMETRY]", fill=(0, 240, 255))
+        draw.text((70, 118), "STABILIZERS: As = ∏X, Bp = ∏Z", fill=(200, 220, 240))
+        draw.text((70, 138), "LOGICAL QUBITS: k = 2 ON T²", fill=(0, 255, 200))
+        draw.text((70, 158), "TOPOLOGICAL DEGENERACY: 4-FOLD", fill=(255, 200, 80))
+        draw.text((70, 178), "SYNDROME DECODER: EDMONDS BLOSSOM", fill=(255, 120, 180))
+
+        # Right HUD: Soviet Steklov Cipher Vault Dossier
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 16, 22), outline=(255, 100, 160), width=1)
+        draw.text((width - 310, 98), "[SOVIET STEKLOV CIPHER VAULT]", fill=(255, 120, 180))
+        draw.text((width - 310, 118), "ACADEMY OF SCIENCES TOPOLOGY", fill=(255, 200, 100))
+        draw.text((width - 310, 138), "INVARIANT KNOTS & TORIC CODES", fill=(200, 220, 240))
+        draw.text((width - 310, 158), "KGB 8TH CHIEF DIR CRYPTOGRAPHY", fill=(255, 80, 80))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -3119,6 +3215,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "CIRCUIT OPTOMECHANICS // PHONON FOCK STATES // ANDREEV INSTITUTE ACOUSTIC ASW TELEMETRY", fill=(0, 240, 255))
     elif theme in ("cv_qkd", "continuous_variable_qkd", "gaussian_modulation", "fiber_qkd"):
         draw.text((40, 60), "CONTINUOUS-VARIABLE QKD // GAUSSIAN MODULATION 1550nm // SOVIET CABLE-TAP CRYPTANALYSIS", fill=(0, 240, 255))
+    elif theme in ("toric_code", "quantum_memory", "topological_memory", "anyon_syndrome", "kitaev_toric"):
+        draw.text((40, 60), "KITAEV TORIC CODE LATTICE // ANYON SYNDROME EXTRACTION // SOVIET CIPHER VAULT ARCHIVES", fill=(0, 240, 255))
     elif theme == "consciousness":
         draw.text((40, 60), "NEURAL BIOPHOTON TELEMETRY // TUBULIN DIPOLE HARMONICS // BANDWIDTH 614 THz", fill=(80, 255, 180))
     else:

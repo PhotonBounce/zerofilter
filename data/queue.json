@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-20",
-      "date": "2026-10-11",
-      "hour": "20:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Topological Quantum Memory in Toric Code Lattices, Anyon Syndrome Extraction & Soviet Cipher Vaults"
-    },
-    {
       "id": "2026-10-11-21",
       "date": "2026-10-11",
       "hour": "21:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Strait of Malacca Drone Submersible Chokepoints, Singapore Sensor Corridors & Soviet Pacific Escort Tactics"
+    },
+    {
+      "id": "2026-10-11-23",
+      "date": "2026-10-11",
+      "hour": "23:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Pentagon Joint All-Domain Command and Control (JADC2) Cloud Pass-Throughs & KGB SIGINT Interception"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 139,
+  "total_releases": 140,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1112,6 +1112,14 @@
       "title": "Pentagon Foreign Military Sales Pass-Throughs, Offset Broker Slush & Soviet Arms Barter",
       "audio": "audio/2026-10-11-19.mp3",
       "cover_video": "thumbs/2026-10-11-19.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-11-20",
+      "seconds": 173,
+      "title": "Topological Quantum Memory in Toric Code Lattices, Anyon Syndrome Extraction & Soviet Cipher Vaults",
+      "audio": "audio/2026-10-11-20.mp3",
+      "cover_video": "thumbs/2026-10-11-20.mp4",
       "status": "published_production"
     }
   ]
