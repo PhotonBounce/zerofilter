@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 99,
+  "total_releases": 100,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -792,6 +792,14 @@
       "title": "Hypersonic Wind Tunnel Telemetry Falsification, CFD Grant Diversions & Soviet Scramjet Program Padding",
       "audio": "audio/2026-10-10-03.mp3",
       "cover_video": "thumbs/2026-10-10-03.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-04",
+      "seconds": 175,
+      "title": "Topological Photonic Crystal Waveguides, Quantum Hall Light Routing & Soviet Optical Analog Computing",
+      "audio": "audio/2026-10-10-04.mp3",
+      "cover_video": "thumbs/2026-10-10-04.mp4",
       "status": "published_production"
     }
   ]

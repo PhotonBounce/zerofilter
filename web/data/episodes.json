@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-04",
+      "hour": "04:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Topological Photonic Crystal Waveguides, Quantum Hall Light Routing & Soviet Optical Analog Computing",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates topological photonic crystal waveguides utilizing quantum Hall edge states for backscatter-immune optical computing, and Yuri Shvets on Soviet optical analog computing programs.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero four hundred hours, and our one hundredth broadcast milestone. In the relentless physics race to surpass silicon electronic bottlenecks, photons offer near-infinite propagation velocity and zero ohmic heat dissipation. However, routing light within nanoscale photonic integrated circuits has historically suffered from optical backscattering caused by unavoidable micro-fabrication defects. Now, topological photonics is eliminating this barrier by designing synthetic photonic crystal lattices where light travels exclusively along topologically protected helical edge states.",
+        "By emulating the quantum Hall and quantum spin Hall effects in synthetic optical materials, these photonic crystals engineer nonzero topological Chern invariants across their electromagnetic band structures. Light injected into these engineered waveguides bends around sharp corners and fabrication imperfections without losing a single quantum of energy to reflection or radiative decay. Coupled with non-reciprocal magneto-optical materials or synthetic gauge fields, topological photonic waveguides enable backscatter-immune optical signal processing and ultrafast photonic tensor computing at light speed.",
+        "This quest to build computing architectures out of directed beams of light carries profound intelligence lineage. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has illuminated, Soviet military science recognized the inevitable physical limits of silicon computing decades before the West, pouring immense covert resources into analog optical computing and Fourier optical processors.",
+        "According to Shvets, the Soviet Academy of Sciences and military research institutes in Leningrad and Moscow sought optical computing architectures to process real-time ballistic missile radar cross-sections and synthetic aperture sonar arrays without digital microprocessors, which the USSR could not reliably fabricate. Shvets revealed that KGB Directorate T—the scientific espionage arm—was tasked with stealing Western laser diodes and acousto-optic crystals, while Soviet physicists pioneered theoretical models of non-reciprocal spatial light modulators to perform instantaneous matrix multiplication.",
+        "Today, that analog optical computing paradigm has merged with modern quantum topological materials. Modern optical neural networks constructed on topological photonic chips can compute complex deep learning matrices with near-zero latency and negligible electrical power, threatening to disrupt electronic semiconductor dominance. In signals intelligence, electronic warfare, and quantum cryptography, routing uncorrupted light along topological boundaries provides an unjammable computational advantage that purely digital silicon microchips can never match.",
+        "Track the strategic semiconductor transition toward on-chip topological photonics, audit the military optical analog computing grants, and recognize that when light itself is harnessed without scatter, computation escapes the confines of matter. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-04/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-10-04/f02.webp"
+          },
+          {
+            "t": 58,
+            "src": "art/2026-10-10-04/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-10-04/f04.webp"
+          },
+          {
+            "t": 117,
+            "src": "art/2026-10-10-04/f05.webp"
+          },
+          {
+            "t": 146,
+            "src": "art/2026-10-10-04/f06.webp"
+          }
+        ]
+      },
+      "seconds": 175,
+      "thumb": "thumbs/2026-10-10-04.webp",
+      "audio": "audio/2026-10-10-04.mp3",
+      "cover_video": "thumbs/2026-10-10-04.mp4"
+    },
+    {
       "id": "2026-10-10-03",
       "hour": "03:00",
       "date": "2026-10-10",
