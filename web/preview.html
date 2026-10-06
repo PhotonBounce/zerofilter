@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZeroFilter — Media Asset Studio & Audio Showcase</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/studio.css">
+  <style>
+    .showcase-container {
+      max-width: 1280px;
+      margin: 2rem auto;
+      padding: 0 1.5rem 4rem;
+    }
+    .showcase-header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .showcase-title {
+      font-family: var(--font-mono);
+      font-size: 2rem;
+      color: #fff;
+      font-weight: 800;
+    }
+    .showcase-subtitle {
+      color: var(--text-secondary);
+      font-size: 1rem;
+      margin-top: 0.35rem;
+    }
+    .btn-portal {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--accent-cyan);
+      color: #07090e;
+      text-decoration: none;
+      font-family: var(--font-mono);
+      font-weight: 800;
+      font-size: 0.88rem;
+      padding: 0.65rem 1.25rem;
+      border-radius: var(--radius-sm);
+      transition: var(--transition);
+    }
+    .btn-portal:hover {
+      background: #33ecff;
+      transform: translateY(-2px);
+      box-shadow: 0 0 20px rgba(0, 229, 255, 0.4);
+    }
+    .section-block {
+      margin-bottom: 3.5rem;
+    }
+    .block-heading {
+      font-family: var(--font-mono);
+      font-size: 1.2rem;
+      color: #fff;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      border-left: 3px solid var(--accent-cyan);
+      padding-left: 0.75rem;
+    }
+    .grid-duo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 1.75rem;
+    }
+    .grid-trio {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.75rem;
+    }
+    .asset-card {
+      background: rgba(15, 20, 30, 0.85);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: var(--transition);
+    }
+    .asset-card:hover {
+      border-color: rgba(0, 229, 255, 0.35);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+    }
+    .asset-media-box {
+      width: 100%;
+      aspect-ratio: 16/9;
+      background: #000;
+      position: relative;
+      overflow: hidden;
+    }
+    .asset-media-box img,
+    .asset-media-box video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .asset-info {
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      gap: 0.75rem;
+    }
+    .asset-tag {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: var(--accent-cyan);
+      letter-spacing: 0.5px;
+    }
+    .asset-name {
+      font-size: 1.1rem;
+      color: #fff;
+      font-weight: 700;
+      line-height: 1.35;
+    }
+    .asset-description {
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    .audio-player-widget {
+      background: rgba(7, 9, 14, 0.9);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-sm);
+      padding: 0.75rem 1rem;
+      margin-top: auto;
+    }
+    .audio-player-widget audio {
+      width: 100%;
+      height: 36px;
+      outline: none;
+      filter: invert(1) hue-rotate(180deg);
+    }
+    .badge-bar {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .spec-pill {
+      font-family: var(--font-mono);
+      font-size: 0.68rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-muted);
+    }
+    .spec-pill.highlight {
+      background: rgba(0, 229, 255, 0.15);
+      color: var(--accent-cyan);
+      border: 1px solid rgba(0, 229, 255, 0.3);
+    }
+  </style>
+</head>
+<body class="zf-theme">
+  <div class="bg-glow"></div>
+
+  <div class="showcase-container">
+    <div class="showcase-header">
+      <div>
+        <h1 class="showcase-title">ZeroFilter Media Studio &amp; Audio Lab</h1>
+        <p class="showcase-subtitle">Direct audit of host looks, bunker infrastructure, 10s looping covers, and Rex Vance voice synthesis.</p>
+      </div>
+      <div>
+        <a href="index.html" class="btn-portal">OPEN LIVE INTERACTIVE PORTAL ↗</a>
+      </div>
+    </div>
+
+    <!-- SECTION 1: HOST LOOKS & STUDIO INFRASTRUCTURE -->
+    <section class="section-block">
+      <h2 class="block-heading">01 // HOST LOOKS &amp; COMMAND STUDIO</h2>
+      <div class="grid-duo">
+        <!-- Rex Vance Portrait -->
+        <article class="asset-card">
+          <div class="asset-media-box">
+            <img src="assets/rex_vance.webp" alt="Rex Vance Broadcast Anchor">
+          </div>
+          <div class="asset-info">
+            <div class="badge-bar">
+              <span class="asset-tag">HOST LOOKS</span>
+              <span class="spec-pill highlight">REX VANCE · 42</span>
+              <span class="spec-pill">EX-DARPA / INTEL ANALYST</span>
+            </div>
+            <h3 class="asset-name">Rex Vance — Lead Anchor &amp; Investigator</h3>
+            <p class="asset-description">
+              Cinematic high-detail broadcast portrait: charcoal tactical Henley, 5 o'clock stubble, Shure SM7B studio mic, brutalist acoustic concrete bunker, and glowing orbital telemetry monitors in background.
+            </p>
+            <div class="audio-player-widget">
+              <span class="asset-tag" style="display:block; margin-bottom: 0.4rem;">VOICE SIGNATURE SAMPLE</span>
+              <audio controls src="assets/test_rex.mp3"></audio>
+            </div>
+          </div>
+        </article>
+
+        <!-- Studio Bunker War Room -->
+        <article class="asset-card">
+          <div class="asset-media-box">
+            <img src="assets/studio_bunker.webp" alt="ZeroFilter Underground Studio Command">
+          </div>
+          <div class="asset-info">
+            <div class="badge-bar">
+              <span class="asset-tag">STUDIO LOOKS</span>
+              <span class="spec-pill highlight">WAR ROOM BUNKER</span>
+              <span class="spec-pill">FARADAY EMP SHIELDED</span>
+            </div>
+            <h3 class="asset-name">ZeroFilter Underground Command Bunker</h3>
+            <p class="asset-description">
+              Brutalist underground production studio: geometric soundproofing panels, dual satellite links, curved holographic displays showing real-time global orbital satellites, and Wheeler delayed-choice interferometry monitors.
+            </p>
+            <div class="audio-player-widget">
+              <span class="asset-tag" style="display:block; margin-bottom: 0.4rem;">AUDIO ARCHITECTURE</span>
+              <div style="font-size: 0.8rem; color: var(--text-secondary); font-family: var(--font-mono);">
+                Neural Baritone · en-US-ChristopherNeural · Rate +10% · Pitch -2Hz · Shure SM7B
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 2: THE 3 SEEDED PILOT RELEASES (AUDIO & LOOPING VIDEO COVERS) -->
+    <section class="section-block">
+      <h2 class="block-heading">02 // SEEDED PILOT BROADCASTS (LISTEN FULL 3-MIN &amp; WATCH 10s LOOPING COVERS)</h2>
+      <div class="grid-trio">
+        <!-- Episode 1 -->
+        <article class="asset-card">
+          <div class="asset-media-box">
+            <video autoplay loop muted playsinline poster="thumbs/2026-10-06-01.webp">
+              <source src="thumbs/2026-10-06-01.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="asset-info">
+            <div class="badge-bar">
+              <span class="asset-tag">EPISODE 01</span>
+              <span class="spec-pill highlight">⏱ 2:48 (168s)</span>
+              <span class="spec-pill">GEOPOLITICS &amp; QUANTUM</span>
+            </div>
+            <h3 class="asset-name">Quantum Delayed Choice, Pentagon Backdoors &amp; Ukraine Drone Swarms</h3>
+            <p class="asset-description">
+              Rex Vance breaks down Yuri Shvets' Capitol disclosures on defense stock trading, Ukrainian drone strikes in Voronezh, Wheeler's delayed-choice beam splitter experiment, and Project Stargate remote viewing.
+            </p>
+            <div class="audio-player-widget">
+              <span class="asset-tag" style="display:block; margin-bottom: 0.4rem;">FULL AUDIO BROADCAST (REX VANCE)</span>
+              <audio controls src="audio/2026-10-06-01.mp3"></audio>
+            </div>
+          </div>
+        </article>
+
+        <!-- Episode 2 -->
+        <article class="asset-card">
+          <div class="asset-media-box">
+            <video autoplay loop muted playsinline poster="thumbs/2026-10-06-02.webp">
+              <source src="thumbs/2026-10-06-02.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="asset-info">
+            <div class="badge-bar">
+              <span class="asset-tag">EPISODE 02</span>
+              <span class="spec-pill highlight">⏱ 2:32 (152s)</span>
+              <span class="spec-pill">CONSCIOUSNESS &amp; ANOMALIES</span>
+            </div>
+            <h3 class="asset-name">PEAR Lab Anomalies, MAGA Christofascists &amp; DNC PAC Grift</h3>
+            <p class="asset-description">
+              Yuri Shvets' Washington counter-intel receipts exposing culture-war distractions, Ukrainian Pokrovsk artillery networks, CRISPR prime editing, Princeton PEAR lab quantum diodes, and Bostrom's simulation hypothesis.
+            </p>
+            <div class="audio-player-widget">
+              <span class="asset-tag" style="display:block; margin-bottom: 0.4rem;">FULL AUDIO BROADCAST (REX VANCE)</span>
+              <audio controls src="audio/2026-10-06-02.mp3"></audio>
+            </div>
+          </div>
+        </article>
+
+        <!-- Episode 3 -->
+        <article class="asset-card">
+          <div class="asset-media-box">
+            <video autoplay loop muted playsinline poster="thumbs/2026-10-06-03.webp">
+              <source src="thumbs/2026-10-06-03.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="asset-info">
+            <div class="badge-bar">
+              <span class="asset-tag">EPISODE 03</span>
+              <span class="spec-pill highlight">⏱ 2:45 (165s)</span>
+              <span class="spec-pill">TAIWAN &amp; SIMULATION</span>
+            </div>
+            <h3 class="asset-name">Thomas Campbell's Virtual Reality, AI Frontier Scaling &amp; Taiwan Defense</h3>
+            <p class="asset-description">
+              Yuri Shvets' national security analysis on Taiwan Strait deterrence and isolationist grift, recursive AI reasoning proofs, Bell test violations, and Thomas Campbell's My Big TOE reality render model.
+            </p>
+            <div class="audio-player-widget">
+              <span class="asset-tag" style="display:block; margin-bottom: 0.4rem;">FULL AUDIO BROADCAST (REX VANCE)</span>
+              <audio controls src="audio/2026-10-06-03.mp3"></audio>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SECTION 3: YURI SHVETS INTELLIGENCE WIRE -->
+    <section class="section-block">
+      <h2 class="block-heading">03 // PRIMARY US INTELLIGENCE WIRE · YURI SHVETS (ЮРИЙ ШВЕЦ)</h2>
+      <div class="shvets-card">
+        <div class="shvets-header">
+          <span class="source-badge">PRIMARY WIRE: YURI SHVETS (ЮРИЙ ШВЕЦ)</span>
+          <span class="clearance-tag">EX-KGB MAJOR · US INTELLIGENCE DISSIDENT</span>
+        </div>
+        <p class="shvets-desc">
+          ZeroFilter anchors its US congressional, national security, and Pentagon reporting directly on intelligence briefings from <strong>Yuri Shvets</strong>, ex-KGB intelligence officer and Red Banner Institute alumnus who defected to the United States. Shvets' Washington investigative channel provides cold, verified counter-intelligence receipts exposing Russian active measures subverting American politics, congressional defense-stock corruption, and Kremlin-aligned demagoguery across both parties.
+        </p>
+        <div class="shvets-meta-bar">
+          <span class="shvets-stat"><strong>Coverage:</strong> Washington DC · Pentagon · Capitol Hill</span>
+          <span class="shvets-stat"><strong>Focus:</strong> Russian Active Measures &amp; US Lobbying Grift</span>
+          <span class="shvets-stat"><strong>Analysis Hub:</strong> Official YouTube Intelligence Channel</span>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
