@@ -2,6 +2,61 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-20",
+      "date": "2026-10-06",
+      "hour": "20:00",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Bose-Einstein Condensates in Microgravity, Atom Interferometry & Orbital Gravimetry",
+      "subject": "Hourly uncensored breakdown: Rex Vance examines quantum matter chilled to fifty picokelvin aboard the Cold Atom Lab in low Earth orbit, atom interferometers mapping subterranean defense tunnels and underwater submarines, and Yuri Shvets on Russia's crumbling space science apparatus.",
+      "seconds": 188,
+      "audio": "audio/2026-10-06-20.mp3",
+      "thumb": "thumbs/2026-10-06-20.webp",
+      "cover_video": "thumbs/2026-10-06-20.mp4",
+      "paragraphs": [
+        "ZeroFilter broadcast twenty. I'm Rex Vance. Four hundred kilometers above our heads, inside the Cold Atom Laboratory aboard the International Space Station, physicists have engineered the coldest known location in the entire universe. Using laser optical molasses and magnetic evaporative traps, clouds of rubidium and potassium atoms are chilled to fifty picokelvin\u2014fifty trillionths of a single degree above absolute zero. At that thermodynamic threshold, individual atomic boundaries dissolve; tens of thousands of separate atoms merge into a single macroscopic macroscopic quantum wave function: a Bose-Einstein Condensate.",
+        "On Earth, gravitational sag pulls condensates down against vacuum chamber walls within milliseconds, destroying their delicate quantum coherence. But in the microgravity free-fall of orbit, these macroscopic quantum droplets float completely undisturbed for tens of seconds. When you split a Bose-Einstein condensate with a laser pulse into two paths and recombine them, the resulting quantum interference pattern acts as an ultra-sensitive atom interferometer\u2014measuring local gravitational accelerations with twelve decimal places of precision.",
+        "The strategic intelligence implications of orbital quantum gravimetry are revolutionary. Radar and optical satellites can only image surface geography. But an atom interferometer orbiting in low Earth orbit measures minute gravitational gradient anomalies caused by mass displacement beneath the soil. It can map subterranean military command bunkers buried hundreds of meters under granite, locate underground nuclear enrichment centrifuges, and detect the gravitational signature of submerged ballistic missile submarines patrolling silent oceans.",
+        "Former KGB foreign counter-intelligence analyst Yuri Shvets provides the critical geopolitical contrast between Western quantum aerospace innovation and Moscow's decaying state apparatus. In Soviet times, the Academy of Sciences prided itself on fundamental theoretical physics, leading early work on quantum condensates. Today, as Shvets exposes, the Russian Federal Space Agency Roscosmos is functionally bankrupt\u2014paralyzed by systemic embezzlement, Western microchip export controls, and an aging workforce that can barely maintain fifty-year-old Soyuz rocket designs.",
+        "Yuri Shvets notes that when Moscow lost its Luna-25 lunar lander due to rudimentary thruster control errors, the Kremlin attempted to blame foreign sabotage rather than confront its own institutional degradation. While Western and allied scientists use microgravity quantum testbeds to pioneer inertial navigation systems that require zero external GPS satellites, Russia has become a junior tributary to Beijing, trading raw Siberian mineral concessions for commercial Chinese drone parts.",
+        "The lesson of hour twenty is unequivocal: technological supremacy is not inherited through historical prestige; it is earned through rigorous open scientific inquiry, institutional accountability, and relentless engineering execution. Dictatorships can manufacture propaganda, but they cannot deceive the laws of thermodynamics. When you master quantum coherence, you see straight through the adversary's camouflage. I'm Rex Vance. Keep your signal focused, question every narrative, and stay tethered to empirical truth."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-20/f01.webp",
+            "caption": "Cold Atom Lab Microgravity BEC Formation at 50 Picokelvin"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-06-20/f02.webp",
+            "caption": "Atom Interferometry Macroscopic Quantum Superposition"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-06-20/f03.webp",
+            "caption": "Orbital Quantum Gravimetry & Subterranean Bunker Detection"
+          },
+          {
+            "t": 95,
+            "src": "art/2026-10-06-20/f04.webp",
+            "caption": "Yuri Shvets on Roscosmos Decay & Institutional Embezzlement"
+          },
+          {
+            "t": 125,
+            "src": "art/2026-10-06-20/f05.webp",
+            "caption": "GPS-Free Quantum Inertial Navigation Telemetry"
+          },
+          {
+            "t": 155,
+            "src": "art/2026-10-06-20/f06.webp",
+            "caption": "Rex Vance Quantum Gravimetry Synthesis"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026-10-06-19",
       "date": "2026-10-06",
       "hour": "19:00",

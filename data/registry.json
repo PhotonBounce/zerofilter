@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 19,
+  "total_releases": 20,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -152,6 +152,14 @@
       "title": "Red Sea Asymmetric Drone Blockades, Iranian Guidance Telemetry & Axis Barter Pacts",
       "audio": "audio/2026-10-06-19.mp3",
       "cover_video": "thumbs/2026-10-06-19.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-06-20",
+      "seconds": 188,
+      "title": "Bose-Einstein Condensates in Microgravity, Atom Interferometry & Orbital Gravimetry",
+      "audio": "audio/2026-10-06-20.mp3",
+      "cover_video": "thumbs/2026-10-06-20.mp4",
       "status": "published_production"
     }
   ]
