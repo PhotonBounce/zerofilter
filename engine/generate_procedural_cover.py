@@ -2566,6 +2566,77 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 118), "KGB OTU WINDOW INTERFEROMETRY", fill=(255, 200, 80))
         draw.text((width - 310, 138), "SEABED OPTICAL HYDROPHONES", fill=(255, 100, 80))
         draw.text((width - 310, 158), "NON-ACOUSTIC SUB WAKE LASER", fill=(255, 220, 120))
+    elif theme in ("iit_40", "integrated_information", "phi_complex", "tononi_consciousness"):
+        # Giulio Tononi Integrated Information Theory (IIT 4.0) & KGB Psychotropic Degradation
+        # 1. Background Cause-Effect State Space Hyper-Lattice
+        for gy in range(cy - 220, cy + 220, 26):
+            draw.line([(60, gy), (width - 60, gy)], fill=(16, 20, 38), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(16, 20, 38), width=1)
+
+        # 2. Maximal Integrated Complex (8-Node Recurrent Neural Network Hypergraph)
+        net_r = 110
+        nodes = []
+        for i in range(8):
+            th = 2 * math.pi * i / 8.0 - math.pi / 2
+            nx = cx + int(net_r * math.cos(th))
+            ny = cy - 25 + int(net_r * math.sin(th))
+            nodes.append((nx, ny))
+
+        # Dense recurrent inter-connectivity (Global Cause-Effect Repertoire)
+        for i in range(8):
+            for j in range(i + 1, 8):
+                # Connection lines
+                draw.line([nodes[i], nodes[j]], fill=(0, 180, 240), width=1)
+
+        # Draw Nodes with active state potentials
+        for idx, (nx, ny) in enumerate(nodes):
+            state_active = idx in (0, 2, 3, 5, 7)
+            col_fill = (0, 255, 200) if state_active else (20, 40, 60)
+            draw.ellipse([nx - 9, ny - 9, nx + 9, ny + 9], fill=col_fill, outline=(255, 255, 255), width=2)
+            draw.text((nx - 4, ny - 6), str(idx + 1), fill=(0, 0, 0) if state_active else (180, 220, 255))
+
+        # Central Greek Letter Phi Symbol (Φ_max Intrinsic Existence)
+        draw.text((cx - 24, cy - 50), "Φ", fill=(255, 220, 80))
+        draw.text((cx - 38, cy - 10), "Φ_max = 4.82", fill=(255, 200, 50))
+        draw.text((cx - 65, cy + 8), "MAXIMAL COMPLEX", fill=(0, 255, 220))
+
+        # 3. Minimum Information Partition (MIP) Severing Cut (Red Dashed Line)
+        # Showing system decomposition into isolated non-conscious modules
+        draw.line([(cx - 130, cy - 25), (cx + 130, cy - 25)], fill=(255, 60, 60), width=2)
+        draw.text((cx - 110, cy - 38), "MINIMUM INFO PARTITION CUT [MIP]", fill=(255, 80, 60))
+
+        # 4. Intrinsic Information Unfolding Plot (Lower Center HUD)
+        spec_x, spec_y = cx - 180, cy + 95
+        spec_w, spec_h = 360, 70
+        draw.rectangle([spec_x, spec_y, spec_x + spec_w, spec_y + spec_h], fill=(12, 16, 26), outline=(0, 200, 240), width=1)
+        draw.text((spec_x + 10, spec_y + 6), "IIT 4.0 CAUSE-EFFECT STRUCTURE // INTRINSIC IRREDUCIBILITY", fill=(0, 255, 220))
+        # Information integration distribution curve
+        phi_pts = []
+        for sx in range(spec_w - 20):
+            norm_x = (sx - (spec_w // 2 - 10)) / 28.0
+            curve_y = 42.0 * math.exp(-0.5 * norm_x**2)
+            sy_val = spec_y + spec_h - 12 - int(curve_y)
+            phi_pts.append((spec_x + 10 + sx, sy_val))
+        if len(phi_pts) > 1:
+            draw.line(phi_pts, fill=(255, 200, 60), width=2)
+        draw.text((spec_x + spec_w // 2 - 45, spec_y + 24), "SYSTEM Φ > 0", fill=(255, 220, 100))
+
+        # 5. Telemetry Dossiers (IIT Metrics & Soviet Psychotropic Telemetry)
+        # Left HUD Box: IIT 4.0 Metrics
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 18, 30), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[IIT 4.0 COMPLEX HUD]", fill=(0, 240, 255))
+        draw.text((70, 118), "POSTULATE: INTRINSIC EXISTENCE", fill=(255, 220, 100))
+        draw.text((70, 138), "COMPLEX Φ: IRREDUCIBLE REPERTOIRE", fill=(0, 255, 200))
+        draw.text((70, 158), "MAXIMUM INTEGRATION: CORTEX", fill=(120, 220, 255))
+        draw.text((70, 178), "ANESTHESIA COLLAPSE: Φ → 0", fill=(255, 100, 100))
+
+        # Right HUD Box: Soviet Psychotropic Dossier & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 12, 16), outline=(255, 100, 60), width=1)
+        draw.text((width - 310, 98), "[KGB PSYCHOTROPIC LABS]", fill=(255, 110, 70))
+        draw.text((width - 310, 118), "SPECIAL LAB NO. 12 RESEARCH", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "NEURAL NETWORK DEGRADATION", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "CONSCIOUS INTEGRATION SHUTDOWN", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
     else:

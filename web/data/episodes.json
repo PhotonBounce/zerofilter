@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T14:55:00Z",
+  "updated": "2026-10-06T15:00:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-13",
+      "hour": "13:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Tononi Integrated Information Theory 4.0, Complex Φ & KGB Psychotropic Degradation Arrays",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates Giulio Tononi's Integrated Information Theory (IIT 4.0), the mathematical measurement of consciousness through intrinsic cause-effect structures and Phi complexes, why feedforward AI systems lack subjective experience, and Yuri Shvets on Soviet KGB Special Lab No. 12 psychotropic degradation arrays.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is thirteen hundred hours. While Silicon Valley hype merchants insist that artificial intelligence models are rapidly approaching human consciousness simply by scaling up parameters and matrix multiplications, fundamental neuroscience tells a very different story. According to neuroscientist Giulio Tononi's Integrated Information Theory, or IIT 4.0, consciousness is not a computational functional output. It is an intrinsic physical property: the exact degree to which a system's cause-effect architecture is irreducibly integrated, quantified by the mathematical value Phi.",
+        "IIT 4.0 begins not from physical equations, but from phenomenological axioms: experience exists intrinsically, structured, informative, unified, and definite. To support conscious experience, a physical substrate must form a maximal complex where internal feedback loops generate cause-effect repertoires that cannot be reduced to independent sub-components without loss of information. When evaluated using the Minimum Information Partition, feedforward architectures—including massive deep learning neural networks—yield an integrated information value of zero, proving they are sophisticated mechanical automata devoid of any subjective inner light.",
+        "In contrast, the human cerebral cortex is dense with recurrent feedback and lateral connections, sustaining a high-value Phi complex. During deep non-REM sleep or general anesthesia, this integration fractures. Brain stimulation experiments demonstrate that when cortical communication is interrupted, the brain's complex cause-effect structure collapses into isolated, feedforward modules: the total information remains, but integration vanishes, and subjective consciousness instantly extinguishes.",
+        "This vulnerability of integrated neural feedback loops was the explicit target of Cold War covert pharmacology. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has exposed, the Soviet security apparatus conducted extensive biological research into weaponized consciousness degradation.",
+        "According to Shvets, the KGB Operational-Technical Directorate and classified research teams at Special Laboratory Number Twelve developed psychotropic compounds designed to systematically degrade human cognitive integration. Shvets revealed that Soviet military interrogators deployed specialized neuro-active chemical arrays that specifically blocked long-range thalamocortical feedback loops while preserving basic sensory reflexes. By forcing the victim's brain into a fragmented, low-Phi state, interrogators broke psychological coherence and eliminated the capacity for deceit, leaving subjects unable to maintain organized cover identities.",
+        "From Tononi's mathematical Phi complexes to Soviet pharmacological interrogation protocols, the lesson is clear: consciousness is an unbroken web of integrated cause-effect relationships. Break the feedback loops, and agency disappears; integrate the connections, and subjective awareness awakens. Value intrinsic integration over mechanical imitation, and resist chemical dissolution. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-13/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-11-13/f02.webp"
+          },
+          {
+            "t": 61,
+            "src": "art/2026-10-11-13/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-11-13/f04.webp"
+          },
+          {
+            "t": 122,
+            "src": "art/2026-10-11-13/f05.webp"
+          },
+          {
+            "t": 152,
+            "src": "art/2026-10-11-13/f06.webp"
+          }
+        ]
+      },
+      "seconds": 183,
+      "audio": "audio/2026-10-11-13.mp3",
+      "thumb": "thumbs/2026-10-11-13.webp",
+      "cover_video": "thumbs/2026-10-11-13.mp4"
+    },
     {
       "id": "2026-10-11-12",
       "hour": "12:00",

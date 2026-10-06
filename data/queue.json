@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-13",
-      "date": "2026-10-11",
-      "hour": "13:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Tononi Integrated Information Theory IIT 4.0 complex cause-effect structures, consciousness non-reducibility, and Yuri Shvets on KGB psychotropic interrogation telemetry"
-    },
-    {
       "id": "2026-10-11-14",
       "date": "2026-10-11",
       "hour": "14:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Pentagon In-Q-Tel dual-use venture conduits, founder equity dilution grift, and Yuri Shvets on Soviet Directorate T front companies and Western tech diversion cartels"
+    },
+    {
+      "id": "2026-10-11-16",
+      "date": "2026-10-11",
+      "hour": "16:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Cavity Optomechanics in Superconducting Circuits, Phonon Fock States & Soviet Acoustic Anti-Submarine Sonar Arrays"
     }
   ]
 }
