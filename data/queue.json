@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-06",
-      "date": "2026-10-09",
-      "hour": "06:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Strait of Hormuz acoustic hydrophone sensor gates, clandestine Iranian mini-submarine deployments, and Yuri Shvets on Soviet Persian Gulf choke point naval doctrines"
-    },
-    {
       "id": "2026-10-09-07",
       "date": "2026-10-09",
       "hour": "07:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Diamond NV nitrogen-vacancy center atomic gravimetry, subterranean GPS-denied bunker mapping, and Yuri Shvets on Soviet deep underground bunker detection"
+    },
+    {
+      "id": "2026-10-09-09",
+      "date": "2026-10-09",
+      "hour": "09:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Donald Hoffman Interface Theory of Perception, fitness payoff evolutionary game simulations, and Yuri Shvets on KGB cognitive reality distortion operations"
     }
   ]
 }

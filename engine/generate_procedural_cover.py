@@ -21,7 +21,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
 
     cx, cy = width // 2, height // 2
 
-    if theme in ("geopolitics", "red_sea", "asbm", "anti_ship_missile", "red_sea_missile", "suwalki_gap", "kaliningrad_ew", "hormuz_spoofing", "hormuz_ew", "iran_drone", "taiwan_sosus", "hydrophone_barrier", "taiwan_strait", "barents_bastion", "giuk_gap", "malacca_blockade", "hydrophone_gate"):
+    if theme in ("geopolitics", "red_sea", "asbm", "anti_ship_missile", "red_sea_missile", "suwalki_gap", "kaliningrad_ew", "hormuz_spoofing", "hormuz_ew", "iran_drone", "hormuz_hydrophone", "persian_gulf", "taiwan_sosus", "hydrophone_barrier", "taiwan_strait", "barents_bastion", "giuk_gap", "malacca_blockade", "hydrophone_gate"):
         # Amber/Cyan Radar & Maritime Electronic Warfare Sweep
         # 1. Concentric radar range rings
         for r in range(60, max(width, height), 70):
@@ -1209,8 +1209,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "BALTIC THEATER SIGINT // EW GPS SPOOFING CORRIDOR // COORD: 55.4°N, 19.8°E", fill=(255, 160, 50))
     elif theme in ("suwalki_gap", "kaliningrad_ew"):
         draw.text((40, 60), "SUWALKI CORRIDOR EW SIGINT // KALININGRAD ISKANDER-M TELEMETRY // 54.3°N, 23.3°E", fill=(255, 90, 60))
-    elif theme in ("hormuz_spoofing", "hormuz_ew", "iran_drone"):
-        draw.text((40, 60), "STRAIT OF HORMUZ MARITIME EW // GNSS SPOOFING CIRCLES // COORD: 26.5°N, 56.2°E", fill=(255, 140, 40))
+    elif theme in ("hormuz_spoofing", "hormuz_ew", "iran_drone", "hormuz_hydrophone", "persian_gulf"):
+        draw.text((40, 60), "STRAIT OF HORMUZ ASW GATE // SEABED HYDROPHONE ARRAYS // SOVIET NAVAL DOCTRINE", fill=(255, 140, 40))
     elif theme in ("taiwan_sosus", "hydrophone_barrier", "taiwan_strait"):
         draw.text((40, 60), "TAIWAN STRAIT ASW CORRIDOR // SOSUS SEABED HYDROPHONE ARRAYS // COORD: 24.2°N, 119.8°E", fill=(0, 240, 255))
     elif theme in ("red_sea", "asbm", "anti_ship_missile", "red_sea_missile"):

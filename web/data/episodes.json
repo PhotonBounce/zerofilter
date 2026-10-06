@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-06",
+      "hour": "06:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Strait of Hormuz Acoustic Sensor Gates, Iranian Midget Subs & Soviet Persian Gulf Choke Point Doctrines",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates acoustic hydrophone choke point gates across the Strait of Hormuz, Ghadir-class midget submarine patrols, and Yuri Shvets on Soviet naval bastion warfare in the Persian Gulf.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero six hundred hours. Twenty percent of global petroleum consumption traverses the Strait of Hormuz—a narrow, shallow maritime funnel measuring barely twenty-one nautical miles across at its narrowest constriction. While Western defense planners fixate on surface anti-ship missile batteries and fast-attack swarm craft, the truly decisive theater of denial operates silently along the shallow Persian Gulf seabed. Regional naval forces have deployed permanent, fiber-optic-linked acoustic hydrophone sensor arrays coupled with autonomous seabed tripwires across the inbound and outbound commercial tanker shipping lanes.",
+        "These seabed listening gates operate in tandem with diesel-electric Ghadir-class midget submarines. In shallow, hyper-saline waters characterized by severe acoustic thermoclines and intense commercial ambient shipping noise, large Western nuclear attack submarines lose their acoustic stealth advantage. The thirty-meter Ghadir midget subs, resting silently on the sandy seabed with electric motors powered down, serve as pre-positioned launch platforms for wake-homing torpedoes and smart bottom-moored naval mines. Western surface escorts entering the strait operate in an acoustic kill zone where acoustic detection ranges collapse to less than two thousand yards.",
+        "This maritime denial architecture represents the direct implementation of Soviet naval doctrine engineered during the height of the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently disclosed, the Soviet Navy's Fifth Operational Squadron and KGB technical intelligence stations conducted exhaustive bathymetric and acoustic surveys of the Persian Gulf and Arabian Sea throughout the 1970s and 1980s. Soviet naval strategists realized they could never defeat the United States Fifth Fleet in open ocean blue-water combat.",
+        "According to Shvets, Soviet naval doctrine prioritized closing strategic maritime choke points through asymmetric combinations of seabed acoustic sensors, covert submarine minelaying, and shore-based electronic warfare. Shvets revealed that KGB technical bureaus transferred acoustic hydrophone manufacturing blueprints, passive sonar processing algorithms, and magnetic influence mine firing circuits to regional proxy regimes. The acoustic gate infrastructure spanning Hormuz today is the modern, digitized descendant of Soviet naval acoustic barrier doctrine developed by the Admiral Gorshkov naval staff in Moscow.",
+        "Western policy think tanks continue to advocate for freedom of navigation patrols using massive billion-dollar guided-missile cruisers. Yet naval physics cannot be bypassed by political rhetoric. In restricted, shallow acoustic chokepoints, asymmetric midget submarines and seabed sensor gates render high-value surface combatants extraordinarily vulnerable. A single successful seabed mine detonation would instantly paralyze global energy transit.",
+        "Audit the Hormuz bathymetric hydrophone telemetry, trace the Soviet naval acoustic lineage, and watch the maritime funnels. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-06/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-06/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-09-06/f03.webp"
+          },
+          {
+            "t": 89,
+            "src": "art/2026-10-09-06/f04.webp"
+          },
+          {
+            "t": 119,
+            "src": "art/2026-10-09-06/f05.webp"
+          },
+          {
+            "t": 148,
+            "src": "art/2026-10-09-06/f06.webp"
+          }
+        ]
+      },
+      "seconds": 178,
+      "thumb": "thumbs/2026-10-09-06.webp",
+      "audio": "audio/2026-10-09-06.mp3",
+      "cover_video": "thumbs/2026-10-09-06.mp4"
+    },
+    {
       "id": "2026-10-09-05",
       "hour": "05:00",
       "date": "2026-10-09",

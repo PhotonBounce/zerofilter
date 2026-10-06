@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **624 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **632 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 77 completed, 77 total releases published.
-  - `data/queue.json`: Head item is Episode 78 (`2026-10-09-06`).
-  - `data/registry.json`: 77 active releases logged.
+  - `status/pipeline_state.json`: Episode 78 completed, 78 total releases published.
+  - `data/queue.json`: Head item is Episode 79 (`2026-10-09-07`).
+  - `data/registry.json`: 78 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -104,10 +104,11 @@
   - `2026-10-09-03` (170s) — Special Access Program Financial Obfuscation, Defense Intelligence SAP Unvouchered Funds & Soviet Clandestine Accounts
   - `2026-10-09-04` (173s) — Rydberg Atom Electric Field Sensing, Quantum RF Receivers & Soviet Microwave Surveillance
   - `2026-10-09-05` (176s) — Predictive Processing in Visual Hallucinations, Bayesian Priors in Sensory Deprivation & KGB Isolation Experiments
+  - `2026-10-09-06` (178s) — Strait of Hormuz Acoustic Sensor Gates, Iranian Midget Subs & Soviet Persian Gulf Choke Point Doctrines
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 462 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `ecf67982557b201ac3bb6687a7b5cb055e4bdff8`).
+- **Story Art Frames:** 468 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `e0ae1209bcb7e7411528c918381518f777d6ebdd`).
 
 ---
 
