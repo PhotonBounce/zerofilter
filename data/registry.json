@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 9,
+  "total_releases": 10,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -72,6 +72,14 @@
       "title": "Delayed-Choice Quantum Eraser, Wheeler's Smoky Dragon & SIGINT Interceptions",
       "audio": "audio/2026-10-06-09.mp3",
       "cover_video": "thumbs/2026-10-06-09.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-06-10",
+      "seconds": 183,
+      "title": "Donald Hoffman's Perception Interface, KGB Deception Architecture & Neuro-Quantum Resonance",
+      "audio": "audio/2026-10-06-10.mp3",
+      "cover_video": "thumbs/2026-10-06-10.mp4",
       "status": "published_production"
     }
   ]

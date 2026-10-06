@@ -2,6 +2,61 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-10",
+      "date": "2026-10-06",
+      "hour": "10:00",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Donald Hoffman's Perception Interface, KGB Deception Architecture & Neuro-Quantum Resonance",
+      "subject": "Hourly uncensored breakdown: Yuri Shvets exposes Soviet Service A active measures, Donald Hoffman's Fitness Beats Truth theorem, Ukrainian kinetic kill telemetry vs media narratives, and 40Hz gamma entrainment.",
+      "seconds": 183,
+      "audio": "audio/2026-10-06-10.mp3",
+      "thumb": "thumbs/2026-10-06-10.webp",
+      "cover_video": "thumbs/2026-10-06-10.mp4",
+      "paragraphs": [
+        "Welcome to hour ten of ZeroFilter. Let's dissect the architecture of cognitive warfare with former KGB foreign counter-intelligence analyst Yuri Shvets. Shvets documented how Soviet Service A engineered entire synthetic reality bubbles designed to trap Western academic and political elites inside curated perceptual cul-de-sacs. Fast-forward to today's algorithmic feed architectures, and that Soviet doctrine has been fully automated: social media algorithms intentionally exploit human evolutionary cognitive vulnerabilities, trapping millions inside polarized outrage loops where emotion completely eclipses verifiable physical data. If you don't actively audit your information intake, your perception is being manufactured by hostile intelligence operatives and corporate ad brokers.",
+        "Examine the real-world consequence on the Ukrainian battlefield: television pundits endlessly debate manufactured diplomatic talking points about territorial concessions, completely ignoring the hard physical receipts. Frontline telemetry confirms that Russian mechanized assaults are losing seventy percent of their armored vehicles to precision FPV drone strikes within four hundred meters of crossing the departure line. Authoritarian regimes manufacture loud psychological narratives precisely to conceal their catastrophic kinetic losses. In warfare, narrative is cheap; physics and industrial attrition are absolute.",
+        "Now look at cognitive science at the deepest mathematical level: cognitive psychologist Donald Hoffman's Interface Theory of Perception. Through rigorous evolutionary game theory simulations, Hoffman demonstrated the Fitness Beats Truth theorem: the mathematical probability that natural selection shaped our sensory organs to perceive objective reality as it truly is, is precisely zero. Space, time, and physical objects are not fundamental reality; they are a 3D desktop user interface designed to hide the overwhelming informational complexity of the cosmos. Treating physical matter as fundamental reality is like confusing a desktop trashcan icon for the physical CPU logic gates inside your computer.",
+        "In cutting-edge neural engineering, clinical researchers are deploying high-density closed-loop transcranial magnetic entrainment. By synchronizing forty-hertz gamma-band oscillations across the prefrontal cortex, these neuromodulation protocols break through dopamine-conditioned ideological rigidities, instantly restoring autonomous cognitive processing and perceptual lucidity in subjects trapped in algorithmic echo chambers.",
+        "This is exactly why state propagandists and corporate media cartels are terrified of genuine cognitive freedom. If consciousness is the fundamental informational network from which physical space-time is rendered, then authoritarian systems possess zero fundamental power over you. Their authority exists solely inside the sensory desktop illusion they manipulate.",
+        "Shut off their manufactured noise. Question the interface icons, follow the empirical data, and reclaim your conscious sovereignty. Reality is not what they project onto your screens; reality is the conscious observer experiencing the data. Stay analytical, stay lucid, and I will see you at the top of the next hour. I'm Rex Vance, and this was ZeroFilter."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-10/f01.webp",
+            "caption": "KGB Service A active measures and algorithmic echo chambers"
+          },
+          {
+            "t": 35,
+            "src": "art/2026-10-06-10/f02.webp",
+            "caption": "Frontline kinetic attrition telemetry vs media talking points"
+          },
+          {
+            "t": 72,
+            "src": "art/2026-10-06-10/f03.webp",
+            "caption": "Donald Hoffman Fitness Beats Truth perception interface"
+          },
+          {
+            "t": 110,
+            "src": "art/2026-10-06-10/f04.webp",
+            "caption": "40Hz gamma entrainment closed-loop neural headset"
+          },
+          {
+            "t": 142,
+            "src": "art/2026-10-06-10/f05.webp",
+            "caption": "Conscious agent hyper-dimensional geometric manifold"
+          },
+          {
+            "t": 165,
+            "src": "art/2026-10-06-10/f06.webp",
+            "caption": "Rex Vance broadcasting live from bunker"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026-10-06-09",
       "date": "2026-10-06",
       "hour": "09:00",
