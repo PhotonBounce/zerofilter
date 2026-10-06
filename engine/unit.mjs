@@ -2,11 +2,27 @@
 
 import { readFileSync, existsSync } from "node:fs";
 import { resolve, join } from "node:path";
-import { parseEpisodes, validateEpisode, MIN_DURATION, MAX_DURATION } from "../web/js/episodes.js";
+import { createHash } from "node:crypto";
+import { parseEpisodes, validateEpisode, cueStarts, paragraphAt, escapeHtml, MIN_DURATION, MAX_DURATION } from "../web/js/episodes.js";
+import { webpSize, mp3Info, isMp4 } from "./media.mjs";
 import { CATEGORIES } from "../web/js/categories.js";
 
 const ROOT = resolve(import.meta.dirname, "..");
-let passed = 0, failed = 0;
+let passed = 0, failed = 0, warned = 0;
+
+// Story art and covers are drawn 16:9 at this size; anything else letterboxes
+// or crops on the stage.
+const ART_W = 1376, ART_H = 768;
+// The manifest duration drives the seek bar and the cue maths; it must agree
+// with the audio file to within this many seconds.
+const DURATION_TOLERANCE = 1.5;
+
+function warn(title) {
+  console.warn(`  ! ${title}`);
+  warned++;
+}
+const read = (rel) => readFileSync(join(ROOT, "web", rel));
+const md5 = (buf) => createHash("md5").update(buf).digest("hex");
 
 function ok(title, condition) {
   if (condition) {
@@ -53,7 +69,71 @@ for (const ep of episodes) {
     prevT = f.t;
   }
   ok("art frame timestamps are monotonically increasing", monotonic);
+
+  // --- Media integrity: the files the manifest points at ---
+  const audioPath = join(ROOT, "web", ep.audio);
+  ok(`audio file exists (${ep.audio})`, existsSync(audioPath));
+  if (existsSync(audioPath)) {
+    const info = mp3Info(readFileSync(audioPath));
+    ok("audio is a decodable MP3 (frame headers found)", !!info);
+    if (info) {
+      ok(`manifest seconds (${ep.seconds}) matches audio length (${info.seconds.toFixed(1)}s) within ${DURATION_TOLERANCE}s`,
+        Math.abs(info.seconds - ep.seconds) <= DURATION_TOLERANCE);
+    }
+  }
+  for (const rel of [ep.thumb, ...ep.art.frames.map((f) => f.src)]) {
+    const p = join(ROOT, "web", rel);
+    if (!existsSync(p)) { ok(`image exists (${rel})`, false); continue; }
+    const size = webpSize(readFileSync(p));
+    ok(`${rel} is a WebP of ${ART_W}x${ART_H}${size ? ` (got ${size.width}x${size.height})` : " (unreadable header)"}`,
+      !!size && size.width === ART_W && size.height === ART_H);
+  }
+  const mp4 = join(ROOT, "web", ep.cover_video);
+  ok(`cover video is an MP4 (${ep.cover_video})`, existsSync(mp4) && isMp4(readFileSync(mp4)));
+
+  // --- Sync: every frame and cue must land inside the audio ---
+  ok("every art frame starts before the audio ends", ep.art.frames.every((f) => f.t >= 0 && f.t < ep.seconds));
+  ok("first art frame starts at 0s", ep.art.frames[0]?.t === 0);
+  const starts = cueStarts(ep);
+  ok("cue starts are increasing, begin at 0 and end before the audio does",
+    starts[0] === 0 && starts.every((s, i) => i === 0 || s > starts[i - 1]) && starts.at(-1) < ep.seconds);
+  if (ep.cues) ok("manifest cues (from voice.py) have one entry per paragraph", ep.cues.length === ep.paragraphs.length);
+  if (ep.art.frames.length === ep.paragraphs.length) {
+    const drift = Math.max(...ep.art.frames.map((f, i) => Math.abs(f.t - starts[i])));
+    ok(`one frame per paragraph: each frame within 3s of its paragraph start (max drift ${drift.toFixed(1)}s)`, drift <= 3);
+  }
+
+  // --- Formula budget (warning until the pilots are re-cut): ~150 wpm at
+  // +10% edge-tts measured on the pilots, so 180s needs ~450 words.
+  if (totalWords < 430 || totalWords > 490) warn(`${totalWords} words: the 180s formula needs 430-490 at the measured ~150 wpm`);
+
+  // --- Art variety (warning: needs new art, not a code fix) ---
+  const hashes = ep.art.frames.map((f) => existsSync(join(ROOT, "web", f.src)) ? md5(read(f.src)) : f.src);
+  const unique = new Set(hashes).size;
+  if (unique < ep.art.frames.length) warn(`only ${unique} distinct images among ${ep.art.frames.length} story frames`);
 }
+
+// 2b. Manifest-wide checks
+console.log("\n2b. Manifest-wide checks:");
+ok("episode ids are unique", new Set(episodes.map((e) => e.id)).size === episodes.length);
+ok("parseEpisodes returns newest first (hero shows the latest release)",
+  episodes.every((e, i) => i === 0 || `${episodes[i - 1].date} ${episodes[i - 1].hour}` >= `${e.date} ${e.hour}`));
+
+// 2c. Engine unit checks on synthetic input (edge cases)
+console.log("\n2c. Timing & schema edge cases:");
+const synth = validateEpisode({ id: "x", title: "t", subject: "s", seconds: 120,
+  paragraphs: ["a b", "c d e f", "g h"], art: { frames: [{ t: 0, src: "a" }, { t: "abc", src: "b" }, { src: "c" }] } });
+ok("word-weighted cue starts: [0, 30, 90] for 2/4/2 words over 120s",
+  JSON.stringify(cueStarts(synth)) === JSON.stringify([0, 30, 90]));
+ok("paragraphAt picks the paragraph that is playing", paragraphAt([0, 30, 90], 29.9) === 0 && paragraphAt([0, 30, 90], 30) === 1 && paragraphAt([0, 30, 90], 500) === 2);
+ok("explicit cues win over the estimate", JSON.stringify(cueStarts({ ...synth, cues: [0, 10, 20] })) === "[0,10,20]");
+ok("cues of the wrong length fall back to the estimate", cueStarts({ ...synth, cues: [0, 10] })[1] === 30);
+ok("a non-numeric frame t falls back to an even spread instead of NaN", synth.art.frames[1].t === 40 && synth.art.frames[2].t === 80);
+ok("frame t of 0 on a later frame is kept, not replaced", validateEpisode({ ...synth, art: { frames: [{ t: 0 }, { t: 0 }] } }).art.frames[1].t === 0);
+ok("escapeHtml neutralises markup in titles", escapeHtml(`<img src=x onerror="a">&'`) === "&lt;img src=x onerror=&quot;a&quot;&gt;&amp;&#39;");
+ok("validateEpisode rejects a missing id", validateEpisode({ title: "t", subject: "s", paragraphs: ["a", "b", "c"] }) === null);
+ok("webpSize rejects a non-WebP buffer", webpSize(Buffer.from("RIFF0000WAVEfmt                 ")) === null);
+ok("mp3Info rejects random bytes", mp3Info(Buffer.alloc(4096, 0x11)) === null);
 
 // 3. Frontend structure
 console.log("\n3. Validating Frontend Assets:");
@@ -64,5 +144,5 @@ ok("app.js exists", existsSync(join(ROOT, "web/js/app.js")));
 ok("episodes.js exists", existsSync(join(ROOT, "web/js/episodes.js")));
 ok("categories.js exists", existsSync(join(ROOT, "web/js/categories.js")));
 
-console.log(`\nResults: ${passed} passed, ${failed} failed`);
+console.log(`\nResults: ${passed} passed, ${failed} failed, ${warned} warnings`);
 if (failed > 0) process.exit(1);

@@ -3,6 +3,8 @@ name: ZeroFilter Hourly Release Pipeline
 on:
   schedule:
     - cron: '0 * * * *' # Every hour on the hour
+  pull_request:
+    branches: [main]
   workflow_dispatch:
     inputs:
       force:
