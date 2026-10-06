@@ -2015,6 +2015,91 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "BLACK MARKET LOGISTICS AXIS", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("rydberg_electrometry", "rydberg_sensor", "sub_thz_quantum", "microwave_electrometry"):
+        # Rydberg Atom Quantum Electrometry, EIT Autler-Townes Splitting & Sub-THz Sensing
+        # 1. Background optical frequency and RF interference grid
+        for gy in range(cy - 220, cy + 220, 24):
+            draw.line([(60, gy), (width - 60, gy)], fill=(10, 24, 38), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(10, 24, 38), width=1)
+
+        # 2. Central Quartz Vapor Cell (Rubidium Atom Gas)
+        cell_x, cell_y = cx, cy - 30
+        cell_w, cell_h = 240, 90
+        # Quartz glass envelope
+        draw.rectangle([cell_x - cell_w//2, cell_y - cell_h//2, cell_x + cell_w//2, cell_y + cell_h//2], fill=(12, 25, 42), outline=(0, 220, 255), width=2)
+        draw.text((cell_x - cell_w//2 + 10, cell_y - cell_h//2 + 8), "RUBIDIUM-85 VAPOR CELL", fill=(0, 240, 255))
+        draw.text((cell_x - cell_w//2 + 10, cell_y - cell_h//2 + 24), "OPTICAL PATH: L = 25mm", fill=(120, 220, 255))
+
+        # Counter-Propagating Laser Beams traversing the cell
+        # 780nm Probe Laser (Red/Orange, Left to Right)
+        beam_y = cell_y + 10
+        draw.line([(cell_x - cell_w//2 - 60, beam_y), (cell_x + cell_w//2 + 60, beam_y)], fill=(255, 60, 60), width=3)
+        draw.text((cell_x - cell_w//2 - 130, beam_y - 8), "780nm PROBE", fill=(255, 80, 80))
+
+        # 480nm Coupling Laser (Electric Cyan/Blue, Right to Left)
+        draw.line([(cell_x + cell_w//2 + 60, beam_y), (cell_x - cell_w//2 - 60, beam_y)], fill=(0, 240, 255), width=1)
+        draw.text((cell_x + cell_w//2 + 70, beam_y - 8), "480nm COUPLING", fill=(0, 255, 240))
+
+        # Exaggerated Rydberg Giant Orbit Atoms (n=50 excited state)
+        random.seed(815)
+        for _ in range(12):
+            ax = random.randint(cell_x - cell_w//2 + 30, cell_x + cell_w//2 - 30)
+            ay = random.randint(cell_y - cell_h//2 + 35, cell_y + cell_h//2 - 15)
+            # Huge Rydberg atomic electron orbit
+            r_orbit = random.randint(14, 24)
+            draw.ellipse([ax - r_orbit, ay - r_orbit, ax + r_orbit, ay + r_orbit], outline=(0, 255, 220), width=1)
+            # Ionic core
+            draw.ellipse([ax - 2, ay - 2, ax + 2, ay + 2], fill=(255, 255, 255))
+            # Valence electron at apogee
+            th = random.uniform(0, 2 * math.pi)
+            ex = ax + int(math.cos(th) * r_orbit)
+            ey = ay + int(math.sin(th) * r_orbit)
+            draw.point((ex, ey), fill=(255, 220, 100))
+
+        # 3. Incident Microwave RF Wavefronts (Upper section impinging on cell)
+        for rf_y in range(cell_y - 120, cell_y - 55, 18):
+            draw.line([(cell_x - 140, rf_y), (cell_x + 140, rf_y)], fill=(255, 180, 50), width=2)
+            # Wavefront propagation arrowheads
+            draw.polygon([(cell_x, rf_y + 12), (cell_x - 6, rf_y + 4), (cell_x + 6, rf_y + 4)], fill=(255, 180, 50))
+        draw.text((cell_x - 110, cell_y - 135), "INCIDENT SUB-THz MICROWAVE FIELD (E_MW)", fill=(255, 200, 80))
+
+        # 4. EIT & Autler-Townes Splitting Spectrum Plot (Lower Center)
+        spec_x, spec_y = cx - 180, cy + 90
+        spec_w, spec_h = 360, 80
+        draw.rectangle([spec_x, spec_y, spec_x + spec_w, spec_y + spec_h], fill=(10, 18, 28), outline=(0, 200, 240), width=1)
+        draw.text((spec_x + 10, spec_y + 8), "EIT TRANSMISSION // AUTLER-TOWNES SPLITTING: 2Ω_MW = 2μ E / ℏ", fill=(0, 255, 240))
+        
+        # Dual-Peak Autler-Townes curve
+        spec_pts = []
+        for sx in range(spec_w - 20):
+            x_rel = (sx - (spec_w // 2 - 10)) / 22.0
+            # Double Lorentzian peak from RF Stark splitting
+            peak1 = 38.0 / (1.0 + (x_rel - 2.8)**2)
+            peak2 = 38.0 / (1.0 + (x_rel + 2.8)**2)
+            sy_val = spec_y + spec_h - 15 - int(peak1 + peak2)
+            spec_pts.append((spec_x + 10 + sx, sy_val))
+        if len(spec_pts) > 1:
+            draw.line(spec_pts, fill=(0, 255, 200), width=2)
+        draw.text((spec_x + spec_w // 2 - 40, spec_y + 45), "Δf = 142.4 MHz", fill=(255, 220, 100))
+
+        # 5. Telemetry Dossiers (Rydberg Electrometry & Soviet Microwave SIGINT)
+        # Left HUD Box: Quantum Sensor Telemetry
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 22, 35), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[RYDBERG ELECTROMETRY HUD]", fill=(0, 240, 255))
+        draw.text((70, 118), "ATOMIC LEVEL: Rb-85 |50D_5/2⟩", fill=(255, 220, 100))
+        draw.text((70, 138), "SENSITIVITY: 1.2 μV/cm/√Hz", fill=(0, 255, 200))
+        draw.text((70, 158), "BANDWIDTH: DC TO 1.0 THz", fill=(120, 220, 255))
+        draw.text((70, 178), "CALIBRATION: SI TRACEABLE", fill=(200, 140, 255))
+
+        # Right HUD Box: Soviet Microwave SIGINT & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET MICROWAVE SIGINT]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "MOSCOW EMBASSY MICROWAVES", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "KGB 8TH CHIEF ILLUMINATION", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "ANTENNA-LESS SENSOR ARRAY", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):

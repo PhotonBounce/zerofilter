@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T14:10:00Z",
+  "updated": "2026-10-06T14:15:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-04",
+      "hour": "04:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Rydberg Atom Electrometry, Sub-THz Sensors & Soviet Microwave Eavesdropping",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates Rydberg atom quantum electrometry, electromagnetically induced transparency (EIT) and Autler-Townes splitting for antenna-free sub-terahertz electric field detection, and Yuri Shvets on KGB electronic surveillance, microwave illumination of the US Moscow Embassy, and Soviet signals intelligence doctrine.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero four hundred hours. In modern electronic warfare and covert signal intelligence, physical antennas are bounded by fundamental electromagnetic physics: metallic dipoles scatter radiation, create radar cross-sections, and suffer from thermal noise limits. But a revolutionary paradigm in quantum electrometry is rewriting the rules of radiofrequency detection: Rydberg atom sensors. By laser-pumping alkali atoms like rubidium or cesium into highly excited states with massive principal quantum numbers, physicists transform simple glass vapor cells into antenna-free, ultra-broadband electric field receivers.",
+        "The core mechanism relies on Electromagnetically Induced Transparency and Autler-Townes splitting. When counter-propagating probe and coupling lasers traverse a vapor cell, quantum interference makes the opaque medium transparent to light. When an ambient radiofrequency or sub-terahertz microwave field impinges on the cell, the exaggerated electric dipole moments of the Rydberg atoms induce quantum state splitting directly proportional to field amplitude. By reading optical transmission changes with photodiodes, quantum electrometry converts microwave fields from kilohertz to terahertz into optical frequencies, achieving microvolt-per-centimeter sensitivity without metallic distortion.",
+        "For military and intelligence agencies, Rydberg sensors represent an unjammable electronic surveillance leap. Because the vapor cells contain no metal, they exhibit near-zero radar cross-sections, cannot be destroyed by high-power microwave pulses, and allow calibration directly to fundamental physical constants like Planck's constant. Autonomous drones and naval platforms equipped with atomic vapor cells can intercept directional millimeter-wave datalinks, satellite downlinks, and low-probability-of-intercept radar sidelobes that evade conventional spectrum analyzers.",
+        "This quest for non-invasive, covert electromagnetic monitoring is the direct technological heir to Soviet signals intelligence and offensive microwave operations. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has exposed, the Kremlin spent decades developing exotic radiofrequency techniques to bypass Western electronic countermeasures and tap embassy communications.",
+        "According to Shvets, the KGB Eighth Chief Directorate and Operational-Technical Directorate, or OTU, specialized in exploiting passive electromagnetic vulnerabilities. Decades after Leon Theremin engineered the famous Great Seal cavity resonator bug—which operated with zero internal power until illuminated by external radiofrequency beams—the KGB subjected the United States Embassy in Moscow to relentless microwave bombardment. Shvets revealed that Soviet technical teams weaponized ambient radiofrequency fields to excite passive microphones and probe embassy cryptographic teleprinters, establishing a doctrine of surveillance that relied on exploiting the environment rather than planting active transmitters.",
+        "From Soviet microwave illumination in Moscow to laser-interrogated Rydberg vapor cells in DARPA laboratories, the trajectory of signal intelligence has always pointed toward eliminating the visible antenna. In the emerging quantum battlespace, atoms themselves become the ultimate intercept receiver, stripping away the electromagnetic shadows where covert transmissions hide. Track the atomic transitions, measure the Autler-Townes splitting, and never trust a metal dish. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-04/f01.webp"
+          },
+          {
+            "t": 33,
+            "src": "art/2026-10-11-04/f02.webp"
+          },
+          {
+            "t": 67,
+            "src": "art/2026-10-11-04/f03.webp"
+          },
+          {
+            "t": 100,
+            "src": "art/2026-10-11-04/f04.webp"
+          },
+          {
+            "t": 133,
+            "src": "art/2026-10-11-04/f05.webp"
+          },
+          {
+            "t": 167,
+            "src": "art/2026-10-11-04/f06.webp"
+          }
+        ]
+      },
+      "seconds": 200,
+      "audio": "audio/2026-10-11-04.mp3",
+      "thumb": "thumbs/2026-10-11-04.webp",
+      "cover_video": "thumbs/2026-10-11-04.mp4"
+    },
     {
       "id": "2026-10-11-03",
       "hour": "03:00",
