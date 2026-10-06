@@ -212,6 +212,64 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
             draw.ellipse([gx - 12, gy - 12, gx + 12, gy + 12], fill=(20, 80, 120), outline=(0, 255, 200), width=2)
             draw.text((gx - 40, gy + 14), label, fill=(0, 220, 255))
 
+    elif theme in ("casimir", "vacuum_thruster"):
+        # Dynamic Casimir Effect & Quantum Vacuum Propulsion Architecture
+        # 1. Background vacuum zero-point fluctuation field
+        random.seed(99)
+        for _ in range(120):
+            fx = random.randint(40, width - 40)
+            fy = random.randint(40, height - 40)
+            # Virtual particle-antiparticle pair
+            offset = random.randint(4, 12)
+            draw.point((fx, fy), fill=(0, 255, 220))
+            draw.point((fx + offset, fy), fill=(255, 100, 120))
+            draw.arc([fx, fy - offset // 2, fx + offset, fy + offset // 2], start=0, end=180, fill=(40, 120, 180), width=1)
+
+        # 2. Parallel Casimir Conducting Nanocavity Plates
+        plate_w = 40
+        plate_h = 380
+        gap = 140
+        p1_x = cx - gap // 2 - plate_w
+        p2_x = cx + gap // 2
+        p_y = cy - plate_h // 2
+
+        # Left plate (Conductive mirror 1)
+        draw.rectangle([p1_x, p_y, p1_x + plate_w, p_y + plate_h], fill=(12, 40, 65), outline=(0, 240, 255), width=2)
+        # Right plate (Conductive mirror 2)
+        draw.rectangle([p2_x, p_y, p2_x + plate_w, p_y + plate_h], fill=(12, 40, 65), outline=(0, 240, 255), width=2)
+
+        # Plate texture / nanoscale gratings
+        for gy in range(p_y + 10, p_y + plate_h - 10, 15):
+            draw.line([(p1_x + 4, gy), (p1_x + plate_w - 4, gy)], fill=(0, 180, 220), width=1)
+            draw.line([(p2_x + 4, gy), (p2_x + plate_w - 4, gy)], fill=(0, 180, 220), width=1)
+
+        # 3. Suppressed standing waves inside gap (only allowed modes fit)
+        for wy in range(p_y + 20, p_y + plate_h - 20, 40):
+            pts = []
+            for wx in range(p1_x + plate_w, p2_x, 4):
+                rel_x = (wx - (p1_x + plate_w)) / float(gap)
+                amp = math.sin(rel_x * math.pi) * 14.0
+                pts.append((wx, wy + amp))
+            if len(pts) > 1:
+                draw.line(pts, fill=(0, 255, 240), width=2)
+
+        # 4. External vacuum radiation pressure vectors (arrows pushing inward)
+        for ay in range(p_y + 30, p_y + plate_h - 30, 45):
+            # Left push
+            draw.line([(p1_x - 60, ay), (p1_x - 8, ay)], fill=(255, 140, 50), width=2)
+            draw.line([(p1_x - 8, ay), (p1_x - 18, ay - 6)], fill=(255, 140, 50), width=2)
+            draw.line([(p1_x - 8, ay), (p1_x - 18, ay + 6)], fill=(255, 140, 50), width=2)
+            # Right push
+            draw.line([(p2_x + plate_w + 60, ay), (p2_x + plate_w + 8, ay)], fill=(255, 140, 50), width=2)
+            draw.line([(p2_x + plate_w + 8, ay), (p2_x + plate_w + 18, ay - 6)], fill=(255, 140, 50), width=2)
+            draw.line([(p2_x + plate_w + 8, ay), (p2_x + plate_w + 18, ay + 6)], fill=(255, 140, 50), width=2)
+
+        # 5. Asymmetric dynamic photon exhaust cone (propulsion vector exiting upward)
+        for off in range(-35, 36, 10):
+            draw.line([(cx + off, p_y), (cx + off * 2.5, p_y - 120)], fill=(255, 200, 60), width=2)
+        draw.text((cx - 70, p_y - 145), "CASIMIR THRUST VECTOR [F_vac]", fill=(255, 220, 80))
+        draw.text((cx - 50, cy + plate_h // 2 + 15), "NANOCAVITY d = 82 nm", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -264,6 +322,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "DEFENSE PROCUREMENT FORENSICS // AUDIT TRAIL: COST-PLUS CARTELS // UNREDACTED", fill=(255, 90, 70))
     elif theme == "vc_theft":
         draw.text((40, 60), "DEFENSE VC FORENSICS // DUAL-USE TECH DIVERSION // DIRECTORATE T INTERCEPT", fill=(255, 120, 50))
+    elif theme in ("casimir", "vacuum_thruster"):
+        draw.text((40, 60), "DYNAMIC CASIMIR NANOCAVITY // ZERO-POINT VACUUM FLUCTUATION PRESSURE // ASYMMETRIC REACTION", fill=(255, 200, 60))
     elif theme in ("orbital_qkd", "space_sigint"):
         draw.text((40, 60), "ORBITAL QKD DOWNLINK // 1550nm ADAPTIVE OPTICS // 500KM LEO TRACK // GROUND SIGINT CONDUIT", fill=(0, 255, 200))
     elif theme in ("holographic", "scrambler"):

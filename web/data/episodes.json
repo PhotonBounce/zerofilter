@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-01",
+      "hour": "01:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Casimir Micro-Thrusters, Quantum Vacuum Engineering & Russian ASAT Kinematics",
+      "subject": "Hourly uncensored breakdown: Rex Vance links dynamic Casimir effect micro-propulsion and quantum vacuum energy extraction with ex-KGB Major Yuri Shvets's analysis of Russian kinetic and co-orbital anti-satellite deployment strategies.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero one hundred hours. The empty vacuum of space is not empty at all; it is a roiling, ultra-dense sea of virtual particle-antiparticle pairs fluctuating at zero-point energy. In theoretical and experimental physics, the Casimir effect demonstrated that conductive boundary conditions force vacuum modes to exert measurable mechanical pressure. With modern nanofabrication and optomechanical resonators, the dynamic Casimir effect allows us to perturb the quantum vacuum dynamically, converting virtual photons into real, propagating electromagnetic propulsion without expending chemical propellant.",
+        "In the geopolitical theater, the struggle to maneuver in orbital space without massive propellant signatures intersects directly with anti-satellite weapon doctrines. As Washington counter-intelligence analyst and former KGB Major Yuri Shvets has exposed, Moscow's space command has historically concealed kinetic anti-satellite hunter-killer satellites under the guise of peaceful orbital inspector spacecraft, such as the Cosmos-2542 and Cosmos-2543 missions that stalked sensitive US National Reconnaissance Office payloads.",
+        "Standard orbital maneuvering is limited by the Tsiolkovsky rocket equation: every kilogram of hydrazine or xenon propellant you launch exponentially penalizes your payload capacity. Vacuum engineering breaks this bottleneck. By oscillating nanostructured metamaterial cavities at gigahertz frequencies, quantum micro-thrusters theoretically induce asymmetric radiation reaction forces directly from vacuum fluctuation gradients. Even micro-Newton thrust profiles, applied continuously over weeks in deep orbit, enable perpetual station-keeping, evasive maneuvering, and propellant-free constellation phasing that evade conventional ground radar orbital tracking algorithms.",
+        "This explains why both the Pentagon's DARPA and the Russian Aerospace Forces are heavily financing advanced non-chemical propulsion laboratories. If an adversary fields co-orbital ASAT interceptors armed with kinetic fragmentation kill vehicles, stationary or predictable target satellites are sitting ducks. But if high-value orbital assets possess continuous, low-signature autonomous quantum maneuverability, kinetic collision trajectories become statistically impossible to lock on.",
+        "Neutralizing the threat of kinetic space aggression demands combining continuous-burn vacuum maneuvering with distributed satellite defensive perimeters. By pairing quantum optomechanical micro-propulsion with autonomous laser proximity sensors and edge-computed evasion routines, next-generation orbital platforms can dodge incoming hypervelocity debris or interceptors without exhausting limited station-keeping fuel. Space superiority belongs to whatever faction decouples its orbital maneuverability from terrestrial supply lines.",
+        "The universe offers infinite propulsion to those who understand the mathematics of the quantum vacuum. Trace the orbital flight paths, watch the inspection satellites, and never assume the vacuum is inert. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 175,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-01/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-07-01/f02.webp"
+          },
+          {
+            "t": 58,
+            "src": "art/2026-10-07-01/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-07-01/f04.webp"
+          },
+          {
+            "t": 117,
+            "src": "art/2026-10-07-01/f05.webp"
+          },
+          {
+            "t": 146,
+            "src": "art/2026-10-07-01/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-01.webp",
+      "audio": "audio/2026-10-07-01.mp3",
+      "cover_video": "thumbs/2026-10-07-01.mp4"
+    },
+    {
       "id": "2026-10-07-00",
       "hour": "00:00",
       "date": "2026-10-07",

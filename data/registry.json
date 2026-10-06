@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 24,
+  "total_releases": 25,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -192,6 +192,14 @@
       "title": "Orbital QKD Downlinks, Deep-Space Laser Comms & Soviet Cosmic SIGINT Lineage",
       "audio": "audio/2026-10-07-00.mp3",
       "cover_video": "thumbs/2026-10-07-00.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-07-01",
+      "seconds": 175,
+      "title": "Casimir Micro-Thrusters, Quantum Vacuum Engineering & Russian ASAT Kinematics",
+      "audio": "audio/2026-10-07-01.mp3",
+      "cover_video": "thumbs/2026-10-07-01.mp4",
       "status": "published_production"
     }
   ]
