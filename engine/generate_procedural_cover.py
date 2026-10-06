@@ -2437,6 +2437,64 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 118), "SERVICE A ACTIVE MEASURES", fill=(255, 200, 80))
         draw.text((width - 310, 138), "COGNITIVE PRIOR INVERSION", fill=(255, 100, 80))
         draw.text((width - 310, 158), "REALITY FABRICATION DOCTRINE", fill=(255, 220, 120))
+    elif theme in ("suwalki_gap", "kaliningrad_corridor", "baltic_chokepoint", "iskander_enclave"):
+        # Suwalki Gap Chokepoint, Kaliningrad Iskander Bastion & Baltic Rail Interdiction
+        # 1. Background Topographic & Tactical Grid
+        for gy in range(cy - 220, cy + 220, 24):
+            draw.line([(60, gy), (width - 60, gy)], fill=(24, 18, 14), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(24, 18, 14), width=1)
+
+        # 2. Border Geography Representation (Suwalki Gap Corridor)
+        # Poland (Southwest) and Lithuania (Northeast) forming the narrow 65km neck
+        # Kaliningrad Exclave (West) to Belarus (East)
+        draw.polygon([(cx - 240, cy - 140), (cx - 80, cy - 140), (cx - 100, cy + 80), (cx - 240, cy + 120)], fill=(25, 12, 14), outline=(255, 60, 40), width=2)
+        draw.text((cx - 220, cy - 120), "KALININGRAD EXCLAVE [BALTIC FLEET HQ]", fill=(255, 90, 70))
+
+        draw.polygon([(cx + 80, cy - 140), (cx + 240, cy - 140), (cx + 240, cy + 120), (cx + 100, cy + 80)], fill=(20, 16, 26), outline=(200, 100, 255), width=2)
+        draw.text((cx + 100, cy - 120), "BELARUS // WESTERN MILITARY AXIS", fill=(220, 120, 255))
+
+        # Suwalki Gap Narrow Land Bridge (Center Chokepoint)
+        gap_x1, gap_x2 = cx - 80, cx + 80
+        draw.rectangle([gap_x1, cy - 80, gap_x2, cy + 60], fill=(12, 22, 16), outline=(0, 255, 200), width=1)
+        draw.text((cx - 65, cy - 70), "SUWALKI GAP [65 KM]", fill=(0, 255, 200))
+        draw.text((cx - 70, cy + 40), "POLAND // LITHUANIA BORDER", fill=(120, 220, 255))
+
+        # 3. Strategic Rail Transit Line (1520mm Russian Broad-Gauge Corridor)
+        rail_y = cy - 10
+        draw.line([(cx - 220, rail_y), (cx + 220, rail_y)], fill=(255, 200, 60), width=2)
+        for rx in range(cx - 210, cx + 220, 16):
+            draw.line([(rx, rail_y - 6), (rx, rail_y + 6)], fill=(255, 220, 80), width=1)
+        draw.text((cx - 110, rail_y - 24), "1520mm STRATEGIC TRANSIT RAIL CONDUIT", fill=(255, 220, 100))
+
+        # 4. Kaliningrad Iskander-M Missile Threat Envelope (Overlapping Range Arcs)
+        draw.arc([cx - 280, cy - 180, cx + 80, cy + 180], 300, 60, fill=(255, 60, 60), width=2)
+        draw.text((cx - 60, cy - 160), "ISKANDER-M 500KM A2/AD BUBBLE", fill=(255, 80, 60))
+
+        # Pincer Attack Vector Arrows (Northwest & Southeast pinching the Gap)
+        # Top-down vector
+        draw.line([(cx, cy - 130), (cx, cy - 90)], fill=(255, 60, 40), width=3)
+        draw.polygon([(cx, cy - 85), (cx - 6, cy - 95), (cx + 6, cy - 95)], fill=(255, 60, 40))
+        # Bottom-up vector
+        draw.line([(cx, cy + 110), (cx, cy + 70)], fill=(255, 60, 40), width=3)
+        draw.polygon([(cx, cy + 65), (cx - 6, cy + 75), (cx + 6, cy + 75)], fill=(255, 60, 40))
+        draw.text((cx + 12, cy + 85), "TACTICAL PINCER", fill=(255, 80, 60))
+
+        # 5. Telemetry Dossiers (Suwalki Metrics & Soviet Baltic War Plans)
+        # Left HUD Box: Suwalki Chokepoint Metrics
+        draw.rectangle([60, 90, 310, cy - 140], fill=(22, 14, 12), outline=(255, 80, 60), width=1)
+        draw.text((70, 98), "[SUWALKI GAP CHOKEPOINT HUD]", fill=(255, 90, 70))
+        draw.text((70, 118), "CORRIDOR WIDTH: 65.4 KM", fill=(255, 200, 80))
+        draw.text((70, 138), "RAIL STATUS: TRANSIT BYPASS RISK", fill=(255, 60, 60))
+        draw.text((70, 158), "A2/AD ENVELOPE: OVERLAPPING", fill=(255, 160, 50))
+        draw.text((70, 178), "DEFENSE TIME HORIZON: 72 HOURS", fill=(255, 100, 80))
+
+        # Right HUD Box: Soviet Baltic Military District & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET BALTIC COMMAND]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "BALTIC MD RAPID INTERDICTION", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "KALININGRAD FLEET LOGISTICS", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "KGB RAIL SURVEILLANCE RINGS", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
     else:

@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T14:40:00Z",
+  "updated": "2026-10-06T14:45:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-10",
+      "hour": "10:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Suwalki Gap Rail Corridors, Kaliningrad Iskanders & Soviet Baltic Chokepoints",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the strategic vulnerability of the Suwalki Gap, Russian broad-gauge railway transit lines between Belarus and Kaliningrad, the Iskander-M nuclear-capable A2/AD missile envelope, and Yuri Shvets on Soviet Baltic Military District operational war plans, KGB transport surveillance, and chokepoint interdiction doctrine.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is ten hundred hours. In the defense geography of Eastern Europe, NATO's most precarious vulnerability is a narrow strip of land barely sixty-five kilometers wide: the Suwalki Gap. Wedged between Poland and Lithuania, this corridor connects the Baltic states to mainland Europe while separating the heavily militarized Russian exclave of Kaliningrad from Moscow's client state, Belarus. In any high-intensity confrontation, a dual-axis armored pincer could sever the corridor within seventy-two hours, trapping three NATO member nations behind an anti-access bubble.",
+        "At the center of daily friction is the Russian broad-gauge railway corridor traversing Lithuanian territory under the European Union transit regime. Every day, freight and passenger trains roll between mainland Russia and Kaliningrad, carrying industrial cargo, dual-use electronics, and personnel under specialized sealed transit permits. Western intelligence agencies know that these rail arteries serve as vital logistical conduits for the Russian Baltic Fleet, while simultaneously presenting an acute sabotage and false-flag vector that the Kremlin periodically exploits to probe NATO border enforcement.",
+        "Dominating the Suwalki corridor is Kaliningrad's formidable anti-access and area-denial bastion. Armed with hypersonic Iskander-M ballistic missiles, Bastion coastal defense batteries, and S-400 surface-to-air missile regiments, the exclave forms an overlapping kill zone extending five hundred kilometers across Poland, Lithuania, and the southern Baltic Sea. Operating under this protective umbrella, Russian naval and electronic warfare units at Baltiysk can jam commercial GPS signals and deny maritime reinforcement corridors to allied ports.",
+        "This strategy of holding the Baltic approaches hostage is the direct operational descendant of Soviet war planning. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has exposed, the Soviet General Staff spent decades designing rapid land-bridge offensives to isolate the Baltic rim and sever Western logistical reinforcement.",
+        "According to Shvets, the Soviet Baltic Military District—headquartered in Riga—and the KGB Third Chief Directorate maintained exhaustive operational blueprints to sever road and rail corridors across the Suwalki axis during the opening hours of a European war. Shvets revealed that KGB transport directorate officers embedded directly within the Ministry of Railways, monitoring every freight wagon and mapping pre-targeted rail bottlenecks for demolition or seizure by Spetsnaz sabotage detachments, guaranteeing that Baltic supply lines could be severed at a moment's notice.",
+        "From Soviet Baltic Military District offensive timetables to modern Iskander missile deployments around Kaliningrad, the geography of the Suwalki Gap remains Eastern Europe's ultimate strategic fulcrum. When a sixty-five kilometer land bridge determines the survival of three sovereign nations, there is no margin for complacency. Monitor the transit rails, track the missile batteries, and secure the northern flank. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-10/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-11-10/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-11-10/f03.webp"
+          },
+          {
+            "t": 89,
+            "src": "art/2026-10-11-10/f04.webp"
+          },
+          {
+            "t": 119,
+            "src": "art/2026-10-11-10/f05.webp"
+          },
+          {
+            "t": 148,
+            "src": "art/2026-10-11-10/f06.webp"
+          }
+        ]
+      },
+      "seconds": 178,
+      "audio": "audio/2026-10-11-10.mp3",
+      "thumb": "thumbs/2026-10-11-10.webp",
+      "cover_video": "thumbs/2026-10-11-10.mp4"
+    },
     {
       "id": "2026-10-11-09",
       "hour": "09:00",

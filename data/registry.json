@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 129,
+  "total_releases": 130,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1032,6 +1032,14 @@
       "title": "Anil Seth Controlled Hallucinations, Bayesian Priors & KGB Reflexive Perception Warfare",
       "audio": "audio/2026-10-11-09.mp3",
       "cover_video": "thumbs/2026-10-11-09.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-11-10",
+      "seconds": 178,
+      "title": "Suwalki Gap Rail Corridors, Kaliningrad Iskanders & Soviet Baltic Chokepoints",
+      "audio": "audio/2026-10-11-10.mp3",
+      "cover_video": "thumbs/2026-10-11-10.mp4",
       "status": "published_production"
     }
   ]
