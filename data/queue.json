@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-19",
-      "date": "2026-10-09",
-      "hour": "19:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Defense fuel smuggling syndicates, NATO bunkering price fixing, and Yuri Shvets on Soviet Black Sea Fleet fuel diversion cartels"
-    },
-    {
       "id": "2026-10-09-20",
       "date": "2026-10-09",
       "hour": "20:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Binaural frequency-following response (FFR), EEG microstate segmentation, and Yuri Shvets on Soviet telepathy disinformation protocols"
+    },
+    {
+      "id": "2026-10-09-22",
+      "date": "2026-10-09",
+      "hour": "22:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Arctic seabed mapping, Lomonosov Ridge continental shelf annexation, and Yuri Shvets on Soviet polar submarine bastion acoustic bathymetry"
     }
   ]
 }

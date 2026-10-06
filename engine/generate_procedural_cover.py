@@ -500,6 +500,76 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 225, cy + 30), "TAMPER DETECTED", fill=(255, 60, 40))
         draw.text((width - 225, cy + 60), "DIRECTORATE T", fill=(255, 200, 80))
 
+    elif theme in ("fuel_smuggling", "bunkering_fraud", "fuel_cartel", "oil_theft", "bunkering_price_fixing"):
+        # Defense Fuel Smuggling Syndicates & Bunkering Fraud Architecture
+        # 1. Background petroleum grid / fuel infrastructure schematic
+        for gy in range(80, height - 80, 35):
+            draw.line([(60, gy), (width - 60, gy)], fill=(18, 24, 20), width=1)
+        for gx in range(60, width - 60, 45):
+            draw.line([(gx, 80), (gx, height - 80)], fill=(18, 24, 20), width=1)
+
+        # 2. Fuel Storage Tanks (Depots)
+        # Tank 1: NATO Forward Storage Terminal (Left)
+        t1_x, t1_y = cx - 320, cy - 40
+        draw.rectangle([t1_x - 70, t1_y - 80, t1_x + 70, t1_y + 80], fill=(15, 25, 20), outline=(0, 220, 160), width=2)
+        draw.ellipse([t1_x - 70, t1_y - 95, t1_x + 70, t1_y - 65], fill=(20, 35, 25), outline=(0, 255, 180), width=2)
+        # Liquid fill level indicator (Depleted / Siphoned)
+        fill_y = t1_y + 20
+        draw.rectangle([t1_x - 66, fill_y, t1_x + 66, t1_y + 76], fill=(40, 30, 10), outline=(255, 140, 40), width=1)
+        draw.text((t1_x - 55, t1_y - 45), "JP-8 BULK TANK #01", fill=(0, 255, 200))
+        draw.text((t1_x - 55, t1_y - 25), "CAP: 500,000 GAL", fill=(200, 200, 200))
+        draw.text((t1_x - 55, t1_y + 35), "ACTUAL LEVEL: 24%", fill=(255, 80, 60))
+        draw.text((t1_x - 55, t1_y + 55), "STATUS: SIPHONED", fill=(255, 60, 60))
+
+        # Tank 2: Illicit Commercial Bunkering Barge / Siphon Vessel (Right)
+        t2_x, t2_y = cx + 320, cy - 40
+        draw.rectangle([t2_x - 70, t2_y - 80, t2_x + 70, t2_y + 80], fill=(25, 18, 15), outline=(255, 120, 50), width=2)
+        draw.ellipse([t2_x - 70, t2_y - 95, t2_x + 70, t2_y - 65], fill=(35, 22, 18), outline=(255, 160, 60), width=2)
+        # Illicit Fill Level (Overflowing with stolen fuel)
+        fill_y2 = t2_y - 50
+        draw.rectangle([t2_x - 66, fill_y2, t2_x + 66, t2_y + 76], fill=(50, 40, 15), outline=(255, 200, 50), width=1)
+        draw.text((t2_x - 60, t2_y - 45), "OFFSHORE BUNKER BARGE", fill=(255, 160, 60))
+        draw.text((t2_x - 60, t2_y - 25), "AIS: SPOOFED/DARK", fill=(255, 60, 60))
+        draw.text((t2_x - 60, t2_y + 35), "BLACK MARKET SLOSH", fill=(255, 220, 60))
+        draw.text((t2_x - 60, t2_y + 55), "RESALE SPOT: +180%", fill=(0, 255, 200))
+
+        # 3. Pipeline Conduit & Tampered Bypass Manifold (Center)
+        pipe_y = cy + 20
+        # Official authorized delivery line
+        draw.line([(t1_x + 70, pipe_y), (cx, pipe_y)], fill=(0, 220, 180), width=6)
+        draw.line([(t1_x + 70, pipe_y), (cx, pipe_y)], fill=(255, 255, 255), width=2)
+        # Tampered bypass siphon line to offshore barge
+        draw.line([(cx, pipe_y), (cx + 80, pipe_y + 70), (t2_x - 70, pipe_y + 70)], fill=(255, 80, 50), width=4)
+        draw.line([(cx, pipe_y), (cx + 80, pipe_y + 70), (t2_x - 70, pipe_y + 70)], fill=(255, 220, 80), width=1)
+
+        # Central Flowmeter Manifold Box
+        draw.rectangle([cx - 45, pipe_y - 35, cx + 45, pipe_y + 35], fill=(20, 30, 40), outline=(255, 220, 60), width=2)
+        draw.text((cx - 38, pipe_y - 25), "FLOWMETER", fill=(255, 220, 80))
+        draw.text((cx - 38, pipe_y - 5), "BYPASS VALVE", fill=(255, 80, 60))
+        draw.text((cx - 38, pipe_y + 15), "SEAL: BROKEN", fill=(255, 40, 40))
+
+        # Flow direction animated vectors
+        for fx in range(t1_x + 90, cx - 10, 40):
+            draw.polygon([(fx, pipe_y - 6), (fx + 10, pipe_y), (fx, pipe_y + 6)], fill=(0, 255, 200))
+        for fx in range(cx + 90, t2_x - 80, 40):
+            draw.polygon([(fx, pipe_y + 64), (fx + 10, pipe_y + 70), (fx, pipe_y + 76)], fill=(255, 120, 50))
+
+        # 4. Forensic Telemetry Sidebars
+        # Left Box: Defense Contract Audit
+        draw.rectangle([60, cy - 200, 260, cy - 110], fill=(20, 15, 25), outline=(255, 80, 60), width=1)
+        draw.text((70, cy - 190), "[DOD LOGISTICS FORENSICS]", fill=(255, 100, 80))
+        draw.text((70, cy - 170), "INVOICED: 2,400,000 GAL JP-8", fill=(255, 220, 100))
+        draw.text((70, cy - 150), "PHYSICAL DELIVERED: 420,000", fill=(255, 60, 60))
+        draw.text((70, cy - 130), "DISCREPANCY: -$14.8M LOSS", fill=(255, 80, 80))
+
+        # Right Box: Soviet Black Sea Fleet Fuel Diversion Dossier
+        draw.rectangle([width - 290, cy - 200, width - 60, cy - 100], fill=(25, 20, 15), outline=(255, 140, 40), width=1)
+        draw.text((width - 280, cy - 190), "[SOVIET BLACK SEA FLEET AUDIT]", fill=(255, 160, 50))
+        draw.text((width - 280, cy - 170), "SEVASTOPOL NAVAL BUNKER DRAIN", fill=(255, 200, 80))
+        draw.text((width - 280, cy - 150), "KGB 3RD DIR / MAFIA COLLUSION", fill=(255, 100, 80))
+        draw.text((width - 280, cy - 130), "WARSHIPS COLD AT PIER TO CONCEAL", fill=(255, 220, 120))
+        draw.text((width - 280, cy - 110), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     elif theme in ("spin_liquid", "kagome_spin_liquid", "spin_liquid_theory", "topological_braiding", "anyon_braiding", "topological_insulator", "topological_insulators", "helical_edge", "topological_superconductivity", "majorana_zero_modes", "majorana_nanowires", "landau_cryogenics"):
         # Kitaev Honeycomb Spin Liquid & Non-Abelian Anyon Braiding Engine
         # 1. Frustrated Honeycomb Lattice / Kagome background
@@ -1467,6 +1537,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "DRONE MUNITIONS PRICE GOUGING // SBIR FRAUD SYNDICATES // SOVIET TECH FRONTS", fill=(255, 60, 60))
     elif theme in ("counterfeit_chip", "microelectronics_fraud", "line_x"):
         draw.text((40, 60), "DEFENSE MICROELECTRONICS FORENSICS // COUNTERFEIT BROKER RINGS // LINE X INFILTRATION", fill=(255, 60, 60))
+    elif theme in ("fuel_smuggling", "bunkering_fraud", "fuel_cartel", "oil_theft", "bunkering_price_fixing"):
+        draw.text((40, 60), "DEFENSE FUEL LOGISTICS FORENSICS // NATO BUNKERING PRICE-FIXING CARTELS // BLACK SEA SIPHON", fill=(255, 140, 40))
     elif theme in ("casimir", "vacuum_thruster"):
         draw.text((40, 60), "DYNAMIC CASIMIR NANOCAVITY // ZERO-POINT VACUUM FLUCTUATION PRESSURE // ASYMMETRIC REACTION", fill=(255, 200, 60))
     elif theme in ("orbital_qkd", "space_sigint"):

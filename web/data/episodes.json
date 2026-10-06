@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-19",
+      "hour": "19:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Defense Fuel Smuggling Syndicates, NATO Bunkering Fraud & Soviet Black Sea Fleet Diversion Cartels",
+      "subject": "Hourly uncensored breakdown: Rex Vance uncovers defense bunkering fraud syndicates, falsified fuel bills of lading at NATO forward logistics hubs, and Yuri Shvets on KGB-sanctioned Soviet naval fuel diversion cartels.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is nineteen hundred hours. While defense ministries publicize multi-billion-dollar drone swarms and hypersonic missile contracts, the unglamorous lifeblood of all military mechanized logistics—petroleum, oil, and lubricants—is hemorrhaging through systemic institutional fraud. Across forward operational airbases and maritime bunkering stations, military-grade aviation turbine fuel JP-8 and naval distillate are systematically diverted into illicit commercial black-market networks through falsified bills of lading, tampered flowmeter seals, and organized defense contractor kickback syndicates.",
+        "Recent federal and allied criminal indictments expose an industrial scale of grift. Defense logistics sub-contractors operating across NATO forward hubs in Eastern Europe, the Mediterranean, and the Middle East systematically exploit paper-based inventory vouchers to bill for millions of gallons of phantom fuel. Fuel tankers arrive at forward bases carrying contaminated, water-diluted slurry, while premium JP-8 jet propellant is siphoned into covert offshore bunkering barges and resold to civilian airlines at emergency spot-market prices. These cartels operate with impunity, shielded by compromised quartermasters and revolving-door defense contracting executives.",
+        "This brazen looting of frontline defense energy supplies is not an unprecedented tactical anomaly; it is the exact blueprint of Soviet late-Cold War institutional corruption. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively disclosed, the Soviet Armed Forces—and specifically the Black Sea Fleet headquartered in Sevastopol and Odessa—ran the most lucrative state-sanctioned fuel smuggling syndicates in the entire Warsaw Pact.",
+        "According to Shvets, senior naval supply officers colluded directly with KGB Third Directorate military counter-intelligence curators and black-market mafia bosses to siphon off hundreds of thousands of metric tons of naval fuel oil and aviation kerosene each month. Operational readiness reports were systematically forged: logs falsely claimed naval battle groups were conducting round-the-clock anti-submarine exercises across the Black Sea, while warships remained tied to piers with their boilers cold to mask the depleted fuel bunkers. Shvets revealed that entire military rail cistern echelons vanished into dummy industrial cooperatives, laundered for hard Western currency.",
+        "Today, that exact Soviet diversion playbook has infected Western defense contracting conglomerates. When military fuel accountability is outsourced to opaque private logistics vendors operating without real-time cryptographic flowmeter telemetry or unannounced dip-stick audits, combat units inherit dry tanks and engine-destroying sludge during critical mobilization windows. Pentagon planners can boast of fifth-generation stealth fighters and autonomous armor, but an entire theater campaign collapses when corrupt fuel cartels falsify the bills of lading.",
+        "Audit the NATO fuel bunkering cryptographic flowmeters, freeze the offshore contractor bank accounts, and demand absolute forensic accountability across military energy supply lines. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-19/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-19/f02.webp"
+          },
+          {
+            "t": 61,
+            "src": "art/2026-10-09-19/f03.webp"
+          },
+          {
+            "t": 91,
+            "src": "art/2026-10-09-19/f04.webp"
+          },
+          {
+            "t": 121,
+            "src": "art/2026-10-09-19/f05.webp"
+          },
+          {
+            "t": 152,
+            "src": "art/2026-10-09-19/f06.webp"
+          }
+        ]
+      },
+      "seconds": 182,
+      "thumb": "thumbs/2026-10-09-19.webp",
+      "audio": "audio/2026-10-09-19.mp3",
+      "cover_video": "thumbs/2026-10-09-19.mp4"
+    },
+    {
       "id": "2026-10-09-18",
       "hour": "18:00",
       "date": "2026-10-09",

@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 90,
+  "total_releases": 91,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -720,6 +720,14 @@
       "title": "Red Sea Subsea Cable Sabotage, Bab el-Mandeb Chokepoints & Soviet Horn of Africa Naval Reconnaissance",
       "audio": "audio/2026-10-09-18.mp3",
       "cover_video": "thumbs/2026-10-09-18.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-19",
+      "seconds": 182,
+      "title": "Defense Fuel Smuggling Syndicates, NATO Bunkering Fraud & Soviet Black Sea Fleet Diversion Cartels",
+      "audio": "audio/2026-10-09-19.mp3",
+      "cover_video": "thumbs/2026-10-09-19.mp4",
       "status": "published_production"
     }
   ]
