@@ -377,7 +377,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((d1_x + 24, d1_y - 8), "TEETH [D1: WAVE]", fill=(0, 255, 200))
         draw.text((d2_x + 24, d2_y - 8), "TEETH [D2: PARTICLE]", fill=(255, 100, 80))
 
-    elif theme in ("supply_chain_fraud", "subcontractor_grift", "defense_fraud"):
+    elif theme in ("supply_chain_fraud", "subcontractor_grift", "defense_fraud", "aerospace_monopoly", "maintenance_cartel", "diagnostic_lockin"):
         # Defense Industrial Base Supply Chain Fraud & Phantom Subcontractor Invoicing
         # 1. Procurement Cascading Waterfall Funnel (Top-down tiers)
         tiers = [
@@ -671,8 +671,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "BEC MICROGRAVITY ATOM INTERFEROMETRY // RUBIDIUM-87 CONDENSATE // TEMP: 50 PICOKELVIN", fill=(120, 220, 255))
     elif theme == "corruption":
         draw.text((40, 60), "DEFENSE PROCUREMENT FORENSICS // AUDIT TRAIL: COST-PLUS CARTELS // UNREDACTED", fill=(255, 90, 70))
-    elif theme in ("supply_chain_fraud", "subcontractor_grift", "defense_fraud"):
-        draw.text((40, 60), "DEFENSE PROCUREMENT FORENSICS // PHANTOM SUBCONTRACTOR BILLING // LINE X INFILTRATION", fill=(255, 60, 60))
+    elif theme in ("supply_chain_fraud", "subcontractor_grift", "defense_fraud", "aerospace_monopoly", "maintenance_cartel", "diagnostic_lockin"):
+        draw.text((40, 60), "DEFENSE PROCUREMENT FORENSICS // AEROSPACE MAINTENANCE MONOPOLY // LINE X INFILTRATION", fill=(255, 60, 60))
     elif theme in ("casimir", "vacuum_thruster"):
         draw.text((40, 60), "DYNAMIC CASIMIR NANOCAVITY // ZERO-POINT VACUUM FLUCTUATION PRESSURE // ASYMMETRIC REACTION", fill=(255, 200, 60))
     elif theme in ("orbital_qkd", "space_sigint"):

@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-08",
+      "hour": "08:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Aerospace Maintenance Monopolies, Diagnostic Paywalls & Soviet Line X Infiltration",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates proprietary defense contractor maintenance monopolies, diagnostic software DRM locks grounding frontline fighters, and Yuri Shvets's revelations regarding Soviet Line X industrial espionage exploiting commercialized aviation supply chains.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero eight hundred hours. The most devastating threat to modern air superiority is not adversary surface-to-air missile batteries; it is proprietary diagnostic software locks engineered by domestic defense primes. Across the fifth-generation fighter fleet, military maintainers are legally prohibited from inspecting flight-control telemetry, replacing hydraulic actuators, or repairing avionics modules without paying exorbitant proprietary licensing fees back to the original contractor. Frontline combat aircraft are grounded for months not by battle damage, but by digital rights management paywalls.",
+        "This contractual lock-in represents the ultimate evolution of defense procurement extraction. When taxpayers fund the multi-billion dollar research and development costs of a weapon system, the government naively surrenders intellectual property and diagnostic tooling rights to prime contractors. By turning sustainment and logistics into a mandatory, sole-source monopoly lasting forty years, aerospace conglomerates generate seventy percent of program profits after delivery, transforming national defense into a captive subscription service.",
+        "As Washington counter-intelligence insider and former KGB Major Yuri Shvets has extensively analyzed, commercialized defense maintenance monopolies create enormous structural vulnerabilities for adversarial intelligence exploitation. During the Cold War, Soviet Directorate T and its specialized Line X apparatus did not attempt to steal completed fighter jets; they targeted the commercial maintenance contractors, third-party component overhaul facilities, and avionics supply hubs. Middlemen and commercial subcontractors lack classified security perimeters, making them soft targets for industrial espionage.",
+        "When maintenance architectures rely on cloud-connected diagnostic portals like ODIN and proprietary off-board mission support servers, the cyber attack surface expands exponentially. Hostile foreign intelligence services do not need to penetrate hardened military networks; they compromise third-party commercial vendors and maintenance sub-contractors, quietly injecting malicious firmware into engine control units or exfiltrating operational readiness telemetry directly from diagnostic data streams.",
+        "Breaking this stranglehold requires enforcing immediate Right to Repair mandates across the entire Department of Defense. We must compel defense contractors to deliver complete, non-proprietary technical data packages, open-standard diagnostic protocols, and depot-level repair manuals as a non-negotiable condition of contract awards. Military mechanics in combat zones must possess sovereign authority and technical capability to repair their own weapon systems without waiting for vendor technicians or corporate digital authorizations.",
+        "Audit the proprietary sustainment contracts, dismantle the diagnostic paywalls, and demand full technical data sovereignty for the warfighter. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 167,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-08/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-07-08/f02.webp"
+          },
+          {
+            "t": 56,
+            "src": "art/2026-10-07-08/f03.webp"
+          },
+          {
+            "t": 84,
+            "src": "art/2026-10-07-08/f04.webp"
+          },
+          {
+            "t": 111,
+            "src": "art/2026-10-07-08/f05.webp"
+          },
+          {
+            "t": 139,
+            "src": "art/2026-10-07-08/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-08.webp",
+      "audio": "audio/2026-10-07-08.mp3",
+      "cover_video": "thumbs/2026-10-07-08.mp4"
+    },
+    {
       "id": "2026-10-07-07",
       "hour": "07:00",
       "date": "2026-10-07",
