@@ -890,6 +890,72 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, cy + 120), "PURPOSE: SLUSH FUND DIVERSION", fill=(255, 80, 80))
         draw.text((width - 310, cy + 140), "STATUS: DISCLOSURE BY SHVETS", fill=(200, 200, 200))
 
+    elif theme in ("transmon_qubit", "surface_code", "quantum_cryptanalysis", "fault_tolerant_qc"):
+        # Superconducting Transmon Qubits & Surface Code Fault-Tolerance
+        # 1. Planar 2D Surface Code Lattice Grid
+        grid_origin_x = cx - 280
+        grid_origin_y = cy - 180
+        spacing = 70
+        
+        # Plaquette colored faces (Z-plaquettes in emerald, X-plaquettes in amber)
+        for r in range(5):
+            for c in range(7):
+                px = grid_origin_x + c * spacing
+                py = grid_origin_y + r * spacing
+                is_x = ((r + c) % 2 == 0)
+                plaq_col = (25, 45, 30) if is_x else (45, 30, 20)
+                draw.rectangle([px, py, px + spacing, py + spacing], fill=plaq_col, outline=(20, 50, 70), width=1)
+                
+                # Plaquette center ancilla stabilizer node
+                mid_x = px + spacing // 2
+                mid_y = py + spacing // 2
+                anc_col = (255, 140, 50) if is_x else (30, 240, 160)
+                draw.ellipse([mid_x - 8, mid_y - 8, mid_x + 8, mid_y + 8], fill=(10, 20, 30), outline=anc_col, width=2)
+                anc_type = "X" if is_x else "Z"
+                draw.text((mid_x - 4, mid_y - 7), anc_type, fill=anc_col)
+                
+                # Coupler entangling lines connecting ancilla to 4 surrounding data vertices
+                for dx, dy in [(-spacing//2, -spacing//2), (spacing//2, -spacing//2), (-spacing//2, spacing//2), (spacing//2, spacing//2)]:
+                    draw.line([(mid_x, mid_y), (mid_x + dx, mid_y + dy)], fill=(0, 140, 180), width=1)
+
+        # 2. Data Qubits at Vertices (Rotated transmon capacitor pads with Josephson junctions)
+        for r in range(6):
+            for c in range(8):
+                vx = grid_origin_x + c * spacing
+                vy = grid_origin_y + r * spacing
+                
+                # Transmon Data Qubit (Diamond Pad)
+                draw.polygon([
+                    (vx, vy - 9),
+                    (vx + 9, vy),
+                    (vx, vy + 9),
+                    (vx - 9, vy)
+                ], fill=(10, 35, 55), outline=(0, 240, 255), width=2)
+                
+                # Josephson Junction indicator (crossed box in center)
+                draw.rectangle([vx - 3, vy - 3, vx + 3, vy + 3], outline=(255, 220, 80), width=1)
+                draw.point((vx, vy), fill=(255, 255, 255))
+
+        # Annotations on Surface Code
+        draw.text((grid_origin_x, grid_origin_y - 28), "ROTATED SURFACE CODE LATTICE (d = 7 FAULT-TOLERANT)", fill=(0, 255, 240))
+        draw.text((grid_origin_x, grid_origin_y + 5 * spacing + 15), "PHYSICAL DATA TRANSMONS (CYAN) // ANCILLA SYNDROME READOUT (ORANGE/GREEN)", fill=(0, 220, 200))
+
+        # 3. Dilution Refrigerator Telemetry & 8th Chief Cryptanalysis Dossier
+        draw.rectangle([60, cy - 160, 250, cy - 60], fill=(10, 25, 40), outline=(0, 255, 240), width=1)
+        draw.text((70, cy - 150), "[DILUTION CRYOSTAT]", fill=(0, 255, 240))
+        draw.text((70, cy - 130), "MIXING CHAMBER: 14.8 mK", fill=(120, 220, 255))
+        draw.text((70, cy - 110), "COHERENCE T1: 118 μs", fill=(255, 220, 80))
+        draw.text((70, cy - 90), "DEPHASING T2*: 94 μs", fill=(0, 240, 180))
+        draw.text((70, cy - 70), "TWO-LEVEL LOSS: Q_i = 1.8M", fill=(200, 200, 200))
+
+        draw.rectangle([width - 320, cy - 160, width - 50, cy - 40], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, cy - 150), "[SOVIET 8TH CHIEF SIGINT]", fill=(255, 140, 50))
+        draw.text((width - 310, cy - 130), "HARVEST-NOW DECRYPT-LATER", fill=(255, 200, 80))
+        draw.text((width - 310, cy - 110), "TARGET: RSA-2048 / ECC-256", fill=(255, 220, 120))
+        draw.text((width - 310, cy - 90), "EXFILTRATION: FIBER SPLICE", fill=(255, 80, 80))
+        draw.text((width - 310, cy - 70), "POST-QUANTUM MIGRATION REQ", fill=(200, 200, 200))
+        draw.text((width - 310, cy - 50), "STATUS: SHVETS DISCLOSURE", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -970,6 +1036,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "PHOTONIC BANDGAP MICROCAVITY // 1550nm SHG CONVERSION // SARY-SHAGAN TERRA-3 AUDIT", fill=(0, 240, 255))
     elif theme in ("pear_reg", "cognitive_field", "anomalous_entanglement", "field_reg"):
         draw.text((40, 60), "PEAR QUANTUM NOISE REG // CUMULATIVE DEVIATION p = 3.8 x 10^-5 // KGB SLUSH AUDIT", fill=(255, 210, 50))
+    elif theme in ("transmon_qubit", "surface_code", "quantum_cryptanalysis", "fault_tolerant_qc"):
+        draw.text((40, 60), "SUPERCONDUCTING TRANSMON SURFACE CODE d=7 // 14.8mK CRYOSTAT // 8TH CHIEF SIGINT", fill=(0, 240, 255))
     elif theme == "consciousness":
         draw.text((40, 60), "NEURAL BIOPHOTON TELEMETRY // TUBULIN DIPOLE HARMONICS // BANDWIDTH 614 THz", fill=(80, 255, 180))
     else:

@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 40,
+  "total_releases": 41,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -320,6 +320,14 @@
       "title": "Hypersonic Scramjet Failures, Cost-Plus Coverups & Soviet Aerospace Procurement Fraud",
       "audio": "audio/2026-10-07-16.mp3",
       "cover_video": "thumbs/2026-10-07-16.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-07-17",
+      "seconds": 180,
+      "title": "Superconducting Transmon Qubits, Surface Codes & Soviet SIGINT Cryptanalysis",
+      "audio": "audio/2026-10-07-17.mp3",
+      "cover_video": "thumbs/2026-10-07-17.mp4",
       "status": "published_production"
     }
   ]

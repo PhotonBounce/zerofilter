@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-17",
+      "hour": "17:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Superconducting Transmon Qubits, Surface Codes & Soviet SIGINT Cryptanalysis",
+      "subject": "Hourly uncensored breakdown: Rex Vance analyzes superconducting transmon qubit coherence limits, surface code syndrome extraction, and Yuri Shvets's insider revelations regarding Soviet Eighth Chief Directorate cryptanalysis and modern Harvest Now Decrypt Later operations.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is seventeen hundred hours. Suspended inside multi-stage gold-plated dilution refrigerators chilled to fifteen millikelvin—colder than the vacuum of deep interstellar space—superconducting transmon qubits represent the cutting edge of quantum computation. By coupling nonlinear Josephson junction inductors to microfabricated capacitor pads, physicists create artificial two-level quantum systems capable of macroscopic electromagnetic superposition. But raw physical qubits remain exceptionally fragile, continually assaulted by microscopic dielectric defects, material impurities, and stray thermal photons that destroy phase coherence within microseconds.",
+        "To conquer this environmental noise, quantum computer architects deploy planar rotated surface codes. By arranging physical transmons into a two-dimensional lattice, errors are actively detected through continuous, non-destructive syndrome measurements executed by interleaved ancilla qubits. Operating with fault-tolerant distances exceeding seven, these lattices suppress logical error rates exponentially. Once an architecture fields roughly four thousand error-corrected logical qubits, Shor's algorithm transitions from theoretical mathematics into an operational weapon capable of shattering RSA-2048 and elliptic-curve cryptography in seconds.",
+        "This looming cryptographic threshold has triggered an aggressive, covert intelligence race across the globe. As Washington counter-intelligence insider and former KGB Major Yuri Shvets has documented, Soviet intelligence recognized the strategic primacy of signals interception decades ago. The KGB's Eighth Chief Directorate was dedicated entirely to breaking Western diplomatic ciphers, tapping undersea military communication conduits, and exfiltrating encrypted diplomatic cables with the explicit intent of storing them until codebreaking advances rendered them readable.",
+        "According to Shvets, contemporary foreign intelligence services—especially those operating within Moscow and Beijing—are executing this identical doctrine at massive scale through Harvest Now, Decrypt Later operations. Adversary cyber units are continuously vacuuming up petabytes of encrypted Western military telemetry, diplomatic traffic, and intellectual property. They cannot decrypt this intelligence today; they are banking the data until fault-tolerant quantum processors come online, confident that twenty-year-old secrets will still compromise national security.",
+        "Relying on legacy encryption while assuming practical fault-tolerant quantum computers remain decades away is a fatal strategic blunder. The global migration toward post-quantum lattice-based algorithms cannot wait for formal commercial announcements; the exfiltration and storage of encrypted state secrets is occurring right now across compromised backbones. In the modern cryptographic theater, whichever superpower first scales error-corrected quantum coherence will hold the master keys to the digital world.",
+        "Audit the dilution cryostats, deploy post-quantum cryptographic standards immediately, and refuse to let tomorrow's algorithms dismantle today's sovereignty. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 180,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-17/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-07-17/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-07-17/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-07-17/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-07-17/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-07-17/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-17.webp",
+      "audio": "audio/2026-10-07-17.mp3",
+      "cover_video": "thumbs/2026-10-07-17.mp4"
+    },
+    {
       "id": "2026-10-07-16",
       "hour": "16:00",
       "date": "2026-10-07",

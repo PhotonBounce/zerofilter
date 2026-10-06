@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-17",
-      "date": "2026-10-07",
-      "hour": "17:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Superconducting transmon qubit coherence limits, surface code syndrome extraction, and Yuri Shvets on Soviet quantum cryptography intercept efforts"
-    },
-    {
       "id": "2026-10-07-18",
       "date": "2026-10-07",
       "hour": "18:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Robert Monroe Gateway hemi-sync binaural frequency following response, astral projection archives, and Yuri Shvets on Soviet psychotronic remote observation units"
+    },
+    {
+      "id": "2026-10-07-20",
+      "date": "2026-10-07",
+      "hour": "20:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Silicon Valley defense cloud lobbying, FISA 702 backdoor renewals, and Yuri Shvets on KGB domestic surveillance telecommunications wiretaps"
     }
   ]
 }
