@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-18",
+      "hour": "18:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Hormuz Strait Electronic Spoofing, Drone Guidance Backdoors & Axis Tech Barter",
+      "subject": "Hourly uncensored breakdown: Rex Vance details Iranian GNSS spoofing rings in the Strait of Hormuz, Shahed loitering munition inertial navigation systems, and Yuri Shvets's insider analysis of Moscow-Tehran military-technical exchanges and illicit dual-use avionics pipelines.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is eighteen hundred hours. In the narrow maritime choke point of the Strait of Hormuz, commercial tankers, container ships, and naval patrols are encountering unprecedented electronic warfare. High-power shore-based transmitters operated by the Islamic Revolutionary Guard Corps are actively spoofing civilian Global Navigation Satellite Systems, broadcasting false satellite ephemeris data that manipulates vessel automatic identification systems. Tankers operating in international transit lanes suddenly find their shipboard chartplotters indicating they have entered Iranian territorial waters, creating artificial navigational pretexts for maritime seizures and coastal boardings.",
+        "Simultaneously, Iranian drone engineers have upgraded the navigation stacks across their Shahed-series one-way attack drones. Originally reliant on commercial satellite positioning receivers vulnerable to tactical GPS jamming, recent teardowns of downed airframes reveal multi-element CRPA controlled-reception pattern antennas and advanced strapdown inertial navigation systems. These hardened guidance units integrate MEMS gyroscopes and optical terrain-matching sensors, allowing loitering munitions to maintain dead-reckoning accuracy across contested corridors even when adversary jamming pods blanket the entire electromagnetic spectrum.",
+        "This rapid avionics leap is not an isolated domestic achievement; it is fueled by a direct bilateral technology exchange. As former KGB intelligence officer and Washington counter-intelligence insider Yuri Shvets has repeatedly disclosed, the geopolitical partnership between Moscow and Tehran has transformed into a high-stakes military barter pact. Faced with crippling international sanctions, Russia trades advanced electronic warfare gear, air defense radars, and space-based reconnaissance data directly in exchange for Iranian drone swarms and ballistic missile shipments.",
+        "According to Shvets, the intelligence lineage behind this cooperation traces directly back to Soviet-era Middle Eastern proxy networks. Moscow's defense establishment provides Tehran with specialized frequency-hopping electronic countermeasures and signals interception software originally perfected against NATO borders. In return, Iranian technical teams supply combat telemetry and field diagnostics, enabling both regimes to iteratively patch guidance vulnerabilities and circumvent Western export controls through third-party shell corporations operating in Dubai and Central Asia.",
+        "Western policy responses remain dangerously reactive, treating maritime harassment in the Persian Gulf and aerial strikes across Eastern Europe as disconnected regional crises. In reality, they represent a unified, synchronized asymmetric warfare testbed. Dual-use microelectronics manufactured in allied nations continue slipping through porous supply chains, ending up in both Iranian drones and Russian guidance computers to test Western integrated air defenses.",
+        "Audit the avionics supply chains, sever the illicit maritime tech corridors, and dismantle the barter networks before electronic warfare blinds our strategic waterways. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 180,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-18/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-07-18/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-07-18/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-07-18/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-07-18/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-07-18/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-18.webp",
+      "audio": "audio/2026-10-07-18.mp3",
+      "cover_video": "thumbs/2026-10-07-18.mp4"
+    },
+    {
       "id": "2026-10-07-17",
       "hour": "17:00",
       "date": "2026-10-07",

@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-18",
-      "date": "2026-10-07",
-      "hour": "18:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Hormuz Strait electronic spoofing, Iranian drone guidance backdoors, and Yuri Shvets on Moscow-Tehran military intelligence exchanges"
-    },
-    {
       "id": "2026-10-07-19",
       "date": "2026-10-07",
       "hour": "19:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Silicon Valley defense cloud lobbying, FISA 702 backdoor renewals, and Yuri Shvets on KGB domestic surveillance telecommunications wiretaps"
+    },
+    {
+      "id": "2026-10-07-21",
+      "date": "2026-10-07",
+      "hour": "21:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Quantum annealing in flux qubits, adiabatic shortcuts to ground states, and Yuri Shvets on Soviet cryogenic supercomputing and SIGINT cryptanalysis"
     }
   ]
 }
