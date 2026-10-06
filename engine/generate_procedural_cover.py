@@ -325,6 +325,58 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
             # Severed dotted connection lines
             draw.line([(ox, oy), (ox - int(math.cos(o_ang) * 40), oy - int(math.sin(o_ang) * 40))], fill=(255, 60, 40), width=1)
 
+    elif theme in ("smoky_dragon", "retrocausality"):
+        # John Archibald Wheeler's Smoky Dragon & Quantum Retrocausality
+        # 1. Mach-Zehnder Optical Interferometer Geometry
+        bs1_x, bs1_y = cx - 360, cy
+        m1_x, m1_y = cx, cy - 200
+        m2_x, m2_y = cx, cy + 200
+        bs2_x, bs2_y = cx + 360, cy
+
+        # Beam paths (Upper Path A & Lower Path B)
+        draw.line([(bs1_x - 100, bs1_y), (bs1_x, bs1_y)], fill=(0, 255, 240), width=3)  # Input laser
+        draw.line([(bs1_x, bs1_y), (m1_x, m1_y)], fill=(0, 220, 255), width=2)           # Path A1
+        draw.line([(m1_x, m1_y), (bs2_x, bs2_y)], fill=(0, 220, 255), width=2)           # Path A2
+        draw.line([(bs1_x, bs1_y), (m2_x, m2_y)], fill=(255, 160, 60), width=2)          # Path B1
+        draw.line([(m2_x, m2_y), (bs2_x, bs2_y)], fill=(255, 160, 60), width=2)          # Path B2
+
+        # 2. Wheeler's "Smoky Body" — Swirling unobserved quantum probability field
+        random.seed(77)
+        for sy in range(cy - 160, cy + 160, 6):
+            pts = []
+            for sx in range(cx - 240, cx + 240, 8):
+                sw1 = math.sin(sx * 0.025 + sy * 0.03)
+                sw2 = math.cos(sx * 0.015 - sy * 0.02)
+                s_amp = (sw1 + sw2) * 18.0
+                pts.append((sx, sy + s_amp))
+            if len(pts) > 1:
+                # Ghostly smoke gradient
+                s_alpha = int(45 + 55 * math.sin((sy - (cy - 160)) / 320.0 * math.pi))
+                draw.line(pts, fill=(s_alpha // 2, s_alpha, int(s_alpha * 1.4)), width=1)
+
+        # 3. Optical components (Beamsplitters & Mirrors)
+        # BS1 (The Tail)
+        draw.line([(bs1_x - 25, bs1_y - 25), (bs1_x + 25, bs1_y + 25)], fill=(255, 255, 255), width=3)
+        draw.text((bs1_x - 85, bs1_y - 40), "THE TAIL [BS1]", fill=(0, 255, 220))
+
+        # M1 & M2 Mirrors
+        draw.line([(m1_x - 20, m1_y + 20), (m1_x + 20, m1_y - 20)], fill=(0, 200, 255), width=4)
+        draw.line([(m2_x - 20, m2_y - 20), (m2_x + 20, m2_y + 20)], fill=(255, 140, 50), width=4)
+
+        # BS2 (Delayed Choice Actuator)
+        draw.line([(bs2_x - 25, bs2_y - 25), (bs2_x + 25, bs2_y + 25)], fill=(255, 220, 60), width=3)
+        draw.text((bs2_x - 60, bs2_y - 45), "DELAYED-CHOICE BS2", fill=(255, 220, 80))
+
+        # 4. Detectors D1 and D2 (The Teeth)
+        d1_x, d1_y = bs2_x + 80, bs2_y - 60
+        d2_x, d2_y = bs2_x + 80, bs2_y + 60
+        draw.line([(bs2_x, bs2_y), (d1_x, d1_y)], fill=(0, 255, 200), width=2)
+        draw.line([(bs2_x, bs2_y), (d2_x, d2_y)], fill=(255, 100, 80), width=2)
+        draw.rectangle([d1_x - 8, d1_y - 12, d1_x + 16, d1_y + 12], fill=(10, 50, 60), outline=(0, 255, 220), width=2)
+        draw.rectangle([d2_x - 8, d2_y - 12, d2_x + 16, d2_y + 12], fill=(60, 20, 20), outline=(255, 100, 80), width=2)
+        draw.text((d1_x + 24, d1_y - 8), "TEETH [D1: WAVE]", fill=(0, 255, 200))
+        draw.text((d2_x + 24, d2_y - 8), "TEETH [D2: PARTICLE]", fill=(255, 100, 80))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -383,6 +435,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "ORBITAL QKD DOWNLINK // 1550nm ADAPTIVE OPTICS // 500KM LEO TRACK // GROUND SIGINT CONDUIT", fill=(0, 255, 200))
     elif theme in ("holographic", "scrambler"):
         draw.text((40, 60), "HAYDEN-PRESKILL QUANTUM SCRAMBLING // EVENT HORIZON HAWKING EMISSION // ADS/CFT HORIZON", fill=(200, 160, 255))
+    elif theme in ("smoky_dragon", "retrocausality"):
+        draw.text((40, 60), "WHEELER'S SMOKY DRAGON // DELAYED-CHOICE INTERFEROMETER // DIRECTORATE S INFILTRATION AUDIT", fill=(0, 240, 255))
     elif theme in ("iit_phi", "causal_complex"):
         draw.text((40, 60), "INTEGRATED INFORMATION THEORY (IIT 4.0) // MAXIMAL CAUSAL COMPLEX Φ = 4.82 // LAB-12 TOXICOLOGY", fill=(255, 220, 60))
     elif theme in ("conscious_agents", "hoffman"):
