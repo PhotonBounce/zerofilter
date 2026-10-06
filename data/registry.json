@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 22,
+  "total_releases": 23,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -176,6 +176,14 @@
       "title": "Donald Hoffman Conscious Agent Networks, Spacetime Emergence & KGB Reflexive Control",
       "audio": "audio/2026-10-06-22.mp3",
       "cover_video": "thumbs/2026-10-06-22.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-06-23",
+      "seconds": 176,
+      "title": "Holographic Information Scrambling, Black Hole Horizons & Cyprus Tech Laundering",
+      "audio": "audio/2026-10-06-23.mp3",
+      "cover_video": "thumbs/2026-10-06-23.mp4",
       "status": "published_production"
     }
   ]

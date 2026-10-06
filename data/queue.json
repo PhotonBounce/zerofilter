@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-06-23",
-      "date": "2026-10-06",
-      "hour": "23:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Holographic principle and quantum black hole information scrambling, combined with Yuri Shvets on Cyprus financial laundering conduits for military microelectronics"
-    },
-    {
       "id": "2026-10-07-00",
       "date": "2026-10-07",
       "hour": "00:00",
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Satellite QKD constellation decoherence, deep-space optical links, and Yuri Shvets on KGB space-based SIGINT interception facilities"
+    },
+    {
+      "id": "2026-10-07-01",
+      "date": "2026-10-07",
+      "hour": "01:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Quantum vacuum Casimir micro-thrusters, orbital optical lattices, and Yuri Shvets on Russian space-based kinetic anti-satellite development programs"
     }
   ]
 }

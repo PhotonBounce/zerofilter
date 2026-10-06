@@ -124,6 +124,40 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         for (ax, ay, _) in agent_nodes[::4]:
             draw.line([(ax, ay), (cx + (ax - cx) * 1.3, height - 30)], fill=(0, 180, 240), width=1)
 
+    elif theme in ("holographic", "scrambler"):
+        # Holographic Principle & Hayden-Preskill Quantum Information Scrambler
+        # 1. Gravitational lensing accretion ring & event horizon
+        for r in range(280, 40, -8):
+            factor = (280 - r) / 240.0
+            color_int = int(255 * factor)
+            draw.ellipse([cx - r, cy - r, cx + r, cy + r], outline=(int(color_int * 0.9), int(color_int * 0.6), 255), width=2)
+
+        # 2. Black hole central singularity (pure darkness absorbing index)
+        draw.ellipse([cx - 50, cy - 50, cx + 50, cy + 50], fill=(0, 0, 0), outline=(180, 100, 255), width=3)
+
+        # 3. Holographic boundary scrambling matrix (radial quantum entanglement cords)
+        random.seed(88)
+        for deg in range(0, 360, 6):
+            rad = math.radians(deg)
+            inner_r = 55
+            outer_r = 420 + random.randint(-20, 40)
+            x1 = cx + int(math.cos(rad) * inner_r)
+            y1 = cy + int(math.sin(rad) * inner_r)
+            x2 = cx + int(math.cos(rad) * outer_r)
+            y2 = cy + int(math.sin(rad) * outer_r)
+            beam_col = (random.randint(60, 160), random.randint(180, 255), random.randint(220, 255))
+            draw.line([(x1, y1), (x2, y2)], fill=beam_col, width=1)
+            if deg % 24 == 0:
+                draw.text((x2 - 15, y2 - 6), f"ψ_{deg}°", fill=(100, 255, 240))
+
+        # 4. Hawking radiation photon emission scatter
+        for _ in range(45):
+            angle = random.uniform(0, 2 * math.pi)
+            dist = random.uniform(80, 500)
+            px = cx + int(math.cos(angle) * dist)
+            py = cy + int(math.sin(angle) * dist)
+            draw.ellipse([px - 2, py - 2, px + 2, py + 2], fill=(255, 240, 120), outline=(255, 255, 255))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -176,6 +210,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "DEFENSE PROCUREMENT FORENSICS // AUDIT TRAIL: COST-PLUS CARTELS // UNREDACTED", fill=(255, 90, 70))
     elif theme == "vc_theft":
         draw.text((40, 60), "DEFENSE VC FORENSICS // DUAL-USE TECH DIVERSION // DIRECTORATE T INTERCEPT", fill=(255, 120, 50))
+    elif theme in ("holographic", "scrambler"):
+        draw.text((40, 60), "HAYDEN-PRESKILL QUANTUM SCRAMBLING // EVENT HORIZON HAWKING EMISSION // ADS/CFT HORIZON", fill=(200, 160, 255))
     elif theme in ("conscious_agents", "hoffman"):
         draw.text((40, 60), "CONSCIOUS AGENT DYNAMICS // MARKOVIAN TRANSITION KERNELS // SPACETIME PROJECTION MATRIX", fill=(0, 255, 220))
     elif theme == "consciousness":

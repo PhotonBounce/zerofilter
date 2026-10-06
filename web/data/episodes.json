@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-23",
+      "hour": "23:00",
+      "date": "2026-10-06",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Holographic Information Scrambling, Black Hole Horizons & Cyprus Tech Laundering",
+      "subject": "Hourly uncensored breakdown: Rex Vance pairs the holographic principle and Hayden-Preskill quantum information scrambling with ex-KGB Major Yuri Shvets's unmasking of Cyprus offshore shell networks laundering sanctioned Western military microelectronics into Russian drone factories.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It's twenty-three hundred hours. Modern high-energy physics and international financial forensics are governed by the exact same fundamental conservation law: information cannot be destroyed, no matter how violently you attempt to scramble it. In theoretical quantum gravity, the holographic principle and the Hayden-Preskill protocol demonstrate that when information falls past the event horizon of a black hole, it isn't annihilated. It is rapidly scrambled across the boundary surface through maximal quantum chaos, waiting to be reconstructed by an observer with access to the Hawking radiation spectrum.",
+        "In the financial underworld, illicit procurement cartels attempt to treat offshore shell company networks as event horizons. But as Washington intelligence insider and former KGB Major Yuri Shvets has exposed, no offshore banking corridor is an information sink. Shvets's disclosures reveal how Moscow's intelligence apparatus utilizes Limassol and Nicosia fiduciary trusts to disguise wire transfers from sanctioned Russian defense conglomerates, purchasing dual-use FPGA processors and navigation chips through ostensibly neutral commercial front companies.",
+        "In quantum scrambling, the Hayden-Preskill thought experiment proved that once a system reaches thermal equilibrium, extracting a single qubit of injected information requires collecting only a few additional photons of radiation—provided you possess the system's prior entanglement history. In counter-intelligence financial forensics, the mechanics are identical. You don't need to subpoena every intermediary bank account along the shell pipeline. If you possess the source funding telemetry and the destination receiving manifests at the drone assembly plants, the intermediary scrambling network resolves instantaneously.",
+        "The receipts coming out of downed Russian Geran and Lancet strike drones confirm this mathematical inevitability. Despite dozens of sanctions packages enacted by Western coalitions, teardown forensic audits by Ukrainian military intelligence consistently uncover Texas Instruments power regulators, Analog Devices signal converters, and Swiss-manufactured GNSS transceivers. The components didn't materialize through magic—they were funneled through Cyprus, the UAE, and Central Asian transit conduits using layered shell structures designed to mimic thermodynamic noise.",
+        "Disarming these transnational smuggling pipelines requires replacing legacy bureaucratic sanctions enforcement with real-time graph neural networks and cryptographic bill-of-materials provenance. By embedding physical unclonable functions into defense-critical semiconductors and tracking blockchain-anchored custody handoffs, Western manufacturers can turn every chip into an active provenance beacon. You cannot obscure illicit diversion when every transaction generates immutable telemetry.",
+        "Black holes scramble information, but they never destroy it—and neither do Cypriot bank vaults. The receipts always emerge in the radiation. Trust the physics, follow the wire transfers, and keep your filters at absolute zero. I'm Rex Vance. We'll see you at the top of the hour."
+      ],
+      "seconds": 176,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-23/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-06-23/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-06-23/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-06-23/f04.webp"
+          },
+          {
+            "t": 117,
+            "src": "art/2026-10-06-23/f05.webp"
+          },
+          {
+            "t": 147,
+            "src": "art/2026-10-06-23/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-06-23.webp",
+      "audio": "audio/2026-10-06-23.mp3",
+      "cover_video": "thumbs/2026-10-06-23.mp4"
+    },
+    {
       "id": "2026-10-06-22",
       "hour": "22:00",
       "date": "2026-10-06",
