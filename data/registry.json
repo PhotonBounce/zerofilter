@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 102,
+  "total_releases": 103,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -816,6 +816,14 @@
       "title": "Suwalki Corridor Rail Bottlenecks, Kaliningrad Iskander Repositioning & Soviet Baltic Battle Plans",
       "audio": "audio/2026-10-10-06.mp3",
       "cover_video": "thumbs/2026-10-10-06.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-07",
+      "seconds": 183,
+      "title": "Munitions Stockpile Propellant Degradation, Nitrocellulose Cartels & Soviet Shell Chemistry Fraud",
+      "audio": "audio/2026-10-10-07.mp3",
+      "cover_video": "thumbs/2026-10-10-07.mp4",
       "status": "published_production"
     }
   ]

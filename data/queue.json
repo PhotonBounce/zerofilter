@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-07",
-      "date": "2026-10-10",
-      "hour": "07:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Munitions stockpile propellant degradation falsification, nitrocellulose cartel price-gouging, and Yuri Shvets on Soviet artillery shell chemistry adulteration"
-    },
-    {
       "id": "2026-10-10-08",
       "date": "2026-10-10",
       "hour": "08:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Neural biophoton emission in cerebellar Purkinje cells, metabolic uncoupling, and Yuri Shvets on Soviet bio-energetic psychotronics archives"
+    },
+    {
+      "id": "2026-10-10-10",
+      "date": "2026-10-10",
+      "hour": "10:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Barents Sea polar fiber monitoring, Spitsbergen seabed surveillance, and Yuri Shvets on Soviet Northern Fleet polar cable interdiction"
     }
   ]
 }
