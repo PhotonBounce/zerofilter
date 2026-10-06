@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **736 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **744 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 91 completed, 91 total releases published.
-  - `data/queue.json`: Head item is Episode 92 (`2026-10-09-20`).
-  - `data/registry.json`: 91 active releases logged.
+  - `status/pipeline_state.json`: Episode 92 completed, 92 total releases published.
+  - `data/queue.json`: Head item is Episode 93 (`2026-10-09-21`).
+  - `data/registry.json`: 92 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -118,10 +118,11 @@
   - `2026-10-09-17` (176s) — Integrated Information Theory, Coma Perturbational Complexity & Soviet Psychotropic Trials
   - `2026-10-09-18` (172s) — Red Sea Subsea Cable Sabotage, Bab el-Mandeb Chokepoints & Soviet Horn of Africa Naval Reconnaissance
   - `2026-10-09-19` (182s) — Defense Fuel Smuggling Syndicates, NATO Bunkering Fraud & Soviet Black Sea Fleet Diversion Cartels
+  - `2026-10-09-20` (182s) — Bose-Einstein Condensate Atom Interferometry, Subterranean Bunker Gravimetry & Soviet Non-Acoustic ASW
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 546 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `e1965ed0fd14a9d59aef288308ef0a10c961487d`).
+- **Story Art Frames:** 552 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `dad61b069ac7a9c0c008214046e36d7ca93cd775`).
 
 ---
 

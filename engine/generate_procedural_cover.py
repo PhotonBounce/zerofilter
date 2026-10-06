@@ -977,6 +977,89 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, cy - 90), "DIRECTORATE T DISINFORMATION", fill=(255, 80, 80))
         draw.text((width - 310, cy - 70), "STATUS: ARCHIVAL SIGINT REVEALED", fill=(200, 200, 200))
 
+    elif theme in ("bec", "atom_interferometer", "atom_interferometry", "quantum_gravimeter", "gravimetric_mapping", "cold_atom"):
+        # Bose-Einstein Condensate Atom Interferometry & Subterranean Gravimetric Void Mapping
+        # 1. Subsurface Geological Density Stratification Grid
+        for gy in range(cy - 120, height - 80, 30):
+            pts = []
+            for gx in range(60, width - 60, 20):
+                g_wave = math.sin(gx * 0.01 + gy * 0.02) * 8.0
+                pts.append((gx, gy + int(g_wave)))
+            draw.line(pts, fill=(18, 30, 42), width=1)
+
+        # 2. Vertical Atom Fountain Vacuum Column & Bragg Laser Pulses
+        col_x = cx - 120
+        col_w = 90
+        draw.rectangle([col_x - col_w//2, 90, col_x + col_w//2, height - 90], fill=(10, 22, 35), outline=(0, 220, 255), width=2)
+        draw.text((col_x - 42, 98), "VACUUM TUBE", fill=(0, 240, 255))
+        draw.text((col_x - 38, 114), "10^-10 MBAR", fill=(120, 220, 255))
+
+        # Three Horizontal Optical Raman/Bragg Pulses (π/2, π, π/2)
+        pulse_positions = [
+            (cy - 140, "π/2 SPLITTER PULSE (k_eff)"),
+            (cy, "π MIRROR PULSE (INVERSION)"),
+            (cy + 140, "π/2 RECOMBINER PULSE")
+        ]
+        for py, plabel in pulse_positions:
+            # Laser beam line
+            draw.line([(col_x - col_w//2 - 40, py), (col_x + col_w//2 + 40, py)], fill=(0, 255, 200), width=3)
+            draw.line([(col_x - col_w//2 - 40, py), (col_x + col_w//2 + 40, py)], fill=(255, 255, 255), width=1)
+            draw.text((col_x + col_w//2 + 48, py - 6), plabel, fill=(0, 255, 220))
+
+        # Cold Matter Wave Trajectories (Two interfering atomic paths)
+        pts_path_a = []
+        pts_path_b = []
+        for step in range(60):
+            t_rel = step / 59.0
+            y_curr = (cy - 140) + int(280 * t_rel)
+            # Rhombus-like interferometer envelope
+            sep = math.sin(t_rel * math.pi) * 28.0
+            pts_path_a.append((col_x - int(sep), y_curr))
+            pts_path_b.append((col_x + int(sep), y_curr))
+
+        draw.line(pts_path_a, fill=(255, 200, 60), width=2)
+        draw.line(pts_path_b, fill=(0, 240, 255), width=2)
+
+        # Condensate Cloud Source (Rb-87 Condensate at top)
+        draw.ellipse([col_x - 12, cy - 152, col_x + 12, cy - 128], fill=(0, 255, 240), outline=(255, 255, 255), width=2)
+        draw.text((col_x - 48, cy - 170), "Rb-87 BEC (50 pK)", fill=(255, 240, 100))
+
+        # 3. Subterranean Bunker Void / Gravimetric Anomaly (Right)
+        void_x, void_y = cx + 240, cy + 60
+        void_w, void_h = 180, 110
+        # Hardened bunker structure outline
+        draw.rectangle([void_x - void_w//2, void_y - void_h//2, void_x + void_w//2, void_y + void_h//2], fill=(25, 14, 18), outline=(255, 80, 60), width=2)
+        draw.text((void_x - 70, void_y - 45), "[SUBTERRANEAN BUNKER VOID]", fill=(255, 100, 80))
+        draw.text((void_x - 70, void_y - 25), "MASS DEFICIT: -1.4 x 10^7 KG", fill=(255, 200, 80))
+        draw.text((void_x - 70, void_y + 15), "DEPTH: 48M BURIED // REINFORCED", fill=(200, 200, 200))
+        draw.text((void_x - 70, void_y + 35), "GRAVITY GRADIENT: Δg = -14.2 EÖTVÖS", fill=(255, 60, 60))
+
+        # Gravity anomaly gradient arrows converging on deficit
+        for deg in range(0, 360, 45):
+            rad = math.radians(deg)
+            ax1 = void_x + int(math.cos(rad) * 130)
+            ay1 = void_y + int(math.sin(rad) * 90)
+            ax2 = void_x + int(math.cos(rad) * 105)
+            ay2 = void_y + int(math.sin(rad) * 70)
+            draw.line([(ax1, ay1), (ax2, ay2)], fill=(255, 120, 50), width=2)
+
+        # 4. Telemetry Sidebars
+        # Left Box: Quantum Interferometer Sensor Specs
+        draw.rectangle([60, cy - 200, 290, cy - 90], fill=(12, 24, 38), outline=(0, 220, 255), width=1)
+        draw.text((70, cy - 190), "[QUANTUM GRAVIMETRY TELEMETRY]", fill=(0, 240, 255))
+        draw.text((70, cy - 170), "PHASE: ΔΦ = k_eff · g · T^2", fill=(255, 220, 100))
+        draw.text((70, cy - 150), "SENSITIVITY: 10^-9 m/s^2 / √Hz", fill=(0, 255, 200))
+        draw.text((70, cy - 130), "REPETITION: 2.0 Hz CONTINUOUS", fill=(200, 220, 255))
+        draw.text((70, cy - 110), "DRIFT: ZERO ABSOLUTE CALIBRATION", fill=(0, 255, 220))
+
+        # Right Box: Soviet Non-Acoustic ASW & Submarine Detection Dossier
+        draw.rectangle([width - 320, cy - 200, width - 60, cy - 90], fill=(25, 18, 12), outline=(255, 140, 40), width=1)
+        draw.text((width - 310, cy - 190), "[SOVIET NON-ACOUSTIC ASW]", fill=(255, 160, 50))
+        draw.text((width - 310, cy - 170), "PROJECT SOKOL-K // WAKE DETECTION", fill=(255, 200, 80))
+        draw.text((width - 310, cy - 150), "MAGNETIC & DENSITY ANOMALY DETECTOR", fill=(255, 100, 80))
+        draw.text((width - 310, cy - 130), "SUBMARINE DISPLACEMENT TRACKING", fill=(255, 220, 120))
+        draw.text((width - 310, cy - 110), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     elif theme in ("pear_reg", "cognitive_field", "anomalous_entanglement", "field_reg"):
         # Princeton PEAR Laboratory Quantum Noise REG & Field Consciousness Network
         # 1. Statistical Random Walk Coordinates & Parabolic Sigma Envelopes

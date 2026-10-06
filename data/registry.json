@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 91,
+  "total_releases": 92,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -728,6 +728,14 @@
       "title": "Defense Fuel Smuggling Syndicates, NATO Bunkering Fraud & Soviet Black Sea Fleet Diversion Cartels",
       "audio": "audio/2026-10-09-19.mp3",
       "cover_video": "thumbs/2026-10-09-19.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-20",
+      "seconds": 182,
+      "title": "Bose-Einstein Condensate Atom Interferometry, Subterranean Bunker Gravimetry & Soviet Non-Acoustic ASW",
+      "audio": "audio/2026-10-09-20.mp3",
+      "cover_video": "thumbs/2026-10-09-20.mp4",
       "status": "published_production"
     }
   ]

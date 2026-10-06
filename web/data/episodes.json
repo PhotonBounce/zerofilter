@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-20",
+      "hour": "20:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Bose-Einstein Condensate Atom Interferometry, Subterranean Bunker Gravimetry & Soviet Non-Acoustic ASW",
+      "subject": "Hourly uncensored breakdown: Rex Vance explores cold-atom Bose-Einstein condensate matter-wave gravimetry revealing deeply buried command bunkers, and Yuri Shvets on Soviet non-acoustic naval submarine tracking secrets.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty hundred hours. While defense intelligence has historically relied on synthetic aperture radar and seismic sensor nets to monitor adversary underground installations, an unshieldable quantum surveillance frontier is overturning subterranean warfare. Bose-Einstein condensate atom interferometry exploits macroscopic matter-wave coherence to measure gravitational acceleration gradients with sensitivities exceeding ten to the minus nine meters per second squared. Because gravity cannot be attenuated, blocked, or jammed by any known material, buried reinforced command bunkers and deep underground nuclear enrichment facilities are stripped of their physical concealment.",
+        "Inside a cold-atom quantum gravimeter, clouds of Rubidium-eighty-seven or Strontium atoms are cooled by optical molasses to tens of picokelvin above absolute zero. Retro-reflected laser pulses act as quantum beamsplitters and mirrors, splitting the atomic wavepackets along divergent vertical trajectories before recombining them to produce matter-wave interference fringes. Any localized mass deficit—such as a hollow underground tunnel complex, a reinforced missile silo, or a submarine hull displacing thousands of tons of seawater—induces a distinct gravitational phase shift measurable from airborne or orbital survey platforms.",
+        "This pursuit of non-acoustic gravitational and density anomaly detection is not merely an academic physics milestone; it represents the realization of a classified Soviet naval obsession. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet naval design bureaus and the KGB First Chief Directorate dedicated astronomical black budgets throughout the nineteen-eighties toward developing non-acoustic anti-submarine warfare sensors under codenames such as Project Sokol.",
+        "According to Shvets, as American Ohio-class ballistic missile submarines achieved acoustic quietness that rendered passive hydrophone arrays ineffective, Soviet leadership grew desperate for non-acoustic tracking breakthroughs. Soviet research institutes explored laser airborne wake detection, internal wave thermal scarring, and sensitive torsional gravity gradient meters. Shvets revealed that Soviet military intelligence attempted to deploy airborne gravimeters along transatlantic transit routes to detect the minute mass displacement and hydro-magnetic signatures of submerged NATO ballistic missile submarines running silent beneath the thermocline.",
+        "Today, the transition from crude mechanical Soviet torsion balances to cold-atom matter-wave interferometers makes subterranean and maritime concealment nearly impossible. Military powers can bury command centers beneath hundreds of meters of solid granite, yet airborne quantum gravimetric gradiometers can reconstruct the exact three-dimensional architecture of the hollowed-out chambers simply by measuring local gravity anomalies. In the emerging quantum battlespace, there are no unmapped voids; the mass density of the Earth itself becomes transparent.",
+        "Track the defense advanced quantum sensor procurements, audit the airborne gravimetric mapping flights, and understand that in quantum mechanics, true opacity does not exist. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-20/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-20/f02.webp"
+          },
+          {
+            "t": 61,
+            "src": "art/2026-10-09-20/f03.webp"
+          },
+          {
+            "t": 91,
+            "src": "art/2026-10-09-20/f04.webp"
+          },
+          {
+            "t": 121,
+            "src": "art/2026-10-09-20/f05.webp"
+          },
+          {
+            "t": 152,
+            "src": "art/2026-10-09-20/f06.webp"
+          }
+        ]
+      },
+      "seconds": 182,
+      "thumb": "thumbs/2026-10-09-20.webp",
+      "audio": "audio/2026-10-09-20.mp3",
+      "cover_video": "thumbs/2026-10-09-20.mp4"
+    },
+    {
       "id": "2026-10-09-19",
       "hour": "19:00",
       "date": "2026-10-09",
