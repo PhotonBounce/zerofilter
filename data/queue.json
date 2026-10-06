@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-05",
-      "date": "2026-10-07",
-      "hour": "05:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Quantum spin liquids, topological braiding with non-Abelian anyons, and Yuri Shvets on Soviet cipher apparatus codebreaking attempts"
-    },
-    {
       "id": "2026-10-07-06",
       "date": "2026-10-07",
       "hour": "06:00",
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Undersea fiber optic cable sabotage, seabed acoustic monitoring networks, and Yuri Shvets on Russian GUGI deep-sea covert reconnaissance operations"
+    },
+    {
+      "id": "2026-10-07-07",
+      "date": "2026-10-07",
+      "hour": "07:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Karl Friston Free Energy Principle, Markov blankets in neural inference, and Yuri Shvets on KGB mathematical models of cognitive reflexive control"
     }
   ]
 }

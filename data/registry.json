@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 28,
+  "total_releases": 29,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -224,6 +224,14 @@
       "title": "Defense Supply Chain Phantom Billing, Cost-Plus Grift & Soviet Line X Infiltration",
       "audio": "audio/2026-10-07-04.mp3",
       "cover_video": "thumbs/2026-10-07-04.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-07-05",
+      "seconds": 193,
+      "title": "Quantum Spin Liquids, Topological Braiding & Soviet Cipher Codebreaking",
+      "audio": "audio/2026-10-07-05.mp3",
+      "cover_video": "thumbs/2026-10-07-05.mp4",
       "status": "published_production"
     }
   ]

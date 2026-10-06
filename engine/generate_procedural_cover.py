@@ -417,6 +417,72 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 225, cy + 30), "TAMPER DETECTED", fill=(255, 60, 40))
         draw.text((width - 225, cy + 60), "DIRECTORATE T", fill=(255, 200, 80))
 
+    elif theme in ("spin_liquid", "topological_braiding", "anyon_braiding"):
+        # Kitaev Honeycomb Spin Liquid & Non-Abelian Anyon Braiding Engine
+        # 1. Frustrated Honeycomb Lattice / Kagome background
+        hex_r = 38
+        h_vert = hex_r * 1.5
+        h_horiz = hex_r * math.sqrt(3)
+        for row in range(-2, 16):
+            for col in range(-2, 24):
+                hx = int(col * h_horiz + (row % 2) * (h_horiz / 2.0))
+                hy = int(row * h_vert)
+                # Draw small hexagon vertices and frustrated spin arrows
+                pts = []
+                for a in range(6):
+                    ang = math.radians(a * 60 + 30)
+                    pts.append((hx + int(hex_r * 0.7 * math.cos(ang)), hy + int(hex_r * 0.7 * math.sin(ang))))
+                draw.polygon(pts, outline=(18, 42, 60), fill=None)
+                # Spin orientation arrow
+                spin_up = ((row + col) % 2 == 0)
+                col_spin = (0, 220, 240) if spin_up else (255, 80, 160)
+                sy_dir = -8 if spin_up else 8
+                draw.line([(hx, hy - sy_dir), (hx, hy + sy_dir)], fill=col_spin, width=1)
+                draw.point((hx, hy), fill=(255, 255, 255))
+
+        # 2. Braiding Worldlines (Non-Abelian Anyon trajectories)
+        strands = [
+            (cy - 120, (0, 255, 240), 0.007, 0.0, 75, "ANYON γ1 [MAJORANA ZERO MODE]"),
+            (cy - 40, (255, 60, 180), 0.009, 1.2, 85, "ANYON γ2 [NON-ABELIAN DEFECT]"),
+            (cy + 40, (255, 210, 60), 0.008, 2.4, 80, "ANYON γ3 [CHIRAL EDGE CURRENT]"),
+            (cy + 120, (60, 255, 140), 0.006, 3.6, 70, "ANYON γ4 [TOPOLOGICAL QUBIT]")
+        ]
+
+        for base_y, col_line, freq, phase, amp, label in strands:
+            pts = []
+            for x in range(60, width - 60, 3):
+                # Braid weaving equation
+                y_val = base_y + amp * math.sin(x * freq + phase) + (amp * 0.35) * math.cos(x * freq * 2.2 - phase)
+                pts.append((x, y_val))
+            if len(pts) > 1:
+                # Main braid line with glow
+                draw.line(pts, fill=col_line, width=3)
+                draw.line([(x, y - 1) for x, y in pts], fill=(col_line[0]//2, col_line[1]//2, col_line[2]//2), width=1)
+                draw.line([(x, y + 1) for x, y in pts], fill=(col_line[0]//2, col_line[1]//2, col_line[2]//2), width=1)
+
+            # Strand label
+            draw.text((80, base_y - 25), label, fill=col_line)
+
+        # 3. Braiding Node Intersections / Topological Crossings
+        random.seed(42)
+        for i in range(12):
+            bx = 180 + i * 80
+            by = cy + int(60 * math.sin(i * 0.8))
+            draw.ellipse([bx - 10, by - 10, bx + 10, by + 10], outline=(255, 255, 255), width=2)
+            draw.ellipse([bx - 4, by - 4, bx + 4, by + 4], fill=(0, 255, 240))
+            draw.text((bx - 22, by + 14), f"σ_{i+1} BRAID", fill=(200, 240, 255))
+
+        # 4. Cryptographic Parity & Monodromy Matrix HUD
+        draw.rectangle([60, cy - 200, 310, cy - 140], fill=(10, 25, 38), outline=(0, 255, 240), width=1)
+        draw.text((70, cy - 190), "UNITARY MONODROMY: U = exp(iπ/8 σ_z)", fill=(0, 255, 220))
+        draw.text((70, cy - 170), "TOPOLOGICAL PROTECTION: DECOHERENCE = 0", fill=(255, 220, 80))
+        draw.text((70, cy - 150), "CHERN NUMBER: C = 1 // CHIRAL FERMION", fill=(255, 120, 200))
+
+        draw.rectangle([width - 330, cy + 140, width - 60, cy + 200], fill=(25, 15, 25), outline=(255, 80, 180), width=1)
+        draw.text((width - 320, cy + 150), "[8TH CHIEF DIRECTORATE AUDIT]", fill=(255, 100, 200))
+        draw.text((width - 320, cy + 170), "SOVIET CIPHER APPARATUS // FIALKA-M", fill=(255, 220, 100))
+        draw.text((width - 320, cy + 185), "STATUS: NON-COMPUTABLE CODEBREAKING", fill=(255, 60, 60))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -481,6 +547,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "INTEGRATED INFORMATION THEORY (IIT 4.0) // MAXIMAL CAUSAL COMPLEX Φ = 4.82 // LAB-12 TOXICOLOGY", fill=(255, 220, 60))
     elif theme in ("conscious_agents", "hoffman"):
         draw.text((40, 60), "CONSCIOUS AGENT DYNAMICS // MARKOVIAN TRANSITION KERNELS // SPACETIME PROJECTION MATRIX", fill=(0, 255, 220))
+    elif theme in ("spin_liquid", "topological_braiding", "anyon_braiding"):
+        draw.text((40, 60), "QUANTUM SPIN LIQUID // NON-ABELIAN TOPOLOGICAL BRAIDING // 8TH CHIEF CIPHER AUDIT", fill=(0, 255, 220))
     elif theme == "consciousness":
         draw.text((40, 60), "NEURAL BIOPHOTON TELEMETRY // TUBULIN DIPOLE HARMONICS // BANDWIDTH 614 THz", fill=(80, 255, 180))
     else:
