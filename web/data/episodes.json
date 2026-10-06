@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-03",
+      "hour": "03:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Special Access Program Financial Obfuscation, Defense Intelligence SAP Unvouchered Funds & Soviet Clandestine Accounts",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates unvouchered funds inside defense Special Access Programs, phantom billing carve-outs, and Yuri Shvets on KGB First Chief Directorate clandestine bank accounts.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero three hundred hours. In the classified recesses of the United States defense apparatus, the most impregnable barrier against financial oversight is not encryption or perimeter security, but classification itself. Under the umbrella of Special Access Programs, or SAPs, billions of taxpayer dollars flow through unvouchered accounts and carved-out black budgets where standard government accounting rules cease to exist. By legally restricting audits to a tiny, compartmentalized cadre of cleared personnel, defense intelligence agencies and legacy aerospace primes have constructed a self-sealing financial ecosystem immune to congressional subpoena.",
+        "Recent internal audits from the Department of Defense Inspector General reveal that unacknowledged SAPs frequently fail to maintain basic transaction ledgers. Defense primes exploit this opacity by assigning massive overhead markups to classified line items, billing the Pentagon for phantom subcontractor networks, unverified software licenses, and redundant prototyping facilities that are never subjected to independent inventory verification. When government auditors request transaction receipts, program managers invoke national security statutory waivers, effectively stonewalling oversight while siphoning capital into unmonitored corporate balance sheets.",
+        "This institutionalized financial obfuscation is the Western corporate mirror of the clandestine accounting systems perfected by Soviet intelligence. Former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently detailed how the KGB's First Chief Directorate operated parallel financial mechanisms completely severed from the state budget. The First Chief Directorate established hundreds of commercial shell companies, offshore accounts in Switzerland, Austria, and Cyprus, and unvouchered hard-currency slush funds ostensibly earmarked for foreign clandestine operations.",
+        "According to Shvets, corrupt KGB general officers and Gosplan apparatchiks routinely diverted state gold reserves and energy export revenues into these unmonitored accounts. Because the funds were classified as top secret intelligence reserves, no Soviet state audit organ possessed the clearance to inspect the ledgers. When the Soviet Union collapsed, billions of dollars vanished overnight into private offshore bank accounts controlled by former KGB officers, creating the very oligarchic networks that dominate the Kremlin today.",
+        "When modern defense contractors lobby to expand unacknowledged Special Access Programs under the guise of geopolitical urgency, they are replicating this exact mechanism. Compartmentalization designed to protect technical blueprints becomes a protective shield for systemic billing fraud and institutional self-enrichment. Secrecy without independent audit inevitably breeds institutional corruption.",
+        "Audit the unvouchered SAP ledgers, trace the offshore shell conduits, and demand unredacted defense balance sheets. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-03/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-09-03/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-09-03/f03.webp"
+          },
+          {
+            "t": 85,
+            "src": "art/2026-10-09-03/f04.webp"
+          },
+          {
+            "t": 113,
+            "src": "art/2026-10-09-03/f05.webp"
+          },
+          {
+            "t": 142,
+            "src": "art/2026-10-09-03/f06.webp"
+          }
+        ]
+      },
+      "seconds": 170,
+      "thumb": "thumbs/2026-10-09-03.webp",
+      "audio": "audio/2026-10-09-03.mp3",
+      "cover_video": "thumbs/2026-10-09-03.mp4"
+    },
+    {
       "id": "2026-10-09-02",
       "hour": "02:00",
       "date": "2026-10-09",

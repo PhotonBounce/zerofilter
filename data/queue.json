@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-03",
-      "date": "2026-10-09",
-      "hour": "03:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Special Access Program financial obfuscation, defense intelligence SAP unvouchered funds, and Yuri Shvets on KGB First Chief Directorate clandestine bank accounts"
-    },
-    {
       "id": "2026-10-09-04",
       "date": "2026-10-09",
       "hour": "04:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Predictive processing in visual hallucinations, Bayesian priors during sensory deprivation, and Yuri Shvets on KGB psychotronic isolation experiments"
+    },
+    {
+      "id": "2026-10-09-06",
+      "date": "2026-10-09",
+      "hour": "06:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Strait of Hormuz acoustic hydrophone sensor gates, clandestine Iranian mini-submarine deployments, and Yuri Shvets on Soviet Persian Gulf choke point naval doctrines"
     }
   ]
 }
