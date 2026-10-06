@@ -1869,6 +1869,78 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "BIO-CYBERNETIC TELEMETRY", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("gibraltar_asw", "gibraltar_strait", "strait_of_gibraltar", "morocco_radar"):
+        # Strait of Gibraltar Undersea Acoustic Arrays, Thermocline Baffles & Soviet 5th Eskadra
+        # 1. Background hydrographic grid & depth sounding lines
+        for gy in range(cy - 220, cy + 220, 24):
+            draw.line([(60, gy), (width - 60, gy)], fill=(8, 22, 34), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(8, 22, 34), width=1)
+
+        # 2. Strait Coastlines (North: Spain/Gibraltar, South: Morocco/Ceuta)
+        # European Coastline (North, Upper Section)
+        draw.polygon([(60, cy - 220), (cx - 160, cy - 130), (cx + 80, cy - 145), (cx + 220, cy - 110), (width - 60, cy - 220)], fill=(15, 24, 28), outline=(60, 130, 150), width=2)
+        draw.text((cx - 140, cy - 170), "SPAIN // TARIFA POINT", fill=(80, 180, 200))
+        draw.text((cx + 100, cy - 160), "ROCK OF GIBRALTAR [UK]", fill=(255, 220, 100))
+        draw.text((cx + 100, cy - 142), "NATO ASW SURVEILLANCE RADAR", fill=(0, 240, 255))
+
+        # African Coastline (South, Lower Section)
+        draw.polygon([(60, cy + 220), (cx - 150, cy + 130), (cx + 60, cy + 150), (cx + 240, cy + 115), (width - 60, cy + 220)], fill=(24, 18, 14), outline=(160, 100, 60), width=2)
+        draw.text((cx - 130, cy + 175), "MOROCCO // CAPE SPARTEL", fill=(200, 140, 80))
+        draw.text((cx + 80, cy + 170), "CEUTA // JEBEL MUSA", fill=(255, 140, 50))
+        draw.text((cx + 80, cy + 188), "MOROCCAN COASTAL RADAR GATE", fill=(255, 80, 60))
+
+        # 3. Two-Layer Counter-Current Flow & Halocline Thermocline
+        # Atlantic Surface Inflow (Eastward, Cyan)
+        for arrow_x in range(cx - 240, cx + 240, 70):
+            draw.line([(arrow_x, cy - 40), (arrow_x + 45, cy - 40)], fill=(0, 240, 255), width=2)
+            draw.polygon([(arrow_x + 45, cy - 40), (arrow_x + 36, cy - 44), (arrow_x + 36, cy - 36)], fill=(0, 240, 255))
+        draw.text((cx - 120, cy - 58), "ATLANTIC INFLOW: +2.8 KTS (EASTBOUND)", fill=(0, 255, 240))
+
+        # Mediterranean Deep Outflow (Westward, Amber)
+        for arrow_x in range(cx - 240, cx + 240, 70):
+            draw.line([(arrow_x + 45, cy + 40), (arrow_x, cy + 40)], fill=(255, 140, 40), width=2)
+            draw.polygon([(arrow_x, cy + 40), (arrow_x + 9, cy + 36), (arrow_x + 9, cy + 44)], fill=(255, 140, 40))
+        draw.text((cx - 130, cy + 50), "MEDITERRANEAN DEEP OUTFLOW: -2.1 KTS (WESTBOUND)", fill=(255, 160, 50))
+
+        # Camarinal Sill Bathymetric Ridge (Center Barrier at 280m Depth)
+        draw.arc([cx - 120, cy - 50, cx + 120, cy + 50], start=160, end=380, fill=(0, 200, 240), width=2)
+        draw.text((cx - 75, cy - 12), "CAMARINAL SILL [280M]", fill=(0, 255, 220))
+
+        # 4. SOSUS Fixed Seabed Hydrophone Barrier Array
+        hydro_x1, hydro_x2 = cx - 180, cx + 180
+        draw.line([(hydro_x1, cy), (hydro_x2, cy)], fill=(255, 60, 40), width=2)
+        for hx in range(hydro_x1, hydro_x2 + 1, 40):
+            # Hydrophone sensor node
+            draw.rectangle([hx - 4, cy - 4, hx + 4, cy + 4], fill=(255, 255, 255), outline=(255, 60, 40), width=1)
+            # Acoustic detection cone radiating upward
+            draw.line([(hx, cy), (hx - 12, cy - 25)], fill=(255, 80, 60), width=1)
+            draw.line([(hx, cy), (hx + 12, cy - 25)], fill=(255, 80, 60), width=1)
+        draw.text((cx - 95, cy + 12), "FIXED SOSUS HYDROPHONE ARRAY", fill=(255, 80, 60))
+
+        # Submarine Silhouette / Drift Transit Profile (Project 671 Victor-class under thermocline)
+        sub_x, sub_y = cx + 30, cy + 20
+        draw.ellipse([sub_x - 32, sub_y - 8, sub_x + 32, sub_y + 8], fill=(18, 12, 16), outline=(255, 200, 60), width=2)
+        draw.rectangle([sub_x - 6, sub_y - 16, sub_x + 6, sub_y - 8], fill=(255, 200, 60))
+        draw.text((sub_x - 55, sub_y - 28), "SOVIET VICTOR-CLASS DRIFT", fill=(255, 220, 80))
+
+        # 5. Telemetry Dossiers (Gibraltar ASW & Soviet 5th Eskadra)
+        # Left HUD Box: Gibraltar ASW Metrics
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 22, 35), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[GIBRALTAR ASW BARRIER HUD]", fill=(0, 240, 255))
+        draw.text((70, 118), "WIDTH: 14.3 KM CHOKEPOINT", fill=(255, 220, 100))
+        draw.text((70, 138), "THERMOCLINE DEPTH: 120M", fill=(0, 255, 200))
+        draw.text((70, 158), "INTERNAL SOLITON WAVES: ACTIVE", fill=(120, 220, 255))
+        draw.text((70, 178), "SOSUS DETECTION PROB: 94.2%", fill=(255, 140, 50))
+
+        # Right HUD Box: Soviet 5th Eskadra & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET 5TH ESKADRA MED]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "TARTUS NAVAL SUPPORT HUB", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "COLD DRIFT ENGINE-OFF TRANSIT", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "HALOCLINE ACOUSTIC SHADOW", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -1969,6 +2041,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "THOMAS CAMPBELL BIG TOE // DIGITAL CELLULAR AUTOMATA // KGB BIO-INFORMATION PSI ARCHIVES", fill=(200, 140, 255))
     elif theme in ("black_budget", "pentagon_sap", "sap_carveouts", "defense_audit", "failed_audit"):
         draw.text((40, 60), "UNACKNOWLEDGED SAP CARVE-OUTS // PENTAGON AUDIT BLACK HOLE // KGB OFF-BOOK SLUSH FUNDS", fill=(255, 100, 70))
+    elif theme in ("gibraltar_asw", "gibraltar_strait", "strait_of_gibraltar", "morocco_radar"):
+        draw.text((40, 60), "STRAIT OF GIBRALTAR ASW BARRIER // THERMOCLINE ACOUSTIC BAFFLE // SOVIET 5TH ESKADRA INTEL", fill=(0, 240, 255))
     elif theme in ("red_sea_cables", "bab_el_mandeb"):
         draw.text((40, 60), "RED SEA SUBSEA CABLE CORRIDOR // BAB EL-MANDEB CHOKEPOINT // SOVIET HORN OF AFRICA SIGINT", fill=(255, 140, 40))
     elif theme in ("malacca_blockade", "hydrophone_gate", "malacca_strait"):

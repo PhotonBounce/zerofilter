@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T14:05:00Z",
+  "updated": "2026-10-06T14:08:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-02",
+      "hour": "02:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Strait of Gibraltar ASW Acoustic Barriers, Moroccan Radar & Soviet 5th Eskadra Chokepoints",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the subsea acoustics and acoustic convergence zones of the Strait of Gibraltar, Moroccan-Spanish radar integration, nuclear submarine thermocline transit tactics, and Yuri Shvets on the Soviet Navy's 5th Operational Squadron Mediterranean choke point surveillance.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero two hundred hours. Separating Europe from Africa by just fourteen kilometers of turbulent water, the Strait of Gibraltar is the supreme naval gate of the Mediterranean Basin. Every vessel, commercial container carrier, and nuclear submarine moving between the Atlantic Ocean and the Mediterranean must navigate this narrow corridor bounded by Spain's Tarifa Point and the Moroccan promontories of Cape Spartel and Jebel Musa. Beneath the surface, NATO operates one of the most sophisticated fixed seabed acoustic barrier gates on Earth.",
+        "The hydrography of Gibraltar creates an extraordinary two-layer fluid dynamic battlefield. Low-salinity Atlantic surface water rushes relentlessly eastward into the Mediterranean at speeds exceeding two and a half knots, while colder, hypersaline Mediterranean deep water plunges westward into the Atlantic below one hundred and fifty meters depth. At the Camarinal Sill, the shallowest underwater ridge at two hundred and eighty meters, this velocity shear generates massive internal soliton waves and a severe thermocline acoustic shadow that bends sonar arrays, creating blind acoustic zones where stealth submarines attempt covert transit.",
+        "To counter submarine penetration, NATO has integrated fixed SOSUS hydrophone arrays anchored across the sill with joint Spanish-Moroccan coastal surface radar corridors and maritime patrol aircraft. Any nuclear attack submarine attempting to pass through Gibraltar must either surface and declare its transit under international law or execute a perilous cold-drift run, cutting propulsion engines and drifting silently on the deep outgoing or surface incoming currents beneath the thermocline baffle.",
+        "This tactical game of acoustic cat-and-mouse was central to Cold War Soviet naval operations. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has exposed, penetrating and surveilling the Strait of Gibraltar was a paramount operational directive for the Soviet Navy's 5th Operational Squadron, the Mediterranean Eskadra.",
+        "According to Shvets, the 5th Eskadra operated out of Syria's Port of Tartus and forward anchorages off the North African coast, tasked with tracking US Sixth Fleet aircraft carriers and ballistic missile submarines. Shvets revealed that Soviet Victor and Charlie-class nuclear submarines developed daring thermocline-riding transit profiles through Gibraltar, using the turbulent internal wave noise to mask their reactor pump cavitation. Soviet naval intelligence closely monitored Western acoustic listening posts in Gibraltar and Ceuta, mapping acoustic convergence zones to identify blind corridors where Soviet hunter-killer subs could slip into the Atlantic undetected.",
+        "Today, with the Mediterranean contested by Russian Mediterranean detachments and expanding Chinese commercial port investments, the Gibraltar chokepoint remains a silent, high-stakes acoustic fortress. In the undersea domain, geography is destiny, and whoever masters the thermocline controls the transit of continents. Monitor the subsea barriers, track the unseen currents, and never assume the sea floor is neutral. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-02/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-11-02/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-11-02/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-11-02/f04.webp"
+          },
+          {
+            "t": 118,
+            "src": "art/2026-10-11-02/f05.webp"
+          },
+          {
+            "t": 148,
+            "src": "art/2026-10-11-02/f06.webp"
+          }
+        ]
+      },
+      "seconds": 177,
+      "audio": "audio/2026-10-11-02.mp3",
+      "thumb": "thumbs/2026-10-11-02.webp",
+      "cover_video": "thumbs/2026-10-11-02.mp4"
+    },
     {
       "id": "2026-10-11-01",
       "hour": "01:00",
