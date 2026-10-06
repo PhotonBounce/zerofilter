@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-07",
+      "hour": "07:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Karl Friston's Free Energy Principle, Markov Blankets & KGB Reflexive Control",
+      "subject": "Hourly uncensored breakdown: Rex Vance explores neurobiologist Karl Friston's Free Energy Principle and Markov blankets in active inference, connecting cybernetic predictive processing to Vladimir Lefebvre's reflexive control mathematics deployed by Soviet counter-intelligence.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero seven hundred hours. In the physics of self-organizing biological systems, how does any living organism resist the inexorable pull of thermodynamic entropy? Renowned neuroscientist Karl Friston provided the mathematical answer with the Free Energy Principle. Any adaptive system that maintains homeostatic integrity must minimize its variational free energy—an upper bound on surprise—by continuously updating an internal generative model of the world to match afferent sensory states.",
+        "At the core of Friston's formulation lies the Markov blanket: a statistical boundary consisting of sensory states and active states that separates the organism's internal variables from external environmental reality. Information from the chaotic outside world cannot touch the internal neural architecture directly; it is filtered through sensory receptors, while the system's actions perturb the external environment to confirm its internal generative predictions. Living consciousness is not a passive receiver; it is an active inference engine relentlessly confirming its own existence.",
+        "In the operational doctrine of Soviet intelligence, this biological architecture was independently discovered through cybernetic warfare. As Washington counter-intelligence insider and former KGB Major Yuri Shvets has explained, Soviet mathematician Vladimir Lefebvre developed the formal algebra of reflexive control. Lefebvre proved that by understanding a target's internal decision algorithm, an intelligence agency does not need to force an adversary to act against their will; you merely feed carefully calibrated sensory inputs through their cognitive Markov blanket, causing their internal generative model to naturally deduce the exact erroneous conclusion you desire.",
+        "Modern information warfare has transformed Friston's active inference into an asymmetric weapon. Algorithmic social media platforms, synthetic deepfake narratives, and synchronized disinformation feeds systematically hack the sensory states of human populations. By artificially inflating predictive error and exploiting cognitive biases, state and commercial actors manipulate the variational free energy landscape of entire nations, driving targeted demographics into polarization, paranoia, and reflexive paralysis.",
+        "Defending human agency in this cognitive battlespace requires recognizing the sanctity of our mental Markov blankets. We must cultivate epistemic hygiene, rigorously verify informational supply chains, and audit the algorithmic recommendation engines that mediate our perception of reality. Sovereignty begins not at geographical borders, but at the statistical boundaries of human consciousness. If you do not actively calibrate your internal model against primary reality, an adversary's reflexive control algorithms will gladly calibrate it for you.",
+        "Audit your cognitive Markov blankets, challenge your prior probability distributions, and never confuse manipulated sensory inputs with ground truth. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 170,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-07/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-07-07/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-07-07/f03.webp"
+          },
+          {
+            "t": 85,
+            "src": "art/2026-10-07-07/f04.webp"
+          },
+          {
+            "t": 113,
+            "src": "art/2026-10-07-07/f05.webp"
+          },
+          {
+            "t": 142,
+            "src": "art/2026-10-07-07/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-07.webp",
+      "audio": "audio/2026-10-07-07.mp3",
+      "cover_video": "thumbs/2026-10-07-07.mp4"
+    },
+    {
       "id": "2026-10-07-06",
       "hour": "06:00",
       "date": "2026-10-07",

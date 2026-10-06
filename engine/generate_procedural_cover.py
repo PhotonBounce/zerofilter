@@ -553,6 +553,74 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 130), "ANOMALOUS CAVITATION DETECTED", fill=(255, 180, 60))
         draw.text((width - 310, 150), "CLASSIFICATION: RUSSIAN SPECIAL SUBS", fill=(255, 60, 40))
 
+    elif theme in ("free_energy", "markov_blanket", "active_inference"):
+        # Karl Friston Free Energy Principle & Markov Blanket Architecture
+        # 1. External States: Chaotic Langevin Fluctuations in outer perimeter
+        random.seed(77)
+        for _ in range(80):
+            ex = random.randint(40, width - 40)
+            ey = random.randint(40, height - 40)
+            dist_to_center = math.hypot(ex - cx, ey - cy)
+            if dist_to_center > 240:
+                # Stochastic environmental fluctuation vectors
+                ang = random.uniform(0, 2 * math.pi)
+                flen = random.randint(15, 35)
+                draw.line([(ex, ey), (ex + int(math.cos(ang) * flen), ey + int(math.sin(ang) * flen))], fill=(35, 60, 95), width=1)
+                draw.point((ex, ey), fill=(100, 160, 240))
+
+        # 2. Markov Blanket Boundary: Sensory States (Cyan) & Active States (Amber)
+        blanket_rx = 260
+        blanket_ry = 180
+        # Sensory partition arc (left/top)
+        draw.arc([cx - blanket_rx, cy - blanket_ry, cx + blanket_rx, cy + blanket_ry], start=90, end=270, fill=(0, 240, 255), width=3)
+        # Active partition arc (right/bottom)
+        draw.arc([cx - blanket_rx, cy - blanket_ry, cx + blanket_rx, cy + blanket_ry], start=270, end=90, fill=(255, 180, 50), width=3)
+
+        # Blanket boundary nodes
+        for deg in range(0, 360, 20):
+            rad = math.radians(deg)
+            bx = cx + int(blanket_rx * math.cos(rad))
+            by = cy + int(blanket_ry * math.sin(rad))
+            is_sensory = (90 <= deg <= 270)
+            col_b = (0, 255, 240) if is_sensory else (255, 180, 50)
+            draw.ellipse([bx - 6, by - 6, bx + 6, by + 6], fill=(10, 25, 40), outline=col_b, width=2)
+            draw.point((bx, by), fill=(255, 255, 255))
+
+        draw.text((cx - blanket_rx - 110, cy - 10), "SENSORY STATES [s]", fill=(0, 255, 240))
+        draw.text((cx + blanket_rx + 20, cy - 10), "ACTIVE STATES [a]", fill=(255, 180, 50))
+
+        # 3. Internal States (Generative Model inside the blanket)
+        inner_r = 130
+        draw.ellipse([cx - inner_r, cy - inner_r, cx + inner_r, cy + inner_r], fill=(15, 20, 35), outline=(180, 100, 255), width=2)
+
+        # Internal Bayesian Belief Network (nodes & message passing)
+        internal_nodes = [
+            (cx - 50, cy - 40, "μ1 [PRIOR]"),
+            (cx + 50, cy - 40, "μ2 [LIKELIHOOD]"),
+            (cx, cy + 30, "μ3 [POSTERIOR]"),
+            (cx - 60, cy + 50, "ε_p [ERROR]"),
+            (cx + 60, cy + 50, "ε_v [VARIANCE]")
+        ]
+        for nx, ny, nlabel in internal_nodes:
+            draw.ellipse([nx - 14, ny - 14, nx + 14, ny + 14], fill=(20, 15, 40), outline=(220, 120, 255), width=2)
+            draw.text((nx - 24, ny - 24), nlabel, fill=(200, 220, 255))
+
+        # Message passing links
+        for i in range(len(internal_nodes)):
+            for j in range(i + 1, len(internal_nodes)):
+                draw.line([(internal_nodes[i][0], internal_nodes[i][1]), (internal_nodes[j][0], internal_nodes[j][1])], fill=(90, 50, 140), width=1)
+
+        # 4. Free Energy Variational Gradient Curve HUD
+        draw.rectangle([60, cy + 130, 320, cy + 200], fill=(10, 20, 35), outline=(0, 255, 220), width=1)
+        draw.text((70, cy + 140), "VARIATIONAL BOUND: F = D_KL + E_q[ln p]", fill=(0, 255, 220))
+        draw.text((70, cy + 160), "SURPRISE REDUCTION: -ln p(y) <= F", fill=(255, 220, 80))
+        draw.text((70, cy + 180), "STATUS: HOMEOSTATIC EQUILIBRIUM", fill=(120, 255, 180))
+
+        draw.rectangle([width - 340, cy - 200, width - 60, cy - 130], fill=(30, 15, 20), outline=(255, 80, 80), width=1)
+        draw.text((width - 330, cy - 190), "[KGB REFLEXIVE CONTROL AUDIT]", fill=(255, 90, 80))
+        draw.text((width - 330, cy - 170), "LEFEBVRE ALGEBRA // AFFECT MATRIX", fill=(255, 180, 60))
+        draw.text((width - 330, cy - 150), "TARGET INFERENCE HACK: ACTIVE INJECTION", fill=(255, 60, 60))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -619,6 +687,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "CONSCIOUS AGENT DYNAMICS // MARKOVIAN TRANSITION KERNELS // SPACETIME PROJECTION MATRIX", fill=(0, 255, 220))
     elif theme in ("spin_liquid", "topological_braiding", "anyon_braiding"):
         draw.text((40, 60), "QUANTUM SPIN LIQUID // NON-ABELIAN TOPOLOGICAL BRAIDING // 8TH CHIEF CIPHER AUDIT", fill=(0, 255, 220))
+    elif theme in ("free_energy", "markov_blanket", "active_inference"):
+        draw.text((40, 60), "FREE ENERGY PRINCIPLE // MARKOV BLANKET NEURAL INFERENCE // REFLEXIVE CONTROL MODEL", fill=(200, 140, 255))
     elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare"):
         draw.text((40, 60), "ABYSSAL FIBER OPTIC INFRASTRUCTURE // RUSSIAN GUGI SEABED RECONNAISSANCE // TAP DETECTED", fill=(255, 90, 70))
     elif theme == "consciousness":

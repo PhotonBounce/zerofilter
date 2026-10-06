@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-07",
-      "date": "2026-10-07",
-      "hour": "07:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Karl Friston Free Energy Principle, Markov blankets in neural inference, and Yuri Shvets on KGB mathematical models of cognitive reflexive control"
-    },
-    {
       "id": "2026-10-07-08",
       "date": "2026-10-07",
       "hour": "08:00",
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Defense aerospace maintenance monopolies, proprietary diagnostic paywalls, and Yuri Shvets on Soviet intelligence infiltration of Western aviation supply chains"
+    },
+    {
+      "id": "2026-10-07-09",
+      "date": "2026-10-07",
+      "hour": "09:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Quantum Darwinism, pointer state redundancy in environmental monitoring, and Yuri Shvets on Soviet passive resonant acoustic surveillance devices"
     }
   ]
 }
