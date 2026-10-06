@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **640 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **648 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 79 completed, 79 total releases published.
-  - `data/queue.json`: Head item is Episode 80 (`2026-10-09-08`).
-  - `data/registry.json`: 79 active releases logged.
+  - `status/pipeline_state.json`: Episode 80 completed, 80 total releases published.
+  - `data/queue.json`: Head item is Episode 81 (`2026-10-09-09`).
+  - `data/registry.json`: 80 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -106,10 +106,11 @@
   - `2026-10-09-05` (176s) — Predictive Processing in Visual Hallucinations, Bayesian Priors in Sensory Deprivation & KGB Isolation Experiments
   - `2026-10-09-06` (178s) — Strait of Hormuz Acoustic Sensor Gates, Iranian Midget Subs & Soviet Persian Gulf Choke Point Doctrines
   - `2026-10-09-07` (176s) — Defense Microelectronics Gray Markets, Counterfeit FPGA Diversion & Soviet Line X Semiconductor Smuggling
+  - `2026-10-09-08` (180s) — Diamond NV Center Quantum Gravimetry, Subterranean Bunker Mapping & Soviet Deep ASW Sensors
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 474 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `a9d7ad7db36568fb0eb1c48f0073c021a01b3f70`).
+- **Story Art Frames:** 480 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `b9e04e0624b813c7c9aa3d53c990333a5e5f381c`).
 
 ---
 
