@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-12",
-      "date": "2026-10-08",
-      "hour": "12:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Biophotonic cellular signaling, ultra-weak photon emission in neural tissue, and Yuri Shvets on Soviet Gurwitsch radiation research"
-    },
-    {
       "id": "2026-10-08-13",
       "date": "2026-10-08",
       "hour": "13:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Strait of Malacca maritime drone blockades, subsea acoustic hydrophone gates, and Yuri Shvets on Soviet Indian Ocean naval operational doctrine"
+    },
+    {
+      "id": "2026-10-08-15",
+      "date": "2026-10-08",
+      "hour": "15:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Pentagon microelectronics counterfeiting, gray-market broker rings, and Yuri Shvets on Soviet Line X technology smuggling operations"
     }
   ]
 }

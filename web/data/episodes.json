@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-08-12",
+      "hour": "12:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Biophotonic Cellular Signaling, Mitogenetic Radiation & Soviet Bio-Resonance Archives",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates ultra-weak biophoton emission in neural tissue, coherent electromagnetic cellular signaling, and Yuri Shvets's insider analysis of Alexander Gurwitsch's mitogenetic radiation research and Soviet military bio-resonance weaponization programs.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twelve hundred hours. Inside living biological tissue, life communicates not merely through chemical neurotransmitters and slow ionic cascades, but through light. Every living cell continuously emits an ultra-weak stream of optical photons, radiating between two hundred and eight hundred nanometers at intensities of mere tens of photons per square centimeter per second. Known in modern biophysics as biophotons, these optical emissions originate within mitochondrial oxidative metabolism and lipid peroxidation. However, growing experimental evidence reveals that biophotonic flux is not cellular waste heat—it is a coherent electromagnetic signaling mechanism orchestrating cellular division and neural synchronization.",
+        "In the human central nervous system, biophotonic signaling operates as a secondary, high-bandwidth communication channel alongside conventional synaptic action potentials. Microtubules and myelinated axon sheaths function as microscopic optical waveguides, channeling biophotons along neural pathways with minimal scattering. This intracellular light field exhibits Poisson photon statistics indicative of quantum optical coherence, supporting theories that prefrontal neural assemblies exchange quantum-correlated states. When pathological conditions such as ischemic stroke or neurodegenerative decay occur, biophotonic emission patterns undergo radical phase shifts, transforming from coherent optical resonance into chaotic photon bursts.",
+        "This optical paradigm of biology traces directly back to foundational Soviet science. In the 1920s, Soviet histologist Alexander Gurwitsch first discovered that dividing onion root cells emitted ultra-weak ultraviolet radiation that stimulated cell division in adjacent tissues—a phenomenon he termed mitogenetic rays. As former KGB foreign intelligence officer and Washington counter-intelligence insider Yuri Shvets has frequently documented, Gurwitsch’s research was never dismissed by the Soviet state; instead, it was classified and subsumed into secret military research institutes overseen by the KGB’s Special Department.",
+        "According to Shvets, Soviet bio-cyberneticists at closed facilities in Novosibirsk and Pushchino sought to harness mitogenetic radiation to detect biological warfare agents, monitor human operator stress at distance, and induce targeted bio-energetic disruptions. Soviet researchers constructed ultra-sensitive photomultiplier chambers shielded with lead and liquid nitrogen to decode the biophotonic signatures of human consciousness and organ failure. Shvets emphasizes that the Kremlin viewed biophotonics not as fringe science, but as a strategic frontier capable of superseding Western pharmaceutical paradigms through targeted non-thermal electromagnetic intervention.",
+        "Today, as Western nanophotonics and quantum biology converge on the cellular light field, the insights of Soviet bio-resonance archives are being validated. From optical neural implants to non-invasive biophotonic cancer diagnostics, science is confirming that consciousness is intrinsically luminous. Beneath the biochemical machinery of life lies an intricate web of coherent light, governing the architecture of thought and vitality.",
+        "Inspect the neural waveguides, measure the biophotonic coherence, and decode the cellular light fields. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 193,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-12/f01.webp"
+          },
+          {
+            "t": 32,
+            "src": "art/2026-10-08-12/f02.webp"
+          },
+          {
+            "t": 64,
+            "src": "art/2026-10-08-12/f03.webp"
+          },
+          {
+            "t": 96,
+            "src": "art/2026-10-08-12/f04.webp"
+          },
+          {
+            "t": 129,
+            "src": "art/2026-10-08-12/f05.webp"
+          },
+          {
+            "t": 161,
+            "src": "art/2026-10-08-12/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-08-12.webp",
+      "audio": "audio/2026-10-08-12.mp3",
+      "cover_video": "thumbs/2026-10-08-12.mp4"
+    },
+    {
       "id": "2026-10-08-11",
       "hour": "11:00",
       "date": "2026-10-08",
