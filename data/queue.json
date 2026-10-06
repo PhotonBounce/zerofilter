@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-09",
-      "date": "2026-10-10",
-      "hour": "09:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Neural biophoton emission in cerebellar Purkinje cells, metabolic uncoupling, and Yuri Shvets on Soviet bio-energetic psychotronics archives"
-    },
-    {
       "id": "2026-10-10-10",
       "date": "2026-10-10",
       "hour": "10:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Defense microelectronics counterfeit broker networks, mil-spec burn-in test tampering, and Yuri Shvets on Line X semiconductor diversion rings"
+    },
+    {
+      "id": "2026-10-10-12",
+      "date": "2026-10-10",
+      "hour": "12:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Topological Majorana zero modes in semiconductor-superconductor nanowires, non-Abelian anyon braiding, and Yuri Shvets on Soviet cryogenic solid-state espionage"
     }
   ]
 }

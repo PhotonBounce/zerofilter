@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 104,
+  "total_releases": 105,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -832,6 +832,14 @@
       "title": "Superconducting Qubit Parity Measurements, Cat-State Error Correction & Soviet Quantum Intercept Archives",
       "audio": "audio/2026-10-10-08.mp3",
       "cover_video": "thumbs/2026-10-10-08.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-09",
+      "seconds": 176,
+      "title": "Neural Biophoton Emission in Purkinje Cells, Metabolic Uncoupling & KGB Bio-Energetic Files",
+      "audio": "audio/2026-10-10-09.mp3",
+      "cover_video": "thumbs/2026-10-10-09.mp4",
       "status": "published_production"
     }
   ]

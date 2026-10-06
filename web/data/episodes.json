@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-09",
+      "hour": "09:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Neural Biophoton Emission in Purkinje Cells, Metabolic Uncoupling & KGB Bio-Energetic Files",
+      "subject": "Hourly uncensored breakdown: Rex Vance examines ultra-weak biophoton emissions from cerebellar Purkinje neurons linked to mitochondrial reactive oxygen species and non-chemical cell signaling, and Yuri Shvets on Soviet psychotronics and bio-resonance programs.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero nine hundred hours. In contemporary neurobiology, neural communication has long been treated as an exclusively electrochemical phenomenon—action potentials propagating across axons and neurotransmitters traversing synaptic clefts. Yet an elusive optical dimension operates simultaneously within living brain tissue: ultra-weak biophoton emission. Emitted in the near-ultraviolet to visible spectrum between two hundred and eight hundred nanometers, these spontaneous photons originate from metabolic lipid peroxidation inside neuronal mitochondria.",
+        "Recent experimental biophysics demonstrates that cerebellar Purkinje cells—among the most metabolically active and geometrically intricate neurons in the human brain—exhibit distinctive biophoton emission fluctuations during metabolic uncoupling and synaptic excitation. Rather than serving merely as metabolic waste, evidence suggests these guided photons travel along myelin sheaths acting as optical dielectric waveguides. This biological fiber-optic network facilitates non-chemical, speed-of-light signaling across coordinated cerebellar microzones, coordinating motor timing and high-dimensional cognitive integration far beyond chemical diffusion rates.",
+        "This optical signaling mechanism directly validates one of the most secretive research agendas pursued by Soviet military intelligence. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet science maintained an institutional obsession with mitogenetic radiation, biophotonics, and bio-energetic field transmission dating back to Alexander Gurwitsch's early discoveries in the 1920s.",
+        "According to Shvets, the KGB First Chief Directorate and Department 12 channeled vast off-the-books funding into specialized laboratories at Moscow State University, Novosibirsk, and Rostov. Soviet researchers deployed ultra-sensitive photomultiplier tubes in light-sealed underground bunkers, attempting to detect whether human subjects under extreme stress or cognitive load emitted anomalous biophotonic signatures. Shvets revealed that Soviet military planners sought to exploit cellular optical emissions for remote interrogation monitoring and covert biometric tracking, seeking to quantify human consciousness through raw photon counts.",
+        "Today, advanced quantum optics and single-photon avalanche detectors have transformed this historical inquiry into rigorous scientific reality. Modern defense laboratories are exploring whether neural biophotonics can serve as non-invasive diagnostic indicators of cognitive fatigue, traumatic brain injury, or neural degradation in combat pilots and intelligence operators. By capturing the faint optical shimmer of living cerebral tissue, researchers are opening an unmapped optical window into the physical machinery of human awareness.",
+        "Audit the military biophotonics and neuro-optical surveillance budgets, track the development of single-photon neural sensors, and remember that deep inside the skull, the living mind generates its own light. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-09/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-10-09/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-10-09/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-10-09/f04.webp"
+          },
+          {
+            "t": 117,
+            "src": "art/2026-10-10-09/f05.webp"
+          },
+          {
+            "t": 147,
+            "src": "art/2026-10-10-09/f06.webp"
+          }
+        ]
+      },
+      "seconds": 176,
+      "thumb": "thumbs/2026-10-10-09.webp",
+      "audio": "audio/2026-10-10-09.mp3",
+      "cover_video": "thumbs/2026-10-10-09.mp4"
+    },
+    {
       "id": "2026-10-10-08",
       "hour": "08:00",
       "date": "2026-10-10",
