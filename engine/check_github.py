@@ -2,7 +2,7 @@ import urllib.request
 import json
 
 token = None
-with open(r'C:\Users\fucktrumpandrednecks\.git-credentials', 'r') as f:
+with open(r'C:\Users\user/.git-credentials', 'r') as f:
     for line in f:
         if 'github.com' in line:
             creds = line.strip().split('@')[0].replace('https://', '')

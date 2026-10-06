@@ -14,7 +14,7 @@ AUDIO_DIR = os.path.join(WEB_DIR, "audio")
 ART_DIR = os.path.join(WEB_DIR, "art")
 MANIFEST_FILE = os.path.join(WEB_DIR, "data", "episodes.json")
 
-IMG_EP13 = r"C:\Users\fucktrumpandrednecks\.gemini\antigravity-ide\brain\66020d49-6cff-42bb-95f3-234ac272d8bc\cover_ep13_1791271233545.jpg"
+IMG_EP13 = r"assets\cover_ep13_1791271233545.jpg"
 IMG_REX = os.path.join(WEB_DIR, "assets", "rex_vance.webp")
 IMG_STUDIO = os.path.join(WEB_DIR, "assets", "studio_bunker.webp")
 

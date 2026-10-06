@@ -17,11 +17,11 @@ DATA_DIR = os.path.join(WEB_DIR, "data")
 MANIFEST_FILE = os.path.join(DATA_DIR, "episodes.json")
 
 # Artifact image paths from brain
-IMG_REX = r"C:\Users\fucktrumpandrednecks\.gemini\antigravity-ide\brain\66020d49-6cff-42bb-95f3-234ac272d8bc\rex_vance_portrait_1791259648813.jpg"
-IMG_STUDIO = r"C:\Users\fucktrumpandrednecks\.gemini\antigravity-ide\brain\66020d49-6cff-42bb-95f3-234ac272d8bc\zerofilter_studio_bunker_1791259662454.jpg"
-IMG_EP1 = r"C:\Users\fucktrumpandrednecks\.gemini\antigravity-ide\brain\66020d49-6cff-42bb-95f3-234ac272d8bc\cover_ep1_1791259677227.jpg"
-IMG_EP2 = r"C:\Users\fucktrumpandrednecks\.gemini\antigravity-ide\brain\66020d49-6cff-42bb-95f3-234ac272d8bc\cover_ep2_1791259694910.jpg"
-IMG_EP3 = r"C:\Users\fucktrumpandrednecks\.gemini\antigravity-ide\brain\66020d49-6cff-42bb-95f3-234ac272d8bc\cover_ep3_1791259708337.jpg"
+IMG_REX = r"assets\rex_vance_portrait_1791259648813.jpg"
+IMG_STUDIO = r"assets\zerofilter_studio_bunker_1791259662454.jpg"
+IMG_EP1 = r"assets\cover_ep1_1791259677227.jpg"
+IMG_EP2 = r"assets\cover_ep2_1791259694910.jpg"
+IMG_EP3 = r"assets\cover_ep3_1791259708337.jpg"
 
 FFMPEG_EXE = imageio_ffmpeg.get_ffmpeg_exe()
 

@@ -138,7 +138,7 @@ async def main():
     print(f"Updated {MANIFEST_FILE} with episode {EPISODE_DATA['id']}!")
     
     # Copy cover to brain artifacts for documentation
-    brain_cover = r"C:\Users\fucktrumpandrednecks\.gemini\antigravity-ide\brain\66020d49-6cff-42bb-95f3-234ac272d8bc\cover_ep68_procedural.webp"
+    brain_cover = r"assets\cover_ep68_procedural.webp"
     with Image.open(IMG_EP68) as im:
         im.save(brain_cover, "WEBP", quality=92)
     print(f"Copied procedural cover to brain: {brain_cover}")
