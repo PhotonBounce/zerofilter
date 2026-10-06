@@ -2677,6 +2677,87 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 118), "KGB OTU WINDOW INTERFEROMETRY", fill=(255, 200, 80))
         draw.text((width - 310, 138), "SEABED OPTICAL HYDROPHONES", fill=(255, 100, 80))
         draw.text((width - 310, 158), "NON-ACOUSTIC SUB WAKE LASER", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
+    elif theme in ("circuit_optomechanics", "phonon_fock_states", "quantum_acoustics", "saw_resonator", "fock_states"):
+        # Superconducting Circuit Optomechanics, Piezoelectric Phonon Fock States & Soviet ASW Arrays
+        # 1. Background Cryogenic Microwave Grid
+        for gy in range(cy - 220, cy + 220, 24):
+            draw.line([(60, gy), (width - 60, gy)], fill=(10, 26, 36), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(10, 26, 36), width=1)
+
+        # 2. Superconducting Transmon Qubit & Interdigital Transducer (IDT)
+        trans_x, trans_y = cx - 240, cy
+        draw.rectangle([trans_x - 45, trans_y - 70, trans_x + 45, trans_y - 20], fill=(20, 35, 55), outline=(0, 240, 255), width=2)
+        draw.rectangle([trans_x - 45, trans_y + 20, trans_x + 45, trans_y + 70], fill=(20, 35, 55), outline=(0, 240, 255), width=2)
+        draw.line([(trans_x, trans_y - 20), (trans_x, trans_y + 20)], fill=(255, 220, 60), width=2)
+        draw.rectangle([trans_x - 6, trans_y - 6, trans_x + 6, trans_y + 6], fill=(255, 200, 50), outline=(255, 255, 255), width=1)
+        draw.text((trans_x - 55, trans_y - 90), "TRANSMON QUBIT [5.4 GHz]", fill=(0, 240, 255))
+
+        idt_x = cx - 100
+        draw.rectangle([idt_x - 20, cy - 45, idt_x + 20, cy + 45], fill=(15, 30, 45), outline=(255, 140, 40), width=2)
+        for finger_y in range(cy - 35, cy + 36, 10):
+            draw.line([(idt_x - 16, finger_y), (idt_x + 16, finger_y)], fill=(255, 180, 50), width=2)
+        draw.text((idt_x - 30, cy + 55), "IDT PIEZO COUPLER", fill=(255, 160, 50))
+
+        draw.line([(trans_x + 45, trans_y), (idt_x - 20, cy)], fill=(0, 255, 200), width=3)
+
+        # 3. Acoustic Phonon Waveguide & High-Q Acoustic Resonator (SAW / HBAR)
+        res_x = cx + 80
+        res_w = 260
+        res_h = 100
+        draw.rectangle([res_x, cy - res_h//2, res_x + res_w, cy + res_h//2], fill=(16, 22, 38), outline=(0, 200, 240), width=2)
+        draw.text((res_x + 15, cy - res_h//2 - 20), "LiNbO3 ACOUSTIC CAVITY [Q > 10^7]", fill=(0, 220, 255))
+
+        fock_pts = []
+        for x_step in range(res_x, res_x + res_w, 4):
+            rel_ph = (x_step - res_x) * 0.16
+            amp = 30 * math.sin(rel_ph)
+            fock_pts.append((x_step, cy + int(amp)))
+        if len(fock_pts) > 1:
+            draw.line(fock_pts, fill=(255, 90, 180), width=3)
+            fock_pts2 = [(x, cy - int(20 * math.sin((x - res_x) * 0.32))) for x in range(res_x, res_x + res_w, 4)]
+            draw.line(fock_pts2, fill=(255, 220, 80), width=1)
+
+        draw.text((res_x + 20, cy + 32), "PHONON FOCK STATE |n=1⟩", fill=(255, 120, 200))
+        draw.text((res_x + 130, cy - 36), "|n=2⟩ COHERENCE", fill=(255, 220, 80))
+
+        for pkt_x in range(idt_x + 25, res_x - 10, 20):
+            draw.arc([pkt_x, cy - 15, pkt_x + 12, cy + 15], start=270, end=90, fill=(0, 255, 240), width=2)
+
+        # 4. Phonon Number State Distribution HUD Box (Below)
+        fock_hud_x, fock_hud_y = cx - 180, cy + 100
+        draw.rectangle([fock_hud_x, fock_hud_y, fock_hud_x + 360, fock_hud_y + 70], fill=(12, 18, 30), outline=(255, 120, 200), width=1)
+        draw.text((fock_hud_x + 10, fock_hud_y + 8), "QUANTUM NON-DEMOLITION (QND) PHONON COUNTING", fill=(0, 255, 220))
+        bars = [
+            ("|0⟩", 20, (100, 140, 180)),
+            ("|1⟩", 85, (255, 90, 180)),
+            ("|2⟩", 12, (255, 200, 80)),
+            ("|3⟩", 3, (120, 220, 255))
+        ]
+        for b_idx, (b_lbl, b_pct, b_col) in enumerate(bars):
+            bx = fock_hud_x + 40 + b_idx * 75
+            bh = int(b_pct * 0.35)
+            draw.rectangle([bx, fock_hud_y + 55 - bh, bx + 24, fock_hud_y + 55], fill=b_col)
+            draw.text((bx + 2, fock_hud_y + 58), b_lbl, fill=(200, 200, 200))
+        draw.text((fock_hud_x + 230, fock_hud_y + 35), "PURITY P = 98.4%", fill=(255, 220, 80))
+
+        # 5. Telemetry Dossiers (Circuit Optomechanics & Soviet Andreev Institute)
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 22, 34), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[CIRCUIT OPTOMECHANICS HUD]", fill=(0, 240, 255))
+        draw.text((70, 118), "QUBIT FREQ: ω_q = 5.420 GHz", fill=(255, 220, 100))
+        draw.text((70, 138), "PHONON VELOCITY: v_s = 3,980 m/s", fill=(0, 255, 200))
+        draw.text((70, 158), "CROSS-KERR COUPLING: χ / 2π = 12 MHz", fill=(120, 220, 255))
+        draw.text((70, 178), "PHONON LIFETIME: T_1 = 45.2 μs", fill=(200, 140, 255))
+
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[ANDREEV ACOUSTICS DOSSIER]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "SOVIET ASW HYDROPHONE NETWORKS", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "DEEP SOFAR CHANNEL DUCTING", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "PIEZO CERAMIC TRANSDUCER RINGS", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     elif theme in ("iit_40", "integrated_information", "phi_complex", "tononi_consciousness"):
         # Giulio Tononi Integrated Information Theory (IIT 4.0) & KGB Psychotropic Degradation
         # 1. Background Cause-Effect State Space Hyper-Lattice
@@ -2900,6 +2981,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "MONROE GATEWAY HEMI-SYNC // BINAURAL 4.0Hz THETA COHERENCE // SOVIET PSYCHOTRONICS", fill=(200, 160, 255))
     elif theme in ("optomechanics", "drum_resonator", "mechanical_resonator", "optomechanical_entanglement", "quantum_drum"):
         draw.text((40, 60), "MACROSCOPIC DRUM ENTANGLEMENT // OPTOMECHANICAL PHASE NOISE SUPPRESSION // SOVIET LASER ESPIONAGE", fill=(0, 240, 255))
+    elif theme in ("circuit_optomechanics", "phonon_fock_states", "quantum_acoustics", "saw_resonator", "fock_states"):
+        draw.text((40, 60), "CIRCUIT OPTOMECHANICS // PHONON FOCK STATES // ANDREEV INSTITUTE ACOUSTIC ASW TELEMETRY", fill=(0, 240, 255))
     elif theme in ("cv_qkd", "continuous_variable_qkd", "gaussian_modulation", "fiber_qkd"):
         draw.text((40, 60), "CONTINUOUS-VARIABLE QKD // GAUSSIAN MODULATION 1550nm // SOVIET CABLE-TAP CRYPTANALYSIS", fill=(0, 240, 255))
     elif theme == "consciousness":

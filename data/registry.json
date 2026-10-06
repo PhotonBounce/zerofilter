@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 135,
+  "total_releases": 136,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1080,6 +1080,14 @@
       "title": "Pentagon In-Q-Tel Venture Conduits, Dual-Use Equity Grift & Soviet Directorate T Fronts",
       "audio": "audio/2026-10-11-15.mp3",
       "cover_video": "thumbs/2026-10-11-15.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-11-16",
+      "seconds": 180,
+      "title": "Superconducting Circuit Optomechanics, Phonon Fock States & Soviet Acoustic ASW Arrays",
+      "audio": "audio/2026-10-11-16.mp3",
+      "cover_video": "thumbs/2026-10-11-16.mp4",
       "status": "published_production"
     }
   ]

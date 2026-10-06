@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-16",
-      "date": "2026-10-11",
-      "hour": "16:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Cavity Optomechanics in Superconducting Circuits, Phonon Fock States & Soviet Acoustic Anti-Submarine Sonar Arrays"
-    },
-    {
       "id": "2026-10-11-17",
       "date": "2026-10-11",
       "hour": "17:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Bab el-Mandeb Anti-Ship Ballistic Missile Salvos, Iranian Guidance Telemetry & Soviet Horn of Africa Base Networks"
+    },
+    {
+      "id": "2026-10-11-19",
+      "date": "2026-10-11",
+      "hour": "19:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Pentagon Foreign Military Sales Pass-Through Schemes, Offset Broker Accounts & Soviet Arms Barter Cartels"
     }
   ]
 }
