@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ZeroFilter — Unfiltered Geopolitics, Quantum Reality & Frontier Science</title>
+  <meta name="description" content="Hourly 3-minute intelligence briefs cutting through partisan theater, theocracy, and corporate corruption — synthesized with quantum physics, AI breakthroughs, and declassified consciousness science.">
+  <meta name="theme-color" content="#07090e">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/studio.css">
+</head>
+<body class="zf-theme">
+  <!-- Ambient background glow -->
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="zf-header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-logo">ZERO<span class="accent">//</span>FILTER</span>
+        <span class="live-pill"><span class="pulse-dot"></span> HOURLY INTEL</span>
+      </div>
+      <nav class="nav-links">
+        <button type="button" class="nav-btn active" data-filter="all">All Releases</button>
+        <button type="button" class="nav-btn" data-filter="geopolitics">Geopolitics</button>
+        <button type="button" class="nav-btn" data-filter="quantum">Quantum &amp; AI</button>
+        <button type="button" class="nav-btn" data-filter="consciousness">Consciousness</button>
+        <button type="button" class="nav-btn" data-filter="corruption">Exposed</button>
+      </nav>
+      <div class="header-actions">
+        <span class="host-badge">Host: Rex Vance</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="zf-main">
+    <!-- Hero Broadcast Spotlight -->
+    <section class="hero-spotlight" id="hero-spotlight">
+      <div class="spotlight-media" id="spotlight-media">
+        <!-- 10s looping video cover or poster -->
+        <video id="hero-video" class="hero-video" autoplay loop muted playsinline poster="thumbs/2026-10-06-01.webp">
+          <source src="thumbs/2026-10-06-01.mp4" type="video/mp4">
+        </video>
+        <!-- Real-time Synchronized Stage Overlay -->
+        <div id="stage-overlay" class="stage-overlay hidden">
+          <img id="stage-img" src="" alt="Story visual context">
+          <div id="stage-caption" class="stage-caption"></div>
+        </div>
+        <div class="media-overlay-gradient"></div>
+        <div class="broadcast-badge" id="broadcast-badge">LATEST RELEASE · 01:00 UTC</div>
+      </div>
+
+      <div class="spotlight-content">
+        <div class="episode-meta">
+          <span class="badge category-badge" id="ep-category">GEOPOLITICS</span>
+          <span class="badge duration-badge" id="ep-duration">⏱ 3:00 MIN</span>
+          <span class="badge time-badge" id="ep-time">HOURLY DISPATCH</span>
+        </div>
+
+        <h1 class="episode-title" id="ep-title">Quantum Delayed Choice, Pentagon Backdoors &amp; Ukraine Drone Swarms</h1>
+        <p class="episode-subject" id="ep-subject">Hourly uncensored breakdown: exposing bipartisan congressional corruption, Ukrainian drone advances, Wheeler's delayed-choice quantum mechanics, and declassified CIA Project Stargate remote viewing records.</p>
+
+        <!-- Subtitle Cue Strip -->
+        <div class="subtitles-box" id="subtitles-box">
+          <span class="cue-speaker">REX:</span>
+          <span class="cue-text" id="cue-text">"Welcome to ZeroFilter. Put down the bipartisan kool-aid and let's dissect the wreckage..."</span>
+        </div>
+
+        <!-- Audio Player Console -->
+        <div class="player-console">
+          <audio id="main-audio" preload="metadata" src="audio/2026-10-06-01.mp3"></audio>
+          
+          <div class="playback-controls">
+            <button type="button" class="btn-play" id="btn-play" aria-label="Play or Pause">
+              <span class="play-icon" id="play-icon">▶</span>
+            </button>
+            <div class="time-readout">
+              <span id="current-time">0:00</span>
+              <span class="separator">/</span>
+              <span id="total-time">3:00</span>
+            </div>
+          </div>
+
+          <div class="seek-container">
+            <input type="range" class="seek-bar" id="seek-bar" min="0" max="180" step="0.1" value="0" aria-label="Seek audio position">
+            <div class="seek-progress" id="seek-progress"></div>
+          </div>
+
+          <div class="extra-controls">
+            <div class="speed-selector">
+              <button type="button" class="speed-btn active" data-speed="1">1.0x</button>
+              <button type="button" class="speed-btn" data-speed="1.2">1.2x</button>
+              <button type="button" class="speed-btn" data-speed="1.5">1.5x</button>
+            </div>
+            <button type="button" class="btn-share" id="btn-share" title="Share Release">↗</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Episode Timeline & Feed -->
+    <section class="feed-section">
+      <div class="section-header">
+        <h2 class="section-title">Hourly Intel Stream</h2>
+        <span class="section-count" id="feed-count">3 Releases</span>
+      </div>
+
+      <div class="episodes-grid" id="episodes-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="zf-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo">ZERO//FILTER</span>
+        <p>Unfiltered Geopolitics, Quantum Reality &amp; Frontier Science. No corporate masters. No partisan dogma.</p>
+      </div>
+      <div class="footer-note">
+        <span>Updated Every Hour · Autonomous Pipeline · Pure Data</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
