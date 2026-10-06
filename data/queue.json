@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-13",
-      "date": "2026-10-08",
-      "hour": "13:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Quantum diamond nitrogen-vacancy center magnetometry, GPS-denied navigation, and Yuri Shvets on Soviet solid-state sensor espionage"
-    },
-    {
       "id": "2026-10-08-14",
       "date": "2026-10-08",
       "hour": "14:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Pentagon microelectronics counterfeiting, gray-market broker rings, and Yuri Shvets on Soviet Line X technology smuggling operations"
+    },
+    {
+      "id": "2026-10-08-16",
+      "date": "2026-10-08",
+      "hour": "16:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Quantum spin liquids in kagome antiferromagnets, fractionalized excitations, and Yuri Shvets on Soviet solid-state physics theory espionage"
     }
   ]
 }

@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-08-13",
+      "hour": "13:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Quantum Diamond NV-Center Magnetometry, GPS-Denied Navigation & Soviet Solid-State Sensors",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates quantum diamond nitrogen-vacancy center magnetometers, geomagnetic crustal anomaly mapping for unjammable GPS-denied navigation, and Yuri Shvets's insider analysis of Soviet solid-state sensor espionage and clandestine quantum physics pipelines.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is thirteen hundred hours. In modern electronic warfare, satellite-based GPS navigation is a fragile, easily severed tether. Across contested conflict zones, high-power radio-frequency jammers and spoofing transmitters render conventional satellite positioning useless. To survive in GPS-denied battlespaces, advanced defense aerospace platforms and autonomous undersea vehicles are turning to quantum sensor physics: diamond nitrogen-vacancy center magnetometry. By embedding point defects into synthetic diamond crystal lattices—replacing two carbon atoms with a single nitrogen atom and an adjacent atomic vacancy—physicists create atomic-scale magnetic sensors operating at room temperature.",
+        "The quantum operational mechanics are astonishingly elegant. When illuminated by green laser light, the electron spin state of the nitrogen-vacancy defect can be initialized and read out via optically detected magnetic resonance. External magnetic fields induce Zeeman energy splitting in the triplet ground state, causing precise shifts in the emitted red photoluminescence. These quantum diamond sensors can detect magnetic variations as minute as picoteslas. By cross-referencing real-time magnetic fluctuations against high-resolution geological crustal magnetic maps, aircraft, cruise missiles, and nuclear submarines can navigate across the globe with pinpoint accuracy without emitting a single radio signal or relying on external satellite downlinks.",
+        "This mastery of solid-state quantum anomalies has a direct Cold War pedigree. As former KGB foreign intelligence officer and Washington counter-intelligence insider Yuri Shvets has frequently detailed, Soviet defense leadership recognized that American GPS navigation would dominate future warfare. In response, the Soviet Ministry of Electronics Industry and the KGB’s Directorate T launched massive clandestine intelligence programs focused on solid-state sensor physics, optical crystal synthesis, and magnetometry to counter Western electronic warfare.",
+        "According to Shvets, Soviet intelligence stations in Western Europe systematically targeted synthetic diamond research laboratories, high-purity chemical vapor deposition suppliers, and precision microwave spectroscopy firms. Soviet military theorists sought passive, unjammable navigation and submarine detection systems that could map the Earth’s gravitational and magnetic contours. Shvets emphasizes that the Kremlin viewed quantum-level solid-state sensing as the ultimate asymmetric counterweight to Western satellite dominance, investing heavily in domestic crystal synthesis institutes across Moscow and Leningrad.",
+        "Today, as electronic warfare curtains black out satellite navigation across global skies, quantum magnetometry is revolutionizing sovereign deterrence. In an era where satellites can be jammed, blinded, or destroyed in low Earth orbit, the immutable magnetic signature of the Earth's crust provides an unjammable navigational baseline. Quantum diamond sensors prove that when space-based systems fail, atomic-scale physics holds the line.",
+        "Audit the magnetic anomaly maps, inspect the diamond crystal lattices, and verify the quantum sensors. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 188,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-13/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-08-13/f02.webp"
+          },
+          {
+            "t": 63,
+            "src": "art/2026-10-08-13/f03.webp"
+          },
+          {
+            "t": 94,
+            "src": "art/2026-10-08-13/f04.webp"
+          },
+          {
+            "t": 125,
+            "src": "art/2026-10-08-13/f05.webp"
+          },
+          {
+            "t": 157,
+            "src": "art/2026-10-08-13/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-08-13.webp",
+      "audio": "audio/2026-10-08-13.mp3",
+      "cover_video": "thumbs/2026-10-08-13.mp4"
+    },
+    {
       "id": "2026-10-08-12",
       "hour": "12:00",
       "date": "2026-10-08",
