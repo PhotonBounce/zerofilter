@@ -5,7 +5,8 @@ import { resolve, join } from "node:path";
 import { createHash } from "node:crypto";
 import { parseEpisodes, validateEpisode, cueStarts, paragraphAt, escapeHtml, MIN_DURATION, MAX_DURATION } from "../web/js/episodes.js";
 import { webpSize, mp3Info, isMp4 } from "./media.mjs";
-import { editorialProblems } from "./editorial.mjs";
+import { editorialProblems, provenanceProblems } from "./editorial.mjs";
+import { parseFeed, inWindow, hourId } from "./ingest.mjs";
 import { CATEGORIES } from "../web/js/categories.js";
 
 const ROOT = resolve(import.meta.dirname, "..");
@@ -51,7 +52,9 @@ ok(`every manifest entry is a valid episode (${episodes.length} published)`, epi
 // 1b. Editorial gate — no fake quotes, no fake news, nothing dated ahead.
 console.log("\n1b. Editorial gate (engine/editorial.mjs):");
 for (const ep of episodes) {
-  const problems = editorialProblems(ep);
+  const snapPath = ep.ingest ? join(ROOT, "data/ingest", `${ep.ingest}.json`) : null;
+  const snapshot = snapPath && existsSync(snapPath) ? JSON.parse(readFileSync(snapPath, "utf8")) : null;
+  const problems = [...editorialProblems(ep), ...provenanceProblems(ep, snapshot)];
   ok(`[${ep.id}] passes the editorial gate${problems.length ? ": " + problems.join("; ") : ""}`, problems.length === 0);
 }
 const heldPath = join(ROOT, "data/held/episodes-unverified.json");
@@ -169,6 +172,44 @@ ok("gate: a source dated after the episode fails", editorialProblems({ ...good, 
 ok("gate: a non-https source fails", editorialProblems({ ...good, sources: [...good.sources, src(1, { url: "javascript:alert(1)" })] }, NOW).some((x) => x.includes("https")));
 ok("gate: every held episode would be refused today",
   !existsSync(heldPath) || JSON.parse(readFileSync(heldPath, "utf8")).episodes.every((e) => editorialProblems(e, NOW).length > 0));
+// Ingest: feed parsing and the hour window
+const RSS = `<rss><channel><item><title>Strike on &amp; depot</title><link>https://ex.org/a</link>
+  <pubDate>Tue, 06 Oct 2026 17:30:00 GMT</pubDate><description><![CDATA[<p>Body &amp; more</p>]]></description></item>
+  <item><title>Old</title><link>https://ex.org/old</link><pubDate>Mon, 28 Sep 2026 10:00:00 GMT</pubDate></item>
+  <item><title>Insecure</title><link>http://ex.org/h</link><pubDate>Tue, 06 Oct 2026 18:00:00 GMT</pubDate></item>
+  <item><title>Later</title><link>https://ex.org/late</link><pubDate>Tue, 06 Oct 2026 19:10:00 GMT</pubDate></item></channel></rss>`;
+const ATOM = `<feed xmlns:media="http://search.yahoo.com/mrss/"><entry><title>Briefing</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=abc"/><published>2026-10-06T16:00:00+00:00</published>
+  <media:group><media:description>What he said</media:description></media:group></entry></feed>`;
+const RDF = `<rdf:RDF><item rdf:about="https://arxiv.org/abs/1"><title>Paper</title><link>https://arxiv.org/abs/1</link>
+  <dc:date>2026-10-05T00:00:00Z</dc:date></item></rdf:RDF>`;
+const rss = parseFeed(RSS), atom = parseFeed(ATOM), rdf = parseFeed(RDF);
+ok("parseFeed reads RSS 2.0 (entities, CDATA, dates)", rss.length === 4 && rss[0].title === "Strike on & depot" && rss[0].summary === "Body & more" && rss[0].published === "2026-10-06T17:30:00.000Z");
+ok("parseFeed reads Atom / YouTube (link href, media:description)", atom[0]?.url === "https://www.youtube.com/watch?v=abc" && atom[0].summary === "What he said");
+ok("parseFeed reads RSS 1.0 / RDF (dc:date)", rdf[0]?.url === "https://arxiv.org/abs/1" && rdf[0].published === "2026-10-05T00:00:00.000Z");
+const H = Date.parse("2026-10-06T19:00:00Z");
+const kept = inWindow(rss, H, 24).map((i) => i.url);
+ok("inWindow keeps only https items from before the hour and within max age", JSON.stringify(kept) === JSON.stringify(["https://ex.org/a"]));
+ok("hourId names the snapshot file by UTC hour", hourId(H) === "2026-10-06-19");
+
+// Provenance: cite only what was collected
+const snap = { hour: "2026-10-06T19:00:00.000Z", captured_at: "2026-10-06T19:01:00.000Z", items: [
+  { url: "https://ex.org/a", kind: "news" }, { url: "https://ex.org/b", kind: "news" },
+  { url: "https://www.youtube.com/watch?v=abc", kind: "speaker", speaker: "Yuri Shvets" }] };
+const pep = { ...good, hour: "19:00", ingest: "2026-10-06-19", sources: [
+  src(0, { url: "https://ex.org/a" }), src(1, { url: "https://ex.org/b" }), src(2, { url: "https://arxiv.org/abs/1", kind: "reference" }),
+  src(3, { url: "https://doi.org/x", kind: "reference" }), src(4, { url: "https://cia.gov/y", kind: "reference" })] };
+const NOW2 = Date.parse("2026-10-06T19:30:00Z");
+ok("provenance: news from the snapshot + references passes", provenanceProblems(pep, snap, NOW2).length === 0);
+ok("provenance: an episode without a snapshot fails", provenanceProblems({ ...pep, ingest: undefined }, snap, NOW2).length === 1);
+ok("provenance: a news URL that was never collected fails",
+  provenanceProblems({ ...pep, sources: [src(0, { url: "https://made.up/story" }), ...pep.sources.slice(1)] }, snap, NOW2).some((x) => x.includes("not in the ingest")));
+ok("provenance: a quote must come from the speaker's own collected feed",
+  provenanceProblems({ ...pep, sources: [...pep.sources, src(0, { url: "https://ex.org/a", speaker: "Yuri Shvets" })] }, snap, NOW2).some((x) => x.includes("own feed")) &&
+  provenanceProblems({ ...pep, sources: [...pep.sources, src(0, { url: "https://www.youtube.com/watch?v=abc", speaker: "Yuri Shvets" })] }, snap, NOW2).length === 0);
+ok("provenance: an unmarked, uncollected science source fails",
+  provenanceProblems({ ...pep, sources: [...pep.sources.slice(0, 2), src(2, { url: "https://x.org/p" })] }, snap, NOW2).some((x) => x.includes("reference")));
+ok("provenance: a snapshot from after the episode hour fails", provenanceProblems({ ...pep, hour: "18:00" }, snap, NOW2).some((x) => x.includes("after the episode")));
 ok("webpSize rejects a non-WebP buffer", webpSize(Buffer.from("RIFF0000WAVEfmt                 ")) === null);
 ok("mp3Info rejects random bytes", mp3Info(Buffer.alloc(4096, 0x11)) === null);
 

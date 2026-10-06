@@ -10,7 +10,7 @@
 import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join, resolve } from "node:path";
 import { parseEpisodes } from "../web/js/episodes.js";
-import { editorialProblems } from "./editorial.mjs";
+import { editorialProblems, provenanceProblems } from "./editorial.mjs";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const WEB = join(ROOT, "web");
@@ -27,7 +27,9 @@ const manifest = JSON.parse(readFileSync(join(WEB, "data/episodes.json"), "utf8"
 const episodes = parseEpisodes(manifest);
 let refused = 0;
 for (const ep of episodes) {
-  const problems = editorialProblems(ep);
+  const snapPath = ep.ingest ? join(ROOT, "data/ingest", `${ep.ingest}.json`) : null;
+  const snapshot = snapPath && existsSync(snapPath) ? JSON.parse(readFileSync(snapPath, "utf8")) : null;
+  const problems = [...editorialProblems(ep), ...provenanceProblems(ep, snapshot)];
   if (problems.length) {
     refused++;
     console.error(`REFUSED ${ep.id}: ${problems.join("; ")}`);

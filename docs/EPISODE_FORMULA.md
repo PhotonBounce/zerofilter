@@ -27,6 +27,12 @@ and cannot be deployed. The 151 episodes made before these rules are held in
 6. **Science claims match the paper.** Cite the paper (Nature, Science, PRL,
    arXiv…) and say what it showed — contested findings (e.g. PEAR, Stargate)
    are presented with the critique next to the claim.
+7. **Cite only what was collected.** Each episode names its ingest snapshot
+   (`"ingest": "YYYY-MM-DD-HH"`, made by `node engine/ingest.mjs` at that
+   hour from `data/feeds.json`). P0/P1 news sources and every quote must be
+   URLs in that snapshot; a quote must come from the speaker's own feed.
+   Older stable references (papers, archives) are allowed in P2–P4 with
+   `kind: "reference"`.
 
 ---
 

@@ -1,18 +1,15 @@
 name: Deploy ZeroFilter to photon-bounce.com
 
-# Ships https://photon-bounce.com/zerofilter/ :
+# https://photon-bounce.com/zerofilter/ is uploaded by the PhotonBounce/photonbounce
+# repo (workflow deploy-zerofilter.yml), because that repo holds the FTP
+# credentials and GitHub never shares secrets between repos. This workflow runs
+# the editorial gate and the build here first, then asks photonbounce to deploy
+# this exact commit.
 #
-#   dist/  ->  /public_html/zerofilter/   (mirror WITH delete, this folder only)
-#
-# dist/ is built by engine/build_site.mjs and holds only the player and the
-# episodes that pass the editorial gate (engine/editorial.mjs). The mirror
-# deletes, on purpose: when an episode is pulled from the feed its audio and
-# art must leave the live site too. It never touches anything outside
-# /public_html/zerofilter/.
-#
-# Secrets (repo Settings -> Secrets and variables -> Actions), the same values
-# the photonbounce repo uses: FTP_SERVER, PHOTON__USER, PHOTON_FTP_PASSWORD
-# (FTP_USERNAME / FTP_PASSWORD are read as fallbacks).
+# One secret, set in THIS repo: PHOTONBOUNCE_DEPLOY_TOKEN, a fine-grained
+# personal access token with access to PhotonBounce/photonbounce only and
+# Actions: Read and write. It can start a workflow there; it cannot read
+# secrets or change code.
 
 on:
   push:
@@ -24,7 +21,7 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Dry run (log what would change, upload nothing)"
+        description: "Dry run (photonbounce logs what would change, uploads nothing)"
         type: boolean
         default: false
 
@@ -45,54 +42,32 @@ jobs:
         with:
           node-version: 22
 
+      # Fail here, with the reason, rather than in the other repo.
       - name: Test suite + editorial gate
         run: node engine/unit.mjs
 
       - name: Build dist/ (published episodes only)
         run: node engine/build_site.mjs
 
-      - name: Install lftp
-        run: sudo apt-get update && sudo apt-get install -y lftp
-
-      - name: Upload dist/ -> /public_html/zerofilter/
+      - name: Ask photonbounce to deploy this commit
         env:
-          FTP_SERVER: ${{ secrets.FTP_SERVER }}
-          FTP_USERNAME: ${{ secrets.PHOTON__USER || secrets.FTP_USERNAME }}
-          FTP_PASSWORD: ${{ secrets.PHOTON_FTP_PASSWORD || secrets.FTP_PASSWORD }}
-          FTP_PROTOCOL: ${{ vars.FTP_PROTOCOL || 'ftp' }}
-          FTP_PORT: ${{ vars.FTP_PORT || '21' }}
-          DRY: ${{ inputs.dry_run && '--dry-run' || '' }}
+          TOKEN: ${{ secrets.PHOTONBOUNCE_DEPLOY_TOKEN }}
+          DRY: ${{ inputs.dry_run && 'true' || 'false' }}
         run: |
           set -euo pipefail
-          # An unset secret fails exactly like a wrong password (530); say which.
-          missing=""
-          [ -n "${FTP_SERVER:-}" ]   || missing="$missing FTP_SERVER"
-          [ -n "${FTP_USERNAME:-}" ] || missing="$missing PHOTON__USER"
-          [ -n "${FTP_PASSWORD:-}" ] || missing="$missing PHOTON_FTP_PASSWORD"
-          if [ -n "$missing" ]; then
-            echo "::error::Not set in this repo's Actions secrets:$missing"
+          if [ -z "${TOKEN:-}" ]; then
+            echo "::error::PHOTONBOUNCE_DEPLOY_TOKEN is not set in this repo's Actions secrets."
             exit 1
           fi
-          OPTS="set ftp:ssl-allow true; set ssl:verify-certificate no; set ftp:ssl-protect-data true; set net:timeout 25; set net:max-retries 2; set cmd:fail-exit yes;"
-          lftp -u "$FTP_USERNAME","$FTP_PASSWORD" -p "$FTP_PORT" "$FTP_PROTOCOL://$FTP_SERVER" \
-            -e "$OPTS mkdir -pf /public_html/zerofilter; mirror -R --delete --no-perms --no-symlinks --verbose $DRY dist/ /public_html/zerofilter/; bye"
-          # Some lftp builds skip dotfiles in mirror; the .htaccess keeps
-          # LiteSpeed from serving a stale feed. Put it explicitly.
-          if [ -z "$DRY" ]; then
-            lftp -u "$FTP_USERNAME","$FTP_PASSWORD" -p "$FTP_PORT" "$FTP_PROTOCOL://$FTP_SERVER" \
-              -e "$OPTS put -O /public_html/zerofilter/ dist/.htaccess; bye"
+          api() { curl -sS -H "Authorization: Bearer $TOKEN" -H "Accept: application/vnd.github+json" -H "X-GitHub-Api-Version: 2022-11-28" "$@"; }
+          # workflow_dispatch only reaches workflows on the default branch.
+          branch=$(api https://api.github.com/repos/PhotonBounce/photonbounce | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);if(!j.default_branch){console.error((j.message||"no default_branch").slice(0,300));process.exit(1)}console.log(j.default_branch)})')
+          body=$(printf '{"ref":"%s","inputs":{"ref":"%s","dry_run":"%s"}}' "$branch" "$GITHUB_SHA" "$DRY")
+          code=$(api -o /tmp/resp -w '%{http_code}' -X POST \
+            https://api.github.com/repos/PhotonBounce/photonbounce/actions/workflows/deploy-zerofilter.yml/dispatches -d "$body")
+          if [ "$code" != 204 ]; then
+            echo "::error::Dispatch refused (HTTP $code): $(head -c 400 /tmp/resp)"
+            exit 1
           fi
-
-      # Proof from outside: the live feed must be exactly what we built.
-      - name: Verify the live site
-        if: ${{ !inputs.dry_run }}
-        run: |
-          set -euo pipefail
-          sleep 5
-          code=$(curl -s -o /tmp/index.html -w '%{http_code}' "https://photon-bounce.com/zerofilter/?v=$GITHUB_SHA")
-          echo "index.html -> HTTP $code"; [ "$code" = 200 ]
-          grep -q 'js/app.js' /tmp/index.html
-          curl -sf "https://photon-bounce.com/zerofilter/data/episodes.json?v=$GITHUB_SHA" -o /tmp/live.json
-          cmp <(node -e 'console.log(JSON.stringify(JSON.parse(require("fs").readFileSync("/tmp/live.json","utf8")).episodes.map(e=>e.id)))') \
-              <(node -e 'console.log(JSON.stringify(JSON.parse(require("fs").readFileSync("dist/data/episodes.json","utf8")).episodes.map(e=>e.id)))')
-          echo "Live feed matches the build."
+          echo "Deploy of $GITHUB_SHA requested on PhotonBounce/photonbounce ($branch)."
+          echo "Its run (upload + live check) is listed under that repo's Actions -> 'Deploy ZeroFilter to photon-bounce.com'."
