@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 94,
+  "total_releases": 95,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -752,6 +752,14 @@
       "title": "Arctic Seabed Annexation, Lomonosov Ridge Mapping & Soviet Polar Bastion Acoustic Bathymetry",
       "audio": "audio/2026-10-09-22.mp3",
       "cover_video": "thumbs/2026-10-09-22.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-23",
+      "seconds": 180,
+      "title": "Strategic Tungsten Carbide Diversion, Munitions Stockpile Fraud & Soviet Line X Metal Smuggling",
+      "audio": "audio/2026-10-09-23.mp3",
+      "cover_video": "thumbs/2026-10-09-23.mp4",
       "status": "published_production"
     }
   ]

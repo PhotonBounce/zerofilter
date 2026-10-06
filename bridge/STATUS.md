@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **760 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **768 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 94 completed, 94 total releases published.
-  - `data/queue.json`: Head item is Episode 95 (`2026-10-09-23`).
-  - `data/registry.json`: 94 active releases logged.
+  - `status/pipeline_state.json`: Episode 95 completed, 95 total releases published.
+  - `data/queue.json`: Head item is Episode 96 (`2026-10-10-00`).
+  - `data/registry.json`: 95 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -121,10 +121,11 @@
   - `2026-10-09-20` (182s) — Bose-Einstein Condensate Atom Interferometry, Subterranean Bunker Gravimetry & Soviet Non-Acoustic ASW
   - `2026-10-09-21` (186s) — Binaural Frequency-Following Response, EEG Microstates & Soviet Telepathy Disinformation Protocols
   - `2026-10-09-22` (178s) — Arctic Seabed Annexation, Lomonosov Ridge Mapping & Soviet Polar Bastion Acoustic Bathymetry
+  - `2026-10-09-23` (180s) — Strategic Tungsten Carbide Diversion, Munitions Stockpile Fraud & Soviet Line X Metal Smuggling
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 564 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `3fed70679f3980a1aba60a459664ac48c4be5095`).
+- **Story Art Frames:** 570 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `ba0bd0901f3590b8e9e68f798794387750ecbfd9`).
 
 ---
 

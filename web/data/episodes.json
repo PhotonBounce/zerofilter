@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-23",
+      "hour": "23:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Strategic Tungsten Carbide Diversion, Munitions Stockpile Fraud & Soviet Line X Metal Smuggling",
+      "subject": "Hourly uncensored breakdown: Rex Vance exposes fraudulent tungsten carbide certifications in defense armor-piercing kinetic penetrators, depleted national defense stockpiles, and Yuri Shvets on Soviet Line X strategic metal smuggling rings.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty-three hundred hours. While the public debates defense budget toplines and aid packages, the physical kinetic lethality of Western artillery shells, tank armor penetrators, and precision guided warheads is being hollowed out from within. At the core of all modern armor-piercing munitions lies tungsten carbide—a ultra-dense refractory metal alloy capable of defeating hardened ceramic and reactive vehicle armor. Yet forensic defense audits reveal that defense sub-tier contractors are systematically substituting substandard, commercial-grade sintered scrap powder while billing the Pentagon and allied ministries for aerospace-certified mil-spec tungsten.",
+        "The National Defense Stockpile, established to guarantee twelve months of sovereign industrial surge capacity during major great-power conflicts, has been catastrophically depleted through decades of Congressional liquidation sales and sole-source foreign dependency. Over eighty percent of global tungsten processing is monopolized by geopolitical rivals. To bridge the deficit, defense procurement brokers have turned to third-party shell importers in Central Europe and Southeast Asia, laundering unrefined or adulterated metal through forged metallurgical certificates of conformance to pass routine visual inspections.",
+        "This strategic metallurgical vulnerability is not an accidental byproduct of modern globalization; it is the exact asymmetric playbook perfected by Soviet economic intelligence. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively disclosed, the KGB First Chief Directorate's Directorate T and its specialized Line X officers prioritized the covert acquisition and diversion of Western strategic metals and high-temperature alloys above almost all conventional military hardware.",
+        "According to Shvets, Soviet defense metallurgists struggled for decades with grain-boundary embrittlement and purity defects in indigenous tungsten and titanium armor penetrators. To compensate, Line X established dummy commercial export fronts in Austria, Sweden, and West Germany to buy up Western high-purity tungsten and molybdenum under the guise of civilian mining drill tooling. Shvets revealed that Soviet intelligence couriers smuggled thousands of metric tons of Western strategic alloys into Soviet defense ministry research combines, simultaneously planting falsified metal quality certificates into European commercial supply chains to degrade Western munitions inventories.",
+        "Today, that exact diversion architecture has been weaponized against the Western defense industrial base in reverse. When frontline tank crews fire armor-piercing kinetic rounds manufactured with adulterated tungsten carbide, the penetrators shatter prematurely against modern explosive reactive armor blocks instead of punching through. Private defense cartels reap record cost-plus margins on forged metallurgy, while combat forces inherit brittle munitions that fail during the first hours of high-intensity maneuver warfare.",
+        "Audit the National Defense Stockpile metallurgical testing labs, demand independent mass-spectrometer verification of all incoming kinetic penetrator shipments, and prosecute the fraudulent brokers. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-23/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-23/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-23/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-23/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-09-23/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-09-23/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "thumb": "thumbs/2026-10-09-23.webp",
+      "audio": "audio/2026-10-09-23.mp3",
+      "cover_video": "thumbs/2026-10-09-23.mp4"
+    },
+    {
       "id": "2026-10-09-22",
       "hour": "22:00",
       "date": "2026-10-09",

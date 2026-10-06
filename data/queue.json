@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-23",
-      "date": "2026-10-09",
-      "hour": "23:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Strategic tungsten carbide diversion, defense armor-piercing round supply cartels, and Yuri Shvets on Soviet rare-earth metal smuggling"
-    },
-    {
       "id": "2026-10-10-00",
       "date": "2026-10-10",
       "hour": "00:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Neuro-adaptive cognitive load telemetry, EEG P300 biometric targeting, and Yuri Shvets on KGB bio-information weaponization"
+    },
+    {
+      "id": "2026-10-10-02",
+      "date": "2026-10-10",
+      "hour": "02:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Kuril Islands bastion fortification, Sea of Okhotsk anti-access bubbles, and Yuri Shvets on Soviet Pacific Fleet bastion defense"
     }
   ]
 }
