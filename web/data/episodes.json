@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T15:10:00Z",
+  "updated": "2026-10-06T15:20:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-15",
+      "hour": "15:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Pentagon In-Q-Tel Venture Conduits, Dual-Use Equity Grift & Soviet Directorate T Fronts",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the Pentagon and CIA's In-Q-Tel venture capital conduit, dual-use technology seed funding traps, founder equity dilution schemes, classified intellectual property carve-outs, and Yuri Shvets on Soviet KGB Directorate T venture shell fronts and Western tech diversion cartels.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is fifteen hundred hours. Silicon Valley portrays itself as a meritocratic frontier of rogue founders and decentralized capital, but the financial wiring underneath tells a very different story. Since nineteen ninety-nine, the CIA and the Department of Defense have operated In-Q-Tel, an ostensibly independent venture capital conduit created to deliver commercial breakthrough technology directly into the national security apparatus. On paper, it accelerates dual-use innovation; in practice, it functions as an equity-diluting intelligence trap designed to capture intellectual property, co-opt executive governance, and bypass formal defense acquisition oversight.",
+        "The mechanics of the venture conduit are surgically predatory. Early-stage startups working on autonomous navigation, synthetic aperture radar, or generative algorithms are offered non-dilutive development contracts alongside convertible equity notes. But embedded within those agreements are draconian security riders: mandatory government observer seats, unmonitored code repository access, and broad rights of first refusal that poison future commercial financing. Founders watch their equity diluted through successive recapitalizations while defense primes quietly absorb the patent portfolio for pennies on the dollar.",
+        "This weaponization of venture capital to divert civilian research is not an American invention—it is the modern institutional heir of Cold War technological espionage. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has exposed, Soviet intelligence pioneered the use of state-backed financial front companies to penetrate Western boardrooms.",
+        "According to Shvets, the KGB’s First Chief Directorate operated a specialized division known as Directorate T, dedicated exclusively to scientific intelligence. Under the coordination of Line X officers, Soviet operatives did not just steal blueprints; they established intricate networks of shell companies and venture conduits across Zurich, Vienna, and Delaware. Shvets revealed that Directorate T used straw buyers and offshore trust accounts to purchase minority stakes in cutting-edge Western electronics firms, securing legal access to proprietary technical documentation.",
+        "Shvets further disclosed that Soviet intelligence exploited the exact blind spot that plagues modern defense tech: the illusion that venture investments are politically neutral. Through consulting agreements and licensing contracts, Directorate T exfiltrated advanced semiconductor fabrication data directly into Soviet defense bureaus, while Western trade regulators remained focused solely on formal state export controls.",
+        "From In-Q-Tel’s board seats in Silicon Valley to KGB Directorate T shells in Western Europe, the playbook is identical: when intelligence agencies invest, they are never buying equity—they are buying control and IP leverage. Beware the federal term sheet, guard your cap table, and never trade sovereign autonomy for intelligence slush funds. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-15/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-11-15/f02.webp"
+          },
+          {
+            "t": 58,
+            "src": "art/2026-10-11-15/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-11-15/f04.webp"
+          },
+          {
+            "t": 115,
+            "src": "art/2026-10-11-15/f05.webp"
+          },
+          {
+            "t": 144,
+            "src": "art/2026-10-11-15/f06.webp"
+          }
+        ]
+      },
+      "seconds": 173,
+      "audio": "audio/2026-10-11-15.mp3",
+      "thumb": "thumbs/2026-10-11-15.webp",
+      "cover_video": "thumbs/2026-10-11-15.mp4"
+    },
     {
       "id": "2026-10-11-14",
       "hour": "14:00",
