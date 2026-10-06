@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-18",
+      "hour": "18:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Red Sea Subsea Cable Sabotage, Bab el-Mandeb Chokepoints & Soviet Horn of Africa Naval Reconnaissance",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates cascading Red Sea subsea telecommunications cable cuts, Bab el-Mandeb fiber chokepoint vulnerabilities, and Yuri Shvets on Soviet naval seabed sabotage operations.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is eighteen hundred hours. While the global media focuses almost exclusively on commercial shipping disruptions in the Red Sea and drone strikes against commercial merchant tankers, a far more catastrophic asymmetric vector has materialized beneath the waves. The Bab el-Mandeb strait represents one of the dense critical digital bottlenecks on Earth. Over seventeen major submarine fiber-optic cable systems—routing approximately seventeen percent of all global internet traffic between Europe, the Middle East, and Asia—are packed into a shallow maritime trench mere kilometers wide.",
+        "Recent severed cable incidents affecting the AAE-1, Seacom, and EIG trunklines demonstrate how vulnerable this subsea digital architecture is to asymmetric interference. Anchors dragged by crippled commercial vessels or deliberate acoustic-guided seabed sabotage charges can instantaneously disrupt multi-terabit financial telecommunications and military command networks. Furthermore, because specialized cable repair ships cannot safely enter active combat zones without multi-million-dollar maritime insurance riders and naval destroyer escorts, severed fiber cables remain dead on the seafloor for months at a time.",
+        "This weaponization of maritime choke points and critical seabed infrastructure is not a novel insurgent tactic; it is the direct execution of Soviet maritime doctrine. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively detailed, the Soviet Navy's Main Directorate of Undersea Research, or GUGI, and the KGB's Eighth Department developed specialized capabilities to map, tap, and sever Western undersea telecommunications cables as early as the nineteen-seventies.",
+        "According to Shvets, the Soviet Union maintained a permanent naval presence and intelligence collection station at Dahlak Island in the southern Red Sea and the port of Aden in Yemen. Soviet oceanographic research vessels and specialized spy submarines routinely surveyed the narrow seabed bathymetry of the Bab el-Mandeb. Shvets revealed that Soviet operational war plans included the immediate physical severance of all transatlantic and Indo-European telegraph and telephone cables during the opening hours of a European conflict, isolating allied headquarters before Western logistics could mobilize.",
+        "Today, the operational heirs to that Soviet seabed strategy have transferred maritime surveillance coordinates and acoustic targeting tools to regional proxy forces across the Horn of Africa and the Arabian Peninsula. By exploiting shallow seabed bathymetry and commercial fiber density, hostile actors can inflict hundreds of billions of dollars in global economic chaos without deploying a single capital warship. The battle for the Red Sea is not fought solely on the surface; it is an undersea siege against modern digital civilization.",
+        "Audit the international subsea cable routing registries, trace the maritime repair vessel insurance waivers, and demand true redundant network sovereignty. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-18/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-09-18/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-09-18/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-09-18/f04.webp"
+          },
+          {
+            "t": 115,
+            "src": "art/2026-10-09-18/f05.webp"
+          },
+          {
+            "t": 143,
+            "src": "art/2026-10-09-18/f06.webp"
+          }
+        ]
+      },
+      "seconds": 172,
+      "thumb": "thumbs/2026-10-09-18.webp",
+      "audio": "audio/2026-10-09-18.mp3",
+      "cover_video": "thumbs/2026-10-09-18.mp4"
+    },
+    {
       "id": "2026-10-09-17",
       "hour": "17:00",
       "date": "2026-10-09",

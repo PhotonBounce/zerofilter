@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-18",
-      "date": "2026-10-09",
-      "hour": "18:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Red Sea subsea cable cut cascades, Bab el-Mandeb fiber bottlenecks, and Yuri Shvets on Soviet Horn of Africa naval reconnaissance and seabed sabotage lineage"
-    },
-    {
       "id": "2026-10-09-19",
       "date": "2026-10-09",
       "hour": "19:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Bose-Einstein condensate atom interferometry, subterranean bunker gravimetric mapping, and Yuri Shvets on Soviet non-acoustic submarine detection programs"
+    },
+    {
+      "id": "2026-10-09-21",
+      "date": "2026-10-09",
+      "hour": "21:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Binaural frequency-following response (FFR), EEG microstate segmentation, and Yuri Shvets on Soviet telepathy disinformation protocols"
     }
   ]
 }
