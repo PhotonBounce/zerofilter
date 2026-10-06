@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 144,
+  "total_releases": 145,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1152,6 +1152,14 @@
       "title": "Quantum Diamond NV Center Vector Magnetometry, Subterranean Void Mapping & Soviet Deep Underground Bunkers",
       "audio": "audio/2026-10-12-00.mp3",
       "cover_video": "thumbs/2026-10-12-00.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-12-01",
+      "seconds": 177,
+      "title": "Donald Hoffman Interface Theory of Perception, Evolutionary Fitness Payoffs & Soviet Perception Management",
+      "audio": "audio/2026-10-12-01.mp3",
+      "cover_video": "thumbs/2026-10-12-01.mp4",
       "status": "published_production"
     }
   ]

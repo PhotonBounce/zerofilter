@@ -3195,6 +3195,86 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "KGB 16TH DIR SIGINT OVERRIDES", fill=(255, 60, 60))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("hoffman", "conscious_agents", "interface_theory", "fitness_beats_truth", "perception_interface"):
+        # Donald Hoffman Interface Theory of Perception & Soviet Reflexive Perception Control
+        # 1. Background Underlying Reality (Complex Non-Spacetime Conscious Agent Graph)
+        for gy in range(cy - 220, cy + 220, 28):
+            draw.line([(60, gy), (width - 60, gy)], fill=(15, 20, 36), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(15, 20, 36), width=1)
+
+        # 2. Desktop Interface Layer (The Perceptual Illusion / 3D Spacetime Desktop)
+        desk_w, desk_h = 560, 240
+        desk_x, desk_y = cx - desk_w // 2, cy - desk_h // 2 - 20
+        draw.rectangle([desk_x, desk_y, desk_x + desk_w, desk_y + desk_h], fill=(12, 18, 30), outline=(0, 220, 255), width=2)
+        draw.rectangle([desk_x, desk_y, desk_x + desk_w, desk_y + 24], fill=(20, 35, 55), outline=(0, 220, 255), width=1)
+        draw.text((desk_x + 12, desk_y + 6), "SPACETIME USER INTERFACE // DESKTOP RENDERING CANVAS", fill=(0, 255, 240))
+
+        # Desktop Icons representing physical objects (Fitness Payoff simplifications)
+        # Icon 1: Red Apple / Resource Icon
+        ic1_x, ic1_y = desk_x + 60, desk_y + 60
+        draw.ellipse([ic1_x - 18, ic1_y - 18, ic1_x + 18, ic1_y + 18], fill=(220, 40, 60), outline=(255, 120, 100), width=2)
+        draw.line([(ic1_x, ic1_y - 18), (ic1_x + 6, ic1_y - 28)], fill=(0, 255, 180), width=2)
+        draw.text((ic1_x - 35, ic1_y + 24), "PERCEPT: APPLE", fill=(255, 200, 200))
+        draw.text((ic1_x - 35, ic1_y + 38), "FITNESS: +450", fill=(255, 220, 60))
+
+        # Icon 2: Toxic Threat / Snake Icon
+        ic2_x, ic2_y = desk_x + 200, desk_y + 60
+        draw.rectangle([ic2_x - 18, ic2_y - 18, ic2_x + 18, ic2_y + 18], fill=(40, 20, 30), outline=(255, 60, 180), width=2)
+        draw.text((ic2_x - 10, ic2_y - 8), "☠", fill=(255, 80, 80))
+        draw.text((ic2_x - 35, ic2_y + 24), "PERCEPT: THREAT", fill=(255, 120, 180))
+        draw.text((ic2_x - 35, ic2_y + 38), "FITNESS: -1000", fill=(255, 60, 60))
+
+        # Icon 3: Trash Can / Eraser (Wheeler collapse / Delete)
+        ic3_x, ic3_y = desk_x + 340, desk_y + 60
+        draw.rectangle([ic3_x - 16, ic3_y - 16, ic3_x + 16, ic3_y + 20], fill=(20, 30, 45), outline=(0, 200, 240), width=2)
+        draw.text((ic3_x - 12, ic3_y - 4), "🗑", fill=(0, 220, 255))
+        draw.text((ic3_x - 35, ic3_y + 24), "PERCEPT: VOID", fill=(120, 220, 255))
+        draw.text((ic3_x - 35, ic3_y + 38), "FITNESS: 0", fill=(200, 200, 200))
+
+        # Icon 4: Spacetime Metric Ruler (Coordinates (x, y, z, t))
+        ic4_x, ic4_y = desk_x + 470, desk_y + 60
+        draw.rectangle([ic4_x - 22, ic4_y - 12, ic4_x + 22, ic4_y + 12], fill=(25, 30, 20), outline=(255, 200, 60), width=2)
+        draw.text((ic4_x - 16, ic4_y - 6), "(x,t)", fill=(255, 220, 80))
+        draw.text((ic4_x - 40, ic4_y + 24), "METRIC: 4D GUI", fill=(255, 220, 100))
+        draw.text((ic4_x - 40, ic4_y + 38), "TRUTH: HIDDEN", fill=(255, 100, 80))
+
+        # 3. Behind the Desktop: Conscious Agent Markov Kernels (The Wiring Beneath)
+        agent_y = desk_y + 160
+        draw.line([(desk_x + 40, agent_y - 15), (desk_x + desk_w - 40, agent_y - 15)], fill=(255, 140, 50), width=1)
+        draw.text((cx - 160, agent_y - 30), "UNDERLYING DYNAMICS: CONSCIOUS AGENT KERNELS (P, D, A)", fill=(255, 180, 80))
+        for ax_idx in range(5):
+            ax = desk_x + 70 + ax_idx * 105
+            draw.ellipse([ax - 12, agent_y + 10, ax + 12, agent_y + 34], fill=(30, 18, 45), outline=(200, 120, 255), width=2)
+            draw.text((ax - 8, agent_y + 16), f"C_{ax_idx+1}", fill=(220, 180, 255))
+            if ax_idx < 4:
+                draw.line([(ax + 12, agent_y + 22), (ax + 93, agent_y + 22)], fill=(180, 100, 240), width=1)
+
+        # 4. Fitness-Beats-Truth (FBT) Theorem Telemetry Box (Lower Center)
+        fbt_x, fbt_y = cx - 180, cy + 135
+        fbt_w, fbt_h = 360, 60
+        draw.rectangle([fbt_x, fbt_y, fbt_x + fbt_w, fbt_y + fbt_h], fill=(14, 16, 26), outline=(200, 140, 255), width=1)
+        draw.text((fbt_x + 10, fbt_y + 6), "EVOLUTIONARY FBT THEOREM: P(SEEING TRUTH) = 0.000%", fill=(0, 255, 220))
+        draw.text((fbt_x + 10, fbt_y + 24), "FITNESS PAYOFF WINS 100% // NATURAL SELECTION DRIVES EXTINCTION OF TRUTH", fill=(255, 200, 80))
+        draw.text((fbt_x + 10, fbt_y + 42), "SPACETIME IS NOT FUNDAMENTAL: DATA COMPRESSION DATASTRUCTURE", fill=(200, 160, 255))
+
+        # 5. Telemetry Dossiers (Left & Right Boxes)
+        # Left HUD: Hoffman Interface Metrics
+        draw.rectangle([60, 90, 310, cy - 140], fill=(16, 16, 30), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[HOFFMAN INTERFACE HUD]", fill=(0, 240, 255))
+        draw.text((70, 118), "SPACETIME = 4D DESKTOP UI", fill=(255, 220, 100))
+        draw.text((70, 138), "PHYSICAL OBJECTS = ICONS", fill=(0, 255, 200))
+        draw.text((70, 158), "FBT THEOREM: P(TRUTH) = 0", fill=(255, 100, 80))
+        draw.text((70, 178), "CONSCIOUS AGENT NETWORKS", fill=(200, 140, 255))
+
+        # Right HUD: Soviet Perception Warfare & KGB Reflexive Control
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 14, 18), outline=(255, 80, 60), width=1)
+        draw.text((width - 310, 98), "[KGB REFLEXIVE CONTROL]", fill=(255, 100, 70))
+        draw.text((width - 310, 118), "PERCEPTION INTERFACE HACKING", fill=(255, 180, 100))
+        draw.text((width - 310, 138), "DECISION-MAKER UI INVERSION", fill=(200, 220, 240))
+        draw.text((width - 310, 158), "LEFEBVRE ALGORITHMIC WARFARE", fill=(255, 60, 60))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):

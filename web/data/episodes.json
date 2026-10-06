@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T16:55:00Z",
+  "updated": "2026-10-06T17:05:00Z",
   "episodes": [
+    {
+      "id": "2026-10-12-01",
+      "hour": "01:00",
+      "date": "2026-10-12",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Donald Hoffman Interface Theory of Perception, Evolutionary Fitness Payoffs & Soviet Perception Management",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates cognitive scientist Donald Hoffman's Interface Theory of Perception, the Fitness-Beats-Truth mathematical theorem proving sensory reality is a user desktop GUI, Markovian conscious agent networks, and Yuri Shvets on Soviet KGB Reflexive Control and strategic perception management operations.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero one hundred hours. Common sense insists that our eyes and ears function like faithful cameras, projecting an accurate depiction of objective reality into our brains. Evolutionary biology and mathematical game theory prove the exact opposite. According to cognitive scientist Donald Hoffman, natural selection tunes our sensory systems strictly for evolutionary fitness payoffs. Under Hoffman’s Fitness-Beats-Truth theorem, an organism that sees reality as it truly is will inevitably be driven to extinction by an organism tuned purely for survival.",
+        "To make this theorem intuitive, Hoffman introduces the desktop interface metaphor. When you edit a document on your computer, you manipulate a rectangular blue icon on a graphical desktop. The icon is not the physical reality of the file; it has no microscopic transistors or magnetic switches. Yet the desktop interface hides that underlying complexity so you can interact with data efficiently. In precisely the same way, space and time constitute our species-specific four-dimensional desktop interface, while physical objects are simply colorful icons designed to keep us alive.",
+        "Beyond this perceptual desktop, Hoffman proposes an underlying ontology of conscious agents. Rather than consciousness emerging from lifeless matter, fundamental reality consists of an interacting network of conscious agents governed by Markovian transition kernels. Spacetime is merely a compact, low-dimensional visualization tool that conscious observers project to track each other's evolutionary fitness payoffs. Particles do not exist until an agent renders them into its personal perceptual GUI.",
+        "Yet this vulnerability of human perception to GUI manipulation was recognized and weaponized decades ago in Soviet intelligence doctrine. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet active measures were engineered around the mathematical exploitation of human perceptual interfaces.",
+        "According to Shvets, the KGB First Chief Directorate and military intelligence operationalized Vladimir Lefebvre’s theory of Reflexive Control. Shvets revealed that Soviet psychological warfare units did not attempt to alter a target leader's underlying reality; instead, they manipulated the specific sensory inputs feeding their decision-making interface. By feeding carefully curated disinformative icons into Western intelligence briefings, Soviet strategists caused Western analysts to make decisions that seemed entirely rational on their own desktops, but systematically advanced Moscow’s strategic geopolitical objectives.",
+        "From Donald Hoffman’s mathematical proof that space and time are merely a user interface, to Soviet reflexive control operations hacking the perceptual desktops of world leaders, the lesson is clear: confusing the desktop icon for objective reality is the ultimate strategic vulnerability. Look beneath the GUI icons, question your evolutionary interface, and stay alert. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-12-01/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-12-01/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-12-01/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-12-01/f04.webp"
+          },
+          {
+            "t": 118,
+            "src": "art/2026-10-12-01/f05.webp"
+          },
+          {
+            "t": 148,
+            "src": "art/2026-10-12-01/f06.webp"
+          }
+        ]
+      },
+      "seconds": 177,
+      "audio": "audio/2026-10-12-01.mp3",
+      "thumb": "thumbs/2026-10-12-01.webp",
+      "cover_video": "thumbs/2026-10-12-01.mp4"
+    },
     {
       "id": "2026-10-12-00",
       "hour": "00:00",

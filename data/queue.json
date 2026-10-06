@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-12-01",
-      "date": "2026-10-12",
-      "hour": "01:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Donald Hoffman Interface Theory of Perception, Evolutionary Fitness Payoffs & Soviet Psy-Warfare"
-    },
-    {
       "id": "2026-10-12-02",
       "date": "2026-10-12",
       "hour": "02:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Pentagon Rare Earth Munitions Stockpile Deficits, Chinese Smuggling Rings & Soviet Line X Metals"
+    },
+    {
+      "id": "2026-10-12-04",
+      "date": "2026-10-12",
+      "hour": "04:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Rydberg Atom Electrometry, Sub-Terahertz Sensor Arrays & Soviet Microwave Interceptions"
     }
   ]
 }
