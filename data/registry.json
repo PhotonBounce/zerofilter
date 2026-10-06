@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 115,
+  "total_releases": 116,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -920,6 +920,14 @@
       "title": "Drone Swarm Telemetry Price Gouging, VC Pass-Through Shells & Soviet Bureau Cartels",
       "audio": "audio/2026-10-10-19.mp3",
       "cover_video": "thumbs/2026-10-10-19.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-20",
+      "seconds": 187,
+      "title": "Quantum Diamond NV Gravimetry, Subterranean Voids & Soviet Non-Acoustic ASW",
+      "audio": "audio/2026-10-10-20.mp3",
+      "cover_video": "thumbs/2026-10-10-20.mp4",
       "status": "published_production"
     }
   ]

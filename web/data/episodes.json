@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-20",
+      "hour": "20:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Quantum Diamond NV Gravimetry, Subterranean Voids & Soviet Non-Acoustic ASW",
+      "subject": "Hourly uncensored breakdown: Rex Vance explores quantum diamond nitrogen-vacancy (NV) center magnetometry and gravimetry mapping subterranean bunker complexes and deeply submerged titanium submarine hulls, and Yuri Shvets on Soviet non-acoustic anti-submarine warfare programs.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty hundred hours. Beneath hundreds of meters of reinforced granite, hostile command nodes and nuclear strike silos believe they are impenetrable to conventional intelligence collection. At sea, nuclear-powered ballistic missile submarines operate in total acoustic silence beneath the thermal thermocline layer, evading passive sonar arrays. Yet an emerging quantum sensor modality is threatening to make the planet transparent: diamond nitrogen-vacancy center gravimetry and quantum magnetometry, detecting minute subterranean density anomalies and magnetic field gradients with sub-nanotesla precision.",
+        "Nitrogen-vacancy centers are point defects created in synthetic diamond lattices where two adjacent carbon atoms are replaced by a nitrogen atom and a lattice vacancy. Because their electron spin states can be optically initialized and read out via green laser excitation and microwave manipulation at ambient room temperatures, NV centers function as atomic-scale quantum gyroscopes and magnetometers. By measuring the Zeeman splitting and local gravitational gradient shifts induced by missing mass, airborne NV sensor arrays can map deeply buried underground tunnel networks, hidden bunker complexes, and the magnetic displacement signatures of deeply submerged titanium-hulled submarines.",
+        "This quest to peer through rock and ocean water without relying on acoustic soundwaves was the holy grail of Soviet naval and military research throughout the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively disclosed, the Soviet military invested titanic secret budgets into non-acoustic anti-submarine warfare (ASW) and subterranean sensing.",
+        "According to Shvets, the KGB First Chief Directorate closely tracked Soviet Northern Fleet experiments with SOKS—the Soviet wake-detection system that tracked hydrodynamic thermal trails, bioluminescence, and radiation ions left by Western nuclear submarines. Soviet physicists at the Lebedev and Kurchatov Institutes recognized the limitations of acoustic listening in deep water and pursued quantum magnetometers and gravimetric anomaly detectors to track the immense mass displacement of American Ohio-class ballistic missile submarines. Shvets revealed that KGB scientific espionage officers were tasked with stealing Western superconducting SQUID magnetometer schematics to bridge Moscow's persistent materials-science deficits.",
+        "Decades later, the transition from bulky cryogenic SQUIDs to room-temperature diamond NV centers has revolutionized tactical defense sensing. Autonomous reconnaissance drones equipped with NV gravimetric pods can fly over fortified enemy terrain, detecting underground centrifuge halls and subterranean missile silos without emitting a single radar ping. In the maritime domain, quantum magnetic anomaly detection threatens to strip ballistic missile submarines of their defining strategic advantage: the absolute invisibility that underpins global nuclear deterrence.",
+        "Never assume that subterranean granite or deep ocean water provides absolute sanctuary, track the quantum sensor revolution redefining strategic reconnaissance, and remember that when gravity itself becomes an intelligence sensor, nowhere on Earth remains hidden. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-20/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-10-20/f02.webp"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-10-20/f03.webp"
+          },
+          {
+            "t": 94,
+            "src": "art/2026-10-10-20/f04.webp"
+          },
+          {
+            "t": 125,
+            "src": "art/2026-10-10-20/f05.webp"
+          },
+          {
+            "t": 156,
+            "src": "art/2026-10-10-20/f06.webp"
+          }
+        ]
+      },
+      "seconds": 187,
+      "thumb": "thumbs/2026-10-10-20.webp",
+      "audio": "audio/2026-10-10-20.mp3",
+      "cover_video": "thumbs/2026-10-10-20.mp4"
+    },
+    {
       "id": "2026-10-10-19",
       "hour": "19:00",
       "date": "2026-10-10",

@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-20",
-      "date": "2026-10-10",
-      "hour": "20:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Quantum diamond nitrogen-vacancy center subterranean gravimetry, void detection, and Yuri Shvets on Soviet non-acoustic submarine detection"
-    },
-    {
       "id": "2026-10-10-21",
       "date": "2026-10-10",
       "hour": "21:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Red Sea Bab el-Mandeb subsea telecommunications cable interdiction, Houthi ROV seabed salvage, and Yuri Shvets on Soviet Horn of Africa naval doctrine"
+    },
+    {
+      "id": "2026-10-10-23",
+      "date": "2026-10-10",
+      "hour": "23:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Special Access Program unacknowledged carve-outs, audit exemption lobbying, and Yuri Shvets on KGB black budget funding mechanisms"
     }
   ]
 }
