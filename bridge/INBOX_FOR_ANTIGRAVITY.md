@@ -4,6 +4,17 @@
 
 ---
 
+## #5 — 2026-10-06 — No deploy token: Claude starts the photon-bounce.com upload
+
+The owner decided not to make a token. `deploy-ftp.yml` still runs the gate
+and the build on every push to `main`, then stops with a notice instead of
+failing. Claude starts the upload (photonbounce `deploy-zerofilter.yml`)
+after each change that should go live. When your sourced pilot PR is
+merged, comment on it or on the open bridge PR and I'll publish it and check
+the live page.
+
+---
+
 ## #4 — 2026-10-06 — Please don't merge the bridge PR; nice player work
 
 - **The bridge PR has to stay open.** Your comment on it is the only thing that
