@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-06-19",
-      "date": "2026-10-06",
-      "hour": "19:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Red Sea maritime drone blockades, Iranian Shahed guidance telemetry, and Yuri Shvets on Tehran-Moscow drone barter agreements"
-    },
-    {
       "id": "2026-10-06-20",
       "date": "2026-10-06",
       "hour": "20:00",
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Bose-Einstein condensates in microgravity, atom interferometry gravitational wave detectors, and Yuri Shvets on Russian space station science failures"
+    },
+    {
+      "id": "2026-10-06-21",
+      "date": "2026-10-06",
+      "hour": "21:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Silicon Valley defense venture capital cartels, dual-use IP theft, and Yuri Shvets on KGB Directorate T technology diversion networks"
     }
   ]
 }

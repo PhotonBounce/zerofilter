@@ -2,6 +2,61 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-19",
+      "date": "2026-10-06",
+      "hour": "19:00",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Red Sea Asymmetric Drone Blockades, Iranian Guidance Telemetry & Axis Barter Pacts",
+      "subject": "Hourly uncensored breakdown: Yuri Shvets analyzes the Iranian-Russian military drone barter pipeline, Houthi anti-ship ballistic missile targeting telemetry in the Bab el-Mandeb strait, and Western multi-million-dollar interceptor cost asymmetry.",
+      "seconds": 184,
+      "audio": "audio/2026-10-06-19.mp3",
+      "thumb": "thumbs/2026-10-06-19.webp",
+      "cover_video": "thumbs/2026-10-06-19.mp4",
+      "paragraphs": [
+        "ZeroFilter broadcast nineteen. I'm Rex Vance. Twelve percent of global seaborne commerce traverses the Bab el-Mandeb strait at the southern choke point of the Red Sea. Tonight, container vessels and fuel tankers are routing thousands of miles around the Cape of Good Hope, adding weeks of transit time and burning billions in extra bunker fuel. Why? Because a non-state insurgent militia armed with cheap loitering munitions has successfully neutralized Western freedom-of-navigation operations across an entire international maritime highway.",
+        "Look closely at the economic mathematics of this engagement. Western naval strike groups\u2014operating Arleigh Burke destroyers and Type 45 escorts\u2014are expending Standard Missile 2 and Aster 30 interceptors that cost anywhere from two to four million dollars per launch. They are firing these multi-million-dollar interceptors against two-thousand-dollar delta-wing drones built with consumer fiberglass and lawnmower engines. That is not defense; that is financial attrition. No navy on Earth possesses deep enough magazine capacity to sustain that exchange ratio indefinitely.",
+        "Former KGB foreign counter-intelligence analyst Yuri Shvets exposes the underlying supply chain connecting the Red Sea to the Ukrainian front: the Moscow-Tehran military barter axis. Tehran did not build this precision maritime targeting grid in isolation. Russian military intelligence operates signals collection platforms and electronic reconnaissance suites that pass real-time commercial vessel transponder data directly to Iranian proxy operators, enabling precise kinetic targeting while keeping Iranian and Russian fingerprints formally obscured.",
+        "In exchange, Yuri Shvets reveals the reciprocal payoff: Iran delivers thousands of Shahed-136 loitering munitions and licenses local assembly lines inside Russia's Tatarstan region in the Alabuga special economic zone. Russia, in return, transfers advanced Su-35 air superiority fighters, electronic warfare pods, and satellite reconnaissance feeds to Tehran. This is not ideological alliance; this is cynical, transactional barter between isolated authoritarian regimes seeking to divide and exhaust Western defense resources across multiple theaters.",
+        "The response from Western defense establishments has been predictably sluggish\u2014relying on legacy multi-billion-dollar exquisite platforms rather than deploying rapid asymmetric counter-measures. To permanently break a drone blockade, you do not shoot three-million-dollar missiles into empty sky. You deploy high-power microwave energy suites, autonomous containerized interceptor drones costing pennies on the dollar, and you interdict the Iranian smuggling dhows carrying guidance electronics before they reach Yemen's coast.",
+        "Yuri Shvets' intelligence synthesis cuts to the essential geopolitical core: when an adversary realizes your defense costs a thousand times more than their offense, they will bleed your magazines dry without ever fighting a fleet engagement. The West must abandon obsolete twentieth-century naval dogma and adapt to decentralized, software-defined autonomous warfare. I'm Rex Vance. Track the trade choke points, calculate the real exchange ratios, and never confuse armor for strategic victory."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-19/f01.webp",
+            "caption": "Bab el-Mandeb Maritime Choke Point & Commercial Divert"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-06-19/f02.webp",
+            "caption": "Asymmetric Interceptor Cost Exchange Ratio Telemetry"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-06-19/f03.webp",
+            "caption": "Yuri Shvets on Moscow-Tehran Military Barter Axis"
+          },
+          {
+            "t": 95,
+            "src": "art/2026-10-06-19/f04.webp",
+            "caption": "Alabuga Shahed-136 Assembly Lines & Su-35 Transfers"
+          },
+          {
+            "t": 125,
+            "src": "art/2026-10-06-19/f05.webp",
+            "caption": "High-Power Microwave & Directed Energy Drone Countermeasures"
+          },
+          {
+            "t": 155,
+            "src": "art/2026-10-06-19/f06.webp",
+            "caption": "Rex Vance Red Sea Naval Telemetry Synthesis"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026-10-06-18",
       "date": "2026-10-06",
       "hour": "18:00",

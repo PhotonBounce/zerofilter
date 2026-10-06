@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 18,
+  "total_releases": 19,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -144,6 +144,14 @@
       "title": "Stuart Hameroff's Quantum Anesthesia, Neural Biophotons & KGB Bio-Resonance Files",
       "audio": "audio/2026-10-06-18.mp3",
       "cover_video": "thumbs/2026-10-06-18.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-06-19",
+      "seconds": 184,
+      "title": "Red Sea Asymmetric Drone Blockades, Iranian Guidance Telemetry & Axis Barter Pacts",
+      "audio": "audio/2026-10-06-19.mp3",
+      "cover_video": "thumbs/2026-10-06-19.mp4",
       "status": "published_production"
     }
   ]

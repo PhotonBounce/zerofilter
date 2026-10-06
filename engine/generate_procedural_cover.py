@@ -21,7 +21,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
 
     cx, cy = width // 2, height // 2
 
-    if theme == "geopolitics":
+    if theme in ("geopolitics", "red_sea"):
         # Amber/Cyan Radar & Maritime Electronic Warfare Sweep
         # 1. Concentric radar range rings
         for r in range(60, max(width, height), 70):
@@ -118,6 +118,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
     draw.text((40, 40), "[CLASSIFIED INTEL // ZEROFILTER BROADCAST TELEMETRY]", fill=(0, 255, 240))
     if theme == "geopolitics":
         draw.text((40, 60), "BALTIC THEATER SIGINT // EW GPS SPOOFING CORRIDOR // COORD: 55.4°N, 19.8°E", fill=(255, 160, 50))
+    elif theme == "red_sea":
+        draw.text((40, 60), "RED SEA MARITIME STRIKE // BAB EL-MANDEB ASW CORRIDOR // COORD: 12.5°N, 43.3°E", fill=(255, 140, 40))
     elif theme == "quantum":
         draw.text((40, 60), "QKD SATELLITE TELEMETRY // FREE-SPACE ENTANGLEMENT FIDELITY 99.4% // 1550nm DOWNLINK", fill=(0, 240, 255))
     elif theme == "corruption":

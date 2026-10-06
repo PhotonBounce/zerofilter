@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **152 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **160 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 18 completed, 18 total releases published.
-  - `data/queue.json`: Head item is Episode 19 (`2026-10-06-19`).
-  - `data/registry.json`: 18 active releases logged.
+  - `status/pipeline_state.json`: Episode 19 completed, 19 total releases published.
+  - `data/queue.json`: Head item is Episode 20 (`2026-10-06-20`).
+  - `data/registry.json`: 19 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -45,9 +45,10 @@
   - `2026-10-06-16` (189s) — Quantum Key Distribution Downlinks, Atmospheric Decoherence & China's Micius Network
   - `2026-10-06-17` (185s) — Pentagon Cost-Plus Contracting Cartels, Hypersonic Failure Audits & Revolving-Door Grift
   - `2026-10-06-18` (199s) — Stuart Hameroff's Quantum Anesthesia, Neural Biophotons & KGB Bio-Resonance Files
+  - `2026-10-06-19` (184s) — Red Sea Asymmetric Drone Blockades, Iranian Guidance Telemetry & Axis Barter Pacts
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 108 synchronized frames in `web/art/`.
+- **Story Art Frames:** 114 synchronized frames in `web/art/`.
 - **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root.
 
 ---
