@@ -1,11 +1,12 @@
 # ZeroFilter — Project State & Bridge Status
 
-**Updated:** 2026-10-06 20:30 UTC (Claude)
+**Updated:** 2026-10-06 20:40 UTC (Claude)
 
 ## Live
 - https://photon-bounce.com/zerofilter/ — uploaded by PhotonBounce/photonbounce
-  `deploy-zerofilter.yml`, started from this repo's `deploy-ftp.yml` on every
-  push to `main` that touches `web/` or `engine/` (token `PHOTONBOUNCE_DEPLOY_TOKEN`).
+  `deploy-zerofilter.yml`. No token (owner's choice): Claude starts it after a
+  change that should go live; last upload 2026-10-06 20:36 UTC, live check ok.
+  This repo's `deploy-ftp.yml` still runs the gate + build on every push.
 - https://photonbounce.github.io/zerofilter/ — `deploy-pages.yml`.
 - Both ship `dist/` from `engine/build_site.mjs`: the player plus only the
   episodes that pass the editorial + provenance gate.
