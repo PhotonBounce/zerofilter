@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **712 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **720 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 88 completed, 88 total releases published.
-  - `data/queue.json`: Head item is Episode 89 (`2026-10-09-17`).
-  - `data/registry.json`: 88 active releases logged.
+  - `status/pipeline_state.json`: Episode 89 completed, 89 total releases published.
+  - `data/queue.json`: Head item is Episode 90 (`2026-10-09-18`).
+  - `data/registry.json`: 89 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -115,10 +115,11 @@
   - `2026-10-09-14` (176s) — Suwalki Gap Heavy Armor Bottlenecks, Rail Gauge Discrepancies & Soviet Reinforcement Doctrines
   - `2026-10-09-15` (170s) — Defense Microelectronics Testing Waivers, Mil-Spec Falsification & Soviet Line X Silicon Harvests
   - `2026-10-09-16` (178s) — Continuous-Variable QKD, Fiber Gaussian Modulation & Soviet 8th Chief Cable-Tap Cryptanalysis
+  - `2026-10-09-17` (176s) — Integrated Information Theory, Coma Perturbational Complexity & Soviet Psychotropic Trials
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 528 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `530ed72f1a1a1895e77766eadd161ce15a3fb8b4`).
+- **Story Art Frames:** 534 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `30049d321364fafbe1df4b2a73e161d982a5892b`).
 
 ---
 

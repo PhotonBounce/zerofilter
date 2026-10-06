@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-17",
-      "date": "2026-10-09",
-      "hour": "17:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Integrated Information Theory (IIT 4.0) cause-effect structures, coma perturbational complexity index (PCI), and Yuri Shvets on Soviet psychotropic interrogation files"
-    },
-    {
       "id": "2026-10-09-18",
       "date": "2026-10-09",
       "hour": "18:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Defense fuel smuggling syndicates, NATO bunkering price fixing, and Yuri Shvets on Soviet Black Sea Fleet fuel diversion cartels"
+    },
+    {
+      "id": "2026-10-09-20",
+      "date": "2026-10-09",
+      "hour": "20:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Bose-Einstein condensate atom interferometry, subterranean bunker gravimetric mapping, and Yuri Shvets on Soviet non-acoustic submarine detection programs"
     }
   ]
 }

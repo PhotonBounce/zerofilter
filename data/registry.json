@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 88,
+  "total_releases": 89,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -704,6 +704,14 @@
       "title": "Continuous-Variable QKD, Fiber Gaussian Modulation & Soviet 8th Chief Cable-Tap Cryptanalysis",
       "audio": "audio/2026-10-09-16.mp3",
       "cover_video": "thumbs/2026-10-09-16.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-17",
+      "seconds": 176,
+      "title": "Integrated Information Theory, Coma Perturbational Complexity & Soviet Psychotropic Trials",
+      "audio": "audio/2026-10-09-17.mp3",
+      "cover_video": "thumbs/2026-10-09-17.mp4",
       "status": "published_production"
     }
   ]
