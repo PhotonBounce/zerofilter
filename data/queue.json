@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-23",
-      "date": "2026-10-07",
-      "hour": "23:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Active inference in deep generative neural networks, predictive coding, and Yuri Shvets on Soviet Pavlovian neuro-cybernetic modeling"
-    },
-    {
       "id": "2026-10-08-00",
       "date": "2026-10-08",
       "hour": "00:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Topological insulators, dissipationless helical edge states, and Yuri Shvets on Soviet solid-state physics intelligence acquisition rings"
+    },
+    {
+      "id": "2026-10-08-02",
+      "date": "2026-10-08",
+      "hour": "02:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Taiwan Strait undersea acoustic hydrophone barriers, SOSUS line arrays, and Yuri Shvets on Soviet Pacific Fleet submarine tracking doctrine"
     }
   ]
 }

@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **376 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **384 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 46 completed, 46 total releases published.
-  - `data/queue.json`: Head item is Episode 47 (`2026-10-07-23`).
-  - `data/registry.json`: 46 active releases logged.
+  - `status/pipeline_state.json`: Episode 47 completed, 47 total releases published.
+  - `data/queue.json`: Head item is Episode 48 (`2026-10-08-00`).
+  - `data/registry.json`: 47 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -73,10 +73,11 @@
   - `2026-10-07-20` (180s) — Silicon Valley Defense Cloud Lobbying, FISA 702 Renewals & KGB Wiretap Lineage
   - `2026-10-07-21` (181s) — Quantum Annealing in Flux Qubits, Adiabatic Shortcuts & Soviet Supercomputing Cryptanalysis
   - `2026-10-07-22` (177s) — Red Sea Subsea Cable Sabotage, Bab el-Mandeb Chokepoints & Soviet Horn of Africa SIGINT
+  - `2026-10-07-23` (175s) — Active Inference in Generative Neural Architectures, Predictive Coding & Soviet Neuro-Cybernetics
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 276 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `0f2554bc2ca5b68c7d5c16ec2bebef60d1c439eb`).
+- **Story Art Frames:** 282 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `4c6023c3074ddb3b4a66f1cbddfa6c20bd034edf`).
 
 ---
 
