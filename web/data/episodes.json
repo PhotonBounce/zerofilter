@@ -2,6 +2,61 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-13",
+      "date": "2026-10-06",
+      "hour": "13:00",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Quantum Vacuum Fluctuations, Casimir Micro-Thrusters & Orbital Surveillance",
+      "subject": "Hourly uncensored breakdown: Yuri Shvets exposes Russian Cosmos co-orbital satellite stalkers, Ukrainian proliferated LEO radar meshes, the dynamical Casimir effect zero-point physics, and propellant-less micro-propulsion.",
+      "seconds": 178,
+      "audio": "audio/2026-10-06-13.mp3",
+      "thumb": "thumbs/2026-10-06-13.webp",
+      "cover_video": "thumbs/2026-10-06-13.mp4",
+      "paragraphs": [
+        "Welcome to hour thirteen of ZeroFilter. Let's look up to the high frontier of orbital warfare with former KGB foreign counter-intelligence analyst Yuri Shvets. Shvets' latest intelligence brief examines Moscow's deployment of Cosmos-2576, a covert co-orbital inspector satellite maneuvering within striking distance of American classified optical reconnaissance platforms in low Earth orbit. While Pentagon defense contractors rake in hundreds of millions developing multi-billion-dollar exquisite satellite systems, Russian and Chinese space forces have fielded ground-based laser dazzling suites capable of blinding optical sensors for a tiny fraction of the cost. Once again, Washington's defense monopolies prioritize bloated corporate billings over resilient survivability.",
+        "Now observe how asymmetric distributed architecture solved this vulnerability on the Ukrainian front: by utilizing proliferated low Earth orbit satellite meshes like ICEYE synthetic aperture radar and commercial optical swarms, Ukrainian artillery commanders receive uninterrupted sub-meter radar imaging straight through cloud cover and smoke screens. Russia can blind or jam one satellite, but they cannot blind thousands of autonomous nodes operating in a self-healing mesh. Distributed resilience destroys centralized authoritarian targeting doctrine every single time.",
+        "In fundamental physics, this brings us to one of the most astonishing truths in quantum mechanics: the dynamical Casimir effect. Classical physics taught that the vacuum of space is cold, empty nothingness. Quantum field theory proves the absolute opposite: the quantum vacuum is a turbulent, boiling ocean of zero-point fluctuations, bursting with virtual particle-antiparticle pairs that appear and annihilate in femtoseconds. By vibrating a conductive boundary at relativistic velocities, physicists have experimentally extracted real, observable photons directly from the vacuum. The void is not empty; it is an inexhaustible sea of latent energy.",
+        "In applied aerospace engineering, researchers are fabricating asymmetric Casimir micro-cavities using silicon-carbide metamaterials. By engineering spatial gradients in vacuum fluctuation density, these propellant-less micro-thrusters generate continuous nanoscale station-keeping propulsion for deep-space micro-satellites, completely bypassing the physical weight limits of liquid chemical rocket fuels.",
+        "This shatters the reductionist materialist delusion that you are an isolated speck in a dead, meaningless void. There is no empty space. Every cubic centimeter of the cosmos is teeming with infinite computational and thermodynamic potential. Consciousness is the fundamental field that observes, measures, and brings this infinite ground state into physical form.",
+        "Don't let legacy gatekeepers trap your mind in obsolete nineteenth-century mechanical dogmas. Follow the mathematics, demand real accountability from our defense establishment, and remember that reality is boundless energy waiting for conscious direction. Stay sharp, remain free, and I'll catch you at the top of the next hour. I'm Rex Vance, and this was ZeroFilter."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-13/f01.webp",
+            "caption": "Russian Cosmos-2576 co-orbital inspector satellite track"
+          },
+          {
+            "t": 35,
+            "src": "art/2026-10-06-13/f02.webp",
+            "caption": "Proliferated LEO synthetic aperture radar constellation"
+          },
+          {
+            "t": 72,
+            "src": "art/2026-10-06-13/f03.webp",
+            "caption": "Dynamical Casimir effect vacuum cavity test chamber"
+          },
+          {
+            "t": 110,
+            "src": "art/2026-10-06-13/f04.webp",
+            "caption": "Silicon-carbide asymmetric metamaterial micro-thruster"
+          },
+          {
+            "t": 142,
+            "src": "art/2026-10-06-13/f05.webp",
+            "caption": "Quantum zero-point energy density tensor mapping"
+          },
+          {
+            "t": 165,
+            "src": "art/2026-10-06-13/f06.webp",
+            "caption": "Rex Vance broadcasting live from bunker"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026-10-06-12",
       "date": "2026-10-06",
       "hour": "12:00",
