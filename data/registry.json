@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 149,
+  "total_releases": 150,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1192,6 +1192,14 @@
       "title": "Stuart Hameroff Quantum Microtubule Anesthesia, Xenon Dipoles & Soviet Neuro-Aerosol Telemetry",
       "audio": "audio/2026-10-12-05.mp3",
       "cover_video": "thumbs/2026-10-12-05.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-12-06",
+      "seconds": 171,
+      "title": "Arctic Yamal LNG Shadow Fleets, Rosatom Icebreaker Chokepoints & Soviet Northern Sea Route Command",
+      "audio": "audio/2026-10-12-06.mp3",
+      "cover_video": "thumbs/2026-10-12-06.mp4",
       "status": "published_production"
     }
   ]

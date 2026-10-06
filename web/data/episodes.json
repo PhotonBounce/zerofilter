@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T17:45:00Z",
+  "updated": "2026-10-06T18:00:00Z",
   "episodes": [
+    {
+      "id": "2026-10-12-06",
+      "hour": "06:00",
+      "date": "2026-10-12",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Arctic Yamal LNG Shadow Fleets, Rosatom Icebreaker Chokepoints & Soviet Northern Sea Route Command",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the Russian Arctic shadow fleet hauling liquified natural gas from the Yamal Peninsula, Arc7 reinforced ice-class vessel sanction evasion, Rosatom's state monopoly on nuclear icebreaker piloting through the Vilkitsky Strait, and Yuri Shvets on Soviet Glavsevmorput militarized logistics and KGB Arctic maritime border surveillance.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero six hundred hours. Five hundred miles north of the Arctic Circle, on the frozen western shore of the Gulf of Ob, sits the industrial megalith of Sabetta: the production terminal for Yamal LNG and Arctic LNG Two. Designed to tap hundreds of billions of cubic meters of natural gas trapped beneath permafrost, this facility is Russia’s flagship energy frontier. But with Western sanctions banning port access, insurance coverage, and shipyard maintenance for Russian gas carriers, the Kremlin has deployed an unprecedented maritime gambit: an Arctic shadow fleet of reinforced ice-class LNG tankers navigating the treacherous Northern Sea Route.",
+        "Navigating polar sea ice requires specialized Arc7 ice-class vessels, engineered with reinforced steel double hulls and specialized azipod thrusters capable of operating astern to crush ice ridges over two meters thick. Because Western and South Korean shipbuilders terminated joint venture contracts, Moscow has engaged in opaque corporate shell maneuvers across Dubai, Singapore, and Panama to mask tanker ownership and flag registrations, loading discounted cryogenic liquefied methane and ferrying it directly through the polar ice to Chinese industrial terminals.",
+        "Yet transit across this Siberian shipping corridor is impossible without continuous state escort. Russian state atomic energy corporation Rosatom maintains an absolute legal and physical monopoly over the route, commanding a fleet of nuclear-powered icebreakers including the massive Project 22220 Arktika-class vessels. Rosatom charges exorbitant escort tariffs and dictates passage through key choke points like the Vilkitsky Strait and the New Siberian Islands, effectively converting an international sea lane into a sovereign Russian toll canal.",
+        "This militarized control over Arctic navigation directly revives the historical structure of Soviet polar expansion. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Arctic logistics were always subordinated to Soviet defense doctrine and political police oversight.",
+        "According to Shvets, the Chief Directorate of the Northern Sea Route—known as Glavsevmorput—operated during the Cold War not as a commercial shipping agency, but as an auxiliary arm of the Soviet Navy and the KGB Border Troops. Shvets revealed that every civil vessel transiting the Arctic was assigned KGB surveillance officers to monitor crew loyalty, conduct acoustic reconnaissance of Western submarines operating under polar ice sheets, and maintain secrecy around coastal SIGINT listening posts lining the Siberian archipelago.",
+        "From Glavsevmorput’s militarized polar convoys in the twentieth century to modern Arc7 shadow tankers escorted by Rosatom nuclear icebreakers through the Kara Sea, the Northern Sea Route remains the Kremlin's ultimate strategic energy fortress. Track the AIS transponder spoofing, monitor the Vilkitsky ice leads, and stay sharp. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-12-06/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-12-06/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-12-06/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-12-06/f04.webp"
+          },
+          {
+            "t": 114,
+            "src": "art/2026-10-12-06/f05.webp"
+          },
+          {
+            "t": 142,
+            "src": "art/2026-10-12-06/f06.webp"
+          }
+        ]
+      },
+      "seconds": 171,
+      "audio": "audio/2026-10-12-06.mp3",
+      "thumb": "thumbs/2026-10-12-06.webp",
+      "cover_video": "thumbs/2026-10-12-06.mp4"
+    },
     {
       "id": "2026-10-12-05",
       "hour": "05:00",

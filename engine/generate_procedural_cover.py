@@ -3399,6 +3399,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "ARCTIC LOMONOSOV RIDGE ANNEXATION // SEABED BATHYMETRY MAPPING // SOVIET POLAR BASTION ASW", fill=(0, 240, 255))
     elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "svalbard_cable", "barents_bastion", "bastion_doctrine", "northern_fleet"):
         draw.text((40, 60), "BARENTS BASTION ASW DOCTRINE // ARCTIC SOSUS TRENCH BAFFLES // NORTHERN FLEET SIGINT", fill=(255, 90, 70))
+    elif theme in ("northern_sea_route", "arctic_route", "yamal_icebreaker", "glavsevmorput"):
+        draw.text((40, 60), "NORTHERN SEA ROUTE CORRIDOR // ROSATOM NUCLEAR ICEBREAKER MONOPOLY // GLAVSEVMORPUT SIGINT", fill=(0, 240, 255))
     elif theme in ("quantum_darwinism", "pointer_states", "theremin_bug"):
         draw.text((40, 60), "QUANTUM DARWINISM // POINTER STATE PROLIFERATION // THEREMIN CAVITY RESONATOR Q: 45K", fill=(0, 255, 240))
     elif theme in ("biophoton", "biophotonic", "mitogenetic_radiation", "bio_resonance"):
