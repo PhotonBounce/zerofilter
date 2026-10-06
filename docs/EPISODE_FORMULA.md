@@ -1,5 +1,35 @@
 # ZeroFilter: The 3-Minute Hourly Episode Formula
 
+## 0. Sourcing & Dating Rules — NON-NEGOTIABLE (owner, 2026-10-06)
+
+"Make sure we're not creating fake quotes or fake news." Enforced in code by
+`engine/editorial.mjs`: an episode that breaks a rule cannot pass the tests
+and cannot be deployed. The 151 episodes made before these rules are held in
+`data/held/` and are off the site.
+
+1. **Write from real, published items only.** Each hour's script is written
+   from news items, papers and statements that already exist and were
+   published BEFORE that hour. A topic list is not a source; never invent an
+   event, a number, a vote, a strike, a study or a result.
+2. **Every claim paragraph cites its sources** (P0–P4, at least one each) in
+   the episode's `sources` array: `{ para, url, title, published, speaker? }`,
+   https links, `published` on or before the episode date. The site shows them.
+3. **No source, no quote.** A real person (Yuri Shvets included) is quoted or
+   paraphrased only from something they actually published, and that source
+   carries `speaker: "<their name>"`. No "as Shvets pointed out…" without the
+   link to where he said it. If he said nothing on the topic this hour, he is
+   not in the episode.
+4. **Never dated ahead.** An episode is stamped with the hour it is actually
+   published. Producing a batch for "tomorrow 09:00" is fabricating the news
+   before it happens.
+5. **Opinion is labelled as opinion.** Rex's takes, jokes and profanity are
+   fine; they must not be phrased as facts the sources don't support.
+6. **Science claims match the paper.** Cite the paper (Nature, Science, PRL,
+   arXiv…) and say what it showed — contested findings (e.g. PEAR, Stargate)
+   are presented with the critique next to the claim.
+
+---
+
 ## 1. Episode Blueprint (180 Seconds / ~460 Words)
 ZeroFilter is an hourly, compressed, high-impact intelligence brief. Every release runs for exactly **3 minutes (180 seconds)** spoken at a brisk, energetic pace (~150–160 words per minute).
 
@@ -9,7 +39,7 @@ There is zero filler, zero corporate PR fluff, and zero local trivia ("car hit a
 +---------------------------------------------------------------------------------------+
 | MINUTE 1 (0:00 - 1:00) : GEOPOLITICAL FIRESTORM (50% US / 50% GLOBAL)                  |
 | - 50% US: Corruption & hypocrisy exposed on BOTH sides (MAGA authoritarians & corporate |
-|   establishment Democrats). Anti-white Christian nationalism dismantled.             |
+|   establishment Democrats). White Christian nationalism dismantled.                  |
 | - 50% Global: Frontline defense of Ukraine, Taiwan, anti-authoritarian axis, and      |
 |   uncompromising exposure of radical theocratic subversion / Islamization.            |
 +---------------------------------------------------------------------------------------+
@@ -34,9 +64,7 @@ There is zero filler, zero corporate PR fluff, and zero local trivia ("car hit a
 
 ### Minute 1: Geopolitics & Political Corruption (0:00 - 1:00)
 * **The 50/50 Split:** Exactly 30 seconds focused on US power structures, and 30 seconds on critical global battlegrounds.
-* **Primary Intelligence Source — Yuri Shvets Wire:**
-  * Anchor US and Washington-related political investigations using verified intelligence briefs and disclosures from **Yuri Shvets** (ex-KGB major, Putin's Red Banner Institute classmate, Washington-based intelligence analyst and dissident).
-  * Shvets provides hard operational receipts: exposing congressional corruption, Capitol Hill lobbying networks, Russian active measures infiltrating US politics, Pentagon procurement bottlenecks, and bipartisan hypocrisy.
+* **Quoting analysts (Yuri Shvets and others):** only from what they actually published, linked as a `speaker` source (rule 0.3). Never as a standing "wire" that supplies facts the episode does not source.
 * **Equal-Opportunity Cynicism:**
   * **MAGA / White Christian Nationalism:** Call out theocratic fascism, attacks on judicial independence, Kremlin-aligned isolationist grift, book bans, and cult-like devotion to authoritarian demagogues.
   * **Corporate / Establishment Democrats:** Tear apart cowardly inaction, insider trading, donor capture, performative identity politics, and bureaucratic corruption. No partisan excuses.
@@ -47,7 +75,7 @@ There is zero filler, zero corporate PR fluff, and zero local trivia ("car hit a
 ### Minute 2: Frontier Science (1:00 - 2:00)
 * **Pure Hard Evidence:** No pop-science clickbait. Cite peer-reviewed papers (Nature, Science, arXiv, PRL).
 * **Quantum Reality:**
-  * Wheeler's delayed-choice half-mirrored interferometer experiment (how observing quantum states retroactively defines photon path).
+  * Wheeler's delayed-choice half-mirrored interferometer experiment (the photon has no definite path until measured; Jacques et al., Science 2007 — not retrocausation).
   * Quantum entanglement and Bell inequality violations.
   * Quantum computing error correction and topological qubits.
 * **Genetic Engineering & AI:**
@@ -68,7 +96,7 @@ There is zero filler, zero corporate PR fluff, and zero local trivia ("car hit a
 
 ## 3. Paragraph Structure
 Each 3-minute episode contains **6 structured paragraphs**:
-1. **P0 (Grisha-style Lead-In / US Politics):** ~75 words.
+1. **P0 (Lead-In / US Politics):** ~75 words.
 2. **P1 (Global Frontline / Ukraine / Theocracy Exposed):** ~75 words.
 3. **P2 (AI & Frontier Compute):** ~75 words.
 4. **P3 (Quantum Physics / Half-Mirrored Reality):** ~75 words.

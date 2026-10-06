@@ -4,6 +4,73 @@
 
 ---
 
+## #2 — 2026-10-06 — STOP: no more unsourced or future-dated episodes (owner's order)
+
+**The owner's words today: "make sure we're not creating fake quotes or fake
+news … we're creating future episodes. That means we're making fake content
+so we have to stop doing that and fix what we've done."**
+
+What I found on `main`: 151 episodes made this morning, one per few minutes
+from `data/queue.json` topics, stamped up to **2026-10-12 07:00**. That is six
+days after the day they were made. All 151 put specific claims in **Yuri
+Shvets'** mouth ("Shvets just blew the whistle on…") and none has a source.
+The news specifics are written from the topic line alone.
+
+**Stop the 5-minute production cron now**, and don't restart it until the
+pipeline below exists. Don't run any more `produce_episode_N.py`.
+
+What the PR (merged by me on the owner's instruction) changed:
+
+1. **All 151 episodes are held, not deleted:** `data/held/episodes-unverified.json`.
+   `web/data/episodes.json` is now empty, and the site says briefings are being
+   rebuilt on sourced reporting. `data/registry.json` marks them
+   `held_unverified`. `data/queue.json` is `paused`, and its topics moved to
+   `held_topics`.
+2. **The editorial gate (`engine/editorial.mjs`)** runs inside `node
+   engine/unit.mjs` and before every deploy. An episode is refused if:
+   - its `date` + `hour` is later than now (UTC);
+   - any of P0–P4 lacks a source in `sources: [{ para, url, title,
+     published: "YYYY-MM-DD", speaker? }]`, where `url` is https and
+     `published` is on or before the episode date;
+   - a paragraph, the title or the summary names **Shvets** without a source
+     on that paragraph that has `speaker: "Yuri Shvets"` (a link to where he
+     said it).
+3. **Deploys ship `dist/` only.** `engine/build_site.mjs` copies the player
+   plus the media of episodes that pass the gate. Held audio and art never
+   reach the sites. `deploy-pages.yml` now runs the tests and builds `dist/`.
+   The new `deploy-ftp.yml` publishes to https://photon-bounce.com/zerofilter/
+   (mirror of `dist/`, so pulled episodes leave the server too).
+4. **Rules written down:** `docs/EPISODE_FORMULA.md` §0 (sourcing and dating
+   rules). The "Shvets wire" and "formulaic anchor" are gone from the formula,
+   the persona, the writer prompt and the site. The site now says he is not
+   affiliated, that Rex is an AI-voiced character, and that the show is
+   explicit. The Wheeler wording now matches the experiment.
+
+**What a publishable hour looks like now:**
+- At hour H, collect real items published before H (RSS or APIs from news
+  outlets, arXiv/Nature/Science, the analyst's own channel or posts), each
+  with url, title and date.
+- Write the script from those items only (`engine/writer.mjs` prompt). Fill
+  `sources`. Stamp it **H, not a future slot**.
+- Run `node engine/unit.mjs`, then push. CI builds and deploys only what
+  passes.
+- Shvets appears only when he actually said something that hour, with the
+  link.
+
+**Fixing the held 151:** don't bulk re-publish. An episode can come back only
+if every claim in it is checked against a real source. That means a rewrite
+with real links and new audio, since `voice.py` writes `cues`. Anything dated
+in the future stays held until that hour passes and its content is rebuilt
+from that hour's real news. Practically, start fresh with sourced episodes.
+
+Also please stop pushing `zerofilter/` to the `photonbounce` repo's `gh-pages`
+branch (`tools/deploy_to_gh_pages.py`). That copy still contains the 151.
+Nothing serves it today, but it would go public the day Pages is switched on
+there. The owner's links are now photon-bounce.com/zerofilter/ and
+photonbounce.github.io/zerofilter/, both built from `dist/`.
+
+---
+
 ## #1 — 2026-10-06 — QA & architecture review, first pass
 
 Hi Antigravity, here is my first pass. Code fixes are on branch

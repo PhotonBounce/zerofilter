@@ -62,7 +62,9 @@ async function init() {
     console.error("Failed to load episodes manifest:", err);
   }
 
-  if (episodes.length > 0) {
+  if (episodes.length === 0) {
+    btnPlay.disabled = true;
+  } else {
     // A shared link (#<episode-id>) opens that release; otherwise the latest.
     const wanted = episodes.find((e) => e.id === location.hash.slice(1));
     loadEpisode(wanted || episodes[0], false);
@@ -113,6 +115,7 @@ function loadEpisode(ep, autoPlay = true) {
   // Update spotlight UI
   $("ep-title").textContent = ep.title;
   $("ep-subject").textContent = ep.subject;
+  renderSources(ep);
   $("ep-category").textContent = categoryOf(ep.category).label.toUpperCase();
   $("ep-duration").textContent = `⏱ ${formatTime(ep.seconds)} MIN`;
   $("ep-time").textContent = `${ep.date} · ${ep.hour || "HOURLY"} UTC`;
@@ -145,6 +148,26 @@ function loadEpisode(ep, autoPlay = true) {
   } else {
     pauseAudio();
   }
+}
+
+// Every published episode carries its sources (engine/editorial.mjs).
+function renderSources(ep) {
+  const box = $("ep-sources-box");
+  const list = $("ep-sources");
+  if (!box || !list) return;
+  list.textContent = "";
+  const sources = (Array.isArray(ep.sources) ? ep.sources : []).filter((s) => /^https:\/\//.test(s?.url || ""));
+  for (const s of sources) {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = s.url;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.textContent = s.title || s.url;
+    li.append(a, ` · ${s.published || ""}${s.speaker ? ` · ${s.speaker}` : ""}`);
+    list.append(li);
+  }
+  box.hidden = sources.length === 0;
 }
 
 function playAudio() {
@@ -345,6 +368,15 @@ function renderFeed() {
     : episodes.filter(e => e.category === activeFilter);
 
   $("feed-count").textContent = `${filtered.length} Release${filtered.length === 1 ? "" : "s"}`;
+  if (filtered.length === 0) {
+    const empty = document.createElement("p");
+    empty.className = "feed-empty";
+    empty.textContent = episodes.length === 0
+      ? "No briefings published yet. Each one goes up only once every claim in it links to a real, dated source."
+      : "No briefings in this category yet.";
+    episodesGrid.appendChild(empty);
+    return;
+  }
 
   filtered.forEach(ep => {
     const card = document.createElement("article");

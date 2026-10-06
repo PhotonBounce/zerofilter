@@ -1,6 +1,8 @@
 {
   "queue_version": "1.0",
-  "pending_episodes": [
+  "paused": true,
+  "paused_reason": "Paused 2026-10-06 (owner): topics were turned into 'news' with no sources and stamped with future hours. Resume only with a sourced pipeline: each hour's script is written from real items published before that hour, and the episode is stamped with the hour it is actually published. See bridge/INBOX_FOR_ANTIGRAVITY.md #2.",
+  "held_topics": [
     {
       "id": "2026-10-12-08",
       "date": "2026-10-12",
@@ -25,5 +27,6 @@
       "priority": "normal",
       "intel_focus": "Suwalki Gap Heavy Armor Bottlenecks, Rail Bogie Exchange Delays & Kaliningrad Iskander Threat Envelopes"
     }
-  ]
+  ],
+  "pending_episodes": []
 }
