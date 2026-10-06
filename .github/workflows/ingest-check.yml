@@ -1,0 +1,32 @@
+name: Ingest check (feeds reachable?)
+
+# Runs engine/ingest.mjs for the current hour on a GitHub runner and prints
+# each feed's status, so a dead or moved feed URL shows up on the pull request
+# that touches the feed list. Nothing is committed or deployed.
+
+on:
+  pull_request:
+    paths:
+      - 'data/feeds.json'
+      - 'engine/ingest.mjs'
+      - '.github/workflows/ingest-check.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Collect this hour's items
+        run: |
+          node engine/ingest.mjs | tee /tmp/ingest.log
+          # At least one enabled feed must work, or the pipeline has nothing to cite.
+          grep -q '^ok ' /tmp/ingest.log
+      - name: Sample of what was collected
+        run: node -e 'const fs=require("fs");const f=fs.readdirSync("data/ingest")[0];const s=JSON.parse(fs.readFileSync("data/ingest/"+f));for(const it of s.items.slice(0,15))console.log(it.feed.padEnd(18),it.published,it.title.slice(0,90))'
