@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-06-08",
-      "date": "2026-10-06",
-      "hour": "08:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Black Sea naval drone perimeter defenses, Russian refinery vulnerability mapping, and Yuri Shvets on Western summit backchannels"
-    },
-    {
       "id": "2026-10-06-09",
       "date": "2026-10-06",
       "hour": "09:00",
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Quantum eraser retrocausality, Wheeler's smoky dragon, and Yuri Shvets on Western SIGINT interception capabilities"
+    },
+    {
+      "id": "2026-10-06-10",
+      "date": "2026-10-06",
+      "hour": "10:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Donald Hoffman's interface theory of perception, neuro-quantum resonance, and Yuri Shvets on KGB deception architectures"
     }
   ]
 }

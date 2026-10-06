@@ -2,6 +2,61 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-08",
+      "date": "2026-10-06",
+      "hour": "08:00",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Black Sea Naval Drone Perimeters, Oil Refinery Flaring & Reflexive Control Bluffs",
+      "subject": "Hourly uncensored breakdown: Yuri Shvets exposes Russian Black Sea Fleet humiliation, Ukrainian precision strikes on catalytic cracking towers, Prigogine non-equilibrium thermodynamics, and Soviet reflexive control psychological warfare.",
+      "seconds": 181,
+      "audio": "audio/2026-10-06-08.mp3",
+      "thumb": "thumbs/2026-10-06-08.webp",
+      "cover_video": "thumbs/2026-10-06-08.mp4",
+      "paragraphs": [
+        "Welcome to hour eight of ZeroFilter. Let's examine the raw geopolitical ledger with former KGB foreign intelligence analyst Yuri Shvets. Shvets' latest dispatch cuts through the manufactured hysteria surrounding Kremlin red-line rhetoric. While Washington foreign policy elites agonize over mythical escalation risks, Ukrainian naval intelligence has systematically demolished the operational dominance of Russia's Black Sea Fleet. Armed with hundred-thousand-dollar autonomous Magura surface drones, Ukraine forced billion-dollar guided missile frigates and landing ships to flee their home base in Sevastopol and hide in Novorossiysk. As Shvets points out, authoritarian regimes never negotiate out of goodwill\u2014they retreat only when physically humiliated by superior tactical asymmetry.",
+        "Now look at the strategic energy infrastructure: precision long-range drone strikes have systematically taken offline over fifteen percent of Russia's primary oil refining capacity, specifically targeting imported vacuum distillation columns and catalytic cracking towers that Russian industry cannot manufacture domestically. Western corporate apologists cried that this would cause global crude oil shocks, but the empirical data proves them completely wrong: refined fuel prices inside Russia skyrocketed, forcing Moscow into nationwide gasoline export bans while global crude prices remained stable. Ukraine is methodically severing the economic fuel lines of the Russian war machine while Western bureaucrats wring their hands.",
+        "In physical theory, this dynamic illustrates Ilya Prigogine's Nobel-winning principles of non-equilibrium thermodynamics and dissipative structures. Rigid, centralized authoritarian states are closed thermodynamic systems with zero internal adaptability. When external stress fluxes inject entropy into the system faster than the centralized hierarchy can dissipate it, the entire regime doesn't bend\u2014it fractures into a sudden, chaotic phase transition. Collapse in totalitarian empires is always slow at first, and then instantaneous.",
+        "On the engineering front, naval surface drones are now integrating multi-spectral electro-optical terminal guidance with edge-computed visual odometry. Operating entirely independent of satellite GPS constellations, these naval interceptors communicate over secure maritime millimeter-wave mesh nets, dynamically routing around heavy Russian coastal jamming suites with zero human intervention.",
+        "This directly counters the Soviet doctrine of reflexive control that Shvets spent his intelligence career analyzing. Reflexive control is the deliberate injection of curated fear narratives into an adversary's media ecosystem to make them voluntarily paralyze their own decision-making. Every time an American politician repeats Kremlin talking points about nuclear escalation, they are executing Moscow's operational playbook for free.",
+        "Refuse to let corrupt politicians and compromised media anchors dictate your reality. Verify the empirical facts, reject ideological theater, and recognize that consciousness and moral courage are the true engines of human freedom. Stay analytical, stay defiant, and I'll see you at the top of the next hour. I'm Rex Vance, and this was ZeroFilter."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-08/f01.webp",
+            "caption": "Black Sea fleet naval tracks and drone corridors"
+          },
+          {
+            "t": 35,
+            "src": "art/2026-10-06-08/f02.webp",
+            "caption": "Infrared thermal targeting on refinery cracking towers"
+          },
+          {
+            "t": 72,
+            "src": "art/2026-10-06-08/f03.webp",
+            "caption": "Prigogine non-equilibrium thermodynamic entropy vectors"
+          },
+          {
+            "t": 108,
+            "src": "art/2026-10-06-08/f04.webp",
+            "caption": "Autonomous maritime surface drone visual odometry"
+          },
+          {
+            "t": 140,
+            "src": "art/2026-10-06-08/f05.webp",
+            "caption": "Yuri Shvets reflexive control psychological warfare matrix"
+          },
+          {
+            "t": 165,
+            "src": "art/2026-10-06-08/f06.webp",
+            "caption": "Rex Vance broadcasting live from bunker"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026-10-06-07",
       "date": "2026-10-06",
       "hour": "07:00",

@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 7,
+  "total_releases": 8,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -56,6 +56,14 @@
       "title": "Defense Revolving Doors, Dark Money PAC Laundering & Counter-Intel Leaks",
       "audio": "audio/2026-10-06-07.mp3",
       "cover_video": "thumbs/2026-10-06-07.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-06-08",
+      "seconds": 181,
+      "title": "Black Sea Naval Drone Perimeters, Oil Refinery Flaring & Reflexive Control Bluffs",
+      "audio": "audio/2026-10-06-08.mp3",
+      "cover_video": "thumbs/2026-10-06-08.mp4",
       "status": "published_production"
     }
   ]
