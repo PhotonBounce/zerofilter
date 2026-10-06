@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-04",
-      "date": "2026-10-09",
-      "hour": "04:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Rydberg atom electric field sensing, quantum radio-frequency receivers, and Yuri Shvets on Soviet microwave spectrum surveillance"
-    },
-    {
       "id": "2026-10-09-05",
       "date": "2026-10-09",
       "hour": "05:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Strait of Hormuz acoustic hydrophone sensor gates, clandestine Iranian mini-submarine deployments, and Yuri Shvets on Soviet Persian Gulf choke point naval doctrines"
+    },
+    {
+      "id": "2026-10-09-07",
+      "date": "2026-10-09",
+      "hour": "07:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Defense microelectronics gray market brokers, counterfeit FPGA diversion to sanctioned Russian drone plants, and Yuri Shvets on Line X semiconductor smuggling"
     }
   ]
 }

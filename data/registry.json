@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 75,
+  "total_releases": 76,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -600,6 +600,14 @@
       "title": "Special Access Program Financial Obfuscation, Defense Intelligence SAP Unvouchered Funds & Soviet Clandestine Accounts",
       "audio": "audio/2026-10-09-03.mp3",
       "cover_video": "thumbs/2026-10-09-03.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-04",
+      "seconds": 173,
+      "title": "Rydberg Atom Electric Field Sensing, Quantum RF Receivers & Soviet Microwave Surveillance",
+      "audio": "audio/2026-10-09-04.mp3",
+      "cover_video": "thumbs/2026-10-09-04.mp4",
       "status": "published_production"
     }
   ]

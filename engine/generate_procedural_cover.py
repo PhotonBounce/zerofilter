@@ -752,7 +752,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 330, cy + 130), "RECEPTOR TARGET: TUBULIN DIPOLE GRID", fill=(255, 220, 120))
         draw.text((width - 330, cy + 150), "STATUS: ARCHIVAL DOSSIER DISCLOSED", fill=(255, 80, 80))
 
-    elif theme in ("photonic_crystals", "laser_optics", "microcavity", "nonlinear_optics", "cavity_qed", "rabi_splitting", "microresonators", "atomic_laser", "nv_center", "diamond_magnetometry", "quantum_magnetometer", "nv_diamond"):
+    elif theme in ("photonic_crystals", "laser_optics", "microcavity", "nonlinear_optics", "cavity_qed", "rabi_splitting", "microresonators", "atomic_laser", "nv_center", "diamond_magnetometry", "quantum_magnetometer", "nv_diamond", "rydberg", "rydberg_atom", "rydberg_rf", "quantum_rf"):
         # Nonlinear Optics in Photonic Crystals & Microcavity Laser Localization
         # 1. 2D Photonic Crystal Hexagonal Array of Dielectric Rods
         grid_start_x = cx - 360
@@ -1273,6 +1273,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "QUANTUM SYNAPTIC PLASTICITY // MICROTUBULE ORCHESTRATION // KGB BIO-CYBERNETIC TELEMETRY", fill=(30, 240, 160))
     elif theme in ("nv_center", "diamond_magnetometry", "quantum_magnetometer", "nv_diamond"):
         draw.text((40, 60), "QUANTUM DIAMOND NV MAGNETOMETRY // GPS-DENIED NAVIGATION // SOVIET SENSOR ESPIONAGE", fill=(0, 240, 255))
+    elif theme in ("rydberg", "rydberg_atom", "rydberg_rf", "quantum_rf"):
+        draw.text((40, 60), "RYDBERG ATOM RF SENSOR // ELECTROMAGNETICALLY INDUCED TRANSPARENCY // SOVIET MICROWAVE SIGINT", fill=(0, 240, 255))
     elif theme in ("photonic_crystals", "laser_optics", "microcavity", "nonlinear_optics", "cavity_qed", "rabi_splitting", "microresonators", "atomic_laser"):
         draw.text((40, 60), "CAVITY QUANTUM ELECTRODYNAMICS // VACUUM RABI SPLITTING // SOVIET ATOMIC SPECTROSCOPY", fill=(0, 240, 255))
     elif theme in ("pear_reg", "cognitive_field", "anomalous_entanglement", "field_reg"):

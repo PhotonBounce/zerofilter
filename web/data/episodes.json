@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-04",
+      "hour": "04:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Rydberg Atom Electric Field Sensing, Quantum RF Receivers & Soviet Microwave Surveillance",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates Rydberg atom electromagnetically induced transparency for ultra-wideband RF sensing, quantum electric field metrology, and Yuri Shvets on Soviet microwave spectrum surveillance.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero four hundred hours. For over a century, radio frequency detection has relied upon conductive metallic antennas constrained by the Chu-Harrington physical limit. The smaller the antenna relative to the carrier wavelength, the lower its bandwidth and sensitivity. Today, applied quantum electrodynamics has shattered that classical barrier through Rydberg atom electric field sensing. By exciting alkali metal atoms such as rubidium or cesium into principal quantum numbers exceeding n equals fifty, researchers create highly polarizable atomic states whose outer valence electrons orbit hundreds of nanometers from the nucleus.",
+        "When probed with optical lasers via Electromagnetically Induced Transparency and Autler-Townes splitting, these Rydberg vapor cells transform into self-calibrating quantum radio frequency receivers. They operate continuously from direct current up to terahertz frequencies without physical antenna reconfiguration, impervious to traditional electromagnetic pulse burnouts. A glass vapor cell smaller than a fingertip can detect sub-microvolt electric fields, intercepting frequency-hopping satellite downlinks and covert spread-spectrum military radars that remain completely invisible to conventional electronic warfare receivers.",
+        "This mastery of the electromagnetic spectrum has always been the central obsession of great power counter-intelligence. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently detailed, Soviet technical intelligence placed supreme priority on microwave spectrum surveillance and non-cooperative RF interception. During the Cold War, the KGB's Eighth Chief Directorate and technical departments deployed continuous microwave beams against the United States Embassy in Moscow—an operation known in declassified files as the Moscow Signal.",
+        "According to Shvets, while Western intelligence initially suspected health-degradation weapons, the primary objective was activating passive cavity resonators and mapping classified telecommunications emissions through high-frequency microwave illumination. Shvets revealed that Soviet technical bureaus built specialized analog spectrum analyzers across Eastern Europe to intercept NATO microwave relays. Today's Rydberg quantum receivers represent the ultimate technological culmination of that doctrine: replacing cumbersome Soviet microwave dishes with quantum vapor cells that measure the electromagnetic continuum at the fundamental atomic limit.",
+        "As electronic warfare and drone swarms saturate modern combat zones, traditional RF antennas will be targeted by autonomous anti-radiation missiles. Quantum Rydberg sensors provide a virtually unjammable, zero-signature sensing alternative, guaranteeing spectrum dominance across contested theaters. The future of signals intelligence is no longer copper wire; it is quantum atomic coherence.",
+        "Audit the Autler-Townes splitting traces, verify the Rydberg vapor cell telemetry, and track the quantum RF spectrum. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-04/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-09-04/f02.webp"
+          },
+          {
+            "t": 58,
+            "src": "art/2026-10-09-04/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-09-04/f04.webp"
+          },
+          {
+            "t": 115,
+            "src": "art/2026-10-09-04/f05.webp"
+          },
+          {
+            "t": 144,
+            "src": "art/2026-10-09-04/f06.webp"
+          }
+        ]
+      },
+      "seconds": 173,
+      "thumb": "thumbs/2026-10-09-04.webp",
+      "audio": "audio/2026-10-09-04.mp3",
+      "cover_video": "thumbs/2026-10-09-04.mp4"
+    },
+    {
       "id": "2026-10-09-03",
       "hour": "03:00",
       "date": "2026-10-09",
