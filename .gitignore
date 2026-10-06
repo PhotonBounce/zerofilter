@@ -11,3 +11,5 @@ scratch/
 bridge/.last_seen
 bridge/.claude_says.md
 dist/
+__pycache__/
+*.pyc

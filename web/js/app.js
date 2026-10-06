@@ -143,10 +143,54 @@ function loadEpisode(ep, autoPlay = true) {
   // Reset to active camera
   switchCamera(activeCam);
 
+  updateMediaSession(ep);
+
   if (autoPlay) {
     playAudio();
   } else {
     pauseAudio();
+  }
+}
+
+function updateMediaSession(ep) {
+  if (!("mediaSession" in navigator)) return;
+  try {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: ep.title,
+      artist: "Rex Vance // ZeroFilter",
+      album: "ZeroFilter Intelligence Stream",
+      artwork: [
+        { src: ep.thumb, sizes: "1280x720", type: "image/webp" }
+      ]
+    });
+    navigator.mediaSession.setActionHandler("play", () => playAudio());
+    navigator.mediaSession.setActionHandler("pause", () => pauseAudio());
+    navigator.mediaSession.setActionHandler("seekbackward", () => {
+      audio.currentTime = Math.max(0, audio.currentTime - 10);
+    });
+    navigator.mediaSession.setActionHandler("seekforward", () => {
+      audio.currentTime = Math.min(audio.duration || 180, audio.currentTime + 10);
+    });
+    navigator.mediaSession.setActionHandler("previoustrack", () => playPreviousEpisode());
+    navigator.mediaSession.setActionHandler("nexttrack", () => playNextEpisode());
+  } catch (err) {
+    console.debug("MediaSession error:", err);
+  }
+}
+
+function playNextEpisode() {
+  if (!currentEpisode || episodes.length <= 1) return;
+  const idx = episodes.findIndex(e => e.id === currentEpisode.id);
+  if (idx >= 0 && idx + 1 < episodes.length) {
+    loadEpisode(episodes[idx + 1], true);
+  }
+}
+
+function playPreviousEpisode() {
+  if (!currentEpisode || episodes.length <= 1) return;
+  const idx = episodes.findIndex(e => e.id === currentEpisode.id);
+  if (idx > 0) {
+    loadEpisode(episodes[idx - 1], true);
   }
 }
 
@@ -445,9 +489,13 @@ function setupEventListeners() {
     }
   });
   audio.addEventListener("ended", () => {
-    pauseAudio();
-    audio.currentTime = 0;
     stageOverlay.classList.add("hidden");
+    if (episodes.length > 1) {
+      playNextEpisode();
+    } else {
+      pauseAudio();
+      audio.currentTime = 0;
+    }
   });
 
   seekBar.addEventListener("input", () => {
@@ -536,6 +584,12 @@ function setupEventListeners() {
       audio.currentTime = Math.min(audio.duration || 180, audio.currentTime + 5);
     } else if (e.code === "ArrowLeft") {
       audio.currentTime = Math.max(0, audio.currentTime - 5);
+    } else if (e.key === "c" || e.key === "C") {
+      const cams = ["loop", "host", "bunker", "story"];
+      const nextCam = cams[(cams.indexOf(activeCam) + 1) % cams.length];
+      switchCamera(nextCam);
+    } else if (e.key === "m" || e.key === "M") {
+      audio.muted = !audio.muted;
     }
   });
 }
