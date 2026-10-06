@@ -2,6 +2,61 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-12",
+      "date": "2026-10-06",
+      "hour": "12:00",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Taiwan Strait Hellscape Doctrine, Beijing-Moscow Axis & EUV Chokepoints",
+      "subject": "Hourly uncensored breakdown: Yuri Shvets exposes Beijing-Moscow strategic coordination, INDOPACOM autonomous Hellscape defense doctrine, TSMC EUV lithography chokepoints, and rare-earth supply chain weaponization.",
+      "seconds": 171,
+      "audio": "audio/2026-10-06-12.mp3",
+      "thumb": "thumbs/2026-10-06-12.webp",
+      "cover_video": "thumbs/2026-10-06-12.mp4",
+      "paragraphs": [
+        "Welcome to hour twelve of ZeroFilter. Let's examine the supreme geopolitical fault line of the twenty-first century with former KGB foreign counter-intelligence analyst Yuri Shvets. Shvets' newest strategic brief exposes the cold transactional mechanics behind Beijing and Moscow's intelligence axis. Xi Jinping treats Vladimir Putin not as an equal partner, but as an expendable battering ram sent to exhaust Western military stockpiles and test American political stamina. Congressional politicians who preach isolationism under the cowardly banner of domestic priority are handing Beijing an open invitation: every hesitation on the Ukrainian front is interpreted in Beijing as a green light for an amphibious blockade of Taiwan.",
+        "Look at the operational counter-strategy being deployed across the hundred-mile Taiwan Strait: the United States Indo-Pacific Command's Hellscape doctrine. The moment Chinese amphibious assault ships depart naval berths in Fujian, thousands of autonomous uncrewed surface vessels, loitering strike drones, and smart acoustic sea mines activate simultaneously. By turning the maritime strait into a self-organizing autonomous kill-zone, Taiwan and allied forces eliminate the need for costly carrier strike groups to enter the anti-ship missile envelope, neutralizing numerical invasion forces through radical low-cost asymmetry.",
+        "At the fundamental physical layer, global economic civilization rests on an astonishingly fragile material chokepoint: ASML's extreme ultraviolet photolithography mirrors, polished to tolerances narrower than a single silicon atom, operating inside TSMC's fabrication cleanrooms in Hsinchu. Combine that with Beijing's monopolistic chokehold on neodymium and dysprosium rare-earth refining, and you realize that modern microchip computing is not an abstract cloud; it is a precarious thermodynamic miracle tethered to a vulnerable geographic coastline.",
+        "In advanced naval engineering, uncrewed submersible motherships are now deploying wake-homing passive acoustic torpedoes. Communicating via blue-green laser satellite links and low-frequency magnetometers, these autonomous underwater sentinels track submarine acoustic signatures without emitting active sonar pings, operating with total acoustic stealth inside contested littoral channels.",
+        "As Shvets relentlessly reminds us, totalitarian regimes understand only one dialect: the credible threat of catastrophic physical defeat. The Soviet Union didn't collapse because of diplomatic summit platitudes; it collapsed because it went bankrupt trying to match Western technological superiority. Appeasement never buys peace; it merely finances the next invasion.",
+        "Reject the defeatist narratives of compromised politicians who want you to believe totalitarian victory is inevitable. The data proves otherwise. Stand firm for human liberty, audit the supply-chain receipts, and remember that conscious courage is the ultimate asymmetric weapon. Stay sharp, remain free, and I will catch you at the top of the next hour. I'm Rex Vance, and this was ZeroFilter."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-12/f01.webp",
+            "caption": "Beijing-Moscow strategic intelligence dialogue matrix"
+          },
+          {
+            "t": 35,
+            "src": "art/2026-10-06-12/f02.webp",
+            "caption": "INDOPACOM Taiwan Strait autonomous drone barrier net"
+          },
+          {
+            "t": 72,
+            "src": "art/2026-10-06-12/f03.webp",
+            "caption": "TSMC EUV photolithography sub-atomic mirror optics"
+          },
+          {
+            "t": 108,
+            "src": "art/2026-10-06-12/f04.webp",
+            "caption": "Autonomous submersible acoustic wake-homing torpedoes"
+          },
+          {
+            "t": 140,
+            "src": "art/2026-10-06-12/f05.webp",
+            "caption": "Yuri Shvets analysis on totalitarian bankruptcies"
+          },
+          {
+            "t": 165,
+            "src": "art/2026-10-06-12/f06.webp",
+            "caption": "Rex Vance broadcasting live from bunker"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026-10-06-11",
       "date": "2026-10-06",
       "hour": "11:00",

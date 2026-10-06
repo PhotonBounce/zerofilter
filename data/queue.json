@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-06-12",
-      "date": "2026-10-06",
-      "hour": "12:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Taiwan Strait autonomous drone barrier defenses, rare earth element mineral supply chain weaponization, and Yuri Shvets on Beijing-Moscow intelligence coordination"
-    },
-    {
       "id": "2026-10-06-13",
       "date": "2026-10-06",
       "hour": "13:00",
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Quantum vacuum fluctuations, Casimir effect micro-propulsion, and Yuri Shvets on Western space surveillance telemetry"
+    },
+    {
+      "id": "2026-10-06-14",
+      "date": "2026-10-06",
+      "hour": "14:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Roger Penrose Orch-OR quantum microtubule physics, non-computable algorithms, and Yuri Shvets on KGB bio-information leaks"
     }
   ]
 }
