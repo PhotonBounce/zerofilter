@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-14",
+      "hour": "14:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Suwalki Gap Heavy Armor Bottlenecks, Rail Gauge Discrepancies & Soviet Reinforcement Doctrines",
+      "subject": "Hourly uncensored breakdown: Rex Vance analyzes NATO heavy armor transit chokepoints along the Suwalki Corridor, 1520mm Russian vs 1435mm European rail gauge breaks, and Yuri Shvets on Soviet Baltic encirclement doctrines.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is fourteen hundred hours. In Western defense planning, the sixty-five-kilometer strip of land connecting Poland to Lithuania—sandwiched between the heavily fortified Russian exclave of Kaliningrad and Belarus—is routinely designated as NATO's most vulnerable geographic vulnerability: the Suwalki Gap. War games consistently project that in a high-intensity European conflict, Russian armored columns could sever the corridor within forty-eight to seventy-two hours, completely isolating Estonia, Latvia, and Lithuania from continental allied reinforcement.",
+        "Yet the decisive vulnerability of the Suwalki Gap is not merely geographic; it is fundamentally logistical and mechanical. Moving a modern NATO armored brigade requires thousands of rail flatcars to transport sixty-ton main battle tanks. While Poland operates on standard European fourteen-hundred-and-thirty-five-millimeter railway track, the Baltic states remain bound to the Russian and Soviet broad gauge of fifteen-hundred-and-twenty millimeters. At the border interchange hubs of Mockava and Sestokai, every single armored vehicle must either be transferred by crane or undergo lengthy railway bogie wheel exchanges under the direct threat of Kaliningrad Iskander-M ballistic missiles and S-400 anti-air envelopes.",
+        "This dual-gauge rail bottleneck was engineered into the borderlands as an explicit instrument of imperial and Soviet military doctrine. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently detailed, Soviet military logistics and the Warsaw Pact General Staff considered broad-gauge rail dominance essential to rapid operational maneuvering. The Soviet Western Military District planned armored surges based on continuous broad-gauge connectivity, intentionally maintaining the incompatible gauge barrier to paralyze any counter-offensive from Western Europe.",
+        "According to Shvets, the KGB's First Chief Directorate and military intelligence GRU routinely analyzed NATO transport timetables through Directorate T intelligence collection. Soviet doctrine calculated that while Soviet rail echelons could rapidly deploy armored divisions from the Moscow and Leningrad military districts straight through Belarus to Kaliningrad on uniform fifteen-twenty gauge lines, NATO reinforcements would inevitably choke at standard-gauge rail terminals, creating static, concentrated targets for preemptive tactical missile strikes and airborne sabotage.",
+        "Today, despite European initiatives like Rail Baltica attempting to extend standard European gauge into Tallinn, the timeline for complete logistical conversion lags years behind the threat matrix. If crisis erupts along the Suwalki Corridor, allied air superiority cannot compensate for immobilized rail lines and mechanical bogie delays. In modern peer conflict, physical infrastructure and rail geometry dictate strategic outcomes long before frontline armor exchanges fire.",
+        "Audit the NATO military mobility budgets, trace the rail gauge bottlenecks across the Suwalki Corridor, and demand unvarnished logistics reality. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-14/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-09-14/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-09-14/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-09-14/f04.webp"
+          },
+          {
+            "t": 117,
+            "src": "art/2026-10-09-14/f05.webp"
+          },
+          {
+            "t": 147,
+            "src": "art/2026-10-09-14/f06.webp"
+          }
+        ]
+      },
+      "seconds": 176,
+      "thumb": "thumbs/2026-10-09-14.webp",
+      "audio": "audio/2026-10-09-14.mp3",
+      "cover_video": "thumbs/2026-10-09-14.mp4"
+    },
+    {
       "id": "2026-10-09-13",
       "hour": "13:00",
       "date": "2026-10-09",

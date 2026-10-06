@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-14",
-      "date": "2026-10-09",
-      "hour": "14:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Suwalki Gap heavy armor transit bottlenecks, 1520mm Russian rail gauge vs 1435mm European standard gauge, and Yuri Shvets on Soviet rapid reinforcement corridors"
-    },
-    {
       "id": "2026-10-09-15",
       "date": "2026-10-09",
       "hour": "15:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Continuous-variable quantum key distribution (CV-QKD), Gaussian modulation in fiber-optic networks, and Yuri Shvets on Soviet 8th Chief Directorate cable-tap cryptanalysis"
+    },
+    {
+      "id": "2026-10-09-17",
+      "date": "2026-10-09",
+      "hour": "17:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Integrated Information Theory (IIT 4.0) cause-effect structures, coma perturbational complexity index (PCI), and Yuri Shvets on Soviet psychotropic interrogation files"
     }
   ]
 }

@@ -21,7 +21,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
 
     cx, cy = width // 2, height // 2
 
-    if theme in ("geopolitics", "red_sea", "asbm", "anti_ship_missile", "red_sea_missile", "suwalki_gap", "kaliningrad_ew", "hormuz_spoofing", "hormuz_ew", "iran_drone", "hormuz_hydrophone", "persian_gulf", "taiwan_sosus", "hydrophone_barrier", "taiwan_strait", "barents_bastion", "giuk_gap", "malacca_blockade", "hydrophone_gate"):
+    if theme in ("geopolitics", "red_sea", "asbm", "anti_ship_missile", "red_sea_missile", "hormuz_spoofing", "hormuz_ew", "iran_drone", "hormuz_hydrophone", "persian_gulf", "taiwan_sosus", "hydrophone_barrier", "taiwan_strait", "barents_bastion", "giuk_gap", "malacca_blockade", "hydrophone_gate"):
         # Amber/Cyan Radar & Maritime Electronic Warfare Sweep
         # 1. Concentric radar range rings
         for r in range(60, max(width, height), 70):
@@ -75,6 +75,89 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
                 dist = math.hypot(jx - 400, jy - 275)
                 if dist < 120:
                     draw.point((jx + int(math.sin(jy*0.2)*4), jy), fill=(240, 70, 40))
+
+    elif theme in ("suwalki_gap", "suwalki_corridor", "kaliningrad_ew", "kaliningrad_corridor", "rail_gauge"):
+        # Suwalki Gap Heavy Armor Transit Bottleneck & Rail Gauge Discrepancy
+        # 1. Geographic Sector Partition (Kaliningrad West, Belarus East, Poland South, Lithuania North)
+        # Tactical grid background
+        for gy in range(80, height - 80, 30):
+            draw.line([(60, gy), (width - 60, gy)], fill=(12, 24, 36), width=1)
+        for gx in range(60, width - 60, 40):
+            draw.line([(gx, 80), (gx, height - 80)], fill=(12, 24, 36), width=1)
+
+        # Kaliningrad Oblast Zone (Left, Red/Orange tint)
+        draw.rectangle([60, cy - 140, cx - 180, cy + 140], fill=(24, 14, 16), outline=(255, 80, 60), width=2)
+        draw.text((70, cy - 130), "[KALININGRAD EXCLAVE (RF)]", fill=(255, 90, 70))
+        draw.text((70, cy - 110), "11TH ARMY CORPS // ISKANDER-M BDE", fill=(255, 140, 50))
+        draw.text((70, cy - 90), "KRASUKHA-4 EW JAMMING EMITTER", fill=(255, 200, 80))
+
+        # Belarus Zone (Right, Amber tint)
+        draw.rectangle([cx + 180, cy - 140, width - 60, cy + 140], fill=(22, 16, 12), outline=(255, 140, 40), width=2)
+        draw.text((cx + 190, cy - 130), "[BELARUS / GRODNO AXIS]", fill=(255, 160, 50))
+        draw.text((cx + 190, cy - 110), "WESTERN MILITARY DISTRICT RELAY", fill=(255, 200, 80))
+        draw.text((cx + 190, cy - 90), "1520mm LOGISTICS REINFORCEMENT", fill=(255, 220, 100))
+
+        # The Suwalki Corridor Bottleneck (Center, 65km Gap between Poland and Lithuania)
+        corridor_w = 340
+        draw.rectangle([cx - corridor_w//2, cy - 160, cx + corridor_w//2, cy + 160], outline=(0, 240, 255), width=2)
+        draw.text((cx - 100, cy - 150), "SUWALKI GAP CHOKEPOINT (65 KM)", fill=(0, 255, 240))
+        draw.text((cx - 85, cy + 140), "POLAND (SOUTH) <--> LITHUANIA (NORTH)", fill=(100, 220, 255))
+
+        # 2. Kaliningrad Iskander-M & S-400 A2/AD Threat Envelopes (Overlapping red domes)
+        kalin_center = (cx - 240, cy)
+        for r_threat in [200, 320, 440]:
+            draw.arc([kalin_center[0] - r_threat, kalin_center[1] - r_threat, kalin_center[0] + r_threat, kalin_center[1] + r_threat], start=300, end=60, fill=(255, 60, 40), width=1)
+        draw.text((cx - 70, cy - 100), "A2/AD ISKANDER-M 500KM ENVELOPE", fill=(255, 80, 60))
+
+        # 3. Rail Gauge Discrepancy (1435mm European Standard vs 1520mm Russian Broad Gauge)
+        # European Standard Gauge 1435mm Track (South-to-North through Poland to Mockava, Cyan)
+        track_x = cx - 30
+        for y_t in range(cy + 150, cy - 10, 8):
+            # Rail ties
+            draw.line([(track_x - 14, y_t), (track_x + 14, y_t)], fill=(0, 140, 180), width=1)
+        draw.line([(track_x - 10, cy + 150), (track_x - 10, cy - 10)], fill=(0, 240, 255), width=2)
+        draw.line([(track_x + 10, cy + 150), (track_x + 10, cy - 10)], fill=(0, 240, 255), width=2)
+        draw.text((track_x - 120, cy + 90), "1435mm STANDARD GAUGE (NATO)", fill=(0, 255, 240))
+
+        # Russian Broad Gauge 1520mm Track (North through Lithuania & East from Grodno, Amber)
+        track_rus_x = cx + 30
+        for y_t in range(cy - 10, cy - 150, 9):
+            # Broader rail ties
+            draw.line([(track_rus_x - 18, y_t), (track_rus_x + 18, y_t)], fill=(200, 120, 30), width=1)
+        draw.line([(track_rus_x - 14, cy - 10), (track_rus_x - 14, cy - 150)], fill=(255, 180, 50), width=2)
+        draw.line([(track_rus_x + 14, cy - 10), (track_rus_x + 14, cy - 150)], fill=(255, 180, 50), width=2)
+        draw.text((track_rus_x + 25, cy - 90), "1520mm RUSSIAN BROAD GAUGE", fill=(255, 180, 50))
+
+        # Break-of-Gauge Transfer Node at Mockava / Sestokai (Center Junction)
+        draw.rectangle([cx - 40, cy - 25, cx + 40, cy + 15], fill=(30, 20, 25), outline=(255, 220, 80), width=2)
+        draw.text((cx - 32, cy - 20), "SESTOKAI HUB", fill=(255, 220, 80))
+        draw.text((cx - 36, cy - 5), "BOGIE EXCHANGE", fill=(255, 140, 40))
+        draw.line([(track_x, cy - 10), (track_rus_x, cy - 10)], fill=(255, 220, 80), width=2)
+
+        # Heavy armor bottleneck queue (Tanks/flatcars queued at exchange)
+        for i_tank in range(4):
+            tx_box = track_x - 8
+            ty_box = cy + 30 + i_tank * 26
+            draw.rectangle([tx_box - 8, ty_box, tx_box + 8, ty_box + 16], fill=(15, 35, 45), outline=(0, 255, 220), width=1)
+            draw.text((tx_box - 24, ty_box + 3), f"M1A2", fill=(0, 255, 200))
+        draw.text((track_x - 130, cy + 40), "HEAVY ARMOR FLATCAR QUEUE", fill=(255, 100, 80))
+
+        # 4. Telemetry Dossiers (Logistics & Soviet Line X Intelligence)
+        # Left HUD Box: NATO Suwalki Gap Chokepoint Metrics
+        draw.rectangle([60, 90, 310, cy - 160], fill=(12, 20, 30), outline=(0, 240, 255), width=1)
+        draw.text((70, 98), "[SUWALKI LOGISTICS METRICS]", fill=(0, 240, 255))
+        draw.text((70, 118), "CORRIDOR WIDTH: 65 KM (CHOKEPOINT)", fill=(255, 220, 100))
+        draw.text((70, 138), "RAIL BREAK: 1435mm / 1520mm GAUGE", fill=(255, 140, 50))
+        draw.text((70, 158), "BOGIE TRANSFER DELAY: 48-72 HRS", fill=(255, 80, 80))
+        draw.text((70, 178), "BALTIC REINFORCEMENT: 30 DAYS", fill=(0, 255, 200))
+
+        # Right HUD Box: Soviet Rapid Reinforcement & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 160], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET REINFORCEMENT DOCTRINE]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "FORCE: 11TH ARMY CORPS (GUSEV)", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "DOCTRINE: BALTIC ENCIRCLEMENT", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "PRE-POSITIONED AMMO: 60-DAY", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
     elif theme in ("conscious_agents", "hoffman"):
         # Donald Hoffman Conscious Agent Network & Mathematical Spacetime Emergence
