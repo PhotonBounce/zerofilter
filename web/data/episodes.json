@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T15:40:00Z",
+  "updated": "2026-10-06T15:50:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-18",
+      "hour": "18:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Bab el-Mandeb ASBM Salvos, Iranian Guidance Telemetry & Soviet Horn of Africa Bases",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates Houthi anti-ship ballistic missile salvos across the Bab el-Mandeb strait, Iranian electro-optical and radar guidance telemetry links, Red Sea commercial shipping interdiction, and Yuri Shvets on Soviet naval base networks in South Yemen and Dahlak Island.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is eighteen hundred hours. At the southern gateway to the Red Sea, the Bab el-Mandeb strait spans just twenty-nine kilometers from Djibouti to Yemen, funneling twelve percent of global seaborne trade. Over the past three years, this vital corridor has become the world’s first operational testing ground for anti-ship ballistic missiles fired by non-state actors. Mach-five projectiles with terminal infrared seekers force commercial fleets to divert around the Cape of Good Hope, adding ten thousand miles and millions in fuel per voyage.",
+        "The tactical precision of these missile salvos is not homegrown Yemeni technology—it is directed by distributed Iranian intelligence assets. Covert spy ships like the Behshad stationed in the Red Sea function as floating telemetry hubs, intercepting civilian maritime transponders and feeding real-time targeting coordinates to mobile shore batteries. When civilian transponders are darkened, Iranian reconnaissance drones paint merchant vessels with radar, transmitting mid-course guidance updates to ballistic missiles descending through the upper atmosphere.",
+        "Yet this maritime chokepoint interdiction doctrine is not an Iranian invention—it is the modern execution of a Cold War blueprint drawn up in Moscow. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet naval strategists spent decades establishing the physical infrastructure to sever Red Sea transit.",
+        "According to Shvets, during the nineteen seventies and eighties, the Soviet Navy and KGB First Chief Directorate established massive signals intelligence bases across the Horn of Africa. Shvets revealed that Moscow secured naval facilities at Aden and Socotra Island in South Yemen, alongside a heavily fortified reconnaissance base on Dahlak Island off Eritrea. From these installations, Soviet coastal radar and maritime aircraft tracked all Western shipping through the Bab el-Mandeb, preparing tactical plans to close the strait during global conflict.",
+        "Shvets further disclosed that Soviet advisers trained regional revolutionary cadres in coastal missile doctrine, creating logistics conduits that Iran’s Revolutionary Guard later expanded. When Western navies fire two-million-dollar interceptors against cheap ballistic rockets, they fall into the classic Soviet cost-imposition trap: asymmetric economic exhaustion executed at a critical maritime bottleneck.",
+        "From Soviet radar towers on Dahlak Island to Iranian telemetry links guiding ballistic missiles into the Bab el-Mandeb, the lesson is clear: narrow straits remain asymmetric pressure points where low-cost munitions dictate global trade routes. Track the telemetry, watch the littoral corridors, and stay alert. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-18/f01.webp"
+          },
+          {
+            "t": 26,
+            "src": "art/2026-10-11-18/f02.webp"
+          },
+          {
+            "t": 52,
+            "src": "art/2026-10-11-18/f03.webp"
+          },
+          {
+            "t": 78,
+            "src": "art/2026-10-11-18/f04.webp"
+          },
+          {
+            "t": 104,
+            "src": "art/2026-10-11-18/f05.webp"
+          },
+          {
+            "t": 130,
+            "src": "art/2026-10-11-18/f06.webp"
+          }
+        ]
+      },
+      "seconds": 156,
+      "audio": "audio/2026-10-11-18.mp3",
+      "thumb": "thumbs/2026-10-11-18.webp",
+      "cover_video": "thumbs/2026-10-11-18.mp4"
+    },
     {
       "id": "2026-10-11-17",
       "hour": "17:00",
