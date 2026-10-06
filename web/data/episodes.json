@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T13:57:00Z",
+  "updated": "2026-10-06T14:00:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-00",
+      "hour": "00:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Continuous-Variable QKD, Gaussian Modulation & Soviet Fiber-Tap Cryptanalysis",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates Continuous-Variable Quantum Key Distribution (CV-QKD) utilizing Gaussian-modulated coherent states in standard telecom fiber, shot-noise-limited homodyne detection, and Yuri Shvets on KGB 8th Chief Directorate subsea and terrestrial cable interception attempts.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero hundred hours. As quantum computers advance toward cryptanalytically relevant scale, threatening to shatter modern asymmetric encryption like RSA and elliptic curve cryptography, the intelligence world is racing to deploy quantum-secure communications. While discrete-variable quantum key distribution requires expensive single-photon detectors operating at cryogenic temperatures, Continuous-Variable Quantum Key Distribution, or CV-QKD, represents an engineering breakthrough: quantum key generation operating over standard commercial telecommunications fiber using room-temperature coherent optical transceivers.",
+        "Instead of encoding information into solitary photons, CV-QKD encodes secret key data into the continuous quadratures of coherent light states using Gaussian modulation. The transmitter modulates the amplitude and phase of infrared laser pulses at standard fifteen-fifty-nanometer telecom wavelengths. At the receiver, balanced homodyne or heterodyne detection measures the optical field against a local oscillator laser, operating directly at the quantum shot-noise limit. The fundamental laws of quantum mechanics guarantee that any eavesdropper attempting to tap the fiber introduces excess noise, instantly revealing their presence.",
+        "Because CV-QKD utilizes standard single-mode optical fiber and coexists with high-capacity dense wavelength division multiplexing channels carrying classical internet traffic, it can be deployed directly into existing civilian and financial telecom backbones without dedicated dark fiber. Furthermore, its continuous-variable information carrier enables secret key rates exceeding megabits per second over metropolitan distances, creating an unbreakable cryptographic shield against harvest-now, decrypt-later surveillance programs.",
+        "This struggle to secure telecommunications fiber from clandestine interception directly inherits the covert wiretapping battles of the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has exposed, physical cable tapping and communications signal interception were foundational priorities for the KGB's Eighth Chief Directorate and the Soviet Ministry of Communications.",
+        "According to Shvets, the Eighth Chief Directorate specialized in signals intelligence, codebreaking, and clandestine physical taps on Western diplomatic and military cable lines. Shvets revealed that Soviet technical units developed specialized micro-bend optical and inductive wiretaps designed to siphon photon leakage from emerging fiber-optic communication conduits without triggering signal-loss alarms. Soviet cryptanalysts recognized that intercepting encrypted traffic at the physical layer provided invaluable intelligence even if the ciphertext could not be immediately cracked, storing petabytes of intercept data in anticipation of future mathematical breakthroughs.",
+        "Continuous-variable quantum cryptography finally closes the physical tap vulnerability that intelligence agencies have exploited for half a century. When the uncertainty principle itself safeguards every packet transmitted across the fiber, eavesdropping ceases to be a covert art and becomes physically impossible. Verify your physical layers, deploy quantum-resilient keys, and never trust unmonitored photons. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-00/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-11-00/f02.webp"
+          },
+          {
+            "t": 63,
+            "src": "art/2026-10-11-00/f03.webp"
+          },
+          {
+            "t": 94,
+            "src": "art/2026-10-11-00/f04.webp"
+          },
+          {
+            "t": 125,
+            "src": "art/2026-10-11-00/f05.webp"
+          },
+          {
+            "t": 157,
+            "src": "art/2026-10-11-00/f06.webp"
+          }
+        ]
+      },
+      "seconds": 188,
+      "audio": "audio/2026-10-11-00.mp3",
+      "thumb": "thumbs/2026-10-11-00.webp",
+      "cover_video": "thumbs/2026-10-11-00.mp4"
+    },
     {
       "id": "2026-10-10-23",
       "hour": "23:00",

@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 119,
+  "total_releases": 120,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -952,6 +952,14 @@
       "title": "Unacknowledged SAP Carve-Outs, Audit Exemption Grift & Soviet Black Budget Slush Funds",
       "audio": "audio/2026-10-10-23.mp3",
       "cover_video": "thumbs/2026-10-10-23.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-11-00",
+      "seconds": 188,
+      "title": "Continuous-Variable QKD, Gaussian Modulation & Soviet Fiber-Tap Cryptanalysis",
+      "audio": "audio/2026-10-11-00.mp3",
+      "cover_video": "thumbs/2026-10-11-00.mp4",
       "status": "published_production"
     }
   ]
