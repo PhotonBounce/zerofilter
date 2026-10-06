@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-16",
+      "hour": "16:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Continuous-Variable QKD, Fiber Gaussian Modulation & Soviet 8th Chief Cable-Tap Cryptanalysis",
+      "subject": "Hourly uncensored breakdown: Rex Vance explores continuous-variable quantum key distribution (CV-QKD), shot-noise-limited Gaussian modulation over telecom fiber, and Yuri Shvets on Soviet 8th Chief Directorate cable-tap interception doctrine.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is sixteen hundred hours. For decades, commercial quantum key distribution was severely hamstrung by its reliance on fragile single-photon avalanche photodiode detectors. These discrete-variable systems required dedicated dark fiber and cryogenic cooling, making them completely incompatible with dense wavelength-division multiplexing in commercial telecommunications backbones. But continuous-variable quantum key distribution, or CV-QKD, has shattered that deployment bottleneck, allowing provably secure cryptographic keys to co-propagate directly alongside multi-terabit commercial internet traffic.",
+        "Instead of encoding information into solitary photons, CV-QKD modulates the continuous quadratures of coherent laser pulses using Gaussian-distributed amplitude and phase shifts. At the receiving terminal, standard room-temperature balanced homodyne or heterodyne detectors mix the incoming signal with a strong local oscillator laser, measuring electric field quadratures at shot-noise-limited sensitivity. Because any clandestine eavesdropping attempt extracts energy or introduces optical dispersion, the Heisenberg uncertainty principle guarantees that unauthorized interception inevitably generates detectable excess quadrature noise, immediately alerting the endpoints to discard the compromised key stream.",
+        "This physics-based counter-surveillance capability directly neutralizes the most sophisticated signals intelligence doctrine in espionage history: physical cable interception. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively disclosed, the KGB's Eighth Chief Directorate and Operational-Technical Directorate dedicated decades to perfecting physical wiretap clamps and fiber-optic splitters to vacuum up unencrypted Western diplomatic and military traffic.",
+        "According to Shvets, the Eighth Chief Directorate's crowning strategic achievement was its harvest-now, decrypt-later doctrine. Soviet intelligence operatives tapped transatlantic cables and defense microwave relay links, recording petabytes of encrypted adversary traffic onto massive tape libraries in Moscow, anticipating future mathematical or computing breakthroughs. Shvets revealed that KGB cryptanalysts operated on the absolute certainty that any algorithmic cipher—no matter how mathematically complex—could eventually be decrypted once technical capabilities matured.",
+        "Continuous-variable QKD completely annihilates that operational paradigm. When keys are negotiated via quantum vacuum fluctuations and continuous optical quadratures, there is no mathematical algorithm for supercomputers or quantum annealers to crack in retrospect. The data captured by an eavesdropper contains only pure quantum shot noise. By deploying CV-QKD across metropolitan fiber rings and undersea landing stations, critical communications are permanently insulated against harvest-now, decrypt-later surveillance cartels.",
+        "Audit the metropolitan fiber QKD installations, monitor the excess quadrature noise logs, and demand physical layer security. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-16/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-16/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-09-16/f03.webp"
+          },
+          {
+            "t": 89,
+            "src": "art/2026-10-09-16/f04.webp"
+          },
+          {
+            "t": 119,
+            "src": "art/2026-10-09-16/f05.webp"
+          },
+          {
+            "t": 148,
+            "src": "art/2026-10-09-16/f06.webp"
+          }
+        ]
+      },
+      "seconds": 178,
+      "thumb": "thumbs/2026-10-09-16.webp",
+      "audio": "audio/2026-10-09-16.mp3",
+      "cover_video": "thumbs/2026-10-09-16.mp4"
+    },
+    {
       "id": "2026-10-09-15",
       "hour": "15:00",
       "date": "2026-10-09",

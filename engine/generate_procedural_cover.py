@@ -1328,6 +1328,79 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 178), "DEEP ASW ACOUSTIC DETECTORS", fill=(255, 60, 60))
         draw.text((width - 310, 198), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("cv_qkd", "continuous_variable_qkd", "gaussian_modulation", "fiber_qkd"):
+        # Continuous-Variable Quantum Key Distribution (CV-QKD) & Gaussian Modulation
+        # 1. Background optical transit grid
+        for gy in range(cy - 220, cy + 220, 25):
+            draw.line([(60, gy), (width - 60, gy)], fill=(10, 24, 38), width=1)
+        for gx in range(60, width - 60, 45):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(10, 24, 38), width=1)
+
+        # 2. Phase Space Gaussian Quadrature Distribution (Alice's Modulation, Center-Left)
+        ps_cx, ps_cy = cx - 140, cy
+        # Coordinate axes (x and p quadratures)
+        draw.line([(ps_cx - 120, ps_cy), (ps_cx + 120, ps_cy)], fill=(0, 180, 220), width=1)
+        draw.line([(ps_cx, ps_cy - 120), (ps_cx, ps_cy + 120)], fill=(0, 180, 220), width=1)
+        draw.text((ps_cx + 95, ps_cy + 6), "x_A", fill=(0, 240, 255))
+        draw.text((ps_cx + 6, ps_cy - 115), "p_A", fill=(0, 240, 255))
+
+        # Concentric Gaussian Wigner distribution variance rings
+        for vr, alpha_v in [(100, 20), (75, 45), (50, 75), (25, 120)]:
+            draw.ellipse([ps_cx - vr, ps_cy - vr, ps_cx + vr, ps_cy + vr], outline=(0, alpha_v, int(alpha_v * 1.5)), width=1)
+
+        # Gaussian-modulated coherent state constellation (Alice's random quad samples)
+        random.seed(912)
+        for _ in range(48):
+            # Box-Muller Gaussian random coordinates
+            u1, u2 = random.random(), random.random()
+            z0 = math.sqrt(-2.0 * math.log(max(u1, 1e-9))) * math.cos(2.0 * math.pi * u2)
+            z1 = math.sqrt(-2.0 * math.log(max(u1, 1e-9))) * math.sin(2.0 * math.pi * u2)
+            kx = ps_cx + int(z0 * 28.0)
+            ky = ps_cy + int(z1 * 28.0)
+            # Shot-noise uncertainty disc
+            draw.ellipse([kx - 3, ky - 3, kx + 3, ky + 3], fill=(10, 35, 55), outline=(0, 255, 240), width=1)
+            draw.point((kx, ky), fill=(255, 255, 255))
+
+        draw.text((ps_cx - 100, ps_cy + 130), "GAUSSIAN MODULATED PHASE SPACE // V_A = 4.5 SNU", fill=(0, 255, 240))
+
+        # 3. Optical Fiber Backbone & Eavesdropping Tap Attempt (Center-Right)
+        fiber_y = cy - 20
+        # Telecom single-mode fiber core (1550nm)
+        draw.line([(cx - 10, fiber_y), (width - 70, fiber_y)], fill=(0, 200, 255), width=4)
+        draw.line([(cx - 10, fiber_y), (width - 70, fiber_y)], fill=(255, 255, 255), width=1)
+        draw.text((cx + 10, fiber_y - 20), "1550nm TELECOM SMF-28 FIBER", fill=(0, 220, 255))
+
+        # Micro-bend cable tap pod (Soviet 8th Chief interception attempt)
+        tap_x = cx + 120
+        draw.polygon([(tap_x - 14, fiber_y - 18), (tap_x + 14, fiber_y - 18), (tap_x, fiber_y + 16)], fill=(30, 20, 25), outline=(255, 60, 40), width=2)
+        draw.text((tap_x - 50, fiber_y - 34), "MICRO-BEND TAP POD", fill=(255, 80, 60))
+        # Leakage flux vector diverted
+        draw.line([(tap_x, fiber_y), (tap_x + 40, fiber_y + 50)], fill=(255, 80, 50), width=2)
+        draw.text((tap_x + 45, fiber_y + 45), "EXCESS NOISE SPIKE: Δξ = +0.038", fill=(255, 100, 70))
+
+        # 4. Bob's Balanced Homodyne Detector (Far Right)
+        det_x = width - 120
+        draw.rectangle([det_x - 20, fiber_y - 45, det_x + 20, fiber_y + 45], fill=(15, 30, 45), outline=(0, 255, 200), width=2)
+        draw.text((det_x - 30, fiber_y + 55), "HOMODYNE DETECTOR", fill=(0, 255, 200))
+        draw.text((det_x - 25, fiber_y + 70), "LOCAL OSCILLATOR", fill=(120, 220, 255))
+
+        # 5. Telemetry Dossiers (CV-QKD Metrics & Soviet Cryptanalysis)
+        # Left HUD Box: CV-QKD System Telemetry
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 22, 35), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[CV-QKD TELEMETRY METRICS]", fill=(0, 240, 255))
+        draw.text((70, 118), "MODULATION: GAUSSIAN COHERENT", fill=(255, 220, 100))
+        draw.text((70, 138), "CARRIER: 1550nm DWDM CO-EXIST", fill=(0, 255, 200))
+        draw.text((70, 158), "EXCESS NOISE: ξ = 0.003 SNU", fill=(120, 220, 255))
+        draw.text((70, 178), "SECRET KEY: 12.4 Mbps @ 50KM", fill=(255, 140, 50))
+
+        # Right HUD Box: Soviet 8th Chief Cryptanalysis & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET 8TH CHIEF SIGINT]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "TARGET: TELECOM FIBER TAP", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "LINE X ACQUISITION: HYBRIDS", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "HARVEST-NOW DECRYPT-LATER FAILS", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -1452,6 +1525,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "MONROE GATEWAY HEMI-SYNC // BINAURAL 4.0Hz THETA COHERENCE // SOVIET PSYCHOTRONICS", fill=(200, 160, 255))
     elif theme in ("optomechanics", "drum_resonator", "mechanical_resonator", "optomechanical_entanglement", "quantum_drum"):
         draw.text((40, 60), "MACROSCOPIC DRUM ENTANGLEMENT // OPTOMECHANICAL PHASE NOISE SUPPRESSION // SOVIET LASER ESPIONAGE", fill=(0, 240, 255))
+    elif theme in ("cv_qkd", "continuous_variable_qkd", "gaussian_modulation", "fiber_qkd"):
+        draw.text((40, 60), "CONTINUOUS-VARIABLE QKD // GAUSSIAN MODULATION 1550nm // SOVIET CABLE-TAP CRYPTANALYSIS", fill=(0, 240, 255))
     elif theme == "consciousness":
         draw.text((40, 60), "NEURAL BIOPHOTON TELEMETRY // TUBULIN DIPOLE HARMONICS // BANDWIDTH 614 THz", fill=(80, 255, 180))
     else:

@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 87,
+  "total_releases": 88,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -696,6 +696,14 @@
       "title": "Defense Microelectronics Testing Waivers, Mil-Spec Falsification & Soviet Line X Silicon Harvests",
       "audio": "audio/2026-10-09-15.mp3",
       "cover_video": "thumbs/2026-10-09-15.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-16",
+      "seconds": 178,
+      "title": "Continuous-Variable QKD, Fiber Gaussian Modulation & Soviet 8th Chief Cable-Tap Cryptanalysis",
+      "audio": "audio/2026-10-09-16.mp3",
+      "cover_video": "thumbs/2026-10-09-16.mp4",
       "status": "published_production"
     }
   ]

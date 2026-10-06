@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-16",
-      "date": "2026-10-09",
-      "hour": "16:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Continuous-variable quantum key distribution (CV-QKD), Gaussian modulation in fiber-optic networks, and Yuri Shvets on Soviet 8th Chief Directorate cable-tap cryptanalysis"
-    },
-    {
       "id": "2026-10-09-17",
       "date": "2026-10-09",
       "hour": "17:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Red Sea subsea cable cut cascades, Bab el-Mandeb fiber bottlenecks, and Yuri Shvets on Soviet Horn of Africa naval reconnaissance and seabed sabotage lineage"
+    },
+    {
+      "id": "2026-10-09-19",
+      "date": "2026-10-09",
+      "hour": "19:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Defense fuel smuggling syndicates, NATO bunkering price fixing, and Yuri Shvets on Soviet Black Sea Fleet fuel diversion cartels"
     }
   ]
 }
