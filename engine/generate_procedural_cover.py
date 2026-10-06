@@ -752,7 +752,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 330, cy + 130), "RECEPTOR TARGET: TUBULIN DIPOLE GRID", fill=(255, 220, 120))
         draw.text((width - 330, cy + 150), "STATUS: ARCHIVAL DOSSIER DISCLOSED", fill=(255, 80, 80))
 
-    elif theme in ("photonic_crystals", "laser_optics", "microcavity", "nonlinear_optics"):
+    elif theme in ("photonic_crystals", "laser_optics", "microcavity", "nonlinear_optics", "cavity_qed", "rabi_splitting", "microresonators", "atomic_laser"):
         # Nonlinear Optics in Photonic Crystals & Microcavity Laser Localization
         # 1. 2D Photonic Crystal Hexagonal Array of Dielectric Rods
         grid_start_x = cx - 360
@@ -1251,8 +1251,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "QUANTUM DARWINISM // POINTER STATE PROLIFERATION // THEREMIN CAVITY RESONATOR Q: 45K", fill=(0, 255, 240))
     elif theme in ("orch_or", "penrose_hameroff", "tubulin_quantum", "synaptic_plasticity", "microtubules", "bio_cybernetics"):
         draw.text((40, 60), "QUANTUM SYNAPTIC PLASTICITY // MICROTUBULE ORCHESTRATION // KGB BIO-CYBERNETIC TELEMETRY", fill=(30, 240, 160))
-    elif theme in ("photonic_crystals", "laser_optics", "microcavity", "nonlinear_optics"):
-        draw.text((40, 60), "PHOTONIC BANDGAP MICROCAVITY // 1550nm SHG CONVERSION // SARY-SHAGAN TERRA-3 AUDIT", fill=(0, 240, 255))
+    elif theme in ("photonic_crystals", "laser_optics", "microcavity", "nonlinear_optics", "cavity_qed", "rabi_splitting", "microresonators", "atomic_laser"):
+        draw.text((40, 60), "CAVITY QUANTUM ELECTRODYNAMICS // VACUUM RABI SPLITTING // SOVIET ATOMIC SPECTROSCOPY", fill=(0, 240, 255))
     elif theme in ("pear_reg", "cognitive_field", "anomalous_entanglement", "field_reg"):
         draw.text((40, 60), "PEAR QUANTUM NOISE REG // CUMULATIVE DEVIATION p = 3.8 x 10^-5 // KGB SLUSH AUDIT", fill=(255, 210, 50))
     elif theme in ("transmon_qubit", "surface_code", "quantum_cryptanalysis", "fault_tolerant_qc"):

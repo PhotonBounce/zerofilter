@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-05",
-      "date": "2026-10-08",
-      "hour": "05:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Cavity quantum electrodynamics in photonic microresonators, vacuum Rabi splitting, and Yuri Shvets on Soviet atomic laser spectroscopy surveillance"
-    },
-    {
       "id": "2026-10-08-06",
       "date": "2026-10-08",
       "hour": "06:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Neuro-feedback biometrics in high-frequency trading execution, cognitive fatigue telemetry, and Yuri Shvets on KGB reflex modification experiments"
+    },
+    {
+      "id": "2026-10-08-08",
+      "date": "2026-10-08",
+      "hour": "08:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Rare-earth processing chokepoints, Pentagon defense critical minerals stockpile deficits, and Yuri Shvets on Soviet mineral cartel price manipulation"
     }
   ]
 }
