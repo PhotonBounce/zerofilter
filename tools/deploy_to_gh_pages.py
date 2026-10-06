@@ -106,4 +106,15 @@ def deploy():
             os.unlink(deploy_index)
 
 if __name__ == "__main__":
-    deploy()
+    import time
+    max_retries = 3
+    for attempt in range(1, max_retries + 1):
+        try:
+            deploy()
+            break
+        except Exception as e:
+            print(f"[!] Deploy attempt {attempt} failed: {e}", flush=True)
+            if attempt == max_retries:
+                raise
+            print("[*] Re-fetching remote tip and retrying in 2 seconds...", flush=True)
+            time.sleep(2)

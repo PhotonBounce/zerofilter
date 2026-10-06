@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-02",
-      "date": "2026-10-07",
-      "hour": "02:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Integrated Information Theory (IIT 4.0), non-local causal structures, and Yuri Shvets on KGB psychotropic interrogation drugs & cognitive degradation files"
-    },
-    {
       "id": "2026-10-07-03",
       "date": "2026-10-07",
       "hour": "03:00",
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Quantum retrocausality, Wheeler's smoky dragon interferometry, and Yuri Shvets on deep-cover illegal intelligence rings in Western physics research institutes"
+    },
+    {
+      "id": "2026-10-07-04",
+      "date": "2026-10-07",
+      "hour": "04:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Defense industrial base supply chain fraud, phantom subcontractor invoicing, and Yuri Shvets on KGB Line X technical theft conduits"
     }
   ]
 }

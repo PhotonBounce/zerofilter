@@ -270,6 +270,61 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((cx - 70, p_y - 145), "CASIMIR THRUST VECTOR [F_vac]", fill=(255, 220, 80))
         draw.text((cx - 50, cy + plate_h // 2 + 15), "NANOCAVITY d = 82 nm", fill=(0, 255, 220))
 
+    elif theme in ("iit_phi", "causal_complex"):
+        # Integrated Information Theory (IIT 4.0) Phi Complex & Dissociation Dynamics
+        # 1. Cause-Effect State Transition Coordinate Lattice (Polar radar grid)
+        for r in range(80, max(width, height) // 2, 60):
+            draw.ellipse([cx - r, cy - r, cx + r, cy + r], outline=(15, 45, 60), width=1)
+        for deg in range(0, 360, 45):
+            rad = math.radians(deg)
+            ex = cx + int(math.cos(rad) * 450)
+            ey = cy + int(math.sin(rad) * 450)
+            draw.line([(cx, cy), (ex, ey)], fill=(12, 35, 50), width=1)
+
+        # 2. Central Integrated Causal Maximum (Φ Complex - Core Network)
+        random.seed(112)
+        core_nodes = []
+        for c_idx in range(12):
+            ang = (c_idx / 12.0) * 2 * math.pi
+            c_dist = random.randint(50, 160)
+            nx = cx + int(math.cos(ang) * c_dist)
+            ny = cy + int(math.sin(ang) * c_dist)
+            core_nodes.append((nx, ny, random.randint(8, 16)))
+
+        # Dense bidirectional feedback arcs within core complex
+        for i, (x1, y1, r1) in enumerate(core_nodes):
+            for j, (x2, y2, r2) in enumerate(core_nodes):
+                if i < j:
+                    dist = math.hypot(x1 - x2, y1 - y2)
+                    if dist < 180:
+                        draw.line([(x1, y1), (x2, y2)], fill=(0, 255, 200), width=2)
+                        # Center flow marker
+                        mx, my = (x1 + x2) // 2, (y1 + y2) // 2
+                        draw.ellipse([mx - 2, my - 2, mx + 2, my + 2], fill=(255, 255, 255))
+
+        # Render Core Complex Nodes (Gold / Emerald)
+        for idx, (nx, ny, rad) in enumerate(core_nodes):
+            draw.ellipse([nx - rad - 4, ny - rad - 4, nx + rad + 4, ny + rad + 4], outline=(0, 255, 220), width=1)
+            draw.ellipse([nx - rad, ny - rad, nx + rad, ny + rad], fill=(10, 60, 70), outline=(255, 220, 60), width=2)
+            draw.text((nx + rad + 3, ny - 6), f"M_{idx}", fill=(255, 240, 120))
+
+        # Center Phi symbol designation
+        draw.ellipse([cx - 32, cy - 32, cx + 32, cy + 32], outline=(0, 255, 240), width=2)
+        draw.line([(cx, cy - 42), (cx, cy + 42)], fill=(0, 255, 240), width=3)
+        draw.text((cx + 38, cy - 10), "Φ_max = 4.82", fill=(0, 255, 240))
+
+        # 3. Fragmented / Dissociated Outer Sub-Mechanisms (Degraded by psychotropics)
+        for o_idx in range(16):
+            o_ang = random.uniform(0, 2 * math.pi)
+            o_dist = random.randint(240, 420)
+            ox = cx + int(math.cos(o_ang) * o_dist)
+            oy = cy + int(math.sin(o_ang) * o_dist)
+            # Degraded node in warning amber/crimson
+            draw.ellipse([ox - 8, oy - 8, ox + 8, oy + 8], fill=(60, 15, 20), outline=(255, 80, 60), width=2)
+            draw.text((ox + 10, oy - 6), f"FRACTURED-{o_idx} [Φ→0]", fill=(255, 100, 70))
+            # Severed dotted connection lines
+            draw.line([(ox, oy), (ox - int(math.cos(o_ang) * 40), oy - int(math.sin(o_ang) * 40))], fill=(255, 60, 40), width=1)
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -328,6 +383,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "ORBITAL QKD DOWNLINK // 1550nm ADAPTIVE OPTICS // 500KM LEO TRACK // GROUND SIGINT CONDUIT", fill=(0, 255, 200))
     elif theme in ("holographic", "scrambler"):
         draw.text((40, 60), "HAYDEN-PRESKILL QUANTUM SCRAMBLING // EVENT HORIZON HAWKING EMISSION // ADS/CFT HORIZON", fill=(200, 160, 255))
+    elif theme in ("iit_phi", "causal_complex"):
+        draw.text((40, 60), "INTEGRATED INFORMATION THEORY (IIT 4.0) // MAXIMAL CAUSAL COMPLEX Φ = 4.82 // LAB-12 TOXICOLOGY", fill=(255, 220, 60))
     elif theme in ("conscious_agents", "hoffman"):
         draw.text((40, 60), "CONSCIOUS AGENT DYNAMICS // MARKOVIAN TRANSITION KERNELS // SPACETIME PROJECTION MATRIX", fill=(0, 255, 220))
     elif theme == "consciousness":
