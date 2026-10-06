@@ -1262,6 +1262,80 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 178), "SLUSH FUNDING: UNRESTRICTED", fill=(255, 60, 60))
         draw.text((width - 310, 198), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("p300_biometrics", "neuro_telemetry", "eeg_p300", "cognitive_load", "hft_neuro_feedback", "neuro_feedback", "trading_biometrics", "reflex_modification"):
+        # Real-Time EEG P300 Biometrics & Neuro-Adaptive Cognitive Load Telemetry
+        # 1. Background Event-Related Potential (ERP) Coordinate Grid
+        grid_left = cx - 360
+        grid_right = cx + 360
+        grid_top = cy - 160
+        grid_bot = cy + 160
+        draw.rectangle([grid_left, grid_top, grid_right, grid_bot], fill=(8, 16, 26), outline=(20, 60, 90), width=1)
+        
+        # Zero microvolt baseline and stimulus onset marker (t = 0 ms)
+        draw.line([(grid_left, cy), (grid_right, cy)], fill=(0, 180, 220), width=2)
+        draw.text((grid_left + 15, cy - 18), "BASELINE: 0.0 μV", fill=(0, 220, 255))
+        
+        stim_x = grid_left + 120
+        draw.line([(stim_x, grid_top), (stim_x, grid_bot)], fill=(255, 220, 60), width=2)
+        draw.text((stim_x + 8, grid_top + 10), "STIMULUS ONSET [t = 0 ms]", fill=(255, 220, 80))
+
+        # 2. ERP Waveform Curves: Standard Non-Target (Cyan) vs P300 Target Recognition Spike (Amber/Crimson)
+        non_target_pts = []
+        target_pts = []
+        for px in range(stim_x, grid_right + 1, 4):
+            t_ms = (px - stim_x) / float(grid_right - stim_x) * 800.0  # 0 to 800ms
+            y_std = cy - 12.0 * math.sin(t_ms * 0.02) * math.exp(-t_ms * 0.005)
+            non_target_pts.append((px, int(y_std)))
+            
+            p300_amp = 75.0 * math.exp(-((t_ms - 320.0) / 70.0)**2)
+            y_tar = cy - (12.0 * math.sin(t_ms * 0.02) + p300_amp)
+            target_pts.append((px, int(y_tar)))
+
+        draw.line(non_target_pts, fill=(0, 160, 200), width=2)
+        draw.line(target_pts, fill=(255, 80, 60), width=3)
+        draw.line(target_pts, fill=(255, 220, 80), width=1)
+
+        # P300 Peak callout
+        p300_x = stim_x + int(320.0 / 800.0 * (grid_right - stim_x))
+        p300_y = cy - 75
+        draw.ellipse([p300_x - 6, p300_y - 6, p300_x + 6, p300_y + 6], fill=(255, 255, 255), outline=(255, 60, 60), width=2)
+        draw.rectangle([p300_x - 140, p300_y - 50, p300_x - 15, p300_y - 10], fill=(30, 15, 20), outline=(255, 80, 60), width=1)
+        draw.text((p300_x - 130, p300_y - 45), "P300 ERP PEAK (+16.4 μV)", fill=(255, 100, 80))
+        draw.text((p300_x - 130, p300_y - 28), "SUB-CONSCIOUS TARGET HIT", fill=(255, 220, 60))
+
+        # 3. 10-20 Electrode Scalp Topography Diagram (Left)
+        scalp_cx, scalp_cy = cx - 440, cy
+        scalp_r = 55
+        draw.ellipse([scalp_cx - scalp_r, scalp_cy - scalp_r, scalp_cx + scalp_r, scalp_cy + scalp_r], outline=(0, 240, 255), width=2)
+        draw.line([(scalp_cx - 8, scalp_cy - scalp_r), (scalp_cx, scalp_cy - scalp_r - 12), (scalp_cx + 8, scalp_cy - scalp_r)], fill=(0, 240, 255), width=2)
+        electrodes = [
+            (scalp_cx, scalp_cy - 30, "Fz"),
+            (scalp_cx, scalp_cy, "Cz"),
+            (scalp_cx, scalp_cy + 30, "Pz*"),
+            (scalp_cx, scalp_cy + 45, "Oz")
+        ]
+        for ex, ey, elabel in electrodes:
+            col_e = (255, 60, 60) if "Pz" in elabel else (0, 220, 255)
+            draw.ellipse([ex - 4, ey - 4, ex + 4, ey + 4], fill=col_e)
+            draw.text((ex + 8, ey - 6), elabel, fill=col_e)
+
+        # 4. Telemetry Sidebars
+        # Left Box: Cognitive Load Index
+        draw.rectangle([60, 90, 310, cy - 110], fill=(12, 22, 35), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[COGNITIVE LOAD TELEMETRY]", fill=(0, 240, 255))
+        draw.text((70, 118), "THETA/BETA RATIO: 4.82 [HIGH]", fill=(255, 220, 100))
+        draw.text((70, 138), "PUPIL DILATION: +1.8mm (OVERLOAD)", fill=(255, 140, 50))
+        draw.text((70, 158), "MICROSTATE DURA: 74 ms [FRAGMENT]", fill=(255, 80, 80))
+        draw.text((70, 178), "TARGET DETECTION CONF: 99.1%", fill=(0, 255, 200))
+
+        # Right Box: Soviet Bio-Information Dossier
+        draw.rectangle([width - 320, 90, width - 60, cy - 110], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[KGB BIO-INFORMATION AUDIT]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "REFLEXIVE CONTROL // COGNITIVE HACK", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "INVOLUNTARY RECOGNITION EXPLOIT", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "PILOT FATIGUE WEAPONIZATION", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     elif theme in ("defense_cloud_fisa", "fisa_702", "cloud_lobbying", "jwcc"):
         # Silicon Valley Defense Cloud Lobbying & FISA 702 Warrantless Surveillance
         # 1. Hyperscale Datacenter Server Racks (JWCC Multi-Cloud Architecture)
@@ -1644,8 +1718,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "TOPOLOGICAL INSULATOR // HELICAL EDGE STATES // SOVIET SOLID-STATE INTELLIGENCE AUDIT", fill=(0, 255, 220))
     elif theme in ("free_energy", "markov_blanket", "active_inference"):
         draw.text((40, 60), "FREE ENERGY PRINCIPLE // MARKOV BLANKET NEURAL INFERENCE // REFLEXIVE CONTROL MODEL", fill=(200, 140, 255))
-    elif theme in ("hft_neuro_feedback", "neuro_feedback", "trading_biometrics", "reflex_modification"):
-        draw.text((40, 60), "HFT NEURO-FEEDBACK BIOMETRICS // COGNITIVE FATIGUE TELEMETRY // KGB REFLEX MODIFICATION", fill=(200, 140, 255))
+    elif theme in ("p300_biometrics", "neuro_telemetry", "eeg_p300", "cognitive_load", "hft_neuro_feedback", "neuro_feedback", "trading_biometrics", "reflex_modification"):
+        draw.text((40, 60), "EEG P300 BIOMETRIC SURVEILLANCE // COGNITIVE OVERLOAD TELEMETRY // KGB REFLEXIVE CONTROL", fill=(200, 140, 255))
     elif theme in ("red_sea_cables", "bab_el_mandeb"):
         draw.text((40, 60), "RED SEA SUBSEA CABLE CORRIDOR // BAB EL-MANDEB CHOKEPOINT // SOVIET HORN OF AFRICA SIGINT", fill=(255, 140, 40))
     elif theme in ("malacca_blockade", "hydrophone_gate", "malacca_strait"):

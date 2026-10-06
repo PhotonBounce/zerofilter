@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-01",
-      "date": "2026-10-10",
-      "hour": "01:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Neuro-adaptive cognitive load telemetry, EEG P300 biometric targeting, and Yuri Shvets on KGB bio-information weaponization"
-    },
-    {
       "id": "2026-10-10-02",
       "date": "2026-10-10",
       "hour": "02:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Hypersonic wind tunnel telemetry falsification, CFD testing grant diversion, and Yuri Shvets on Soviet scramjet program padding"
+    },
+    {
+      "id": "2026-10-10-04",
+      "date": "2026-10-10",
+      "hour": "04:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Topological photonic crystal waveguides, quantum Hall light routing, and Yuri Shvets on Soviet optical analog computing"
     }
   ]
 }

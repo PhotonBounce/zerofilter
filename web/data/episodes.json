@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-01",
+      "hour": "01:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Neuro-Adaptive Cognitive Load Telemetry, EEG P300 Biometrics & KGB Bio-Information Weaponization",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates neuro-adaptive cognitive load telemetry using real-time EEG P300 event-related potential biometrics to detect covert information recognition, and Yuri Shvets on KGB bio-information weaponization programs.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero one hundred hours. In modern cognitive electronic warfare and biometric surveillance, the human brain is no longer an impenetrable black box. Traditional polygraphs rely on coarse autonomic nervous system indicators like galvanic skin resistance and heart rate variability, which can be masked through physical countermeasures. However, neuro-adaptive cognitive load telemetry utilizing high-density electroencephalography is transforming neurological monitoring by extracting event-related potentials directly from the cerebral cortex before conscious deception can even formulate.",
+        "At the center of this biometric surveillance paradigm is the P300 event-related potential wave, an endogenous positive voltage deflection occurring approximately three hundred milliseconds after the presentation of an infrequent, task-relevant stimulus. Measured across parietal and central scalp electrodes, the P300 amplitude and latency reflect involuntary neurological recognition—a distinct neurological signature known as the guilty knowledge test or brain fingerprinting. When coupled with algorithmic spectral band analysis tracking theta-to-beta ratios, systems monitor real-time cognitive workload and covert recognition with millisecond precision.",
+        "This contemporary weaponization of neuro-telemetry directly continues one of the most clandestine endeavors of Soviet intelligence. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, the First Chief Directorate and the KGB's Specialized Medical Directorate were fixated on biological information transmission, non-verbal cognitive detection, and reflex modification throughout the 1970s and 1980s under secret military intelligence umbrellas.",
+        "According to Shvets, Soviet intelligence channeled vast unvouched funds into classified institutes like the Bekhterev Psychoneurological Institute in Leningrad and secret laboratory sections in Novosibirsk. Researchers sought to detect covert emotional and cognitive reactions of suspected foreign assets and double agents without their knowledge. Shvets revealed that KGB technical officers attempted to deploy remote biometric sensors and low-frequency electromagnetic resonance to alter subject susceptibility, treating the human central nervous system as an operational signals intelligence conduit subject to external interception and reflexive control.",
+        "Today, that Cold War aspiration has migrated into commercial and military neuro-adaptive interfaces. Modern helmet-mounted EEG sensor arrays deployed in advanced combat cockpits, uncrewed system command consoles, and financial algorithmic trading terminals track operator cognitive saturation in real time. Yet the darker vector remains biometric interrogation: passive algorithmic screening that flashes classified visual probes at milliseconds, harvesting the involuntary P300 cortical response to unmask compromised operatives without asking a single spoken question.",
+        "Audit the defense neuro-telemetry procurement pipelines, demand biometric privacy boundaries across cognitive human-machine interfaces, and recognize that when algorithms can intercept your subconscious neural spikes, mental sovereignty becomes the ultimate frontline. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-01/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-10-01/f02.webp"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-10-01/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-10-01/f04.webp"
+          },
+          {
+            "t": 123,
+            "src": "art/2026-10-10-01/f05.webp"
+          },
+          {
+            "t": 154,
+            "src": "art/2026-10-10-01/f06.webp"
+          }
+        ]
+      },
+      "seconds": 185,
+      "thumb": "thumbs/2026-10-10-01.webp",
+      "audio": "audio/2026-10-10-01.mp3",
+      "cover_video": "thumbs/2026-10-10-01.mp4"
+    },
+    {
       "id": "2026-10-10-00",
       "hour": "00:00",
       "date": "2026-10-10",
