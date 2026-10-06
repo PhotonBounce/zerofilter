@@ -30,7 +30,9 @@ def git(*args):
 
 
 def check():
-    fetch = git("fetch", "--quiet", "origin", BRANCH)
+    # Explicit refspec: a shallow or single-branch clone does not track other
+    # branches, and a bare `git fetch origin BRANCH` would only fill FETCH_HEAD.
+    fetch = git("fetch", "--quiet", "origin", f"+refs/heads/{BRANCH}:refs/remotes/origin/{BRANCH}")
     if fetch.returncode != 0:
         print(f"fetch failed (offline?): {fetch.stderr.strip()[:200]}")
         return False
