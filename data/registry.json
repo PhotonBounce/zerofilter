@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 107,
+  "total_releases": 108,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -856,6 +856,14 @@
       "title": "Counterfeit Chip Broker Syndicates, Mil-Spec Burn-In Fraud & Soviet Line X Silicon Diversions",
       "audio": "audio/2026-10-10-11.mp3",
       "cover_video": "thumbs/2026-10-10-11.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-12",
+      "seconds": 185,
+      "title": "Majorana Zero Modes in Hybrid Nanowires, Non-Abelian Braiding & Soviet Landau Cryogenics",
+      "audio": "audio/2026-10-10-12.mp3",
+      "cover_video": "thumbs/2026-10-10-12.mp4",
       "status": "published_production"
     }
   ]

@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-12",
+      "hour": "12:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Majorana Zero Modes in Hybrid Nanowires, Non-Abelian Braiding & Soviet Landau Cryogenics",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates topological quantum computing breakthrough claims in semiconductor-superconductor hybrid nanowires, non-Abelian anyon braiding for fault-tolerant qubits, and Yuri Shvets on Soviet Landau Institute cryogenic intelligence programs.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twelve hundred hours. In the global race for fault-tolerant quantum computing, conventional superconducting transmons and trapped ions remain plagued by environmental decoherence and catastrophic error cascades. To build machines capable of breaking modern public-key cryptography, defense research laboratories are turning toward topological quantum computing: encoding logical qubits into non-local topological states using Majorana zero modes that emerge at the physical boundaries of semiconductor-superconductor hybrid nanowires.",
+        "Majorana zero modes are exotic quasi-particles governed by non-Abelian exchange statistics, meaning that exchanging two modes alters the quantum state of the system in a path-dependent, topological manner rather than merely adding a phase factor. By coupling high spin-orbit semiconductor nanowires—such as indium antimonide or indium arsenide—to epitaxial aluminum superconducting shells under precise magnetic Zeeman fields, condensed matter physicists induce topological superconductivity. Zero-bias conductance peaks at wire boundaries signify the emergence of isolated Majorana modes whose spatial separation renders the encoded quantum information immune to local thermal and electrical fluctuations.",
+        "This theoretical foundation traces its conceptual lineage directly to Soviet low-temperature physics and espionage networks that sustained Moscow during the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet solid-state physics relied heavily on the legendary Landau Institute for Theoretical Physics and Kapitza Institute for Physical Problems to crack macroscopic quantum mechanics when Soviet microelectronics manufacturing collapsed.",
+        "According to Shvets, the KGB First Chief Directorate's Directorate T maintained dedicated scientific intelligence officers tracking Western cryogenic and solid-state laboratories. Soviet physicists understood that they could never match Western sub-micron silicon yields, leading Soviet defense planners to aggressively pursue topological and cryogenic quantum phenomena as asymmetric shortcuts. Shvets disclosed that KGB operatives routinely targeted international low-temperature physics conferences in Zurich and Helsinki, seeking Western dilution refrigeration blueprints and superconductivity preprints to feed closed military research institutes in Chernogolovka.",
+        "Today, the strategic stakes have evolved from theoretical paper exchanges to billion-dollar national security imperatives. Major defense contractors and intelligence agencies recognize that topological anyon braiding represents the ultimate hardware-level quantum error correction, bypassing millions of fragile physical error-mitigation qubits. The nation that first realizes scalable non-Abelian braiding will achieve unconstrained cryptanalytic dominance over classical and post-quantum encryption standards alike, rendering current classified signal archives transparent to non-local quantum decoding.",
+        "Demand rigorous experimental replication over press release hype, verify zero-bias conductance signatures against trivial disorder states, and remember that when quantum computation becomes topological, geometry itself becomes the cryptographic battleground. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-12/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-10-12/f02.webp"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-10-12/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-10-12/f04.webp"
+          },
+          {
+            "t": 123,
+            "src": "art/2026-10-10-12/f05.webp"
+          },
+          {
+            "t": 154,
+            "src": "art/2026-10-10-12/f06.webp"
+          }
+        ]
+      },
+      "seconds": 185,
+      "thumb": "thumbs/2026-10-10-12.webp",
+      "audio": "audio/2026-10-10-12.mp3",
+      "cover_video": "thumbs/2026-10-10-12.mp4"
+    },
+    {
       "id": "2026-10-10-11",
       "hour": "11:00",
       "date": "2026-10-10",
