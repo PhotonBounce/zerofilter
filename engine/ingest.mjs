@@ -76,9 +76,42 @@ async function fetchText(url) {
   }
 }
 
+// The local clock is not trusted. On 2026-10-06 the producing PC ran ~2 h
+// fast, so "the current hour" was a future hour and episodes were stamped
+// ahead of the real time. Every run compares the local clock with the Date
+// header of HTTPS servers and refuses to run when they disagree.
+export const MAX_CLOCK_SKEW_MS = 120e3;
+
+export function clockSkewMs(serverDateHeaders, localNow) {
+  const times = serverDateHeaders.map((h) => Date.parse(h)).filter(Number.isFinite).sort((a, b) => a - b);
+  if (!times.length) return null;
+  return localNow - times[Math.floor(times.length / 2)]; // positive = local clock is fast
+}
+
+async function serverDates() {
+  const hosts = ["https://api.github.com/", "https://feeds.bbci.co.uk/", "https://rss.arxiv.org/"];
+  const dates = [];
+  for (const url of hosts) {
+    try {
+      const res = await fetch(url, { method: "HEAD", signal: AbortSignal.timeout(10000) });
+      const d = res.headers.get("date");
+      if (d) dates.push(d);
+    } catch { /* try the next one */ }
+  }
+  return dates;
+}
+
 async function main() {
   const arg = process.argv.indexOf("--hour");
-  const now = Date.now();
+  const local = Date.now();
+  const skew = clockSkewMs(await serverDates(), local);
+  if (skew === null) throw new Error("cannot reach any time server (HTTPS Date header); refusing to guess the hour");
+  if (Math.abs(skew) > MAX_CLOCK_SKEW_MS) {
+    const min = Math.round(Math.abs(skew) / 60000);
+    throw new Error(`this computer's clock is ${min} min ${skew > 0 ? "FAST" : "SLOW"} against internet time. ` +
+      "Fix it (Windows: Settings > Time & language > Date & time > set time zone correctly + 'Sync now'), then run again.");
+  }
+  const now = local - skew; // internet time
   const hourStart = arg > 0
     ? Date.parse(`${process.argv[arg + 1]}:00:00Z`)
     : Math.floor(now / 3600e3) * 3600e3;
@@ -100,7 +133,8 @@ async function main() {
       report.push({ id: f.id, status: "error", error: String(err?.message || err).slice(0, 200) });
     }
   }
-  const snapshot = { hour: new Date(hourStart).toISOString(), captured_at: new Date().toISOString(), feeds: report, items };
+  const capturedAt = Date.now() - skew;
+  const snapshot = { hour: new Date(hourStart).toISOString(), captured_at: new Date(capturedAt).toISOString(), clock_skew_s: Math.round(skew / 1000), feeds: report, items };
   mkdirSync(join(ROOT, "data/ingest"), { recursive: true });
   const out = join(ROOT, "data/ingest", `${hourId(hourStart)}.json`);
   writeFileSync(out, JSON.stringify(snapshot, null, 2));
