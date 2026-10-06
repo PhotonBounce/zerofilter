@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 100,
+  "total_releases": 101,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -800,6 +800,14 @@
       "title": "Topological Photonic Crystal Waveguides, Quantum Hall Light Routing & Soviet Optical Analog Computing",
       "audio": "audio/2026-10-10-04.mp3",
       "cover_video": "thumbs/2026-10-10-04.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-05",
+      "seconds": 177,
+      "title": "Transcranial Focused Ultrasound Neuromodulation, Blood-Brain Sonoporation & Soviet Remote Neuro-Targeting",
+      "audio": "audio/2026-10-10-05.mp3",
+      "cover_video": "thumbs/2026-10-10-05.mp4",
       "status": "published_production"
     }
   ]

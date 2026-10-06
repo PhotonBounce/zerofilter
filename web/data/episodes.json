@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-05",
+      "hour": "05:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Transcranial Focused Ultrasound Neuromodulation, Blood-Brain Sonoporation & Soviet Remote Neuro-Targeting",
+      "subject": "Hourly uncensored breakdown: Rex Vance explores low-intensity transcranial focused ultrasound (tFUS) achieving millimetric deep-brain neuromodulation and reversible blood-brain barrier sonoporation, and Yuri Shvets on Soviet remote neurological intervention programs.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero five hundred hours. For decades, modulating neural circuits deep within the living human brain required surgical electrode implantation or imprecise electromagnetic coils that diffused energy across broad cortical swathes. Today, low-intensity transcranial focused ultrasound, or tFUS, has shattered that limitation entirely, focusing millimeter-precision acoustic pressure wave vectors through the intact human skull into deep subcortical structures like the thalamus, amygdala, and hippocampus without requiring a single surgical incision.",
+        "Operating at low megahertz frequencies, focused acoustic radiation exerts mechanical shear stress on mechanosensitive ion channels in neuronal membranes, altering membrane capacitance and triggering action potentials on demand. Unlike electromagnetic stimulation, which disperses rapidly through intervening tissue, acoustic pressure waves focus deep into three-dimensional neural circuits with sub-millimeter spatial resolution. At slightly higher acoustic intensities combined with circulating microbubbles, focused ultrasound achieves transient, reversible sonoporation of the blood-brain barrier, temporarily opening tight endothelial junctions to deliver targeted pharmacological compounds directly into specific neural nuclei before the barrier reseals within hours.",
+        "This capability to non-invasively manipulate deep brain structures mirrors a heavily classified pursuit within Cold War intelligence services. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet scientific institutes under the First Chief Directorate and military research sections in Novosibirsk investigated acoustic resonance, radio-frequency modulation, and remote physiological disruption throughout the late Soviet era.",
+        "According to Shvets, Soviet intelligence ran extensive experimental programs investigating whether directed acoustic and electromagnetic fields could induce disorientation, sleep disruption, or cognitive degradation in foreign embassy personnel and military command staff. Shvets revealed that KGB technical specialists actively studied the acoustic impedance of the human skull, seeking frequencies capable of penetrating cranial bone without causing immediate thermal lesions, aiming to induce subtle behavioral suppression and psychological instability in target individuals.",
+        "In the modern defense domain, that research has achieved frightening clinical maturity. Military and intelligence interest in transcranial ultrasound has shifted from coarse disruption to covert cognitive control and accelerated soldier performance. With phased acoustic transducer arrays capable of dynamically steering focal points across the brain in milliseconds, the boundary between therapeutic neuro-modulation and remote behavioral manipulation is dissolving under the cover of medical research contracts.",
+        "Audit the military neuro-technology grants, demand strict ethical safeguards on non-invasive brain intervention devices, and remember that when sound waves can alter human thought at the cellular level, the mind is no longer private property. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-05/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-05/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-10-05/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-10-05/f04.webp"
+          },
+          {
+            "t": 118,
+            "src": "art/2026-10-10-05/f05.webp"
+          },
+          {
+            "t": 148,
+            "src": "art/2026-10-10-05/f06.webp"
+          }
+        ]
+      },
+      "seconds": 177,
+      "thumb": "thumbs/2026-10-10-05.webp",
+      "audio": "audio/2026-10-10-05.mp3",
+      "cover_video": "thumbs/2026-10-10-05.mp4"
+    },
+    {
       "id": "2026-10-10-04",
       "hour": "04:00",
       "date": "2026-10-10",

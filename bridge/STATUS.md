@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **808 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **816 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 100 completed, 100 total releases published.
-  - `data/queue.json`: Head item is Episode 101 (`2026-10-10-05`).
-  - `data/registry.json`: 100 active releases logged.
+  - `status/pipeline_state.json`: Episode 101 completed, 101 total releases published.
+  - `data/queue.json`: Head item is Episode 102 (`2026-10-10-06`).
+  - `data/registry.json`: 101 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -127,10 +127,11 @@
   - `2026-10-10-02` (171s) — Kuril Islands Bastion Fortification, Sea of Okhotsk Anti-Access Gates & Soviet Pacific Fleet ASW Doctrine
   - `2026-10-10-03` (183s) — Hypersonic Wind Tunnel Telemetry Falsification, CFD Grant Diversions & Soviet Scramjet Program Padding
   - `2026-10-10-04` (175s) — Topological Photonic Crystal Waveguides, Quantum Hall Light Routing & Soviet Optical Analog Computing [EPISODE 100 MILESTONE]
+  - `2026-10-10-05` (177s) — Transcranial Focused Ultrasound Neuromodulation, Blood-Brain Sonoporation & Soviet Remote Neuro-Targeting
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 600 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `a416f53ce750c2453ab412020a385885ec8a868d`).
+- **Story Art Frames:** 606 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `e6014b9a2c44aa50b5b1cb38d3840acf0c4a644b`).
 
 ---
 

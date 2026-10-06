@@ -1262,7 +1262,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 178), "SLUSH FUNDING: UNRESTRICTED", fill=(255, 60, 60))
         draw.text((width - 310, 198), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
-    elif theme in ("p300_biometrics", "neuro_telemetry", "eeg_p300", "cognitive_load", "hft_neuro_feedback", "neuro_feedback", "trading_biometrics", "reflex_modification"):
+    elif theme in ("p300_biometrics", "neuro_telemetry", "eeg_p300", "cognitive_load", "hft_neuro_feedback", "neuro_feedback", "trading_biometrics", "reflex_modification", "focused_ultrasound", "ultrasound_neuromodulation", "sonoporation", "neuro_sonics"):
         # Real-Time EEG P300 Biometrics & Neuro-Adaptive Cognitive Load Telemetry
         # 1. Background Event-Related Potential (ERP) Coordinate Grid
         grid_left = cx - 360
@@ -1720,6 +1720,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "FREE ENERGY PRINCIPLE // MARKOV BLANKET NEURAL INFERENCE // REFLEXIVE CONTROL MODEL", fill=(200, 140, 255))
     elif theme in ("p300_biometrics", "neuro_telemetry", "eeg_p300", "cognitive_load", "hft_neuro_feedback", "neuro_feedback", "trading_biometrics", "reflex_modification"):
         draw.text((40, 60), "EEG P300 BIOMETRIC SURVEILLANCE // COGNITIVE OVERLOAD TELEMETRY // KGB REFLEXIVE CONTROL", fill=(200, 140, 255))
+    elif theme in ("focused_ultrasound", "ultrasound_neuromodulation", "sonoporation", "neuro_sonics"):
+        draw.text((40, 60), "TRANSCRANIAL FOCUSED ULTRASOUND // BLOOD-BRAIN SONOPORATION // SOVIET NEURO-MODULATION", fill=(200, 140, 255))
     elif theme in ("red_sea_cables", "bab_el_mandeb"):
         draw.text((40, 60), "RED SEA SUBSEA CABLE CORRIDOR // BAB EL-MANDEB CHOKEPOINT // SOVIET HORN OF AFRICA SIGINT", fill=(255, 140, 40))
     elif theme in ("malacca_blockade", "hydrophone_gate", "malacca_strait"):

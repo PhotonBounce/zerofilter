@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-05",
-      "date": "2026-10-10",
-      "hour": "05:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Transcranial focused ultrasound neuromodulation, blood-brain barrier sonoporation, and Yuri Shvets on Soviet remote neuro-intervention trials"
-    },
-    {
       "id": "2026-10-10-06",
       "date": "2026-10-10",
       "hour": "06:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Munitions stockpile propellant degradation falsification, nitrocellulose cartel price-gouging, and Yuri Shvets on Soviet artillery shell chemistry adulteration"
+    },
+    {
+      "id": "2026-10-10-08",
+      "date": "2026-10-10",
+      "hour": "08:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Superconducting qubit parity measurements, cat-state quantum error correction, and Yuri Shvets on Soviet quantum telemetry intercept attempts"
     }
   ]
 }
