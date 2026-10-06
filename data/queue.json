@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-06",
-      "date": "2026-10-07",
-      "hour": "06:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Undersea fiber optic cable sabotage, seabed acoustic monitoring networks, and Yuri Shvets on Russian GUGI deep-sea covert reconnaissance operations"
-    },
-    {
       "id": "2026-10-07-07",
       "date": "2026-10-07",
       "hour": "07:00",
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Karl Friston Free Energy Principle, Markov blankets in neural inference, and Yuri Shvets on KGB mathematical models of cognitive reflexive control"
+    },
+    {
+      "id": "2026-10-07-08",
+      "date": "2026-10-07",
+      "hour": "08:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Defense aerospace maintenance monopolies, proprietary diagnostic paywalls, and Yuri Shvets on Soviet intelligence infiltration of Western aviation supply chains"
     }
   ]
 }

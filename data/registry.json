@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 29,
+  "total_releases": 30,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -232,6 +232,14 @@
       "title": "Quantum Spin Liquids, Topological Braiding & Soviet Cipher Codebreaking",
       "audio": "audio/2026-10-07-05.mp3",
       "cover_video": "thumbs/2026-10-07-05.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-07-06",
+      "seconds": 170,
+      "title": "Undersea Cable Sabotage, GUGI Seabed Warfare & Abyssal SIGINT Interception",
+      "audio": "audio/2026-10-07-06.mp3",
+      "cover_video": "thumbs/2026-10-07-06.mp4",
       "status": "published_production"
     }
   ]

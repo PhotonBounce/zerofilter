@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-06",
+      "hour": "06:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Undersea Cable Sabotage, GUGI Seabed Warfare & Abyssal SIGINT Interception",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates vulnerabilities in transoceanic submarine fiber-optic cables, Russian Main Directorate of Deep-Sea Research (GUGI) special-mission submersibles, and Yuri Shvets's insider analysis of Kremlin seabed sabotage doctrines.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero six hundred hours. Ninety-seven percent of global internet communications, interbank financial transfers exceeding ten trillion dollars daily, and classified diplomatic traffic do not travel through satellites; they pulse through microscopic glass fibers encased in steel armor resting silently on the abyssal ocean floor. A single coordinated severance of key transoceanic choke points—in the English Channel, the Luzon Strait, or the Red Sea—would plunge modern financial markets and military command architectures into immediate paralysis.",
+        "As Washington counter-intelligence insider and former KGB Major Yuri Shvets has frequently highlighted, Russian naval doctrine has prioritized asymmetric seabed warfare for over four decades. Operating under the secretive Main Directorate of Deep-Sea Research, known by its Russian acronym GUGI, Moscow commands specialized nuclear auxiliary mother submarines like the Belgorod and deep-diving titanium submersibles like the Losharik. These vessels operate at depths exceeding three thousand meters, designed specifically to tap, manipulate, or physically sever transatlantic undersea infrastructure during geopolitical escalations.",
+        "The strategic advantage of seabed warfare lies in its profound attribution deficit. When an underwater fiber cable is cut on an abyssal continental shelf miles beneath turbulent international waters, distinguishing between commercial trawler anchor drag, seismic subsea landslides, and covert military sabotage can take weeks of underwater acoustic forensics. By the time allied naval hydrophones and remotely operated vehicles inspect the physical crimp or clean shear, the adversary's special-mission oceanographic vessel has already returned to Murmansk under sovereign immunity.",
+        "Furthermore, GUGI's operational mandate extends far beyond blunt kinetic sabotage to covert signals intelligence interception. Western intelligence agencies pioneered seabed cable tapping in the 1970s with Operation Ivy Bells in the Sea of Okhotsk. Today, Russian intelligence deploys non-intrusive inductive sensors clamped directly around fiber repeaters, harvesting unencrypted packet telemetry directly from the physical layer before it ever reaches landing stations or cryptographic decryptors.",
+        "Countering this abyssal vulnerability requires transforming our maritime security posture from reactive repair to continuous autonomous seabed defense. Allied nations must deploy persistent acoustic sensor arrays, autonomous unmanned underwater patrol gliders equipped with active sonar, and enforce international naval exclusion zones around critical landing conduits. In the 21st century, defending sovereignty requires securing the dark ocean floor with the same mathematical rigor we apply to orbital satellites and terrestrial borders.",
+        "Audit the abyssal trenches, monitor the acoustic cavitation of covert submersibles, and never assume that deep water guarantees security. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 170,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-06/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-07-06/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-07-06/f03.webp"
+          },
+          {
+            "t": 85,
+            "src": "art/2026-10-07-06/f04.webp"
+          },
+          {
+            "t": 113,
+            "src": "art/2026-10-07-06/f05.webp"
+          },
+          {
+            "t": 142,
+            "src": "art/2026-10-07-06/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-06.webp",
+      "audio": "audio/2026-10-07-06.mp3",
+      "cover_video": "thumbs/2026-10-07-06.mp4"
+    },
+    {
       "id": "2026-10-07-05",
       "hour": "05:00",
       "date": "2026-10-07",

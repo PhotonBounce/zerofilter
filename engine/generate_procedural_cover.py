@@ -483,6 +483,76 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 320, cy + 170), "SOVIET CIPHER APPARATUS // FIALKA-M", fill=(255, 220, 100))
         draw.text((width - 320, cy + 185), "STATUS: NON-COMPUTABLE CODEBREAKING", fill=(255, 60, 60))
 
+    elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare"):
+        # Deep Seabed Infrastructure & Russian GUGI Covert Reconnaissance
+        # 1. Abyssal Bathymetry Contour Lines (Depth 3,000m+)
+        for depth_y in range(120, height, 45):
+            pts = []
+            for x in range(0, width, 15):
+                wave = math.sin(x * 0.005 + depth_y * 0.03) * 22.0 + math.cos(x * 0.012) * 12.0
+                pts.append((x, depth_y + int(wave)))
+            c_depth = int(10 + (depth_y / height) * 35)
+            draw.line(pts, fill=(c_depth // 2, c_depth, int(c_depth * 1.8)), width=1)
+
+        # 2. Transoceanic Fiber Optic Submarine Cable on Ocean Floor
+        cable_y_base = cy + 100
+        cable_pts = []
+        for x in range(40, width - 40, 5):
+            cy_pt = cable_y_base + int(35 * math.sin(x * 0.004) + 15 * math.cos(x * 0.009))
+            cable_pts.append((x, cy_pt))
+
+        # Heavy armored conduit + glowing optical core
+        draw.line(cable_pts, fill=(30, 45, 65), width=8)
+        draw.line(cable_pts, fill=(0, 220, 255), width=3)
+        draw.line(cable_pts, fill=(255, 255, 255), width=1)
+
+        # Submarine Optical Repeaters along the cable
+        for rep_x in (260, 640, 1020):
+            rep_y = cable_y_base + int(35 * math.sin(rep_x * 0.004) + 15 * math.cos(rep_x * 0.009))
+            draw.rectangle([rep_x - 22, rep_y - 12, rep_x + 22, rep_y + 12], fill=(15, 30, 45), outline=(0, 255, 200), width=2)
+            draw.text((rep_x - 30, rep_y + 16), "REPEATER #0" + str(rep_x//200), fill=(0, 240, 255))
+            draw.ellipse([rep_x - 4, rep_y - 4, rep_x + 4, rep_y + 4], fill=(255, 220, 50))
+
+        # 3. GUGI Deep-Submergence Spy Vehicle (Yantar / Losharik Class)
+        sub_cx = 580
+        sub_cy = cy - 80
+        # Submersible hull (Titanium spherical compartments inside streamlined casing)
+        draw.polygon([
+            (sub_cx - 90, sub_cy - 18),
+            (sub_cx + 70, sub_cy - 18),
+            (sub_cx + 100, sub_cy),
+            (sub_cx + 70, sub_cy + 18),
+            (sub_cx - 90, sub_cy + 18),
+            (sub_cx - 105, sub_cy)
+        ], fill=(25, 30, 40), outline=(255, 80, 60), width=2)
+
+        # Conning tower & acoustic array
+        draw.rectangle([sub_cx - 15, sub_cy - 35, sub_cx + 25, sub_cy - 18], fill=(35, 40, 55), outline=(255, 100, 80), width=1)
+        draw.line([(sub_cx + 5, sub_cy - 48), (sub_cx + 5, sub_cy - 35)], fill=(255, 200, 80), width=2)
+
+        # Manipulator Arm reaching toward fiber cable
+        arm_target_x = 620
+        arm_target_y = cable_y_base + int(35 * math.sin(arm_target_x * 0.004) + 15 * math.cos(arm_target_x * 0.009))
+        draw.line([(sub_cx + 40, sub_cy + 18), (sub_cx + 60, sub_cy + 80)], fill=(255, 140, 40), width=3)
+        draw.line([(sub_cx + 60, sub_cy + 80), (arm_target_x, arm_target_y - 6)], fill=(255, 140, 40), width=2)
+        # Laser cutting arc / Tap clamp glow
+        draw.ellipse([arm_target_x - 12, arm_target_y - 18, arm_target_x + 12, arm_target_y + 6], outline=(255, 60, 40), width=2)
+        draw.point((arm_target_x, arm_target_y - 6), fill=(255, 255, 255))
+
+        # Spotlights shining into dark abyss
+        draw.polygon([(sub_cx + 70, sub_cy), (arm_target_x - 50, arm_target_y + 30), (arm_target_x + 50, arm_target_y + 30)], fill=None, outline=(50, 100, 140))
+
+        # 4. Seabed Sonar & Tap Status HUD
+        draw.rectangle([60, 100, 310, 170], fill=(12, 18, 28), outline=(255, 80, 60), width=1)
+        draw.text((70, 110), "[GUGI SEABED TELEMETRY]", fill=(255, 90, 70))
+        draw.text((70, 130), "DEPTH: 3,420 METERS // HIGH PRESSURE", fill=(200, 220, 255))
+        draw.text((70, 150), "TARGET: TRANSATLANTIC FIBER C-8", fill=(255, 200, 80))
+
+        draw.rectangle([width - 320, 100, width - 60, 170], fill=(20, 15, 15), outline=(255, 60, 60), width=1)
+        draw.text((width - 310, 110), "[SOSUS ACOUSTIC ALERT]", fill=(255, 80, 80))
+        draw.text((width - 310, 130), "ANOMALOUS CAVITATION DETECTED", fill=(255, 180, 60))
+        draw.text((width - 310, 150), "CLASSIFICATION: RUSSIAN SPECIAL SUBS", fill=(255, 60, 40))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -549,6 +619,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "CONSCIOUS AGENT DYNAMICS // MARKOVIAN TRANSITION KERNELS // SPACETIME PROJECTION MATRIX", fill=(0, 255, 220))
     elif theme in ("spin_liquid", "topological_braiding", "anyon_braiding"):
         draw.text((40, 60), "QUANTUM SPIN LIQUID // NON-ABELIAN TOPOLOGICAL BRAIDING // 8TH CHIEF CIPHER AUDIT", fill=(0, 255, 220))
+    elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare"):
+        draw.text((40, 60), "ABYSSAL FIBER OPTIC INFRASTRUCTURE // RUSSIAN GUGI SEABED RECONNAISSANCE // TAP DETECTED", fill=(255, 90, 70))
     elif theme == "consciousness":
         draw.text((40, 60), "NEURAL BIOPHOTON TELEMETRY // TUBULIN DIPOLE HARMONICS // BANDWIDTH 614 THz", fill=(80, 255, 180))
     else:
