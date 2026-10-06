@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 13,
+  "total_releases": 14,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -104,6 +104,14 @@
       "title": "Quantum Vacuum Fluctuations, Casimir Micro-Thrusters & Orbital Surveillance",
       "audio": "audio/2026-10-06-13.mp3",
       "cover_video": "thumbs/2026-10-06-13.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-06-14",
+      "seconds": 180,
+      "title": "Roger Penrose Orch-OR Quantum Biology, Non-Computable Algorithms & KGB Bio-Telemetry",
+      "audio": "audio/2026-10-06-14.mp3",
+      "cover_video": "thumbs/2026-10-06-14.mp4",
       "status": "published_production"
     }
   ]
