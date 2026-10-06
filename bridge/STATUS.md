@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **952 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **960 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 118 completed, 118 total releases published.
-  - `data/queue.json`: Head item is Episode 119 (`2026-10-10-23`).
-  - `data/registry.json`: 118 active releases logged.
+  - `status/pipeline_state.json`: Episode 119 completed, 119 total releases published.
+  - `data/queue.json`: Head item is Episode 120 (`2026-10-11-00`).
+  - `data/registry.json`: 119 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -145,10 +145,11 @@
   - `2026-10-10-20` (187s) — Quantum Diamond NV Gravimetry, Subterranean Voids & Soviet Non-Acoustic ASW
   - `2026-10-10-21` (190s) — Conscious Agent Projection Matrices, Spacetime Illusions & KGB Perception Management
   - `2026-10-10-22` (194s) — Bab el-Mandeb Subsea Cable Sabotage, Houthi ROVs & Soviet Red Sea Naval Doctrine
+  - `2026-10-10-23` (186s) — Unacknowledged SAP Carve-Outs, Audit Exemption Grift & Soviet Black Budget Slush Funds
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 708 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `abfac2b44db4ff6b35d454527547f8a0368d5518`).
+- **Story Art Frames:** 714 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `ccba3c40124a1e3d5d4426ce70b9c837d971deaf`).
 
 ---
 

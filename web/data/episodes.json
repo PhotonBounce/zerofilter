@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T13:54:00Z",
+  "updated": "2026-10-06T13:57:00Z",
   "episodes": [
+    {
+      "id": "2026-10-10-23",
+      "hour": "23:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Unacknowledged SAP Carve-Outs, Audit Exemption Grift & Soviet Black Budget Slush Funds",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the unconstitutional black budget accounting black holes inside Pentagon Unacknowledged Special Access Programs, legislative carve-outs exempting defense contractors from financial audits, and Yuri Shvets on Soviet Ministry of Defense and KGB off-book slush funds used for covert influence and procurement theft.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty-three hundred hours. For seven consecutive fiscal years, the United States Department of Defense has failed its statutory independent financial audit, unable to account for over half of its four-trillion-dollar asset portfolio. While mainstream congressional commentary routinely dismisses these systemic failures as bureaucratic bookkeeping friction or obsolete inventory management systems, the forensic reality points directly to institutionalized secrecy: statutory carve-outs engineered to shield classified Unacknowledged Special Access Programs from constitutional oversight and legislative accounting.",
+        "Under Title Ten, Section One-Nineteen of the United States Code, defense officials can declare highly sensitive procurement initiatives as waived unacknowledged programs, effectively stripping congressional defense committees of routine oversight and restricting access to a handful of sworn lawmakers. Compounding this opacity, the Federal Accounting Standards Advisory Board issued Statement Fifty-Six, an unprecedented federal accounting rule that legally permits executive defense agencies to misstate, conceal, or completely redact financial transactions in public ledger filings to avoid compromising classified operational capabilities.",
+        "In practice, this classified accounting carve-out creates an audit-proof black hole where billions in taxpayer appropriations vanish into defense prime contractor black vaults. Without itemized receipts, independent billing verification, or competitive bidding audits, aerospace conglomerates bill exorbitant overhead markups exceeding eight hundred percent under cost-plus classified vehicles, routinely cross-subsidizing failed commercial programs or billing phantom engineering labor behind the impenetrable shield of unacknowledged security clearances.",
+        "This exploitation of national security classifications to institutionalize procurement graft and evade financial audits is a direct mirror of the Soviet military-industrial apparatus. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has exposed, the Soviet Union's state planning commission, Gosplan, operated completely separate, off-book accounting mechanisms for the Ministry of Defense and the KGB First Chief Directorate.",
+        "According to Shvets, Soviet defense bureaus utilized top-secret state reserve funds and off-balance-sheet currency accounts to finance covert weapons development, foreign active measures, and foreign technology theft operations. Because these accounts were designated as state secrets immune from internal financial inspection, senior military officials and defense factory directors routinely embezzled millions in hard foreign currency, fabricating procurement quotas while diverting state assets into private overseas slush funds and luxury patronage networks, utterly unconstrained by civilian auditors.",
+        "When classified carve-outs make defense accounting legally discretionary, democracy and fiscal integrity cease to exist. A government that cannot audit where four trillion dollars in public assets are located has surrendered its constitutional duty to the private contractors who profit from unacknowledged secrecy. Demand itemized forensic audits, repeal the classification shields hiding corporate procurement fraud, and remember that real accountability requires zero redactions. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-23/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-10-23/f02.webp"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-10-23/f03.webp"
+          },
+          {
+            "t": 93,
+            "src": "art/2026-10-10-23/f04.webp"
+          },
+          {
+            "t": 124,
+            "src": "art/2026-10-10-23/f05.webp"
+          },
+          {
+            "t": 155,
+            "src": "art/2026-10-10-23/f06.webp"
+          }
+        ]
+      },
+      "seconds": 186,
+      "audio": "audio/2026-10-10-23.mp3",
+      "thumb": "thumbs/2026-10-10-23.webp",
+      "cover_video": "thumbs/2026-10-10-23.mp4"
+    },
     {
       "id": "2026-10-10-22",
       "hour": "22:00",

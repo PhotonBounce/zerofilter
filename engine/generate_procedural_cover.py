@@ -1720,6 +1720,80 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "SEABED WARFARE PRECEDENT", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("black_budget", "pentagon_sap", "sap_carveouts", "defense_audit", "failed_audit"):
+        # Unacknowledged Special Access Programs (USAPs), Audit Exemption Carve-Outs & Slush Funds
+        # 1. Background classified budget ledger grid
+        for gy in range(cy - 220, cy + 220, 24):
+            draw.line([(60, gy), (width - 60, gy)], fill=(28, 18, 12), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(28, 18, 12), width=1)
+
+        # 2. Classified Redaction Bars across ledger rows
+        random.seed(319)
+        for r_bar in range(16):
+            rx = random.randint(70, width - 360)
+            ry = cy - 200 + r_bar * 25
+            rw = random.randint(140, 280)
+            # Solid black redaction block with warning outline
+            draw.rectangle([rx, ry, rx + rw, ry + 18], fill=(10, 6, 8), outline=(255, 60, 40), width=1)
+            draw.text((rx + 10, ry + 2), "[REDACTED // 10 U.S.C. § 119 WAIVER]", fill=(255, 80, 50))
+
+        # 3. Center: Accounting Black Hole & Diverted Funds Vortex
+        bh_cx, bh_cy = cx, cy
+        for vr in range(130, 20, -12):
+            factor = (130 - vr) / 110.0
+            col = (int(255 * factor), int(120 * factor), 40)
+            draw.ellipse([bh_cx - vr, bh_cy - vr, bh_cx + vr, bh_cy + vr], outline=col, width=2)
+
+        # Center core: Unaccounted Void
+        draw.ellipse([bh_cx - 28, bh_cy - 28, bh_cx + 28, bh_cy + 28], fill=(12, 4, 6), outline=(255, 40, 40), width=2)
+        draw.text((bh_cx - 24, bh_cy - 8), "$1.9T VOID", fill=(255, 220, 100))
+
+        # FASAB Statement 56 Classified Accounting Shield Seal (Upper Center)
+        draw.rectangle([cx - 160, cy - 145, cx + 160, cy - 105], fill=(30, 15, 12), outline=(255, 160, 40), width=2)
+        draw.text((cx - 145, cy - 140), "FASAB STATEMENT 56 FINANCIAL SHIELD", fill=(255, 180, 50))
+        draw.text((cx - 130, cy - 122), "UNACKNOWLEDGED SAP AUDIT EXEMPTION", fill=(255, 80, 60))
+
+        # Capital Flow Routing Conduits (Title 10 Appropriations -> Prime Vault)
+        # Left flow: Title 10 Congressional defense appropriation diverted
+        draw.line([(cx - 220, cy), (cx - 40, cy)], fill=(255, 140, 50), width=3)
+        draw.polygon([(cx - 40, cy), (cx - 52, cy - 6), (cx - 52, cy + 6)], fill=(255, 140, 50))
+        draw.text((cx - 220, cy + 10), "CONGRESSIONAL ALLOCATION", fill=(255, 180, 80))
+        draw.text((cx - 220, cy + 26), "DIVERTED PASS-THROUGH", fill=(255, 80, 60))
+
+        # Right flow: Prime Contractor Vault (Off-Book Overhead)
+        draw.line([(cx + 40, cy), (cx + 220, cy)], fill=(255, 100, 60), width=3)
+        draw.polygon([(cx + 220, cy), (cx + 208, cy - 6), (cx + 208, cy + 6)], fill=(255, 100, 60))
+        draw.text((cx + 80, cy + 10), "PRIME CONTRACTOR SCIF", fill=(255, 180, 80))
+        draw.text((cx + 80, cy + 26), "COST-PLUS OVERHEAD: +840%", fill=(255, 80, 60))
+
+        # 4. Floating Classified Program Nicknames & Compartments
+        usap_tags = [
+            ("COMPARTMENT: RETRACT LARCH", cx - 210, cy + 80),
+            ("WAIVED SAP: SENIOR ICE", cx + 60, cy + 80),
+            ("SPECIAL ACCESS PROGRAM: COLD WILLOW", cx - 150, cy + 130)
+        ]
+        for tag, tx, ty in usap_tags:
+            draw.rectangle([tx - 6, ty - 4, tx + 240, ty + 18], fill=(20, 10, 14), outline=(180, 60, 50), width=1)
+            draw.text((tx, ty), tag, fill=(255, 120, 80))
+
+        # 5. Telemetry Dossiers (Audit Black Hole & Soviet Slush Funds)
+        # Left HUD Box: Pentagon Audit Failure Metrics
+        draw.rectangle([60, 90, 310, cy - 140], fill=(22, 12, 14), outline=(255, 80, 60), width=1)
+        draw.text((70, 98), "[PENTAGON FAILED AUDIT HUD]", fill=(255, 90, 70))
+        draw.text((70, 118), "AUDIT RESULT: 7 CONSECUTIVE FAILS", fill=(255, 200, 80))
+        draw.text((70, 138), "UNTRACKED ASSETS: $3.8 TRILLION", fill=(255, 60, 60))
+        draw.text((70, 158), "USAP EXEMPTION: 10 U.S.C. 119", fill=(255, 160, 50))
+        draw.text((70, 178), "INVOICE DISCREPANCIES: SHREDDED", fill=(255, 100, 80))
+
+        # Right HUD Box: Soviet Black Budget Lineage & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET BLACK BUDGET LINEAGE]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "MOD OFF-BOOK SPECIAL ACCOUNTS", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "KGB FIRST CHIEF SLUSH FUNDS", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "GOSPLAN FRAUD & SHADOW THEFT", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -1816,6 +1890,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "EEG P300 BIOMETRIC SURVEILLANCE // COGNITIVE OVERLOAD TELEMETRY // KGB REFLEXIVE CONTROL", fill=(200, 140, 255))
     elif theme in ("focused_ultrasound", "ultrasound_neuromodulation", "sonoporation", "neuro_sonics"):
         draw.text((40, 60), "TRANSCRANIAL FOCUSED ULTRASOUND // BLOOD-BRAIN SONOPORATION // SOVIET NEURO-MODULATION", fill=(200, 140, 255))
+    elif theme in ("black_budget", "pentagon_sap", "sap_carveouts", "defense_audit", "failed_audit"):
+        draw.text((40, 60), "UNACKNOWLEDGED SAP CARVE-OUTS // PENTAGON AUDIT BLACK HOLE // KGB OFF-BOOK SLUSH FUNDS", fill=(255, 100, 70))
     elif theme in ("red_sea_cables", "bab_el_mandeb"):
         draw.text((40, 60), "RED SEA SUBSEA CABLE CORRIDOR // BAB EL-MANDEB CHOKEPOINT // SOVIET HORN OF AFRICA SIGINT", fill=(255, 140, 40))
     elif theme in ("malacca_blockade", "hydrophone_gate", "malacca_strait"):
