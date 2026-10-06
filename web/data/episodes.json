@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-10",
+      "hour": "10:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Suwalki Gap Electronic Warfare, Kaliningrad Nuclear Bluffs & Reflexive Escalation",
+      "subject": "Hourly uncensored breakdown: Rex Vance analyzes the sixty-mile Suwalki corridor choke point between Belarus and Kaliningrad, high-power Murmansk-BN electronic warfare jamming corridors, and Yuri Shvets's insider revelations regarding Russian General Staff escalatory threshold deception.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is ten hundred hours. NATO's most precarious geographic artery is a narrow sixty-mile strip of land connecting Poland and Lithuania: the Suwalki Gap. Pinched directly between heavily militarized Belarus to the southeast and Russia's Baltic naval exclave of Kaliningrad to the northwest, this corridor represents the sole overland logistics conduit linking Western Europe to the three Baltic states. In any high-intensity conflict, closing this gap cuts off Estonia, Latvia, and Lithuania from land reinforcement in under seventy-two hours.",
+        "Yet the battle for the Suwalki Gap is already being fought silently in the electromagnetic spectrum. Russian forces deployed in Kaliningrad operate cutting-edge electronic warfare complexes, including the Krasukha-4 and the ultra-long-range Murmansk-BN system. Over the past twelve months, commercial airliners flying Baltic transit corridors have reported pervasive GPS spoofing, synthetic transponder drift, and loss of satellite communication. This is not incidental spillover; it is an active military trial designed to blind NATO command and control before armor ever moves.",
+        "As Washington counter-intelligence insider and former KGB Major Yuri Shvets has repeatedly documented, Kremlin military strategy operates on the doctrine of reflexive escalation control. Whenever Moscow perceives a conventional disadvantage along its western periphery, the General Staff executes theatrical nuclear signaling—stationing nuclear-capable Iskander-M missiles in Kaliningrad, conducting unannounced tactical warhead deployment drills, and issuing apocalyptic rhetorical threats. Shvets emphasizes that these displays are calculated mathematical bluffs designed to induce policy paralysis in Western capitals.",
+        "The strategic goal of reflexive nuclear posturing is to exploit democratic risk aversion. By convincing Western decision-makers that defending the Suwalki Gap risks uncontrolled thermonuclear escalation, Moscow seeks to fracture NATO's Article Five deterrence architecture without firing a single missile. The Kremlin understands that deterrence does not collapse when an adversary strikes; it collapses the moment allied leadership hesitates out of manufactured fear.",
+        "Neutralizing this escalatory bluff requires uncompromising deterrence and asymmetric reinforcement. NATO must permanently forward-deploy mechanized multinational brigade combat teams directly inside the Suwalki corridor, harden civilian and military avionics against electronic warfare jamming, and deploy counter-battery systems capable of neutralizing Kaliningrad's missile batteries within minutes of an offensive launch. True peace is preserved not by appeasing threats, but by making aggression mathematically unviable.",
+        "Audit the electronic warfare corridors, expose the reflexive nuclear theater, and never surrender a single inch of sovereign territory to manufactured fear. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 168,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-10/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-07-10/f02.webp"
+          },
+          {
+            "t": 56,
+            "src": "art/2026-10-07-10/f03.webp"
+          },
+          {
+            "t": 84,
+            "src": "art/2026-10-07-10/f04.webp"
+          },
+          {
+            "t": 112,
+            "src": "art/2026-10-07-10/f05.webp"
+          },
+          {
+            "t": 140,
+            "src": "art/2026-10-07-10/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-10.webp",
+      "audio": "audio/2026-10-07-10.mp3",
+      "cover_video": "thumbs/2026-10-07-10.mp4"
+    },
+    {
       "id": "2026-10-07-09",
       "hour": "09:00",
       "date": "2026-10-07",

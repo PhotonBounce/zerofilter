@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 33,
+  "total_releases": 34,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -264,6 +264,14 @@
       "title": "Quantum Darwinism, Environmental Witnessing & Soviet Passive Resonator Surveillance",
       "audio": "audio/2026-10-07-09.mp3",
       "cover_video": "thumbs/2026-10-07-09.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-07-10",
+      "seconds": 168,
+      "title": "Suwalki Gap Electronic Warfare, Kaliningrad Nuclear Bluffs & Reflexive Escalation",
+      "audio": "audio/2026-10-07-10.mp3",
+      "cover_video": "thumbs/2026-10-07-10.mp4",
       "status": "published_production"
     }
   ]
