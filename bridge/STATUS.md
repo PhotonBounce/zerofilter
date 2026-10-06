@@ -20,18 +20,22 @@
 ---
 
 ## 2. Current Working State
-- **Unit Tests:** `node engine/unit.mjs` — **32 passed, 0 failed clean**.
-- **Seeded Pilot Releases (`web/data/episodes.json`):**
+- **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
+- **Unit Tests:** `node engine/unit.mjs` — **48 passed, 0 failed clean**.
+- **State On Disk:**
+  - `status/pipeline_state.json`: Episode 5 completed, 5 total releases published.
+  - `data/queue.json`: Head item is Episode 6 (`2026-10-06-06`).
+  - `data/registry.json`: 5 active releases logged.
+- **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
   - `2026-10-06-03` (165s) — Thomas Campbell's Virtual Reality, AI Frontier Scaling & Taiwan Defense
+  - `2026-10-06-04` (184s) — Black Sea Drone Strikes, Yuri Shvets PAC Disclosures & Entanglement Swapping
+  - `2026-10-06-05` (177s) — Macroscopic Superposition, Tech Smuggling Receipts & Optomechanical Resonators
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 18 frames in `web/art/` synchronized to paragraph timestamps.
-- **Frontend UI (`web/index.html`):**
-  - Real-time Canvas Audio Spectrum Visualizer
-  - Multi-Angle Studio Switcher (Cover Video, Host Cam, Bunker Cam, Story Art)
-  - Rex Vance & Yuri Shvets Intelligence Dossier drawer
+- **Story Art Frames:** 30 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root.
 
 ---
 
