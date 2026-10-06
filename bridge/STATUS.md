@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **1,048 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **1,056 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 130 completed, 130 total releases published.
-  - `data/queue.json`: Head item is Episode 131 (`2026-10-11-11`).
-  - `data/registry.json`: 130 active releases logged.
+  - `status/pipeline_state.json`: Episode 131 completed, 131 total releases published.
+  - `data/queue.json`: Head item is Episode 132 (`2026-10-11-12`).
+  - `data/registry.json`: 131 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -157,10 +157,11 @@
   - `2026-10-11-08` (186s) — Majorana Zero Modes, Non-Abelian Anyon Braiding & Soviet Cryogenic Cryptography
   - `2026-10-11-09` (176s) — Anil Seth Controlled Hallucinations, Bayesian Priors & KGB Reflexive Perception Warfare
   - `2026-10-11-10` (178s) — Suwalki Gap Rail Corridors, Kaliningrad Iskanders & Soviet Baltic Chokepoints
+  - `2026-10-11-11` (184s) — Pentagon Unacknowledged SAP Carve-Outs, Audit Waiver Networks & Soviet Slush Funds
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 780 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `6554a8e5c5ee77d287b4f276e41c884d6281d2ec`).
+- **Story Art Frames:** 786 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `deed1e96d635ddeb7151ec65de85fdac50a9531b`).
 
 ---
 

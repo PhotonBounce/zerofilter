@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 130,
+  "total_releases": 131,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1040,6 +1040,14 @@
       "title": "Suwalki Gap Rail Corridors, Kaliningrad Iskanders & Soviet Baltic Chokepoints",
       "audio": "audio/2026-10-11-10.mp3",
       "cover_video": "thumbs/2026-10-11-10.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-11-11",
+      "seconds": 184,
+      "title": "Pentagon Unacknowledged SAP Carve-Outs, Audit Waiver Networks & Soviet Slush Funds",
+      "audio": "audio/2026-10-11-11.mp3",
+      "cover_video": "thumbs/2026-10-11-11.mp4",
       "status": "published_production"
     }
   ]

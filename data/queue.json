@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-11",
-      "date": "2026-10-11",
-      "hour": "11:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Pentagon unacknowledged SAP carve-outs, audit waiver shell networks, and Yuri Shvets on Soviet defense ministry slush funds and off-the-books intelligence conduits"
-    },
-    {
       "id": "2026-10-11-12",
       "date": "2026-10-11",
       "hour": "12:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Tononi Integrated Information Theory IIT 4.0 complex cause-effect structures, consciousness non-reducibility, and Yuri Shvets on KGB psychotropic interrogation telemetry"
+    },
+    {
+      "id": "2026-10-11-14",
+      "date": "2026-10-11",
+      "hour": "14:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Turkish Straits Montreux Convention chokepoints, Bosphorus submarine transit deception, and Yuri Shvets on Soviet 5th Eskadra Mediterranean egress operations"
     }
   ]
 }
