@@ -74,3 +74,33 @@ export function editorialProblems(ep, now = Date.now()) {
 export function isPublishable(ep, now = Date.now()) {
   return editorialProblems(ep, now).length === 0;
 }
+
+// Provenance: what an episode cites must have been COLLECTED, not remembered.
+// Every published episode names the ingest snapshot it was written from
+// (ep.ingest = "YYYY-MM-DD-HH", file data/ingest/<that>.json, made by
+// engine/ingest.mjs). News paragraphs (P0, P1) and every quote (a source with
+// `speaker`) must cite a URL that is in that snapshot — for a quote, an item
+// from that speaker's own feed. Other paragraphs may also cite stable
+// references (a paper, an archive) marked kind: "reference".
+export const NEWS_PARAGRAPHS = [0, 1];
+
+export function provenanceProblems(ep, snapshot, now = Date.now()) {
+  if (!ep.ingest) return ["no ingest snapshot named (ep.ingest)"];
+  if (!snapshot) return [`ingest snapshot data/ingest/${ep.ingest}.json is missing`];
+  const problems = [];
+  const snapHour = Date.parse(snapshot.hour);
+  if (!Number.isFinite(snapHour) || snapHour > episodeTime(ep)) problems.push(`snapshot hour ${snapshot.hour} is after the episode`);
+  if (Date.parse(snapshot.captured_at) > now) problems.push("snapshot captured in the future");
+  const byUrl = new Map((snapshot.items || []).map((it) => [it.url, it]));
+  for (const [i, s] of (ep.sources || []).entries()) {
+    const item = byUrl.get(s?.url);
+    if (s?.speaker) {
+      if (!item || item.speaker !== s.speaker) problems.push(`source #${i} quotes ${s.speaker} from a URL not collected from ${s.speaker}'s own feed`);
+    } else if (NEWS_PARAGRAPHS.includes(s?.para)) {
+      if (!item) problems.push(`source #${i} (news, P${s.para}) is not in the ingest snapshot`);
+    } else if (!item && s?.kind !== "reference") {
+      problems.push(`source #${i} is neither in the snapshot nor marked kind: "reference"`);
+    }
+  }
+  return problems;
+}
