@@ -417,7 +417,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 225, cy + 30), "TAMPER DETECTED", fill=(255, 60, 40))
         draw.text((width - 225, cy + 60), "DIRECTORATE T", fill=(255, 200, 80))
 
-    elif theme in ("spin_liquid", "topological_braiding", "anyon_braiding", "topological_insulator", "topological_insulators", "helical_edge"):
+    elif theme in ("spin_liquid", "topological_braiding", "anyon_braiding", "topological_insulator", "topological_insulators", "helical_edge", "topological_superconductivity", "majorana_zero_modes", "majorana_nanowires", "landau_cryogenics"):
         # Kitaev Honeycomb Spin Liquid & Non-Abelian Anyon Braiding Engine
         # 1. Frustrated Honeycomb Lattice / Kagome background
         hex_r = 38
@@ -1241,6 +1241,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "INTEGRATED INFORMATION THEORY (IIT 4.0) // MAXIMAL CAUSAL COMPLEX Φ = 4.82 // LAB-12 TOXICOLOGY", fill=(255, 220, 60))
     elif theme in ("conscious_agents", "hoffman"):
         draw.text((40, 60), "CONSCIOUS AGENT DYNAMICS // MARKOVIAN TRANSITION KERNELS // SPACETIME PROJECTION MATRIX", fill=(0, 255, 220))
+    elif theme in ("topological_superconductivity", "majorana_zero_modes", "majorana_nanowires", "landau_cryogenics"):
+        draw.text((40, 60), "TOPOLOGICAL SUPERCONDUCTIVITY // MAJORANA ZERO MODES // SOVIET LANDAU CRYOGENIC SECRETS", fill=(0, 255, 240))
     elif theme in ("spin_liquid", "topological_braiding", "anyon_braiding", "topological_insulator", "topological_insulators", "helical_edge"):
         draw.text((40, 60), "TOPOLOGICAL INSULATOR // HELICAL EDGE STATES // SOVIET SOLID-STATE INTELLIGENCE AUDIT", fill=(0, 255, 220))
     elif theme in ("free_energy", "markov_blanket", "active_inference"):

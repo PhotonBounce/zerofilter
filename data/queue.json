@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-09",
-      "date": "2026-10-08",
-      "hour": "09:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Topological superconductivity, Majorana zero modes in semiconductor nanowires, and Yuri Shvets on Soviet Landau Institute cryogenic research programs"
-    },
-    {
       "id": "2026-10-08-10",
       "date": "2026-10-08",
       "hour": "10:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Autonomous drone munitions price gouging, SBIR grant fraud syndicates, and Yuri Shvets on Soviet front-company technology acquisitions"
+    },
+    {
+      "id": "2026-10-08-12",
+      "date": "2026-10-08",
+      "hour": "12:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Biophotonic cellular signaling, ultra-weak photon emission in neural tissue, and Yuri Shvets on Soviet Gurwitsch radiation research"
     }
   ]
 }

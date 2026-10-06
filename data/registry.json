@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 56,
+  "total_releases": 57,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -448,6 +448,14 @@
       "title": "Rare-Earth Processing Chokepoints, Defense Mineral Stockpile Deficits & Soviet Cartel Price Manipulation",
       "audio": "audio/2026-10-08-08.mp3",
       "cover_video": "thumbs/2026-10-08-08.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-08-09",
+      "seconds": 189,
+      "title": "Topological Superconductivity, Majorana Zero Modes & Soviet Cryogenic Physics Secrets",
+      "audio": "audio/2026-10-08-09.mp3",
+      "cover_video": "thumbs/2026-10-08-09.mp4",
       "status": "published_production"
     }
   ]
