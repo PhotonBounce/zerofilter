@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-00",
-      "date": "2026-10-08",
-      "hour": "00:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Pentagon black budget audits, Special Access Program phantom line items, and Yuri Shvets on Soviet Gosplan military intelligence diversion schemes"
-    },
-    {
       "id": "2026-10-08-01",
       "date": "2026-10-08",
       "hour": "01:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Taiwan Strait undersea acoustic hydrophone barriers, SOSUS line arrays, and Yuri Shvets on Soviet Pacific Fleet submarine tracking doctrine"
+    },
+    {
+      "id": "2026-10-08-03",
+      "date": "2026-10-08",
+      "hour": "03:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Neuro-computational quantum models in synaptic plasticity, micro-tubular orchestration, and Yuri Shvets on KGB bio-cybernetic telemetric tracking"
     }
   ]
 }

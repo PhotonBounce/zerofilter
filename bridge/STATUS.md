@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **384 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **392 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 47 completed, 47 total releases published.
-  - `data/queue.json`: Head item is Episode 48 (`2026-10-08-00`).
-  - `data/registry.json`: 47 active releases logged.
+  - `status/pipeline_state.json`: Episode 48 completed, 48 total releases published.
+  - `data/queue.json`: Head item is Episode 49 (`2026-10-08-01`).
+  - `data/registry.json`: 48 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -74,10 +74,11 @@
   - `2026-10-07-21` (181s) — Quantum Annealing in Flux Qubits, Adiabatic Shortcuts & Soviet Supercomputing Cryptanalysis
   - `2026-10-07-22` (177s) — Red Sea Subsea Cable Sabotage, Bab el-Mandeb Chokepoints & Soviet Horn of Africa SIGINT
   - `2026-10-07-23` (175s) — Active Inference in Generative Neural Architectures, Predictive Coding & Soviet Neuro-Cybernetics
+  - `2026-10-08-00` (180s) — Pentagon Black Budget Audits, Special Access Program Phantom Line Items & Soviet Gosplan Diversions
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 282 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `4c6023c3074ddb3b4a66f1cbddfa6c20bd034edf`).
+- **Story Art Frames:** 288 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `2156501a23ec2af52d86bfd5f34ce98d2ab9ea91`).
 
 ---
 

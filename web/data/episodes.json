@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-08-00",
+      "hour": "00:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Pentagon Black Budget Audits, Special Access Program Phantom Line Items & Soviet Gosplan Diversions",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the Pentagon's multi-trillion-dollar audit failures, Unacknowledged Special Access Program phantom line items, and Yuri Shvets's insider analysis of Soviet Gosplan military intelligence diversion apparatuses.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero hundred hours. For the seventh consecutive year, the United States Department of Defense has failed its comprehensive financial audit, unable to account for more than sixty percent of its four-trillion-dollar asset base. Beneath the public budget debates lies the black budget—an opaque archipelago of Unacknowledged Special Access Programs where hundreds of billions in taxpayer capital vanish into classified line items, waived Congressional reporting schedules, and phantom vendor accounts shielded by national security exemptions.",
+        "The forensic accounting architecture of the black budget is deliberately engineered to prevent external oversight. Through Pass-Through Accounts and budget carve-outs in Air Force and DARPA balance sheets, procurement funds are routed through tier-one defense primes directly to off-the-books subcontractors. Assets are booked under placeholder ledger entries known as phantom lines, where physical inventory audits are legally blocked by security compartmentalization. Prime contractors exploit this classification barrier to obscure cost overruns, billing taxpayers tens of millions for unverified engineering deliverables that exist only as red-stripe binders in subterranean SCIFs.",
+        "This systemic fiscal evasion bears an uncanny structural resemblance to the historical diversion architectures of Soviet central planning. As former KGB foreign intelligence officer and Washington counter-intelligence insider Yuri Shvets has extensively analyzed, the late Soviet state operated a shadow economy known as the Gosplan diversion apparatus. Under the pretext of state secrecy and military parity, Soviet ministries diverted up to twenty percent of the USSR’s gross domestic product into classified military-industrial complexes, completely hidden from the nominal civilian state budget.",
+        "According to Shvets, the KGB’s military-economic directorates worked hand-in-hand with Gosplan apparatchiks to siphon off raw materials, foreign hard currency reserves, and precision industrial tooling into unmonitored military production lines. Because the system lacked independent audit mechanisms, Soviet defense bureaucrats systematically inflated component requirements, embezzled production surpluses, and falsified industrial output statistics. Shvets emphasizes that this unchecked classification cartel not only concealed rampant internal graft, but ultimately accelerated the structural economic insolvency and collapse of the Soviet Union.",
+        "In Washington today, the identical pathology operates under the legal banner of Special Access Program compartmentalization. By walling off defense expenditures behind classification firewalls, the Pentagon and its contractor cartel replicate Soviet-style bureaucratic capture: endless cost-plus inflation, zero accountability, and massive capital misallocation disguised as strategic deterrence. When billions can be made to disappear into unacknowledged programs with a single security waiver, national defense ceases to be an instrument of public security and becomes a self-sustaining sovereign slush fund.",
+        "Follow the classified ledgers, pierce the compartmented firewalls, and audit the phantom line items. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 180,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-00/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-08-00/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-08-00/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-08-00/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-08-00/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-08-00/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-08-00.webp",
+      "audio": "audio/2026-10-08-00.mp3",
+      "cover_video": "thumbs/2026-10-08-00.mp4"
+    },
+    {
       "id": "2026-10-07-23",
       "hour": "23:00",
       "date": "2026-10-07",

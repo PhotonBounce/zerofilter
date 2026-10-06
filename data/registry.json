@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 47,
+  "total_releases": 48,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -376,6 +376,14 @@
       "title": "Active Inference in Generative Neural Architectures, Predictive Coding & Soviet Neuro-Cybernetics",
       "audio": "audio/2026-10-07-23.mp3",
       "cover_video": "thumbs/2026-10-07-23.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-08-00",
+      "seconds": 180,
+      "title": "Pentagon Black Budget Audits, Special Access Program Phantom Line Items & Soviet Gosplan Diversions",
+      "audio": "audio/2026-10-08-00.mp3",
+      "cover_video": "thumbs/2026-10-08-00.mp4",
       "status": "published_production"
     }
   ]
