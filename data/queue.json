@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-01",
-      "date": "2026-10-08",
-      "hour": "01:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Topological insulators, dissipationless helical edge states, and Yuri Shvets on Soviet solid-state physics intelligence acquisition rings"
-    },
-    {
       "id": "2026-10-08-02",
       "date": "2026-10-08",
       "hour": "02:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Neuro-computational quantum models in synaptic plasticity, micro-tubular orchestration, and Yuri Shvets on KGB bio-cybernetic telemetric tracking"
+    },
+    {
+      "id": "2026-10-08-04",
+      "date": "2026-10-08",
+      "hour": "04:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Commercial satellite imagery monopolies, NRO dual-use tasking priority overrides, and Yuri Shvets on Soviet space-based optical reconnaissance diversion"
     }
   ]
 }

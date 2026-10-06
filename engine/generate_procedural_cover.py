@@ -417,7 +417,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 225, cy + 30), "TAMPER DETECTED", fill=(255, 60, 40))
         draw.text((width - 225, cy + 60), "DIRECTORATE T", fill=(255, 200, 80))
 
-    elif theme in ("spin_liquid", "topological_braiding", "anyon_braiding"):
+    elif theme in ("spin_liquid", "topological_braiding", "anyon_braiding", "topological_insulator", "topological_insulators", "helical_edge"):
         # Kitaev Honeycomb Spin Liquid & Non-Abelian Anyon Braiding Engine
         # 1. Frustrated Honeycomb Lattice / Kagome background
         hex_r = 38
@@ -1235,8 +1235,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "INTEGRATED INFORMATION THEORY (IIT 4.0) // MAXIMAL CAUSAL COMPLEX Φ = 4.82 // LAB-12 TOXICOLOGY", fill=(255, 220, 60))
     elif theme in ("conscious_agents", "hoffman"):
         draw.text((40, 60), "CONSCIOUS AGENT DYNAMICS // MARKOVIAN TRANSITION KERNELS // SPACETIME PROJECTION MATRIX", fill=(0, 255, 220))
-    elif theme in ("spin_liquid", "topological_braiding", "anyon_braiding"):
-        draw.text((40, 60), "QUANTUM SPIN LIQUID // NON-ABELIAN TOPOLOGICAL BRAIDING // 8TH CHIEF CIPHER AUDIT", fill=(0, 255, 220))
+    elif theme in ("spin_liquid", "topological_braiding", "anyon_braiding", "topological_insulator", "topological_insulators", "helical_edge"):
+        draw.text((40, 60), "TOPOLOGICAL INSULATOR // HELICAL EDGE STATES // SOVIET SOLID-STATE INTELLIGENCE AUDIT", fill=(0, 255, 220))
     elif theme in ("free_energy", "markov_blanket", "active_inference"):
         draw.text((40, 60), "FREE ENERGY PRINCIPLE // MARKOV BLANKET NEURAL INFERENCE // REFLEXIVE CONTROL MODEL", fill=(200, 140, 255))
     elif theme in ("red_sea_cables", "bab_el_mandeb"):
