@@ -831,7 +831,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((70, cy + 160), "BATTERYLESS CAVITY // ZERO EMISSION", fill=(255, 220, 100))
         draw.text((70, cy + 180), "STATUS: ILLUMINATION-ACTIVATED ONLY", fill=(255, 80, 80))
 
-    elif theme in ("orch_or", "penrose_hameroff", "tubulin_quantum", "synaptic_plasticity", "microtubules", "bio_cybernetics", "biophoton", "biophotonic", "mitogenetic_radiation", "bio_resonance"):
+    elif theme in ("penrose_hameroff_bifurcation", "spacetime_bifurcation", "synaptic_plasticity", "microtubules", "bio_cybernetics", "biophoton", "biophotonic", "mitogenetic_radiation", "bio_resonance"):
         # Penrose Orch-OR Gravitational Collapse & Tubulin Quantum Anesthesia
         # 1. Spacetime bifurcation sheets (Gravitational Objective Reduction)
         sheet_top = cy - 220
@@ -2258,7 +2258,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 118), "MOSCOW EMBASSY MICROWAVES", fill=(255, 200, 80))
         draw.text((width - 310, 138), "KGB 8TH CHIEF ILLUMINATION", fill=(255, 100, 80))
         draw.text((width - 310, 158), "ANTENNA-LESS SENSOR ARRAY", fill=(255, 220, 120))
-    elif theme in ("orch_or", "orch_or_anesthesia", "tubulin_quantum", "quantum_anesthesia"):
+    elif theme in ("orch_or", "orch_or_anesthesia", "tubulin_quantum", "quantum_anesthesia", "hameroff", "penrose_hameroff"):
         # Penrose-Hameroff Orch-OR Microtubule Lattice & Anesthetic Dipole Decoupling
         # 1. Background hexagonal lattice grid & quantum coherence field
         for gy in range(cy - 220, cy + 220, 26):
@@ -3403,8 +3403,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "QUANTUM DARWINISM // POINTER STATE PROLIFERATION // THEREMIN CAVITY RESONATOR Q: 45K", fill=(0, 255, 240))
     elif theme in ("biophoton", "biophotonic", "mitogenetic_radiation", "bio_resonance"):
         draw.text((40, 60), "BIOPHOTONIC CELLULAR SIGNALING // MITOGENETIC RADIATION // SOVIET BIO-RESONANCE ARCHIVES", fill=(30, 240, 160))
-    elif theme in ("orch_or", "penrose_hameroff", "tubulin_quantum", "synaptic_plasticity", "microtubules", "bio_cybernetics"):
-        draw.text((40, 60), "QUANTUM SYNAPTIC PLASTICITY // MICROTUBULE ORCHESTRATION // KGB BIO-CYBERNETIC TELEMETRY", fill=(30, 240, 160))
+    elif theme in ("orch_or", "orch_or_anesthesia", "penrose_hameroff", "tubulin_quantum", "quantum_anesthesia", "synaptic_plasticity", "microtubules", "bio_cybernetics", "hameroff"):
+        draw.text((40, 60), "QUANTUM MICROTUBULE ANESTHESIA // HAMEROFF ORCH-OR // SOVIET NEURO-AEROSOL TELEMETRY", fill=(30, 240, 160))
     elif theme in ("nv_center", "diamond_magnetometry", "quantum_magnetometer", "nv_diamond", "nv_gravimetry", "quantum_gravimetry"):
         draw.text((40, 60), "QUANTUM DIAMOND NV GRAVIMETRY // SUBTERRANEAN BUNKER MAPPING // SOVIET ASW SENSORS", fill=(0, 240, 255))
     elif theme in ("rydberg", "rydberg_atom", "rydberg_rf", "quantum_rf", "rydberg_electrometry", "rydberg_sensor", "sub_thz_quantum", "microwave_electrometry"):

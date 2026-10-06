@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 148,
+  "total_releases": 149,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1184,6 +1184,14 @@
       "title": "Rydberg Atom Electrometry, Sub-Terahertz Sensor Arrays & Soviet Microwave Interceptions",
       "audio": "audio/2026-10-12-04.mp3",
       "cover_video": "thumbs/2026-10-12-04.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-12-05",
+      "seconds": 187,
+      "title": "Stuart Hameroff Quantum Microtubule Anesthesia, Xenon Dipoles & Soviet Neuro-Aerosol Telemetry",
+      "audio": "audio/2026-10-12-05.mp3",
+      "cover_video": "thumbs/2026-10-12-05.mp4",
       "status": "published_production"
     }
   ]

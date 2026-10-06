@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **1,192 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **1,200 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 148 completed, 148 total releases published.
-  - `data/queue.json`: Head item is Episode 149 (`2026-10-12-05`).
-  - `data/registry.json`: 148 active releases logged.
+  - `status/pipeline_state.json`: Episode 149 completed, 149 total releases published.
+  - `data/queue.json`: Head item is Episode 150 (`2026-10-12-06`).
+  - `data/registry.json`: 149 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -175,10 +175,11 @@
   - `2026-10-12-02` (169s) — Kuril Islands Bastion Anti-Submarine Barriers, Sea of Okhotsk Sanctuary & Soviet Pacific Fleet Chokepoints
   - `2026-10-12-03` (176s) — Pentagon Rare Earth Munitions Stockpile Deficits, Chinese Smuggling Rings & Soviet Line X Metals
   - `2026-10-12-04` (175s) — Rydberg Atom Electrometry, Sub-Terahertz Sensor Arrays & Soviet Microwave Interceptions
+  - `2026-10-12-05` (187s) — Stuart Hameroff Quantum Microtubule Anesthesia, Xenon Dipoles & Soviet Neuro-Aerosol Telemetry
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 888 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `806a4e546436989ad9cc7a48eddfe3b6aee16146`).
+- **Story Art Frames:** 894 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `d86ff37847e0bd5a537290ce87bc301edc9eec73`).
 
 ---
 

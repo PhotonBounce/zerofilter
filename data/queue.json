@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-12-05",
-      "date": "2026-10-12",
-      "hour": "05:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Stuart Hameroff Quantum Microtubule Anesthesia, Xenon Dipoles & Soviet Neuro-Aerosol Telemetry"
-    },
-    {
       "id": "2026-10-12-06",
       "date": "2026-10-12",
       "hour": "06:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Defense Shipbuilding Cost Overruns, Nuclear Submarine Welder Falsification & Soviet Sevmash Scrapyards"
+    },
+    {
+      "id": "2026-10-12-08",
+      "date": "2026-10-12",
+      "hour": "08:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Circuit QED Transmon Qubit Parity Measurements, Quantum Error Correction & Soviet Superconducting Cryo-Troughs"
     }
   ]
 }

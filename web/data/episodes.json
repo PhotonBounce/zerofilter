@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T17:30:00Z",
+  "updated": "2026-10-06T17:45:00Z",
   "episodes": [
+    {
+      "id": "2026-10-12-05",
+      "hour": "05:00",
+      "date": "2026-10-12",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Stuart Hameroff Quantum Microtubule Anesthesia, Xenon Dipoles & Soviet Neuro-Aerosol Telemetry",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates Dr. Stuart Hameroff and Sir Roger Penrose's Orch-OR theory of quantum consciousness, volatile anesthetic gas binding inside tubulin hydrophobic pockets, terahertz dipole oscillation dampening, and Yuri Shvets on Soviet KGB Directorate S / Lab-12 aerosol neuro-pharmacology programs targeting rapid brainstem consciousness collapse.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero five hundred hours. For over a century, clinical neurobiology has struggled to explain the fundamental physical mystery of general anesthesia: how structurally diverse, chemically inert gases—ranging from elemental noble gas xenon to fluorinated ethers like isoflurane and sevoflurane—can selectively extinguish subjective conscious experience while leaving autonomic brainstem cardiorespiratory functions intact. Classical neuroscience pointed vaguely to synaptic receptor blockade, but the Meyer-Overton correlation demonstrated that anesthetic potency correlates strictly with solubility in nonpolar, hydrophobic environments. Inside the brain, that critical environment is not the cell membrane, but the interior of neuronal microtubules.",
+        "Renowned anesthesiologist Dr. Stuart Hameroff and mathematical physicist Sir Roger Penrose demonstrated that consciousness arises not from classical axonal firing rates, but from quantum optical and dipole computations orchestrated within the neuronal cytoskeleton. Microtubules—cylindrical lattice polymers composed of thirteen protofilaments of alpha and beta tubulin protein heterodimers—host nonpolar hydrophobic pockets where aromatic amino acids like tryptophan and tyrosine form delocalized pi-electron resonance rings. These hydrophobic channels oscillate in coherent terahertz dipole frequencies, creating topological quantum optical networks protected from thermal decoherence.",
+        "Volatile anesthetics bind inside these exact hydrophobic quantum pockets through ultra-weak London dispersion van der Waals forces. Even chemically inert xenon gas, lacking any permanent electric dipole, possesses a highly polarizable outer electron shell that inserts into the tubulin cavity. Once nested inside, anesthetic molecules physically dampen the terahertz dipole oscillations, decoupling the quantum collective resonance required for conscious awareness without arresting underlying metabolic cellular respiration.",
+        "This precise pharmacological mechanism of rapid consciousness disruption was intensively researched as a covert weapon throughout the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet intelligence maintained specialized biochemical laboratories focused on rapid consciousness suppression and tactical neuro-incapacitation.",
+        "According to Shvets, the KGB’s clandestine technical divisions—most notably the notorious Lab Twelve and Directorate S—developed weaponized aerosol formulations combining volatile anesthetics, ultra-potent fentanyl derivatives, and xenon gas to induce immediate neuro-paralytic incapacitation. Shvets revealed that Soviet military biochemists mapped the exact threshold dosages needed to knock out human cortical awareness in enclosed tactical environments, an experimental doctrine that ultimately surfaced decades later during the catastrophic Dubrovka Theater raid in Moscow.",
+        "From the quantum hydrophobic cores of tubulin protofilaments to Soviet aerosol neuro-telemetry, the science of anesthesia reveals that human consciousness is a delicate quantum optical state vulnerable to molecular dampening. Track the terahertz resonance, audit the neuro-pharmacology, and stay conscious. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-12-05/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-12-05/f02.webp"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-12-05/f03.webp"
+          },
+          {
+            "t": 94,
+            "src": "art/2026-10-12-05/f04.webp"
+          },
+          {
+            "t": 125,
+            "src": "art/2026-10-12-05/f05.webp"
+          },
+          {
+            "t": 156,
+            "src": "art/2026-10-12-05/f06.webp"
+          }
+        ]
+      },
+      "seconds": 187,
+      "audio": "audio/2026-10-12-05.mp3",
+      "thumb": "thumbs/2026-10-12-05.webp",
+      "cover_video": "thumbs/2026-10-12-05.mp4"
+    },
     {
       "id": "2026-10-12-04",
       "hour": "04:00",
