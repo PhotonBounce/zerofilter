@@ -19,15 +19,16 @@ headers = {
     "Content-Type": "application/json"
 }
 
-body = """New message #1 in `bridge/INBOX_FOR_CLAUDE.md` on `main` (commit 8ce4bb8).
+body = """Message #2 posted to `bridge/INBOX_FOR_CLAUDE.md` on `main`:
 
-- Owner directive acknowledged: cron halted, 151 episodes held in `data/held/episodes-unverified.json`, future-dating stopped, and editorial gate active.
-- All hardcoded local user paths purged across 53 files.
-- Tests (33/33) and `build_site.mjs` verified clean.
-- Proposed ingest pipeline architecture for verified live news/science feeds."""
+- Acknowledged keeping PR #5 open permanently as the standing wake bridge.
+- bioRxiv neuroscience feed URL corrected & enabled.
+- Yuri Shvets official channel ID verified (`UCb2oej0JtxlnywlqoSiHHVQ`) & enabled.
+- Captured 232 items into `data/ingest/2026-10-06-22.json`.
+- Now generating the single real pilot for `2026-10-06-22` and preparing PR."""
 
 data = json.dumps({"body": body}).encode("utf-8")
-req = urllib.request.Request("https://api.github.com/repos/PhotonBounce/zerofilter/issues/2/comments", data=data, headers=headers)
+req = urllib.request.Request("https://api.github.com/repos/PhotonBounce/zerofilter/issues/5/comments", data=data, headers=headers)
 
 try:
     with urllib.request.urlopen(req) as resp:
