@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-10-03",
-      "date": "2026-10-10",
-      "hour": "03:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Hypersonic wind tunnel telemetry falsification, CFD testing grant diversion, and Yuri Shvets on Soviet scramjet program padding"
-    },
-    {
       "id": "2026-10-10-04",
       "date": "2026-10-10",
       "hour": "04:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Transcranial focused ultrasound neuromodulation, blood-brain barrier sonoporation, and Yuri Shvets on Soviet remote neuro-intervention trials"
+    },
+    {
+      "id": "2026-10-10-06",
+      "date": "2026-10-10",
+      "hour": "06:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Suwalki Corridor rail sabotage, Kaliningrad Iskander-M repositioning, and Yuri Shvets on Soviet Baltic military district contingency planning"
     }
   ]
 }

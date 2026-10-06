@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 98,
+  "total_releases": 99,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -784,6 +784,14 @@
       "title": "Kuril Islands Bastion Fortification, Sea of Okhotsk Anti-Access Gates & Soviet Pacific Fleet ASW Doctrine",
       "audio": "audio/2026-10-10-02.mp3",
       "cover_video": "thumbs/2026-10-10-02.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-10-03",
+      "seconds": 183,
+      "title": "Hypersonic Wind Tunnel Telemetry Falsification, CFD Grant Diversions & Soviet Scramjet Program Padding",
+      "audio": "audio/2026-10-10-03.mp3",
+      "cover_video": "thumbs/2026-10-10-03.mp4",
       "status": "published_production"
     }
   ]

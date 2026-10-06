@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-03",
+      "hour": "03:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Hypersonic Wind Tunnel Telemetry Falsification, CFD Grant Diversions & Soviet Scramjet Program Padding",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates congressional forensic audits revealing falsified high-enthalpy wind tunnel telemetry and computational fluid dynamics testing grant fraud in hypersonic scramjet contracts, and Yuri Shvets on Soviet scramjet program padding.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero three hundred hours. In aerospace defense procurement, hypersonic flight above Mach 5 is routinely marketed as the absolute frontier of military superiority. Billions of dollars in cost-plus research contracts flow each fiscal quarter into scramjet propulsion and glide-vehicle programs. Yet behind the classified briefings and patriotic press releases lies a devastating technical reality: a massive pattern of computational fluid dynamics grant diversion and falsified high-enthalpy wind tunnel test telemetry designed to hide persistent aerodynamic failure.",
+        "At Mach 7, atmospheric friction generates boundary layer temperatures exceeding two thousand degrees Celsius, causing air to dissociate into ionized plasma. True scramjet ignition requires supersonic combustion within a supersonic airstream—an engineering challenge akin to keeping a match lit inside a category-five hurricane. When major aerospace primes repeatedly suffer catastrophic shockwave boundary-layer separations during physical flight tests, forensic defense audits reveal that contractors routinely massage computational aerodynamic models, substituting idealized simulated boundary layers to hit contract milestones and trigger milestone bonus payouts.",
+        "This systemic manipulation of high-speed aerospace testing mirrors one of the most corrupt bureaucratic episodes of the Soviet military-industrial complex. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet design bureaus and academic research institutes engaged in massive performance padding and falsification to secure astronomical Gosplan defense allocations throughout the 1970s and 1980s.",
+        "According to Shvets, the Central Aerohydrodynamic Institute, or TsAGI, and specialized ramjet design bureaus in Moscow and Leningrad faced immense political pressure from the Politburo to match American hypersonic concepts. Because high-enthalpy shock tunnels were exceedingly rare and technically temperamental, Soviet bureau chiefs routinely submitted synthetic thermodynamic calculations as empirical wind tunnel data. Shvets revealed that KGB First Chief Directorate officers monitoring defense scientific grants knew that half the claimed Mach 6 combustion benchmarks were administrative fictions designed solely to siphon state rubles into ministerial patronage networks.",
+        "Decades later, the identical institutional pathology paralyzes Western hypersonic programs. Pentagon Inspector General audits indicate that critical test facilities operate with multi-year backlogs, forcing primes to rely on self-certified computer simulations that fail the moment vehicles encounter real atmospheric turbulence over the Pacific. Billions in cost-plus defense spending have yielded presentation slides and mockups, while genuine supersonic combustion remains bottlenecked by thermal physics that no accounting gimmick can bypass.",
+        "Audit the computational fluid dynamics contracts, demand unvarnished telemetry from physical hypersonic test flights, and remember that when defense contractors substitute synthetic simulations for empirical physics, national security becomes an expensive illusion. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-03/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-03/f02.webp"
+          },
+          {
+            "t": 61,
+            "src": "art/2026-10-10-03/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-10-03/f04.webp"
+          },
+          {
+            "t": 122,
+            "src": "art/2026-10-10-03/f05.webp"
+          },
+          {
+            "t": 152,
+            "src": "art/2026-10-10-03/f06.webp"
+          }
+        ]
+      },
+      "seconds": 183,
+      "thumb": "thumbs/2026-10-10-03.webp",
+      "audio": "audio/2026-10-10-03.mp3",
+      "cover_video": "thumbs/2026-10-10-03.mp4"
+    },
+    {
       "id": "2026-10-10-02",
       "hour": "02:00",
       "date": "2026-10-10",
