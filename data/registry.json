@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 67,
+  "total_releases": 68,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -536,6 +536,14 @@
       "title": "Defense Hypersonic Flight Test Concealment, Cost-Plus Lobbying Waivers & Soviet Scramjet Espionage",
       "audio": "audio/2026-10-08-19.mp3",
       "cover_video": "thumbs/2026-10-08-19.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-08-20",
+      "seconds": 178,
+      "title": "Superconducting Fluxonium Qubits, High-Harmonic Phase Slip & Soviet Cryogenic Solid-State Archives",
+      "audio": "audio/2026-10-08-20.mp3",
+      "cover_video": "thumbs/2026-10-08-20.mp4",
       "status": "published_production"
     }
   ]

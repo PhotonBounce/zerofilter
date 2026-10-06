@@ -1092,7 +1092,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "KGB 12TH DEPT OTU LINEAGE", fill=(255, 160, 50))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DISCLOSURE", fill=(0, 255, 220))
 
-    elif theme in ("quantum_annealing", "flux_qubit", "adiabatic_quantum", "ising_spin"):
+    elif theme in ("quantum_annealing", "flux_qubit", "adiabatic_quantum", "ising_spin", "fluxonium_qubit", "fluxonium", "phase_slip"):
         # Quantum Annealing, Superconducting Flux Qubits & Adiabatic Ground State Trajectories
         # 1. Background Adiabatic Energy Landscape (Non-convex potential with tunneling valleys)
         for gy in range(cy - 220, cy + 220, 25):
@@ -1279,8 +1279,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "PEAR QUANTUM NOISE REG // CUMULATIVE DEVIATION p = 3.8 x 10^-5 // KGB SLUSH AUDIT", fill=(255, 210, 50))
     elif theme in ("transmon_qubit", "surface_code", "quantum_cryptanalysis", "fault_tolerant_qc"):
         draw.text((40, 60), "SUPERCONDUCTING TRANSMON SURFACE CODE d=7 // 14.8mK CRYOSTAT // 8TH CHIEF SIGINT", fill=(0, 240, 255))
-    elif theme in ("quantum_annealing", "flux_qubit", "adiabatic_quantum", "ising_spin"):
-        draw.text((40, 60), "QUANTUM ANNEALING // PEGASUS FLUX QUBIT LATTICE // ADIABATIC TUNNELING // 8TH CHIEF", fill=(0, 240, 255))
+    elif theme in ("quantum_annealing", "flux_qubit", "adiabatic_quantum", "ising_spin", "fluxonium_qubit", "fluxonium", "phase_slip"):
+        draw.text((40, 60), "SUPERCONDUCTING FLUXONIUM QUBIT // HIGH-HARMONIC PHASE SLIP // SOVIET CRYOGENICS ARCHIVES", fill=(0, 240, 255))
     elif theme in ("defense_cloud_fisa", "fisa_702", "cloud_lobbying", "jwcc"):
         draw.text((40, 60), "DEFENSE CLOUD LOBBYING // FISA 702 WARRANTLESS BACKDOORS // KGB OTU SURVEILLANCE", fill=(255, 100, 70))
     elif theme in ("gateway_hemisync", "hemisync", "monroe_gateway", "binaural_beat"):

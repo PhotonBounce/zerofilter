@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-20",
-      "date": "2026-10-08",
-      "hour": "20:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Superconducting fluxonium qubits, high-harmonic phase slip, and Yuri Shvets on Soviet cryogenic solid-state physics archives"
-    },
-    {
       "id": "2026-10-08-21",
       "date": "2026-10-08",
       "hour": "21:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Arctic undersea fiber-optic cable sabotage, Svalbard seabed sonar arrays, and Yuri Shvets on Soviet GUGI deep-sea operations"
+    },
+    {
+      "id": "2026-10-08-23",
+      "date": "2026-10-08",
+      "hour": "23:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Autonomous drone electronic warfare spoofing components, defense prime sole-source markup fraud, and Yuri Shvets on Soviet military-industrial kickback pipelines"
     }
   ]
 }

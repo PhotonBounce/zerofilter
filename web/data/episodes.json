@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-08-20",
+      "hour": "20:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "quantum",
+      "title": "Superconducting Fluxonium Qubits, High-Harmonic Phase Slip & Soviet Cryogenic Solid-State Archives",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates superconducting fluxonium qubits with millisecond coherence, quantum phase-slip suppression across Josephson superinductance arrays, and Yuri Shvets on Soviet cryogenic solid-state physics archives.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty hundred hours. In the race for fault-tolerant quantum computation, superconducting fluxonium qubits have emerged as a radical paradigm shift, breaking free from the coherence bottlenecks that plague standard transmon architectures. By pairing a small Josephson junction with a superinductor array composed of hundreds of Josephson junctions, fluxonium suppresses charge noise and low-frequency dielectric loss, achieving record coherence times exceeding one millisecond.",
+        "The physical breakthrough of fluxonium lies in its highly non-linear flux potential and quantum phase-slip dynamics. Unlike transmons, which operate with weakly anharmonic energy levels vulnerable to stray microwave excitation and charge fluctuations, fluxonium shunts the junction with an ultra-large inductance. This heavy inductive shunt suppresses 2e phase slips across the junction loop, exponentially protecting the computational zero-to-one transition from energy relaxation while maintaining strong microwave-addressable anharmonicity at high-harmonic drive frequencies. In dilution refrigerators operating at ten millikelvin, fluxonium bypasses two-level dielectric defect losses that cripple traditional planar quantum circuits.",
+        "This deep-cryogenic physics frontier has historical roots in Soviet-era solid-state intelligence networks. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently disclosed, the KGB's First Chief Directorate and Directorate T maintained intense surveillance on Western low-temperature physics and Josephson junction developments throughout the 1970s and 1980s. Soviet theoretical physicists at the Landau Institute and Kapitza Institute pioneered macroscopic quantum tunneling and phase-slip theory, but the Soviet defense establishment was paralyzed by an inability to fabricate clean, defect-free thin-film sub-micron junctions.",
+        "According to Shvets, Soviet scientific intelligence stations were tasked with illegally obtaining American electron-beam lithography equipment, cryogenic dilution refrigerators, and ultra-high-vacuum sputtering targets from California defense contractors and academic research labs. Shvets documented that while Soviet theorists formulated the mathematical foundations of macroscopic phase slips and superinductance in superconducting wires, Gosplan industrial bottlenecks prevented mass fabrication. Soviet military intelligence sought Western solid-state cryogenic patents to bolster early attempts at superconducting SQUID magnetometers and cryptanalytic hardware.",
+        "Today, as Western quantum laboratories scale fluxonium arrays for fault-tolerant logical qubits, the geopolitical contest over cryogenic infrastructure and quantum hardware sovereignty is escalating. The nation that masters high-harmonic phase-slip suppression and large-scale fluxonium connectivity will render classical public-key cryptography obsolete while unlocking fault-tolerant quantum simulation of classified materials.",
+        "Audit the dilution cryostats, trace the Josephson superinductance arrays, and inspect the phase-slip telemetry. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-20/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-08-20/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-08-20/f03.webp"
+          },
+          {
+            "t": 89,
+            "src": "art/2026-10-08-20/f04.webp"
+          },
+          {
+            "t": 119,
+            "src": "art/2026-10-08-20/f05.webp"
+          },
+          {
+            "t": 148,
+            "src": "art/2026-10-08-20/f06.webp"
+          }
+        ]
+      },
+      "seconds": 178,
+      "thumb": "thumbs/2026-10-08-20.webp",
+      "audio": "audio/2026-10-08-20.mp3",
+      "cover_video": "thumbs/2026-10-08-20.mp4"
+    },
+    {
       "id": "2026-10-08-19",
       "hour": "19:00",
       "date": "2026-10-08",
