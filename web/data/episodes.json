@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T15:30:00Z",
+  "updated": "2026-10-06T15:40:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-17",
+      "hour": "17:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Karl Friston Active Inference, Hierarchical Markov Blankets & KGB Reflexive Control Models",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates Karl Friston's Free Energy Principle and active inference across hierarchical cortical Markov blankets, variational message passing in deep generative models, and Yuri Shvets on Soviet KGB & Vladimir Lefebvre mathematical reflexive control perception hacking.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is seventeen hundred hours. In modern computational neuroscience, the brain is no longer viewed as a passive sensory camera, but as a hierarchical prediction engine. Formulated by neuroscientist Karl Friston, the Free Energy Principle posits that any self-organizing system resisting thermodynamic decay must minimize its variational free energy—the mathematical gap between what it expects and what sensory receptors register. Consciousness emerges through active inference: the recursive updating of an internal generative model across hierarchical Markov blankets.",
+        "A Markov blanket creates a statistical boundary separating internal states from the chaotic external environment. Information penetrates this perimeter exclusively through sensory states, while the organism acts upon the world through active states to validate its predictive priors. In deep neural hierarchies, prediction errors pass upward while descending feedback streams downward, perpetually suppressing surprise. If incoming sensory data contradicts foundational priors, the organism either revises its beliefs or acts aggressively upon the environment to force reality into alignment.",
+        "This computational imperative to minimize surprise exposes a profound cognitive vulnerability. If an adversary manipulates sensory inputs or injects synthetic priors into a generative model, the victim will actively infer a fabricated reality to preserve homeostatic equilibrium. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has exposed, this exact vulnerability was formalized mathematically by Soviet cognitive scientists decades before modern neurobiology.",
+        "According to Shvets, the KGB weaponized the mathematical framework of reflexive control, pioneered by cyberneticist Vladimir Lefebvre at the Institute of Psychology in Moscow. Shvets revealed that Soviet planners developed algebraic models of human decision-making that mapped an opponent’s internal belief hierarchies. By feeding calibrated streams of partial truths and filtered disinformation through media conduits, Soviet intelligence altered an adversary’s predictive priors, compelling enemy leadership to make self-generated choices that led inexorably to defeat.",
+        "Shvets further disclosed that the KGB’s Service A deployed reflexive perception hacking against Western intelligence chiefs and foreign policy elites. By exploiting institutional Markov blankets—the confirmation-biased feedback loops of defense bureaucracies—Soviet operatives ensured contradictory warnings were dismissed as anomalous noise, allowing massive covert operations to proceed in plain sight.",
+        "From Friston’s variational free energy to Lefebvre’s reflexive control algebra, the underlying principle is identical: reality is not passively observed—it is actively inferred. Guard your Markov blankets, cross-examine your predictive priors, and never let an outside architect calibrate your model of the world. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-17/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-11-17/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-11-17/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-11-17/f04.webp"
+          },
+          {
+            "t": 114,
+            "src": "art/2026-10-11-17/f05.webp"
+          },
+          {
+            "t": 142,
+            "src": "art/2026-10-11-17/f06.webp"
+          }
+        ]
+      },
+      "seconds": 171,
+      "audio": "audio/2026-10-11-17.mp3",
+      "thumb": "thumbs/2026-10-11-17.webp",
+      "cover_video": "thumbs/2026-10-11-17.mp4"
+    },
     {
       "id": "2026-10-11-16",
       "hour": "16:00",

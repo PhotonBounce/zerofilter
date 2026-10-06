@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-17",
-      "date": "2026-10-11",
-      "hour": "17:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Karl Friston Active Inference in Cortical Hierarchies, Markov Blankets & KGB Reflexive Control Disinformation Models"
-    },
-    {
       "id": "2026-10-11-18",
       "date": "2026-10-11",
       "hour": "18:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Pentagon Foreign Military Sales Pass-Through Schemes, Offset Broker Accounts & Soviet Arms Barter Cartels"
+    },
+    {
+      "id": "2026-10-11-20",
+      "date": "2026-10-11",
+      "hour": "20:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Topological Quantum Memory in Toric Code Lattices, Anyon Syndrome Extraction & Soviet Cipher Vaults"
     }
   ]
 }

@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **1,096 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **1,104 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 136 completed, 136 total releases published.
-  - `data/queue.json`: Head item is Episode 137 (`2026-10-11-17`).
-  - `data/registry.json`: 136 active releases logged.
+  - `status/pipeline_state.json`: Episode 137 completed, 137 total releases published.
+  - `data/queue.json`: Head item is Episode 138 (`2026-10-11-18`).
+  - `data/registry.json`: 137 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -163,10 +163,11 @@
   - `2026-10-11-14` (172s) — Turkish Straits Montreux Chokepoints, Bosphorus Submarine Deception & Soviet 5th Eskadra
   - `2026-10-11-15` (173s) — Pentagon In-Q-Tel Venture Conduits, Dual-Use Equity Grift & Soviet Directorate T Fronts
   - `2026-10-11-16` (180s) — Superconducting Circuit Optomechanics, Phonon Fock States & Soviet Acoustic ASW Arrays
+  - `2026-10-11-17` (171s) — Karl Friston Active Inference, Hierarchical Markov Blankets & KGB Reflexive Control Models
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 816 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `ede7c2c2ea9111bf2b91344e523f6a19a2934bdd`).
+- **Story Art Frames:** 822 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `bbf698b0f61f09bb3845b2b40f424657c57b1043`).
 
 ---
 
