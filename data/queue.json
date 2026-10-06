@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-12-03",
-      "date": "2026-10-12",
-      "hour": "03:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Pentagon Rare Earth Munitions Stockpile Deficits, Chinese Smuggling Rings & Soviet Line X Metals"
-    },
-    {
       "id": "2026-10-12-04",
       "date": "2026-10-12",
       "hour": "04:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Stuart Hameroff Quantum Microtubule Anesthesia, Xenon Dipoles & Soviet Neuro-Aerosol Telemetry"
+    },
+    {
+      "id": "2026-10-12-06",
+      "date": "2026-10-12",
+      "hour": "06:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Arctic Yamal LNG Shadow Fleets, Rosatom Icebreaker Chokepoints & Soviet Northern Sea Route Command"
     }
   ]
 }

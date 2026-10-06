@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 146,
+  "total_releases": 147,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1168,6 +1168,14 @@
       "title": "Kuril Islands Bastion Anti-Submarine Barriers, Sea of Okhotsk Sanctuary & Soviet Pacific Fleet Chokepoints",
       "audio": "audio/2026-10-12-02.mp3",
       "cover_video": "thumbs/2026-10-12-02.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-12-03",
+      "seconds": 176,
+      "title": "Pentagon Rare Earth Munitions Stockpile Deficits, Chinese Smuggling Rings & Soviet Line X Metals",
+      "audio": "audio/2026-10-12-03.mp3",
+      "cover_video": "thumbs/2026-10-12-03.mp4",
       "status": "published_production"
     }
   ]

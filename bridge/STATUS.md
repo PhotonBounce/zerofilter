@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **1,176 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **1,184 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 146 completed, 146 total releases published.
-  - `data/queue.json`: Head item is Episode 147 (`2026-10-12-03`).
-  - `data/registry.json`: 146 active releases logged.
+  - `status/pipeline_state.json`: Episode 147 completed, 147 total releases published.
+  - `data/queue.json`: Head item is Episode 148 (`2026-10-12-04`).
+  - `data/registry.json`: 147 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -173,10 +173,11 @@
   - `2026-10-12-00` (175s) — Quantum Diamond NV Center Vector Magnetometry, Subterranean Void Mapping & Soviet Deep Underground Bunkers
   - `2026-10-12-01` (177s) — Donald Hoffman Interface Theory of Perception, Evolutionary Fitness Payoffs & Soviet Perception Management
   - `2026-10-12-02` (169s) — Kuril Islands Bastion Anti-Submarine Barriers, Sea of Okhotsk Sanctuary & Soviet Pacific Fleet Chokepoints
+  - `2026-10-12-03` (176s) — Pentagon Rare Earth Munitions Stockpile Deficits, Chinese Smuggling Rings & Soviet Line X Metals
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 876 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `eba1f5c8a178c8863a9684d84860614955e89ddc`).
+- **Story Art Frames:** 882 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `953fd7af892dd76de889c457c0b9fd9e14dddc11`).
 
 ---
 

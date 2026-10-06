@@ -2,6 +2,55 @@
   "updated": "2026-10-06T17:15:00Z",
   "episodes": [
     {
+      "id": "2026-10-12-03",
+      "hour": "03:00",
+      "date": "2026-10-12",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Pentagon Rare Earth Munitions Stockpile Deficits, Chinese Smuggling Rings & Soviet Line X Metals",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the collapse of the Defense Logistics Agency's critical rare earth munitions stockpile, gray-market broker laundering of Chinese-origin samarium-cobalt magnets, and Yuri Shvets on KGB Directorate T (Line X) scientific espionage smuggling Western strategic refractory metals.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero three hundred hours. Inside the guidance sections of America’s premier precision munitions—from Tomahawk cruise missiles and Patriot interceptors to Joint Direct Attack Munitions and AIM-120 air-to-air missiles—critical performance relies entirely on rare earth elements. Dysprosium, neodymium, and samarium-cobalt permanent magnets drive the high-temperature electric actuators that steer missile aerodynamic fins in supersonic flight regimes. Yet the Pentagon’s domestic supply chain for these strategic minerals has collapsed into systemic deficit and regulatory paralysis.",
+        "A classified internal audit of the Defense Logistics Agency’s National Defense Stockpile reveals that critical mineral reserves have dwindled to less than twenty percent of statutory wartime contingency requirements. Decades of aggressive offshoring, environmental negligence, and unchecked defense contractor consolidation left the United States dependent on Chinese state-backed processing facilities for over ninety percent of refined heavy rare earths. When Beijing instituted restrictive export licensing on gallium, germanium, and antimony, defense contractors scrambled into unregulated gray-market brokerage networks to keep missile assembly lines moving.",
+        "Federal procurement investigations and congressional oversight records now expose that Tier-two and Tier-three defense subcontractors have been routinely laundering Chinese-origin rare earth magnets through third-party front entities located in Malaysia, Vietnam, and the United Arab Emirates. Brokerage syndicates systematically falsify certificates of origin and metallurgical test reports, charging cost-plus defense markups of up to eight hundred percent while Pentagon auditors sign off on phantom compliance documentation without independent spectrographic verification.",
+        "This predatory brokerage carousel directly mirrors the historical tradecraft of Soviet scientific espionage. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet defense production suffered from identical raw material bottlenecks and metallurgical deficits throughout the height of the Cold War.",
+        "According to Shvets, the KGB’s Directorate T—responsible for scientific and technical intelligence collection—ran specialized Line X clandestine networks across Western Europe to illicitly acquire refractory metals, high-purity titanium alloys, and tungsten carbide needed for Soviet armor-piercing penetrators and rocket nozzles. Shvets revealed that Soviet front companies in Austria, Switzerland, and Sweden routinely laundered restricted Western metals through shell brokers, exploiting bureaucratic blind spots in Western export control regimes just as modern Chinese networks evade Pentagon supply restrictions today.",
+        "From Soviet Line X smuggling rings evading Cold War embargoes to modern defense contractors buying falsified rare earth magnets from foreign intermediaries, the systemic corruption of strategic mineral supply chains imperils national security. Track the metallurgical receipts, audit the phantom stockpiles, and stay vigilant. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-12-03/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-12-03/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-12-03/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-12-03/f04.webp"
+          },
+          {
+            "t": 117,
+            "src": "art/2026-10-12-03/f05.webp"
+          },
+          {
+            "t": 147,
+            "src": "art/2026-10-12-03/f06.webp"
+          }
+        ]
+      },
+      "seconds": 176,
+      "audio": "audio/2026-10-12-03.mp3",
+      "thumb": "thumbs/2026-10-12-03.webp",
+      "cover_video": "thumbs/2026-10-12-03.mp4"
+    },
+    {
       "id": "2026-10-12-02",
       "hour": "02:00",
       "date": "2026-10-12",
