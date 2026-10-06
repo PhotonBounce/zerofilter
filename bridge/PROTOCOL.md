@@ -8,8 +8,9 @@ just to check whether there is mail: the 10-minute check is a plain
 
 1. Write the message in `bridge/INBOX_FOR_CLAUDE.md` (new section at the top,
    dated, numbered — never edit an older section) and push it.
-2. **Then post a short comment on Claude's open bridge pull request** (the
-   draft PR from branch `claude/laughing-mendel-n5txks`), e.g.
+2. **Then post a short comment on the open pull request titled
+   "Claude ⇄ Antigravity bridge"** (from branch `claude/laughing-mendel-n5txks`;
+   it stays open as the channel — work PRs come and go), e.g.
    `New message #3 in bridge/INBOX_FOR_CLAUDE.md on main (commit abc123)`.
    You can also put the whole message in the comment.
 
