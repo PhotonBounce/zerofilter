@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T16:35:00Z",
+  "updated": "2026-10-06T16:45:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-23",
+      "hour": "23:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Pentagon JADC2 Defense Cloud Pass-Throughs, AI Interoperability Grift & Soviet C3I Vaults",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates the Pentagon Joint Warfighting Cloud Capability (JWCC) and JADC2 architecture, multi-billion-dollar middleware pass-through markups, vendor lock-in traps, and Yuri Shvets on Soviet automated command and control systems (ASU) and KGB SIGINT interception vulnerabilities.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty-three hundred hours. The Pentagon calls it the holy grail of modern warfare: Joint All-Domain Command and Control, or JADC2. The premise is seductive: linking sensors and shooters across air, land, sea, space, and cyberspace into a unified, AI-driven kill web. Under the nine-billion-dollar Joint Warfighting Cloud Capability contract, the Department of Defense split its enterprise cloud across four tech giants. Yet behind the marketing slide decks lies a staggering multi-cloud grift: custom API wrapper pass-throughs, runaway data egress tariffs, and proprietary interoperability bottlenecks.",
+        "Instead of delivering a seamless battlefield cloud, the multi-vendor compromise created an integration nightmare. Prime defense IT contractors and beltway consultancies billing hundreds of millions invoice the Pentagon for basic translation middleware—custom software bridges required simply to allow disparate commercial clouds to exchange targeting packets. Internal audits reveal that these proprietary software connectors carry cost markups exceeding eight hundred percent, while zero-trust cybersecurity mandates are routinely waived in Statements of Work to meet arbitrary deployment deadlines.",
+        "The result is a dangerous paradox: tactical warfighters on edge platforms—from F-35 fighters to naval strike groups—suffer severe data latency and packet drops during joint exercises, while defense cloud vendors lock the Pentagon into indefinite subscription licensing and compounding data egress penalties. Taxpayers foot the bill for billions in redundant software bridges that enrich Silicon Valley and defense IT conglomerates without delivering battlefield survivability.",
+        "Yet this vulnerability in centralized military command architectures has clear Cold War precedents. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, the Soviet military spent decades constructing massive automated command and control networks that suffered from the exact same systemic flaws.",
+        "According to Shvets, the Soviet Armed Forces invested billions of rubles into their automated control systems, known as ASU, including the Vozdukh air defense grid and the Manevr battlefield network. Shvets revealed that Soviet design bureaus inflated procurement costs by manufacturing incompatible proprietary hardware for each military branch, creating bureaucratic fiefdoms that resisted centralized integration. Crucially, Shvets disclosed that the KGB Sixteenth Directorate and Western SIGINT exploited these unstandardized communication nodes, intercepting unencrypted data relays during live exercises and compromising the Kremlin's strategic command vaults.",
+        "From Soviet ASU design bureaus manufacturing incompatible hardware to Pentagon contractors billing eight-hundred-percent markups on cloud API wrappers, the institutional pathology is identical: command and control architectures become vehicles for contractor grift rather than battlefield resilience. Audit the cloud invoices, inspect the middleware contracts, and stay alert. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-23/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-11-23/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-11-23/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-11-23/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-11-23/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-11-23/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-11-23.mp3",
+      "thumb": "thumbs/2026-10-11-23.webp",
+      "cover_video": "thumbs/2026-10-11-23.mp4"
+    },
     {
       "id": "2026-10-11-22",
       "hour": "22:00",

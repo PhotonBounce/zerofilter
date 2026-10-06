@@ -3129,6 +3129,72 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "KGB DEPT 8 REMOTE TELEMETRY", fill=(255, 80, 80))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("jadc2", "defense_cloud", "c3i_fraud", "jwcc_cloud", "defense_cloud_fisa"):
+        # Pentagon JADC2 Defense Cloud Pass-Throughs & Soviet C3I ASU Telemetry
+        # 1. Cloud Network Hub Grid
+        for gx in range(80, width - 80, 60):
+            draw.line([(gx, 90), (gx, height - 90)], fill=(16, 22, 34), width=1)
+        for gy in range(100, height - 90, 50):
+            draw.line([(80, gy), (width - 80, gy)], fill=(16, 22, 34), width=1)
+
+        # 2. Central JADC2 Fusion Hub Box
+        hub_w, hub_h = 240, 80
+        draw.rectangle([cx - hub_w // 2, cy - hub_h // 2 - 20, cx + hub_w // 2, cy + hub_h // 2 - 20], fill=(20, 26, 40), outline=(255, 200, 60), width=2)
+        draw.text((cx - 100, cy - 50), "PENTAGON JADC2 FUSION HUB", fill=(255, 220, 80))
+        draw.text((cx - 100, cy - 30), "JWCC MULTI-CLOUD PASS-THROUGH", fill=(0, 255, 220))
+        draw.text((cx - 100, cy - 10), "INTEROPERABILITY BILLING: ACTIVE", fill=(255, 80, 80))
+        draw.text((cx - 100, cy + 8), "UNTRACKED EGRESS FEES: $2.4B/YR", fill=(255, 120, 100))
+
+        # 3. Four Multi-Cloud Provider Nodes (AWS, Azure, GCP, Oracle)
+        cloud_nodes = [
+            (cx - 320, cy - 140, "AWS SECRET REGION", "$9.0B CAP POOL"),
+            (cx + 320, cy - 140, "AZURE DEFENSE CLOUD", "API WRAPPER MARKUP"),
+            (cx - 320, cy + 100, "GOOGLE DEFENSE AI", "PROJECT MAVEN PASS"),
+            (cx + 320, cy + 100, "ORACLE NATIONAL SEC", "DATABASE LICENSING")
+        ]
+        for c_x, c_y, c_name, c_sub in cloud_nodes:
+            draw.rectangle([c_x - 90, c_y - 35, c_x + 90, c_y + 35], fill=(16, 20, 30), outline=(0, 200, 240), width=2)
+            draw.text((c_x - 75, c_y - 25), c_name, fill=(0, 240, 255))
+            draw.text((c_x - 75, c_y - 5), c_sub, fill=(255, 200, 80))
+            draw.text((c_x - 75, c_y + 14), "STATUS: COST-PLUS TARIFF", fill=(255, 80, 60))
+            # Connecting conduit line to central hub
+            draw.line([(c_x, c_y), (cx, cy - 20)], fill=(0, 220, 240), width=2)
+
+        # 4. Tactical Edge Warfighter Nodes (Latency & Packet Drop Indicators)
+        tact_nodes = [
+            (cx - 140, cy + 120, "F-35 MADL LINK: LAG 420ms"),
+            (cx, cy + 130, "AEGIS BASILINK: ZERO-TRUST FAIL"),
+            (cx + 140, cy + 120, "CCA DRONE SWARM: PACKET DROP 18%")
+        ]
+        for t_x, t_y, t_txt in tact_nodes:
+            draw.rectangle([t_x - 65, t_y - 15, t_x + 65, t_y + 15], fill=(30, 15, 20), outline=(255, 60, 60), width=1)
+            draw.text((t_x - 58, t_y - 6), t_txt, fill=(255, 100, 100))
+            draw.line([(t_x, t_y - 15), (cx, cy + 20)], fill=(255, 80, 60), width=1)
+
+        # 5. Lower Center HUD: Cross-Cloud Middleware Billing Telemetry
+        bil_x, bil_y = cx - 180, cy + 175
+        bil_w, bil_h = 360, 50
+        draw.rectangle([bil_x, bil_y, bil_x + bil_w, bil_y + bil_h], fill=(14, 16, 26), outline=(255, 180, 60), width=1)
+        draw.text((bil_x + 10, bil_y + 6), "JWCC INTEGRATION GRIFT // API TRANSLATION LAYER: +850% SURCHARGE", fill=(255, 220, 80))
+        draw.text((bil_x + 10, bil_y + 26), "PROPRIETARY VENDOR LOCK-IN: INDEFINITE DATA EGRESS PENALTIES", fill=(255, 100, 80))
+
+        # 6. Telemetry Dossiers (Left & Right Boxes)
+        # Left HUD: Pentagon JWCC / JADC2 Audit
+        draw.rectangle([60, 90, 310, cy - 140], fill=(16, 20, 32), outline=(255, 200, 60), width=1)
+        draw.text((70, 98), "[PENTAGON JWCC AUDIT]", fill=(255, 200, 80))
+        draw.text((70, 118), "CAP: $9.0B INDEFINITE DELIVERY", fill=(200, 220, 240))
+        draw.text((70, 138), "4 MEGA-CLOUD TARIFF POOL", fill=(0, 255, 200))
+        draw.text((70, 158), "ZERO-TRUST BYPASSED BY SOW", fill=(255, 60, 60))
+        draw.text((70, 178), "API BROKER SHELL PASS-THROUGHS", fill=(255, 140, 50))
+
+        # Right HUD: Soviet ASU C3I Vaults & KGB 16th Directorate Dossier
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 16, 18), outline=(255, 80, 60), width=1)
+        draw.text((width - 310, 98), "[SOVIET ASU C3I VAULTS]", fill=(255, 100, 70))
+        draw.text((width - 310, 118), "AUTOMATED CONTROL (VOZDUKH)", fill=(255, 180, 100))
+        draw.text((width - 310, 138), "MANEVR BATTLEFIELD NETWORKS", fill=(200, 220, 240))
+        draw.text((width - 310, 158), "KGB 16TH DIR SIGINT OVERRIDES", fill=(255, 60, 60))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -3275,8 +3341,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "JOSEPHSON PARAMETRIC AMPLIFIER // SQUEEZED VACUUM STATES // SOVIET RADAR SIGINT", fill=(0, 240, 255))
     elif theme in ("quantum_annealing", "flux_qubit", "adiabatic_quantum", "ising_spin", "fluxonium_qubit", "fluxonium", "phase_slip"):
         draw.text((40, 60), "SUPERCONDUCTING FLUXONIUM QUBIT // HIGH-HARMONIC PHASE SLIP // SOVIET CRYOGENICS ARCHIVES", fill=(0, 240, 255))
-    elif theme in ("defense_cloud_fisa", "fisa_702", "cloud_lobbying", "jwcc"):
-        draw.text((40, 60), "DEFENSE CLOUD LOBBYING // FISA 702 WARRANTLESS BACKDOORS // KGB OTU SURVEILLANCE", fill=(255, 100, 70))
+    elif theme in ("defense_cloud_fisa", "fisa_702", "cloud_lobbying", "jwcc", "jadc2", "defense_cloud", "c3i_fraud"):
+        draw.text((40, 60), "PENTAGON JADC2 DEFENSE CLOUD PASS-THROUGHS // API WRAPPER GRIFT // SOVIET ASU C3I VAULTS", fill=(255, 100, 70))
     elif theme in ("gateway_hemisync", "hemisync", "monroe_gateway", "binaural_beat", "binaural_ffr", "eeg_microstates", "ffr", "telepathy_disinfo"):
         draw.text((40, 60), "MONROE GATEWAY HEMI-SYNC // BINAURAL 4.0Hz THETA COHERENCE // SOVIET PSYCHOTRONICS", fill=(200, 160, 255))
     elif theme in ("optomechanics", "drum_resonator", "mechanical_resonator", "optomechanical_entanglement", "quantum_drum"):

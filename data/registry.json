@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 142,
+  "total_releases": 143,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -1136,6 +1136,14 @@
       "title": "Strait of Malacca Drone Submersible Chokepoints, Singapore Sensor Corridors & Soviet Pacific Escort Tactics",
       "audio": "audio/2026-10-11-22.mp3",
       "cover_video": "thumbs/2026-10-11-22.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-11-23",
+      "seconds": 180,
+      "title": "Pentagon JADC2 Defense Cloud Pass-Throughs, AI Interoperability Grift & Soviet C3I Vaults",
+      "audio": "audio/2026-10-11-23.mp3",
+      "cover_video": "thumbs/2026-10-11-23.mp4",
       "status": "published_production"
     }
   ]
