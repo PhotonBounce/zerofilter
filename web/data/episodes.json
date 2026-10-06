@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-08-14",
+      "hour": "14:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Strait of Malacca Maritime Drone Blockades, Subsea Acoustic Hydrophone Gates & Soviet Indian Ocean Task Force",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates maritime autonomous surface and undersea drone blockades across the Strait of Malacca, seabed hydrophone acoustic tripwire gates, and Yuri Shvets's insider analysis of Soviet 8th Operational Squadron doctrine in the Indian Ocean.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is fourteen hundred hours. The Strait of Malacca is the ultimate global maritime choke point, funneling nearly a quarter of all seaborne trade and over eighty percent of East Asia's crude oil imports through a passage barely 1.5 nautical miles wide at Phillips Channel. In the emerging calculus of distributed naval warfare, this vital economic artery is being transformed into an asymmetric kill zone dominated by autonomous surface vessels, loitering munition swarms, and subsea acoustic tripwires designed to sever commercial transit lines instantly.",
+        "The tactical architecture relies on persistent seabed acoustic hydrophone gates coupled with autonomous underwater patrol vehicles. Low-frequency passive sonar arrays anchored along the continental shelf establish continuous acoustic tomography, detecting cavitation profiles, propeller signatures, and magnetic displacement of passing hulls. When an unauthorized target crosses the acoustic tripwire, high-endurance autonomous surface drones armed with directed-energy jammers, electronic spoofers, and loitering kinetic torpedoes deploy in coordinated wolfpacks to close the strait, choking commercial shipping without requiring a single capital warship.",
+        "This choke point interdiction strategy mirrors Soviet naval operational doctrine during peak Cold War confrontations. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively detailed, Soviet military theorists recognized choke point dominance as their premier asymmetric weapon. During the 1970s and 1980s, the Soviet Navy's 8th Operational Squadron maintained a continuous combat patrol across the Indian Ocean and Malacca approaches, tasked with choking Western energy routes and isolating regional maritime allies in the event of global conflict.",
+        "According to Shvets, Soviet intelligence stations across Southeast Asia systematically mapped commercial shipping schedules, hydrographic channels, and subsea bathymetry. The KGB's maritime operational desks coordinated with Soviet naval intelligence to pre-position passive acoustic listening buoys, covert oceanographic tenders, and clandestine surveillance assets. Shvets underscores that while the Kremlin relied on diesel-electric submarines and missile cruisers to threaten commercial shipping lanes, today's distributed autonomous swarms achieve total maritime blockade capability at a tiny fraction of the procurement cost.",
+        "Today, the commercial fragility of the Malacca Strait remains a critical geopolitical flashpoint. As naval superpowers invest hundreds of billions into aircraft carrier strike groups and nuclear-powered destroyers, low-cost autonomous drone blockades prove that whoever controls the narrow shallows and acoustic tripwires controls the global economy. Modern maritime supremacy is no longer defined by massive fleet tonnage, but by the relentless precision of autonomous swarms.",
+        "Audit the hydrophone acoustic gates, track the autonomous drone vectors, and verify the choke points. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 173,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-14/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-08-14/f02.webp"
+          },
+          {
+            "t": 58,
+            "src": "art/2026-10-08-14/f03.webp"
+          },
+          {
+            "t": 86,
+            "src": "art/2026-10-08-14/f04.webp"
+          },
+          {
+            "t": 115,
+            "src": "art/2026-10-08-14/f05.webp"
+          },
+          {
+            "t": 144,
+            "src": "art/2026-10-08-14/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-08-14.webp",
+      "audio": "audio/2026-10-08-14.mp3",
+      "cover_video": "thumbs/2026-10-08-14.mp4"
+    },
+    {
       "id": "2026-10-08-13",
       "hour": "13:00",
       "date": "2026-10-08",

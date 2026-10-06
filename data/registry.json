@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 61,
+  "total_releases": 62,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -488,6 +488,14 @@
       "title": "Quantum Diamond NV-Center Magnetometry, GPS-Denied Navigation & Soviet Solid-State Sensors",
       "audio": "audio/2026-10-08-13.mp3",
       "cover_video": "thumbs/2026-10-08-13.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-08-14",
+      "seconds": 173,
+      "title": "Strait of Malacca Maritime Drone Blockades, Subsea Acoustic Hydrophone Gates & Soviet Indian Ocean Task Force",
+      "audio": "audio/2026-10-08-14.mp3",
+      "cover_video": "thumbs/2026-10-08-14.mp4",
       "status": "published_production"
     }
   ]

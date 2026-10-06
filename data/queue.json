@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-14",
-      "date": "2026-10-08",
-      "hour": "14:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Strait of Malacca maritime drone blockades, subsea acoustic hydrophone gates, and Yuri Shvets on Soviet Indian Ocean naval operational doctrine"
-    },
-    {
       "id": "2026-10-08-15",
       "date": "2026-10-08",
       "hour": "15:00",
@@ -24,6 +16,14 @@
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Quantum spin liquids in kagome antiferromagnets, fractionalized excitations, and Yuri Shvets on Soviet solid-state physics theory espionage"
+    },
+    {
+      "id": "2026-10-08-17",
+      "date": "2026-10-08",
+      "hour": "17:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Karl Friston Active Inference in Generative AI Agents, Predictive Coding & KGB Cognitive Warfare"
     }
   ]
 }
