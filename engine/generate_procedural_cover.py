@@ -1794,6 +1794,81 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "GOSPLAN FRAUD & SHADOW THEFT", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
+    elif theme in ("big_toe", "digital_physics", "campbell_simulation", "cellular_automata", "entropy_reduction"):
+        # Thomas Campbell's Big TOE, Digital Physics, Cellular Automata & Entropy Reduction
+        # 1. Background Discrete Planck Pixel Matrix (Cellular Automaton Lattice)
+        cell_size = 18
+        grid_start_x = 60
+        grid_end_x = width - 60
+        grid_start_y = cy - 220
+        grid_end_y = cy + 220
+
+        # Draw discrete computing grid
+        for gy in range(grid_start_y, grid_end_y, cell_size):
+            draw.line([(grid_start_x, gy), (grid_end_x, gy)], fill=(8, 20, 34), width=1)
+        for gx in range(grid_start_x, grid_end_x, cell_size):
+            draw.line([(gx, grid_start_y), (gx, grid_end_y)], fill=(8, 20, 34), width=1)
+
+        # 2. Cellular Automaton Active Bits (Game of Life / Rule 30 patterns)
+        random.seed(424)
+        for gy in range(grid_start_y, grid_end_y, cell_size):
+            for gx in range(grid_start_x, grid_end_x, cell_size):
+                # Pseudo-computational active state
+                r_val = random.random()
+                dist_c = math.hypot(gx - cx, gy - cy)
+                if dist_c < 220 and r_val < 0.28:
+                    col = (0, 240, 255) if r_val < 0.14 else (180, 100, 255)
+                    draw.rectangle([gx + 2, gy + 2, gx + cell_size - 2, gy + cell_size - 2], fill=col)
+                elif r_val < 0.08:
+                    draw.rectangle([gx + 3, gy + 3, gx + cell_size - 3, gy + cell_size - 3], fill=(15, 45, 65))
+
+        # 3. Center: Larger Consciousness System (LCS) Core Node & Entropy Funnel
+        lcs_cx, lcs_cy = cx, cy
+        # Outer informational boundary rings
+        for r_lcs in [150, 110, 75]:
+            draw.ellipse([lcs_cx - r_lcs, lcs_cy - r_lcs, lcs_cx + r_lcs, lcs_cy + r_lcs], outline=(0, 220, 255), width=1)
+        
+        # Central LCS Core
+        draw.ellipse([lcs_cx - 40, lcs_cy - 40, lcs_cx + 40, lcs_cy + 40], fill=(12, 28, 48), outline=(200, 140, 255), width=2)
+        draw.text((lcs_cx - 28, lcs_cy - 16), "LCS CORE", fill=(255, 255, 255))
+        draw.text((lcs_cx - 32, lcs_cy + 2), "ΔS < 0 EVOL", fill=(0, 255, 200))
+
+        # Data Stream Conduits to IUOCs (Individuated Units of Consciousness)
+        iuocs = [
+            (cx - 200, cy - 90, "IUOC α_1 (OBSERVER)"),
+            (cx + 200, cy - 90, "IUOC α_2 (OBSERVER)"),
+            (cx, cy + 140, "VIRTUAL REALITY RENDER ENGINE")
+        ]
+        for ix, iy, ilabel in iuocs:
+            # Data link ray
+            draw.line([(lcs_cx, lcs_cy), (ix, iy)], fill=(0, 240, 255), width=2)
+            # Node circle
+            draw.ellipse([ix - 24, iy - 24, ix + 24, iy + 24], fill=(15, 30, 50), outline=(0, 255, 220), width=2)
+            draw.ellipse([ix - 4, iy - 4, ix + 4, iy + 4], fill=(255, 255, 255))
+            draw.text((ix - 60, iy + 28), ilabel, fill=(180, 220, 255))
+
+        # Rendering On Demand Callout (Center Lower)
+        draw.rectangle([cx - 180, cy + 45, cx + 180, cy + 85], fill=(15, 22, 35), outline=(0, 240, 255), width=1)
+        draw.text((cx - 165, cy + 50), "RENDER ON MEASUREMENT // CALCULATION SAVINGS", fill=(0, 255, 240))
+        draw.text((cx - 150, cy + 68), "WAVEFUNCTION AS UNRENDERED PROBABILITY DISTRIBUTION", fill=(200, 160, 255))
+
+        # 4. Telemetry Dossiers (Big TOE Metrics & Soviet Psychotronics)
+        # Left HUD Box: Digital Physics Telemetry
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 22, 35), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[DIGITAL PHYSICS HUD]", fill=(0, 240, 255))
+        draw.text((70, 118), "FRAME RATE: 1/t_P = 1.85e43 Hz", fill=(255, 220, 100))
+        draw.text((70, 138), "SPATIAL PIXEL: l_P = 1.62e-35 m", fill=(0, 255, 200))
+        draw.text((70, 158), "OBJECTIVE: MINIMIZE ENTROPY S", fill=(120, 220, 255))
+        draw.text((70, 178), "MODEL: CELLULAR AUTOMATON VR", fill=(200, 140, 255))
+
+        # Right HUD Box: Soviet Bio-Information & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET BIO-INFORMATION]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "UNIT 10003 PSI RESEARCH", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "NON-LOCAL INFORMATION QUERY", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "BIO-CYBERNETIC TELEMETRY", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -1890,6 +1965,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "EEG P300 BIOMETRIC SURVEILLANCE // COGNITIVE OVERLOAD TELEMETRY // KGB REFLEXIVE CONTROL", fill=(200, 140, 255))
     elif theme in ("focused_ultrasound", "ultrasound_neuromodulation", "sonoporation", "neuro_sonics"):
         draw.text((40, 60), "TRANSCRANIAL FOCUSED ULTRASOUND // BLOOD-BRAIN SONOPORATION // SOVIET NEURO-MODULATION", fill=(200, 140, 255))
+    elif theme in ("big_toe", "digital_physics", "campbell_simulation", "cellular_automata"):
+        draw.text((40, 60), "THOMAS CAMPBELL BIG TOE // DIGITAL CELLULAR AUTOMATA // KGB BIO-INFORMATION PSI ARCHIVES", fill=(200, 140, 255))
     elif theme in ("black_budget", "pentagon_sap", "sap_carveouts", "defense_audit", "failed_audit"):
         draw.text((40, 60), "UNACKNOWLEDGED SAP CARVE-OUTS // PENTAGON AUDIT BLACK HOLE // KGB OFF-BOOK SLUSH FUNDS", fill=(255, 100, 70))
     elif theme in ("red_sea_cables", "bab_el_mandeb"):

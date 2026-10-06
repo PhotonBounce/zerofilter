@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 120,
+  "total_releases": 121,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -960,6 +960,14 @@
       "title": "Continuous-Variable QKD, Gaussian Modulation & Soviet Fiber-Tap Cryptanalysis",
       "audio": "audio/2026-10-11-00.mp3",
       "cover_video": "thumbs/2026-10-11-00.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-11-01",
+      "seconds": 183,
+      "title": "Thomas Campbell's Big TOE, Cellular Automata & KGB Bio-Information Warfare",
+      "audio": "audio/2026-10-11-01.mp3",
+      "cover_video": "thumbs/2026-10-11-01.mp4",
       "status": "published_production"
     }
   ]

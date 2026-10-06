@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-01",
-      "date": "2026-10-11",
-      "hour": "01:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Thomas Campbell's Big TOE cellular automaton digital physics, informational entropy reduction, and Yuri Shvets on KGB bio-informational psi research"
-    },
-    {
       "id": "2026-10-11-02",
       "date": "2026-10-11",
       "hour": "02:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Defense logistics phantom container invoicing, freight forwarding pass-throughs, and Yuri Shvets on Soviet military warehouse theft networks"
+    },
+    {
+      "id": "2026-10-11-04",
+      "date": "2026-10-11",
+      "hour": "04:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Rydberg atom electric field sensing, sub-terahertz microwave electrometry, and Yuri Shvets on Soviet microwave bugging and electronic surveillance"
     }
   ]
 }

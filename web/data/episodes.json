@@ -1,6 +1,55 @@
 {
-  "updated": "2026-10-06T14:00:00Z",
+  "updated": "2026-10-06T14:05:00Z",
   "episodes": [
+    {
+      "id": "2026-10-11-01",
+      "hour": "01:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Thomas Campbell's Big TOE, Cellular Automata & KGB Bio-Information Warfare",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates physicist Thomas Campbell's My Big TOE digital physics framework, virtual reality cellular automata minimizing informational entropy, the computational render-on-measurement paradigm, and Yuri Shvets on Soviet Unit 10003 and KGB bio-informational non-local psychotronics.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero one hundred hours. If the physical cosmos is not a continuous, objective container of matter, but a discrete digital computation, what is the underlying engine? Physicist and former NASA systems analyst Thomas Campbell proposed in his Big Theory of Everything, or Big TOE, that physical reality is a rendered virtual reality computed by a non-physical consciousness system. In Campbell's digital physics framework, space and time are pixelated at the Planck length and Planck time, functioning as a cellular automaton where reality evolves step by discrete computational step.",
+        "Campbell resolves quantum mechanics' most stubborn paradoxes by applying computer science optimization principles. In modern multiplayer simulations, a game engine does not waste finite computational rendering cycles rendering rooms or textures that no player is currently observing; it calculates only what is queried by an observer. Campbell argues the quantum wavefunction collapse in the double-slit experiment operates identically: reality remains a statistical probability distribution in the system's database until an individuated consciousness makes a measurement, triggering rendering on demand.",
+        "Under this digital ontology, the fundamental objective of the Larger Consciousness System is informational entropy reduction. High-entropy states correspond to chaotic, unorganized noise, while low-entropy states represent coherent information, love, and evolved order. Physical reality exists as a rigorous training simulator where individuated units of consciousness make choices within a rule-set to evolve their decision-making, systematically decreasing their personal and systemic entropy.",
+        "This conceptualization of consciousness as a non-local digital network capable of accessing universal databases was heavily investigated during the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has documented, Soviet intelligence and military planners treated bio-informational telepathy and psychotronics as strategic operational fields.",
+        "According to Shvets, the Soviet Ministry of Defense established specialized secret units, including the enigmatic Unit Ten Thousand Three, alongside KGB research laboratories to investigate bio-communication and non-local information acquisition. Shvets revealed that Soviet cyberneticists and intelligence theorists modeled the human brain not as an isolated biological computer, but as an informational transceiver querying a broader cosmic field. The KGB sought to weaponize these non-local queries for remote espionage, attempting to intercept classified foreign communications and manipulate adversary decision-makers across vast distances through bio-informational resonance.",
+        "Whether approached through Thomas Campbell's digital simulation mathematics or Soviet bio-cybernetics, the conclusion converges: consciousness is primary, and physical spacetime is merely the interface. When you recognize that reality is an information stream rendered for your evolution, you regain absolute control over your cognitive telemetry. Lower your internal entropy, question the rendering engine, and never accept static noise as reality. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-01/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-11-01/f02.webp"
+          },
+          {
+            "t": 61,
+            "src": "art/2026-10-11-01/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-11-01/f04.webp"
+          },
+          {
+            "t": 122,
+            "src": "art/2026-10-11-01/f05.webp"
+          },
+          {
+            "t": 152,
+            "src": "art/2026-10-11-01/f06.webp"
+          }
+        ]
+      },
+      "seconds": 183,
+      "audio": "audio/2026-10-11-01.mp3",
+      "thumb": "thumbs/2026-10-11-01.webp",
+      "cover_video": "thumbs/2026-10-11-01.mp4"
+    },
     {
       "id": "2026-10-11-00",
       "hour": "00:00",
