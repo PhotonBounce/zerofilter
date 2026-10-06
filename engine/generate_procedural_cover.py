@@ -2324,6 +2324,69 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 118), "MINISTRY AVIATION IND (MAP)", fill=(255, 200, 80))
         draw.text((width - 310, 138), "PHANTOM PARTS PADDING", fill=(255, 100, 80))
         draw.text((width - 310, 158), "BUREAU-PLANT CARTELS", fill=(255, 220, 120))
+    elif theme in ("majorana_zero_modes", "topological_quantum", "anyon_braiding", "cryogenic_cryptography"):
+        # Topological Majorana Zero Modes & Non-Abelian Anyon Braiding
+        # 1. Background Cryogenic Dilution Refrigerator Grid (mK Temperatures)
+        for gy in range(cy - 220, cy + 220, 24):
+            draw.line([(60, gy), (width - 60, gy)], fill=(10, 26, 42), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(10, 26, 42), width=1)
+
+        # 2. Semiconductor-Superconductor Nanowire (InAs Core with Epitaxial Aluminum Shell)
+        nw_x1, nw_x2 = cx - 220, cx + 220
+        nw_y = cy - 40
+        nw_h = 24
+        # Nanowire body
+        draw.rectangle([nw_x1, nw_y - nw_h//2, nw_x2, nw_y + nw_h//2], fill=(12, 35, 55), outline=(0, 220, 255), width=2)
+        # Superconducting aluminum capping shell
+        draw.rectangle([nw_x1 + 30, nw_y - nw_h//2 - 6, nw_x2 - 30, nw_y - nw_h//2], fill=(140, 220, 255))
+        draw.text((cx - 110, nw_y - 36), "InAs/Al TOPOLOGICAL NANOWIRE [T = 15 mK]", fill=(120, 240, 255))
+
+        # 3. Localized Majorana Zero Modes (γ1 and γ2 at wire endpoints)
+        # Left Majorana Bound State (γ1)
+        draw.ellipse([nw_x1 - 18, nw_y - 18, nw_x1 + 18, nw_y + 18], fill=(255, 60, 100), outline=(255, 255, 255), width=2)
+        draw.text((nw_x1 - 8, nw_y - 7), "γ1", fill=(255, 255, 255))
+        draw.text((nw_x1 - 35, nw_y + 24), "MAJORANA ZERO MODE", fill=(255, 120, 140))
+
+        # Right Majorana Bound State (γ2)
+        draw.ellipse([nw_x2 - 18, nw_y - 18, nw_x2 + 18, nw_y + 18], fill=(255, 60, 100), outline=(255, 255, 255), width=2)
+        draw.text((nw_x2 - 8, nw_y - 7), "γ2", fill=(255, 255, 255))
+        draw.text((nw_x2 - 35, nw_y + 24), "MAJORANA ZERO MODE", fill=(255, 120, 140))
+
+        # Non-local fermion state equation between γ1 and γ2
+        draw.text((cx - 120, nw_y + 16), "NON-LOCAL FERMION: f = (γ1 + iγ2) / √2 // ZERO ENERGY", fill=(0, 255, 200))
+
+        # 4. Non-Abelian Braiding Trajectories in Spacetime (Lower Center Diagram)
+        braid_x, braid_y = cx - 180, cy + 70
+        braid_w, braid_h = 360, 95
+        draw.rectangle([braid_x, braid_y, braid_x + braid_w, braid_y + braid_h], fill=(10, 20, 32), outline=(0, 200, 240), width=1)
+        draw.text((braid_x + 10, braid_y + 8), "NON-ABELIAN BRAIDING IN SPACETIME // TOPOLOGICAL PROTECTION", fill=(0, 255, 220))
+        # Entangled worldlines representing anyon exchange
+        for step in range(braid_w - 40):
+            norm = step / (braid_w - 40)
+            # Worldline 1 (Cyan)
+            y1 = braid_y + 45 + int(24 * math.sin(norm * math.pi * 3))
+            # Worldline 2 (Amber)
+            y2 = braid_y + 45 - int(24 * math.sin(norm * math.pi * 3))
+            draw.point((braid_x + 20 + step, y1), fill=(0, 240, 255))
+            draw.point((braid_x + 20 + step, y2), fill=(255, 180, 50))
+        draw.text((braid_x + braid_w // 2 - 50, braid_y + braid_h - 20), "BRAID OPERATOR: B = exp(±π/4 γ1 γ2)", fill=(255, 220, 100))
+
+        # 5. Telemetry Dossiers (Majorana Metrics & Soviet Cryo-Crypto)
+        # Left HUD Box: Majorana Metrics
+        draw.rectangle([60, 90, 310, cy - 140], fill=(10, 24, 38), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[MAJORANA ZERO MODE HUD]", fill=(0, 240, 255))
+        draw.text((70, 118), "ZEEMAN FIELD: B_z > √(Δ² + μ²)", fill=(255, 220, 100))
+        draw.text((70, 138), "COHERENCE: TOPOLOGICALLY IMMUNE", fill=(0, 255, 200))
+        draw.text((70, 158), "LOCAL DECOHERENCE: ZERO", fill=(120, 220, 255))
+        draw.text((70, 178), "BRAIDING GATE ERROR: 10⁻⁶", fill=(255, 140, 50))
+
+        # Right HUD Box: Soviet Cryo-Crypto Lineage & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET CRYO-CRYPTOGRAPHY]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "KAPITZA INSTITUTE RESEARCH", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "KGB 8TH CHIEF HARDWARE", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "JOSEPHSON JUNCTION CIPHERS", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
     else:

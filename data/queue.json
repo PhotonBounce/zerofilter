@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-08",
-      "date": "2026-10-11",
-      "hour": "08:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Topological Majorana zero modes, non-Abelian anyon braiding, and Yuri Shvets on Soviet low-temperature quantum physics institutes and submarine cryptographic hardware"
-    },
-    {
       "id": "2026-10-11-09",
       "date": "2026-10-11",
       "hour": "09:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Suwalki Gap rail corridors, Kaliningrad Iskander missile enclaves, and Yuri Shvets on Soviet Baltic Military District war plans and chokepoint interdiction doctrine"
+    },
+    {
+      "id": "2026-10-11-11",
+      "date": "2026-10-11",
+      "hour": "11:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Pentagon unacknowledged SAP carve-outs, audit waiver shell networks, and Yuri Shvets on Soviet defense ministry slush funds and off-the-books intelligence conduits"
     }
   ]
 }
