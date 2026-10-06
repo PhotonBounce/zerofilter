@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **520 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **528 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 64 completed, 64 total releases published.
-  - `data/queue.json`: Head item is Episode 65 (`2026-10-08-17`).
-  - `data/registry.json`: 64 active releases logged.
+  - `status/pipeline_state.json`: Episode 65 completed, 65 total releases published.
+  - `data/queue.json`: Head item is Episode 66 (`2026-10-08-18`).
+  - `data/registry.json`: 65 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -91,10 +91,11 @@
   - `2026-10-08-14` (173s) — Strait of Malacca Maritime Drone Blockades, Subsea Acoustic Hydrophone Gates & Soviet Indian Ocean Task Force
   - `2026-10-08-15` (182s) — Pentagon Microelectronics Counterfeiting, Gray-Market Broker Rings & Soviet Line X Infiltration
   - `2026-10-08-16` (189s) — Quantum Spin Liquids in Kagome Antiferromagnets, Fractionalized Excitations & Soviet Solid-State Theory
+  - `2026-10-08-17` (181s) — Karl Friston Active Inference in Generative AI Agents, Predictive Coding & KGB Cognitive Warfare
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 384 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `d571db3530e9599b89aea7c7a7c66955a0357ff6`).
+- **Story Art Frames:** 390 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `983fa3936b766743954004cfe8979a8d6c692ee5`).
 
 ---
 

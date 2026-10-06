@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 64,
+  "total_releases": 65,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -512,6 +512,14 @@
       "title": "Quantum Spin Liquids in Kagome Antiferromagnets, Fractionalized Excitations & Soviet Solid-State Theory",
       "audio": "audio/2026-10-08-16.mp3",
       "cover_video": "thumbs/2026-10-08-16.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-08-17",
+      "seconds": 181,
+      "title": "Karl Friston Active Inference in Generative AI Agents, Predictive Coding & KGB Cognitive Warfare",
+      "audio": "audio/2026-10-08-17.mp3",
+      "cover_video": "thumbs/2026-10-08-17.mp4",
       "status": "published_production"
     }
   ]
