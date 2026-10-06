@@ -1092,6 +1092,79 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 158), "KGB 12TH DEPT OTU LINEAGE", fill=(255, 160, 50))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DISCLOSURE", fill=(0, 255, 220))
 
+    elif theme in ("quantum_annealing", "flux_qubit", "adiabatic_quantum", "ising_spin"):
+        # Quantum Annealing, Superconducting Flux Qubits & Adiabatic Ground State Trajectories
+        # 1. Background Adiabatic Energy Landscape (Non-convex potential with tunneling valleys)
+        for gy in range(cy - 220, cy + 220, 25):
+            pts = []
+            for gx in range(60, width - 60, 8):
+                # Double-well potential with multiple local minima
+                x_norm = (gx - cx) / 220.0
+                pot = (x_norm**4 - 2.2 * x_norm**2 + 0.3 * math.sin(x_norm * 8.0)) * 25.0
+                pts.append((gx, gy + int(pot * 0.4)))
+            if len(pts) > 1:
+                draw.line(pts, fill=(15, 30, 48), width=1)
+
+        # 2. Superconducting Flux Qubit Lattice (Chimera / Pegasus Cross-Coupled Loops)
+        lattice_ox = cx - 180
+        lattice_oy = cy - 140
+        unit_spacing = 90
+
+        # Draw 4x4 array of coupled flux loops
+        for row in range(4):
+            for col in range(5):
+                qx = lattice_ox + col * unit_spacing
+                qy = lattice_oy + row * unit_spacing
+
+                # Horizontal Flux Qubit Loop (Cyan)
+                draw.rounded_rectangle([qx - 36, qy - 10, qx + 36, qy + 10], radius=4, fill=(10, 28, 45), outline=(0, 220, 255), width=2)
+                # Vertical Flux Qubit Loop (Gold/Amber)
+                draw.rounded_rectangle([qx - 10, qy - 36, qx + 10, qy + 36], radius=4, fill=(25, 20, 12), outline=(255, 180, 50), width=2)
+
+                # Center Josephson Junction RF-SQUID coupler loop
+                draw.rectangle([qx - 4, qy - 4, qx + 4, qy + 4], fill=(255, 255, 255), outline=(0, 255, 200), width=1)
+                
+                # Coupler weight links (J_ij)
+                if col < 4:
+                    draw.line([(qx + 36, qy), (qx + unit_spacing - 36, qy)], fill=(0, 160, 200), width=1)
+                if row < 3:
+                    draw.line([(qx, qy + 36), (qx, qy + unit_spacing - 36)], fill=(200, 140, 40), width=1)
+
+        draw.text((lattice_ox - 10, lattice_oy - 30), "SUPERCONDUCTING FLUX QUBIT LATTICE // TUNABLE RF-SQUID COUPLERS", fill=(0, 255, 240))
+
+        # 3. Quantum Tunneling Path Trajectory (Adiabatic Shortcut avoiding Energy Gap)
+        tunnel_pts = []
+        for step in range(80):
+            prog = step / 80.0
+            tx = 80 + int(prog * (width - 160))
+            # Trajectory tunneling across the energy landscape
+            ty = cy + 130 - int(math.sin(prog * 5.0 * math.pi) * 35.0 * math.exp(-prog * 1.5))
+            tunnel_pts.append((tx, ty))
+        
+        if len(tunnel_pts) > 1:
+            draw.line(tunnel_pts, fill=(180, 100, 255), width=3)
+            # Glowing ground-state convergence point
+            gx_end, gy_end = tunnel_pts[-1]
+            draw.ellipse([gx_end - 8, gy_end - 8, gx_end + 8, gy_end + 8], fill=(255, 255, 255), outline=(180, 100, 255), width=2)
+            draw.text((gx_end - 120, gy_end + 12), "GLOBAL MINIMUM GROUND STATE", fill=(200, 160, 255))
+
+        # 4. Telemetry Dossiers (Annealer & Soviet Cryogenic Supercomputing)
+        # Left HUD Box: Annealer QPU Telemetry
+        draw.rectangle([60, 90, 310, cy - 140], fill=(12, 22, 35), outline=(0, 220, 255), width=1)
+        draw.text((70, 98), "[QUANTUM ANNEALER QPU]", fill=(0, 240, 255))
+        draw.text((70, 118), "ARCH: PEGASUS P16 (5,640 Q)", fill=(255, 220, 100))
+        draw.text((70, 138), "ANNEAL TIME: 20.0 μs", fill=(0, 255, 200))
+        draw.text((70, 158), "DILUTION TEMP: 11.2 mK", fill=(120, 220, 255))
+        draw.text((70, 178), "ENERGY GAP: Δ_min = 4.2 GHz", fill=(255, 140, 50))
+
+        # Right HUD Box: Soviet 8th Chief Cryogenic Cryptanalysis
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET 8TH CHIEF CIPHER]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "CRYOGENIC JOSEPHSON ARRAYS", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "ISINC GRAPH DECOMPOSITION", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "NP-HARD CIPHER CONVERGENCE", fill=(255, 220, 120))
+        draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -1176,6 +1249,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "PEAR QUANTUM NOISE REG // CUMULATIVE DEVIATION p = 3.8 x 10^-5 // KGB SLUSH AUDIT", fill=(255, 210, 50))
     elif theme in ("transmon_qubit", "surface_code", "quantum_cryptanalysis", "fault_tolerant_qc"):
         draw.text((40, 60), "SUPERCONDUCTING TRANSMON SURFACE CODE d=7 // 14.8mK CRYOSTAT // 8TH CHIEF SIGINT", fill=(0, 240, 255))
+    elif theme in ("quantum_annealing", "flux_qubit", "adiabatic_quantum", "ising_spin"):
+        draw.text((40, 60), "QUANTUM ANNEALING // PEGASUS FLUX QUBIT LATTICE // ADIABATIC TUNNELING // 8TH CHIEF", fill=(0, 240, 255))
     elif theme in ("defense_cloud_fisa", "fisa_702", "cloud_lobbying", "jwcc"):
         draw.text((40, 60), "DEFENSE CLOUD LOBBYING // FISA 702 WARRANTLESS BACKDOORS // KGB OTU SURVEILLANCE", fill=(255, 100, 70))
     elif theme in ("gateway_hemisync", "hemisync", "monroe_gateway", "binaural_beat"):

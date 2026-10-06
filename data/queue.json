@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-21",
-      "date": "2026-10-07",
-      "hour": "21:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Quantum annealing in flux qubits, adiabatic shortcuts to ground states, and Yuri Shvets on Soviet cryogenic supercomputing and SIGINT cryptanalysis"
-    },
-    {
       "id": "2026-10-07-22",
       "date": "2026-10-07",
       "hour": "22:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Active inference in deep generative neural networks, predictive coding, and Yuri Shvets on Soviet Pavlovian neuro-cybernetic modeling"
+    },
+    {
+      "id": "2026-10-08-00",
+      "date": "2026-10-08",
+      "hour": "00:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Pentagon black budget audits, Special Access Program phantom line items, and Yuri Shvets on Soviet Gosplan military intelligence diversion schemes"
     }
   ]
 }
