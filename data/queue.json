@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-11-07",
-      "date": "2026-10-11",
-      "hour": "07:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Pentagon F-35 Autonomic Logistics Information System (ODIN/ALIS) cost escalations, subcontractor proprietary data locks, and Soviet Defense Ministry factory kickbacks"
-    },
-    {
       "id": "2026-10-11-08",
       "date": "2026-10-11",
       "hour": "08:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Anil Seth controlled hallucination model, Bayesian predictive coding sensory suppression, and Yuri Shvets on KGB reflexive control perception-shaping operations"
+    },
+    {
+      "id": "2026-10-11-10",
+      "date": "2026-10-11",
+      "hour": "10:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Suwalki Gap rail corridors, Kaliningrad Iskander missile enclaves, and Yuri Shvets on Soviet Baltic Military District war plans and chokepoint interdiction doctrine"
     }
   ]
 }

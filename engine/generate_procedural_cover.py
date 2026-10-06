@@ -2246,6 +2246,84 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 310, 118), "POLAR STRATEGIC CORRIDOR", fill=(255, 200, 80))
         draw.text((width - 310, 138), "KGB BORDER GUARD FLOTILLA", fill=(255, 100, 80))
         draw.text((width - 310, 158), "NORTHERN FLEET SUB ESCORT", fill=(255, 220, 120))
+    elif theme in ("f35_alis", "f35_software", "software_lockin", "contractor_lockin"):
+        # Pentagon F-35 ALIS/ODIN Software Escalation & Defense Contractor IP Lock-In
+        # 1. Background Source Code / Hex Memory Dump Grid
+        for gy in range(cy - 220, cy + 220, 24):
+            draw.line([(60, gy), (width - 60, gy)], fill=(24, 16, 20), width=1)
+        for gx in range(60, width - 60, 48):
+            draw.line([(gx, cy - 220), (gx, cy + 220)], fill=(24, 16, 20), width=1)
+
+        # Code snippets across the grid
+        code_lines = [
+            ("ALIS_KERNEL::DIAG_FAULT_BUS [0x8F41A]", 70, cy - 190),
+            ("PROPRIETARY IP LOCK // LOCKHEED MARTIN", cx - 80, cy - 190),
+            ("DOD ACCESS DENIED: REFACTOR BLOCKED", width - 300, cy - 190),
+            ("SLOC COUNT: 24,180,000 LINES C++", 70, cy - 150),
+            ("FALSE ALARM GROUNDING: CODE 419-X", cx - 80, cy - 150),
+            ("SUSTAINMENT BILLING: $1.7T ESTIMATE", width - 300, cy - 150)
+        ]
+        for c_txt, cx_pos, cy_pos in code_lines:
+            draw.text((cx_pos, cy_pos), c_txt, fill=(220, 80, 80))
+
+        # 2. Stealth Fighter Silhouette (F-35 Lightning II Wireframe Profile)
+        f_cx, f_cy = cx, cy - 30
+        # Swept delta wings and stealth fuselage
+        f35_pts = [
+            (f_cx, f_cy - 70),          # Radome nose
+            (f_cx + 18, f_cy - 20),      # Chined forebody right
+            (f_cx + 120, f_cy + 30),     # Right wingtip
+            (f_cx + 80, f_cy + 45),      # Right wing trailing edge
+            (f_cx + 35, f_cy + 75),      # Right tail empennage
+            (f_cx + 12, f_cy + 55),      # Exhaust right
+            (f_cx - 12, f_cy + 55),      # Exhaust left
+            (f_cx - 35, f_cy + 75),      # Left tail empennage
+            (f_cx - 80, f_cy + 45),      # Left wing trailing edge
+            (f_cx - 120, f_cy + 30),     # Left wingtip
+            (f_cx - 18, f_cy - 20)       # Chined forebody left
+        ]
+        draw.polygon(f35_pts, fill=(16, 20, 28), outline=(255, 60, 60), width=2)
+        # Cockpit canopy
+        draw.polygon([(f_cx, f_cy - 45), (f_cx + 8, f_cy - 20), (f_cx - 8, f_cy - 20)], fill=(0, 220, 255))
+        draw.text((f_cx - 95, f_cy - 90), "F-35 LIGHTNING II // AUTONOMIC LOGISTICS INTERFACE", fill=(255, 120, 100))
+
+        # 3. Proprietary Software Dependency Lock-In Chains
+        # Digital lock icon and constraint brackets over airframe
+        draw.rectangle([f_cx - 25, f_cy - 5, f_cx + 25, f_cy + 25], fill=(30, 10, 15), outline=(255, 200, 50), width=2)
+        draw.arc([f_cx - 15, f_cy - 22, f_cx + 15, f_cy + 5], 180, 360, fill=(255, 200, 50), width=2)
+        draw.text((f_cx - 70, f_cy + 32), "[PROPRIETARY LOCK: NO REPAIR RIGHTS]", fill=(255, 220, 80))
+
+        # 4. Lifecycle Sustainment Cost Escalation Curve (Lower center plot)
+        spec_x, spec_y = cx - 180, cy + 95
+        spec_w, spec_h = 360, 75
+        draw.rectangle([spec_x, spec_y, spec_x + spec_w, spec_y + spec_h], fill=(18, 12, 16), outline=(255, 80, 60), width=1)
+        draw.text((spec_x + 10, spec_y + 8), "ALIS / ODIN LIFECYCLE COST RUNAWAY // $1.7 TRILLION", fill=(255, 100, 80))
+        # Exponential runaway cost line
+        cost_pts = []
+        for sx in range(spec_w - 20):
+            norm_x = sx / (spec_w - 20)
+            cost_val = int(12.0 * math.exp(norm_x * 1.5))
+            cy_val = spec_y + spec_h - 15 - cost_val
+            cost_pts.append((spec_x + 10 + sx, cy_val))
+        if len(cost_pts) > 1:
+            draw.line(cost_pts, fill=(255, 60, 40), width=2)
+        draw.text((spec_x + spec_w - 110, spec_y + 25), "ESCALATION: +340%", fill=(255, 220, 100))
+
+        # 5. Telemetry Dossiers (F-35 Software Fraud & Soviet MAP Kickbacks)
+        # Left HUD Box: F-35 Software Metrics
+        draw.rectangle([60, 90, 310, cy - 140], fill=(22, 12, 16), outline=(255, 80, 60), width=1)
+        draw.text((70, 98), "[F-35 ALIS/ODIN AUDIT]", fill=(255, 90, 70))
+        draw.text((70, 118), "FLEET MISSION CAPABLE: 51.9%", fill=(255, 200, 80))
+        draw.text((70, 138), "SOFTWARE LOCK: LOCKHEED MARTIN", fill=(255, 60, 60))
+        draw.text((70, 158), "SPARE PARTS VISIBILITY: 0%", fill=(255, 160, 50))
+        draw.text((70, 178), "FALSE FAULT CODES: CHRONIC", fill=(255, 100, 80))
+
+        # Right HUD Box: Soviet MAP Lineage & Yuri Shvets Disclosure
+        draw.rectangle([width - 320, 90, width - 60, cy - 140], fill=(25, 15, 10), outline=(255, 120, 50), width=1)
+        draw.text((width - 310, 98), "[SOVIET AVIATION KICKBACKS]", fill=(255, 140, 50))
+        draw.text((width - 310, 118), "MINISTRY AVIATION IND (MAP)", fill=(255, 200, 80))
+        draw.text((width - 310, 138), "PHANTOM PARTS PADDING", fill=(255, 100, 80))
+        draw.text((width - 310, 158), "BUREAU-PLANT CARTELS", fill=(255, 220, 120))
         draw.text((width - 310, 178), "SOURCE: YURI SHVETS DOSSIER", fill=(0, 255, 220))
 
     else:

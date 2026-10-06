@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **1,016 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **1,024 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 126 completed, 126 total releases published.
-  - `data/queue.json`: Head item is Episode 127 (`2026-10-11-07`).
-  - `data/registry.json`: 126 active releases logged.
+  - `status/pipeline_state.json`: Episode 127 completed, 127 total releases published.
+  - `data/queue.json`: Head item is Episode 128 (`2026-10-11-08`).
+  - `data/registry.json`: 127 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -153,10 +153,11 @@
   - `2026-10-11-04` (200s) — Rydberg Atom Electrometry, Sub-THz Sensors & Soviet Microwave Eavesdropping
   - `2026-10-11-05` (176s) — Penrose-Hameroff Orch-OR Anesthesia, Tubulin Dipoles & KGB Pharmacological Telemetry
   - `2026-10-11-06` (187s) — Arctic Northern Sea Route Monopolies, Yamal LNG Escorts & Soviet Glavsevmorput Logistics
+  - `2026-10-11-07` (180s) — Pentagon F-35 ALIS Software Cost Escalations, Lockheed IP Lock-In & Soviet Plant Kickbacks
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 756 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `44651f3cf2b2d75eceea2e9ae7836f4d53f856e5`).
+- **Story Art Frames:** 762 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `599a24625dbe6f42fcd4789c72dbcc7786593963`).
 
 ---
 
