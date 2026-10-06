@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-16",
-      "date": "2026-10-08",
-      "hour": "16:00",
-      "category": "quantum",
-      "priority": "normal",
-      "intel_focus": "Quantum spin liquids in kagome antiferromagnets, fractionalized excitations, and Yuri Shvets on Soviet solid-state physics theory espionage"
-    },
-    {
       "id": "2026-10-08-17",
       "date": "2026-10-08",
       "hour": "17:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Suwalki Gap heavy armor logistics, railway gauge incompatibility, and Yuri Shvets on Soviet Kaliningrad corridor operational doctrine"
+    },
+    {
+      "id": "2026-10-08-19",
+      "date": "2026-10-08",
+      "hour": "19:00",
+      "category": "corruption",
+      "priority": "normal",
+      "intel_focus": "Defense hypersonic flight test concealment, cost-plus lobbying waivers, and Yuri Shvets on Soviet scramjet technology espionage"
     }
   ]
 }

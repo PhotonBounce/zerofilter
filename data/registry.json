@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 63,
+  "total_releases": 64,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -504,6 +504,14 @@
       "title": "Pentagon Microelectronics Counterfeiting, Gray-Market Broker Rings & Soviet Line X Infiltration",
       "audio": "audio/2026-10-08-15.mp3",
       "cover_video": "thumbs/2026-10-08-15.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-08-16",
+      "seconds": 189,
+      "title": "Quantum Spin Liquids in Kagome Antiferromagnets, Fractionalized Excitations & Soviet Solid-State Theory",
+      "audio": "audio/2026-10-08-16.mp3",
+      "cover_video": "thumbs/2026-10-08-16.mp4",
       "status": "published_production"
     }
   ]
