@@ -10,9 +10,10 @@ import { CATEGORIES } from "../web/js/categories.js";
 const ROOT = resolve(import.meta.dirname, "..");
 let passed = 0, failed = 0, warned = 0;
 
-// Story art and covers are drawn 16:9 at this size; anything else letterboxes
-// or crops on the stage.
-const ART_W = 1376, ART_H = 768;
+// Story art and covers fill a 16:9 stage with object-fit: cover. Both sizes the
+// generators produce (1376x768 and 1280x720) are fine; a portrait or tiny image
+// is not.
+const MIN_ART_W = 1280, ART_ASPECT = 16 / 9, ASPECT_TOLERANCE = 0.02;
 // The manifest duration drives the seek bar and the cue maths; it must agree
 // with the audio file to within this many seconds.
 const DURATION_TOLERANCE = 1.5;
@@ -85,8 +86,8 @@ for (const ep of episodes) {
     const p = join(ROOT, "web", rel);
     if (!existsSync(p)) { ok(`image exists (${rel})`, false); continue; }
     const size = webpSize(readFileSync(p));
-    ok(`${rel} is a WebP of ${ART_W}x${ART_H}${size ? ` (got ${size.width}x${size.height})` : " (unreadable header)"}`,
-      !!size && size.width === ART_W && size.height === ART_H);
+    ok(`${rel} is a 16:9 WebP at least ${MIN_ART_W}px wide${size ? ` (got ${size.width}x${size.height})` : " (unreadable header)"}`,
+      !!size && size.width >= MIN_ART_W && Math.abs(size.width / size.height / ART_ASPECT - 1) <= ASPECT_TOLERANCE);
   }
   const mp4 = join(ROOT, "web", ep.cover_video);
   ok(`cover video is an MP4 (${ep.cover_video})`, existsSync(mp4) && isMp4(readFileSync(mp4)));
@@ -132,6 +133,7 @@ ok("a non-numeric frame t falls back to an even spread instead of NaN", synth.ar
 ok("frame t of 0 on a later frame is kept, not replaced", validateEpisode({ ...synth, art: { frames: [{ t: 0 }, { t: 0 }] } }).art.frames[1].t === 0);
 ok("escapeHtml neutralises markup in titles", escapeHtml(`<img src=x onerror="a">&'`) === "&lt;img src=x onerror=&quot;a&quot;&gt;&amp;&#39;");
 ok("validateEpisode rejects a missing id", validateEpisode({ title: "t", subject: "s", paragraphs: ["a", "b", "c"] }) === null);
+ok("1376x768 and 1280x720 both pass the 16:9 rule", [[1376, 768], [1280, 720]].every(([w, h]) => Math.abs(w / h / ART_ASPECT - 1) <= ASPECT_TOLERANCE));
 ok("webpSize rejects a non-WebP buffer", webpSize(Buffer.from("RIFF0000WAVEfmt                 ")) === null);
 ok("mp3Info rejects random bytes", mp3Info(Buffer.alloc(4096, 0x11)) === null);
 
