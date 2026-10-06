@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-06-11",
-      "date": "2026-10-06",
-      "hour": "11:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Silicon Valley AI defense contracting cartels, FISA section 702 reauthorization receipts, and Yuri Shvets on Kremlin cyber-influence operations"
-    },
-    {
       "id": "2026-10-06-12",
       "date": "2026-10-06",
       "hour": "12:00",
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Taiwan Strait autonomous drone barrier defenses, rare earth element mineral supply chain weaponization, and Yuri Shvets on Beijing-Moscow intelligence coordination"
+    },
+    {
+      "id": "2026-10-06-13",
+      "date": "2026-10-06",
+      "hour": "13:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Quantum vacuum fluctuations, Casimir effect micro-propulsion, and Yuri Shvets on Western space surveillance telemetry"
     }
   ]
 }

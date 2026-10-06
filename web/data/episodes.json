@@ -2,6 +2,61 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-11",
+      "date": "2026-10-06",
+      "hour": "11:00",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Silicon Valley Defense Cartels, FISA 702 Receipts & Homomorphic Encryption",
+      "subject": "Hourly uncensored breakdown: Yuri Shvets exposes Silicon Valley defense monopoly lobbying, Ukrainian open-source Delta situational awareness, G\u00f6delian surveillance entropy, and fully homomorphic encryption.",
+      "seconds": 173,
+      "audio": "audio/2026-10-06-11.mp3",
+      "thumb": "thumbs/2026-10-06-11.webp",
+      "cover_video": "thumbs/2026-10-06-11.mp4",
+      "paragraphs": [
+        "Welcome to hour eleven of ZeroFilter. Let's trace the financial receipts behind the surveillance state with former KGB foreign counter-intelligence analyst Yuri Shvets. Shvets' latest investigative dossier exposes how Silicon Valley defense tech monopolies and K-Street lobbyists colluded to ram through the reauthorization of FISA Section 702 warrantless surveillance. Under the convenient banner of national security, tech cartels secured billions in classified cloud computing contracts while quietly giving federal agencies backdoor queries into American citizens' private communications. Meanwhile, real foreign counter-espionage against Russian financial networks operating through Western real estate gets ignored because the real estate lobby lines the campaign pockets of the exact same lawmakers.",
+        "Compare that corporate extortion with the gritty reality on the Ukrainian front: Ukrainian engineers developed Delta, an open-source, decentralized situational awareness platform that runs on commercial laptops and integrates satellite, drone, and ground telemetry across thousands of units for pennies on the dollar. Meanwhile, legacy American defense contractors charge taxpayers hundreds of millions for proprietary, closed-source combat management software that crashes under basic cyber-warfare conditions. Corporate monopoly capitalism in the defense sector is actively crippling democratic combat capability.",
+        "From the perspective of mathematical logic and information theory, a centralized surveillance state is fundamentally self-defeating. In Kurt G\u00f6del's incompleteness theorems and John von Neumann's game theory, no formal computational system can model its own operational environment without generating infinite recursive blind spots. The more data a bloated intelligence bureaucracy hoards, the higher its internal entropy becomes. They drown in trillions of gigabytes of irrelevant civilian noise while completely missing the critical signals of impending strategic shifts.",
+        "The antidote to this panopticon is mathematical: fully homomorphic encryption and zero-knowledge proofs. By enabling complex neural network inference directly on ciphertext without ever decrypting the underlying data, these cryptographic architectures eliminate the need to trust centralized corporate server clouds, turning private computation into a mathematically unbreakable sovereign enclave.",
+        "As Shvets relentlessly emphasizes from his years inside the KGB, nothing serves authoritarian propaganda better than Western democracies adopting the police-state tactics of their adversaries. When Washington politicians sacrifice constitutional liberties for contractor profits, they validate the Kremlin's cynical narrative that all governments are equally corrupt.",
+        "Never surrender your digital sovereignty to corrupt political cartels or corporate surveillance barons. Encrypt your communications, demand absolute financial transparency, and remember that human consciousness is an irreducibly free, non-local operating system that no algorithm can ever truly capture. Stay vigilant, stay free, and I'll catch you at the top of the next hour. I'm Rex Vance, and this was ZeroFilter."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-11/f01.webp",
+            "caption": "FISA Section 702 warrant database and server racks"
+          },
+          {
+            "t": 35,
+            "src": "art/2026-10-06-11/f02.webp",
+            "caption": "Ukrainian Delta decentralized situational awareness network"
+          },
+          {
+            "t": 70,
+            "src": "art/2026-10-06-11/f03.webp",
+            "caption": "G\u00f6del incompleteness and surveillance entropy diagrams"
+          },
+          {
+            "t": 105,
+            "src": "art/2026-10-06-11/f04.webp",
+            "caption": "Fully homomorphic encryption on ciphertext matrix"
+          },
+          {
+            "t": 138,
+            "src": "art/2026-10-06-11/f05.webp",
+            "caption": "Yuri Shvets counter-intelligence report on state overreach"
+          },
+          {
+            "t": 162,
+            "src": "art/2026-10-06-11/f06.webp",
+            "caption": "Rex Vance broadcasting live from bunker"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026-10-06-10",
       "date": "2026-10-06",
       "hour": "10:00",
