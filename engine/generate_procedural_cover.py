@@ -483,7 +483,7 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((width - 320, cy + 170), "SOVIET CIPHER APPARATUS // FIALKA-M", fill=(255, 220, 100))
         draw.text((width - 320, cy + 185), "STATUS: NON-COMPUTABLE CODEBREAKING", fill=(255, 60, 60))
 
-    elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "arctic_seabed", "svalbard_cable", "red_sea_cables", "bab_el_mandeb", "barents_bastion", "bastion_doctrine", "northern_fleet"):
+    elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "arctic_seabed", "svalbard_cable", "red_sea_cables", "bab_el_mandeb", "barents_bastion", "bastion_doctrine", "northern_fleet", "giuk_gap", "undersea_drones", "titanium_sub"):
         # Deep Seabed Infrastructure & Russian GUGI Covert Reconnaissance
         # 1. Abyssal Bathymetry Contour Lines (Depth 3,000m+)
         for depth_y in range(120, height, 45):
@@ -1251,6 +1251,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "HFT NEURO-FEEDBACK BIOMETRICS // COGNITIVE FATIGUE TELEMETRY // KGB REFLEX MODIFICATION", fill=(200, 140, 255))
     elif theme in ("red_sea_cables", "bab_el_mandeb"):
         draw.text((40, 60), "RED SEA SUBSEA CABLE CORRIDOR // BAB EL-MANDEB CHOKEPOINT // SOVIET HORN OF AFRICA SIGINT", fill=(255, 140, 40))
+    elif theme in ("giuk_gap", "undersea_drones", "titanium_sub"):
+        draw.text((40, 60), "GIUK GAP ACOUSTIC BARRIER // UNDERSEA DRONE SWARMS // SOVIET TITANIUM SUBMARINES", fill=(0, 220, 255))
     elif theme in ("undersea_cable", "gugi_seabed", "seabed_warfare", "arctic_seabed", "svalbard_cable", "barents_bastion", "bastion_doctrine", "northern_fleet"):
         draw.text((40, 60), "BARENTS BASTION ASW DOCTRINE // ARCTIC SOSUS TRENCH BAFFLES // NORTHERN FLEET SIGINT", fill=(255, 90, 70))
     elif theme in ("quantum_darwinism", "pointer_states", "theremin_bug"):

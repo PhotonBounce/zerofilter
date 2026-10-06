@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 57,
+  "total_releases": 58,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -456,6 +456,14 @@
       "title": "Topological Superconductivity, Majorana Zero Modes & Soviet Cryogenic Physics Secrets",
       "audio": "audio/2026-10-08-09.mp3",
       "cover_video": "thumbs/2026-10-08-09.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-08-10",
+      "seconds": 183,
+      "title": "Undersea Autonomous Drone Swarms, GIUK Gap Acoustic Barriers & Soviet Titanium-Hull Submarines",
+      "audio": "audio/2026-10-08-10.mp3",
+      "cover_video": "thumbs/2026-10-08-10.mp4",
       "status": "published_production"
     }
   ]

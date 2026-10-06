@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-08-10",
-      "date": "2026-10-08",
-      "hour": "10:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Undersea autonomous drone swarms, GIUK Gap acoustic barriers, and Yuri Shvets on Soviet titanium-hull deep-diving submarine doctrines"
-    },
-    {
       "id": "2026-10-08-11",
       "date": "2026-10-08",
       "hour": "11:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Biophotonic cellular signaling, ultra-weak photon emission in neural tissue, and Yuri Shvets on Soviet Gurwitsch radiation research"
+    },
+    {
+      "id": "2026-10-08-13",
+      "date": "2026-10-08",
+      "hour": "13:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Quantum diamond nitrogen-vacancy center magnetometry, GPS-denied navigation, and Yuri Shvets on Soviet solid-state sensor espionage"
     }
   ]
 }

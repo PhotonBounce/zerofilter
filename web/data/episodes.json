@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-08-10",
+      "hour": "10:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Undersea Autonomous Drone Swarms, GIUK Gap Acoustic Barriers & Soviet Titanium-Hull Submarines",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates autonomous undersea drone swarm barrier networks across the Greenland-Iceland-United Kingdom Gap, seabed hydrophone line array upgrades, and Yuri Shvets's insider analysis of Soviet titanium-hull deep-diving submarine doctrines and Alfa-class acoustic evasion.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is ten hundred hours. Across the treacherous North Atlantic waters separating Greenland, Iceland, and the United Kingdom—the legendary GIUK Gap—the naval battle for acoustic dominance has entered the robotic era. Historically monitored by fixed seabed hydrophone arrays operating under the U.S. Navy’s Sound Surveillance System, NATO is now deploying autonomous undersea drone swarms to enforce an impenetrable acoustic curtain. Long-endurance extra-large uncrewed underwater vehicles, equipped with active low-frequency dipping sonars and towed synthetic aperture arrays, patrol the choke point continuously, coordinating via acoustic modems and surface satellite gateway buoys.",
+        "The strategic objective is total containment of Russian Northern Fleet nuclear submarines attempting to slip out from the Barents Sea into open Atlantic patrol lanes. Traditional crewed attack submarines are prohibitively expensive and scarce, forcing Western planners to shift toward distributed robotic attrition. Autonomous drone swarms operate in coordinated packs, using bistatic acoustic processing where one drone acts as an active acoustic illuminator while dozens of silent slave drones detect target reflections. This distributed architecture strips away the acoustic stealth of modern Russian nuclear submarines, turning the GIUK Gap into a persistent gauntlet of persistent tracking.",
+        "This underwater perimeter war directly inherits the doctrinal obsessions of the Cold War. As former KGB foreign intelligence officer and Washington counter-intelligence insider Yuri Shvets has extensively analyzed, the Soviet naval command regarded the GIUK Gap as NATO’s acoustic choke-collar around the throat of the Soviet submarine fleet. To smash through NATO’s SOSUS line without acoustic detection, Soviet design bureaus embarked on the most extreme metallurgical gamble in naval history: constructing deep-diving submarines from solid titanium.",
+        "According to Shvets, the resulting Alfa, Mike, and Sierra-class nuclear submarines utilized non-magnetic titanium alloys and liquid-metal-cooled nuclear reactors to achieve crushing depths beyond one thousand meters and speeds exceeding forty knots. Soviet naval intelligence calculated that diving far beneath the North Atlantic sound channel would allow these high-speed titanium predators to outrun Western homing torpedoes and penetrate the GIUK Gap before NATO command could react. Shvets emphasizes that while Soviet titanium metallurgy achieved unmatched physical performance, the astronomical manufacturing costs and maintenance bottlenecks ultimately crippled the Soviet naval budget.",
+        "Today, as Russian submarines reassert aggressive Atlantic patrol patterns, the acoustic struggle has come full circle. Moscow no longer has the industrial capital to build titanium deep-divers, relying instead on hybrid seabed sabotage and ultra-quiet Yasen-class cruise missile platforms. But NATO’s answer is not more expensive hulls—it is an autonomous undersea drone swarm that never sleeps, never surfaces, and listens to every acoustic frequency.",
+        "Map the GIUK bathymetry, audit the undersea drone swarms, and expose the naval choke points. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 183,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-10/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-08-10/f02.webp"
+          },
+          {
+            "t": 61,
+            "src": "art/2026-10-08-10/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-08-10/f04.webp"
+          },
+          {
+            "t": 122,
+            "src": "art/2026-10-08-10/f05.webp"
+          },
+          {
+            "t": 152,
+            "src": "art/2026-10-08-10/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-08-10.webp",
+      "audio": "audio/2026-10-08-10.mp3",
+      "cover_video": "thumbs/2026-10-08-10.mp4"
+    },
+    {
       "id": "2026-10-08-09",
       "hour": "09:00",
       "date": "2026-10-08",
