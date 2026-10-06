@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-06-06",
-      "date": "2026-10-06",
-      "hour": "06:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Robert Monroe Gateway Experience Hemi-Sync archives, Yuri Shvets on KGB psychotronic myths vs SRI data"
-    },
-    {
       "id": "2026-10-06-07",
       "date": "2026-10-06",
       "hour": "07:00",
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Defense procurement revolving doors, dark money PAC funding in swing states, and Yuri Shvets analysis on intelligence leaks"
+    },
+    {
+      "id": "2026-10-06-08",
+      "date": "2026-10-06",
+      "hour": "08:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Black Sea naval drone perimeter defenses, Russian refinery vulnerability mapping, and Yuri Shvets on Western summit backchannels"
     }
   ]
 }

@@ -2,6 +2,61 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-06-06",
+      "date": "2026-10-06",
+      "hour": "06:00",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Robert Monroe Gateway Archives, Yuri Shvets on KGB Psychotronics & SRI Telemetry",
+      "subject": "Hourly uncensored breakdown: Yuri Shvets dismantles KGB psychotronic propaganda myths, declassified CIA Monroe Institute Gateway protocols, Ukraine intercepting Shahed navigation relays, and non-local observer reality.",
+      "seconds": 186,
+      "audio": "audio/2026-10-06-06.mp3",
+      "thumb": "thumbs/2026-10-06-06.webp",
+      "cover_video": "thumbs/2026-10-06-06.mp4",
+      "paragraphs": [
+        "Welcome to hour six of ZeroFilter. Let's unpack an intelligence file from ex-KGB analyst Yuri Shvets that cuts straight through decades of disinformation. Shvets documented how Soviet intelligence laundered millions into fraudulent psychotronic weaponry programs in the 1980s\u2014not because mind-control beams actually worked, but because corrupt First Chief Directorate generals needed classified black-budget slush funds to siphon into Austrian bank accounts. Fast-forward to Washington today, and congressional defense markups are pulling the exact same grift: slapping classified labels on speculative boondoggles while real counter-espionage investigations into foreign agent networks inside American think tanks get quietly buried.",
+        "On the active frontlines in Ukraine, electronic warfare units just successfully jammed and spoofed the satellite guidance feeds of forty incoming Russian-Iranian Shahed drones, forcing them to crash harmlessly into open marshlands outside Poltava. Meanwhile, Russian state propagandists continue peddling apocalyptic rhetoric to scare Western policymakers into withholding long-range strike authorizations. As Shvets consistently emphasizes, the Kremlin only backs down when confronted with overwhelming, unhesitating force. Paralyzed diplomatic hesitation isn't caution; it's an invitation for authoritarian escalation.",
+        "Now examine the genuine declassified science of human consciousness: Lieutenant Colonel Wayne McDonnell's landmark 1983 CIA assessment of the Robert Monroe Institute Gateway Experience. Drawing on David Bohm's quantum holography and Karl Pribram's neurophysiology, the analysis concluded that human consciousness is an energy matrix operating outside space-time constraints. When both brain hemispheres achieve synchronized electrical frequency through binaural Hemi-Sync acoustic pulses, the observer transcends local physical interference. Consciousness is not an accidental byproduct of biological meat; it is the foundational operating system of the cosmos.",
+        "In cutting-edge neural engineering, researchers are now miniaturizing this acoustic phase entrainment into sub-millimeter opto-acoustic neural implants. By delivering nanosecond acoustic coherence directly to the thalamus, these non-invasive transceivers stabilize autonomic nervous system feedback without chemical pharmaceuticals, bypassing corporate healthcare monopolies that profit off chronic dependency.",
+        "Compare that with the Stanford Research Institute trials run by Hal Puthoff and Russell Targ. Under strict double-blind conditions verified by the Defense Intelligence Agency, remote viewers repeatedly sketched Soviet submarine construction at Severodvinsk months before satellite reconnaissance confirmed their existence. Dogmatic reductionists still dismiss this because acknowledging non-local consciousness shatters the institutional control paradigms of legacy science.",
+        "Both political machines depend on keeping you anxious, polarized, and mentally asleep. Don't fall for the theater. Verify the source receipts, reject dogmatic gatekeepers, and trust the mathematical coherence of the data. Consciousness is reality; the rest is corporate distraction. Stay sharp, remain free, and I will see you at the top of the next hour. I'm Rex Vance, and this was ZeroFilter."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-06-06/f01.webp",
+            "caption": "KGB psychotronic black-budget slush fund dossiers"
+          },
+          {
+            "t": 32,
+            "src": "art/2026-10-06-06/f02.webp",
+            "caption": "Electronic warfare spoofing grid over Poltava"
+          },
+          {
+            "t": 65,
+            "src": "art/2026-10-06-06/f03.webp",
+            "caption": "CIA Gateway Experience hemispheric synchronization"
+          },
+          {
+            "t": 100,
+            "src": "art/2026-10-06-06/f04.webp",
+            "caption": "Opto-acoustic neural entrainment circuitry"
+          },
+          {
+            "t": 132,
+            "src": "art/2026-10-06-06/f05.webp",
+            "caption": "SRI coordinate remote viewing telemetry"
+          },
+          {
+            "t": 162,
+            "src": "art/2026-10-06-06/f06.webp",
+            "caption": "Rex Vance broadcasting live from bunker"
+          }
+        ]
+      }
+    },
+    {
       "id": "2026-10-06-01",
       "date": "2026-10-06",
       "hour": "01:00",
