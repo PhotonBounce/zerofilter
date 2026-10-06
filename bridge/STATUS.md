@@ -21,11 +21,11 @@
 
 ## 2. Current Working State
 - **Framework:** Universal Autonomous DevOps & 24/7 Keep-Awake Engine active (`schedule(CronExpression="*/5 * * * *", IsDaemon=true)`).
-- **Unit Tests:** `node engine/unit.mjs` — **400 passed, 0 failed clean**.
+- **Unit Tests:** `node engine/unit.mjs` — **408 passed, 0 failed clean**.
 - **State On Disk:**
-  - `status/pipeline_state.json`: Episode 49 completed, 49 total releases published.
-  - `data/queue.json`: Head item is Episode 50 (`2026-10-08-02`).
-  - `data/registry.json`: 49 active releases logged.
+  - `status/pipeline_state.json`: Episode 50 completed, 50 total releases published.
+  - `data/queue.json`: Head item is Episode 51 (`2026-10-08-03`).
+  - `data/registry.json`: 50 active releases logged.
 - **Published Releases (`web/data/episodes.json`):**
   - `2026-10-06-01` (168s) — Quantum Delayed Choice, Pentagon Backdoors & Ukraine Drone Swarms
   - `2026-10-06-02` (152s) — PEAR Lab Anomalies, MAGA Christofascists & DNC PAC Grift
@@ -76,10 +76,11 @@
   - `2026-10-07-23` (175s) — Active Inference in Generative Neural Architectures, Predictive Coding & Soviet Neuro-Cybernetics
   - `2026-10-08-00` (180s) — Pentagon Black Budget Audits, Special Access Program Phantom Line Items & Soviet Gosplan Diversions
   - `2026-10-08-01` (191s) — Topological Insulators, Dissipationless Helical Edge States & Soviet Solid-State Physics Intelligence Rings
+  - `2026-10-08-02` (184s) — Taiwan Strait Undersea Acoustic Hydrophone Barriers, SOSUS Line Arrays & Soviet Submarine Tracking Doctrine
 - **Audio Files:** Synthesized in `web/audio/` using `edge-tts` (`en-US-ChristopherNeural` @ +10% rate, -2Hz pitch).
 - **Video Covers:** 10s looping MP4s in `web/thumbs/` (`.mp4` and `.webp`).
-- **Story Art Frames:** 294 synchronized frames in `web/art/`.
-- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `3bbc0315b9e3f4fa65b41c08230d85d8f8513cee`).
+- **Story Art Frames:** 300 synchronized frames in `web/art/`.
+- **Zero-Branch Production Deployment:** Live at `https://photon-bounce.com/zerofilter/` without touching root (commit `a775dc22d7ada809a057b06b262e9956501545e6`).
 
 ---
 

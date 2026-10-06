@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 49,
+  "total_releases": 50,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -392,6 +392,14 @@
       "title": "Topological Insulators, Dissipationless Helical Edge States & Soviet Solid-State Physics Intelligence Rings",
       "audio": "audio/2026-10-08-01.mp3",
       "cover_video": "thumbs/2026-10-08-01.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-08-02",
+      "seconds": 184,
+      "title": "Taiwan Strait Undersea Acoustic Hydrophone Barriers, SOSUS Line Arrays & Soviet Submarine Tracking Doctrine",
+      "audio": "audio/2026-10-08-02.mp3",
+      "cover_video": "thumbs/2026-10-08-02.mp4",
       "status": "published_production"
     }
   ]
