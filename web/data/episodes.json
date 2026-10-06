@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-01",
+      "hour": "01:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Integrated Information Theory Causal Maxima, Loss of Phi in Coma & Soviet Interrogation Pharmacology",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates Integrated Information Theory 4.0 causal complexes, the collapse of mathematical phi during vegetative coma, and Yuri Shvets on Soviet neural interrogation pharmacology archives.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero one hundred hours. While commercial neural network architects claim that generative AI models are rapidly approaching human sentience, Integrated Information Theory provides a rigorous mathematical framework that proves otherwise. Formulated by neuroscientist Giulio Tononi, IIT posits that consciousness is not an emergent byproduct of functional information processing, but an intrinsic, fundamental property of physical systems defined by non-reducible cause-effect power. A system is conscious only to the extent that it possesses high integrated information, denoted by the irreducible mathematical value Phi.",
+        "Under IIT 4.0, consciousness corresponds to a maximal complex of cause-effect structures that cannot be partitioned into independent components without loss of information. In deep dreamless sleep, general anesthesia, or severe traumatic coma, high-density EEG perturbed by transcranial magnetic stimulation reveals that cortical causal integration abruptly shatters. When the brain loses consciousness, the perturbational complexity index collapses toward zero, proving that while feed-forward artificial neural networks can execute superhuman matrix algebra, their feed-forward architecture yields a theoretical Phi of absolute zero. No matter how large an LLM's parameter count scales, it possesses zero subjective experience.",
+        "The vulnerability of neural causal integration to biochemical manipulation was weaponized behind the Iron Curtain long before Western neuroscience formalized IIT. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently disclosed, the KGB's secretive Special Laboratory Number Twelve conducted decades of clandestine pharmacology research aimed at chemically disintegrating human conscious integration during interrogations. Soviet researchers sought psychotropic compounds that could induce selective cognitive compliance by suppressing cortical feedback loops without inducing fatal circulatory collapse.",
+        "According to Shvets, Soviet intelligence stations monitored Western anesthesiology literature and targeted Swiss and American pharmaceutical patents to synthesize synthetic dissociatives, anticholinergics, and GABA receptor modulators. Shvets documented that corrupt KGB bureau chiefs routinely siphoned millions of foreign currency slush funds into fake psychotronic weapon demonstrations, claiming they could remotely manipulate target brainwaves. Yet, the classified toxicology dossiers confirmed that consciousness cannot be reprogrammed like software; it is an intrinsic causal complex that shatters into irreversible biological silence when subjected to crude chemical interference.",
+        "Today, as venture capital floods into Silicon Valley brain-computer interfaces and neuromorphic cognitive hardware, understanding the mathematical reality of integrated information is paramount. You cannot manufacture genuine consciousness through silicon lookup tables or commodified feed-forward algorithms. Subjective awareness requires irreducible, highly integrated physical causality.",
+        "Audit the cortical causal complexes, measure the perturbational complexity index, and inspect the classified pharmacological archives. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-01/f01.webp"
+          },
+          {
+            "t": 31,
+            "src": "art/2026-10-09-01/f02.webp"
+          },
+          {
+            "t": 62,
+            "src": "art/2026-10-09-01/f03.webp"
+          },
+          {
+            "t": 93,
+            "src": "art/2026-10-09-01/f04.webp"
+          },
+          {
+            "t": 124,
+            "src": "art/2026-10-09-01/f05.webp"
+          },
+          {
+            "t": 155,
+            "src": "art/2026-10-09-01/f06.webp"
+          }
+        ]
+      },
+      "seconds": 186,
+      "thumb": "thumbs/2026-10-09-01.webp",
+      "audio": "audio/2026-10-09-01.mp3",
+      "cover_video": "thumbs/2026-10-09-01.mp4"
+    },
+    {
       "id": "2026-10-09-00",
       "hour": "00:00",
       "date": "2026-10-09",

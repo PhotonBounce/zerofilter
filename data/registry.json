@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 72,
+  "total_releases": 73,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -576,6 +576,14 @@
       "title": "Nonlinear Josephson Parametric Amplifiers, Quantum Squeezed Vacuum & Soviet Low-Noise Radar Cryptanalysis",
       "audio": "audio/2026-10-09-00.mp3",
       "cover_video": "thumbs/2026-10-09-00.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-09-01",
+      "seconds": 186,
+      "title": "Integrated Information Theory Causal Maxima, Loss of Phi in Coma & Soviet Interrogation Pharmacology",
+      "audio": "audio/2026-10-09-01.mp3",
+      "cover_video": "thumbs/2026-10-09-01.mp4",
       "status": "published_production"
     }
   ]

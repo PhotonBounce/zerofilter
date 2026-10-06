@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-01",
-      "date": "2026-10-09",
-      "hour": "01:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Integrated information theory high-order causal architecture, loss of integrated phi in deep coma, and Yuri Shvets on Soviet neural interrogation pharmacology"
-    },
-    {
       "id": "2026-10-09-02",
       "date": "2026-10-09",
       "hour": "02:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Special Access Program financial obfuscation, defense intelligence SAP unvouchered funds, and Yuri Shvets on KGB First Chief Directorate clandestine bank accounts"
+    },
+    {
+      "id": "2026-10-09-04",
+      "date": "2026-10-09",
+      "hour": "04:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Rydberg atom electric field sensing, quantum radio-frequency receivers, and Yuri Shvets on Soviet microwave spectrum surveillance"
     }
   ]
 }
