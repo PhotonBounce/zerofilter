@@ -158,6 +158,60 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
             py = cy + int(math.sin(angle) * dist)
             draw.ellipse([px - 2, py - 2, px + 2, py + 2], fill=(255, 240, 120), outline=(255, 255, 255))
 
+    elif theme in ("orbital_qkd", "space_sigint"):
+        # Orbital QKD Downlinks & Space-Based SIGINT Laser Architecture
+        # 1. Earth limb curved horizon (large arc at bottom)
+        earth_cy = height + 400
+        earth_r = 750
+        draw.ellipse([cx - earth_r, earth_cy - earth_r, cx + earth_r, earth_cy + earth_r], fill=(4, 18, 30), outline=(0, 160, 220), width=2)
+        # Atmospheric glow layer
+        for dr in range(2, 28, 4):
+            alpha_atm = int(120 * (1.0 - dr / 28.0))
+            draw.ellipse([cx - (earth_r + dr), earth_cy - (earth_r + dr), cx + (earth_r + dr), earth_cy + (earth_r + dr)], outline=(0, alpha_atm, int(alpha_atm * 1.5)), width=2)
+
+        # 2. Orbital altitude tracks & constellation planes
+        for alt in [160, 240, 320]:
+            draw.arc([cx - (earth_r + alt), earth_cy - (earth_r + alt), cx + (earth_r + alt), earth_cy + (earth_r + alt)], start=210, end=330, fill=(15, 60, 90), width=1)
+
+        # 3. Satellites and laser downlink conduits
+        sats = [
+            (cx - 380, 140, "QKD-SAT #01 [LEO 510km]"),
+            (cx, 90, "QKD-SAT #02 [PRIMARY BEACON]"),
+            (cx + 360, 150, "SIGINT-RELAY #03 [MOLNIYA-O]")
+        ]
+        ground_stations = [
+            (cx - 240, height - 70, "GS-NORD [67.8°N]"),
+            (cx + 180, height - 85, "GS-MID [38.2°N]")
+        ]
+
+        # Draw laser downlinks (pencil-thin beams with glow)
+        for sx, sy, _ in sats:
+            for gx, gy, _ in ground_stations:
+                if abs(sx - gx) < 450:
+                    draw.line([(sx, sy), (gx, gy)], fill=(0, 255, 200), width=2)
+                    draw.line([(sx - 1, sy), (gx - 1, gy)], fill=(0, 120, 255), width=1)
+                    draw.line([(sx + 1, sy), (gx + 1, gy)], fill=(0, 120, 255), width=1)
+                    # Mid-path atmospheric decoherence scintillation blips
+                    for step in range(3, 8):
+                        mx = sx + (gx - sx) * (step / 8.0)
+                        my = sy + (gy - sy) * (step / 8.0)
+                        if my > height - 180:
+                            draw.ellipse([mx - 3, my - 3, mx + 3, my + 3], outline=(255, 120, 50), width=1)
+
+        # Render Satellites (body + solar panels)
+        for sx, sy, label in sats:
+            # Solar panels
+            draw.rectangle([sx - 24, sy - 4, sx - 8, sy + 4], fill=(0, 120, 200), outline=(0, 220, 255))
+            draw.rectangle([sx + 8, sy - 4, sx + 24, sy + 4], fill=(0, 120, 200), outline=(0, 220, 255))
+            # Bus
+            draw.rectangle([sx - 7, sy - 7, sx + 7, sy + 7], fill=(240, 240, 255), outline=(0, 255, 220), width=2)
+            draw.text((sx - 60, sy - 24), label, fill=(0, 255, 240))
+
+        # Render Ground Station radomes
+        for gx, gy, label in ground_stations:
+            draw.ellipse([gx - 12, gy - 12, gx + 12, gy + 12], fill=(20, 80, 120), outline=(0, 255, 200), width=2)
+            draw.text((gx - 40, gy + 14), label, fill=(0, 220, 255))
+
     else:
         # Quantum / Consciousness wave field
         for r in range(max(width, height), 0, -16):
@@ -210,6 +264,8 @@ def generate_cover(width=1280, height=720, theme="geopolitics", title=""):
         draw.text((40, 60), "DEFENSE PROCUREMENT FORENSICS // AUDIT TRAIL: COST-PLUS CARTELS // UNREDACTED", fill=(255, 90, 70))
     elif theme == "vc_theft":
         draw.text((40, 60), "DEFENSE VC FORENSICS // DUAL-USE TECH DIVERSION // DIRECTORATE T INTERCEPT", fill=(255, 120, 50))
+    elif theme in ("orbital_qkd", "space_sigint"):
+        draw.text((40, 60), "ORBITAL QKD DOWNLINK // 1550nm ADAPTIVE OPTICS // 500KM LEO TRACK // GROUND SIGINT CONDUIT", fill=(0, 255, 200))
     elif theme in ("holographic", "scrambler"):
         draw.text((40, 60), "HAYDEN-PRESKILL QUANTUM SCRAMBLING // EVENT HORIZON HAWKING EMISSION // ADS/CFT HORIZON", fill=(200, 160, 255))
     elif theme in ("conscious_agents", "hoffman"):

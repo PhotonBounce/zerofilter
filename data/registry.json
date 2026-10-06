@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 23,
+  "total_releases": 24,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -184,6 +184,14 @@
       "title": "Holographic Information Scrambling, Black Hole Horizons & Cyprus Tech Laundering",
       "audio": "audio/2026-10-06-23.mp3",
       "cover_video": "thumbs/2026-10-06-23.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-07-00",
+      "seconds": 183,
+      "title": "Orbital QKD Downlinks, Deep-Space Laser Comms & Soviet Cosmic SIGINT Lineage",
+      "audio": "audio/2026-10-07-00.mp3",
+      "cover_video": "thumbs/2026-10-07-00.mp4",
       "status": "published_production"
     }
   ]

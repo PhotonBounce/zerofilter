@@ -2,20 +2,20 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-00",
-      "date": "2026-10-07",
-      "hour": "00:00",
-      "category": "geopolitics",
-      "priority": "normal",
-      "intel_focus": "Satellite QKD constellation decoherence, deep-space optical links, and Yuri Shvets on KGB space-based SIGINT interception facilities"
-    },
-    {
       "id": "2026-10-07-01",
       "date": "2026-10-07",
       "hour": "01:00",
       "category": "quantum",
       "priority": "normal",
       "intel_focus": "Quantum vacuum Casimir micro-thrusters, orbital optical lattices, and Yuri Shvets on Russian space-based kinetic anti-satellite development programs"
+    },
+    {
+      "id": "2026-10-07-02",
+      "date": "2026-10-07",
+      "hour": "02:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Integrated Information Theory (IIT 4.0), non-local causal structures, and Yuri Shvets on KGB psychotropic interrogation drugs & cognitive degradation files"
     }
   ]
 }

@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-07-00",
+      "hour": "00:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "title": "Orbital QKD Downlinks, Deep-Space Laser Comms & Soviet Cosmic SIGINT Lineage",
+      "subject": "Hourly uncensored breakdown: Rex Vance analyzes orbital quantum key distribution constellations and atmospheric decoherence alongside ex-KGB Major Yuri Shvets's revelations on Soviet space-based SIGINT interception architectures.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero hundred hours. Midnight in the geopolitical battlespace, where the race for unhackable quantum communications collides with orbital electronic warfare. Low Earth orbit has become the supreme high ground for cryptographic supremacy. Through spaceborne quantum key distribution satellites, defense ministries and intelligence cartels attempt to beam polarization-entangled photons across thousands of kilometers of vacuum, seeking to render strategic communications mathematically immune to cryptanalysis before adversarial quantum supercomputers crack RSA-4096.",
+        "But space surveillance is not an invention of the twenty-first century. As Washington counter-intelligence insider and former KGB Major Yuri Shvets has documented, Soviet intelligence pioneered space-based SIGINT through secret directorate satellites and mountain interception arrays like the Lourdes SIGINT station in Cuba. Shvets revealed that Moscow's primary objective was never just reading unencrypted messages, but mapping the physical transmission corridors, signal attenuation profiles, and ground-station telemetry to prepare targeted electronic countermeasures.",
+        "In free-space quantum key distribution, the fundamental adversary is not an eavesdropper listening on the wire—it is atmospheric turbulence. When a satellite beams a single-photon stream from a five-hundred-kilometer orbit down to an optical ground station, atmospheric beam wandering, scintillation, and photon absorption induce severe decoherence. A beam aperture that begins at thirty centimeters expands into a five-meter optical footprint at ground level. If an adversary positions a high-altitude drone or a high-gain collector within that perimeter, they can siphon off photons and induce quantum bit error rate spikes that force the entire link into blackout.",
+        "This physical bottleneck explains why China's Micius satellite program and the Pentagon's Space Development Agency are racing to field dense low-Earth-orbit constellations with adaptive optics and inter-satellite crosslinks. By routing cryptographic keys through space vacuum rather than atmospheric boundaries, orbital networks minimize decoherence. But as Russian electronic warfare units test high-power ground-based blinding lasers at Krona facilities in the North Caucasus, the line between signal jamming and orbital anti-satellite warfare has effectively dissolved.",
+        "Securing the next generation of orbital quantum communications requires deploying multi-layer hybrid encryption architectures. Space agencies must combine hardware-entangled quantum downlinks with post-quantum lattice-based algorithms, multi-path routing across distributed CubeSat meshes, and dynamic spatial filtering to reject hostile dazzling lasers. In orbital counter-intelligence, redundancy is survival: if an adversary blinds your primary optical downlink, your network must instantaneously reroute through deep-space relay nodes before the security key expires.",
+        "Entangled photons travel at the speed of light, but they cannot outrun geopolitical realities. Trace the orbital telemetry, monitor the ground stations, and never forget that whoever controls the optical corridor controls the cryptographic frontier. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "seconds": 183,
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-07-00/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-07-00/f02.webp"
+          },
+          {
+            "t": 61,
+            "src": "art/2026-10-07-00/f03.webp"
+          },
+          {
+            "t": 92,
+            "src": "art/2026-10-07-00/f04.webp"
+          },
+          {
+            "t": 122,
+            "src": "art/2026-10-07-00/f05.webp"
+          },
+          {
+            "t": 152,
+            "src": "art/2026-10-07-00/f06.webp"
+          }
+        ]
+      },
+      "thumb": "thumbs/2026-10-07-00.webp",
+      "audio": "audio/2026-10-07-00.mp3",
+      "cover_video": "thumbs/2026-10-07-00.mp4"
+    },
+    {
       "id": "2026-10-06-23",
       "hour": "23:00",
       "date": "2026-10-06",
