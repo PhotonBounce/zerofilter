@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-07-12",
-      "date": "2026-10-07",
-      "hour": "12:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Defense AI contract non-competes, revolving-door Pentagon advisory boards, and Yuri Shvets on Soviet special department kickback rings"
-    },
-    {
       "id": "2026-10-07-13",
       "date": "2026-10-07",
       "hour": "13:00",
@@ -24,6 +16,14 @@
       "category": "geopolitics",
       "priority": "normal",
       "intel_focus": "Arctic undersea mineral rights, Svalbard cable sabotage risks, and Yuri Shvets on Russian Northern Fleet submarine deployments"
+    },
+    {
+      "id": "2026-10-07-15",
+      "date": "2026-10-07",
+      "hour": "15:00",
+      "category": "consciousness",
+      "priority": "normal",
+      "intel_focus": "Anomalous cognitive entanglement, PEAR random event generator field effects, and Yuri Shvets on KGB psychic research funding diverts"
     }
   ]
 }

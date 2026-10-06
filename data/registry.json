@@ -1,6 +1,6 @@
 {
   "registry_version": "1.0",
-  "total_releases": 35,
+  "total_releases": 36,
   "episodes": [
     {
       "id": "2026-10-06-01",
@@ -280,6 +280,14 @@
       "title": "Penrose Orch-OR Gravitational Collapse, Anesthetic Binding & Soviet Bio-Telemetry",
       "audio": "audio/2026-10-07-11.mp3",
       "cover_video": "thumbs/2026-10-07-11.mp4",
+      "status": "published_production"
+    },
+    {
+      "id": "2026-10-07-12",
+      "seconds": 174,
+      "title": "Defense AI Non-Competes, Revolving-Door Advisory Boards & Soviet Kickback Rings",
+      "audio": "audio/2026-10-07-12.mp3",
+      "cover_video": "thumbs/2026-10-07-12.mp4",
       "status": "published_production"
     }
   ]
