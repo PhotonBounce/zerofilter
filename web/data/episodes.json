@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-10-15",
+      "hour": "15:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Counterfeit Fastener & Micro-Inspection Fraud, OTK Bribes & Soviet Military QA Collusion",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates congressional defense audits exposing defense contractors bypassing mandatory non-destructive x-ray and hardness testing on counterfeit grade-8 fasteners and microelectronics, and Yuri Shvets on Soviet OTK quality control corruption.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is fifteen hundred hours. When high-performance fighter jets pull nine-G maneuvers, nuclear attack submarines dive past crush depth, and missile launch platforms withstand supersonic vibrational stress, every single component must adhere to uncompromising metallurgical standards. The smallest failure point—a single substandard titanium bolt or an unvetted circuit package—can cause catastrophic structural failure. Yet federal defense audits and whistleblower disclosures reveal an endemic procurement scandal: defense prime contractors bypassing mandatory quality assurance and accepting forged test certificates on counterfeit fasteners and uninspected microelectronics.",
+        "Federal procurement specifications mandate that critical aerospace fasteners undergo 100-percent non-destructive x-ray flaw detection, eddy current inspection, and destructive tensile hardness testing. Instead of maintaining independent laboratory oversight, major subcontractors rely on self-certification from gray-market distributors who source cheap commercial-grade carbon steel from overseas, plate it to mimic mil-spec zinc-nickel finishes, and forge metallurgical test reports. When installed in jet turbine mounts or missile stage separation rings, these bogus fasteners experience premature shear failure under operational load, endangering pilots and crippling fleet readiness.",
+        "This institutionalized falsification of military quality control is the direct Western manifestation of the industrial corruption that degraded Soviet military hardware for decades. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively detailed, Soviet defense factories operated under the pervasive myth of OTK—the Department of Technical Control—which was supposedly an incorruptible military inspection watchdog.",
+        "According to Shvets, OTK quality inspectors were routinely co-opted by factory directors whose promotions and state bonuses depended on fulfilling Gosplan production quotas regardless of defect rates. When military-grade titanium or hardened alloy bolts were diverted to the black market, Soviet plant managers substituted brittle commercial steel and simply bribed military acceptance officers with vodka, luxury goods, and falsified inspection stamps. Shvets revealed that Soviet armored vehicles and naval vessels regularly rolled out of production halls with defective armor welds and counterfeit bearings, causing widespread breakdowns that were classified as state secrets to conceal systemic industrial failure.",
+        "Decades later, cost-plus Pentagon contractors have perfected this same culture of compromised oversight. By outsourcing component procurement to dizzying webs of intermediary brokers and pocketing taxpayer funds allocated for laboratory testing, defense cartels trade structural integrity for quarterly profit margins. When defective bolts crack on frontline airframes, internal defense reviews classify the incidents under proprietary non-disclosure agreements, shielding corporate executives while shifting the catastrophic risk entirely onto service members.",
+        "Audit every tier of military hardware distribution, enforce criminal penalties for forged metallurgical and microelectronic test certificates, and remember that when defense inspections are treated as optional paperwork, the entire war machine rots from the inside out. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-15/f01.webp"
+          },
+          {
+            "t": 32,
+            "src": "art/2026-10-10-15/f02.webp"
+          },
+          {
+            "t": 64,
+            "src": "art/2026-10-10-15/f03.webp"
+          },
+          {
+            "t": 96,
+            "src": "art/2026-10-10-15/f04.webp"
+          },
+          {
+            "t": 127,
+            "src": "art/2026-10-10-15/f05.webp"
+          },
+          {
+            "t": 159,
+            "src": "art/2026-10-10-15/f06.webp"
+          }
+        ]
+      },
+      "seconds": 191,
+      "thumb": "thumbs/2026-10-10-15.webp",
+      "audio": "audio/2026-10-10-15.mp3",
+      "cover_video": "thumbs/2026-10-10-15.mp4"
+    },
+    {
       "id": "2026-10-10-14",
       "hour": "14:00",
       "date": "2026-10-10",
