@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-15",
+      "hour": "15:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "corruption",
+      "title": "Defense Microelectronics Testing Waivers, Mil-Spec Falsification & Soviet Line X Silicon Harvests",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates Department of Defense microelectronics testing waivers, commercial off-the-shelf mil-spec certification fraud, and Yuri Shvets on Soviet Line X clandestine silicon diversion networks.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is fifteen hundred hours. Across the Pentagon's premier weapons platforms—from fifth-generation stealth fighters to ballistic missile defense interceptors—the integrity of guidance microelectronics is supposed to be guaranteed by rigorous military specification testing standards. Yet behind classified procurement dockets, the Department of Defense routinely grants blanket testing waivers to major defense primes, allowing untested, commercial off-the-shelf semiconductors and gray-market field-programmable gate arrays to bypass temperature cycling, radiation hardening, and destructive physical analysis.",
+        "This systemic evasion of mil-spec certification is driven by cost-plus defense margins and critical supply chain shortages. Independent testing labs have repeatedly flagged batches of microprocessors destined for frontline missile guidance modules that were remarked, resurfaced, and falsely certified as genuine military-grade silicon by secondary gray-market brokers in Shenzhen and Singapore. When defense primes accept testing waivers to avoid delivery penalty clauses, they install microscopic single-point-of-failure vulnerabilities directly into critical national security infrastructure.",
+        "This lucrative exploitation of compromised microelectronics channels is the modern Western mirror of Soviet clandestine technology acquisition. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has extensively disclosed, the Soviet Union's entire military industrial complex was terminally reliant on stealing Western integrated circuits. Through the First Chief Directorate's Directorate T and its dedicated Line X scientific and technical intelligence officers, the KGB operated global semiconductor diversion networks.",
+        "According to Shvets, Soviet defense research institutes could never match Western photolithography precision or cleanroom yields. To supply guidance chips for Soviet intercontinental ballistic missiles and naval radars, Line X officers established hundreds of dummy front companies across West Germany, Switzerland, and Japan. Shvets revealed that corrupt Western distributors eagerly sold embargoed microelectronics to KGB agents for tenfold markups in hard currency, falsifying end-user certificates while Western export enforcement agencies were bribed or systematically outmaneuvered.",
+        "Today, the flow has reversed, but the structural corruption remains identical. By relying on unvetted global component brokers and granting routine testing waivers, the Pentagon has effectively outsourced the nervous system of American weapons systems to the very gray-market networks penetrated by hostile intelligence services. When a guided missile guidance computer fails in flight, the root cause is rarely an adversary's electronic countermeasures; it is the certified failure of a compromised chip.",
+        "Audit the Pentagon microelectronics waiver ledgers, subpoena the counterfeit broker networks, and demand verified mil-spec silicon. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-15/f01.webp"
+          },
+          {
+            "t": 28,
+            "src": "art/2026-10-09-15/f02.webp"
+          },
+          {
+            "t": 57,
+            "src": "art/2026-10-09-15/f03.webp"
+          },
+          {
+            "t": 85,
+            "src": "art/2026-10-09-15/f04.webp"
+          },
+          {
+            "t": 113,
+            "src": "art/2026-10-09-15/f05.webp"
+          },
+          {
+            "t": 142,
+            "src": "art/2026-10-09-15/f06.webp"
+          }
+        ]
+      },
+      "seconds": 170,
+      "thumb": "thumbs/2026-10-09-15.webp",
+      "audio": "audio/2026-10-09-15.mp3",
+      "cover_video": "thumbs/2026-10-09-15.mp4"
+    },
+    {
       "id": "2026-10-09-14",
       "hour": "14:00",
       "date": "2026-10-09",

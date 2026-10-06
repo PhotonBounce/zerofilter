@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-15",
-      "date": "2026-10-09",
-      "hour": "15:00",
-      "category": "corruption",
-      "priority": "normal",
-      "intel_focus": "Defense microelectronics counterfeit testing waivers, military mil-spec certification fraud, and Yuri Shvets on Soviet Line X gray-market silicon harvesting"
-    },
-    {
       "id": "2026-10-09-16",
       "date": "2026-10-09",
       "hour": "16:00",
@@ -24,6 +16,14 @@
       "category": "consciousness",
       "priority": "normal",
       "intel_focus": "Integrated Information Theory (IIT 4.0) cause-effect structures, coma perturbational complexity index (PCI), and Yuri Shvets on Soviet psychotropic interrogation files"
+    },
+    {
+      "id": "2026-10-09-18",
+      "date": "2026-10-09",
+      "hour": "18:00",
+      "category": "geopolitics",
+      "priority": "normal",
+      "intel_focus": "Red Sea subsea cable cut cascades, Bab el-Mandeb fiber bottlenecks, and Yuri Shvets on Soviet Horn of Africa naval reconnaissance and seabed sabotage lineage"
     }
   ]
 }
