@@ -2,14 +2,6 @@
   "queue_version": "1.0",
   "pending_episodes": [
     {
-      "id": "2026-10-09-05",
-      "date": "2026-10-09",
-      "hour": "05:00",
-      "category": "consciousness",
-      "priority": "normal",
-      "intel_focus": "Predictive processing in visual hallucinations, Bayesian priors during sensory deprivation, and Yuri Shvets on KGB psychotronic isolation experiments"
-    },
-    {
       "id": "2026-10-09-06",
       "date": "2026-10-09",
       "hour": "06:00",
@@ -24,6 +16,14 @@
       "category": "corruption",
       "priority": "normal",
       "intel_focus": "Defense microelectronics gray market brokers, counterfeit FPGA diversion to sanctioned Russian drone plants, and Yuri Shvets on Line X semiconductor smuggling"
+    },
+    {
+      "id": "2026-10-09-08",
+      "date": "2026-10-09",
+      "hour": "08:00",
+      "category": "quantum",
+      "priority": "normal",
+      "intel_focus": "Diamond NV nitrogen-vacancy center atomic gravimetry, subterranean GPS-denied bunker mapping, and Yuri Shvets on Soviet deep underground bunker detection"
     }
   ]
 }

@@ -2,6 +2,55 @@
   "updated": "2026-10-06T05:00:00Z",
   "episodes": [
     {
+      "id": "2026-10-09-05",
+      "hour": "05:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "consciousness",
+      "title": "Predictive Processing in Visual Hallucinations, Bayesian Priors in Sensory Deprivation & KGB Isolation Experiments",
+      "subject": "Hourly uncensored breakdown: Rex Vance investigates hierarchical predictive processing in the visual cortex, the unconstrained dominance of internal Bayesian priors during sensory deprivation, and Yuri Shvets on KGB psychotronic sensory isolation protocols.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero five hundred hours. In classical neuroscience, perception was long modeled as a passive, feed-forward process where sensory organs convert external light and sound into internal mental representations. However, modern cognitive science and Karl Friston's Free Energy Principle have demonstrated the inverse: perception is fundamentally an active, top-down process of predictive inference. The human brain is a hierarchical Bayesian prediction engine, constantly generating internal hypothesis models of reality and projecting them downward through the cortical hierarchy.",
+        "What we consciously experience is not raw external reality, but the brain's best guess—a controlled hallucination continuously updated by incoming prediction errors. When external sensory inputs are radically attenuated in sensory deprivation chambers, flotation tanks, or pitch-black isolation, incoming prediction errors drop to zero. Deprived of bottom-up sensory corrections, the precision weighting assigned to top-down Bayesian priors skyrockets. The cortical hierarchy begins treating internal priors as objective external phenomena, manifesting vivid, fully immersive visual and auditory hallucinations out of sheer mathematical statistical necessity.",
+        "This computational mechanism of consciousness was exploited for coercive interrogation and cognitive dismantling decades before computational neuroscience formalized predictive coding. As former KGB foreign intelligence officer and Washington counter-intelligence analyst Yuri Shvets has frequently detailed, Soviet intelligence agencies turned sensory deprivation into an exact behavioral weapon. The KGB's Lefortovo and Lubyanka isolation facilities featured specialized acoustic and sensory isolation cells engineered to systematically starve political prisoners of all sensory feedback.",
+        "According to Shvets, Soviet handlers recognized that complete sensory isolation rapidly unmoored the subject's internal cognitive models, inducing spontaneous hallucinatory states and extreme psychological compliance within seventy-two hours. Shvets documented that corrupt KGB department heads exploited these psychological experiments to justify massive unvouchered budgets for alleged psychotronic and telepathic mind-control weapons. While their claims of remote mental subjugation were fraudulent scams designed to siphon state gold, the underlying reality of sensory deprivation was brutally real: sever the predictive error loop, and the conscious mind rapidly consumes itself.",
+        "Today, as virtual reality, generative synthetic media, and immersion headsets colonize human visual attention, understanding predictive processing is critical. Whoever controls the stream of sensory prediction errors controls the perceived reality of the subject. When synthetic inputs replace empirical observation, human cognition reverts to manufactured priors.",
+        "Audit the Bayesian precision weights, trace the sensory prediction error loops, and inspect the classified isolation dossiers. I'm Rex Vance. Keep your filters at absolute zero."
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-05/f01.webp"
+          },
+          {
+            "t": 29,
+            "src": "art/2026-10-09-05/f02.webp"
+          },
+          {
+            "t": 59,
+            "src": "art/2026-10-09-05/f03.webp"
+          },
+          {
+            "t": 88,
+            "src": "art/2026-10-09-05/f04.webp"
+          },
+          {
+            "t": 117,
+            "src": "art/2026-10-09-05/f05.webp"
+          },
+          {
+            "t": 147,
+            "src": "art/2026-10-09-05/f06.webp"
+          }
+        ]
+      },
+      "seconds": 176,
+      "thumb": "thumbs/2026-10-09-05.webp",
+      "audio": "audio/2026-10-09-05.mp3",
+      "cover_video": "thumbs/2026-10-09-05.mp4"
+    },
+    {
       "id": "2026-10-09-04",
       "hour": "04:00",
       "date": "2026-10-09",
