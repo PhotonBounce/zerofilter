@@ -1,0 +1,1051 @@
+{
+  "hour": "2026-10-07T04:00:00.000Z",
+  "captured_at": "2026-10-07T04:24:55.960Z",
+  "clock_skew_s": 1,
+  "feeds": [
+    {
+      "id": "kyiv-independent",
+      "status": "ok",
+      "count": 15
+    },
+    {
+      "id": "dod-releases",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "id": "bbc-world",
+      "status": "ok",
+      "count": 25
+    },
+    {
+      "id": "npr-politics",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "id": "arxiv-quant-ph",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "id": "nature",
+      "status": "ok",
+      "count": 43
+    },
+    {
+      "id": "prl",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "id": "biorxiv-neuro",
+      "status": "ok",
+      "count": 30
+    },
+    {
+      "id": "shvets-youtube",
+      "status": "error",
+      "error": "HTTP 404"
+    }
+  ],
+  "items": [
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/russia-slams-kyiv-in-mass-missile-drone-attack-on-putins-74th-birthday/",
+      "title": "At least 2 killed Kyiv as Russia slams capital with missile, drones on Putin's 74th birthday",
+      "published": "2026-10-07T00:25:09.000Z",
+      "summary": "Explosions rocked Kyiv overnight on Oct. 7 as Moscow launched its latest mass missile and drone attack on the capital, coinciding with Russian President Vladimir Putin's 74th birthday."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/armed-individuals-from-belarus-threaten-latvian-soldiers-at-border-followed-by-another-breach/",
+      "title": "Armed individuals from Belarus threaten Latvian soldiers at border, followed by another breach",
+      "published": "2026-10-06T21:24:17.000Z",
+      "summary": "\"The escorts of the illegal migrants, who were located on the Belarusian side, were armed, issued threats to (Latvian) soldiers, and also actively urged and drove the migrant group toward Latvia,\" Latvian Interior Minister Janis Dombrava said."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/zelensky-warns-russia-preparing-mass-strike/",
+      "title": "Zelensky warns Russia preparing mass strike",
+      "published": "2026-10-06T18:09:07.000Z",
+      "summary": "Zelensky called on Ukraine's allies, particular in Europe and the U.S., to transfer any means of protection to the country if they can."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-civilian-vessels-in-black-sea-off-bulgarias-coast/",
+      "title": "Ukraine war latest: Russia strikes civilian vessels in Black Sea off Bulgaria's coast",
+      "published": "2026-10-06T17:59:51.000Z",
+      "summary": "Key developments on Oct. 6: Drones strike merchant vessels in Black Sea off Bulgaria and Ukraine, killing at least one Russian losses to Ukrainian drones surge in early October, Madyar says Despite intensified Russian attacks, 62% of Ukrainians ready to endure war as long as needed, poll finds Shadow fleet"
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/shadow-fleet-tanker-reportedly-ablaze-near-russian-port-city-sochi/",
+      "title": "Shadow fleet tanker reportedly ablaze near Russian port city Sochi",
+      "published": "2026-10-06T17:36:35.000Z",
+      "summary": "The ship may have been attacked by unmanned surface vessels, Russian Telegram channels suggest."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/poland-to-deploy-patriots-near-ukrainian-border-announces-26-billion-civil-defense-plan/",
+      "title": "Poland to deploy Patriots near Ukrainian border, announces $26 billion civil defense plan",
+      "published": "2026-10-06T16:50:50.000Z",
+      "summary": "The money will be spent on shelters, equipment, rescue bases, stockpiles, and secure water and energy supplies in case of natural disasters and war, according to Prime Minister Donald Tusk."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/klitschkos-promise-of-50-mobile-shelters-for-kyiv-set-to-fall-far-short/",
+      "title": "Klitschko's promise of 50 mobile shelters for Kyiv set to fall far short",
+      "published": "2026-10-06T16:18:44.000Z",
+      "summary": "The city administration said the district administrations did not request funding for mobile shelters when the budget was drafted."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/europe-is-learning-the-wrong-lesson-from-russias-drone-war-2/",
+      "title": "Europe is learning the wrong lesson from Russia's drone war",
+      "published": "2026-10-06T15:44:08.000Z",
+      "summary": "European governments are preparing for a form of confrontation that their current investments do not fully match. While Russian-linked sabotage usually uses drones, logistics networks, criminal intermediaries, and deniable proxies against European cities, official policies and national strategies remain focused on detecting and intercepting each incident as it arises. This"
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/russian-losses-to-ukrainian-drones-surge-in-early-october-madyar-says/",
+      "title": "Russian losses to Ukrainian drones surge in early October, Madyar says",
+      "published": "2026-10-06T15:06:46.000Z",
+      "summary": "Between Oct. 1 and Oct. 5, Ukrainian Unmanned Systems Forces recorded 2,699 Russian troops killed or wounded, compared with 1,931 during the same period in September, Robert Brovdi, commander of Ukraine's Unmanned Systems Forces, said."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/everything-you-need-to-know-about-eus-first-step-to-making-ukraines-membership-real/",
+      "title": "Everything you need to know about EU's first step to making Ukraine's membership real",
+      "published": "2026-10-06T14:06:40.000Z",
+      "summary": "\"As enlargement countries advance on their path of reform, the EU must be ready to welcome them,\" Commission President Ursula von der Leyen said in a press release."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/rubio-presses-russia-for-answers-over-suspected-plague-death-in-siberia/",
+      "title": "Rubio presses Russia for answers over suspected plague death in Siberia",
+      "published": "2026-10-06T14:06:04.000Z",
+      "summary": "\"We're watching it very closely, hour by hour,\" U.S. Secretary of State Marco Rubio said."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/the-price-of-doing-business-in-russia/",
+      "title": "The price of doing business in Russia",
+      "published": "2026-10-06T12:54:43.000Z",
+      "summary": "When Moscow launched its full-scale invasion of Ukraine, most global businesses rushed for the exit. Swiss food and drink firm Nestlé was not among them. The company hunkered down, a decision it framed as ensuring local people's \"right to food.\" It made little difference to"
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/despite-intensified-russian-attacks-62-of-ukrainians-ready-to-endure-war-as-long-as-needed-poll-finds/",
+      "title": "Despite intensified Russian attacks, 62% of Ukrainians ready to endure war as long as needed, poll finds",
+      "published": "2026-10-06T12:47:16.000Z",
+      "summary": "The share has remained largely unchanged since late July and early August, despite the beginning of intensified Russian attacks using jet-powered drones and strikes on civilian infrastructure."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/drones-strike-merchant-vessels-in-black-sea-off-bulgaria-and-ukraine-killing-at-least-one/",
+      "title": "Drones strike merchant vessels in Black Sea off Bulgaria, Ukraine, killing at least 1",
+      "published": "2026-10-06T11:47:58.000Z",
+      "summary": "A Russian drone struck a merchant vessel flying the Marshall Islands flag in the Black Sea. Separately, two merchant ships were hit by drones around 112 kilometers (70 miles) off Bulgaria's coast on Oct. 6."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/escape-from-oleshky-12-people-reached-ukraine-controlled-territory-in-september-official-says/",
+      "title": "Escape from Oleshky — 12 people reached Ukraine-controlled territory in September, official says",
+      "published": "2026-10-06T10:32:50.000Z",
+      "summary": "In recent weeks, some residents have started walking out of Oleshky to the neighboring village of Radensk alone or in pairs, on roads mined by Russian forces."
+    },
+    {
+      "feed": "dod-releases",
+      "kind": "news",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4619430/systems-selected-for-jiatf-401-directed-energy-counter-drone-pilot-program/",
+      "title": "Systems Selected for JIATF 401 Directed-Energy Counter-Drone Pilot Program",
+      "published": "2026-10-05T19:55:07.000Z",
+      "summary": "The War Department announced the directed-energy systems selected following the Joint Interagency Task Force 401's counter-unmanned aircraft systems-directed energy pilot program, marking the next phase of efforts to expand the operational use of high-energy laser and high-powered microwave capabilities."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cq8ezkkkrpy1o?at_medium=RSS&at_campaign=rss",
+      "title": "Fort Hood shooter to be executed by firing squad - a first for US military since World War Two",
+      "published": "2026-10-07T02:06:23.000Z",
+      "summary": "Nidal Malik Hasan killed 13 unarmed soldiers and injured another 32 in the deadliest ever non-combat attack on an American military base."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss",
+      "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
+      "published": "2026-10-07T00:56:59.000Z",
+      "summary": "Experts and lawyers called the apparent recovery unprecedented, noting she is believed to be the only known person to survive a lethal injection."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cq9868z88rexo?at_medium=RSS&at_campaign=rss",
+      "title": "A beautiful Himalayan bird is changing its voice due to human activity, research shows",
+      "published": "2026-10-06T23:07:44.000Z",
+      "summary": "A sharp increase in human activity is affecting the way the Himalayan monal lives and communicates, studies show."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ck054zm1701qo?at_medium=RSS&at_campaign=rss",
+      "title": "Many Nepalis swept away in the floods aren't officially dead, leaving families in limbo",
+      "published": "2026-10-06T22:17:56.000Z",
+      "summary": "Relatives are finding themselves with no compensation and facing an administrative nightmare."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cwm26078pkepo?at_medium=RSS&at_campaign=rss",
+      "title": "Watch: Riot police clash with school protesters and use tear gas in France",
+      "published": "2026-10-06T21:22:22.000Z",
+      "summary": "Hundreds of thousands of people have taken to the streets across France amid a wave of protests by high-school pupils."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6r7yn8pknyxo?at_medium=RSS&at_campaign=rss",
+      "title": "White House defends Trump comment to let Iran 'take out' LA and San Diego",
+      "published": "2026-10-06T20:15:31.000Z",
+      "summary": "Gavin Newsom called the remarks \"deranged\", but the White House said Trump was warning of the risk of a nuclear Iran."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm62ep294qxlo?at_medium=RSS&at_campaign=rss",
+      "title": "From films to streaming prices - how the Warner Bros deal could affect you",
+      "published": "2026-10-06T18:42:58.000Z",
+      "summary": "The deal is expected to alter the entertainment and news industries but could it mean higher prices for consumers?"
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8gxygvpg6o?at_medium=RSS&at_campaign=rss",
+      "title": "Lawyer for one of Cornell 7 calls for special prosecutor to be removed over previous comments",
+      "published": "2026-10-06T18:05:53.000Z",
+      "summary": "New York Attorney General Letitia James is investigating the rape allegations, but the lawyer says comments she made on the case should disqualify her."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c8x23706pvz3o?at_medium=RSS&at_campaign=rss",
+      "title": "Tear gas in Paris and Marseille as school protests grow across France",
+      "published": "2026-10-06T18:03:19.000Z",
+      "summary": "Crowds of mainly teenagers called for more resources for schools and an end to what they called police repression."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cvj6jkx6g1r0o?at_medium=RSS&at_campaign=rss",
+      "title": "Finland orders halt to work on two Google data centres",
+      "published": "2026-10-06T17:15:46.000Z",
+      "summary": "The order affecting two planned data centres follows concerns over forest clearance."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/crly09gz7ew4o?at_medium=RSS&at_campaign=rss",
+      "title": "Separatist party projected to win Quebec election, adding new test to Canada's unity",
+      "published": "2026-10-06T16:51:59.000Z",
+      "summary": "The Parti Québécois, which secured a minority, has vowed to hold an independence referendum in the years to come."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o?at_medium=RSS&at_campaign=rss",
+      "title": "Kenya confirms its first Ebola death as outbreak spreads",
+      "published": "2026-10-06T16:02:32.000Z",
+      "summary": "The patient had been living in DR Congo, where more than 4,000 people have died from the disease this year."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c54g1m2g1pg3o?at_medium=RSS&at_campaign=rss",
+      "title": "AfD candidate elected speaker of German regional parliament for first time",
+      "published": "2026-10-06T14:44:03.000Z",
+      "summary": "Although Tobias Rausch's role is largely symbolic, opponents have described the result as a watershed moment."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/c8e36y796enno?at_medium=RSS&at_campaign=rss",
+      "title": "Watch: How Russia responded to US after plague researcher death",
+      "published": "2026-10-06T13:32:42.000Z",
+      "summary": "The US and Russia have each offered to help each other tackling infectious diseases."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckly02gd1xppo?at_medium=RSS&at_campaign=rss",
+      "title": "US televangelist Jim Bakker, disgraced from sex scandal and fraud, dies at 86",
+      "published": "2026-10-06T13:31:56.000Z",
+      "summary": "Jim Bakker co-founded The PTL Club with his then-wife Tammy Faye before being jailed for fraud and conspiracy."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ck1wvjer20qqo?at_medium=RSS&at_campaign=rss",
+      "title": "Nigeria mourns 25 killed as military plane crashes into swamp",
+      "published": "2026-10-06T12:51:05.000Z",
+      "summary": "President Bola Tinubu describes the crash as a \"painful moment\" for the military and the entire nation."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c65yn3g53dkqo?at_medium=RSS&at_campaign=rss",
+      "title": "Seven arrested for using Ghanaian banknotes to make 'money bouquets'",
+      "published": "2026-10-06T12:00:10.000Z",
+      "summary": "The arrests are part of the country's efforts to curb the misuse and abuse of the national currency."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c8ly0v5r602eo?at_medium=RSS&at_campaign=rss",
+      "title": "Ship sinks and crew missing after Black Sea drone attack",
+      "published": "2026-10-06T11:53:21.000Z",
+      "summary": "It is not clear who is behind the attacks which come as Russia intensifies strikes in the Black Sea as part of its war against Ukraine."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo?at_medium=RSS&at_campaign=rss",
+      "title": "'Ghost particles' from space telescope wins physics Nobel",
+      "published": "2026-10-06T11:24:19.000Z",
+      "summary": "Belgian physicist Prof Francis Halzen has won for his pioneering work on an observatory that detects particles from space."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c58jzyer1kr0o?at_medium=RSS&at_campaign=rss",
+      "title": "Former German spy chief arrested for espionage and treason",
+      "published": "2026-10-06T10:05:42.000Z",
+      "summary": "August Hanning is accused of obtaining classified information for a foreign power."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/crpdgvx82831o?at_medium=RSS&at_campaign=rss",
+      "title": "Indian opposition MPs detained in protest against election chief",
+      "published": "2026-10-06T10:05:22.000Z",
+      "summary": "Opposition leaders have alleged that CEC Gyanesh Kumar manipulated voter rolls to favour Prime Minister Narendra Modi's party during elections."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cr4g1qxzwyj1o?at_medium=RSS&at_campaign=rss",
+      "title": "Fear and disruption for Ukraine's rail passengers as Russia escalates drone attacks",
+      "published": "2026-10-06T09:48:37.000Z",
+      "summary": "Ukrainians travelling by train are increasingly caught in the crosshairs of Russia's attacks."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cqly0lx461m8o?at_medium=RSS&at_campaign=rss",
+      "title": "The small African nation ready for Messi's big night",
+      "published": "2026-10-06T07:50:34.000Z",
+      "summary": "Benin are about to have their own moment in the limelight as they visit Argentina for Lionel Messi's final game."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo?at_medium=RSS&at_campaign=rss",
+      "title": "Yemeni military says it has 'secured' Red Sea waterway",
+      "published": "2026-10-06T07:43:07.000Z",
+      "summary": "Saudi-backed forces gave conflicting reports of whether they had also seized the port city of Mokha, near the Bab al-Mandab Strait."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2qne2j88wo?at_medium=RSS&at_campaign=rss",
+      "title": "OpenAI admits response to Australian government hacks 'not good enough'",
+      "published": "2026-10-06T06:53:17.000Z",
+      "summary": "Top executive Jason Kwon tells hearing company has added \"more precautions\" to its training environments."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/06/g-s1-146626/up-first-newsletter-election-day-skydance-christa-pike-russia-plague-scare",
+      "title": "Dems have edge in midterms, poll shows. And, Paramount-Warner Bros. merger to close",
+      "published": "2026-10-06T11:19:25.000Z",
+      "summary": "Polls are showing that Democrats have a clear advantage heading into the midterms, but that doesn't tell the whole story. And, today, a mega merger between Paramount and Warner Bros. is set to close."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/06/g-s1-146559/morning-edition-2026-midterms-election-voters-states",
+      "title": "What voters in 6 key states could tell us about the 2026 midterms",
+      "published": "2026-10-06T11:00:00.000Z",
+      "summary": "Morning Edition is heading to Maine, Texas, North Carolina, Georgia, Ohio and Michigan to hear what voters say is shaping their choices ahead of the midterm elections."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/06/nx-s1-5986321/kennedy-center-trump-naming-washington",
+      "title": "A history of presidents naming things after themselves (It's short. They rarely do)",
+      "published": "2026-10-06T11:00:00.000Z",
+      "summary": "While Trump pushes to get his name on the Kennedy Center and other public sites, history shows that sitting presidents have almost always avoided putting their brands on government assets."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/06/nx-s1-5991678/with-4-weeks-to-go-a-look-at-where-novembers-big-races-stand",
+      "title": "With 4 weeks to go, a look at where November's big races stand",
+      "published": "2026-10-06T10:53:06.000Z",
+      "summary": "Election Day is four weeks away and people are already voting in the 2026 midterms. Where do things stand in the big races across the country?"
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/06/nx-s1-5991646/what-challenges-lie-ahead-for-the-democratic-party-as-midterms-approach",
+      "title": "What challenges lie ahead for the Democratic Party as midterms approach",
+      "published": "2026-10-06T10:53:02.000Z",
+      "summary": "Democrats are feeling optimistic ahead of the midterms, but what challenges remain? NPR's A Martinez asks Devan Barber, who leads the Democratic Senatorial Campaign Committee."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/06/nx-s1-5991831/disney-battles-fcc",
+      "title": "Disney, ABC battle Trump's FCC in court over free speech protections",
+      "published": "2026-10-06T09:17:00.000Z",
+      "summary": "President Trump has repeatedly called for Disney's ABC to fire late night comedian Jimmy Kimmel, for mocking him. Trump has also routinely denounced ABC's The View , accusing it of being unfair."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/06/nx-s1-5989694/midterm-elections-control-congress",
+      "title": "Democrats' advantage is clear with less than a month to go in the midterm elections",
+      "published": "2026-10-06T09:00:00.000Z",
+      "summary": "President Trump is facing low approval ratings, and voters are blaming him for rising costs. Republicans are likely to pay the price at the ballot box next month."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/06/nx-s1-5991899/elon-musk-palmer-luckey-pentagon-drones-ai",
+      "title": "Elon Musk and Palmer Luckey's new Pentagon roles raise ethics worries",
+      "published": "2026-10-06T09:00:00.000Z",
+      "summary": "Musk's company, SpaceX, and Luckey's company Anduril, could potentially benefit from recommendations made in the study about future autonomous weapon systems."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts",
+      "title": "As Trump focuses the FBI on immigration, counterintelligence is falling behind",
+      "published": "2026-10-06T09:00:00.000Z",
+      "summary": "The cuts come as a consequence of President Trump and FBI Director Kash Patel's focus on violent crime and immigration, leaving other priorities understaffed."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/06/nx-s1-5989427/maine-men-democrats-male-voters-midterms",
+      "title": "Democrats need to reel in more men. These Mainers say the party needs better bait",
+      "published": "2026-10-06T08:50:17.000Z",
+      "summary": "Democrats are trying to win back male voters ahead of the midterms. In Maine, some fly fishermen say frustration with both parties is shaping their votes."
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11244-6",
+      "title": "Author Correction: Anodic Pd membrane H 2 extraction enhances thermochemical dehydrogenation",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03176-y",
+      "title": "Maintaining global science collaboration during conflict requires fairer rules",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03155-3",
+      "title": "The Solar System could die one billion times earlier than thought",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03174-0",
+      "title": "The Great Barrier Reef requires special attention in the developing super El Niño",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02973-9",
+      "title": "Scientists take a radiometer for a spin in a hot-air balloon",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03177-x",
+      "title": "Preprints must not leak sensitive research information",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03160-6",
+      "title": "Unprecedented hole opened up in Antarctic winter sea ice",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03175-z",
+      "title": "AI could undermine scientific independence in subtle ways",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03095-y",
+      "title": "Astronomy’s ‘adrenaline junkies’: Nobel prize captures the thrill of neutrino physics",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02798-6",
+      "title": "Rising numbers of Asian and African PhD students choose to study in China",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03105-z",
+      "title": "How digital breakdowns affect supply chains — and endanger the global economy",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03129-5",
+      "title": "Strong evidence that ‘baryon junctions’ give proton its identity",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03131-x",
+      "title": "Why smart glasses are about to create a major privacy crisis",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03136-6",
+      "title": "Cells, who needs them? Biochemists turn to proteins in a tube",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02966-8",
+      "title": "Circular DNA exposes a weakness in cancer cells",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03150-8",
+      "title": "Flu season could kick off ‘incredibly’ early — what scientists are watching",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03092-1",
+      "title": "Nobel physics prize awarded for detection of cosmic neutrinos",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02967-7",
+      "title": "Brain organoids grafted into cortex-free mice will advance human brain research",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03130-y",
+      "title": "How to mobilize the agile science needed in a crisis",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03094-z",
+      "title": "‘What took them so long?’ This year’s medicine Nobel winner is overdue",
+      "published": "2026-10-05T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03157-1",
+      "title": "The top cancer success stories of the past 50 years, by the numbers",
+      "published": "2026-10-05T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03185-x",
+      "title": "Daily briefing: Medicine Nobel prize goes to optogenetics",
+      "published": "2026-10-05T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03091-2",
+      "title": "Medicine Nobel awarded for brain ‘switch’ that controls neurons with light",
+      "published": "2026-10-05T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03134-8",
+      "title": "How big tech is building a military–industrial complex in the age of AI",
+      "published": "2026-10-05T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03135-7",
+      "title": "AI biohazard hype must not divert attention from the real risks we face now",
+      "published": "2026-10-05T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03037-8",
+      "title": "Location, location, location: how to edit genes only in the cells you want",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03057-4",
+      "title": "‘Learning about physics changed my life’: author Hernan Diaz on his new novel Ply",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03058-3",
+      "title": "How to respond to hate speech without fuelling it further",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03126-8",
+      "title": "Stunning fossil shows dinosaurs’ distinctive path to flight",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03145-5",
+      "title": "Nature has rights — it is time the world recognized them",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03164-2",
+      "title": "Daily briefing: Can you name every female Nobel laureate?",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03133-9",
+      "title": "Can you name the women who have won a science Nobel prize?",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02976-6",
+      "title": "Von Neumann’s party",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02769-x",
+      "title": "Prozac use for childhood depression skewed by single flawed medical trial",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02564-8",
+      "title": "Can we have class outside? Seven tips to breeze through outdoor lectures",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11149-4",
+      "title": "Retraction Note: Ribosomal frameshifting in the CCR5 mRNA is regulated by miRNAs and the NMD pathway",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03036-9",
+      "title": "A black hole’s jets have a halo effect",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03119-7",
+      "title": "Can pancreatic cancer be stopped in its tracks? Radical tactic raises hopes",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03044-9",
+      "title": "‘Vibe coding’ makes the dictionary: AI terms recognized by Merriam-Webster",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03042-x",
+      "title": "The ‘missed disease’ that affects 190 million: endometriosis drug shows early promise",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03101-3",
+      "title": "Gaze into the cosmos and through the eyes of a bee — September’s best science images",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03141-9",
+      "title": "Daily briefing: The sky as you’ve never seen it — the month’s best science images",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03118-8",
+      "title": "Battle of the Anthropocene: allegations re-ignite row over proposed geological epoch",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755305v1?rss=1",
+      "title": "Bio-inspired chromatophore network model generates dynamic skin patterns akin to those observed in cephalopods",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Cephalopod skin exhibits a wide range of dynamic visual displays, including traveling waves, light/dark flashes, and flickering, all generated by muscle-regulated expansion and retraction of pigment-filled elastic sacs known as chromatophores. While central neural control is essential for high-level body-wide pattern coordination, experimental evidence from excised and denervated skin reveals that intricate spatiotemporal patterns can also emerge spontaneously in the skin. This raises questions about the respective roles of central versus peripheral control. To determine the simplest control n"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755664v1?rss=1",
+      "title": "A psychophysical characterization of tactile and temperature perception on the human torso",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Numerous studies have been conducted to investigate touch on the hand and forearm, but less is known about the rest of the body, particularly the torso and breasts, which play an important role in affective touch. We conducted psychophysical tests on three skin sites on the torso: upper breast, nipple-areola complex (NAC), and under the breast, as well as on two control sites: palm and forearm. We studied touch pleasantness and intensity by applying gentle caress-like strokes using a soft brush, and measured temperature and tactile detection thresholds. The results show an inverted U-shaped re"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754866v1?rss=1",
+      "title": "Electrical stimulation of the human pulvinar generates visual percepts",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Visual prostheses have targeted early structures in the visual pathway, including the retina, optic nerve, lateral geniculate nucleus, and visual cortex, to generate visual percepts. Stimulation of higher-order visual regions, which may better encode complex visual features, remains relatively unexplored. We tested whether electrical stimulation of the medial and inferior pulvinar elicits visual percepts in a patient with medically refractory epilepsy undergoing invasive seizure monitoring with intracranial electroencephalography. Bipolar stimulation (30 biphasic pulses, 0.5 ms per phase, 3 mA"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755569v1?rss=1",
+      "title": "Wavelet Transform Coherence Under Controlled Temporal Correspondence and Social Co-Presence: Implications for fNIRS Hyperscanning",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Interpersonal neural synchrony research using functional near-infrared spectroscopy (fNIRS) frequently relies on wavelet transform coherence (WTC) to quantify temporal correspondence between cortical signals. Yet, whether WTC reliably recovers experimentally defined differences in signal correspondence remains insufficiently established. Here, we evaluated WTC using an auditory-guided finger-tapping paradigm in which matching and non-matching temporal structures were compared within participants and between dyad members during individual and joint performance. Task-evoked analyses confirmed re"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755471v1?rss=1",
+      "title": "Bone Marrow-Derived Cells Fuse with Bergmann Glia in Experimental Autoimmune Encephalomyelitis",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Bone marrow-derived cells (BMDCs) can infiltrate the brain and adopt new identities through transdifferentiation or fusion, yet their interactions with specific neural cells remain poorly defined. We examined BMDC fusion with Bergmann glia (BG), a key cerebellar support cell, in a mouse model of multiple sclerosis. After bone marrow transplantation, BMDCs fused with BG to form heterokaryons, retaining BG morphology and molecular markers. These heterokaryons contained donor and host nuclei that differed in both morphology and transcriptional activity. Remarkably, the BMDC nucleus localized not "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755497v1?rss=1",
+      "title": "A comprehensive physiological dataset of pain and aversive modalities for pain biomarkers research",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "While progress has been made in identifying pain biomarkers using neuroimaging, the development of reliable EEG-based biomarkers remains challenging, limited by small sample sizes and the lack of adequate control conditions. We present a comprehensive dataset from 125 pain-free adults, comprising electroencephalogram (EEG) recordings, and behavioural, sociodemographic, and psychological data. Galvanic skin response and electrocardiogram data were also recorded in a subset of participants (n = 76). Participants received two sustained painful stimulations (thermal, chemical) and two sustained av"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755924v1?rss=1",
+      "title": "Resolution-aware spectral parameterization reveals robust context-dependent aperiodic EEG dynamics during real-world table tennis",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Mobile EEG can link neuroimaging to natural behavior, but effects recorded during movement, and sport in particular, are difficult to interpret because neural activity overlaps with signals from movement, muscle activity, and cable movement artifacts. We analyzed the OpenNeuro Real World Table Tennis dataset to test whether peri-hit spectral activity could be analyzed and how it differed between human-opponent and ball-machine play. Data from 25 participants comprising EEG, noise-layers, EMG and motion recordings was analyzed with pre-hit, impact, and post-hit windows. EEG power bands were res"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.743707v1?rss=1",
+      "title": "Facial color properties affect perceived age.",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Age is a fundamental social attribute that affects rights, responsibilities and even social status. Color information of the face can affect perceived age, but the nature of its contribution, independent of luminance information, remains underexplored. To better characterize the role of color in age perception, we conducted two experiments. In our first experiment, we tested whether natural age-related changes in facial color alone can drive changes in perceived age. In our second experiment, we manipulated red-green contrast across faces aged 18-91 and tested the effect of this manipulation o"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755975v1?rss=1",
+      "title": "On-demand surround suppression explains the spatiotemporal window of the tilt illusion",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "What we see at one location depends on what surrounds it. Such contextual e[ff]ects are thought to arise from neural signals that travel across the retinotopic representations.Because these signals need more time to travel longer distances, a more distant surround should influence perception most strongly when presented earlier, compensating for its delay. We tested this prediction in human observers using a visual illusion in which a central target appears tilted away from the orientation of its surround (tilt illusion). Measuring the temporal window of this illusion using psychophysical reve"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755526v1?rss=1",
+      "title": "Netrin signaling shapes sexually dimorphic neurite branching of a sex-shared interneuron in C. elegans",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Sexually dimorphic behaviors arise from underlying differences in neural circuit architecture between the sexes, yet the molecular mechanisms that establish these structural differences remain poorly understood. In Caenorhabditis elegans, the sex-shared interneuron AVG exhibits sexually dimorphic synaptic connectivity, offering a model for investigating the development of sexually dimorphic neuronal morphology. Here, we identified that AVG displays male-specific neurite branching and demonstrated that the conserved axon guidance cue UNC-6/Netrin and its receptor UNC-40/DCC are essential for th"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755515v1?rss=1",
+      "title": "SAIL: Sparse Autoencoders for Interpretable Alignment of Human Vision and Multimodal Large Language Models",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Alignment between human high-level visual representations and those of multimodal large language models (MLLMs) offers a quantitative framework for understanding information processing in human vision. However, similarities between model and brain representations do not directly reveal the semantic content underlying their correspondence, as this content is difficult to isolate in entangled MLLM representations. Here, we introduce SAIL, an interpretable framework that formulates voxel interpretation as a multi-unit sparse semantic correspondence problem between MLLMs and human vision. First, w"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755464v1?rss=1",
+      "title": "The potato cyst nematode Globodera pallida possesses an expanded serotonergic nervous system",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Abstract The neurotransmitter serotonin (5-hydroxytryptamine; 5-HT) controls behaviours that are essential for the parasitic lifestyle of plant parasitic nematodes (PPNs). Here, we used serotonin immunochemistry and in situ hybridization for the serotonin synthesis genes, Gpa-tph-1 and Gpa-bas-1, to map its signalling pathways in Globodera pallida J2 infective stages. We identified fourteen serotonin-immunoreactive cell bodies around the pharyngeal median bulb and revealed that eleven of them co-express Gpa-tph-1 and Gpa-bas-1, confirming these are serotonin-synthesising neurons. Serotonin imm"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755136v1?rss=1",
+      "title": "Hormonal factors are poor indicators of endometriosis pain",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Endometriosis is a common yet understudied condition in which sex hormones play a key role in the etiology and pathophysiology of the disease. Sex hormones are dysregulated in endometriosis and are pharmacologically targeted to reduce symptoms including pain, but the relationships between endometriosis-related pain with sex hormone levels and their receptors are not clear. In 60 women previously diagnosed or undergoing laparoscopic surgery for the diagnosis of endometriosis, we collected patient-reported endometriosis/pelvic pain intensity in the last 30 days, pain interference scale, and the "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755475v1?rss=1",
+      "title": "Closed-head injury produces a delayed, region-specific defect in glucose-carbon routing at the pyruvate branchpoint in APP/PS1 KI mice",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Traumatic brain injury (TBI) is a risk factor for Alzheimer's disease (AD), and both conditions are associated with impaired glucose metabolism and mitochondrial dysfunction. We previously reported time-dependent mitochondrial dysfunction following closed-head injury (CHI) in amyloid precursor protein/presenilin 1 (APP/PS1) knock-in (KI) mice, but whether glucose-derived carbon labeling showed a corresponding temporal pattern remained unknown. We hypothesized that early deficits would involve tricarboxylic acid (TCA)-cycle metabolites, whereas chronic changes persisted upstream at the pyruvate"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755544v1?rss=1",
+      "title": "High-level visual and motor regions are doubly dissociated in controlled tasks but only at specific times during natural behaviors",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Our knowledge of the neural basis of sensory and motor information processing comes largely from recording brain activity in controlled settings. This approach, while insightful, blinds us from understanding natural behaviors, which involve far richer visual inputs and far larger range of movements. The prevailing belief is that, during natural behaviors, movement information would modulate visual cortex, and visual inputs would modulate motor cortex. Alternatively, this mixing might only reflect correlations between sensory inputs and movements present during natural behavior. To resolve this"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756807v1?rss=1",
+      "title": "Pathological tau leads to network hyperexcitability through neuronal-subtype-specific functional impairment",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Pathological tau disrupts neuronal activity and brain function in Alzheimer s disease and other tauopathies. However, the underlying mechanisms for neuronal network dysfunction remain largely unknown. Using human inducible pluripotent stem cell (iPSC) - derived neurons, we show that the familial MAPT P301L mutation leads to neuronal network hyperexcitability. Imbalanced excitation and inhibition were attributable to neuronal subtype-specific tau pathology that was associated with different alterations of tau interactomes in excitatory versus inhibitory neurons. Suppressing enhanced excitatory "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756008v1?rss=1",
+      "title": "Overexpressing FLP Recombinase Can Cause Synaptic Trafficking Defects in C. elegans",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Site-specific recombinases, such as Cre recombinase (Cre) and FLP recombinase (FLPase), are popular tools that enable precise spatiotemporal control over fluorescent reporter genes. However, studies show that increased Cre expression can lead to cytotoxic phenotypes including DNA damage, cell cycle arrest, cell death, and aneuploidy. In contrast, there is little-to-no known cytotoxicity associated with FLPase. FLPase is considered to be the safer, if less efficient, recombinase. To compensate for decreased efficiency, researchers will often increase expression of the FLPase to ensure a complet"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755486v1?rss=1",
+      "title": "Axonal dysfunction precedes axonal degeneration in a mouse model of progressive parkinsonism",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Axons of substantia nigra dopaminergic neurons \"die back\" in Parkinson's disease (PD), exhibiting early degeneration relative to cell bodies, a key feature also observed in PD models. A critical step towards understanding the process of axonal neurodegeneration is to determine the physiological properties of dopaminergic axons that are altered during the early stages of cellular dysfunction. Here, we compared the electrophysiology and calcium dynamics of dopaminergic axons in the MitoPark model of PD with age-matched controls. Our experiments show a pronounced reduction in action potential (AP"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755666v1?rss=1",
+      "title": "Quantitative MRI-based assessment of the ultrastructural compactness of myelin lamellae",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Efficient neuronal communication relying on rapid saltatory conduction depends not only on the amount of myelin wrapping axons but also on myelin compact organisation. Yet, current quantitative MRI myelin imaging methods, such as Myelin Water Imaging (MWI) and quantitative Magnetization Transfer (qMT), are designed to estimate myelin content and are often treated as interchangeable, overlooking myelin organisation. We introduce Structural Myelin Integrity (SMI), a quantitative MRI metric designed to distinguish myelin compact organisation from content. SMI combines the distinct biophysical sen"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.754498v1?rss=1",
+      "title": "The Walking Brain: Mapping feature-specific cortical responses to naturally unfolding sensory experience in the real world",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Understanding how the brain processes the everyday world is fundamental, yet laboratory paradigms exclude self-generated movement, unscripted events, and a continuously evolving multisensory environment. Wearable neuroimaging enables real-world measurement, but linking neural activity to uncontrolled sensory information remains challenging. Here, we extend a feature-based framework from naturalistic movie viewing to everyday behavior using wearable whole-head high-density fNIRS and participant-specific audiovisual recordings during movies and outdoor walking with no explicit task or scripted a"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755449v1?rss=1",
+      "title": "SARS-CoV-2 Nucleocapsid Protein forms biomolecular condensates and interacts with ALS-associated RNA binding proteins in vitro",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "As we have entered the endemic phase of COVID-19, there is a need to assess the long-term effects of SARS-CoV-2 infection on the trajectory of neurodegenerative disorders. Herein, we investigate whether the SARS-CoV-2 RNA-binding nucleocapsid protein (NCP; N-protein) may influence molecular processes relevant to motor neuron degeneration in amyotrophic lateral sclerosis (ALS). We detected N-protein immunoreactivity in ALS spinal cord motor neurons, including cytoplasmic N-protein-positive puncta that colocalized with cytoplasmic TAR DNA-binding protein 43 (TDP-43). In vitro, optogenetically in"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755383v1?rss=1",
+      "title": "Directionally tuned signals in mouse visual and subicular cortex during passive rotation",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Head-direction (HD) cells integrate visual and vestibular inputs and provide an internal compass which is essential for navigation, but how the directional activity in the subicular complex (SUB) and in the visual cortex (VIS) depends on the visual scene has not been compared directly. Here, we recorded simultaneously from the two regions with Neuropixels probes, while rotating head-fixed mice across all azimuthal directions, in controlled visual conditions, and in darkness. We found many directionally tuned units in both SUB and VIS. The preferred directions of SUB units were distributed unif"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755384v1?rss=1",
+      "title": "Coordinated Brain-Heart Dynamics During Human NREM Sleep",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Communication between the brain and cardiovascular system is increasingly recognized as a fundamental determinant of health, yet the mechanisms coordinating neural and cardiac rhythms remain poorly understood. Sleep provides a unique physiological state for investigating neurovisceral integration because cortical slow oscillations (SOs), thalamocortical sleep spindles, and autonomic activity undergo profound reorganization during non-rapid eye movement (NREM) sleep. We analyzed overnight high-density electroencephalography and electrocardiography recordings from 30 healthy adults and quantifie"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756535v1?rss=1",
+      "title": "Functional deficits of the inhibitory control system in children with ADHD: A task-based fMRI meta-analysis",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Inhibitory control deficits have long been proposed as a central neurocognitive mechanism underlying childhood Attention Deficit/Hyperactivity Disorder (ADHD). However, neuroimaging findings remain heterogeneous, partly due to methodological variability across developmental samples and experimental paradigms. The present study aimed to characterize the neural architecture of motor response inhibition in typically developing (TD) children and identify reproducible functional abnormalities associated with pediatric ADHD using stringent, developmentally specific inclusion criteria. We conducted t"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756095v1?rss=1",
+      "title": "The microbial soy metabolite S-equol mitigates cadmium neurotoxicity in mice",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Environmental exposures are major but understudied determinants of chronic disease. Cadmium is a pervasive toxic metal encountered through diet and tobacco smoke that has been associated with cognitive impairment and Alzheimer's disease mortality, yet strategies to mitigate its neurotoxicity remain limited. S-equol is a gut microbial metabolite of soy daidzein that crosses the blood brain barrier and preferentially activates estrogen receptor beta. Here, we show that cadmium disrupts an axis linking the equol producing gut bacterium Adlercreutzia equolifaciens to circulating S-equol and hippoc"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756754v1?rss=1",
+      "title": "Multiscale Network Disruption of Auditory-Language Circuits Underlying Auditory Hallucinations in Schizophrenia",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Background: Auditory verbal hallucinations (AVH) are among the most disabling symptoms of schizophrenia, yet the network-level mechanisms linking auditory dysfunction to hallucination severity remain poorly characterized, limiting targeted therapeutic development. Methods: Using resting-state fMRI and high-resolution surface-based parcellation (HCP-MMP), we examined auditory-language functional connectivity and mesoscale network organization in 56 patients with schizophrenia and 22 healthy controls (primary dataset, N=78). Pairwise auditory-language connectivity associations with hallucination"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756342v1?rss=1",
+      "title": "Latent dentate gyrus engrams formed in infancy scaffold adult learning",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Infantile amnesia refers to the loss of event-based memories acquired early in life. In mice, however, these memories are not erased; selective optogenetic stimulation of engrams formed in infancy leads to memory recovery in adulthood, indicating that infant-formed engrams can persist in a latent form. We therefore asked whether these latent engrams, although not accessible through natural retrieval, nonetheless influence related adult learning. Using a contextual fear conditioning paradigm, we find that adult learning is facilitated by prior experience in infancy, both for the same and relate"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.756368v1?rss=1",
+      "title": "Successor representation supports structural learning of syllable sequences",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Humans efficiently learn the temporal structure of speech, yet the underlying cognitive mechanisms remain unclear. Recent research in visuospatial sequential memory has proposed the successor representation (SR), important in reinforcement learning, which encodes multi-step transitional relationships. To test whether SR also supports the structural learning of rapidly changing speech syllable sequences, we adapted a pyramid-structured sequential learning paradigm using syllable streams presented at a natural speech rate (~ 4 Hz). Participants exhibited robust structural learning, evidenced by "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756265v1?rss=1",
+      "title": "Clustered and diffuse sensory corticostriatal wirings define complementary interneuron circuits",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "In the striatum, interneurons tightly control the activity of output neurons, the striatal projection neurons (SPN). Among these striatal interneurons, parvalbumin-expressing (PV) and somatostatin-expressing (SOM) cells exhibit markedly distinct electrophysiological and anatomical properties, suggesting differential integration into striatal circuits and distinct forms of feedforward inhibition onto SPN. However, it remains unclear whether differences already emerge at the level of corticostriatal connectivity and if they shape specific interactions with cortical inputs to SPN. Here, we invest"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756569v1?rss=1",
+      "title": "Thalamic Dysconnectivity and Negative Symptoms in Schizophrenia Spectrum Disorder",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Background and Hypothesis Negative symptoms in schizophrenia spectrum disorder (SSD) are associated with poor functional outcomes and reduced quality of life; however, effective treatments remain limited. A better understanding of the underlying brain mechanisms is needed to develop better treatments. Neuroimaging studies implicate multiple brain networks in negative symptoms, though findings remain heterogeneous, potentially reflecting the multidimensionality of both symptoms and brain networks. Larger, more systematic dissections are required to identify the key hub(s) underlying negative sy"
+    }
+  ]
+}

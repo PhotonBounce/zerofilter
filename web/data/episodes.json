@@ -1,6 +1,122 @@
 {
-  "updated": "2026-10-06T22:55:00Z",
+  "updated": "2026-10-07T04:30:00Z",
   "episodes": [
+    {
+      "id": "2026-10-07-04",
+      "hour": "04:00",
+      "date": "2026-10-07",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-07-04",
+      "title": "FBI Intel Cuts, Patriot Batteries in Poland & the Proton's Baryon Junction",
+      "subject": "Hourly sourced brief: FBI counterintelligence shifts, JIATF 401 counter-drone energy picks, Poland deploying Patriots with $26B civil defense plan, Black Sea merchant vessel drone strikes, AI threats to independent science, baryon junctions in proton structure, and pulvinar stimulation of visual percepts.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is zero-four-hundred hours UTC. In Washington, NPR reports the FBI's counterintelligence divisions are falling behind as leadership redirects agents toward immigration sweeps, leaving foreign espionage operations unmonitored. Meanwhile, the War Department announced its directed-energy selections for the JIATF 401 pilot, betting on high-powered microwaves and combat lasers to down drone swarms. Dismantling counterspy units while handing defense contractors billions for directed energy is not national defense. It is systemic institutional decay.",
+        "To the frontline. Prime Minister Donald Tusk announced Poland is deploying Patriot batteries near the Ukrainian border, backed by a twenty-six billion dollar civil defense package for hardened shelters, rescue bases, and emergency power. Across the Black Sea, Russian strikes hit international shipping. The Kyiv Independent reports drone attacks struck merchant vessels off Bulgaria and Ukraine, killing at least one civilian sailor on a Marshall Islands-flagged ship. Moscow claims defensive operations; the maritime receipts show blatant piracy.",
+        "Frontier compute. A new report in Nature warns that foundation models are quietly undermining scientific independence. As research labs rely on closed corporate AI pipelines for hypothesis generation and synthesis, academic agendas are subtly steered toward problems that private compute monopolies prioritize. Delegating scientific curiosity to black-box systems trained on proprietary benchmarks does not produce objective discovery; it builds an intellectual monoculture funded by public grants. Keep models open, or lose independent science.",
+        "Subatomic physics. Nature reports strong evidence from relativistic collisions that proton identity is anchored by gluonic baryon junctions, rather than valence quarks alone. The glue holding matter together has topological structure. Combine that with Wheeler's delayed-choice experiment, confirmed by Jacques and colleagues in Science: a photon exhibits wave or particle traits only after the detection setup is chosen. Physical reality has no definite path before measurement. The universe is participatory at its fundamental scale.",
+        "Consciousness desk. A new bioRxiv study shows electrical stimulation of the human pulvinar, a higher-order thalamic nucleus, directly generates conscious visual percepts in monitored patients. Subjective vision can be ignited deep in subcortical hubs without retinal input. Compare that to the declassified 1995 AIR review of CIA Project Stargate: while evaluators concluded remote viewing lacked operational consistency, laboratory trials documented statistically anomalous hit rates. The line between sensory routing and non-material awareness remains open.",
+        "Tonight's receipts. Counterintelligence gutting while counter-drone contracts surge. Poland fortifying its border as Black Sea shipping burns. Corporate compute steering scientific inquiry. Subatomic topology proving matter is relational, and thalamic stimulation generating synthetic perception. Both partisan tribes want you fearful and distracted. Reject the noise. Reality renders upon observation, so check the receipts in the dossier drawer, and stay lucid. I'm Rex Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts",
+          "title": "As Trump focuses the FBI on immigration, counterintelligence is falling behind",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4619430/systems-selected-for-jiatf-401-directed-energy-counter-drone-pilot-program/",
+          "title": "Systems Selected for JIATF 401 Directed-Energy Counter-Drone Pilot Program",
+          "published": "2026-10-05"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/poland-to-deploy-patriots-near-ukrainian-border-announces-26-billion-civil-defense-plan/",
+          "title": "Poland to deploy Patriots near Ukrainian border, announces $26 billion civil defense plan",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/drones-strike-merchant-vessels-in-black-sea-off-bulgaria-and-ukraine-killing-at-least-one/",
+          "title": "Drones strike merchant vessels in Black Sea off Bulgaria, Ukraine, killing at least one",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03175-z",
+          "title": "AI could undermine scientific independence in subtle ways",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03129-5",
+          "title": "Strong evidence that 'baryon junctions' give proton its identity",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 3,
+          "url": "https://www.science.org/doi/10.1126/science.1136303",
+          "title": "Experimental Realization of Wheeler's Delayed-Choice GedankenExperiment",
+          "published": "2007-02-16",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754866v1?rss=1",
+          "title": "Electrical stimulation of the human pulvinar generates visual percepts",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 4,
+          "url": "https://www.cia.gov/readingroom/document/cia-rdp96-00791r000200180005-5",
+          "title": "An Evaluation of Remote Viewing: Research and Applications (AIR Report)",
+          "published": "1995-09-29",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-07-04/f01.webp"
+          },
+          {
+            "t": 35.18,
+            "src": "art/2026-10-07-04/f02.webp"
+          },
+          {
+            "t": 66.82,
+            "src": "art/2026-10-07-04/f03.webp"
+          },
+          {
+            "t": 99.31,
+            "src": "art/2026-10-07-04/f04.webp"
+          },
+          {
+            "t": 130.8,
+            "src": "art/2026-10-07-04/f05.webp"
+          },
+          {
+            "t": 165.02,
+            "src": "art/2026-10-07-04/f06.webp"
+          }
+        ]
+      },
+      "seconds": 197,
+      "cues": [
+        0.0,
+        35.18,
+        66.82,
+        99.31,
+        130.8,
+        165.02
+      ],
+      "audio": "audio/2026-10-07-04.mp3",
+      "thumb": "thumbs/2026-10-07-04.webp",
+      "cover_video": "thumbs/2026-10-07-04.mp4"
+    },
     {
       "id": "2026-10-06-22",
       "hour": "22:00",
