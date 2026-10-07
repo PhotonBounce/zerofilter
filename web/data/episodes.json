@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T23:23:59.297460+00:00",
+  "updated": "2026-10-07T23:26:03.675541+00:00",
   "episodes": [
     {
       "id": "2026-10-07-12",
@@ -406,6 +406,897 @@
       "cover_video": "thumbs/2026-10-04-12.mp4"
     },
     {
+      "id": "2026-10-03-21",
+      "hour": "21:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-21",
+      "title": "Ukrainian Sea Drones Dismantling Crimea Radar Belts, Directed-Energy Systems & Counter-Drone Task Force & Majorana Zero-Modes & Fault-Tolerant Nanowires",
+      "subject": "Hourly intel dispatch: directed-energy systems & counter-drone task force, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 21-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining directed-energy systems & counter-drone task force, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against ukrainian sea drones dismantling crimea radar belts, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and adversarial poisoning defense in federated ai networks. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating majorana zero-modes & fault-tolerant nanowires across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining default mode network disruption during meditative absorption in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4619430/systems-selected-for-jiatf-401-directed-energy-counter-drone-pilot-program/",
+          "title": "Systems Selected for JIATF 401 Directed-Energy Counter-Drone Pilot Program",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-strikes-radar-facilities-in-occupied-crimea/",
+          "title": "Ukraine strikes Russian long-range radar installations in occupied Crimea",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/s42256-026-00925-4",
+          "title": "Cryptographic verification and zero-knowledge proofs against adversarial poisoning in federated neural networks",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.05128",
+          "title": "Topological Protection and Non-Abelian Braiding in Hybrid Semiconductor-Superconductor Nanowires",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.756114v1?rss=1",
+          "title": "Default mode network reorganization during sustained meditative absorption",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-21/f01.webp"
+          },
+          {
+            "t": 36.29,
+            "src": "art/2026-10-03-21/f02.webp"
+          },
+          {
+            "t": 74.28,
+            "src": "art/2026-10-03-21/f03.webp"
+          },
+          {
+            "t": 108.58,
+            "src": "art/2026-10-03-21/f04.webp"
+          },
+          {
+            "t": 142.87,
+            "src": "art/2026-10-03-21/f05.webp"
+          },
+          {
+            "t": 174.22,
+            "src": "art/2026-10-03-21/f06.webp"
+          }
+        ]
+      },
+      "seconds": 204,
+      "cues": [
+        0.0,
+        36.29,
+        74.28,
+        108.58,
+        142.87,
+        174.22
+      ],
+      "audio": "audio/2026-10-03-21.mp3",
+      "thumb": "thumbs/2026-10-03-21.webp",
+      "cover_video": "thumbs/2026-10-03-21.mp4"
+    },
+    {
+      "id": "2026-10-03-20",
+      "hour": "20:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-20",
+      "title": "EU €1.2B Direct Capitalization for Drone Factories, Export Control Loopholes in Dual-Use Microelectronics & Satellite-to-Ground Entanglement Links via ESA",
+      "subject": "Hourly intel dispatch: export control loopholes in dual-use microelectronics, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 20-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining export control loopholes in dual-use microelectronics, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against eu €1.2b direct capitalization for drone factories, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and deterministic fallbacks in autonomous interceptor swarms. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating satellite-to-ground entanglement links via esa across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining rapid sensory recalibration & subjective present timing in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.finance.senate.gov/hearings/examining-enforcement-of-us-sanctions-and-export-controls",
+          "title": "Examining Enforcement Failures in Dual-Use Technology Sanctions and Export Controls",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/eu-provides-ukraine-1-2-billion-euros-for-drones-and-missiles/",
+          "title": "EU provides Ukraine 1.2 billion euros for drones and missiles",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/s42256-026-00912-x",
+          "title": "Deterministic fallback and symbolic verification for autonomous interceptor platforms",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.07189",
+          "title": "High-Fidelity Satellite-to-Ground Entanglement Distribution Through Atmospheric Turbulence",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755365v1?rss=1",
+          "title": "Two components of rapid temporal recalibration across the senses",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-20/f01.webp"
+          },
+          {
+            "t": 36.07,
+            "src": "art/2026-10-03-20/f02.webp"
+          },
+          {
+            "t": 74.88,
+            "src": "art/2026-10-03-20/f03.webp"
+          },
+          {
+            "t": 108.77,
+            "src": "art/2026-10-03-20/f04.webp"
+          },
+          {
+            "t": 143.16,
+            "src": "art/2026-10-03-20/f05.webp"
+          },
+          {
+            "t": 174.82,
+            "src": "art/2026-10-03-20/f06.webp"
+          }
+        ]
+      },
+      "seconds": 205,
+      "cues": [
+        0.0,
+        36.07,
+        74.88,
+        108.77,
+        143.16,
+        174.82
+      ],
+      "audio": "audio/2026-10-03-20.mp3",
+      "thumb": "thumbs/2026-10-03-20.webp",
+      "cover_video": "thumbs/2026-10-03-20.mp4"
+    },
+    {
+      "id": "2026-10-03-19",
+      "hour": "19:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-19",
+      "title": "Feodosia Marine Oil Depot Drone Strike Interdiction, Congressional Stock Trades in Defense Equities & Wheeler Delayed-Choice Quantum Boundary Realization",
+      "subject": "Hourly intel dispatch: congressional stock trades in defense equities, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 19-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining congressional stock trades in defense equities, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against feodosia marine oil depot drone strike interdiction, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and autonomous bio-synthesis guardrails in agentic labs. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating wheeler delayed-choice quantum boundary realization across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining human pulvinar stimulation inducing conscious sight in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.finance.senate.gov/hearings/stock-trading-conflicts-armed-services",
+          "title": "Senate Ethics Hearing: Examining Financial Disclosures and Defense Prime Holdings",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-strikes-oil-terminal-in-occupied-crimea/",
+          "title": "Ukrainian drones strike oil terminal in Feodosia, causing massive fires at Russian supply hub",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.science.org/doi/10.1126/science.ade9812",
+          "title": "Biosecurity governance in the era of autonomous synthetic biology and generative AI",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://www.science.org/doi/10.1126/science.1136303",
+          "title": "Experimental Realization of Wheeler's Delayed-Choice GedankenExperiment",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754866v1?rss=1",
+          "title": "Electrical stimulation of the human pulvinar generates visual percepts",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-19/f01.webp"
+          },
+          {
+            "t": 35.35,
+            "src": "art/2026-10-03-19/f02.webp"
+          },
+          {
+            "t": 73.18,
+            "src": "art/2026-10-03-19/f03.webp"
+          },
+          {
+            "t": 107.35,
+            "src": "art/2026-10-03-19/f04.webp"
+          },
+          {
+            "t": 141.29,
+            "src": "art/2026-10-03-19/f05.webp"
+          },
+          {
+            "t": 172.37,
+            "src": "art/2026-10-03-19/f06.webp"
+          }
+        ]
+      },
+      "seconds": 202,
+      "cues": [
+        0.0,
+        35.35,
+        73.18,
+        107.35,
+        141.29,
+        172.37
+      ],
+      "audio": "audio/2026-10-03-19.mp3",
+      "thumb": "thumbs/2026-10-03-19.webp",
+      "cover_video": "thumbs/2026-10-03-19.mp4"
+    },
+    {
+      "id": "2026-10-03-18",
+      "hour": "18:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-18",
+      "title": "Pokrovsk Reconnaissance Kill-Chains Halting Armor, Pentagon Procurement Reform & Defense Monopolies & Cosmic Neutrino Telemetry & Extragalactic Accelerators",
+      "subject": "Hourly intel dispatch: pentagon procurement reform & defense monopolies, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 18-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining pentagon procurement reform & defense monopolies, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against pokrovsk reconnaissance kill-chains halting armor, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and supply chain cascades from industrial digital outages. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating cosmic neutrino telemetry & extragalactic accelerators across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining human claustrum gating multi-sensory cortical binding in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.gao.gov/reports-testimonies/2026-10-01/defense-acquisition-reform",
+          "title": "Defense Acquisition Oversight: Evaluating Sole-Source Contracts and Monopoly Margins",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukrainian-forces-repel-russian-armored-assault-near-pokrovsk/",
+          "title": "Ukrainian forces repel Russian armored assault near Pokrovsk using drone kill-chains",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03105-z",
+          "title": "How digital breakdowns affect supply chains — and endanger the global economy",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03092-1",
+          "title": "Nobel physics prize awarded for detection of cosmic neutrinos",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755891v1?rss=1",
+          "title": "Temporal coordination of multi-sensory cortical binding mediated by claustro-cortical circuits",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-18/f01.webp"
+          },
+          {
+            "t": 36.22,
+            "src": "art/2026-10-03-18/f02.webp"
+          },
+          {
+            "t": 74.3,
+            "src": "art/2026-10-03-18/f03.webp"
+          },
+          {
+            "t": 107.62,
+            "src": "art/2026-10-03-18/f04.webp"
+          },
+          {
+            "t": 142.68,
+            "src": "art/2026-10-03-18/f05.webp"
+          },
+          {
+            "t": 174.05,
+            "src": "art/2026-10-03-18/f06.webp"
+          }
+        ]
+      },
+      "seconds": 204,
+      "cues": [
+        0.0,
+        36.22,
+        74.3,
+        107.62,
+        142.68,
+        174.05
+      ],
+      "audio": "audio/2026-10-03-18.mp3",
+      "thumb": "thumbs/2026-10-03-18.webp",
+      "cover_video": "thumbs/2026-10-03-18.mp4"
+    },
+    {
+      "id": "2026-10-03-17",
+      "hour": "17:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-17",
+      "title": "Odesa Port Air Defense & Tactical Drone Jamming, Defense Industrial Base Munition Bottlenecks & Optimal Interferometer Blueprints for Quantum Gravity",
+      "subject": "Hourly intel dispatch: defense industrial base munition bottlenecks, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 17-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining defense industrial base munition bottlenecks, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against odesa port air defense & tactical drone jamming, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and foundation model capture of academic scientific labs. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating optimal interferometer blueprints for quantum gravity across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining declassified cia remote viewing stargate air audit in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.gao.gov/reports-testimonies/2026-10-02/defense-industrial-base-ammunition-production",
+          "title": "Defense Industrial Base: Persistent Bottlenecks in Munitions and Rocket Motor Supply Chains",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-intercepts-missile-drone-barrage-targeting-odesa-ports/",
+          "title": "Ukrainian air defenses and EW units intercept massive drone barrage targeting Odesa ports",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03175-z",
+          "title": "AI could undermine scientific independence in subtle ways",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.04471",
+          "title": "Optimal Interferometer Geometry for Gravitationally Induced Quantum Entanglement",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.cia.gov/readingroom/document/cia-rdp96-00791r000200180005-5",
+          "title": "An Evaluation of Remote Viewing: Research and Applications (AIR Report)",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-17/f01.webp"
+          },
+          {
+            "t": 35.28,
+            "src": "art/2026-10-03-17/f02.webp"
+          },
+          {
+            "t": 73.34,
+            "src": "art/2026-10-03-17/f03.webp"
+          },
+          {
+            "t": 107.76,
+            "src": "art/2026-10-03-17/f04.webp"
+          },
+          {
+            "t": 142.22,
+            "src": "art/2026-10-03-17/f05.webp"
+          },
+          {
+            "t": 173.88,
+            "src": "art/2026-10-03-17/f06.webp"
+          }
+        ]
+      },
+      "seconds": 204,
+      "cues": [
+        0.0,
+        35.28,
+        73.34,
+        107.76,
+        142.22,
+        173.88
+      ],
+      "audio": "audio/2026-10-03-17.mp3",
+      "thumb": "thumbs/2026-10-03-17.webp",
+      "cover_video": "thumbs/2026-10-03-17.mp4"
+    },
+    {
+      "id": "2026-10-03-16",
+      "hour": "16:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-16",
+      "title": "Long-Range Drone Interdiction of Rear Supply Hubs, European Deterrence Architecture & Taboo Removal & Optomechanical Gravitational Wavefunction Collapse",
+      "subject": "Hourly intel dispatch: european deterrence architecture & taboo removal, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 16-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining european deterrence architecture & taboo removal, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against long-range drone interdiction of rear supply hubs, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and datacenter gigawatt scaling & power grid strain. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating optomechanical gravitational wavefunction collapse across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining fronto-striatal inhibitory control networks in attention in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.reuters.com/world/europe/european-allies-weigh-deeper-strikes-and-strategic-deterrence-rebalancing-2026-10-07/",
+          "title": "European allies weigh strategic deterrence rebalancing and support for long-range strikes",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-strikes-ammunition-depots-in-occupied-luhansk/",
+          "title": "Ukrainian strike drones hit ammunition depots and rail logistics in occupied Luhansk",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03201-w",
+          "title": "The energy bottleneck: How mega-datacenters are colliding with power grids",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.05942",
+          "title": "Testing Gravitational Wavefunction Collapse with Levitated Optomechanical Resonators",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756535v1?rss=1",
+          "title": "Functional deficits of the inhibitory control system in children with ADHD: A task-based fMRI meta-analysis",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-16/f01.webp"
+          },
+          {
+            "t": 35.83,
+            "src": "art/2026-10-03-16/f02.webp"
+          },
+          {
+            "t": 73.9,
+            "src": "art/2026-10-03-16/f03.webp"
+          },
+          {
+            "t": 107.93,
+            "src": "art/2026-10-03-16/f04.webp"
+          },
+          {
+            "t": 142.32,
+            "src": "art/2026-10-03-16/f05.webp"
+          },
+          {
+            "t": 174.22,
+            "src": "art/2026-10-03-16/f06.webp"
+          }
+        ]
+      },
+      "seconds": 204,
+      "cues": [
+        0.0,
+        35.83,
+        73.9,
+        107.93,
+        142.32,
+        174.22
+      ],
+      "audio": "audio/2026-10-03-16.mp3",
+      "thumb": "thumbs/2026-10-03-16.webp",
+      "cover_video": "thumbs/2026-10-03-16.mp4"
+    },
+    {
+      "id": "2026-10-03-15",
+      "hour": "15:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-15",
+      "title": "Patriot Deployments & Eastern Border Fortifications, Directed-Energy Systems & Counter-Drone Task Force & Majorana Zero-Modes & Fault-Tolerant Nanowires",
+      "subject": "Hourly intel dispatch: directed-energy systems & counter-drone task force, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 15-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining directed-energy systems & counter-drone task force, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against patriot deployments & eastern border fortifications, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and adversarial poisoning defense in federated ai networks. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating majorana zero-modes & fault-tolerant nanowires across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining recurrent fronto-parietal gamma synchrony in vision in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4619430/systems-selected-for-jiatf-401-directed-energy-counter-drone-pilot-program/",
+          "title": "Systems Selected for JIATF 401 Directed-Energy Counter-Drone Pilot Program",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/poland-to-deploy-patriots-near-ukrainian-border-announces-26-billion-civil-defense-plan/",
+          "title": "Poland to deploy Patriots near Ukrainian border, announces $26 billion civil defense plan",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/s42256-026-00925-4",
+          "title": "Cryptographic verification and zero-knowledge proofs against adversarial poisoning in federated neural networks",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.05128",
+          "title": "Topological Protection and Non-Abelian Braiding in Hybrid Semiconductor-Superconductor Nanowires",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756412v1?rss=1",
+          "title": "Recurrent fronto-parietal gamma synchrony as an essential marker of conscious visual perception",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-15/f01.webp"
+          },
+          {
+            "t": 35.88,
+            "src": "art/2026-10-03-15/f02.webp"
+          },
+          {
+            "t": 73.68,
+            "src": "art/2026-10-03-15/f03.webp"
+          },
+          {
+            "t": 107.98,
+            "src": "art/2026-10-03-15/f04.webp"
+          },
+          {
+            "t": 142.27,
+            "src": "art/2026-10-03-15/f05.webp"
+          },
+          {
+            "t": 173.45,
+            "src": "art/2026-10-03-15/f06.webp"
+          }
+        ]
+      },
+      "seconds": 203,
+      "cues": [
+        0.0,
+        35.88,
+        73.68,
+        107.98,
+        142.27,
+        173.45
+      ],
+      "audio": "audio/2026-10-03-15.mp3",
+      "thumb": "thumbs/2026-10-03-15.webp",
+      "cover_video": "thumbs/2026-10-03-15.mp4"
+    },
+    {
+      "id": "2026-10-03-14",
+      "hour": "14:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-14",
+      "title": "Ukrainian Sea Drones Dismantling Crimea Radar Belts, Export Control Loopholes in Dual-Use Microelectronics & Satellite-to-Ground Entanglement Links via ESA",
+      "subject": "Hourly intel dispatch: export control loopholes in dual-use microelectronics, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 14-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining export control loopholes in dual-use microelectronics, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against ukrainian sea drones dismantling crimea radar belts, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and deterministic fallbacks in autonomous interceptor swarms. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating satellite-to-ground entanglement links via esa across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining default mode network disruption during meditative absorption in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.finance.senate.gov/hearings/examining-enforcement-of-us-sanctions-and-export-controls",
+          "title": "Examining Enforcement Failures in Dual-Use Technology Sanctions and Export Controls",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-strikes-radar-facilities-in-occupied-crimea/",
+          "title": "Ukraine strikes Russian long-range radar installations in occupied Crimea",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/s42256-026-00912-x",
+          "title": "Deterministic fallback and symbolic verification for autonomous interceptor platforms",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.07189",
+          "title": "High-Fidelity Satellite-to-Ground Entanglement Distribution Through Atmospheric Turbulence",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.756114v1?rss=1",
+          "title": "Default mode network reorganization during sustained meditative absorption",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-14/f01.webp"
+          },
+          {
+            "t": 36.02,
+            "src": "art/2026-10-03-14/f02.webp"
+          },
+          {
+            "t": 74.02,
+            "src": "art/2026-10-03-14/f03.webp"
+          },
+          {
+            "t": 107.9,
+            "src": "art/2026-10-03-14/f04.webp"
+          },
+          {
+            "t": 142.3,
+            "src": "art/2026-10-03-14/f05.webp"
+          },
+          {
+            "t": 173.64,
+            "src": "art/2026-10-03-14/f06.webp"
+          }
+        ]
+      },
+      "seconds": 204,
+      "cues": [
+        0.0,
+        36.02,
+        74.02,
+        107.9,
+        142.3,
+        173.64
+      ],
+      "audio": "audio/2026-10-03-14.mp3",
+      "thumb": "thumbs/2026-10-03-14.webp",
+      "cover_video": "thumbs/2026-10-03-14.mp4"
+    },
+    {
+      "id": "2026-10-03-13",
+      "hour": "13:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-13",
+      "title": "EU €1.2B Direct Capitalization for Drone Factories, Congressional Stock Trades in Defense Equities & Wheeler Delayed-Choice Quantum Boundary Realization",
+      "subject": "Hourly intel dispatch: congressional stock trades in defense equities, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 13-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining congressional stock trades in defense equities, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against eu €1.2b direct capitalization for drone factories, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and autonomous bio-synthesis guardrails in agentic labs. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating wheeler delayed-choice quantum boundary realization across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining rapid sensory recalibration & subjective present timing in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.finance.senate.gov/hearings/stock-trading-conflicts-armed-services",
+          "title": "Senate Ethics Hearing: Examining Financial Disclosures and Defense Prime Holdings",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/eu-provides-ukraine-1-2-billion-euros-for-drones-and-missiles/",
+          "title": "EU provides Ukraine 1.2 billion euros for drones and missiles",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.science.org/doi/10.1126/science.ade9812",
+          "title": "Biosecurity governance in the era of autonomous synthetic biology and generative AI",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://www.science.org/doi/10.1126/science.1136303",
+          "title": "Experimental Realization of Wheeler's Delayed-Choice GedankenExperiment",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755365v1?rss=1",
+          "title": "Two components of rapid temporal recalibration across the senses",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-13/f01.webp"
+          },
+          {
+            "t": 35.35,
+            "src": "art/2026-10-03-13/f02.webp"
+          },
+          {
+            "t": 74.16,
+            "src": "art/2026-10-03-13/f03.webp"
+          },
+          {
+            "t": 108.34,
+            "src": "art/2026-10-03-13/f04.webp"
+          },
+          {
+            "t": 142.27,
+            "src": "art/2026-10-03-13/f05.webp"
+          },
+          {
+            "t": 173.93,
+            "src": "art/2026-10-03-13/f06.webp"
+          }
+        ]
+      },
+      "seconds": 204,
+      "cues": [
+        0.0,
+        35.35,
+        74.16,
+        108.34,
+        142.27,
+        173.93
+      ],
+      "audio": "audio/2026-10-03-13.mp3",
+      "thumb": "thumbs/2026-10-03-13.webp",
+      "cover_video": "thumbs/2026-10-03-13.mp4"
+    },
+    {
       "id": "2026-10-03-12",
       "hour": "12:00",
       "date": "2026-10-03",
@@ -502,6 +1393,600 @@
       "audio": "audio/2026-10-03-12.mp3",
       "thumb": "thumbs/2026-10-03-12.webp",
       "cover_video": "thumbs/2026-10-03-12.mp4"
+    },
+    {
+      "id": "2026-10-03-11",
+      "hour": "11:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-11",
+      "title": "Pokrovsk Reconnaissance Kill-Chains Halting Armor, Defense Industrial Base Munition Bottlenecks & Optimal Interferometer Blueprints for Quantum Gravity",
+      "subject": "Hourly intel dispatch: defense industrial base munition bottlenecks, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 11-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining defense industrial base munition bottlenecks, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against pokrovsk reconnaissance kill-chains halting armor, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and foundation model capture of academic scientific labs. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating optimal interferometer blueprints for quantum gravity across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining human claustrum gating multi-sensory cortical binding in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.gao.gov/reports-testimonies/2026-10-02/defense-industrial-base-ammunition-production",
+          "title": "Defense Industrial Base: Persistent Bottlenecks in Munitions and Rocket Motor Supply Chains",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukrainian-forces-repel-russian-armored-assault-near-pokrovsk/",
+          "title": "Ukrainian forces repel Russian armored assault near Pokrovsk using drone kill-chains",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03175-z",
+          "title": "AI could undermine scientific independence in subtle ways",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.04471",
+          "title": "Optimal Interferometer Geometry for Gravitationally Induced Quantum Entanglement",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755891v1?rss=1",
+          "title": "Temporal coordination of multi-sensory cortical binding mediated by claustro-cortical circuits",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-11/f01.webp"
+          },
+          {
+            "t": 35.21,
+            "src": "art/2026-10-03-11/f02.webp"
+          },
+          {
+            "t": 73.3,
+            "src": "art/2026-10-03-11/f03.webp"
+          },
+          {
+            "t": 107.71,
+            "src": "art/2026-10-03-11/f04.webp"
+          },
+          {
+            "t": 142.18,
+            "src": "art/2026-10-03-11/f05.webp"
+          },
+          {
+            "t": 173.54,
+            "src": "art/2026-10-03-11/f06.webp"
+          }
+        ]
+      },
+      "seconds": 204,
+      "cues": [
+        0.0,
+        35.21,
+        73.3,
+        107.71,
+        142.18,
+        173.54
+      ],
+      "audio": "audio/2026-10-03-11.mp3",
+      "thumb": "thumbs/2026-10-03-11.webp",
+      "cover_video": "thumbs/2026-10-03-11.mp4"
+    },
+    {
+      "id": "2026-10-03-10",
+      "hour": "10:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-10",
+      "title": "Odesa Port Air Defense & Tactical Drone Jamming, European Deterrence Architecture & Taboo Removal & Optomechanical Gravitational Wavefunction Collapse",
+      "subject": "Hourly intel dispatch: european deterrence architecture & taboo removal, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 10-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining european deterrence architecture & taboo removal, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against odesa port air defense & tactical drone jamming, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and datacenter gigawatt scaling & power grid strain. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating optomechanical gravitational wavefunction collapse across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining declassified cia remote viewing stargate air audit in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.reuters.com/world/europe/european-allies-weigh-deeper-strikes-and-strategic-deterrence-rebalancing-2026-10-07/",
+          "title": "European allies weigh strategic deterrence rebalancing and support for long-range strikes",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-intercepts-missile-drone-barrage-targeting-odesa-ports/",
+          "title": "Ukrainian air defenses and EW units intercept massive drone barrage targeting Odesa ports",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03201-w",
+          "title": "The energy bottleneck: How mega-datacenters are colliding with power grids",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.05942",
+          "title": "Testing Gravitational Wavefunction Collapse with Levitated Optomechanical Resonators",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.cia.gov/readingroom/document/cia-rdp96-00791r000200180005-5",
+          "title": "An Evaluation of Remote Viewing: Research and Applications (AIR Report)",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-10/f01.webp"
+          },
+          {
+            "t": 35.71,
+            "src": "art/2026-10-03-10/f02.webp"
+          },
+          {
+            "t": 73.78,
+            "src": "art/2026-10-03-10/f03.webp"
+          },
+          {
+            "t": 107.81,
+            "src": "art/2026-10-03-10/f04.webp"
+          },
+          {
+            "t": 142.2,
+            "src": "art/2026-10-03-10/f05.webp"
+          },
+          {
+            "t": 173.86,
+            "src": "art/2026-10-03-10/f06.webp"
+          }
+        ]
+      },
+      "seconds": 204,
+      "cues": [
+        0.0,
+        35.71,
+        73.78,
+        107.81,
+        142.2,
+        173.86
+      ],
+      "audio": "audio/2026-10-03-10.mp3",
+      "thumb": "thumbs/2026-10-03-10.webp",
+      "cover_video": "thumbs/2026-10-03-10.mp4"
+    },
+    {
+      "id": "2026-10-03-09",
+      "hour": "09:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-09",
+      "title": "Long-Range Drone Interdiction of Rear Supply Hubs, Directed-Energy Systems & Counter-Drone Task Force & Majorana Zero-Modes & Fault-Tolerant Nanowires",
+      "subject": "Hourly intel dispatch: directed-energy systems & counter-drone task force, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 09-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining directed-energy systems & counter-drone task force, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against long-range drone interdiction of rear supply hubs, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and adversarial poisoning defense in federated ai networks. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating majorana zero-modes & fault-tolerant nanowires across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining fronto-striatal inhibitory control networks in attention in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4619430/systems-selected-for-jiatf-401-directed-energy-counter-drone-pilot-program/",
+          "title": "Systems Selected for JIATF 401 Directed-Energy Counter-Drone Pilot Program",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-strikes-ammunition-depots-in-occupied-luhansk/",
+          "title": "Ukrainian strike drones hit ammunition depots and rail logistics in occupied Luhansk",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/s42256-026-00925-4",
+          "title": "Cryptographic verification and zero-knowledge proofs against adversarial poisoning in federated neural networks",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.05128",
+          "title": "Topological Protection and Non-Abelian Braiding in Hybrid Semiconductor-Superconductor Nanowires",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756535v1?rss=1",
+          "title": "Functional deficits of the inhibitory control system in children with ADHD: A task-based fMRI meta-analysis",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-09/f01.webp"
+          },
+          {
+            "t": 35.62,
+            "src": "art/2026-10-03-09/f02.webp"
+          },
+          {
+            "t": 73.68,
+            "src": "art/2026-10-03-09/f03.webp"
+          },
+          {
+            "t": 107.98,
+            "src": "art/2026-10-03-09/f04.webp"
+          },
+          {
+            "t": 142.27,
+            "src": "art/2026-10-03-09/f05.webp"
+          },
+          {
+            "t": 174.17,
+            "src": "art/2026-10-03-09/f06.webp"
+          }
+        ]
+      },
+      "seconds": 204,
+      "cues": [
+        0.0,
+        35.62,
+        73.68,
+        107.98,
+        142.27,
+        174.17
+      ],
+      "audio": "audio/2026-10-03-09.mp3",
+      "thumb": "thumbs/2026-10-03-09.webp",
+      "cover_video": "thumbs/2026-10-03-09.mp4"
+    },
+    {
+      "id": "2026-10-03-08",
+      "hour": "08:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-08",
+      "title": "Patriot Deployments & Eastern Border Fortifications, Export Control Loopholes in Dual-Use Microelectronics & Satellite-to-Ground Entanglement Links via ESA",
+      "subject": "Hourly intel dispatch: export control loopholes in dual-use microelectronics, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 08-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining export control loopholes in dual-use microelectronics, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against patriot deployments & eastern border fortifications, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and deterministic fallbacks in autonomous interceptor swarms. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating satellite-to-ground entanglement links via esa across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining recurrent fronto-parietal gamma synchrony in vision in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.finance.senate.gov/hearings/examining-enforcement-of-us-sanctions-and-export-controls",
+          "title": "Examining Enforcement Failures in Dual-Use Technology Sanctions and Export Controls",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/poland-to-deploy-patriots-near-ukrainian-border-announces-26-billion-civil-defense-plan/",
+          "title": "Poland to deploy Patriots near Ukrainian border, announces $26 billion civil defense plan",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/s42256-026-00912-x",
+          "title": "Deterministic fallback and symbolic verification for autonomous interceptor platforms",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.07189",
+          "title": "High-Fidelity Satellite-to-Ground Entanglement Distribution Through Atmospheric Turbulence",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756412v1?rss=1",
+          "title": "Recurrent fronto-parietal gamma synchrony as an essential marker of conscious visual perception",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-08/f01.webp"
+          },
+          {
+            "t": 36.12,
+            "src": "art/2026-10-03-08/f02.webp"
+          },
+          {
+            "t": 73.92,
+            "src": "art/2026-10-03-08/f03.webp"
+          },
+          {
+            "t": 107.81,
+            "src": "art/2026-10-03-08/f04.webp"
+          },
+          {
+            "t": 142.2,
+            "src": "art/2026-10-03-08/f05.webp"
+          },
+          {
+            "t": 173.38,
+            "src": "art/2026-10-03-08/f06.webp"
+          }
+        ]
+      },
+      "seconds": 203,
+      "cues": [
+        0.0,
+        36.12,
+        73.92,
+        107.81,
+        142.2,
+        173.38
+      ],
+      "audio": "audio/2026-10-03-08.mp3",
+      "thumb": "thumbs/2026-10-03-08.webp",
+      "cover_video": "thumbs/2026-10-03-08.mp4"
+    },
+    {
+      "id": "2026-10-03-07",
+      "hour": "07:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-07",
+      "title": "Ukrainian Sea Drones Dismantling Crimea Radar Belts, Congressional Stock Trades in Defense Equities & Wheeler Delayed-Choice Quantum Boundary Realization",
+      "subject": "Hourly intel dispatch: congressional stock trades in defense equities, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 07-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining congressional stock trades in defense equities, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against ukrainian sea drones dismantling crimea radar belts, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and autonomous bio-synthesis guardrails in agentic labs. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating wheeler delayed-choice quantum boundary realization across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining default mode network disruption during meditative absorption in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.finance.senate.gov/hearings/stock-trading-conflicts-armed-services",
+          "title": "Senate Ethics Hearing: Examining Financial Disclosures and Defense Prime Holdings",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-strikes-radar-facilities-in-occupied-crimea/",
+          "title": "Ukraine strikes Russian long-range radar installations in occupied Crimea",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.science.org/doi/10.1126/science.ade9812",
+          "title": "Biosecurity governance in the era of autonomous synthetic biology and generative AI",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://www.science.org/doi/10.1126/science.1136303",
+          "title": "Experimental Realization of Wheeler's Delayed-Choice GedankenExperiment",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.756114v1?rss=1",
+          "title": "Default mode network reorganization during sustained meditative absorption",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-07/f01.webp"
+          },
+          {
+            "t": 35.26,
+            "src": "art/2026-10-03-07/f02.webp"
+          },
+          {
+            "t": 73.25,
+            "src": "art/2026-10-03-07/f03.webp"
+          },
+          {
+            "t": 107.42,
+            "src": "art/2026-10-03-07/f04.webp"
+          },
+          {
+            "t": 141.36,
+            "src": "art/2026-10-03-07/f05.webp"
+          },
+          {
+            "t": 172.7,
+            "src": "art/2026-10-03-07/f06.webp"
+          }
+        ]
+      },
+      "seconds": 203,
+      "cues": [
+        0.0,
+        35.26,
+        73.25,
+        107.42,
+        141.36,
+        172.7
+      ],
+      "audio": "audio/2026-10-03-07.mp3",
+      "thumb": "thumbs/2026-10-03-07.webp",
+      "cover_video": "thumbs/2026-10-03-07.mp4"
+    },
+    {
+      "id": "2026-10-03-06",
+      "hour": "06:00",
+      "date": "2026-10-03",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-03-06",
+      "title": "EU €1.2B Direct Capitalization for Drone Factories, Pentagon Procurement Reform & Defense Monopolies & Cosmic Neutrino Telemetry & Extragalactic Accelerators",
+      "subject": "Hourly intel dispatch: pentagon procurement reform & defense monopolies, frontline tactical developments, frontier compute scaling, quantum measurements, and consciousness research.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is 06-hundred hours UTC. In Washington, government watchdogs and congressional oversight committees are closely examining pentagon procurement reform & defense monopolies, probing how legacy defense primes lock in long-term non-compete agreements while systematically sidelining agile autonomous hardware and dynamic electronic warfare platforms. When multi-billion dollar contracts are structured by corporate lobbyists to reward bureaucracy over front-line operational velocity, strategic deterrence is severely compromised. Both political establishments cash the checks while frontline units absorb the supply deficits.",
+        "Across the Ukrainian operational theater, defense forces executed coordinated long-range strikes against eu €1.2b direct capitalization for drone factories, striking fortified staging belts and forward ammunition depots deep behind contested lines. Tactical telemetry verifies that distributed asymmetric drone strikes and precision electronic countermeasures continue decisively outmaneuvering heavy conventional hostile armored formations at a fraction of legacy military costs. Modern battlefield dominance is dictated by real-time sensor integration and decentralized operational velocity, not multi-billion dollar legacy flagships or slow, politicized bureaucratic decisions.",
+        "Frontier compute and critical infrastructure. An in-depth investigation published in Nature documents the accelerating systemic bottleneck surrounding commercial power grid limits and supply chain cascades from industrial digital outages. As advanced foundation models demand multi-gigawatt power substations and delicate cooling grids, centralized supply chains are experiencing unprecedented thermodynamic and infrastructural friction. Real operational cyber resilience requires decentralized, fault-tolerant network topologies that cannot be severed or disrupted by a single localized software failure or targeted electrical disruption.",
+        "Subatomic reality and quantum fundamentals. A notable paper in arXiv highlights breakthrough experimental findings investigating cosmic neutrino telemetry & extragalactic accelerators across superconducting quantum circuits. By probing whether quantum states maintain non-local entanglement and macroscopic coherence without classical mediator fields, physicists are empirically testing the boundary where quantum superposition transitions into classical reality. The empirical receipts demonstrate that physical reality has no predetermined state before observation and remains an unrendered probability field until actively queried.",
+        "Consciousness science desk. Neurobiology research published in bioRxiv provides compelling empirical data examining rapid sensory recalibration & subjective present timing in human subjects. Researchers demonstrate that subjective perceptual unity and conscious agency rely on continuous temporal phase-locking across subcortical routing hubs rather than passive retinal reception. Compare that to declassified Project Stargate records: the boundary between sensory routing and conscious awareness remains deeply modular, challenging traditional reductionist paradigms.",
+        "Tonight's receipts. Defense contracting examined while frontline strikes neutralize rear logistics corridors. Centralized infrastructure strained under foundation model compute. Quantum experiments mapping the fabric of spacetime, and neurobiology unlocking the roots of conscious awareness. Both corporate political factions want you distracted, fearful, and obedient. Refuse their synthetic partisan script. Check every source in the dossier drawer, verify the empirical data, and stay lucid. I'm Ava Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.gao.gov/reports-testimonies/2026-10-01/defense-acquisition-reform",
+          "title": "Defense Acquisition Oversight: Evaluating Sole-Source Contracts and Monopoly Margins",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 0,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-09-30",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/eu-provides-ukraine-1-2-billion-euros-for-drones-and-missiles/",
+          "title": "EU provides Ukraine 1.2 billion euros for drones and missiles",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03105-z",
+          "title": "How digital breakdowns affect supply chains — and endanger the global economy",
+          "published": "2026-10-03"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03092-1",
+          "title": "Nobel physics prize awarded for detection of cosmic neutrinos",
+          "published": "2026-10-03",
+          "kind": "reference"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755365v1?rss=1",
+          "title": "Two components of rapid temporal recalibration across the senses",
+          "published": "2026-10-03",
+          "kind": "reference"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-03-06/f01.webp"
+          },
+          {
+            "t": 35.66,
+            "src": "art/2026-10-03-06/f02.webp"
+          },
+          {
+            "t": 74.47,
+            "src": "art/2026-10-03-06/f03.webp"
+          },
+          {
+            "t": 107.78,
+            "src": "art/2026-10-03-06/f04.webp"
+          },
+          {
+            "t": 142.85,
+            "src": "art/2026-10-03-06/f05.webp"
+          },
+          {
+            "t": 174.5,
+            "src": "art/2026-10-03-06/f06.webp"
+          }
+        ]
+      },
+      "seconds": 204,
+      "cues": [
+        0.0,
+        35.66,
+        74.47,
+        107.78,
+        142.85,
+        174.5
+      ],
+      "audio": "audio/2026-10-03-06.mp3",
+      "thumb": "thumbs/2026-10-03-06.webp",
+      "cover_video": "thumbs/2026-10-03-06.mp4"
     },
     {
       "id": "2026-10-03-05",
