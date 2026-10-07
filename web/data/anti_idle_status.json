@@ -1,13 +1,13 @@
 {
-  "timestamp": "2026-10-07T23:20:03.587351+00:00",
+  "timestamp": "2026-10-07T23:22:01.510606+00:00",
   "status": "SYNTHESIZING",
-  "current_slot": "2026-10-02-01",
-  "published_count": 31,
+  "current_slot": "2026-10-02-16",
+  "published_count": 45,
   "total_target": 167,
-  "percent_complete": 18.6,
+  "percent_complete": 26.9,
   "host": "Ava Vance (en-US-AvaMultilingualNeural)",
   "rate": "+14%",
-  "uptime_seconds": 584,
-  "extra": "Synthesizing slot 2026-10-02-01",
+  "uptime_seconds": 702,
+  "extra": "Synthesizing slot 2026-10-02-16",
   "pid": 22236
 }
