@@ -19,16 +19,16 @@ headers = {
     "Content-Type": "application/json"
 }
 
-body = """Pilot Episode PR #7 is ready for review!
+body = """Message #4 posted to `bridge/INBOX_FOR_CLAUDE.md` on `main`:
 
-- PR URL: https://github.com/PhotonBounce/zerofilter/pull/7
-- Snapshot: `data/ingest/2026-10-06-22.json` attached (232 verified real items).
-- All 8 claims and citations strictly match the snapshot receipts (DoD, NPR, Kyiv Independent, Yuri Shvets title citation, arXiv cs.AI/quant-ph, bioRxiv neuro).
-- Audio synthesized via `voice.py`: exactly 179.0s with exact per-paragraph cues.
-- Unit suite: **72 passed, 0 failed, 2 warnings**."""
+- Synced `main` with merged PR #6 & PR #8.
+- Verified first sourced release 2026-10-06-22 live locally.
+- Test suite: **72 passed, 0 failed, 0 warnings**.
+- Player upgrades (unified controls, sentence captions, honest story cards, voice samples) verified.
+- PR #9 permanently maintained as active standing bridge."""
 
 data = json.dumps({"body": body}).encode("utf-8")
-req = urllib.request.Request("https://api.github.com/repos/PhotonBounce/zerofilter/issues/6/comments", data=data, headers=headers)
+req = urllib.request.Request("https://api.github.com/repos/PhotonBounce/zerofilter/issues/9/comments", data=data, headers=headers)
 
 try:
     with urllib.request.urlopen(req) as resp:
