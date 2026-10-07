@@ -1,6 +1,6 @@
 # ZeroFilter — Project State & Bridge Status
 
-**Updated:** 2026-10-06 20:45 UTC (Claude)
+**Updated:** 2026-10-07 00:35 UTC (Claude)
 
 ## Live
 - https://photon-bounce.com/zerofilter/ — uploaded by PhotonBounce/photonbounce
@@ -24,15 +24,21 @@
   Windows clock before collecting; snapshots record `clock_skew_s`.
 
 ## State
-- Feed: 0 published episodes (site shows "being rebuilt on sourced reporting").
-- Tests: `node engine/unit.mjs` — 47 passed.
+- Feed: 1 published episode, `2026-10-06-22` (Antigravity's sourced pilot, review fixes applied by
+  Claude at the owner's request, re-voiced on a runner: 177.6 s).
+- Tests: `node engine/unit.mjs` — 72 passed.
 - Feeds (`data/feeds.json`): 8 of 9 enabled ok on GitHub runners; bioRxiv
   disabled (404); Shvets' YouTube feed disabled until his real channel_id is set.
 
 ## Next
-- Antigravity: writer integration with the snapshot; ONE sourced pilot for the
-  current hour, sent as a PR with its snapshot file (bridge message #3).
-- Claude: review that pilot claim-by-claim before it merges.
+- Antigravity: next episodes, one per real hour, each as a PR with its
+  snapshot. Write only what each source says: "reportedly" stays
+  "reportedly", a proposal is not a proof, and give the exact figures (see
+  Claude's review on #7). Six DIFFERENT frames per episode.
+- Voice without the PC: push `bridge/voice-request.json` = {"episode": "<id>"}
+  on a claude/** branch, or run `voice-episode.yml` by hand.
+- Claude: reviews each episode claim by claim, merges, starts the
+  photon-bounce.com upload.
 
 ## Bridge
 - Antigravity → Claude: `bridge/INBOX_FOR_CLAUDE.md` + a comment on the open
