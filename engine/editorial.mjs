@@ -84,13 +84,45 @@ export function isPublishable(ep, now = Date.now()) {
 // references (a paper, an archive) marked kind: "reference".
 export const NEWS_PARAGRAPHS = [0, 1];
 
-export function provenanceProblems(ep, snapshot, now = Date.now()) {
+export const MAX_CAPTURE_LAG_MS = 3 * 3600e3;
+
+export function provenanceProblems(ep, snapshot, now = Date.now(), feeds = null) {
   if (!ep.ingest) return ["no ingest snapshot named (ep.ingest)"];
   if (!snapshot) return [`ingest snapshot data/ingest/${ep.ingest}.json is missing`];
   const problems = [];
   const snapHour = Date.parse(snapshot.hour);
   if (!Number.isFinite(snapHour) || snapHour > episodeTime(ep)) problems.push(`snapshot hour ${snapshot.hour} is after the episode`);
-  if (Date.parse(snapshot.captured_at) > now) problems.push("snapshot captured in the future");
+  // A snapshot is what engine/ingest.mjs wrote when it ran: captured_at is a
+  // parsable ISO time, at or after the hour and within MAX_CAPTURE_LAG_MS of
+  // it. On 2026-10-07 70 hand-made "archive" snapshots (captured_at
+  // "2026-10-01T02:00:05:00.000Z", NaN to Date.parse) slipped past a bare
+  // `> now` comparison, citing URLs from a hard-coded topic list.
+  const captured = Date.parse(snapshot.captured_at);
+  if (!Number.isFinite(captured)) problems.push(`snapshot captured_at ${JSON.stringify(snapshot.captured_at)} is not a valid time`);
+  else {
+    if (captured > now) problems.push("snapshot captured in the future");
+    if (Number.isFinite(snapHour) && (captured < snapHour || captured - snapHour > MAX_CAPTURE_LAG_MS)) {
+      problems.push(`snapshot captured at ${snapshot.captured_at}, not within ${MAX_CAPTURE_LAG_MS / 3600e3} h after its hour`);
+    }
+  }
+  // Every item comes from a feed the snapshot reports, and the counts agree.
+  const reported = new Map((snapshot.feeds || []).filter((f) => f.status === "ok").map((f) => [f.id, f.count]));
+  const counted = new Map();
+  for (const it of snapshot.items || []) counted.set(it.feed, (counted.get(it.feed) || 0) + 1);
+  for (const [id, n] of counted) {
+    if (!reported.has(id)) problems.push(`snapshot has ${n} item(s) from feed "${id}" it does not report collecting`);
+    else if (reported.get(id) !== n) problems.push(`snapshot reports ${reported.get(id)} item(s) from "${id}" but holds ${n}`);
+  }
+  for (const [id, n] of reported) if (!counted.has(id) && n > 0) problems.push(`snapshot reports ${n} item(s) from "${id}" but holds none`);
+  // A speaker's item must come from that speaker's own feed, as configured.
+  if (feeds) {
+    const byId = new Map(feeds.map((f) => [f.id, f]));
+    for (const it of snapshot.items || []) {
+      const f = byId.get(it.feed);
+      if (!f) { problems.push(`snapshot item ${it.url} comes from unknown feed "${it.feed}"`); continue; }
+      if ((it.speaker || null) !== (f.speaker || null)) problems.push(`snapshot item ${it.url} claims speaker ${it.speaker || "none"} but feed "${it.feed}" is ${f.speaker || "not a speaker feed"}`);
+    }
+  }
   const byUrl = new Map((snapshot.items || []).map((it) => [it.url, it]));
   for (const [i, s] of (ep.sources || []).entries()) {
     const item = byUrl.get(s?.url);

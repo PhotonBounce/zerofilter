@@ -1,5 +1,13 @@
 import os
 import sys
+
+# DISABLED 2026-10-07 (owner's order: no fake news, no fake quotes). This
+# script wrote backdated episodes from a hard-coded topic list and hand-made
+# ingest snapshots; every one was held (data/held/episodes-fabricated-archive.json).
+# Episodes are written only from a real engine/ingest.mjs snapshot of the
+# hour they are published. There is no archive backfill.
+sys.exit("crank_hourly_archive.py is disabled: backfilled episodes cite sources that were never collected. See docs/EPISODE_FORMULA.md section 0.")
+
 import json
 import asyncio
 import glob
