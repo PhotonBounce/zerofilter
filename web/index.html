@@ -44,22 +44,8 @@
   <main class="zf-main">
     <!-- Hero Broadcast Spotlight -->
     <section class="hero-spotlight" id="hero-spotlight">
-      <div class="spotlight-media" id="spotlight-media">
-        <!-- Tactical Studio Camera Angle Switcher -->
-        <div class="studio-switcher" id="studio-switcher" aria-label="Camera Angle Switcher">
-          <button type="button" class="cam-btn active" data-cam="loop" title="10s Looping Video Cover">
-            <span class="cam-dot"></span> 10s COVER
-          </button>
-          <button type="button" class="cam-btn" data-cam="host" title="Cam 1: Rex Vance Broadcast Desk">
-            <span class="cam-dot"></span> HOST CAM
-          </button>
-          <button type="button" class="cam-btn" data-cam="bunker" title="Cam 2: ZeroFilter Command Bunker">
-            <span class="cam-dot"></span> BUNKER
-          </button>
-          <button type="button" class="cam-btn" data-cam="story" title="Synchronized Story Art Frames">
-            <span class="cam-dot"></span> STORY ART
-          </button>
-        </div>
+      <div class="media-column">
+        <div class="spotlight-media" id="spotlight-media">
 
         <!-- 10s looping video cover or poster -->
         <video id="hero-video" class="hero-video" autoplay loop muted playsinline poster="assets/studio_bunker.webp"></video>
@@ -86,6 +72,45 @@
         <div class="broadcast-badge" id="broadcast-badge">ZEROFILTER</div>
       </div>
 
+        <!-- One control bar under the picture (owner, 2026-10-07) -->
+        <div class="control-bar" id="control-bar">
+          <audio id="main-audio" preload="metadata"></audio>
+          <canvas id="audio-spectrum" class="bar-spectrum" height="36" width="600" aria-hidden="true"></canvas>
+          <button type="button" class="btn-play" id="btn-play" aria-label="Play or Pause">
+            <span class="play-icon" id="play-icon">▶</span>
+          </button>
+          <span class="time-readout"><span id="current-time">0:00</span><span class="separator">/</span><span id="total-time">0:00</span></span>
+          <div class="seek-container">
+            <input type="range" class="seek-bar" id="seek-bar" min="0" max="180" step="0.1" value="0" aria-label="Seek audio position">
+            <div class="seek-progress" id="seek-progress"></div>
+          </div>
+          <label class="bar-select" title="Playback speed">
+            <span class="visually-hidden">Speed</span>
+            <select id="speed-select" aria-label="Playback speed">
+              <option value="1">1.0×</option>
+              <option value="1.2">1.2×</option>
+              <option value="1.5">1.5×</option>
+            </select>
+          </label>
+          <label class="bar-select" title="Picture">
+            <span class="visually-hidden">Picture</span>
+            <select id="cam-select" aria-label="Picture">
+              <option value="story">Story</option>
+              <option value="loop">Cover</option>
+              <option value="host">Host</option>
+              <option value="bunker">Studio</option>
+            </select>
+          </label>
+          <button type="button" class="btn-share" id="btn-share" title="Share this episode" aria-label="Share">↗</button>
+        </div>
+
+        <!-- Captions under the bar -->
+        <div class="subtitles-box" id="subtitles-box" aria-live="polite">
+          <span class="cue-speaker">REX:</span>
+          <span class="cue-text" id="cue-text">No episode published yet.</span>
+        </div>
+      </div>
+
       <div class="spotlight-content">
         <div class="episode-meta">
           <span class="badge category-badge" id="ep-category">ZEROFILTER</span>
@@ -99,51 +124,6 @@
           <summary>Sources for this briefing</summary>
           <ol id="ep-sources"></ol>
         </details>
-
-        <!-- Subtitle Cue Strip -->
-        <div class="subtitles-box" id="subtitles-box">
-          <span class="cue-speaker">REX:</span>
-          <span class="cue-text" id="cue-text">No episode published yet.</span>
-        </div>
-
-        <!-- Audio Player Console -->
-        <div class="player-console">
-          <audio id="main-audio" preload="metadata"></audio>
-
-          <!-- Real-time Audio Spectrum Visualizer -->
-          <div class="spectrum-container">
-            <canvas id="audio-spectrum" class="audio-spectrum" height="36" width="600"></canvas>
-            <div class="spectrum-hud">
-              <span class="freq-tag">20Hz - 20kHz SPECTRUM</span>
-              <span class="voice-tag" id="voice-tag">REX VANCE · 100% UNFILTERED</span>
-            </div>
-          </div>
-          
-          <div class="playback-controls">
-            <button type="button" class="btn-play" id="btn-play" aria-label="Play or Pause">
-              <span class="play-icon" id="play-icon">▶</span>
-            </button>
-            <div class="time-readout">
-              <span id="current-time">0:00</span>
-              <span class="separator">/</span>
-              <span id="total-time">0:00</span>
-            </div>
-          </div>
-
-          <div class="seek-container">
-            <input type="range" class="seek-bar" id="seek-bar" min="0" max="180" step="0.1" value="0" aria-label="Seek audio position">
-            <div class="seek-progress" id="seek-progress"></div>
-          </div>
-
-          <div class="extra-controls">
-            <div class="speed-selector">
-              <button type="button" class="speed-btn active" data-speed="1">1.0x</button>
-              <button type="button" class="speed-btn" data-speed="1.2">1.2x</button>
-              <button type="button" class="speed-btn" data-speed="1.5">1.5x</button>
-            </div>
-            <button type="button" class="btn-share" id="btn-share" title="Copy Episode Link">↗</button>
-          </div>
-        </div>
       </div>
     </section>
 

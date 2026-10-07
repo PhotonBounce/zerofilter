@@ -1,0 +1,44 @@
+name: Voice samples (pick Rex's voice)
+
+# Renders the same short excerpt in several edge-tts voices so the owner can
+# listen and choose. Output: samples/voice-<voice>.mp3 on the same branch.
+# Trigger: change bridge/voice-samples.json on a claude/** branch:
+#   { "text": "...", "rate": "+5%", "voices": ["en-US-AndrewMultilingualNeural", ...] }
+
+on:
+  push:
+    branches: [ 'claude/**' ]
+    paths: [ 'bridge/voice-samples.json' ]
+
+permissions:
+  contents: write
+
+jobs:
+  samples:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install edge-tts
+      - name: Render
+        run: |
+          set -euo pipefail
+          mkdir -p samples
+          python - <<'PY'
+          import json, subprocess
+          cfg = json.load(open("bridge/voice-samples.json"))
+          for v in cfg["voices"]:
+              out = f"samples/voice-{v}.mp3"
+              r = subprocess.run(["edge-tts", "--voice", v, f"--rate={cfg.get('rate', '+0%')}",
+                                  "--text", cfg["text"], "--write-media", out])
+              print("wrote" if r.returncode == 0 else "SKIPPED (voice unavailable)", out)
+          PY
+      - name: Commit samples
+        run: |
+          git config user.name "zerofilter-voice-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add samples
+          git commit -m "samples: voice options for Rex" || echo "nothing to commit"
+          git push
