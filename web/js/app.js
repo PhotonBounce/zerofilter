@@ -11,7 +11,7 @@ let currentEpisode = null;
 let currentStarts = [];
 let currentPara = -1;
 let activeFilter = "all";
-let activeCam = "loop"; // "loop" | "host" | "bunker" | "story"
+let activeCam = "story"; // "loop" | "host" | "bunker" | "story"
 
 const audio = $("main-audio");
 const btnPlay = $("btn-play");
@@ -77,6 +77,8 @@ async function init() {
 
 function switchCamera(cam) {
   activeCam = cam;
+  const camSelect = $("cam-select");
+  if (camSelect && camSelect.value !== cam) camSelect.value = cam;
   $$(".cam-btn").forEach(btn => {
     btn.classList.toggle("active", btn.getAttribute("data-cam") === cam);
   });
@@ -247,10 +249,26 @@ function syncPlayback() {
   if (!currentEpisode) return;
 
   // Subtitle cue sync: real cues from voice.py, else word-weighted estimate
+  // Captions show the sentence being spoken: the paragraph's time span
+  // (exact cues from voice.py) shared out by word count across its sentences.
   const paraIdx = paragraphAt(currentStarts, t);
-  if (paraIdx !== currentPara && currentEpisode.paragraphs[paraIdx]) {
-    currentPara = paraIdx;
-    cueText.textContent = `"${currentEpisode.paragraphs[paraIdx]}"`;
+  const para = currentEpisode.paragraphs[paraIdx];
+  if (para) {
+    const sentences = para.match(/[^.!?]+[.!?]+["”’)]*\s*|[^.!?]+$/g) || [para];
+    const start = currentStarts[paraIdx];
+    const end = currentStarts[paraIdx + 1] ?? (audio.duration || currentEpisode.seconds);
+    const words = sentences.map((x) => x.split(/\s+/).filter(Boolean).length);
+    const total = words.reduce((x, y) => x + y, 0) || 1;
+    let acc = 0, idx = 0;
+    for (let k = 0; k < sentences.length; k++) {
+      if (t >= start + (acc / total) * (end - start)) idx = k;
+      acc += words[k];
+    }
+    const key = paraIdx * 1000 + idx;
+    if (key !== currentPara) {
+      currentPara = key;
+      cueText.textContent = sentences[idx].trim();
+    }
   }
 
   // Synchronized Stage Overlay
@@ -287,11 +305,13 @@ function resizeCanvas() {
   if (!canvas) return;
   // Draw at device pixels so the bars stay sharp on phones (DPR 2-3).
   const dpr = Math.min(window.devicePixelRatio || 1, 3);
+  // The spectrum is the control bar's background: fill the bar.
   const cssW = canvas.parentElement.clientWidth || 500;
+  const cssH = canvas.parentElement.clientHeight || 36;
   canvas.style.width = cssW + "px";
-  canvas.style.height = "36px";
+  canvas.style.height = cssH + "px";
   canvas.width = Math.round(cssW * dpr);
-  canvas.height = Math.round(36 * dpr);
+  canvas.height = Math.round(cssH * dpr);
   barGradients = null;
   if (audio.paused) drawDefaultSpectrum();
 }
@@ -504,20 +524,10 @@ function setupEventListeners() {
   });
 
   // Camera angle switcher
-  $$(".cam-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const cam = btn.getAttribute("data-cam");
-      switchCamera(cam);
-    });
-  });
-
-  // Playback speeds
-  $$(".speed-btn").forEach(btn => {
-    btn.addEventListener("click", () => {
-      $$(".speed-btn").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      audio.playbackRate = Number(btn.getAttribute("data-speed"));
-    });
+  // Picture and speed live in the control bar as two small selects.
+  $("cam-select")?.addEventListener("change", (e) => switchCamera(e.target.value));
+  $("speed-select")?.addEventListener("change", (e) => {
+    audio.playbackRate = Number(e.target.value);
   });
 
   // Category filters

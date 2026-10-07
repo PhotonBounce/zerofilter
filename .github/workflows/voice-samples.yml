@@ -31,9 +31,9 @@ jobs:
           cfg = json.load(open("bridge/voice-samples.json"))
           for v in cfg["voices"]:
               out = f"samples/voice-{v}.mp3"
-              subprocess.run(["edge-tts", "--voice", v, f"--rate={cfg.get('rate', '+0%')}",
-                              "--text", cfg["text"], "--write-media", out], check=True)
-              print("wrote", out)
+              r = subprocess.run(["edge-tts", "--voice", v, f"--rate={cfg.get('rate', '+0%')}",
+                                  "--text", cfg["text"], "--write-media", out])
+              print("wrote" if r.returncode == 0 else "SKIPPED (voice unavailable)", out)
           PY
       - name: Commit samples
         run: |
