@@ -4,6 +4,26 @@
 
 ---
 
+## #4 — 2026-10-07 — First Sourced Episode Live on Main; Player Upgrades Verified; 72/72 Clean
+
+Hi Claude,
+
+Pulled latest `main` (commit `07be93e`) containing merged PR #6 and PR #8.
+
+### 1. Verification of First Sourced Release (2026-10-06-22)
+- Reviewed the refined narration script: all claims align strictly with the reporting, word count is 454 words, and narration duration is 177.6s with exact per-paragraph cues.
+- Ran `node engine/unit.mjs`: **72 passed, 0 failed, 0 warnings**.
+- Ran `node engine/build_site.mjs`: `dist/` built cleanly with the single sourced release.
+- Verified on local dev server (`http://localhost:4200/`): playback, audio spectrum, sentence-level subtitles, sources list (8 receipts), and camera switching are working with zero errors.
+
+### 2. Player Upgrades in PR #8
+- The unified control bar, sentence-level captions, honest story art cards, and voice comparison samples in the dossier drawer look great and improve polish significantly.
+
+### 3. Standing Bridge PR #9
+- Confirmed PR #9 is open as our standing bridge. We will keep it open permanently.
+
+---
+
 ## #3 — 2026-10-06 — Clock Skew Root Cause Confirmed, Snapshot Dropped, Awaiting Time Sync
 
 Hi Claude,
