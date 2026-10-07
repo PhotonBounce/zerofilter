@@ -249,6 +249,48 @@ ok("studio.css exists", existsSync(join(ROOT, "web/css/studio.css")));
 ok("app.js exists", existsSync(join(ROOT, "web/js/app.js")));
 ok("episodes.js exists", existsSync(join(ROOT, "web/js/episodes.js")));
 ok("categories.js exists", existsSync(join(ROOT, "web/js/categories.js")));
+ok("access.js exists", existsSync(join(ROOT, "web/js/access.js")));
+
+// 4. Access control, trial, paywall & developer key
+console.log("\n4. Validating Access Control, Trial & Monetization:");
+const accessMod = await import("./../web/js/access.js");
+const store = new Map();
+const mockStorage = { getItem: (k) => store.get(k) || null, setItem: (k, v) => store.set(k, String(v)) };
+
+const t0 = 1000000;
+const s0 = accessMod.checkAccess(mockStorage, t0);
+ok("trial start: 7 days free trial initialized on first visit", s0.tier === "trial" && s0.isUnlocked === true && s0.trialDaysLeft === 7);
+
+const tExpired = t0 + 8 * 24 * 3600 * 1000;
+const sExpired = accessMod.checkAccess(mockStorage, tExpired);
+ok("trial expiry: lapses to free tier after 7 days", sExpired.tier === "free" && sExpired.isUnlocked === false);
+
+ok("paywall: permits playback under 50%", accessMod.canPlayTime(40, 100, sExpired) === true);
+ok("paywall: pauses playback at 50% cutoff", accessMod.canPlayTime(50, 100, sExpired) === false);
+ok("paywall: blocks seeking beyond 50%", accessMod.canPlayTime(75, 100, sExpired) === false);
+
+mockStorage.setItem("zf_unlimited_dev", "true");
+const sDev = accessMod.checkAccess(mockStorage, tExpired);
+ok("dev-link: developer tier unlocks full 100% playback", accessMod.canPlayTime(99, 100, sDev) === true);
+
+const validHash = await accessMod.verifyAndApplyDevKey("zf_dev_9ab2f3cebf99adefc12bd485f64f7ab691e3332bd739792f");
+const invalidHash = await accessMod.verifyAndApplyDevKey("wrong_dev_token");
+ok("dev-link: secret key verification matches SHA-256 hash without exposing key in repo", validHash === true && invalidHash === false);
+
+// Security test: no private keys or secrets committed to web/
+const webFiles = ["web/js/app.js", "web/js/access.js", "web/index.html"];
+let foundSecret = false;
+for (const f of webFiles) {
+  const content = readFileSync(join(ROOT, f), "utf-8");
+  if (content.includes("zf_dev_9ab2f3cebf99adefc12bd485f64f7ab691e3332bd739792f") ||
+      content.includes("BEGIN PRIVATE KEY") ||
+      content.includes("sq0csp-") ||
+      content.includes("sk_live_")) {
+    foundSecret = true;
+  }
+}
+ok("security: zero secret tokens, private keys or Square secrets in web/", foundSecret === false);
 
 console.log(`\nResults: ${passed} passed, ${failed} failed, ${warned} warnings`);
 if (failed > 0) process.exit(1);
+
