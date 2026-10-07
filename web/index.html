@@ -14,7 +14,8 @@
   <link rel="stylesheet" href="css/studio.css">
 </head>
 <body class="zf-theme">
-  <!-- Ambient background glow -->
+  <!-- Interactive background telemetry & radar canvas -->
+  <canvas id="bg-telemetry-canvas" class="bg-telemetry" aria-hidden="true"></canvas>
   <div class="bg-glow" aria-hidden="true"></div>
 
   <!-- Header -->
@@ -31,9 +32,12 @@
         <button type="button" class="nav-btn" data-filter="consciousness">Consciousness</button>
       </nav>
       <div class="header-actions">
-        <button type="button" class="host-pill-btn" id="btn-open-dossier" title="View Rex Vance Profile & Studio Specs">
-          <span class="host-avatar-mini" style="background-image: url('assets/rex_vance.webp');"></span>
-          <span class="host-label">Rex Vance</span>
+        <button type="button" class="ambient-toggle-btn" id="btn-toggle-ambient" title="Toggle Procedural Cyber Ambient Drone Bed">
+          <span class="ambient-icon">📻</span> <span id="ambient-status-text">AMBIENT: OFF</span>
+        </button>
+        <button type="button" class="host-pill-btn" id="btn-open-dossier" title="View Studio Dossier & Voice Architecture">
+          <span class="host-avatar-mini" style="background-image: url('assets/ava_vance.webp');"></span>
+          <span class="host-label">Ava Vance</span>
           <span class="dossier-tag">STUDIO DOSSIER</span>
         </button>
       </div>
@@ -52,8 +56,8 @@
 
         <!-- Host Camera Layer -->
         <div id="host-layer" class="stage-overlay hidden">
-          <img src="assets/rex_vance.webp" alt="Rex Vance at Broadcast Desk">
-          <div class="stage-hud-tag"><span class="live-rec-dot"></span> CAM 01 // HOST DESK · REX VANCE</div>
+          <img src="assets/ava_vance.webp" alt="Ava Vance at Broadcast Desk">
+          <div class="stage-hud-tag"><span class="live-rec-dot"></span> CAM 01 // HOST DESK · AVA VANCE</div>
         </div>
 
         <!-- Studio Bunker Layer -->
@@ -106,7 +110,7 @@
 
         <!-- Captions under the bar -->
         <div class="subtitles-box" id="subtitles-box" aria-live="polite">
-          <span class="cue-speaker">REX:</span>
+          <span class="cue-speaker">AVA:</span>
           <span class="cue-text" id="cue-text">No episode published yet.</span>
         </div>
       </div>
@@ -130,8 +134,31 @@
     <!-- Episode Timeline & Feed -->
     <section class="feed-section">
       <div class="section-header">
-        <h2 class="section-title">Hourly Intel Stream</h2>
-        <span class="section-count" id="feed-count">0 Releases</span>
+        <div>
+          <h2 class="section-title">Hourly Intel Stream</h2>
+          <span class="section-count" id="feed-count">0 Releases</span>
+        </div>
+
+        <div class="podcast-toolbar">
+          <button type="button" class="tool-btn highlight" id="btn-play-all" title="Play entire catalogue sequentially">
+            <span>▶▶</span> PLAY ALL
+          </button>
+          <button type="button" class="tool-btn" id="btn-play-unheard" title="Play all unlistened episodes">
+            <span>⚡</span> PLAY UNHEARD (<span id="unheard-count">0</span>)
+          </button>
+          <button type="button" class="tool-btn toggle-btn active" id="btn-toggle-autoplay" title="Toggle automatic continuous playback">
+            <span>↺</span> AUTOPLAY: ON
+          </button>
+          <label class="tool-select-wrap" title="Sleep Timer">
+            <span class="tool-icon">⏱</span>
+            <select id="sleep-timer-select" aria-label="Sleep timer">
+              <option value="0">Sleep: Off</option>
+              <option value="15">Sleep: 15m</option>
+              <option value="30">Sleep: 30m</option>
+              <option value="end">Sleep: End of Ep</option>
+            </select>
+          </label>
+        </div>
       </div>
 
       <div class="episodes-grid" id="episodes-grid">

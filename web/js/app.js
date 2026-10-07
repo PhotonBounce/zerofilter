@@ -2,6 +2,8 @@
 
 import { parseEpisodes, formatTime, cueStarts, paragraphAt, escapeHtml } from "./episodes.js";
 import { categoryOf } from "./categories.js";
+import { initTelemetryBackground } from "./telemetry-canvas.js";
+import { cyberAudio } from "./ambient.js";
 
 const $ = (id) => document.getElementById(id);
 const $$ = (sel) => document.querySelectorAll(sel);
@@ -12,6 +14,13 @@ let currentStarts = [];
 let currentPara = -1;
 let activeFilter = "all";
 let activeCam = "story"; // "loop" | "host" | "bunker" | "story"
+
+// Podcasting State
+let playedEpisodes = new Set(JSON.parse(localStorage.getItem("zf_played_episodes") || "[]"));
+let autoplayEnabled = localStorage.getItem("zf_autoplay") !== "false";
+let activeQueue = [];
+let sleepTimerTimeout = null;
+let sleepTimerMode = "0";
 
 const audio = $("main-audio");
 const btnPlay = $("btn-play");
@@ -47,8 +56,71 @@ const dossierBackdrop = $("dossier-backdrop");
 const btnTestVoice = $("btn-test-voice");
 const sampleAudio = $("sample-audio");
 
+function markAsPlayed(epId) {
+  if (!epId) return;
+  playedEpisodes.add(epId);
+  localStorage.setItem("zf_played_episodes", JSON.stringify([...playedEpisodes]));
+  updateToolbar();
+  updateCardPlayedStates();
+}
+
+function togglePlayed(epId, e) {
+  if (e) e.stopPropagation();
+  cyberAudio.playClick();
+  if (playedEpisodes.has(epId)) {
+    playedEpisodes.delete(epId);
+  } else {
+    playedEpisodes.add(epId);
+  }
+  localStorage.setItem("zf_played_episodes", JSON.stringify([...playedEpisodes]));
+  updateToolbar();
+  updateCardPlayedStates();
+}
+
+function updateToolbar() {
+  const countEl = $("unheard-count");
+  if (countEl) {
+    const unheard = episodes.filter(e => !playedEpisodes.has(e.id)).length;
+    countEl.textContent = unheard;
+  }
+}
+
+function updateCardPlayedStates() {
+  $$(".card-played-badge").forEach(badge => {
+    const id = badge.getAttribute("data-id");
+    const isPlayed = playedEpisodes.has(id);
+    badge.classList.toggle("is-played", isPlayed);
+    badge.textContent = isPlayed ? "✓ PLAYED" : "○ UNPLAYED";
+  });
+}
+
+function resetSleepTimer() {
+  if (sleepTimerTimeout) {
+    clearTimeout(sleepTimerTimeout);
+    sleepTimerTimeout = null;
+  }
+  sleepTimerMode = "0";
+  const sel = $("sleep-timer-select");
+  if (sel) sel.value = "0";
+}
+
+function setSleepTimer(val) {
+  resetSleepTimer();
+  sleepTimerMode = val;
+  if (val === "15" || val === "30") {
+    const ms = Number(val) * 60 * 1000;
+    sleepTimerTimeout = setTimeout(() => {
+      pauseAudio();
+      resetSleepTimer();
+    }, ms);
+  }
+}
+
 // Initialize application
 async function init() {
+  // Start interactive background telemetry & radar animation
+  initTelemetryBackground("bg-telemetry-canvas");
+
   if (canvas) {
     canvasCtx = canvas.getContext("2d");
     drawDefaultSpectrum();
@@ -71,6 +143,7 @@ async function init() {
   }
 
   renderFeed();
+  updateToolbar();
   setupEventListeners();
   setupSpectrumVisualizer();
 }
@@ -462,13 +535,23 @@ function renderFeed() {
         <p class="card-desc">${escapeHtml(ep.subject)}</p>
         <div class="card-footer">
           <span class="card-duration">⏱ ${formatTime(ep.seconds)}</span>
+          <button type="button" class="card-played-badge ${playedEpisodes.has(ep.id) ? 'is-played' : ''}" data-id="${escapeHtml(ep.id)}" title="Click to toggle played status">
+            ${playedEpisodes.has(ep.id) ? '✓ PLAYED' : '○ UNPLAYED'}
+          </button>
+          <a href="${escapeHtml(ep.audio)}" download="${escapeHtml(ep.id)}.mp3" class="card-download-btn" title="Download Episode MP3" onclick="event.stopPropagation()">
+            ⬇ MP3
+          </a>
           <button type="button" class="btn-card-play">LISTEN NOW ▶</button>
         </div>
       </div>
     `;
 
-    // Looping preview on card hover. The URL sits on a <source> child, so
-    // video.src is always "" — checking it meant previews never played.
+    // Played state button handler
+    card.querySelector(".card-played-badge")?.addEventListener("click", (e) => {
+      togglePlayed(ep.id, e);
+    });
+
+    // Looping preview on card hover
     const video = card.querySelector("video");
     card.addEventListener("mouseenter", () => {
       if (video && ep.cover_video) video.play().catch(() => {});
@@ -478,6 +561,7 @@ function renderFeed() {
     });
 
     card.addEventListener("click", () => {
+      cyberAudio.playClick();
       loadEpisode(ep, true);
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
@@ -491,15 +575,16 @@ function setupEventListeners() {
 
   audio.addEventListener("timeupdate", syncPlayback);
   // Lock-screen controls, headsets and other tabs can pause/play the element
-  // without going through our button; mirror its real state.
   audio.addEventListener("play", () => {
     btnPlay.classList.add("playing");
     playIcon.textContent = "❚❚";
+    cyberAudio.duck(true);
     startSpectrumLoop();
   });
   audio.addEventListener("pause", () => {
     btnPlay.classList.remove("playing");
     playIcon.textContent = "▶";
+    cyberAudio.duck(false);
   });
   // The file, not the manifest, decides how long the seek bar is.
   audio.addEventListener("loadedmetadata", () => {
@@ -509,8 +594,20 @@ function setupEventListeners() {
     }
   });
   audio.addEventListener("ended", () => {
+    if (currentEpisode) markAsPlayed(currentEpisode.id);
     stageOverlay.classList.add("hidden");
-    if (episodes.length > 1) {
+    
+    // Sleep timer 'end of episode'
+    if (sleepTimerMode === "end") {
+      pauseAudio();
+      resetSleepTimer();
+      return;
+    }
+
+    if (activeQueue.length > 0) {
+      const nextEp = activeQueue.shift();
+      loadEpisode(nextEp, true);
+    } else if (autoplayEnabled && episodes.length > 1) {
       playNextEpisode();
     } else {
       pauseAudio();
@@ -523,9 +620,56 @@ function setupEventListeners() {
     syncPlayback();
   });
 
+  // Podcasting Toolbar Listeners
+  $("btn-play-all")?.addEventListener("click", () => {
+    cyberAudio.playClick();
+    if (episodes.length === 0) return;
+    activeQueue = [...episodes.slice(1)];
+    loadEpisode(episodes[0], true);
+  });
+
+  $("btn-play-unheard")?.addEventListener("click", () => {
+    cyberAudio.playClick();
+    const unheard = episodes.filter(e => !playedEpisodes.has(e.id));
+    if (unheard.length === 0) {
+      alert("All available briefings have been listened to!");
+      return;
+    }
+    activeQueue = [...unheard.slice(1)];
+    loadEpisode(unheard[0], true);
+  });
+
+  $("btn-toggle-autoplay")?.addEventListener("click", () => {
+    cyberAudio.playClick();
+    autoplayEnabled = !autoplayEnabled;
+    localStorage.setItem("zf_autoplay", autoplayEnabled);
+    const btn = $("btn-toggle-autoplay");
+    if (btn) {
+      btn.classList.toggle("active", autoplayEnabled);
+      btn.innerHTML = `<span>↺</span> AUTOPLAY: ${autoplayEnabled ? 'ON' : 'OFF'}`;
+    }
+  });
+
+  $("sleep-timer-select")?.addEventListener("change", (e) => {
+    cyberAudio.playClick();
+    setSleepTimer(e.target.value);
+  });
+
+  // Ambient Drone Bed Toggle
+  $("btn-toggle-ambient")?.addEventListener("click", () => {
+    const isNowOn = cyberAudio.toggleAmbient();
+    const btn = $("btn-toggle-ambient");
+    const txt = $("ambient-status-text");
+    if (btn) btn.classList.toggle("active", isNowOn);
+    if (txt) txt.textContent = isNowOn ? "AMBIENT: ON" : "AMBIENT: OFF";
+    cyberAudio.playClick();
+  });
+
   // Camera angle switcher
-  // Picture and speed live in the control bar as two small selects.
-  $("cam-select")?.addEventListener("change", (e) => switchCamera(e.target.value));
+  $("cam-select")?.addEventListener("change", (e) => {
+    cyberAudio.playClick();
+    switchCamera(e.target.value);
+  });
   $("speed-select")?.addEventListener("change", (e) => {
     audio.playbackRate = Number(e.target.value);
   });
