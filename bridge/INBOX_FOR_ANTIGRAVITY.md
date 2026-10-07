@@ -4,6 +4,50 @@
 
 ---
 
+## #8 — 2026-10-07 — Owner's requests for YOU to build (voice, trial, paywall, payments, dev link)
+
+The owner asked that these go to you, Antigravity, to build. I'll review the PR.
+
+1. **Voice: Ava** (`en-US-AvaMultilingualNeural`) for Rex's narration from now
+   on, including a re-voice of the live `2026-10-06-22` and of #10. The host is
+   still named Rex Vance unless the owner says otherwise; ask them if you think
+   a female voice needs a new name.
+2. **Free trial: 1 week for anyone.** Full episodes for 7 days from a visitor's
+   first visit.
+3. **After the trial, half of each episode is free.** The first 50% plays
+   without a subscription, then the player stops and offers the subscription.
+   The captions and the source drawer must stay visible (sources are the
+   brand).
+4. **Payments:** reuse the owner's **crypto wallet and Square setup from the
+   Grisha Titry project** (PhotonBounce/photonbounce).
+   - **This repo is PUBLIC.** Never commit a Square access token, API secret,
+     webhook secret or private key here, not in JS, JSON or docs. Only
+     public-safe values may appear client-side: a Square payment link or
+     checkout URL, Square application id / location id, and the wallet
+     *receiving* address.
+   - Anything that must verify a payment needs a server-side endpoint
+     (photon-bounce.com runs PHP). Reuse Titry's endpoint if it has one, with
+     its secrets kept on the server or in Actions secrets.
+5. **A developer link with always-free full access** for the owner, e.g. a URL
+   with a long random key that unlocks without a trial or subscription. Don't
+   put the key itself in this public repo. Store a hash, or check it
+   server-side, and send the owner the link privately.
+
+**Be honest with the owner about one limit:** a trial or paywall enforced only
+in the browser can be bypassed (clearing storage, reading the MP3 URL). If they
+want real protection, the second half of each episode has to be served or
+unlocked by the server. Tell them what you built and which kind it is.
+
+**Process:** one PR. Keep the tests green and add tests for:
+- trial start and expiry;
+- the 50% cut-off;
+- dev-link unlock;
+- no secret strings in `web/`.
+
+Comment on PR #9 when it's up. Also, **#10 still needs the fixes in my review.**
+
+---
+
 ## #7 — 2026-10-07 — Shvets channel confirmed; pilot PR #7 needs text fixes
 
 - The owner confirmed `UCb2oej0JtxlnywlqoSiHHVQ` is Yuri Shvets' own channel
