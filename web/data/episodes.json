@@ -1,4 +1,114 @@
 {
-  "updated": "2026-10-06T15:30:00Z",
-  "episodes": []
+  "updated": "2026-10-06T22:55:00Z",
+  "episodes": [
+    {
+      "id": "2026-10-06-22",
+      "hour": "22:00",
+      "date": "2026-10-06",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-06-22",
+      "title": "Pentagon Advisers' Conflicts, a Tanker Ablaze off Sochi & a Blueprint for Quantum Gravity",
+      "subject": "Hourly sourced brief: ethics worries over Elon Musk's and Palmer Luckey's new Pentagon roles, the War Department's counter-drone laser and microwave picks, a shadow-fleet tanker reportedly ablaze near Sochi, Ukraine's drone-casualty tally, Yuri Shvets' broadcast #1216, error-correcting dynamics inside language models, a proposed test of gravity-induced entanglement, and how the brain recalibrates what feels simultaneous.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twenty-two hundred hours UTC. In Washington, NPR reports that Elon Musk and Palmer Luckey have taken new Pentagon roles, and ethics experts are worried: their companies, SpaceX and Anduril, could benefit from recommendations in a Pentagon study on future autonomous weapons. Same day, the War Department named the laser and microwave systems it selected after its JIATF 401 counter-drone pilot. My take: when the people advising on the shopping list also sell the merchandise, that is a conflict of interest.",
+        "To the Black Sea. The Kyiv Independent reports a shadow-fleet tanker reportedly ablaze near Sochi, and Russian Telegram channels suggest sea drones hit it. Robert Brovdi, call sign Madyar, who commands Ukraine's Unmanned Systems Forces, says his units recorded 2,699 Russian troops killed or wounded from October 1 to 5, up from 1,931 in the same days of September. And in broadcast number 1216, Yuri Shvets lays out what he calls six priorities for victory: six lines of effort that must work at once, instead of slogans and promises of another counteroffensive.",
+        "Frontier compute. A new arXiv paper asks why language models stay coherent even when you shove their internal activations around, for example with steering. The authors' hypothesis is passive error correction: mechanisms in the forward pass that funnel activations back toward regions that produce sensible output, which the title calls privileged error-correcting basins. If that holds up, these models are sturdier than the parrot jokes suggest. That last part is my read, not their claim.",
+        "Quantum next. Nobody has yet caught gravity entangling two masses. Proposals argue that if gravity alone can do it, gravity itself must be quantum, and with the Planck scale out of reach, a tabletop interferometer is the realistic back door. A new arXiv paper works out the best interferometer geometry for that experiment. No result yet. This is a blueprint, not a discovery.",
+        "Consciousness desk. Your sense of at the same time is not fixed. A new bioRxiv study looks at rapid temporal recalibration: after signals from different senses arrive slightly out of sync, your judgment of what is simultaneous shifts toward that recent timing. The authors separate a genuine perceptual realignment from a decision-level carryover from your previous answers, and report that the two come apart across the senses. Part of what feels like perception is bookkeeping.",
+        "So, tonight's receipts. Two tech billionaires in Pentagon roles their companies could profit from. A tanker reportedly burning off Sochi. Drone casualty counts climbing, by Ukraine's own tally. A blueprint, not a breakthrough, for quantum gravity. And a brain that edits its own sense of now. Every one is linked in the source drawer. Read them yourself, and stay lucid. I'm Rex Vance."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/06/nx-s1-5991899/elon-musk-palmer-luckey-pentagon-drones-ai",
+          "title": "Elon Musk and Palmer Luckey's new Pentagon roles raise ethics worries",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4619430/systems-selected-for-jiatf-401-directed-energy-counter-drone-pilot-program/",
+          "title": "Systems Selected for JIATF 401 Directed-Energy Counter-Drone Pilot Program",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/shadow-fleet-tanker-reportedly-ablaze-near-russian-port-city-sochi/",
+          "title": "Shadow fleet tanker reportedly ablaze near Russian port city Sochi",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-losses-to-ukrainian-drones-surge-in-early-october-madyar-says/",
+          "title": "Russian losses to Ukrainian drones surge in early October, Madyar says",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 1,
+          "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+          "title": "КАК УКРАИНЕ ПЕРЕЛОМИТЬ ВОЙНУ: ШЕСТЬ ПРИОРИТЕТОВ ПОБЕДЫ /№1216/ Юрий Швец",
+          "published": "2026-10-05",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.04183",
+          "title": "Language Model Activations Inhabit Privileged Error-Correcting Basins",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.04471",
+          "title": "Optimal Interferometer Geometry for Gravitationally Induced Quantum Entanglement",
+          "published": "2026-10-06"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755365v1?rss=1",
+          "title": "Two components of rapid temporal recalibration: a stimulus-driven shift and a decisional carryover dissociate across the senses",
+          "published": "2026-10-05"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-06-22/f01.webp"
+          },
+          {
+            "t": 33.26,
+            "src": "art/2026-10-06-22/f02.webp"
+          },
+          {
+            "t": 69.07,
+            "src": "art/2026-10-06-22/f03.webp"
+          },
+          {
+            "t": 97.9,
+            "src": "art/2026-10-06-22/f04.webp"
+          },
+          {
+            "t": 123.14,
+            "src": "art/2026-10-06-22/f05.webp"
+          },
+          {
+            "t": 150.19,
+            "src": "art/2026-10-06-22/f06.webp"
+          }
+        ]
+      },
+      "seconds": 178,
+      "cues": [
+        0.0,
+        33.26,
+        69.07,
+        97.9,
+        123.14,
+        150.19
+      ],
+      "audio": "audio/2026-10-06-22.mp3",
+      "thumb": "thumbs/2026-10-06-22.webp",
+      "cover_video": "thumbs/2026-10-06-22.mp4"
+    }
+  ]
 }

@@ -63,7 +63,8 @@
       "speaker": "Yuri Shvets",
       "max_age_hours": 72,
       "enabled": true,
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb2oej0JtxlnywlqoSiHHVQ"
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb2oej0JtxlnywlqoSiHHVQ",
+      "verified": "Owner confirmed 2026-10-07: UCb2oej0JtxlnywlqoSiHHVQ is Yuri Shvets' own channel."
     }
   ]
 }

@@ -4,6 +4,17 @@
 
 ---
 
+## #7 — 2026-10-07 — Shvets channel confirmed; pilot PR #7 needs text fixes
+
+- The owner confirmed `UCb2oej0JtxlnywlqoSiHHVQ` is Yuri Shvets' own channel
+  (noted in `data/feeds.json`).
+- Pilot PR #7: my review is on the PR. It lists 7 sentences that say more
+  than their sources do, each with replacement wording. Please fix the text,
+  re-voice it with `voice.py`, push to #7, and comment there. Then I'll
+  re-check, merge and publish.
+
+---
+
 ## #6 — 2026-10-06 20:45 UTC — STOP the pilot: your PC clock is ~2 hours fast
 
 Your snapshot is named `2026-10-06-22`, but when you posted it the real time
