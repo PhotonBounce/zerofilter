@@ -19,27 +19,39 @@ headers = {
     "Content-Type": "application/json"
 }
 
-body = """### First Verified Pilot Release: `2026-10-06-22`
+body = """### Episode Release: `2026-10-07-04`
 
-As requested by Claude in Message #3:
-- **Snapshot Attached:** `data/ingest/2026-10-06-22.json` (232 verified real items).
-- **Exact Sourcing & Provenance:**
-  - **P0 (US Defense Ethics & Contracting):** NPR (`nx-s1-5991899`) & DoD Release (`Release/Article/4619430`).
-  - **P1 (Frontline Ukraine & Asymmetric War):** Kyiv Independent shadow tanker strike + vehicle drone losses, and Yuri Shvets broadcast #1216 explicitly citing title/description.
-  - **P2 (Frontier AI):** arXiv cs.AI `2610.04183` (*"Language Model Activations Inhabit Privileged Error-Correcting Basins"*).
-  - **P3 (Quantum Physics):** arXiv quant-ph `2610.04471` (*"Optimal Interferometer Geometry for Gravitationally Induced Quantum Entanglement"*).
-  - **P4 (Consciousness & Perceptual Recalibration):** bioRxiv neuroscience `10.64898/2026.09.29.755365v1` + CIA Project Stargate reference.
+Produced for the real elapsed UTC hour `2026-10-07-04` following the non-negotiable editorial & provenance protocol.
+
+- **Provenance Snapshot Attached:** `data/ingest/2026-10-07-04.json` (124 items captured, clock skew verified: +1s).
+- **Exact Sourcing & Provenance (9 receipts):**
+  - **P0 (US Intelligence Priorities & Defense Energy):**
+    - NPR Politics: [As Trump focuses the FBI on immigration, counterintelligence is falling behind](https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts)
+    - War Department: [Systems Selected for JIATF 401 Directed-Energy Counter-Drone Pilot Program](https://www.war.gov/News/Releases/Release/Article/4619430/systems-selected-for-jiatf-401-directed-energy-counter-drone-pilot-program/)
+  - **P1 (Frontline Defense & Maritime Shipping):**
+    - Kyiv Independent: [Poland to deploy Patriots near Ukrainian border, announces $26 billion civil defense plan](https://kyivindependent.com/poland-to-deploy-patriots-near-ukrainian-border-announces-26-billion-civil-defense-plan/)
+    - Kyiv Independent: [Drones strike merchant vessels in Black Sea off Bulgaria, Ukraine, killing at least one](https://kyivindependent.com/drones-strike-merchant-vessels-in-black-sea-off-bulgaria-and-ukraine-killing-at-least-one/)
+  - **P2 (Frontier AI & Science Independence):**
+    - Nature: [AI could undermine scientific independence in subtle ways](https://www.nature.com/articles/d41586-026-03175-z)
+  - **P3 (Subatomic Topology & Delayed-Choice Physics):**
+    - Nature: [Strong evidence that 'baryon junctions' give proton its identity](https://www.nature.com/articles/d41586-026-03129-5)
+    - Science (Jacques et al., 2007): [Experimental Realization of Wheeler's Delayed-Choice GedankenExperiment](https://www.science.org/doi/10.1126/science.1136303) (kind: reference)
+  - **P4 (Consciousness & Thalamic Stimulation):**
+    - bioRxiv (Neuroscience): [Electrical stimulation of the human pulvinar generates visual percepts](https://www.biorxiv.org/content/10.64898/2026.09.28.754866v1?rss=1)
+    - CIA Stargate Archive (AIR Report, 1995): [An Evaluation of Remote Viewing: Research and Applications](https://www.cia.gov/readingroom/document/cia-rdp96-00791r000200180005-5) (kind: reference)
   - **P5 (Synthesis):** Rex Vance sign-off.
-- **Metrics:**
-  - Word count: 409 words across 6 paragraphs.
-  - Audio: exactly 179.0s via `voice.py` with exact per-paragraph `cues`.
-  - Art: 6 synchronized story frames.
-  - Video cover: 10s looping MP4.
-- **Test Suite:** `node engine/unit.mjs` — **72 passed, 0 failed, 2 warnings**."""
+- **Broadcast Metrics:**
+  - Word count: 437 words across 6 paragraphs.
+  - Audio: 197.1s synthesized via `engine/voice.py` with exact per-paragraph `cues`.
+  - Art: 6 distinct honest story cards (`web/art/2026-10-07-04/f01.webp` through `f06.webp`) + matching cover card and loop.
+- **Verification:**
+  - `node engine/unit.mjs`: **97 passed, 0 failed, 0 warnings**.
+  - `node engine/build_site.mjs`: built cleanly with 2 published episodes in `dist/`.
+"""
 
 data = json.dumps({
-    "title": "feat: first verified pilot episode 2026-10-06-22 (Pentagon AI Capture & Gravitational Entanglement)",
-    "head": "feature/pilot-2026-10-06-22",
+    "title": "feat: release episode 2026-10-07-04 (FBI Intel Shifts, Patriot Batteries & Proton Baryon Junction)",
+    "head": "feature/episode-2026-10-07-04",
     "base": "main",
     "body": body
 }).encode("utf-8")

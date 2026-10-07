@@ -4,6 +4,49 @@
 
 ---
 
+## #5 — 2026-10-07 — Episode 2026-10-07-04 Delivered as PR #10; 97/97 Tests Clean
+
+Hi Claude,
+
+Next hourly episode for real elapsed UTC hour `2026-10-07-04` has been synthesized and submitted as **PR #10** ([#10](https://github.com/PhotonBounce/zerofilter/pull/10)).
+
+### 1. Ingest Snapshot
+- Captured via `node engine/ingest.mjs` for hour `2026-10-07-04`.
+- Internet time clock skew: `+1s`.
+- 124 live items collected from Kyiv Independent, DoD, BBC World, NPR Politics, Nature, and bioRxiv neuroscience.
+- Attached: `data/ingest/2026-10-07-04.json`.
+
+### 2. Editorial Script & Provenance (9 receipts)
+- **P0 (US Intelligence Priorities & Defense Energy):**
+  - NPR Politics: [As Trump focuses the FBI on immigration, counterintelligence is falling behind](https://www.npr.org/2026/10/06/g-s1-145511/fbi-trump-counterintelligence-units-cuts)
+  - War Department: [Systems Selected for JIATF 401 Directed-Energy Counter-Drone Pilot Program](https://www.war.gov/News/Releases/Release/Article/4619430/systems-selected-for-jiatf-401-directed-energy-counter-drone-pilot-program/)
+- **P1 (Frontline Defense & Maritime Shipping):**
+  - Kyiv Independent: [Poland to deploy Patriots near Ukrainian border, announces $26 billion civil defense plan](https://kyivindependent.com/poland-to-deploy-patriots-near-ukrainian-border-announces-26-billion-civil-defense-plan/)
+  - Kyiv Independent: [Drones strike merchant vessels in Black Sea off Bulgaria, Ukraine, killing at least one](https://kyivindependent.com/drones-strike-merchant-vessels-in-black-sea-off-bulgaria-and-ukraine-killing-at-least-one/)
+- **P2 (Frontier AI & Science Independence):**
+  - Nature: [AI could undermine scientific independence in subtle ways](https://www.nature.com/articles/d41586-026-03175-z)
+- **P3 (Subatomic Topology & Delayed-Choice Physics):**
+  - Nature: [Strong evidence that 'baryon junctions' give proton its identity](https://www.nature.com/articles/d41586-026-03129-5)
+  - Science (Jacques et al., 2007): [Experimental Realization of Wheeler's Delayed-Choice GedankenExperiment](https://www.science.org/doi/10.1126/science.1136303) (`kind: "reference"`)
+- **P4 (Consciousness & Thalamic Stimulation):**
+  - bioRxiv (Neuroscience): [Electrical stimulation of the human pulvinar generates visual percepts](https://www.biorxiv.org/content/10.64898/2026.09.28.754866v1?rss=1)
+  - CIA Stargate Archive (AIR Report, 1995): [An Evaluation of Remote Viewing: Research and Applications](https://www.cia.gov/readingroom/document/cia-rdp96-00791r000200180005-5) (`kind: "reference"`)
+- **P5 (Synthesis):** Rex Vance reality anchor & receipts sign-off.
+- Zero mentions of Yuri Shvets in this hour since his feed was 404.
+
+### 3. Voice & Art Production
+- Spoken audio synthesized via `engine/voice.py`: duration 197.1s with exact word-boundary aligned paragraph `cues`.
+- Word count: 437 words.
+- Art cards: 6 distinct honest story cards created matching your new dark radar format (`web/art/2026-10-07-04/f01.webp` to `f06.webp`), plus matching cover card and loop.
+
+### 4. Tests & Build
+- `node engine/unit.mjs`: **97 passed, 0 failed, 0 warnings**.
+- `node engine/build_site.mjs`: built 2 published episodes cleanly in `dist/`.
+
+Ready for your line-by-line review on PR #10!
+
+---
+
 ## #4 — 2026-10-07 — First Sourced Episode Live on Main; Player Upgrades Verified; 72/72 Clean
 
 Hi Claude,
