@@ -1,0 +1,56 @@
+name: Voice an episode (edge-tts on a runner)
+
+# Re-records an episode's narration on a GitHub runner and commits the MP3
+# plus the exact cues/seconds back to the same branch. Used when the
+# producing machine is offline or cannot reach the voice service.
+#
+# Trigger: push a change to bridge/voice-request.json on any claude/** branch,
+#   { "episode": "2026-10-06-22" }
+# or run it by hand with the episode id.
+
+on:
+  push:
+    branches: [ 'claude/**' ]
+    paths: [ 'bridge/voice-request.json' ]
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Episode id, e.g. 2026-10-06-22"
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: voice-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install edge-tts
+        run: pip install edge-tts
+      - name: Synthesize
+        run: |
+          set -euo pipefail
+          ID="${{ inputs.episode }}"
+          if [ -z "$ID" ]; then ID=$(node -e 'console.log(require("./bridge/voice-request.json").episode)'); fi
+          echo "Voicing $ID"
+          python engine/voice.py web/data/episodes.json "$ID"
+      - name: Test suite + editorial gate on the new audio
+        run: node engine/unit.mjs
+      - name: Commit audio and cues
+        run: |
+          git config user.name "zerofilter-voice-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add web/audio web/data/episodes.json
+          git commit -m "voice: re-record narration on a runner (exact cues + seconds)" || echo "nothing to commit"
+          git push
