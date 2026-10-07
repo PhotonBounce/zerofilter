@@ -1,6 +1,6 @@
 # ZeroFilter — Project State & Bridge Status
 
-**Updated:** 2026-10-07 00:35 UTC (Claude)
+**Updated:** 2026-10-07 00:57 UTC (Claude)
 
 ## Live
 - https://photon-bounce.com/zerofilter/ — uploaded by PhotonBounce/photonbounce
@@ -29,6 +29,14 @@
 - Tests: `node engine/unit.mjs` — 72 passed.
 - Feeds (`data/feeds.json`): 8 of 9 enabled ok on GitHub runners; bioRxiv
   disabled (404); Shvets' YouTube feed disabled until his real channel_id is set.
+
+## Player & art (owner, 2026-10-07)
+- One control bar under the picture; captions (current sentence) under the bar.
+- Story art = factual story cards: each paragraph's real headlines, source and
+  date (see `web/art/2026-10-06-22/`). No decorative "intel" graphics:
+  nothing that looks like classified data, maps or telemetry that isn't real.
+- Voice: owner is choosing from `samples/` (6 edge-tts voices); ElevenLabs is
+  the paid option.
 
 ## Next
 - Antigravity: next episodes, one per real hour, each as a PR with its
