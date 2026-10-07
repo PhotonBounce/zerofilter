@@ -6030,55 +6030,6 @@
       "cover_video": "thumbs/2026-10-07-05.mp4"
     },
     {
-      "id": "2026-10-07-04",
-      "hour": "04:00",
-      "date": "2026-10-07",
-      "kind": "hourly",
-      "category": "corruption",
-      "title": "Defense Supply Chain Phantom Billing, Cost-Plus Grift & Soviet Line X Infiltration",
-      "subject": "Hourly uncensored breakdown: Rex Vance investigates systemic defense procurement fraud, multi-tier subcontracting pass-through markups, and Yuri Shvets's analysis of historical KGB Line X industrial espionage exploiting unverified commercial supply chains.",
-      "paragraphs": [
-        "Welcome back to ZeroFilter. It is zero four hundred hours. If you want to understand how a sovereign nation loses a protracted industrial conflict before the first shot is fired, look no further than the cascading procurement funnel of the modern defense industrial base. A standard bolt, manufactured for eighty cents in a domestic foundry, travels through five discrete layers of prime contractors, systems integrators, and pass-through shell brokers—finally billing the Pentagon at eleven thousand dollars per unit. This is not bureaucratic inefficiency; it is an organized, legal skimming syndicate disguised as national security.",
-        "As Washington counter-intelligence insider and former KGB Major Yuri Shvets has repeatedly documented, Soviet foreign intelligence never relied solely on stolen military blueprints. Through Directorate T and its elite scientific-technical apparatus known as Line X, Soviet intelligence systematically exploited Western commercial supply chains, funneling dual-use electronics, precision ball bearings, and specialized alloys through third-country front companies. The Soviets understood that when defense procurement becomes an opaque, multi-tiered marketplace of subcontracted middlemen, verifying the chain of custody becomes virtually impossible.",
-        "Today, that exact architectural vulnerability has metastasized across the American defense sector. Forensic audits conducted on major aerospace and naval programs reveal that prime contractors routinely charge taxpayers for phantom labor hours, undocumented engineering change orders, and unverified commercial off-the-shelf components. Because cost-plus contracts reward excessive overhead rather than operational speed or fiscal restraint, primes have every economic incentive to stretch timelines, pad subcontractor invoices, and resist rigorous forensic accounting.",
-        "The strategic consequence of this procurement grift is not merely financial insolvency; it is catastrophic industrial fragility. While adversaries produce precision munitions, hypersonic glide bodies, and electronic warfare suites at industrial scale, Western defense primes report multi-year backlogs for basic artillery shells and missile replacement motors. When counterfeit chips and unverified microelectronics from overseas brokers infiltrate frontline weapon systems, mission-critical avionics are compromised before aircraft ever leave the tarmac.",
-        "Dismantling this multi-billion dollar racket requires aggressive, non-partisan structural intervention. We must mandate fixed-price procurement contracts for all mature weapon systems, institute cryptographic immutable provenance tracking across every tier-one through tier-four supplier, and enforce immediate criminal liability for defense executives who certify phantom subcontractor billings. In an era of great power competition, national defense is an existential duty, not a perpetual-growth hedge fund subsidized by working citizens.",
-        "Audit the pass-through shell brokers, follow the invoices to the brass boardroom doors, and demand absolute supply chain transparency. I'm Rex Vance. Keep your filters at absolute zero."
-      ],
-      "seconds": 175,
-      "art": {
-        "frames": [
-          {
-            "t": 0,
-            "src": "art/2026-10-07-04/f01.webp"
-          },
-          {
-            "t": 40.4,
-            "src": "art/2026-10-07-04/f02.webp"
-          },
-          {
-            "t": 74.4,
-            "src": "art/2026-10-07-04/f03.webp"
-          },
-          {
-            "t": 104.5,
-            "src": "art/2026-10-07-04/f04.webp"
-          },
-          {
-            "t": 134.2,
-            "src": "art/2026-10-07-04/f05.webp"
-          },
-          {
-            "t": 163,
-            "src": "art/2026-10-07-04/f06.webp"
-          }
-        ]
-      },
-      "thumb": "thumbs/2026-10-07-04.webp",
-      "audio": "audio/2026-10-07-04.mp3",
-      "cover_video": "thumbs/2026-10-07-04.mp4"
-    },
-    {
       "id": "2026-10-07-03",
       "hour": "03:00",
       "date": "2026-10-07",
