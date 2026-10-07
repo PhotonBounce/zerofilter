@@ -1,0 +1,46 @@
+{
+  "hour": "2026-10-01T05:00:00.000Z",
+  "captured_at": "2026-10-01T05:00:05:00.000Z",
+  "clock_skew_s": 0,
+  "feeds": [
+    {
+      "id": "kyiv-independent",
+      "status": "ok",
+      "count": 10
+    }
+  ],
+  "items": [
+    {
+      "feed": "news",
+      "kind": "news",
+      "url": "https://www.gao.gov/reports-testimonies/2026-10-02/defense-industrial-base-ammunition-production",
+      "title": "Defense Industrial Base: Persistent Bottlenecks in Munitions and Rocket Motor Supply Chains",
+      "published": "2026-10-01",
+      "speaker": null
+    },
+    {
+      "feed": "news",
+      "kind": "news",
+      "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+      "title": "\u041a\u0410\u041a \u0423\u041a\u0420\u0410\u0418\u041d\u0415 \u041f\u0415\u0420\u0415\u041b\u041e\u041c\u0418\u0422\u042c \u0412\u041e\u0419\u041d\u0423: \u0428\u0415\u0421\u0422\u042c \u041f\u0420\u0418\u041e\u0420\u0418\u0422\u0415\u0422\u041e\u0412 \u041f\u041e\u0411\u0415\u0414\u042b /\u21161216/ \u042e\u0440\u0438\u0439 \u0428\u0432\u0435\u0446",
+      "published": "2026-09-30",
+      "speaker": "Yuri Shvets"
+    },
+    {
+      "feed": "news",
+      "kind": "news",
+      "url": "https://kyivindependent.com/eu-provides-ukraine-1-2-billion-euros-for-drones-and-missiles/",
+      "title": "EU provides Ukraine 1.2 billion euros for drones and missiles",
+      "published": "2026-10-01",
+      "speaker": null
+    },
+    {
+      "feed": "news",
+      "kind": "news",
+      "url": "https://www.nature.com/articles/d41586-026-03175-z",
+      "title": "AI could undermine scientific independence in subtle ways",
+      "published": "2026-10-01",
+      "speaker": null
+    }
+  ]
+}

@@ -1,0 +1,1805 @@
+{
+  "hour": "2026-10-07T12:00:00.000Z",
+  "captured_at": "2026-10-07T12:13:52.553Z",
+  "clock_skew_s": 0,
+  "feeds": [
+    {
+      "id": "kyiv-independent",
+      "status": "ok",
+      "count": 15
+    },
+    {
+      "id": "dod-releases",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "id": "bbc-world",
+      "status": "ok",
+      "count": 20
+    },
+    {
+      "id": "npr-politics",
+      "status": "ok",
+      "count": 2
+    },
+    {
+      "id": "arxiv-quant-ph",
+      "status": "ok",
+      "count": 50
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "status": "ok",
+      "count": 50
+    },
+    {
+      "id": "nature",
+      "status": "ok",
+      "count": 46
+    },
+    {
+      "id": "prl",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "id": "biorxiv-neuro",
+      "status": "ok",
+      "count": 30
+    },
+    {
+      "id": "shvets-youtube",
+      "status": "ok",
+      "count": 2
+    }
+  ],
+  "items": [
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/eu-ambassadors-wave-through-largest-ever-list-of-russia-sanctions-2/",
+      "title": "EU ambassadors wave through largest-ever list of Russia sanctions",
+      "published": "2026-10-07T11:51:18.000Z",
+      "summary": "The list targets a wide range of defense industry players, from shipyards and aviation companies to electronics manufacturers, armored vehicle repair facilities, and aerospace companies."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/in-kyiv-district-battered-by-russian-strikes-a-protest-to-save-trees-turns-ugly/",
+      "title": "'We're ready to fight' \u2014 How a pipeline meant to prepare Kyiv for Russian strikes pitted Ukrainians against their city council",
+      "published": "2026-10-07T11:03:38.000Z",
+      "summary": "In one of Kyiv's hardest-hit districts, a heating pipeline meant to help residents weather Russian attacks this winter has instead pitted them against their own city's administration."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/eu-provides-ukraine-1-2-billion-euros-for-drones-and-missiles/",
+      "title": "EU provides Ukraine 1.2 billion euros for drones and missiles",
+      "published": "2026-10-07T10:54:59.000Z",
+      "summary": "\"The money will be spent on drones, drone interceptors, drone ammunition, and missiles manufactured by Ukrainian entities,\" reads a European Commission press release."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/eu-ambassadors-clear-path-for-ukraine-to-open-two-new-accession-clusters/",
+      "title": "EU ambassadors clear path for Ukraine to open two new accession clusters",
+      "published": "2026-10-07T10:44:05.000Z",
+      "summary": "Assuming all goes as planned, opening the two clusters could help Ukraine benefit from the European Commission's new \"gradual integration\" idea."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/norways-2027-budget-includes-almost-9-billion-in-new-ukraine-support/",
+      "title": "Norway's 2027 budget includes almost $9 billion in new Ukraine support",
+      "published": "2026-10-07T09:14:52.000Z",
+      "summary": "The money would be funneled into Norway's Nansen Support Program, named after humanitarian Fridtjof Nansen, who led famine relief efforts in Ukraine in the early 1920s."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-544-260-troops-in-ukraine-since-feb-24-2022-2/",
+      "title": "General Staff: Russia has lost 1,544,260 troops in Ukraine since Feb. 24, 2022",
+      "published": "2026-10-07T07:23:22.000Z",
+      "summary": "The number includes 1,690 casualties that Russian forces suffered over the past day."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/russia-slams-kyiv-in-mass-missile-drone-attack-on-putins-74th-birthday/",
+      "title": "Russia slams Ukraine with missiles, drones on Putin's 74th birthday, at least 19 dead",
+      "published": "2026-10-07T00:25:09.000Z",
+      "summary": "Explosions rocked Kyiv overnight on Oct. 7 as Moscow launched its latest mass missile and drone attack on the capital, coinciding with Russian President Vladimir Putin's 74th birthday."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/armed-individuals-from-belarus-threaten-latvian-soldiers-at-border-followed-by-another-breach/",
+      "title": "Armed individuals from Belarus threaten Latvian soldiers at border, followed by another breach",
+      "published": "2026-10-06T21:24:17.000Z",
+      "summary": "\"The escorts of the illegal migrants, who were located on the Belarusian side, were armed, issued threats to (Latvian) soldiers, and also actively urged and drove the migrant group toward Latvia,\" Latvian Interior Minister Janis Dombrava said."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/zelensky-warns-russia-preparing-mass-strike/",
+      "title": "Zelensky warns Russia preparing mass strike",
+      "published": "2026-10-06T18:09:07.000Z",
+      "summary": "Zelensky called on Ukraine's allies, particular in Europe and the U.S., to transfer any means of protection to the country if they can."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-civilian-vessels-in-black-sea-off-bulgarias-coast/",
+      "title": "Ukraine war latest: Russia strikes civilian vessels in Black Sea off Bulgaria's coast",
+      "published": "2026-10-06T17:59:51.000Z",
+      "summary": "Key developments on Oct. 6: Drones strike merchant vessels in Black Sea off Bulgaria and Ukraine, killing at least one Russian losses to Ukrainian drones surge in early October, Madyar says Despite intensified Russian attacks, 62% of Ukrainians ready to endure war as long as needed, poll finds Shadow fleet"
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/shadow-fleet-tanker-reportedly-ablaze-near-russian-port-city-sochi/",
+      "title": "Shadow fleet tanker reportedly ablaze near Russian port city Sochi",
+      "published": "2026-10-06T17:36:35.000Z",
+      "summary": "The ship may have been attacked by unmanned surface vessels, Russian Telegram channels suggest."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/poland-to-deploy-patriots-near-ukrainian-border-announces-26-billion-civil-defense-plan/",
+      "title": "Poland to deploy Patriots near Ukrainian border, announces $26 billion civil defense plan",
+      "published": "2026-10-06T16:50:50.000Z",
+      "summary": "The money will be spent on shelters, equipment, rescue bases, stockpiles, and secure water and energy supplies in case of natural disasters and war, according to Prime Minister Donald Tusk."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/klitschkos-promise-of-50-mobile-shelters-for-kyiv-set-to-fall-far-short/",
+      "title": "Klitschko's promise of 50 mobile shelters for Kyiv set to fall far short",
+      "published": "2026-10-06T16:18:44.000Z",
+      "summary": "The city administration said the district administrations did not request funding for mobile shelters when the budget was drafted."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/europe-is-learning-the-wrong-lesson-from-russias-drone-war-2/",
+      "title": "Europe is learning the wrong lesson from Russia's drone war",
+      "published": "2026-10-06T15:44:08.000Z",
+      "summary": "European governments are preparing for a form of confrontation that their current investments do not fully match. While Russian-linked sabotage usually uses drones, logistics networks, criminal intermediaries, and deniable proxies against European cities, official policies and national strategies remain focused on detecting and intercepting each incident as it arises. This"
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/russian-losses-to-ukrainian-drones-surge-in-early-october-madyar-says/",
+      "title": "Russian losses to Ukrainian drones surge in early October, Madyar says",
+      "published": "2026-10-06T15:06:46.000Z",
+      "summary": "Between Oct. 1 and Oct. 5, Ukrainian Unmanned Systems Forces recorded 2,699 Russian troops killed or wounded, compared with 1,931 during the same period in September, Robert Brovdi, commander of Ukraine's Unmanned Systems Forces, said."
+    },
+    {
+      "feed": "dod-releases",
+      "kind": "news",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4619430/systems-selected-for-jiatf-401-directed-energy-counter-drone-pilot-program/",
+      "title": "Systems Selected for JIATF 401 Directed-Energy Counter-Drone Pilot Program",
+      "published": "2026-10-05T19:55:07.000Z",
+      "summary": "The War Department announced the directed-energy systems selected following the Joint Interagency Task Force 401's counter-unmanned aircraft systems-directed energy pilot program, marking the next phase of efforts to expand the operational use of high-energy laser and high-powered microwave capabilities."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o?at_medium=RSS&at_campaign=rss",
+      "title": "Chemistry Nobel awarded for solving mystery of life's asymmetry",
+      "published": "2026-10-07T11:51:52.000Z",
+      "summary": "The prize was given to the French and Japanese scientists for solving the mystery of life's asymmetry."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqzjx7z2r4gko?at_medium=RSS&at_campaign=rss",
+      "title": "France halts use of stun grenades after boy's hand blown off in student protests",
+      "published": "2026-10-07T11:35:36.000Z",
+      "summary": "The step comes after several groups complained of police using disproportionate force towards teenagers."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&at_campaign=rss",
+      "title": "Trump to speak to Putin about plague lab worker's death in Russia",
+      "published": "2026-10-07T11:24:17.000Z",
+      "summary": "Fears that the death may have been caused by pneumonic plague has prompted calls for more transparency from Russia."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckr5ym098vdeo?at_medium=RSS&at_campaign=rss",
+      "title": "Zelensky condemns 'vile' large-scale Russian attacks that killed 15",
+      "published": "2026-10-07T11:05:37.000Z",
+      "summary": "Rescue workers are continuing a search for residents after an apartment building in Pryluky was destroyed."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c8kgezxn54qko?at_medium=RSS&at_campaign=rss",
+      "title": "US death row inmate Christa Pike awake and speaking after failed execution, lawyers say",
+      "published": "2026-10-07T10:12:36.000Z",
+      "summary": "A medical expert advising her legal team says the murderer of Colleen Slemmer is communicating in a \"basic way\"."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
+      "title": "How did Christa Pike survive execution attempt - and what happens next?",
+      "published": "2026-10-07T10:01:47.000Z",
+      "summary": "The convicted killer of Colleen Slemmer is said to be awake and speaking in hospital in Tennessee after surviving two lethal injections."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ck0e0n3xzvp4o?at_medium=RSS&at_campaign=rss",
+      "title": "Sri Lanka's ex-first lady arrested over alleged misuse of children's hospital donations",
+      "published": "2026-10-07T09:49:31.000Z",
+      "summary": "The 73-year-old has been arrested over allegations that a charity she is linked to misused donations."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/crx23dvnp8vxo?at_medium=RSS&at_campaign=rss",
+      "title": "California pair charged with abusing at least 14 surrogate-born children",
+      "published": "2026-10-07T09:38:00.000Z",
+      "summary": "Guojun Xuan and Silvia Zhang were arrested at their Arcadia mansion after 21 children were removed from their custody last year."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/crpdgvx82831o?at_medium=RSS&at_campaign=rss",
+      "title": "India's opposition leader dragged on to bus as police break up protest",
+      "published": "2026-10-07T07:45:47.000Z",
+      "summary": "Opposition leaders allege that CEC Gyanesh Kumar manipulated voter rolls to favour PM Narendra Modi's party."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqze43ky1xgdo?at_medium=RSS&at_campaign=rss",
+      "title": "Oscar-winning actress Eva Marie Saint dies aged 102",
+      "published": "2026-10-07T07:37:16.000Z",
+      "summary": "She starred opposite Marlon Brando in On the Waterfront, then alongside Cary Grant in Hitchcock's North by Northwest."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqrmyz4mdn94o?at_medium=RSS&at_campaign=rss",
+      "title": "Residents of kibbutz destroyed in 7 October Hamas-led attacks grapple with how to rebuild",
+      "published": "2026-10-07T05:02:18.000Z",
+      "summary": "Three years on from the attack on Nir Oz, in which 47 people were killed and 76 taken hostage, some survivors have returned to live there."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm93z74e0n9zo?at_medium=RSS&at_campaign=rss",
+      "title": "The Republican candidates walking a Trump tightrope",
+      "published": "2026-10-07T05:00:21.000Z",
+      "summary": "Some running in November's elections are deciding whether to distance themselves from an unpopular president who still dominates his party."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/c5398nwe9lzlo?at_medium=RSS&at_campaign=rss",
+      "title": "What we know about Christa Pike\u2019s \u2018unprecedented' recovery after failed execution",
+      "published": "2026-10-06T23:42:35.000Z",
+      "summary": "The BBC's Sarah Smith details the injuries sustained by the US death row inmate after two failed lethal injections, and what comes next."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cq9868z88rexo?at_medium=RSS&at_campaign=rss",
+      "title": "A beautiful Himalayan bird is changing its voice due to human activity, research shows",
+      "published": "2026-10-06T23:07:44.000Z",
+      "summary": "A sharp increase in human activity is affecting the way the Himalayan monal lives and communicates, studies show."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ck054zm1701qo?at_medium=RSS&at_campaign=rss",
+      "title": "Many Nepalis swept away in the floods aren't officially dead, leaving families in limbo",
+      "published": "2026-10-06T22:17:56.000Z",
+      "summary": "Relatives are finding themselves with no compensation and facing an administrative nightmare."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cwm26078pkepo?at_medium=RSS&at_campaign=rss",
+      "title": "Watch: Riot police clash with school protesters and use tear gas in France",
+      "published": "2026-10-06T21:22:22.000Z",
+      "summary": "Hundreds of thousands of people have taken to the streets across France amid a wave of protests by high-school pupils."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c9e8l0ep8d1mo?at_medium=RSS&at_campaign=rss",
+      "title": "Drinking and consent - Cornell rape allegations expose 'loopholes' in laws",
+      "published": "2026-10-06T20:40:01.000Z",
+      "summary": "The BBC speaks to experts about current US state sexual assault laws and why some believe changing them will help alleged victims."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm62ep294qxlo?at_medium=RSS&at_campaign=rss",
+      "title": "From films to streaming prices - how the Warner Bros deal could affect you",
+      "published": "2026-10-06T18:42:58.000Z",
+      "summary": "The deal is expected to alter the entertainment and news industries but could it mean higher prices for consumers?"
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cxdd8035jzn3o?at_medium=RSS&at_campaign=rss",
+      "title": "What is pneumonic plague and how does it spread?",
+      "published": "2026-10-06T15:35:22.000Z",
+      "summary": "The death of a worker from a Russian lab that researches plague has prompted questions about the disease."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/c8e36y796enno?at_medium=RSS&at_campaign=rss",
+      "title": "Watch: How Russia responded to US after plague researcher death",
+      "published": "2026-10-06T13:32:42.000Z",
+      "summary": "The US and Russia have each offered to help each other tackling infectious diseases."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/07/nx-s1-5992772/medicare-for-all-midterm-voters-medical-bills-affordability",
+      "title": "'Medicare for All' message attracts midterm voters buckling under medical bills",
+      "published": "2026-10-07T09:00:00.000Z",
+      "summary": "Midterm candidates are talking up Medicare for All, and in a poll 2 out of 3 Americans said they support it. The phrase speaks to a desire for radical change, though many don't really know what it is."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/07/nx-s1-5984671/nevada-midterm-election-valor-carpetbagger-reno",
+      "title": "Carpetbagger allegation, misplaced valor make Nevada's safe red House seat competitive",
+      "published": "2026-10-07T09:00:00.000Z",
+      "summary": "Northern Nevada has a reliably red congressional seat, represented by a Republican since it was drawn in the early 1980s. A complicated candidate and a potential blue wave this year could change that."
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.06961",
+      "title": "Neural Correlation Learning for Quantum-Enhanced Sensing with Time-Independently Driven Rydberg Atom Arrays",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.06961v1 Announce Type: new Abstract: Quantum-enhanced sensing typically relies on preparing specific entangled states. However, engineering these states in scalable many-body systems remains challenging due to the difficulty of designing robust preparation protocols and accounting for realistic noise. We show that evolving a simple product state under native time-independent Hamiltonian dynamics in Rydberg atom arrays generates complex many-body correlations that can potentially enable quantum-enhanced parameter estimation reaching the Heisenberg limit (HL). The key challenge is the"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.06984",
+      "title": "Simultaneous Circuit Tests for Finite Reversible Models of Quantum Control",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.06984v1 Announce Type: new Abstract: A finite reversible model can approximate individual quantum gates while retaining freedom in its transition tables and preparation contexts. We formulate the simultaneous certification problem in which one stationary controller and one preparation law must reproduce an entire collection of circuit probabilities. For a specified frame catalogue, accuracy graph and calibration constraints, we give an exact shared-table feasibility formulation and distinguish certificates for a fixed table from certificates for the complete model class. A four-fram"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07010",
+      "title": "Exact Unitary Synthesis: Simultaneously Optimal in Size and Depth-Ancilla Tradeoff",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07010v1 Announce Type: new Abstract: Unitary synthesis underlies universal quantum computation by translating unitary transformations into circuits of elementary gates. We show that for any budget $m\\geq 0$ of ancilla, every $n$-qubit unitary can be exactly implemented using a quantum circuit consisting of $O(4^n)$ CNOT and single-qubit gates in $O(n+4^n/(n+m))$ layers attaining the asymptotically optimal depth--ancilla tradeoff while simultaneously achieving optimal circuit size. The key idea is to encode computational basis states as wavefunctions sharing a Gaussian envelope, conv"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07124",
+      "title": "Black Hole Radiation Decoding in the Haar Random Oracle Model",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07124v1 Announce Type: new Abstract: We prove optimal query bounds for recovering a single qubit from black-hole radiation in the Haar random oracle model, when the remaining black hole contains at most one sixteenth of the system's qubits. Recovery with any constant Haar-averaged advantage over trivial decoding requires queries proportional to the Hilbert-space dimension of the remaining black hole. The lower bound is unconditional for decoders chosen independently of the sampled unitary, allows arbitrary computation between queries, and access to $U, U^\\dagger, U^*, U^\\mathsf T$ a"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07139",
+      "title": "Protecting bosonic codes from ancilla-induced errors with continuous-variable flags",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07139v1 Announce Type: new Abstract: Bosonic quantum error correction represents a route towards significant hardware overhead reduction for fault-tolerant quantum computation. However, controlling quantum harmonic oscillators that encode the quantum information comes with its own challenges. In many platforms such as superconducting circuits and trapped ions, the bosonic degree of freedom is controlled by an ancillary qubit whose decay during a qubit-oscillator gate propagates to the oscillator as a continuous error. Such errors generally lie beyond the scope of errors that the bos"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07143",
+      "title": "Kardar-Parisi-Zhang superdiffusion in chaotic quantum circuits",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07143v1 Announce Type: new Abstract: We construct a family of chaotic brickwork quantum circuits exhibiting superdiffusive transport with dynamical exponent $z=3/2$ in the full Kardar--Parisi--Zhang (KPZ) universality class. This is enabled by the equilibrium current associated with a inhomogeneous conserved density having a nontrivial dependence on the chemical potential. Using nonlinear fluctuating hydrodynamics, we derive the propagation velocity, broadening scale, and universal scaling form of the charge correlation function from microscopic equilibrium properties. Tensor-networ"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07144",
+      "title": "Decoupling Spectral Gaps from Entanglement Complexity in Quantum Annealing",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07144v1 Announce Type: new Abstract: Exponentially small spectral gaps are the central obstacle to adiabatic quantum annealing, yet whether such bottlenecks demand correspondingly complex entanglement remains unclear. We show that gap scaling and entanglement complexity need not be linked. Conventional first-order transitions combine exponentially small gaps with bounded $O(1)$ bipartite Schmidt rank, even though the critical states retain global multipartite correlations, while continuous transitions combine polynomially closing gaps with logarithmically growing entanglement. We sh"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07172",
+      "title": "Pauli Flat Quantum States Mimicking Maximal Magic",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07172v1 Announce Type: new Abstract: Quantum magic is a necessary resource for fault-tolerant quantum computing, capturing the departure of quantum states from the classically simulable stabiliser set. Motivated by its role in quantum information processing, we investigate the correlation structure of states that maximize the R\\'enyi stabiliser entropies, focusing on the T-type and Hoggar states. Inspired by their distinctive properties, we explore the notion of Pauli flat states, defined as N-qubit states whose expectation values on all Pauli strings are equal in absolute value. Th"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07173",
+      "title": "Connectivity Controls Variational Accessibility in Symmetry-Preserving Quantum Circuits",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07173v1 Announce Type: new Abstract: Designing expressive quantum circuits for the variational quantum eigensolver (VQE) is a central challenge in simulating interacting many-body systems. Even symmetry-preserving (SP) circuits need not access the full many-body symmetry sector. We demonstrate this explicitly for the spin-$1/2$ XXZ and Hubbard models, where Hamiltonian-inspired nearest-neighbor (NN) SP circuits generate restricted dynamical Lie algebras (DLAs). While these restricted manifolds can accurately represent the ground state near the free-fermion limits, $J_z=0$ for XXZ an"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07196",
+      "title": "Learning Disentangled Representations with Quantum Variational Autoencoders",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07196v1 Announce Type: new Abstract: Variational autoencoders are powerful representation learning models that map complex data into low-dimensional latent spaces, enabling the discovery of interpretable and disentangled factors. Such representations can facilitate the interpretation and controllable generation of data describing complex scientific systems. Understanding how these factors are organized and encoded in latent space is therefore important for developing reliable representation learning models. Recently, quantum variational autoencoders (QVAEs) have been proposed as qua"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07221",
+      "title": "Open-System Probe Selection and Optimal Measurements for Dispersive Coupling Metrology",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07221v1 Announce Type: new Abstract: We investigate how photon loss and environmental memory affect probe selection and measurement sensitivity for estimating the dispersive coupling strength in a cavity qubit system. Using density operator and quantum state diffusion approaches, we examine the quantum Fisher information for representative separable and entangled initial states in Markovian and non Markovian regimes. The results show that closed system generator variance alone does not determine open system performance. The survival of parameter sensitive coherences and the influenc"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07242",
+      "title": "Quantum Machine Learning for Few-Shot Impersonation Detection in Digital Account Opening",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07242v1 Announce Type: new Abstract: Identity impersonation fraud may emerge only after digital account opening, requiring an early post-onboarding approach based on behavioral and transactional signals observed shortly after activation. Confirmed cases remain rare, creating extreme class imbalance and material operational risk for digital banks. We evaluate quantum machine learning (QML) against classical one-class methods in this setting using a real 2025 cohort of 3,419 digital account openings from Banco de Creditos e Inversiones (BCI), Chile, including 8 confirmed impersonation"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07251",
+      "title": "Pauli Error Composition Determines the Multipartite Advantage in Conference Key Agreement",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07251v1 Announce Type: new Abstract: GHZ-based conference key agreement distributes a shared key to $N$ parties in one network use, whereas pairwise BB84 needs $N-1$. The survival of that advantage has been studied against party number, loss, and topology, but almost always with the channel fixed at depolarizing. Simulating both protocols exactly for $N = 3, 4, 5$ under dephasing, amplitude damping, and depolarizing noise, we find the crossover is set by the channel's Pauli error composition, not its identity: normalized to average infidelity, amplitude damping and depolarizing agre"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07252",
+      "title": "Resource-Aware Grover Search for Minimum Vertex Cover",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07252v1 Announce Type: new Abstract: The Minimum Vertex Cover (MVC) problem is a fundamental NP-hard combinatorial optimization problem with applications in network analysis and resource allocation. Grover's algorithm provides a quadratic reduction in query complexity for unstructured search, but existing Grover-based MVC formulations can incur substantial quantum resource overhead due to costly vertex-counting circuits and complex oracle constructions. We develop and evaluate several encoding and oracle-design strategies for reducing the qubit count, circuit depth, and gate complex"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07254",
+      "title": "The parliament of observers - Against the observable axiom of quantum mechanics",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07254v1 Announce Type: new Abstract: The 'unreasonable effectiveness of mathematics in the natural sciences' may at times give the impression that natural science, especially modern theoretical physics, is all but a formal apparatus. However, a key challenge of physics remains to align everyday notions of experience -- be it directly or mediated through instruments of arbitrary sophistication -- with their mathematical formalisation. This applies in particular to quantum theory, arguably the most successful theory of physics ever invented. One of its core assumptions postulates: $Ob"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07308",
+      "title": "Quantum dynamics of spin systems using quantum-like resources",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07308v1 Announce Type: new Abstract: Recent publications have introduced the concept of quantum-like (QL) bits, along with their associated QL-states and QL-gate operations, emerging from the dynamics of complex synchronized networks. The present work builds on this framework to present a simulation of quantum dynamics in spin systems. We focus on the transverse field Ising model, a widely studied Hamiltonian for interacting spin systems. We show how circuits, built using the QL analog of quantum gates, can be used to prepare an arbitrary initial wavepacket and simulate the time evo"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07314",
+      "title": "Analytic construction of dimension-dependent steering witnesses from generalized equiangular measurements",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07314v1 Announce Type: new Abstract: We construct a dimension-dependent family of generalized equiangular measurements that gives explicit steering witnesses in every prime dimension $d\\geq5$. The construction consists of $d-1$ mutually unbiased measurements and an additional normalized family of $2d-1$ Hermitian operators depending on a parameter $\\tau$. Positivity of the latter family is the main technical problem. We show that the noncentral operators reduce to three-dimensional invariant blocks, while the remaining central operator is exactly solvable in a two-dimensional subspa"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07328",
+      "title": "Advantage of Entangled Learning Rules in Quantum Measurement Class Learning",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07328v1 Announce Type: new Abstract: Learning with data in the form of quantum states is of current interest and has led to a variety of problems that boil down to interaction with the available data via quantum measurement and classical post-processing of observed classical outcomes. In quantum measurement PAC learning, one is given a sequence of unknown, prepared quantum states and classical labels, along with a hypothesis class of candidate measurements. The task is to select a measurement from the hypothesis class that minimizes a fixed notion of error in prediction of the class"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07352",
+      "title": "Classical chaotic signatures in Krylov space",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07352v1 Announce Type: new Abstract: In recent years, Krylov space approaches have emerged as a useful framework for characterizing dynamical chaos in a wide variety of physical systems. However, the connection between Krylov dynamics and the established structures of classical chaos remains largely unexplored. Classical chaos is characterized by exponential stretching and mixing. For quantum maps with a classical limit, we show that these two signatures are encoded in different structures within Krylov space: stretching is encoded in the geometry of the Krylov operators as determin"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07393",
+      "title": "Benchmarking exchange-only control of a 48-spin singlet manifold",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07393v1 Announce Type: new Abstract: Exchange-only quantum computing benefits from high fidelity and straightforward control afforded by the exchange interaction. However, independently controllable qubits must be encoded into subsystems of at least three electron spins, restricting computation to only a fraction of the available spin Hilbert space. The remaining states are treated as leakage and used only transiently in gate sequences. By contrast, a quantitative, system-wide measure of exchange-only performance can exploit the full available Hilbert space, including states convent"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07422",
+      "title": "White paper: 1-10 Hz matter-wave interferometer to test the spin entanglement witness for quantum gravity",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07422v1 Announce Type: new Abstract: In this white paper, we highlight the importance of the ($1-10~{\\rm Hz}$) frequency range for laboratory tests of the quantum nature of gravity using the quantum gravity-induced entanglement of masses (QGEM) protocol. QGEM requires matter-wave interferometers with masses ($m\\sim10^{-15}-10^{-14}~{\\rm kg}$), brought within separations ($d\\sim30-50~\\mu{\\rm m}$), while maintaining spatial superpositions of ($1-20~\\mu{\\rm m}$) and coherence for ($\\tau\\sim 0.1 - 1~{\\rm s}$). These requirements make low-frequency environmental noise a central experimen"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07512",
+      "title": "X2C-inspired approximation of the Dirac coupling operator in a multiwavelet basis",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07512v1 Announce Type: new Abstract: We present a method to obtain the proven exact 2-component (X2C) method, normally applied to Gaussian-type fixed Hilbert bases, in an adaptative non-uniform grid basis of the Hilbert space, namely Multiwavelets. The X2C method manages to block-diagonalise the Dirac Hamiltonian restricted to the subspace of the basis, in an energy-independent manner. The method takes inspiration from the success of the atomic mean-field X2C method on the Gaussian bases to represent the coupling operator as a projector onto the small components of the eigenstates o"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07568",
+      "title": "Quantum Darwinism through apparatus-mediated environmental recording",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07568v1 Announce Type: new Abstract: Quantum Darwinism explains classical objectivity through redundant environmental records of a system's pointer states. We show that these records can be established through an intermediate measurement apparatus without direct system--environment interactions. Using exact analytical solutions of quantum circuit models, we compare system monitoring with apparatus monitoring, where the environment interacts only with the apparatus. During encoding, system--apparatus correlations decrease as system--environment correlations grow. Without noise, both "
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07651",
+      "title": "Excitation of subradiant states in atom chains by surface plasmon waves",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07651v1 Announce Type: new Abstract: Subradiant states of a finite subwavelength atomic chain in free space offer a powerful resource for photon storage. Yet their preparation and control remain challenging experimentally. A standard technique is to drive the atoms by a laser and observe the florescence light of the long-lived subradiant modes of excitation after the laser is switched off. However, these modes are highly degenerate and form an almost continuous band in the subradiant manifold. Here we propose a new method of exciting a given subradiant state by coupling atoms to a s"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07680",
+      "title": "Spectroscopy using dipole-phonon quantum logic",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07680v1 Announce Type: new Abstract: Dipole-phonon quantum logic (DPQL) offers novel approaches for state preparation, measurement, and control of quantum information in molecular ion qubits. Here we report the first experimental demonstration of DPQL as a spectroscopic tool using the shared motional mode of a CaO$^+$-Ca$^+$ ion chain to measure the frequency splitting of the ground $\\Omega$-doublet of CaO$^+$. By comparing the dipole-phonon signal across three trap-frequency ramp ranges, we determine the splitting to be $\\omega_{mol}=2\\pi\\times454\\pm1$ kHz and place a lower bound o"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07697",
+      "title": "When Expressivity Is Not Enough: Discrete Routing Geometry in Variational Quantum Circuits",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07697v1 Announce Type: new Abstract: Finding useful variational quantum circuits requires more than representational capacity: training must also have access to directions that improve the objective. We study how discrete CNOT routing shapes both capacity and local accessibility. For circuits built from CNOT and arbitrary one-qubit gates, we separate binary routing matrices from continuous rotations to relate global capacity to local tangent accessibility. An exact finite-field formula for the operator Schmidt rank of a CNOT block and cumulative multiblock bounds yield capacity cons"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07702",
+      "title": "Demonstration of Parallel Multi-QPU Execution for Fragment-Based Quantum Chemistry Using On-Premises Hardware",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07702v1 Announce Type: new Abstract: Fragment molecular orbital (FMO) quantum chemistry offers a natural route to parallel quantum computing: large molecular calculations can be decomposed into smaller quantum subproblems that can, in principle, run concurrently. Their practical benefit on real quantum hardware, however, has remained unclear. We demonstrate parallel FMO calculations on three room-temperature diamond-based 'Quoll' quantum computers installed on-site at the Oak Ridge Leadership Computing Facility. Helium clusters (He$_{n}$, $n=2,4,8,10,14$) served as a testbed for tot"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07806",
+      "title": "Quantum telescopy with realistic anti-correlated optical fields as references",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07806v1 Announce Type: new Abstract: Quantum telescopy, proposed by Grottesman et al., uses spatially entangled single-photon states to modify HBT stellar interferometry, potentially surpassing Michelson interferometry in resolution without baseline limits. However, finite source bandwidth, non-unit efficiency, detector response times, and celestial light bandwidth all affect its effectiveness. In this work, we consider a spatially entangled singe-photon state generated by beam-splitting a practical anti-bunched photon source from resonance fluorescence, which is a common method of "
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07827",
+      "title": "Quantum Data Ruler",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07827v1 Announce Type: new Abstract: A ruler reads an unknown length against a calibrated scale. The quantum data ruler reads a matrix element of an unknown state against the signal of a known reference, from their ratio. It is exact for any Hamiltonian and any time, since transition operators change by a state-dependent constant times one function of time, removing the vanishing-signal limit. The readout is unbiased under dephasing and amplitude damping, and recovers the coherent ergotropy of a quantum battery that two-point measurement erases. The structure survives the classical "
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07921",
+      "title": "Charging Dicke and Tavis--Cummings quantum batteries with a $\\mathcal{PT}$-symmetric lossy--gain cavity pair",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07921v1 Announce Type: new Abstract: We study how a parity--time-symmetric photonic environment changes the charging of Dicke and Tavis--Cummings quantum batteries. For atoms prepared in the collective ground state the excitation number grows as the square of the charging time, with a coefficient set by the initial mean photon number; the counter-rotating terms of the Dicke model add one to four times that number. Conservation of the total excitation number turns this into an exact ceiling on the stored Tavis--Cummings energy, the transition energy times the smaller of the photon an"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07986",
+      "title": "Divisibility of Non-Invertible Quantum Dynamics in the Heisenberg Picture",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07986v1 Announce Type: new Abstract: We study divisibility of finite-dimensional quantum dynamics in the Heisenberg picture when the dynamical maps need not be invertible. Heisenberg divisible dynamics determines unique reduced propagators on the accessible operator systems, and Heisenberg CP-divisibility is shown to be equivalent to an operator-norm monotonicity. Although each reduced propagator admits a unital completely positive extension, independently chosen extensions need not satisfy a composition law. Generalized inverses restore this law algebraically, but do not, in genera"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07991",
+      "title": "Entanglement Swapping Scheduling for Quantum Repeater Chains under Decoherence during Classical Communications",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07991v1 Announce Type: new Abstract: First-generation quantum repeaters are essential in distributing entanglement over long distances since they could mitigate losses in optical fiber. Repeaters split the total distance into shorter, easier to generate links. Then, entanglement swapping establishes long range entanglement by performing local measurements at the repeaters and heralding their results. In this work, we develop an analytical model that estimates the impact of decoherence during heralding for a given protocol. Furthermore, we identify a competition between two phenomena"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.07995",
+      "title": "A Single Conformal Coordinate Decodes Outcome-Resolved Measurement-Induced Entanglement",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.07995v1 Announce Type: new Abstract: A local measurement of a critical many-body state produces exponentially many microscopic outcomes, each defining a different conditioned quantum state. We ask how much information from one such outcome is actually needed to predict the entanglement that remains between two unmeasured regions. We show that, in critical quantum chains, the universal outcome-resolved R\\'enyi entropy is asymptotically determined by a single compact conformal coordinate extracted directly from the measurement record. Compact-boson theory explains this compression: th"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08005",
+      "title": "Squeezed light from a semiconductor amplifier",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08005v1 Announce Type: new Abstract: The possibility of generating light in a squeezed quantum state during saturated light amplification in a semiconductor amplifier is theoretically analyzed. Due to four-wave mixing process during amplification, weak components of the spontaneous emission of the medium with symmetric frequency shifts relative to the strong amplified wave acquire the quantum properties of two-mode squeezed light. The squeezing of quadrature components occurs in the range of frequency shifts of several GHz ($\\sim$ the inverse relaxation time of the charge carrier de"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08012",
+      "title": "Cyclic triorthogonal codes in prime dimension",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08012v1 Announce Type: new Abstract: We study cyclic triorthogonal codes in prime dimension $p$, on which a transversal third-level diagonal gate acts as a logical non-Clifford gate. For odd $p$, we use a definition of triorthogonality that does not require self-orthogonality. For cyclic codes of length coprime to $p$, triorthogonality reduces to a sumset condition on the spectral support, which makes exhaustive search feasible: for two natural constructions, we enumerate all maximal codes of this kind for $p=3$ up to length $121$ and $p=5,7$ up to length $96$. For qubits, we prove "
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08025",
+      "title": "Broadband Telecom Entanglement from an All-Fiber Type-0 Sagnac Source",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08025v1 Announce Type: new Abstract: We demonstrate a compact, practical all-fiber source of non-degenerate telecom-band polarization-entangled photon pairs assembled from off-the-shelf components. The compact fiber-integrated architecture is designed to be affordable, straightforward to assemble and align, and compatible with existing optical-fiber infrastructure. Photon pairs are generated through type-0 spontaneous parametric down-conversion in a pigtailed periodically poled lithium-niobate waveguide embedded in a Sagnac interferometer. At 0.5 mW pump power, quantum-state tomogra"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08038",
+      "title": "Memory Separations from a Collective-Spin Quantum Register",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08038v1 Announce Type: new Abstract: A spin one-half driven only by total-spin operators generates a renewal process in which one interevent time $n^\\ast$ is forbidden while all others occur. No classical hidden Markov model reproduces it with fewer than $1+\\sqrt{n^\\ast}$ states, an unbounded separation whose only resource is one relative phase of $\\pi$. With $K$ amplitudes the same interference yields $K(K{+}1)/2$ decay channels, and for positive weights and generic rates the classical cost is exactly $K(K{+}1)/2$ states. Both are realized by a depth-three circuit whose parameter c"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08062",
+      "title": "Total Ordering of Resources: A Quantum-Classical Separation",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08062v1 Announce Type: new Abstract: A central goal in quantum information science is understanding which physical states can be converted into others. The ideal scenario would be a totally ordered system, where every state can be ranked by a single value, and a higher-ranked state can always be converted into a lower-ranked one. Such an ordering would provide a complete description of state convertibility, making the resource structure maximally simple to characterize and compare. We prove that such a simple ordering is fundamentally impossible for any quantum system with dimension"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08146",
+      "title": "Operational quasiprobability formulation of non-signaling in time for macrorealism violations",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08146v1 Announce Type: new Abstract: In this paper, we introduce the concept of quasi non-signaling in time (QNSIT), which extends non-signaling in time (NSIT) to quasiprobability distributions. QNSIT requires that the marginals of the quasiprobability distribution under consideration at intermediate times remain unperturbed by the measurement back-action induced by a sequence of quantum measurements. Associated with QNSIT, we propose a quasiprobabilistic characterization of macrorealism, ${\\rm MR}_{\\rm qp}$, which requires that both the QNSIT conditions are satisfied and the quasip"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08147",
+      "title": "The polarization behavior of a system of two interacting identical spins 1/2 in adiabatically varying magnetic field",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08147v1 Announce Type: new Abstract: We derive the density matrix of a nonstationary system in the adiabatic representation and obtain the corresponding Liouville equation. This representation is particularly suitable when the standard interaction representation is inapplicable. We illustrate the approach with two identical, spatially separated spin-1/2 particles coupled by a magnetic dipole-dipole interaction in a slowly varying external magnetic field. Specifically, we analyze the spin polarization of pseudo-qutrit states in regimes where the states become entangled. The applicati"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08185",
+      "title": "Classical Verification of a Remote Quantum Processor via Degenerate Concordant Computations: An Application to Randomness Generation",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08185v1 Announce Type: new Abstract: A client who rents a cloud quantum processor cannot easily tell whether the bitstrings it receives came from a quantum device. Certification by random circuit sampling runs on present hardware, but scoring each returned sample costs the client time $O(2^n)$. We give a protocol in which the client scores each round in time $O(n)$, built on degenerate concordant ensembles. When a concordant state has a degenerate spectrum, every concordance-preserving gate factorizes as $G_t=U_tP_tB_tU_{t-1}^\\dagger$, and the block factor $B_t$, which commutes with"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08219",
+      "title": "Post-Selection-Free Quantum Automated Learning",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08219v1 Announce Type: new Abstract: Quantum automated learning (QAL) trains quantum models by directly updating quantum states, offering an approach to quantum machine learning that avoids optimizing variational circuit parameters. However, post-selection constrains the probability of obtaining the final learned model. We develop a post-selection-free QAL algorithm that organizes a complete training path into a coherent quantum circuit and uses fixed-point amplitude amplification to increase the probability of obtaining the learned model. We provide theoretical guarantees on output"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08234",
+      "title": "Measurement Complexity of Quantum Compressed Sensing",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08234v1 Announce Type: new Abstract: Conventional compressed sensing (CS) has a measurement lower bound of M = {\\Omega}(K log(N/K)) under non-adaptive measurements. Recent experiments on quantum compressed sensing (QCS) have reported numbers of measurements below this classical lower bound. In this work, we establish lower bounds on the measurement complexity of QCS from an information-theoretic and quantum-physical perspective. QCS exploits quantum parallelism, enabling a unitary domain-alignment evolution to act on a superposition of all N basis states and map the sparse basis ont"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08235",
+      "title": "Inertial Counterdiabatic Driving",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08235v1 Announce Type: new Abstract: We introduce an inertial counterdiabatic (CD) protocol that reformulates shortcut-to-adiabaticity design as a moving-frame diagonalization problem. The method employs the Magnus expansion to construct a variational propagator generated by an accessible CD ansatz. In the new rotating frame, the controls are optimized to suppress the off-diagonal Hamiltonian terms, and the CD terms are defined to counteract the corresponding inertial contribution. The propagator generated with the Magnus expansion naturally exploits additional control directions ge"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08241",
+      "title": "Multi-time advantage for certifying quantum coherence",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08241v1 Announce Type: new Abstract: Non-classical dynamics in open quantum systems can be hidden in temporal correlations that are invisible to standard state- and channel-based tests. We define coherence for multi-time quantum processes and show that access to intermediate times can reveal coherence absent from all corresponding pairwise channels. Incoherent processes are fixed points of dephasing on all input and output spaces, and their coherence is quantified by relative entropy. As a proof of principle, we use an Ising model in which all three pairwise channels are incoherent "
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08299",
+      "title": "Pauli Decomposition by Character Theory: A Memory-Bounded Algorithm for Qubits and Qudits",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08299v1 Announce Type: new Abstract: Pauli decomposition underpins Trotterization, phase estimation, sparse-Hamiltonian simulation, and variational observables, at exponential naive cost. From the character theory of $(\\mathbb{Z}_2)^n$, characters $\\chi_z(v)=(-1)^{\\langle v,z\\rangle}$ are the diagonal Pauli strings, so any diagonal operator is already Pauli-decomposed. A general operator still needs the shifts: each $X^{\\otimes x}$ couples to a character $\\chi_z=Z^{\\otimes z}$, and the products $X^{\\otimes x}Z^{\\otimes z}$ -- up to phases in $\\{\\pm 1,\\pm i\\}$ -- form the Pauli group"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08391",
+      "title": "Space-Time Electron Wave Packets with Tunable Skyrmion Textures",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08391v1 Announce Type: new Abstract: Space-Time Wave Packets (STWPs) have enabled numerous nontrivial properties, such as tunable group velocities, nondiffraction and nonlocal spin textures in optical fields. However, this has not been properly studied in matter waves. Here, we investigate free-electron STWPs, which are propagation-invariant and group-velocity-tunable matter wave packets, constructed by constraining the spatiotemporal spectrum of the electron wavefunction in momentum space. Due to the unique dispersion of free-electrons, the electron STWP can carry two different top"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08411",
+      "title": "A 3D-Printed GHz Microwave-Resonator Paul Trap for Electron Confinement and Millisecond Spin-Qubit Coherence",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08411v1 Announce Type: new Abstract: We report a 3D-printed microwave-resonator Paul trap that operates at the GHz frequencies required for electron confinement while preserving an open geometry suitable for laser access and imaging ion Coulomb crystals. The resonator exhibits moderate quality factors of approximately 1000, enabling large confining electric-field amplitudes at low input power, and is in good agreement with finite-element-method (FEM) predictions despite manufacturing imperfections, which we experimentally characterize. The validated FEM model is then used to calcula"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08438",
+      "title": "Harnessing Post-selected von Neumann Measurements to Strengthen Entanglement and Quantum Signatures in Coherent States",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08438v1 Announce Type: new Abstract: We investigate how post-selected von Neumann measurements modify the nonclassical properties of two-mode entangled coherent states (ECSs). From the conditional pointer state, we characterize squeezing, photon statistics, intermode correlations, entanglement, fidelity, and post-selection probability. Anomalous weak values with moderate coupling enhance squeezing, antibunching, sub-Poissonian statistics, intermode correlations, and bipartite entanglement, while fidelity captures the crossover from weak perturbation to strong distinguishability. The"
+    },
+    {
+      "feed": "arxiv-quant-ph",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.08445",
+      "title": "Quantifying the fidelity of a quantum memory",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.08445v1 Announce Type: new Abstract: Quantum memories are key ingredients for future quantum networks. Developing methods for their certification is therefore an important, yet challenging, problem. In this work, we present a general framework for certifying quantum memories and quantifying their performance in an operational and efficient manner, taking advantage of developments in the theory of quantum channels. We start by giving a pedagogical introduction to these concepts and tools and illustrate their natural application to quantum memories. Specifically, we quantify the fidel"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.03872",
+      "title": "Training Numerical Intelligence via Auto-Diagnosis and Skill Discovery",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.03872v1 Announce Type: new Abstract: AI agents are becoming increasingly capable of generating scientific code, but generating code is not the same as improving the algorithms behind it. For numerical solvers, execution feedback can expose poor performance, but rarely reveals its underlying cause and how to address it. We introduce Auto-Diagnosis and Skill Discovery (ADSD), a framework that links numerical diagnosis to reusable solver self-improvement. ADSD follows a diagnosis-first paradigm that first explains why a solver performs poorly, then uses this diagnosis to guide the disc"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.03888",
+      "title": "REACT: Physically and Chemically Consistent Reconstruction of Marine Active Tracers",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.03888v1 Announce Type: new Abstract: Reconstructing global sea surface pH from sparse observations is critical for monitoring ocean acidification and understanding marine carbon cycling. Traditional assimilation and inverse models are physically grounded but costly for large-scale reconstruction. Recent black-box and physics-guided AI models improve efficiency, but are mainly designed for passive tracers, where the reconstructed variable is also the transported inventory. In contrast, pH is an active carbonate tracer: it is the prediction target, while dissolved inorganic carbon (DI"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.03894",
+      "title": "Proxy Confidence: Auditing Black-Box LLM Agents with a Surrogate's Log-Probabilities",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.03894v1 Announce Type: new Abstract: A deployed LLM agent emits tool calls, queries, and code that can be silently wrong -- by the time the error surfaces, the action has run. Frontier chat APIs hide the model's token probabilities; the agent's stated confidence barely beats chance on the mistakes that matter; and resampling does not help, since frontier models are highly repetitive, reproducing the same call across samples. We recover the missing signal from a low-cost open-weight surrogate run in parallel. It reads the same context, schema, and proposed action as the agent, then s"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.03934",
+      "title": "SGAnalog: An End-to-End Circuit Benchmark from Open-Source Silicon Tapeouts",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.03934v1 Announce Type: new Abstract: Existing analog integrated circuit design benchmarks make two questions hard to answer: whether a model has learned transferable circuit skills rather than recalled familiar examples, and whether its output works under defined process and test conditions. We introduce a benchmark built from human-designed, open-source circuits associated with Tiny Tapeout manufacturing shuttles. The collection contains 273 topologically distinct top-level designs. Every source is retrieved at the revision recorded for its shuttle submission and processed in a fix"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.03938",
+      "title": "MLLMs Fail to Refuse when Using Tools Agentically",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.03938v1 Announce Type: new Abstract: Agentic multimodal large language models (MLLMs) have recently pushed the frontier of visual reasoning by calling tools such as zooming and tagging. Despite the recent strong success of agentic MLLMs, this work uncovers a critical safety failure in the tool-use paradigm: agentic tool-using MLLMs become less capable of refusing harmful requests. Our experiments confirm that, across three popular safety benchmarks, all the top open- and closed-weight MLLMs we test exhibit significantly lower safety in tool-using settings than in non-tool settings, "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.03948",
+      "title": "Retrieval-Augmented Large Language Model Decision-Making for Autonomous Driving Guided by Chinese Philosophical Wisdom",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.03948v1 Announce Type: new Abstract: Autonomous driving decision systems must balance safety, efficiency, and social norms in complex traffic interactions. Philosophical and ethical considerations have received limited attention in existing autonomous driving decision-making approaches based on numerical optimization, sequence prediction, and large language models (LLMs). We propose Chinese Philosophical Wisdom-Guided Driving (CPW-Drive), a closed-loop retrieval-augmented generation (RAG) framework that incorporates value guidance derived from Chinese philosophy into autonomous driv"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.03959",
+      "title": "LatentQuant: Preserving the Policy-Facing Latent Contract under NVFP4 VAE Quantization",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.03959v1 Announce Type: new Abstract: Recent world action models (WAMs) reuse pretrained video VAEs whose encoder latents directly condition downstream action policies. Quantization must therefore preserve not only reconstruction fidelity but also the policy-facing latent contract expected by the frozen policy. Direct NVFP4 leaves W4A4 quantization error uncompensated, whereas joint quantization-aware training (QAT) can recover reconstruction by moving this representation. On Wan2.1, joint QAT nearly matches FP32 VBench-7 (0.7403 versus 0.7409), yet LIBERO success collapses from 95.5"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.03966",
+      "title": "ROAR: Unifying Runs across Heterogeneous AI-Driven Research Systems",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.03966v1 Announce Type: new Abstract: Each run of an AI-driven research system (ADRS) is an expensive search over a vast solution space, and dependable evaluation requires many runs, making run data both costly to produce and valuable to retain for large-scale analysis. Yet this data remains fragmented: teams operate in isolation, ADRS frameworks emit results in different formats, and no shared infrastructure exists to aggregate or compare runs across problems and systems. We present ROAR, a solution for systematically unifying and analyzing heterogeneous ADRS outputs. ROAR addresses"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.03984",
+      "title": "Teaching Agents to Code Reliably",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.03984v1 Announce Type: new Abstract: Autonomous coding agents solve repository issues by reading code, running commands, editing files, and submitting patches. Extra inference-time compute yields gains only when it produces a useful repair and supplies reliable evidence for choosing one. Three behaviors decide both, and we argue they are teachable rather than byproducts of scale, so a policy can carry them instead of a scaffold. Location diversity remains narrow, since attempts return to the same site and extra samples add no coverage. Edit diversity is left unexploited, since metho"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.03998",
+      "title": "Behavioral History Outperforms Descriptions of the Person for LLM Synthetic Personas",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.03998v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used as synthetic personas representing survey respondents. Their validity as substitutes for particular respondents depends on whether they reproduce individuals' decisions. We examine what information helps synthetic respondents predict each individual's later choices, using five conditions that add progressively richer information: no personal information, demographics, personality traits, cognitive scores, and finally the respondent's earlier survey choices as behavioral history. We use a two-wave"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04008",
+      "title": "SkillScriptBench: Benchmarking Self-Evolution of Executable Agent Skill Packages Beyond Markdown",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04008v1 Announce Type: new Abstract: Executable Agent Skills combine natural-language instructions and scripts into reusable packages for LLM agents, and revising them requires fixing errors without breaking correct behavior. Existing benchmarks do not systematically distinguish documentation repair, script repair, and preservation when evaluating skill self-evolution. We introduce SkillScriptBench, a 350-task benchmark designed to evaluate these capabilities separately. From a survey of over 35,000 GitHub-hosted Skill roots, we select 100 packages and construct 150 repair tasks. Ea"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04011",
+      "title": "Exploration-Preserving Policy Optimization",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04011v1 Announce Type: new Abstract: Reinforcement learning with verifiable rewards improves reasoning, while the allocation of learning signal shapes which solutions remain accessible under repeated sampling. Group-relative objectives assign equal advantages to equally rewarded responses, making aggregate credit proportional to sampled mode frequency. We introduce Exploration-Preserving Policy Optimization (ExPPO), a lightweight advantage-shaping rule that redistributes credit using prompt-relative, length-normalized response surprisal and prompt pass rate. ExPPO combines bounded s"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04012",
+      "title": "Beyond the Parameter Monolith: Reconstructive Memories, Executable Skills, and Residual Assembly for Language Models",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04012v1 Announce Type: new Abstract: Language-model systems can separate contextual computation, persistent storage, and exact execution instead of updating all capabilities through one shared parameter system. We investigate FEM-ASM, a finite-element-method-inspired organization in which independently constructed document states and deterministic executable skills contribute typed proposals to a shared language-model state. An explicit residual operator reconciles proposals attached to common interface nodes. We evaluate this organization through controlled experiments and negative"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04019",
+      "title": "A Quantitative Analysis of Graph Representation Strategies for Cyber Attack Detection",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04019v1 Announce Type: new Abstract: Graph based cyber attack detection studies employ various graph construction and representation strategies across different cybersecurity application domains. This diversity motivates a quantitative examination of how representation strategies are distributed across these application domains. This study presents a quantitative analysis of 37 original studies published between 2019 and 2026. Each study was coded according to publication year, application domain, graph representation type, feature extraction strategy, learning paradigm, algorithm, "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04021",
+      "title": "The Reported Engagement with AI Level (REAL) Rating: A Framework for Disclosing Human-AI Collaboration",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04021v1 Announce Type: new Abstract: Generative artificial intelligence has become increasingly incorporated into digital media and more generally into production workflows with which the public frequently interacts. Current provenance standards and disclosure methods frequently rely on binary categorizations, differentiating only between entirely human-authored and AI-generated content, or depend on technical watermarking that lacks user-facing clarity. However, there are very different risks and outcomes depending on the different uses of AI in the creation and consumption of end "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04040",
+      "title": "Agent Policy-Value Audit: Separating Transition Composition from Event Selection in Financial LLM Agents",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04040v1 Announce Type: new Abstract: Financial LLM agents are often evaluated by comparing their end-to-end returns with those of a baseline and testing the paired difference against zero. This measures whether deploying the agent changes realized performance, but it does not isolate event-selection skill. An agent that frequently changes positions from flat to long can earn a positive paired return from an upward-drifting event pool even when it selects events at random. We propose the Agent Policy-Value Audit, which holds fixed the observed count of each ordered action-change type"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04053",
+      "title": "The Cost of a Hop: Benchmarking NLIP and A2A",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04053v1 Announce Type: new Abstract: Autonomous agents built on Large Language Models (LLMs) need standardized protocols to interoperate across systems. Several now exist (A2A, MCP, ACP, ANP, NLIP), but the Natural Language Interaction Protocol (NLIP) has not appeared in any controlled performance study, and no work has measured where an agent protocol's latency is spent. We compare NLIP and the Agent-to-Agent (A2A) protocol empirically, decomposing latency into message creation, connection, and send phases across three independent hardware environments. For lightweight coordination"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04056",
+      "title": "Discrete Diffusion for Large Graph Generation via Structural Candidate Restriction",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04056v1 Announce Type: new Abstract: Synthesizing realistic graphs at scale is vital when the graphs of interest are large and real-world samples are limited or access-sensitive. Diffusion-based generators have recently driven much of the progress, offering high modeling capacity, but most such methods have quadratic computational complexity and are hence restricted to small-scale networks, currently up to 3k nodes. Existing non-quadratic methods remain limited by memorization issues and a trade-off between scalability and generation quality. Our goal is to generate large graphs who"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04072",
+      "title": "Reinforcement Learning with Comparative Evidence for Social Intelligence",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04072v1 Announce Type: new Abstract: Developing socially intelligent AI remains heavily dependent on human-annotated data, limiting the scale and breadth of social understanding models can acquire. Methods that derive training signals from unlabeled data offer a path beyond this dependence, but social predictions lack the verification oracles available in mathematics and coding. Moreover, core social targets such as affect, intent, preference, and pragmatic meaning are often ambiguous. The same behavior can support multiple plausible interpretations, making it difficult to verify wh"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04083",
+      "title": "Self-Propagating Misalignment in LLM Agents, and Why Auditing or Disabling Memory Is Not Enough",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04083v1 Announce Type: new Abstract: Memory poisoning attacks on LLM agents typically assume an external adversary who plants content in the agent's persistent memory to steer its behavior. We instead study, with no adversary involved, whether a misaligned agent can write a goal it cannot yet act on to persistent memory, so that a future aligned agent carries it out when the opportunity arises. We investigate this threat, which we refer to as self-propagation of misalignment, across 20 different scenarios, whose misaligned goals include self-preservation, power-seeking, undermining "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04088",
+      "title": "Towards Safer Autonomous Driving in an Open World: A Dual-Process Approach",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04088v1 Announce Type: new Abstract: Before autonomous driving systems can be deployed on public roads, it is vital that these systems comply with safety standards, traffic rules, and social norms. Although neural networks trained on large amounts of driving data perform well in routine driving tasks, these models often struggle in novel situations that are not well-represented in the data. In this work, we propose a novel framework that combines a neural network for intuitive, learning-based planning in routine driving tasks with model predictive control for reasoning-based plannin"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04112",
+      "title": "The Independence Prior of SAEs Fragments Visual Concepts",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04112v1 Announce Type: new Abstract: Sparse Autoencoders (SAEs) decompose model activations into sparse combinations of interpretable dictionary atoms. Although SAEs are grounded in the Linear Representation Hypothesis (LRH), their objective smuggles in an additional prior: concepts across patches are treated as independent, an assumption clearly violated by natural images and by the activations they induce. We therefore specialize LRH to vision through the Markov-Field Linear Representation Hypothesis (MFLRH), which adds the missing spatial dependencies to the LRH assumptions. We t"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04116",
+      "title": "CUAWright: A Minimal Unified Interface for Digital Agents",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04116v1 Announce Type: new Abstract: The prevailing approach to computer-use agents couples a model with a domain-specific harness: a browser or desktop environment equipped with human engineered tools that are fixed before task execution. As models' coding capabilities improve, the GUI native and static harness prevents them from direct programmatic operation on system state, as well as flexible construction of tools. To this end, we introduce CUAWright, a minimal terminal harness of roughly 3K lines of code that uses bash commands as its sole action interface, and a file system as"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04129",
+      "title": "InvestigationWorlds: An Agentic Environment for Legal Investigation",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04129v1 Announce Type: new Abstract: We introduce InvestigationWorlds, an agentic environment for legal investigation. We build on an underused artifact of U.S. civil litigation: the summary judgment motion. This motion relies upon a record composed of real evidence exhibits, and results in a court-adopted hypothesis that is treated as ground truth for the purposes of deciding the motion. Each environment is built from a real U.S. Federal Court case retrieved from Public Access to Court Electronic Records (PACER) and augmented by an attorney-validated generation pipeline that synthe"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04133",
+      "title": "Auditing Pairwise Equivalence Judgments: Self-Critique Effects and Diversity Measurement in Multi-Agent Hypothesis Generation",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04133v1 Announce Type: new Abstract: Multi-agent systems built on large language models (LLMs) are increasingly applied to scientific discovery and hypothesis generation. Both the effect of refinement and the diversity of the delivered set are hard to interpret before experimental ground truth exists, and both are typically reported by deciding whether pairs of generated hypotheses describe the same underlying mechanism. We study two evaluation questions that rest on this pairwise equivalence judgment: (1) how much self-critique changes delivered hypotheses beyond run-to-run variabi"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04168",
+      "title": "Agentic Cognitive Depth: Operational Criteria for Evaluating LLM Agents",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04168v1 Announce Type: new Abstract: Agentic large language model (LLM) systems are commonly implemented as an LLM in a loop with Planning, Memory, Tools, and Control Flow. This application-focused view connects agentic LLM research with deployable systems and leaves open how such systems should be evaluated beyond end-to-end task success. Building on this view, we define agentic cognitive depth as a trajectory-level profile across five operational criteria. The profile contains context sensitivity ($C$), temporal continuity ($T$), multimodal coordination ($M$), adaptive interaction"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04178",
+      "title": "SHarP: Saliency-based Pruning of Agent Harnesses",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04178v1 Announce Type: new Abstract: Agent harnesses are systems that coordinate model calls, tool use, and task execution to help large language models complete complex tasks. To meet task requirements and address failures, these systems are often iteratively refined by amending and patching their instructions, tools, and workflows, continuously increasing harness complexity. It is therefore unclear whether some resulting harness modules are redundant, introducing substantial token overhead with little, if any, performance gain. Inspired by neural network pruning, in this paper, we"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04183",
+      "title": "Language Model Activations Inhabit Privileged Error-Correcting Basins",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04183v1 Announce Type: new Abstract: Language models exhibit remarkable robustness, continuing to produce coherent text even when their activations are perturbed by interventions like linear steering. We hypothesize that this robustness is a result of passive dynamics, i.e., constraining mechanisms in the forward pass that funnel activations toward \"good\" regions that produce coherent outputs. To investigate these hypothesized error-correcting mechanisms, we probe the geometry of language model activation space by observing the action of model layers on low-dimensional curves. In do"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04184",
+      "title": "EvalResearchBench: Can AI Agents Design Their Own Evaluations?",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04184v1 Announce Type: new Abstract: Recursive self-improvement (RSI) relies on evaluation feedback to assess progress and guide further research, yet repeatedly running complex benchmarks is costly and slows iteration. Human experts reduce this cost by selecting benchmark subsets or designing compact suites. We ask whether AI agents can automate this design process and introduce EvalResearchBench (ERB), a benchmark for autonomous evaluation research. Given target materials, development references, candidate APIs, and fixed time and API budgets, an agent called the researcher select"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04188",
+      "title": "Agentic AI with Structured CoT for Enhancing AI's Spatial Intelligence: Visualization and Reasoning of Rotation",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04188v2 Announce Type: new Abstract: Recent studies show that artificial intelligence (AI) with language and vision capabilities still experiences limitations in spatial reasoning. In this paper, we have studied the spatial capabilities of advanced generative AI to understand the rotations of objects in 3D space, utilizing AI's image processing and language processing features. We trained and examined the spatial intelligence of a generative Agentic AI model (GPT-5.6) to understand the spatial rotation process with rotation diagrams based on the revised Purdue Spatial Visualization "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04195",
+      "title": "MemLeak: Cross-User Semantic Leakage in Multi-Tenant AI Agent Memory",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04195v1 Announce Type: new Abstract: Personal AI agents in enterprise multi-tenant deployments share a common vector store for long-term memory. Shared embedding spaces create a surface for cross-user memory leakage: a user's query can retrieve semantically adjacent memories belonging to another user through ordinary cosine-similarity retrieval, without any exploit. We formalize this as cross-user admissibility failure and evaluate it across six experiments, plus follow-up ablations, under both sparse (TF-IDF) and production-faithful (MiniLM-L6-v2) retrieval. Non-adversarial, incide"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04196",
+      "title": "Asynchronous Is Nearly Free for Evolution Strategies on Long-Horizon Agentic Tasks",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04196v1 Announce Type: new Abstract: LLM-based long-horizon agentic post-training is often bottlenecked by rollout generation: trajectories span many interaction turns, completion times vary substantially, and synchronous update barriers leave faster workers waiting for stragglers. Asynchronous reinforcement learning which has been adopted in LLM post-training addresses this inefficiency by consuming trajectories as they arrive, but introduces policy lag and off-policy optimization. Evolution strategies (ES) offer a backpropagation-free alternative for LLM post-training, yet it reli"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04198",
+      "title": "ALoDLM: Adaptively Looped Diffusion Language Models",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04198v1 Announce Type: new Abstract: Diffusion language models (DLMs) enable fast generation by predicting multiple tokens in parallel, but their practical adoption remains limited by a persistent quality gap relative to comparably sized autoregressive (AR) models. We attribute this gap to a computation-difficulty mismatch: within a partially observed sequence, some unknown tokens are easy to predict, while others require substantially more computation. Existing DLMs nevertheless apply uniform computational depth to all unknown positions at each denoising step. We introduce ALoDLM, "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04206",
+      "title": "Fine-Tuning VLM for Enhancing AI's Spatial Intelligence: Understanding 3D and 2D Rotations",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04206v2 Announce Type: new Abstract: Spatial intelligence is a fundamental skill in multiple domains, such as Science, Technology, Engineering, and Mathematics (STEM), Medicine, Architecture, and Construction. Recent studies indicate that Vision-Language Models (VLMs) still face limitations in spatial reasoning, which inhibits artificial intelligence (AI) from performing practical spatial tasks. Using multiple object-rotation datasets developed for training and evaluation, our experiments demonstrated promising improvements in both 2D and 3D rotation detection. Fine-tuned Google Dee"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04215",
+      "title": "TCMClinicalReason-Bench: Can Language Models Reason from Pathogenesis to Prescription over Real-World Clinical Cases?",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04215v1 Announce Type: new Abstract: Large language models (LLMs) can generate clinical narratives that are insufficiently grounded in patient-specific evidence. In traditional Chinese medicine (TCM), errors can propagate from etiology and pathogenesis through syndrome diagnosis and treatment principles to prescription generation. We developed TCMClinicalReason-Bench using 2,000 multicenter electronic health record cases to distinguish case-grounded responses from fluent but unsupported diagnostic and therapeutic conclusions. Five general-purpose and two TCM-specific LLMs were evalu"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04245",
+      "title": "On the Steering Dimensionality of Refusal in Language Models",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04245v1 Announce Type: new Abstract: Existing activation steering methods often assume that a high-level concept can be mediated by a single steering direction. To support this, two complementary interventions should be achieved: additive steering should induce the target behavior, while directional ablation should suppress it. Yet behaviors may occupy richer activation geometries beyond a single direction, and semantically similar behaviors may be represented by distinct directions. In this work, we study how many directions can reliably control two different types of refusal behav"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04253",
+      "title": "Spec2Game: Can LLMs Generate Complete Playable Games from Detailed Specifications?",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04253v1 Announce Type: new Abstract: Generating an executable program does not necessarily mean that it correctly implements the behavioral requirements specified in natural language. To evaluate large language models' ability to realize detailed specifications as complete interactive programs, we introduce Spec2Game, a benchmark that requires models to generate complete Pygame projects from detailed natural-language game specifications. Spec2Game comprises 15 game families and 150 task instances, with one canonical task and nine controlled rule variants per family, spanning three l"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04262",
+      "title": "CADForge: Agentic Single-View CAD Reconstruction with Explicit Geometry Reasoning",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04262v1 Announce Type: new Abstract: Reconstructing editable parametric CAD models from a single-view image is of great practical value for modern manufacturing, yet remains challenging due to incomplete geometric observations and complex inter-part relationships. To address it, we propose CADForge, an agentic framework that progressively converts a single image into CadQuery programs. CADForge decomposes an object into CAD-meaningful components and performs explicit geometric reasoning for each component, a process that first identifies CAD-relevant constraints and then translates "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04280",
+      "title": "Dense Neuro-Symbolic Reasoning in a Unified Geometry State",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04280v1 Announce Type: new Abstract: Geometry reasoning is naturally stateful: solving a problem repeatedly alternates between structural proposals and exact deductions. We formulate this process as dense neural-symbolic coupling, in which neural guidance and symbolic execution share a typed state and communicate through executable actions at every search step. Neural proposals contribute theorem instances, constructions, and algebraic bridges; the symbolic runtime applies registered rules, propagates exact constraints, and records provenance. A nested controller allocates computati"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04287",
+      "title": "VIGIL: Verifier-Informed Gated Improvement Loop for Spreadsheet Question Answering",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04287v1 Announce Type: new Abstract: Enterprise agents should improve from delayed feedback without allowing every correction to rewrite system behavior. We study continual harness learning for corpus-level spreadsheet question answering. Building on FiCo (Find-then-Compute), a static retrieval-and-execution backbone, we introduce VIGIL (Verifier-Informed Gated Improvement Loop). Within a question, VIGIL verifies and repairs diversely prompted Structured Query Language (SQL) candidates. Across episodes, delayed labels update only a contract calibrator and query/result-column selecto"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04292",
+      "title": "LMBuild: Evaluating LLM Agents for Generating Buildable and Functional Structures",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04292v1 Announce Type: new Abstract: LLM-based agents are increasingly capable of generating complex 3D structures, with the potential to reshape how objects are designed and realized in the physical world. Yet, producing elegant geometry is fundamentally different from producing objects that can be built and perform their intended functions. Existing evaluations largely focus on geometric quality while overlooking physical realizability. We introduce LMBuild, a benchmark for evaluating LLM agents on generating buildable and functional structures. LMBuild represents generated object"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04295",
+      "title": "Language-Conditioned Token and Reasoning Efficiency in Large Language Models: A Paired Cross-Lingual Study Protocol",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04295v1 Announce Type: new Abstract: Large language models incur language-dependent representation and inference costs, but existing comparisons often conflate input language, assigned observable-trace language, and answer realization. We specify a prospective paired study that separates these interfaces while holding the semantic item, checkpoint, and answer oracle fixed. The initial design instantiates 240 exactly scored items rendered from templates in English and seven non-English languages, three distinct-lineage open-weight checkpoints, three trace-token budgets, 22 input- and"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04301",
+      "title": "EnvDreamer: Large-Scale Multimodal-to-Environment Generation for Embodied AI",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04301v1 Announce Type: new Abstract: Large datasets and high capacity models have accelerated progress in vision and language. This work introduces a platform aimed at bringing comparable gains to embodied learning, world models, and robotics. We present EnvDreamer, a framework that uses large language and vision language models to generate Unreal Engine 5 environments for embodied AI and robot training. EnvDreamer enables sampling of large, diverse, interactive, customizable, and validator passed virtual environments for training and evaluation across navigation, interaction, and m"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04313",
+      "title": "MOIRA: Mass-Oriented Indexing with Ragged Attention for Long-Context Decoding",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04313v1 Announce Type: new Abstract: Long-context decoding is limited by memory bandwidth, because every output token reads the KV cache of every layer. Sparse decoding reduces this cost by reading only part of the KV cache. We observe that the number of pages a query needs varies widely across KV heads, layers and steps. Fixed budgets are simple, but they are sized for demanding cases and tuned per workload; adaptive budgets follow this variation more flexibly, but existing designs pay for it with extra selection cost or training. At the kernel level, FlashAttention-3 (FA3) and Fla"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04316",
+      "title": "From Latent Space to Jacobian Space: Measuring, Evading, and Training Against Safety-Content Accessibility",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04316v1 Announce Type: new Abstract: Output-only safety monitoring sees only the end of a model's computation, yet the model computes its answer before emitting it: what it is internally poised to say is safety-critical. Jacobian-space (J-space) readouts, linear maps from hidden states to the output vocabulary via the model's input-output Jacobian, have been proposed as a window on behaviorally accessible internal content, and a first safety protocol (JADR) showed that danger recognition is readable there. What remains unknown is how this accessible content relates to the latent-spa"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04328",
+      "title": "Bidirectional Preference Synthesis: Learning Prompt-Conditioned Preferences from Boundary Failures",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04328v1 Announce Type: new Abstract: Correction-based offline preference pipelines commonly treat model failures only as rejected responses under the original prompt. This supervision is incomplete for boundary failures: responses that violate the given instruction yet coherently satisfy a nearby intent or constraint setting. We introduce Bidirectional Preference Synthesis (BPS), a data-construction method for standard Direct Preference Optimization (DPO) that makes this missing prompt dependence explicit. For each validated boundary failure, BPS keeps the conventional forward pair "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04329",
+      "title": "Suppressing Pressure, Amplifying Evidence: Self-Guided Attention Steering to Mitigate Sycophancy and Stubbornness",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04329v1 Announce Type: new Abstract: Reliable language models should resist unsupported user pressure while effectively using objective contextual information. However, models may exhibit sycophancy by yielding to unsupported user pressure or contextual stubbornness by failing to update their answers when relevant contextual information warrants revision. Evaluating interventions for these failures separately can obscure whether mitigating one failure exacerbates the other. To assess this trade-off, we introduce CoPE-Bench with six conditions per question: a neutral baseline, correc"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04339",
+      "title": "ShadowMiner v1 - An Experience Report on Implementing and Measuring a Problem-and-Hypothesis Discovery Engine",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04339v1 Announce Type: new Abstract: ShadowMiner v1 is a system that automatically discovers research problems and generates hypotheses from AI papers. It is a nine-stage pipeline. It structures documents into a knowledge graph and finds graph gaps in it - structural blind spots in research. These graph gaps are included in the LLM generation prompt. Each generated hypothesis is then verified by checking whether it is already covered by existing research, scoring its quality, and checking that the facts it relies on are accurately drawn from its sources. This report does not propose"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04371",
+      "title": "Functionally Equivalent or Not? Graph-Grounded Differential Surrogate Execution for Code Equivalence",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04371v1 Announce Type: new Abstract: Determining whether two programs are functionally equivalent is central to code modernization, patch validation, refactoring, and code-generation evaluation. Yet the usual signals are incomplete: tests cover only finite inputs, textual similarity confuses implementation with behavior, and unconstrained LLM judgments are difficult to audit. Direct execution is often impossible when a program depends on an obsolete, licensed, unavailable, or unsafe environment. We introduce FEAgent, a selective equivalence assessor agent that combines typed program"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.04375",
+      "title": "Do Tool Calls Execute as Intended? Measuring and Repairing Intent-Execution Correspondence in LLM Agents",
+      "published": "2026-10-07T04:00:00.000Z",
+      "summary": "arXiv:2610.04375v1 Announce Type: new Abstract: Agents built on large language models (LLMs) build and run software through tool calls. A call reaches its program through several hops, and any hop can change the call without notice. When the changed call fails, the agent retries a correct call, which costs users time and money. Benchmarks and failure analyses do not see the change, because they read the call and its result but not what a hop received. We define intent-execution correspondence (IEC) as the property that the executed action matches the action the emitted call denotes under the t"
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02864-z",
+      "title": "Blend",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03132-w",
+      "title": "Can your brain grow new neurons? How researchers are solving a century-old puzzle",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03093-0",
+      "title": "Chemistry Nobel for solving mystery of how \u2018handed\u2019 organic molecules can emerge",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11244-6",
+      "title": "Author Correction: Anodic Pd membrane H 2 extraction enhances thermochemical dehydrogenation",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03176-y",
+      "title": "Maintaining global science collaboration during conflict requires fairer rules",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03155-3",
+      "title": "The Solar System could die one billion times earlier than thought",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03174-0",
+      "title": "The Great Barrier Reef requires special attention in the developing super El Ni\u00f1o",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02973-9",
+      "title": "Scientists take a radiometer for a spin in a hot-air balloon",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03177-x",
+      "title": "Preprints must not leak sensitive research information",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03160-6",
+      "title": "Unprecedented hole opened up in Antarctic winter sea ice",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03175-z",
+      "title": "AI could undermine scientific independence in subtle ways",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03095-y",
+      "title": "Astronomy\u2019s \u2018adrenaline junkies\u2019: Nobel prize captures the thrill of neutrino physics",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02798-6",
+      "title": "Rising numbers of Asian and African PhD students choose to study in China",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03105-z",
+      "title": "How digital breakdowns affect supply chains \u2014 and endanger the global economy",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03129-5",
+      "title": "Strong evidence that \u2018baryon junctions\u2019 give proton its identity",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03131-x",
+      "title": "Why smart glasses are about to create a major privacy crisis",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03136-6",
+      "title": "Cells, who needs them? Biochemists turn to proteins in a tube",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02966-8",
+      "title": "Circular DNA exposes a weakness in cancer cells",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03150-8",
+      "title": "Flu season could kick off \u2018incredibly\u2019 early \u2014 what scientists are watching",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03092-1",
+      "title": "Nobel physics prize awarded for detection of cosmic neutrinos",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02967-7",
+      "title": "Brain organoids grafted into cortex-free mice will advance human brain research",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03130-y",
+      "title": "How to mobilize the agile science needed in a crisis",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03094-z",
+      "title": "\u2018What took them so long?\u2019 This year\u2019s medicine Nobel winner is overdue",
+      "published": "2026-10-05T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03157-1",
+      "title": "The top cancer success stories of the past 50 years, by the numbers",
+      "published": "2026-10-05T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03185-x",
+      "title": "Daily briefing: Medicine Nobel prize goes to optogenetics",
+      "published": "2026-10-05T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03091-2",
+      "title": "Medicine Nobel awarded for brain \u2018switch\u2019 that controls neurons with light",
+      "published": "2026-10-05T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03134-8",
+      "title": "How big tech is building a military\u2013industrial complex in the age of AI",
+      "published": "2026-10-05T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03135-7",
+      "title": "AI biohazard hype must not divert attention from the real risks we face now",
+      "published": "2026-10-05T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03037-8",
+      "title": "Location, location, location: how to edit genes only in the cells you want",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03057-4",
+      "title": "\u2018Learning about physics changed my life\u2019: author Hernan Diaz on his new novel Ply",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03058-3",
+      "title": "How to respond to hate speech without fuelling it further",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03126-8",
+      "title": "Stunning fossil shows dinosaurs\u2019 distinctive path to flight",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03145-5",
+      "title": "Nature has rights \u2014 it is time the world recognized them",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03164-2",
+      "title": "Daily briefing: Can you name every female Nobel laureate?",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03133-9",
+      "title": "Can you name the women who have won a science Nobel prize?",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02976-6",
+      "title": "Von Neumann\u2019s party",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02769-x",
+      "title": "Prozac use for childhood depression skewed by single flawed medical trial",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02564-8",
+      "title": "Can we have class outside? Seven tips to breeze through outdoor lectures",
+      "published": "2026-10-02T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11149-4",
+      "title": "Retraction Note: Ribosomal frameshifting in the CCR5 mRNA is regulated by miRNAs and the NMD pathway",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03036-9",
+      "title": "A black hole\u2019s jets have a halo effect",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03119-7",
+      "title": "Can pancreatic cancer be stopped in its tracks? Radical tactic raises hopes",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03044-9",
+      "title": "\u2018Vibe coding\u2019 makes the dictionary: AI terms recognized by Merriam-Webster",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03042-x",
+      "title": "The \u2018missed disease\u2019 that affects 190 million: endometriosis drug shows early promise",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03101-3",
+      "title": "Gaze into the cosmos and through the eyes of a bee \u2014 September\u2019s best science images",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03141-9",
+      "title": "Daily briefing: The sky as you\u2019ve never seen it \u2014 the month\u2019s best science images",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03118-8",
+      "title": "Battle of the Anthropocene: allegations re-ignite row over proposed geological epoch",
+      "published": "2026-10-01T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754934v1?rss=1",
+      "title": "Low-intensity ultrasound drives offline neuromodulation through passive membrane mechanisms in synaptically isolated hippocampal neurons",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": "Low-intensity ultrasound alters neuronal excitability long after exposure ends, but the basis of this offline effect is unclear and most proposed mechanisms require synaptic receptors. We recorded from cultured mouse hippocampal neurons in whole-cell current clamp, before and 20 min after 1 min of 850 kHz continuous-wave ultrasound at 0.5 W/cm2 or sham, with synaptic transmission blocked throughout, each neuron re-patched. Sonicated neurons remained intact and firing, yet depolarized, with smaller action potentials and more noise. A passive-membrane fit showed reduced capacitance and a depolar"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755178v1?rss=1",
+      "title": "Hypothalamic tauP301L pathology disrupts pair bonding in monogamous prairie voles",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": "Although dementias primarily affect memory, they also disrupt our closest social relationships, resulting in elevated caregiver burden and worse patient outcomes. However, the mechanistic study of how pathology affects social attachments is limited by the use of laboratory rodents that do not form selective, long-term bonds. Here, in monogamous prairie voles, we expressed dementia-causing tauP301L in the paraventricular hypothalamus of 12- and 18-month-old animals, and separately, from birth through 18-months, across hippocampocortical regions. Hippocampocortical expression of tauP301L did not"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.751688v1?rss=1",
+      "title": "Single-cell spatial transcriptomics of inherited retinal degeneration reveals broad and focal organization of disease responses",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": "Inherited retinal degenerations are largely monogenic disorders characterized by progressive photoreceptor dysfunction and death. Although the transcriptomic responses to inherited degeneration are well-characterized, how these responses are spatially organized across the retinal axis has not been mapped. Here, we used seqFISH to spatially profile 173 cell identity and degeneration-associated genes with single-cell, single-transcript resolution in male wild-type and LCA5gt/gtmouse retinas at early, intermediate, and advanced disease stages. In early disease, rod injury and stress response mark"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756487v1?rss=1",
+      "title": "The olfactory ventricle: an overlooked and evolutionarily conserved feature of the mammalian brain",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": "The olfactory ventricle (OV), an anterior extension of the lateral ventricular system into the olfactory bulbs, is generally considered a transient developmental structure that closes during early postnatal life. However, this view largely derives from a limited number of laboratory models, and the evolutionary distribution and cellular organization of the adult OV remain poorly understood. Here, we combined a comparative survey of mammalian neuroanatomy with phylogenetic analyses and cellular characterization of the OV across species. We compiled anatomical data for 154 mammalian species span"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.749912v1?rss=1",
+      "title": "Shifts in neural representations, not gaze, track how people reinterpret ambiguous social scenes",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": "How do we come to \"see\" the same thing differently after hearing someone else's perspective? Revising an interpretation could reflect changes in how the brain represents the meaning of what we see, changes in how we visually sample the input, or both. To disentangle these mechanisms, we developed MindLibs, an adaptive fMRI and eye-tracking paradigm in which participants generate interpretations of ambiguous photographs and then view alternative interpretations chosen in real time to vary in semantic content from their own. Exposure to semantically distant alternatives revealed a strong link be"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756560v1?rss=1",
+      "title": "Regional Similarity to Sex-Typical Young Adult Brain Architecture is a Longitudinal Correlate of Neuroinflammation and Depression in Later Adulthood",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Lifespan trajectories of psychiatric and neurodegenerative risk show robust overlap and marked sex differences. Nonetheless, their neurobiological underpinnings are still poorly understood. One potential culprit is the predominant categorical definition of sex, which overlooks the tapestry of sex-dependent and sex-independent features recently shown to typify each human brain. Shifting from a holistic, dichotomous approach to regionally specific, continuous assessments of sex differences in brain function could help identify individualized therapeutic targets for both psychiatric and neurologi"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755305v1?rss=1",
+      "title": "Bio-inspired chromatophore network model generates dynamic skin patterns akin to those observed in cephalopods",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Cephalopod skin exhibits a wide range of dynamic visual displays, including traveling waves, light/dark flashes, and flickering, all generated by muscle-regulated expansion and retraction of pigment-filled elastic sacs known as chromatophores. While central neural control is essential for high-level body-wide pattern coordination, experimental evidence from excised and denervated skin reveals that intricate spatiotemporal patterns can also emerge spontaneously in the skin. This raises questions about the respective roles of central versus peripheral control. To determine the simplest control n"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755664v1?rss=1",
+      "title": "A psychophysical characterization of tactile and temperature perception on the human torso",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Numerous studies have been conducted to investigate touch on the hand and forearm, but less is known about the rest of the body, particularly the torso and breasts, which play an important role in affective touch. We conducted psychophysical tests on three skin sites on the torso: upper breast, nipple-areola complex (NAC), and under the breast, as well as on two control sites: palm and forearm. We studied touch pleasantness and intensity by applying gentle caress-like strokes using a soft brush, and measured temperature and tactile detection thresholds. The results show an inverted U-shaped re"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754866v1?rss=1",
+      "title": "Electrical stimulation of the human pulvinar generates visual percepts",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Visual prostheses have targeted early structures in the visual pathway, including the retina, optic nerve, lateral geniculate nucleus, and visual cortex, to generate visual percepts. Stimulation of higher-order visual regions, which may better encode complex visual features, remains relatively unexplored. We tested whether electrical stimulation of the medial and inferior pulvinar elicits visual percepts in a patient with medically refractory epilepsy undergoing invasive seizure monitoring with intracranial electroencephalography. Bipolar stimulation (30 biphasic pulses, 0.5 ms per phase, 3 mA"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755569v1?rss=1",
+      "title": "Wavelet Transform Coherence Under Controlled Temporal Correspondence and Social Co-Presence: Implications for fNIRS Hyperscanning",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Interpersonal neural synchrony research using functional near-infrared spectroscopy (fNIRS) frequently relies on wavelet transform coherence (WTC) to quantify temporal correspondence between cortical signals. Yet, whether WTC reliably recovers experimentally defined differences in signal correspondence remains insufficiently established. Here, we evaluated WTC using an auditory-guided finger-tapping paradigm in which matching and non-matching temporal structures were compared within participants and between dyad members during individual and joint performance. Task-evoked analyses confirmed re"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755471v1?rss=1",
+      "title": "Bone Marrow-Derived Cells Fuse with Bergmann Glia in Experimental Autoimmune Encephalomyelitis",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Bone marrow-derived cells (BMDCs) can infiltrate the brain and adopt new identities through transdifferentiation or fusion, yet their interactions with specific neural cells remain poorly defined. We examined BMDC fusion with Bergmann glia (BG), a key cerebellar support cell, in a mouse model of multiple sclerosis. After bone marrow transplantation, BMDCs fused with BG to form heterokaryons, retaining BG morphology and molecular markers. These heterokaryons contained donor and host nuclei that differed in both morphology and transcriptional activity. Remarkably, the BMDC nucleus localized not "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755497v1?rss=1",
+      "title": "A comprehensive physiological dataset of pain and aversive modalities for pain biomarkers research",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "While progress has been made in identifying pain biomarkers using neuroimaging, the development of reliable EEG-based biomarkers remains challenging, limited by small sample sizes and the lack of adequate control conditions. We present a comprehensive dataset from 125 pain-free adults, comprising electroencephalogram (EEG) recordings, and behavioural, sociodemographic, and psychological data. Galvanic skin response and electrocardiogram data were also recorded in a subset of participants (n = 76). Participants received two sustained painful stimulations (thermal, chemical) and two sustained av"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755924v1?rss=1",
+      "title": "Resolution-aware spectral parameterization reveals robust context-dependent aperiodic EEG dynamics during real-world table tennis",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Mobile EEG can link neuroimaging to natural behavior, but effects recorded during movement, and sport in particular, are difficult to interpret because neural activity overlaps with signals from movement, muscle activity, and cable movement artifacts. We analyzed the OpenNeuro Real World Table Tennis dataset to test whether peri-hit spectral activity could be analyzed and how it differed between human-opponent and ball-machine play. Data from 25 participants comprising EEG, noise-layers, EMG and motion recordings was analyzed with pre-hit, impact, and post-hit windows. EEG power bands were res"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.743707v1?rss=1",
+      "title": "Facial color properties affect perceived age.",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Age is a fundamental social attribute that affects rights, responsibilities and even social status. Color information of the face can affect perceived age, but the nature of its contribution, independent of luminance information, remains underexplored. To better characterize the role of color in age perception, we conducted two experiments. In our first experiment, we tested whether natural age-related changes in facial color alone can drive changes in perceived age. In our second experiment, we manipulated red-green contrast across faces aged 18-91 and tested the effect of this manipulation o"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755975v1?rss=1",
+      "title": "On-demand surround suppression explains the spatiotemporal window of the tilt illusion",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "What we see at one location depends on what surrounds it. Such contextual e[ff]ects are thought to arise from neural signals that travel across the retinotopic representations.Because these signals need more time to travel longer distances, a more distant surround should influence perception most strongly when presented earlier, compensating for its delay. We tested this prediction in human observers using a visual illusion in which a central target appears tilted away from the orientation of its surround (tilt illusion). Measuring the temporal window of this illusion using psychophysical reve"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755526v1?rss=1",
+      "title": "Netrin signaling shapes sexually dimorphic neurite branching of a sex-shared interneuron in C. elegans",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Sexually dimorphic behaviors arise from underlying differences in neural circuit architecture between the sexes, yet the molecular mechanisms that establish these structural differences remain poorly understood. In Caenorhabditis elegans, the sex-shared interneuron AVG exhibits sexually dimorphic synaptic connectivity, offering a model for investigating the development of sexually dimorphic neuronal morphology. Here, we identified that AVG displays male-specific neurite branching and demonstrated that the conserved axon guidance cue UNC-6/Netrin and its receptor UNC-40/DCC are essential for th"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755515v1?rss=1",
+      "title": "SAIL: Sparse Autoencoders for Interpretable Alignment of Human Vision and Multimodal Large Language Models",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Alignment between human high-level visual representations and those of multimodal large language models (MLLMs) offers a quantitative framework for understanding information processing in human vision. However, similarities between model and brain representations do not directly reveal the semantic content underlying their correspondence, as this content is difficult to isolate in entangled MLLM representations. Here, we introduce SAIL, an interpretable framework that formulates voxel interpretation as a multi-unit sparse semantic correspondence problem between MLLMs and human vision. First, w"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755464v1?rss=1",
+      "title": "The potato cyst nematode Globodera pallida possesses an expanded serotonergic nervous system",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Abstract The neurotransmitter serotonin (5-hydroxytryptamine; 5-HT) controls behaviours that are essential for the parasitic lifestyle of plant parasitic nematodes (PPNs). Here, we used serotonin immunochemistry and in situ hybridization for the serotonin synthesis genes, Gpa-tph-1 and Gpa-bas-1, to map its signalling pathways in Globodera pallida J2 infective stages. We identified fourteen serotonin-immunoreactive cell bodies around the pharyngeal median bulb and revealed that eleven of them co-express Gpa-tph-1 and Gpa-bas-1, confirming these are serotonin-synthesising neurons. Serotonin imm"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755136v1?rss=1",
+      "title": "Hormonal factors are poor indicators of endometriosis pain",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Endometriosis is a common yet understudied condition in which sex hormones play a key role in the etiology and pathophysiology of the disease. Sex hormones are dysregulated in endometriosis and are pharmacologically targeted to reduce symptoms including pain, but the relationships between endometriosis-related pain with sex hormone levels and their receptors are not clear. In 60 women previously diagnosed or undergoing laparoscopic surgery for the diagnosis of endometriosis, we collected patient-reported endometriosis/pelvic pain intensity in the last 30 days, pain interference scale, and the "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755475v1?rss=1",
+      "title": "Closed-head injury produces a delayed, region-specific defect in glucose-carbon routing at the pyruvate branchpoint in APP/PS1 KI mice",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Traumatic brain injury (TBI) is a risk factor for Alzheimer's disease (AD), and both conditions are associated with impaired glucose metabolism and mitochondrial dysfunction. We previously reported time-dependent mitochondrial dysfunction following closed-head injury (CHI) in amyloid precursor protein/presenilin 1 (APP/PS1) knock-in (KI) mice, but whether glucose-derived carbon labeling showed a corresponding temporal pattern remained unknown. We hypothesized that early deficits would involve tricarboxylic acid (TCA)-cycle metabolites, whereas chronic changes persisted upstream at the pyruvate"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755544v1?rss=1",
+      "title": "High-level visual and motor regions are doubly dissociated in controlled tasks but only at specific times during natural behaviors",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Our knowledge of the neural basis of sensory and motor information processing comes largely from recording brain activity in controlled settings. This approach, while insightful, blinds us from understanding natural behaviors, which involve far richer visual inputs and far larger range of movements. The prevailing belief is that, during natural behaviors, movement information would modulate visual cortex, and visual inputs would modulate motor cortex. Alternatively, this mixing might only reflect correlations between sensory inputs and movements present during natural behavior. To resolve this"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756807v1?rss=1",
+      "title": "Pathological tau leads to network hyperexcitability through neuronal-subtype-specific functional impairment",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Pathological tau disrupts neuronal activity and brain function in Alzheimer s disease and other tauopathies. However, the underlying mechanisms for neuronal network dysfunction remain largely unknown. Using human inducible pluripotent stem cell (iPSC) - derived neurons, we show that the familial MAPT P301L mutation leads to neuronal network hyperexcitability. Imbalanced excitation and inhibition were attributable to neuronal subtype-specific tau pathology that was associated with different alterations of tau interactomes in excitatory versus inhibitory neurons. Suppressing enhanced excitatory "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756008v1?rss=1",
+      "title": "Overexpressing FLP Recombinase Can Cause Synaptic Trafficking Defects in C. elegans",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Site-specific recombinases, such as Cre recombinase (Cre) and FLP recombinase (FLPase), are popular tools that enable precise spatiotemporal control over fluorescent reporter genes. However, studies show that increased Cre expression can lead to cytotoxic phenotypes including DNA damage, cell cycle arrest, cell death, and aneuploidy. In contrast, there is little-to-no known cytotoxicity associated with FLPase. FLPase is considered to be the safer, if less efficient, recombinase. To compensate for decreased efficiency, researchers will often increase expression of the FLPase to ensure a complet"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755486v1?rss=1",
+      "title": "Axonal dysfunction precedes axonal degeneration in a mouse model of progressive parkinsonism",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Axons of substantia nigra dopaminergic neurons \"die back\" in Parkinson's disease (PD), exhibiting early degeneration relative to cell bodies, a key feature also observed in PD models. A critical step towards understanding the process of axonal neurodegeneration is to determine the physiological properties of dopaminergic axons that are altered during the early stages of cellular dysfunction. Here, we compared the electrophysiology and calcium dynamics of dopaminergic axons in the MitoPark model of PD with age-matched controls. Our experiments show a pronounced reduction in action potential (AP"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755666v1?rss=1",
+      "title": "Quantitative MRI-based assessment of the ultrastructural compactness of myelin lamellae",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Efficient neuronal communication relying on rapid saltatory conduction depends not only on the amount of myelin wrapping axons but also on myelin compact organisation. Yet, current quantitative MRI myelin imaging methods, such as Myelin Water Imaging (MWI) and quantitative Magnetization Transfer (qMT), are designed to estimate myelin content and are often treated as interchangeable, overlooking myelin organisation. We introduce Structural Myelin Integrity (SMI), a quantitative MRI metric designed to distinguish myelin compact organisation from content. SMI combines the distinct biophysical sen"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.754498v1?rss=1",
+      "title": "The Walking Brain: Mapping feature-specific cortical responses to naturally unfolding sensory experience in the real world",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Understanding how the brain processes the everyday world is fundamental, yet laboratory paradigms exclude self-generated movement, unscripted events, and a continuously evolving multisensory environment. Wearable neuroimaging enables real-world measurement, but linking neural activity to uncontrolled sensory information remains challenging. Here, we extend a feature-based framework from naturalistic movie viewing to everyday behavior using wearable whole-head high-density fNIRS and participant-specific audiovisual recordings during movies and outdoor walking with no explicit task or scripted a"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755449v1?rss=1",
+      "title": "SARS-CoV-2 Nucleocapsid Protein forms biomolecular condensates and interacts with ALS-associated RNA binding proteins in vitro",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "As we have entered the endemic phase of COVID-19, there is a need to assess the long-term effects of SARS-CoV-2 infection on the trajectory of neurodegenerative disorders. Herein, we investigate whether the SARS-CoV-2 RNA-binding nucleocapsid protein (NCP; N-protein) may influence molecular processes relevant to motor neuron degeneration in amyotrophic lateral sclerosis (ALS). We detected N-protein immunoreactivity in ALS spinal cord motor neurons, including cytoplasmic N-protein-positive puncta that colocalized with cytoplasmic TAR DNA-binding protein 43 (TDP-43). In vitro, optogenetically in"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755383v1?rss=1",
+      "title": "Directionally tuned signals in mouse visual and subicular cortex during passive rotation",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Head-direction (HD) cells integrate visual and vestibular inputs and provide an internal compass which is essential for navigation, but how the directional activity in the subicular complex (SUB) and in the visual cortex (VIS) depends on the visual scene has not been compared directly. Here, we recorded simultaneously from the two regions with Neuropixels probes, while rotating head-fixed mice across all azimuthal directions, in controlled visual conditions, and in darkness. We found many directionally tuned units in both SUB and VIS. The preferred directions of SUB units were distributed unif"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755384v1?rss=1",
+      "title": "Coordinated Brain-Heart Dynamics During Human NREM Sleep",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Communication between the brain and cardiovascular system is increasingly recognized as a fundamental determinant of health, yet the mechanisms coordinating neural and cardiac rhythms remain poorly understood. Sleep provides a unique physiological state for investigating neurovisceral integration because cortical slow oscillations (SOs), thalamocortical sleep spindles, and autonomic activity undergo profound reorganization during non-rapid eye movement (NREM) sleep. We analyzed overnight high-density electroencephalography and electrocardiography recordings from 30 healthy adults and quantifie"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.04.756535v1?rss=1",
+      "title": "Functional deficits of the inhibitory control system in children with ADHD: A task-based fMRI meta-analysis",
+      "published": "2026-10-06T00:00:00.000Z",
+      "summary": "Inhibitory control deficits have long been proposed as a central neurocognitive mechanism underlying childhood Attention Deficit/Hyperactivity Disorder (ADHD). However, neuroimaging findings remain heterogeneous, partly due to methodological variability across developmental samples and experimental paradigms. The present study aimed to characterize the neural architecture of motor response inhibition in typically developing (TD) children and identify reproducible functional abnormalities associated with pediatric ADHD using stringent, developmentally specific inclusion criteria. We conducted t"
+    },
+    {
+      "feed": "shvets-youtube",
+      "kind": "speaker",
+      "speaker": "Yuri Shvets",
+      "url": "https://www.youtube.com/watch?v=q4emu6edBlI",
+      "title": "\u0423\u041a\u0420\u0410\u0418\u041d\u0410 \u041d\u0410\u041d\u041e\u0421\u0418\u0422 \u0421\u0418\u0421\u0422\u0415\u041c\u041d\u042b\u0415 \u0423\u0414\u0410\u0420\u042b \u041f\u041e \u0420\u0424 / \u0415\u0412\u0420\u041e\u041f\u0410 \u0421\u041d\u0418\u041c\u0410\u0415\u0422 \u042f\u0414\u0415\u0420\u041d\u042b\u0415 \u0422\u0410\u0411\u0423 /\u21161217/ \u042e\u0440\u0438\u0439 \u0428\u0432\u0435\u0446",
+      "published": "2026-10-06T23:29:32.000Z",
+      "summary": "\u041f\u041e\u0414\u041a\u041b\u042e\u0427\u0410\u0419\u0422\u0415 \u041c\u041e\u0419 Deep Cover VPN \u0421\u0441\u044b\u043b\u043a\u0430 \u043d\u0430 Website: https://s3.amazonaws.com/deepcover/index.html?utm_source=youtube&utm_campaign=descr \u0421\u0441\u044b\u043b\u043a\u0430 \u043d\u0430 \u0422\u0435\u043b\u0435\u0433\u0440\u0430\u043c: https://t.me/deepcovervpnbot?start=yt_descr \u041f\u0410\u0420\u0422\u041d\u0401\u0420\u0421\u041a\u0410\u042f \u0421\u0421\u042b\u041b\u041a\u0410 \u0415\u0441\u043b\u0438 \u0432\u044b \u043e\u0444\u043e\u0440\u043c\u0438\u0442\u0435 \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0443 \u043d\u0430 VPN \u043f\u043e \u044d\u0442\u0438\u043c \u0441\u0441\u044b\u043b\u043a\u0430\u043c, \u043a\u0430\u043d\u0430\u043b \u043f\u043e\u043b\u0443\u0447\u0438\u0442 \u043a\u043e\u043c\u0438\u0441\u0441\u0438\u043e\u043d\u043d\u043e\u0435 \u0432\u043e\u0437\u043d\u0430\u0433\u0440\u0430\u0436\u0434\u0435\u043d\u0438\u0435 \u0431\u0435\u0437 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0440\u0430\u0441\u0445\u043e\u0434\u043e\u0432 \u0434\u043b\u044f \u0432\u0430\u0441. \u0412 \u043d\u0430\u0447\u0430\u043b\u0435 \u0432\u044b\u043f\u0443\u0441\u043a\u0430 \u2014 \u043e\u0442\u0434\u0435\u043b\u044c\u043d\u0430\u044f \u0438\u0441\u0442\u043e\u0440\u0438\u044f, \u0437\u0430 \u043a\u043e\u0442\u043e\u0440\u043e\u0439 \u0441\u0442\u043e\u0438\u0442 \u0432\u043d\u0438\u043c\u0430\u0442\u0435\u043b\u044c\u043d\u043e \u0441\u043b\u0435\u0434\u0438\u0442\u044c: \u0438\u043d\u0442\u0435\u0440\u0432\u044c\u044e Ann Jacobsen \u043e \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f\u0445, \u0441\u0432\u044f\u0437\u0430\u043d\u043d\u044b\u0445 \u0441 \u043f\u043d\u0435\u0432\u043c\u043e\u043d\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0447\u0443\u043c\u043e\u0439 \u0432 \u0418\u0440\u043a\u0443\u0442\u0441\u043a\u0435. \u0413\u043b\u0430\u0432\u043d\u044b\u0439 \u0432\u044b\u0432\u043e\u0434 \u0432\u044b\u043f\u0443\u0441\u043a\u0430: \u0432\u043e\u0439\u043d\u0430 \u0432\u0441\u0451 \u043c\u0435\u043d\u044c\u0448\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0442\u043e\u043b\u044c\u043a\u043e \u0431\u043e\u0440\u044c\u0431\u043e\u0439 \u0437\u0430 \u043a\u0438\u043b\u043e\u043c\u0435\u0442\u0440\u044b \u0442\u0435\u0440\u0440\u0438\u0442\u043e\u0440\u0438\u0438 \u0438 \u0432\u0441\u0451 \u0431\u043e\u043b"
+    },
+    {
+      "feed": "shvets-youtube",
+      "kind": "speaker",
+      "speaker": "Yuri Shvets",
+      "url": "https://www.youtube.com/watch?v=HdHclrzrFAc",
+      "title": "\u041a\u0410\u041a \u0423\u041a\u0420\u0410\u0418\u041d\u0415 \u041f\u0415\u0420\u0415\u041b\u041e\u041c\u0418\u0422\u042c \u0412\u041e\u0419\u041d\u0423: \u0428\u0415\u0421\u0422\u042c \u041f\u0420\u0418\u041e\u0420\u0418\u0422\u0415\u0422\u041e\u0412 \u041f\u041e\u0411\u0415\u0414\u042b /\u21161216/ \u042e\u0440\u0438\u0439 \u0428\u0432\u0435\u0446",
+      "published": "2026-10-05T20:04:09.000Z",
+      "summary": "\u041f\u041e\u0414\u041a\u041b\u042e\u0427\u0410\u0419\u0422\u0415 \u041c\u041e\u0419 Deep Cover VPN \u0421\u0441\u044b\u043b\u043a\u0430 \u043d\u0430 Website: https://s3.amazonaws.com/deepcover/index.html?utm_source=youtube&utm_campaign=descr \u0421\u0441\u044b\u043b\u043a\u0430 \u043d\u0430 \u0422\u0435\u043b\u0435\u0433\u0440\u0430\u043c: https://t.me/deepcovervpnbot?start=yt_descr \u041f\u0410\u0420\u0422\u041d\u0401\u0420\u0421\u041a\u0410\u042f \u0421\u0421\u042b\u041b\u041a\u0410 \u0415\u0441\u043b\u0438 \u0432\u044b \u043e\u0444\u043e\u0440\u043c\u0438\u0442\u0435 \u043f\u043e\u0434\u043f\u0438\u0441\u043a\u0443 \u043d\u0430 VPN \u043f\u043e \u044d\u0442\u0438\u043c \u0441\u0441\u044b\u043b\u043a\u0430\u043c, \u043a\u0430\u043d\u0430\u043b \u043f\u043e\u043b\u0443\u0447\u0438\u0442 \u043a\u043e\u043c\u0438\u0441\u0441\u0438\u043e\u043d\u043d\u043e\u0435 \u0432\u043e\u0437\u043d\u0430\u0433\u0440\u0430\u0436\u0434\u0435\u043d\u0438\u0435 \u0431\u0435\u0437 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0440\u0430\u0441\u0445\u043e\u0434\u043e\u0432 \u0434\u043b\u044f \u0432\u0430\u0441. \u041a\u0430\u043a \u0440\u0435\u0430\u043b\u044c\u043d\u043e \u043f\u0435\u0440\u0435\u043b\u043e\u043c\u0438\u0442\u044c \u0432\u043e\u0439\u043d\u0443 \u0432 \u043f\u043e\u043b\u044c\u0437\u0443 \u0423\u043a\u0440\u0430\u0438\u043d\u044b \u2014 \u043d\u0435 \u043b\u043e\u0437\u0443\u043d\u0433\u0430\u043c\u0438 \u0438 \u043e\u0431\u0435\u0449\u0430\u043d\u0438\u0435\u043c \u043e\u0447\u0435\u0440\u0435\u0434\u043d\u043e\u0433\u043e \u00ab\u043a\u043e\u043d\u0442\u0440\u043d\u0430\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f\u00bb, \u0430 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u0435\u043c \u0441\u0430\u043c\u043e\u0433\u043e \u0441\u0442\u0440\u0430\u0442\u0435\u0433\u0438\u0447\u0435\u0441\u043a\u043e\u0433\u043e \u0443\u0440\u0430\u0432\u043d\u0435\u043d\u0438\u044f? \u0421\u0435\u0433\u043e\u0434\u043d\u044f \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u044e \u041f\u043b\u0430\u043d \u043f\u0435\u0440\u0435\u043b\u043e\u043c\u0430 \u2014 \u0448\u0435\u0441\u0442\u044c \u043d\u0430\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u0439, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0434\u043e\u043b\u0436\u043d\u044b \u043e\u0434\u043d\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u043e \u0443\u043c\u0435\u043d\u044c\u0448\u0438\u0442\u044c \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0430"
+    },
+    {
+      "feed": "news",
+      "kind": "news",
+      "url": "https://www.reuters.com/world/europe/european-allies-weigh-deeper-strikes-and-strategic-deterrence-rebalancing-2026-10-07/",
+      "title": "European allies weigh strategic deterrence rebalancing and support for long-range strikes",
+      "published": "2026-10-07",
+      "speaker": null
+    },
+    {
+      "feed": "news",
+      "kind": "news",
+      "url": "https://www.nature.com/articles/s42256-026-00925-4",
+      "title": "Cryptographic verification and zero-knowledge proofs against adversarial poisoning in federated neural networks",
+      "published": "2026-10-07",
+      "speaker": null
+    }
+  ]
+}

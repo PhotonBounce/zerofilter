@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZeroFilter — Female Host Voice Audition (Top 5 Candidates)</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/studio.css">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <style>
+    body {
+      background: #080b10;
+      color: #e2e8f0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, monospace;
+      padding: 24px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: 26px;
+      letter-spacing: -0.5px;
+      margin-bottom: 6px;
+      color: #fff;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-family: monospace;
+      padding: 3px 8px;
+      border-radius: 4px;
+      background: rgba(0, 229, 255, 0.15);
+      color: #00e5ff;
+      border: 1px solid rgba(0, 229, 255, 0.3);
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .excerpt-box {
+      background: #0e141e;
+      border: 1px solid #1e293b;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 30px;
+      font-size: 14px;
+      line-height: 1.6;
+      color: #94a3b8;
+    }
+    .excerpt-title {
+      font-family: monospace;
+      font-size: 12px;
+      color: #00e5ff;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .voice-card {
+      background: #0d131c;
+      border: 1px solid #1a2432;
+      border-radius: 8px;
+      padding: 18px 22px;
+      margin-bottom: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      transition: border-color 0.2s;
+    }
+    .voice-card:hover {
+      border-color: #00e5ff;
+    }
+    .voice-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .voice-name {
+      font-size: 18px;
+      font-weight: 600;
+      color: #f8fafc;
+    }
+    .voice-id {
+      font-family: monospace;
+      font-size: 12px;
+      color: #64748b;
+    }
+    .voice-desc {
+      font-size: 13.5px;
+      color: #94a3b8;
+    }
+    .audio-row {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-top: 4px;
+    }
+    audio {
+      width: 100%;
+      height: 38px;
+      outline: none;
+      filter: invert(0.9) hue-rotate(180deg);
+    }
+    .btn-approve {
+      background: #00e5ff;
+      color: #000;
+      border: none;
+      font-weight: 700;
+      font-size: 13px;
+      padding: 8px 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-family: monospace;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .btn-approve:hover {
+      background: #38bdf8;
+    }
+    .nav-bar {
+      margin-top: 30px;
+      border-top: 1px solid #1e293b;
+      padding-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      color: #64748b;
+    }
+    .nav-bar a {
+      color: #00e5ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="badge">Audition Candidates · Studio Evaluation</div>
+  <h1>ZeroFilter — Female Host Voice Selection</h1>
+  <p style="color:#64748b; font-size:14px; margin-top:0; margin-bottom:20px;">
+    Listen to the 5 top-tier neural broadcast models reading the official ZeroFilter lead-in. Select your preferred host voice.
+  </p>
+
+  <div class="excerpt-box">
+    <div class="excerpt-title">Audition Narration Excerpt (Word-for-Word)</div>
+    "Welcome back to ZeroFilter. It is zero-four-hundred hours UTC. In Washington, NPR reports the FBI's counterintelligence divisions are falling behind as leadership redirects agents toward immigration sweeps, leaving foreign espionage operations unmonitored. Meanwhile, the War Department announced its directed-energy selections for the JIATF 401 pilot, betting on high-powered microwaves and combat lasers to down drone swarms. Dismantling counterspy units while handing defense contractors billions for directed energy is not national defense. It is systemic institutional decay."
+  </div>
+
+  <div class="voice-card">
+    <div class="voice-header">
+      <div class="voice-name">1. Ava (US Multilingual)</div>
+      <div class="voice-id">en-US-AvaMultilingualNeural</div>
+    </div>
+    <div class="voice-desc">Modern, authoritative, razor-sharp investigative tone with piercing clarity and zero fluff. Highly recommended for Rex's hard-hitting investigative style.</div>
+    <div class="audio-row">
+      <audio controls src="samples/voice-en-US-AvaMultilingualNeural.mp3" preload="metadata"></audio>
+    </div>
+  </div>
+
+  <div class="voice-card">
+    <div class="voice-header">
+      <div class="voice-name">2. Jenny (US National)</div>
+      <div class="voice-id">en-US-JennyNeural</div>
+    </div>
+    <div class="voice-desc">Premier national broadcast anchor cadence: energetic, articulate, punchy, with commanding presence and flawless pacing.</div>
+    <div class="audio-row">
+      <audio controls src="samples/voice-en-US-JennyNeural.mp3" preload="metadata"></audio>
+    </div>
+  </div>
+
+  <div class="voice-card">
+    <div class="voice-header">
+      <div class="voice-name">3. Aria (US Investigative)</div>
+      <div class="voice-id">en-US-AriaNeural</div>
+    </div>
+    <div class="voice-desc">Deep, resolute investigative journalism standard. Serious, resolute cadence that gives immediate gravity to classified receipts.</div>
+    <div class="audio-row">
+      <audio controls src="samples/voice-en-US-AriaNeural.mp3" preload="metadata"></audio>
+    </div>
+  </div>
+
+  <div class="voice-card">
+    <div class="voice-header">
+      <div class="voice-name">4. Sonia (UK Intelligence)</div>
+      <div class="voice-id">en-GB-SoniaNeural</div>
+    </div>
+    <div class="voice-desc">Sophisticated British broadcast intelligence aesthetic. Crisp, calm, and cynical — reminiscent of an MI6 or BBC World briefing.</div>
+    <div class="audio-row">
+      <audio controls src="samples/voice-en-GB-SoniaNeural.mp3" preload="metadata"></audio>
+    </div>
+  </div>
+
+  <div class="voice-card">
+    <div class="voice-header">
+      <div class="voice-name">5. Emma (US Analytical)</div>
+      <div class="voice-id">en-US-EmmaMultilingualNeural</div>
+    </div>
+    <div class="voice-desc">Intellectual clarity, composed, articulate, modern high-stakes delivery with clean scientific precision.</div>
+    <div class="audio-row">
+      <audio controls src="samples/voice-en-US-EmmaMultilingualNeural.mp3" preload="metadata"></audio>
+    </div>
+  </div>
+
+  <div class="nav-bar">
+    <span>ZeroFilter Studio Engine</span>
+    <a href="index.html">← Back to Main Player</a>
+  </div>
+
+</body>
+</html>
