@@ -1,6 +1,6 @@
 // unit.mjs — Automated test suite for ZeroFilter release manifests and engine
 
-import { readFileSync, existsSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync } from "node:fs";
 import { resolve, join } from "node:path";
 import { createHash } from "node:crypto";
 import { parseEpisodes, validateEpisode, cueStarts, paragraphAt, escapeHtml, MIN_DURATION, MAX_DURATION } from "../web/js/episodes.js";
@@ -10,6 +10,7 @@ import { parseFeed, inWindow, hourId, clockSkewMs, MAX_CLOCK_SKEW_MS } from "./i
 import { CATEGORIES } from "../web/js/categories.js";
 
 const ROOT = resolve(import.meta.dirname, "..");
+const FEEDS = JSON.parse(readFileSync(join(ROOT, "data/feeds.json"), "utf8")).feeds;
 let passed = 0, failed = 0, warned = 0;
 
 // Story art and covers fill a 16:9 stage with object-fit: cover. Both sizes the
@@ -54,14 +55,13 @@ console.log("\n1b. Editorial gate (engine/editorial.mjs):");
 for (const ep of episodes) {
   const snapPath = ep.ingest ? join(ROOT, "data/ingest", `${ep.ingest}.json`) : null;
   const snapshot = snapPath && existsSync(snapPath) ? JSON.parse(readFileSync(snapPath, "utf8")) : null;
-  const problems = [...editorialProblems(ep), ...provenanceProblems(ep, snapshot)];
+  const problems = [...editorialProblems(ep), ...provenanceProblems(ep, snapshot, Date.now(), FEEDS)];
   ok(`[${ep.id}] passes the editorial gate${problems.length ? ": " + problems.join("; ") : ""}`, problems.length === 0);
 }
-const heldPath = join(ROOT, "data/held/episodes-unverified.json");
-if (existsSync(heldPath)) {
-  const held = JSON.parse(readFileSync(heldPath, "utf8"));
+for (const f of existsSync(join(ROOT, "data/held")) ? readdirSync(join(ROOT, "data/held")).filter((n) => n.endsWith(".json")) : []) {
+  const held = JSON.parse(readFileSync(join(ROOT, "data/held", f), "utf8"));
   const publishedIds = new Set(episodes.map((e) => e.id));
-  ok(`held episodes (${held.episodes.length}) are not in the published feed`, held.episodes.every((e) => !publishedIds.has(e.id)));
+  ok(`held episodes in ${f} (${held.episodes.length}) are not in the published feed`, held.episodes.every((e) => !publishedIds.has(e.id)));
 }
 
 // 2. Strict episode schema & duration rules
@@ -170,8 +170,17 @@ ok("gate: naming Shvets WITH a speaker source passes",
 ok("gate: Shvets in the title needs a speaker source", editorialProblems({ ...good, title: "Yuri Shvets PAC Disclosures" }, NOW).some((x) => x.includes("title")));
 ok("gate: a source dated after the episode fails", editorialProblems({ ...good, sources: [...good.sources, src(2, { published: "2026-10-09" })] }, NOW).some((x) => x.includes("after")));
 ok("gate: a non-https source fails", editorialProblems({ ...good, sources: [...good.sources, src(1, { url: "javascript:alert(1)" })] }, NOW).some((x) => x.includes("https")));
-ok("gate: every held episode would be refused today",
-  !existsSync(heldPath) || JSON.parse(readFileSync(heldPath, "utf8")).episodes.every((e) => editorialProblems(e, NOW).length > 0));
+{
+  const unverified = join(ROOT, "data/held/episodes-unverified.json");
+  ok("gate: every unverified held episode would be refused today",
+    !existsSync(unverified) || JSON.parse(readFileSync(unverified, "utf8")).episodes.every((e) => editorialProblems(e, NOW).length > 0));
+  const fabricated = join(ROOT, "data/held/episodes-fabricated-archive.json");
+  ok("gate: every held 'archive' episode is refused by provenance",
+    !existsSync(fabricated) || JSON.parse(readFileSync(fabricated, "utf8")).episodes.every((e) => {
+      const sp = join(ROOT, "data/ingest", `${e.ingest}.json`);
+      return provenanceProblems(e, existsSync(sp) ? JSON.parse(readFileSync(sp, "utf8")) : null, Date.now(), FEEDS).length > 0;
+    }));
+}
 // Ingest: feed parsing and the hour window
 const RSS = `<rss><channel><item><title>Strike on &amp; depot</title><link>https://ex.org/a</link>
   <pubDate>Tue, 06 Oct 2026 17:30:00 GMT</pubDate><description><![CDATA[<p>Body &amp; more</p>]]></description></item>
@@ -199,9 +208,10 @@ ok("clock check: a PC within a few seconds passes", Math.abs(clockSkewMs(hdrs, r
 ok("clock check: no readable server time gives null (ingest then refuses)", clockSkewMs(["x"], realNow) === null);
 
 // Provenance: cite only what was collected
-const snap = { hour: "2026-10-06T19:00:00.000Z", captured_at: "2026-10-06T19:01:00.000Z", items: [
-  { url: "https://ex.org/a", kind: "news" }, { url: "https://ex.org/b", kind: "news" },
-  { url: "https://www.youtube.com/watch?v=abc", kind: "speaker", speaker: "Yuri Shvets" }] };
+const snap = { hour: "2026-10-06T19:00:00.000Z", captured_at: "2026-10-06T19:01:00.000Z",
+  feeds: [{ id: "bbc-world", status: "ok", count: 2 }, { id: "shvets-youtube", status: "ok", count: 1 }], items: [
+  { feed: "bbc-world", url: "https://ex.org/a", kind: "news" }, { feed: "bbc-world", url: "https://ex.org/b", kind: "news" },
+  { feed: "shvets-youtube", url: "https://www.youtube.com/watch?v=abc", kind: "speaker", speaker: "Yuri Shvets" }] };
 const pep = { ...good, hour: "19:00", ingest: "2026-10-06-19", sources: [
   src(0, { url: "https://ex.org/a" }), src(1, { url: "https://ex.org/b" }), src(2, { url: "https://arxiv.org/abs/1", kind: "reference" }),
   src(3, { url: "https://doi.org/x", kind: "reference" }), src(4, { url: "https://cia.gov/y", kind: "reference" })] };
@@ -216,6 +226,18 @@ ok("provenance: a quote must come from the speaker's own collected feed",
 ok("provenance: an unmarked, uncollected science source fails",
   provenanceProblems({ ...pep, sources: [...pep.sources.slice(0, 2), src(2, { url: "https://x.org/p" })] }, snap, NOW2).some((x) => x.includes("reference")));
 ok("provenance: a snapshot from after the episode hour fails", provenanceProblems({ ...pep, hour: "18:00" }, snap, NOW2).some((x) => x.includes("after the episode")));
+ok("provenance: a malformed captured_at fails (the 2026-10-07 hand-made archive snapshots)",
+  provenanceProblems(pep, { ...snap, captured_at: "2026-10-06T19:00:05:00.000Z" }, NOW2).some((x) => x.includes("not a valid time")));
+ok("provenance: a snapshot written long after its hour fails (backfilled 'archive')",
+  provenanceProblems(pep, { ...snap, captured_at: "2026-10-07T23:00:00.000Z" }, Date.parse("2026-10-08T00:00:00Z")).some((x) => x.includes("within")));
+ok("provenance: item counts must match what the snapshot reports per feed",
+  provenanceProblems(pep, { ...snap, feeds: [{ id: "bbc-world", status: "ok", count: 10 }, snap.feeds[1]] }, NOW2).some((x) => x.includes("holds 2")));
+ok("provenance: an item from a feed the snapshot does not report fails",
+  provenanceProblems(pep, { ...snap, feeds: [snap.feeds[1]] }, NOW2).some((x) => x.includes("does not report")));
+ok("provenance: a speaker item must come from that speaker's configured feed",
+  provenanceProblems(pep, snap, NOW2, FEEDS).length === 0 &&
+  provenanceProblems(pep, { ...snap, items: snap.items.map((i) => i.speaker ? { ...i, feed: "bbc-world" } : i),
+    feeds: [{ id: "bbc-world", status: "ok", count: 3 }] }, NOW2, FEEDS).some((x) => x.includes("speaker")));
 ok("webpSize rejects a non-WebP buffer", webpSize(Buffer.from("RIFF0000WAVEfmt                 ")) === null);
 ok("mp3Info rejects random bytes", mp3Info(Buffer.alloc(4096, 0x11)) === null);
 

@@ -23,13 +23,14 @@ const SHELL = [
   "assets/rex_vance.webp", "assets/studio_bunker.webp", "assets/test_rex.mp3",
 ];
 
+const FEEDS = JSON.parse(readFileSync(join(ROOT, "data/feeds.json"), "utf8")).feeds;
 const manifest = JSON.parse(readFileSync(join(WEB, "data/episodes.json"), "utf8"));
 const episodes = parseEpisodes(manifest);
 let refused = 0;
 for (const ep of episodes) {
   const snapPath = ep.ingest ? join(ROOT, "data/ingest", `${ep.ingest}.json`) : null;
   const snapshot = snapPath && existsSync(snapPath) ? JSON.parse(readFileSync(snapPath, "utf8")) : null;
-  const problems = [...editorialProblems(ep), ...provenanceProblems(ep, snapshot)];
+  const problems = [...editorialProblems(ep), ...provenanceProblems(ep, snapshot, Date.now(), FEEDS)];
   if (problems.length) {
     refused++;
     console.error(`REFUSED ${ep.id}: ${problems.join("; ")}`);

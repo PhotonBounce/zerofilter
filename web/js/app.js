@@ -747,48 +747,6 @@ function setupEventListeners() {
     }
   });
 
-  // Anti-Idle Live Telemetry Poller
-  let lastPublishedCount = 0;
-  async function pollAntiIdle() {
-    try {
-      const res = await fetch("data/anti_idle_status.json?_=" + Date.now());
-      if (res.ok) {
-        const data = await res.json();
-        const countEl = $("ticker-count");
-        const pctEl = $("ticker-pct");
-        const tsEl = $("ticker-ts");
-        const stateEl = $("ticker-state-label");
-        
-        if (countEl && data.published_count !== undefined) countEl.textContent = data.published_count;
-        if (pctEl && data.percent_complete !== undefined) pctEl.textContent = data.percent_complete + "%";
-        if (stateEl && data.status) {
-          stateEl.textContent = data.status === "SYNTHESIZING" ? `ANTI-IDLE: SYNTHESIZING ${data.current_slot || ""}` : "ANTI-IDLE ENGINE: ACTIVE";
-        }
-        if (tsEl && data.timestamp) {
-          const diff = Math.max(0, Math.round((Date.now() - new Date(data.timestamp).getTime()) / 1000));
-          tsEl.textContent = diff < 5 ? "PULSE LIVE" : `${diff}s AGO`;
-        }
-
-        // Live refresh of episode catalog when a new episode drops
-        if (lastPublishedCount > 0 && data.published_count > lastPublishedCount) {
-          console.log(`[Anti-Idle] New episode detected (${data.published_count} > ${lastPublishedCount}). Refreshing manifest...`);
-          try {
-            const epRes = await fetch("data/episodes.json?_=" + Date.now());
-            if (epRes.ok) {
-              const epData = await epRes.json();
-              if (Array.isArray(epData.episodes)) {
-                episodes = epData.episodes;
-                renderArchive();
-              }
-            }
-          } catch (_) {}
-        }
-        if (data.published_count) lastPublishedCount = data.published_count;
-      }
-    } catch (_) {}
-  }
-  setInterval(pollAntiIdle, 4000);
-  pollAntiIdle();
 }
 
 init();
