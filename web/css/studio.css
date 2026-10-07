@@ -865,3 +865,58 @@
   transform-style: preserve-3d;
 }
 
+/* Anti-Idle Telemetry Radar Status Strip */
+.anti-idle-ticker {
+  background: rgba(6, 12, 20, 0.85);
+  border-bottom: 1px solid rgba(0, 229, 255, 0.2);
+  backdrop-filter: blur(12px);
+  padding: 0.4rem 1.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  overflow-x: auto;
+  white-space: nowrap;
+  position: relative;
+  z-index: 90;
+}
+.ticker-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.ticker-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.ticker-divider {
+  color: rgba(0, 229, 255, 0.3);
+  font-weight: 700;
+}
+.glow-text {
+  color: #00ff88;
+  text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+  letter-spacing: 0.5px;
+}
+.cyan-text {
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+.radar-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #00ff88;
+  box-shadow: 0 0 8px #00ff88;
+  display: inline-block;
+  animation: radar-pulse 1.5s infinite;
+}
+@keyframes radar-pulse {
+  0% { transform: scale(0.9); opacity: 0.6; box-shadow: 0 0 4px #00ff88; }
+  50% { transform: scale(1.25); opacity: 1; box-shadow: 0 0 12px #00ff88; }
+  100% { transform: scale(0.9); opacity: 0.6; box-shadow: 0 0 4px #00ff88; }
+}
+
+

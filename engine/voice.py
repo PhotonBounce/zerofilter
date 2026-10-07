@@ -11,7 +11,7 @@ import sys
 import edge_tts
 
 DEFAULT_VOICE = "en-US-AvaMultilingualNeural"
-DEFAULT_RATE = "+5%"
+DEFAULT_RATE = "+14%"
 DEFAULT_PITCH = "-1Hz"
 # edge-tts streams audio-24khz-48kbitrate-mono-mp3: constant 48 kbit/s, so
 # bytes * 8 / 48000 is the duration (checked against ffprobe on the pilots).
