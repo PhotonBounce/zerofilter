@@ -2,6 +2,144 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-08-18",
+      "hour": "18:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-08-18",
+      "title": "Kyiv Goes Dark, a $100,000 Bill for Foreign Graduates & Memories That Turn Into Facts",
+      "subject": "Hourly sourced brief: a proposed $100,000 charge for international students to work after graduating in the US, deportations to African countries, an ICE warehouse in New Jersey, Kyiv plunged into near-total darkness, Operation Vivaldi near Lyman, a tanker hit off Qatar, AI agents whose rejected ideas come back as facts, small models versus frontier models, a picture of two qubits, NASA's Artemis II Moon data, and how one brain region juggles many tasks.",
+      "paragraphs": [
+        "This is ZeroFilter, at eighteen hundred hours UTC on the eighth of October. Nature reports the United States has proposed a one hundred thousand dollar charge for international students who want to do post-graduate work there. Human Rights Watch says more than five hundred migrants have been expelled from the US to African countries, and calls the deportations unlawful. And NPR investigated rumours in northern New Jersey that ICE has quietly used a warehouse as a detention centre all summer; neighbours say it has.",
+        "Ukraine. Russian attacks plunged Kyiv into near-total darkness, the Kyiv Independent reports. The drop in voltage halted metro trains and escalators and disrupted power and water across the capital. On the front, the paper goes inside Operation Vivaldi, a counteroffensive in the Lyman sector of Donetsk Oblast fought with drones above and robots below; Russian officials claim to control Lyman, and Ukrainian infantry tell a different story. In the Gulf, the BBC reports an oil and chemical tanker hit by multiple projectiles off Qatar, with casualties reported on board.",
+        "Frontier compute. A new arXiv paper names a quiet failure in AI agents with long-term memory. While thinking, an agent may consider a plan, imagine a tool result or repeat someone else's belief, then reject it. If memory keeps only the sentences, those discarded possibilities can come back later as facts. A second paper tested nine models, from tiny to frontier, inside a working home-automation system, and asks why one big model should serve every call when the jobs differ tenfold in difficulty.",
+        "Quantum and space. Entanglement is notoriously hard to picture. A new arXiv paper proposes a simple image for any pure two-qubit state: two Bloch balls, one for each qubit, plus a reflection-rotation and a contraction that carry the entanglement, and proves the picture has no gaps. Another team studies entangling gates between two species of atoms in neutral-atom quantum computers. And Nature reports NASA has released a trove of Moon data from the historic Artemis two flight.",
+        "Consciousness desk. How does one patch of brain do several jobs at once? A new bioRxiv preprint offers a theory of multi-tasking, starting from the idea that activity during each task lies on its own low-dimensional manifold, and sorts competing models by their assumptions. Another study recorded EEG while adults passively heard and saw small numbers, testing whether the brain detects changes in quantity before attention arrives, by ear and by eye.",
+        "So, this hour's receipts. A six-figure price on staying to work after graduation. Five hundred deportations to Africa, and a warehouse that neighbours say became a detention centre. A capital without light, metro or water, and robots on the Lyman front. Agents whose rejected thoughts return as facts, a picture of entanglement, and a brain that runs many tasks at once. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/d41586-026-02921-7",
+          "title": "US proposes $100,000 charge for international students to do post-graduate work",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gn55433jo?at_medium=RSS&at_campaign=rss",
+          "title": "US deportations to African countries unlawful and exploit suffering, rights group says",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/08/nx-s1-5983441/ice-warehouses-new-jersey-roxbury",
+          "title": "ICE has quietly used this warehouse as a detention facility all summer, neighbors say",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+          "title": "Russian attacks plunge Kyiv into near-total darkness, disrupt power, metro, water supply",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/inside-operation-vivaldi-how-ukraine-uses-drones-robots-to-liberate-territory-in-donetsk-oblast/",
+          "title": "Drones above, robots below — inside Operation Vivaldi, Ukraine’s push to recapture territory in Donetsk Oblast",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqlydk7796wdo?at_medium=RSS&at_campaign=rss",
+          "title": "Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09008",
+          "title": "Whose Memory Is It? Scope-Aware Commit Rules for Long-Term LLM Memory",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09021",
+          "title": "Not Every Call Needs a Frontier Model: Per-Call-Site Evaluation of Small Language Models in a Deployed Agentic Home-Automation System",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.08897",
+          "title": "Visualizing two qubits",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.08926",
+          "title": "High-Fidelity Inter-Species Rydberg Gates with Two-Photon Driving",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03197-7",
+          "title": "NASA releases trove of Moon data from historic Artemis II flight",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755960v1?rss=1",
+          "title": "Neural circuit mechanisms for multi-tasking",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.753775v1?rss=1",
+          "title": "Auditory and visual mismatch negativity responses to numerical and non-numerical magnitudes in adults",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-08-18/f01.webp"
+          },
+          {
+            "t": 27.24,
+            "src": "art/2026-10-08-18/f02.webp"
+          },
+          {
+            "t": 59.64,
+            "src": "art/2026-10-08-18/f03.webp"
+          },
+          {
+            "t": 90.1,
+            "src": "art/2026-10-08-18/f04.webp"
+          },
+          {
+            "t": 118.27,
+            "src": "art/2026-10-08-18/f05.webp"
+          },
+          {
+            "t": 143.74,
+            "src": "art/2026-10-08-18/f06.webp"
+          }
+        ]
+      },
+      "seconds": 171,
+      "audio": "audio/2026-10-08-18.mp3",
+      "thumb": "thumbs/2026-10-08-18.webp",
+      "cover_video": "thumbs/2026-10-08-18.mp4",
+      "cues": [
+        0.0,
+        27.24,
+        59.64,
+        90.1,
+        118.27,
+        143.74
+      ]
+    },
+    {
       "id": "2026-10-08-17",
       "hour": "17:00",
       "date": "2026-10-08",
@@ -101,7 +239,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-08-17/f01.webp"
           },
           {
@@ -131,7 +269,7 @@
       "thumb": "thumbs/2026-10-08-17.webp",
       "cover_video": "thumbs/2026-10-08-17.mp4",
       "cues": [
-        0.0,
+        0,
         30.86,
         64.85,
         88.92,
