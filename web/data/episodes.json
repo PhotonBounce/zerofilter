@@ -2,6 +2,144 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-08-17",
+      "hour": "17:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-08-17",
+      "title": "Maduro Charged with Torture, Kyiv in the Dark & How Long a Moment Lasts",
+      "subject": "Hourly sourced brief: new torture-conspiracy charges against Nicolás Maduro, a $1.5 billion US health deal with Zambia, a shrinking regulator for crypto and prediction markets, the drone barrage on Kyiv, South Korea recalling its Ukraine envoy, Ukraine's strike on the Salavat refinery, a failure-mode map of catastrophic AI risk, measuring how AI agents learn, quantum forecasts no classical learner can match, heat pumped on a quantum chip, the UAE's asteroid probe, and how long a perceptual moment lasts from infancy to adulthood.",
+      "paragraphs": [
+        "This is ZeroFilter, at seventeen hundred hours UTC on the eighth of October. The BBC reports that Venezuela's former leader Nicolás Maduro has been charged with conspiracy to commit torture, over the alleged torture of US citizens held in Venezuela while he was in power. Zambia has signed a one and a half billion dollar health deal with the United States, negotiated after the President cut USAID funding. And NPR reports that as crypto and prediction markets expand, the agency meant to write their rules has seen its staff and enforcement actions drop sharply.",
+        "Ukraine. A Russian drone barrage on Kyiv killed four people and injured nineteen, the Kyiv Independent reports, and disrupted electricity and water; the energy firm DTEK announced emergency shutdowns around the capital. Across the country, Ukraine's Air Force counted one hundred and forty-two Shahed-type drones overnight, eighty-two of them jet-powered. South Korea is recalling its envoy to Ukraine after Kyiv disclosed that two North Korean prisoners of war were transferred to Seoul. And Ukraine's General Staff confirms a hit on the Salavat refinery, one of Russia's largest, some thirteen hundred kilometres from the front.",
+        "Frontier compute. A new arXiv paper maps how advanced AI could lead to human extinction or permanent disempowerment, and argues it would take no consciousness and no hostility, only interacting failures: misalignment, harmful use, organisational failure and competitive deployment. A second paper asks a simpler question with large consequences: not what an agent can do today, but how well it learns from its own mistakes.",
+        "Quantum and space. Can an agent's forecasts reveal whether it reasons with a quantum model? A new arXiv paper says yes: quantum Bayesian retrodiction can make predictions no classical learner could match, but only for measurements with more than four outcomes. On real hardware, another team ran geometric heat pumping on a superconducting quantum processor, moving energy between reservoirs at the same temperature. And Nature reports the UAE has completed the Arab world's first solo space probe, now on course for an asteroid.",
+        "Consciousness desk. Perception feels continuous, but evidence suggests the brain stitches sensory input into short windows of time. A new bioRxiv study measured how long those windows last, from five months of age to adulthood, across three hundred and eight participants, using eye tracking that needs no instructions. How the length of a perceptual moment develops through childhood had, until now, been unknown.",
+        "So, this hour's receipts. Torture charges for a deposed president. Kyiv losing power and water under drones. A diplomatic rift over prisoners of war, and a refinery burning far behind the front. A map of how AI could fail us without ever meaning to. Quantum forecasts no classical learner can make, and the length of a single moment of human awareness. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
+          "title": "Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cqd09eyk0g8no?at_medium=RSS&at_campaign=rss",
+          "title": "Zambia signs US health deal after disputes over data-sharing",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/08/nx-s1-5903204/crypto-prediction-markets-cftc-weakens",
+          "title": "As crypto and prediction markets expand, their regulator shrinks",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-drone-barrage-on-kyiv-kills-3-injures-13-disrupts-electricity-water-supplies/",
+          "title": "Russian drone barrage on Kyiv kills 4, injures 19, disrupts electricity, water supplies",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-strikes-kill-at-least-10-injure-45-across-ukraine-over-past-day/",
+          "title": "Russian strikes kill at least 10, injure 45 across Ukraine over past day",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/south-korea-to-recall-ukraine-envoy-amid-north-korean-pows-dispute/",
+          "title": "South Korea to recall Ukraine envoy amid North Korean POWs dispute",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/oil-refinery-in-russias-salavat-reportedly-burning-after-attack/",
+          "title": "Russian oil refinery in Salavat hit by Ukraine, General Staff confirms",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.08878",
+          "title": "How Could AI Eliminate Humanity? A Failure-Mode Analysis of Civilizational Risk",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.08902",
+          "title": "Agent Plasticity: Measuring Self-Improvement Through Experience",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09293",
+          "title": "Witnessing Quantum Bayesian Inference beyond Classical Learning",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09062",
+          "title": "Geometric heat pumping on a quantum processor",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03154-4",
+          "title": "UAE completes Arab world's first solo space probe – and sets course for an asteroid",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756257v1?rss=1",
+          "title": "Estimating the duration of perceptual moments from early infancy to adulthood",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-08-17/f01.webp"
+          },
+          {
+            "t": 30.86,
+            "src": "art/2026-10-08-17/f02.webp"
+          },
+          {
+            "t": 64.85,
+            "src": "art/2026-10-08-17/f03.webp"
+          },
+          {
+            "t": 88.92,
+            "src": "art/2026-10-08-17/f04.webp"
+          },
+          {
+            "t": 118.22,
+            "src": "art/2026-10-08-17/f05.webp"
+          },
+          {
+            "t": 140.74,
+            "src": "art/2026-10-08-17/f06.webp"
+          }
+        ]
+      },
+      "seconds": 168,
+      "audio": "audio/2026-10-08-17.mp3",
+      "thumb": "thumbs/2026-10-08-17.webp",
+      "cover_video": "thumbs/2026-10-08-17.mp4",
+      "cues": [
+        0.0,
+        30.86,
+        64.85,
+        88.92,
+        118.22,
+        140.74
+      ]
+    },
+    {
       "id": "2026-10-08-16",
       "hour": "16:00",
       "date": "2026-10-08",
@@ -113,7 +251,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-08-16/f01.webp"
           },
           {
@@ -143,7 +281,7 @@
       "thumb": "thumbs/2026-10-08-16.webp",
       "cover_video": "thumbs/2026-10-08-16.mp4",
       "cues": [
-        0.0,
+        0,
         32.42,
         67.82,
         95.06,
