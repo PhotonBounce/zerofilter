@@ -1,6 +1,109 @@
 {
-  "updated": "2026-10-08T12:14:24.082Z",
+  "updated": "2026-10-08T13:05:46.930Z",
   "episodes": [
+    {
+      "id": "2026-10-08-13",
+      "hour": "13:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-08-13",
+      "title": "Gulf Tanker Struck off Qatar, Ukraine Peace Talks Unravel & 2026 Nobel Science",
+      "subject": "Hourly sourced brief: commercial tanker hit by multiple projectiles in the Persian Gulf off Qatar, deadly strike on passenger buses kills thirty in Ukraine, Washington and Moscow confirm peace framework collapse, Yuri Shvets analysis on European deterrence, the 2026 Nobel prizes for ghost particles and neural optogenetics, computable limits on quantum reading capacity, and NASA lunar data release.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is thirteen hundred hours UTC on the eighth of October. In the Persian Gulf, regional maritime security agencies report that a commercial chemical tanker has been struck by multiple incoming projectiles off the coast of Qatar. Severe damage assessments are underway as naval task forces scramble across the Strait of Hormuz. In Washington, both American and Russian diplomatic officials confirmed tonight that the latest White House peace framework for Ukraine has completely unraveled, leaving backchannel security negotiations stalled.",
+        "Across the Ukrainian theatre, civilian devastation continues to escalate. The BBC reports a devastating Russian strike on passenger buses has killed at least thirty people, marking one of the deadliest single attacks in weeks as aerial missile barrages surge across major transport corridors. Frontline logistics are under severe strain. Meanwhile, analyst Yuri Shvets titled his broadcast twelve seventeen, detailing how sustained Ukrainian deep strikes are systematically altering Moscow's strategic calculus while pushing European allies toward unprecedented shifts in their defensive postures.",
+        "Frontier physics and the global scientific stage. Nature reviews the twenty twenty-six Nobel laureates, honoring breakthrough discoveries spanning ghost particles, mirror molecules, and optical switches engineered directly inside the living brain. The dual recognition of neutrino mass oscillation and molecular chirality marks a decisive pivot toward quantum foundations, underscoring how subatomic anomalies directly govern large-scale cosmological evolution.",
+        "Quantum information theory and memory storage. A new paper on arXiv introduces efficiently computable bounds on the energy-constrained quantum reading capacity. The authors establish rigorous numerical limits on how much classical information can be retrieved from optical memories under strict photon-number constraints. By bounding quantum channel fidelity, the mathematical framework sets explicit engineering thresholds for next-generation optical quantum storage devices.",
+        "Deep space exploration desk. Nature reports that NASA has released an unprecedented public scientific trove captured during the historic Artemis Two lunar flight. The datasets include deep radiation dosimetry, optical surface mapping, and lunar gravitational telemetry collected as the crewed spacecraft looped around the far side of the Moon. The raw telemetry provides humanity with its highest-resolution empirical baseline yet for deep-space physiological exposure.",
+        "So, tonight's receipts. A burning tanker off the coast of Qatar, and diplomatic talks crumbling in Washington. Thirty dead at a bus terminal in Ukraine, systematic strikes breaking military taboos, Nobel honors for ghost particles and neural light switches, computable bounds on quantum reading, and Artemis telemetry from the Moon. Every single source is in the drawer. Check the receipts yourself. I'm Ava Vance for ZeroFilter. Stay lucid."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cqlydk7796wdo?at_medium=RSS&at_campaign=rss",
+          "title": "Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/us-russia-confirm-trumps-latest-ukraine-peace-push-is-falling-apart/",
+          "title": "US, Russia confirm Trump's latest Ukraine peace push is falling apart",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
+          "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.youtube.com/watch?v=q4emu6edBlI",
+          "title": "УКРАИНА НАНОСИТ СИСТЕМНЫЕ УДАРЫ ПО РФ / ЕВРОПА СНИМАЕТ ЯДЕРНЫЕ ТАБУ /№1217/ Юрий Швец",
+          "published": "2026-10-06",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03208-7",
+          "title": "Nobel prizes 2026: ‘ghost’ particles, mirror molecules and light switches in the brain",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.08945",
+          "title": "Efficiently computable bounds on the energy-constrained quantum reading capacity",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03197-7",
+          "title": "NASA releases trove of Moon data from historic Artemis II flight",
+          "published": "2026-10-07"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-08-13/f01.webp"
+          },
+          {
+            "t": 30.84,
+            "src": "art/2026-10-08-13/f02.webp"
+          },
+          {
+            "t": 63.36,
+            "src": "art/2026-10-08-13/f03.webp"
+          },
+          {
+            "t": 88.94,
+            "src": "art/2026-10-08-13/f04.webp"
+          },
+          {
+            "t": 114.89,
+            "src": "art/2026-10-08-13/f05.webp"
+          },
+          {
+            "t": 140.5,
+            "src": "art/2026-10-08-13/f06.webp"
+          }
+        ]
+      },
+      "seconds": 166,
+      "audio": "audio/2026-10-08-13.mp3",
+      "thumb": "thumbs/2026-10-08-13.webp",
+      "cover_video": "thumbs/2026-10-08-13.mp4",
+      "cues": [
+        0.0,
+        30.84,
+        63.36,
+        88.94,
+        114.89,
+        140.5
+      ]
+    },
     {
       "id": "2026-10-08-12",
       "hour": "12:00",
@@ -84,7 +187,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-08-12/f01.webp"
           },
           {
@@ -114,7 +217,7 @@
       "thumb": "thumbs/2026-10-08-12.webp",
       "cover_video": "thumbs/2026-10-08-12.mp4",
       "cues": [
-        0.0,
+        0,
         29.66,
         66.36,
         95.02,
