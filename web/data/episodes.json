@@ -2,6 +2,137 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-08-20",
+      "hour": "20:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-08-20",
+      "title": "Zelensky on Data-Center Strikes, Madrid's Tent Protest & What Russia Won't Say About the Plague",
+      "subject": "Hourly sourced brief: Spain's housing protests and snap election, Italy's elections overhaul, UK diplomats leaving the East Jerusalem consulate, Zelensky on striking Russian data centers, Nature on the Irkutsk plague scare, Yuri Shvets' broadcast #1218, a threat-hunting language model, Rawls and AI, photon pairs from a 2 GHz resonator, cross-checking quantum network simulators, why big dogs age faster, and wiring maps of 10,000 organoid networks.",
+      "paragraphs": [
+        "This is ZeroFilter, at twenty hundred hours UTC on the eighth of October. In Madrid, hundreds have pitched tents in the city centre, blaming vulture funds for Spain's housing crisis, the BBC reports, as the prime minister calls a snap election. In Rome, Italy approved an overhaul of its elections; Prime Minister Meloni says it will bring stable government, and the opposition calls it a scam to keep her in power. And Israel says most British diplomats will leave the East Jerusalem consulate, after it promised to respond to UK sanctions on settlements.",
+        "Ukraine and Russia. Addressing Ukrainian attacks on a Russian data centre, President Zelensky said, we always respond in kind, adding that Russia has been and still is striking Ukraine's data centres. Nature asks what scientists know about the plague scare in Russia, and what Moscow won't say. And Yuri Shvets has posted broadcast number twelve eighteen, titled: the war in Ukraine is reshaping the world, Putin is losing his nuclear bluff.",
+        "Frontier compute. Security teams turn threat reports into precise detection rules, and general-purpose language models often get those rules wrong, with invalid syntax, wrong log sources and logic that is far too broad. A new arXiv paper presents Sigma-Hunter, a model tuned for exactly that job. Another paper returns to John Rawls and his original position, the thought experiment of choosing principles of justice without knowing your own place in society, and asks whether large language models can offer a view from everywhere.",
+        "Quantum, and life. A new arXiv paper produces photon pairs in a lithium niobate waveguide resonator with close to two gigahertz of bandwidth in the telecom band, and measures their correlations mode by mode. Another team cross-checks two open-source quantum network simulators, QuISP and SeQUeNCe, and finds that different assumptions can give different answers to the same basic tasks. And from Nature: big dogs age faster than little ones, and rogue jumping genes might be to blame.",
+        "Consciousness desk. How does a network of neurons organise itself? A new bioRxiv preprint introduces connectomics by sequencing, combining barcoded rabies tracing with single-cell RNA sequencing to reconstruct more than ten thousand neural networks inside cerebral organoids. Another study, across one hundred and seventy-five recordings of brain assembloids carrying MAPT mutations, finds abnormal amplification of activity over time, separating how often activity starts from how strongly it feeds on itself.",
+        "So, this hour's receipts. Tents in Madrid and a snap election. A vote overhaul in Rome. Ukraine answering data centre with data centre, and a plague scare Russia will not explain. A security model that writes cleaner rules, a philosopher's thought experiment handed to machines, and more than ten thousand organoid networks mapped by sequencing. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
+          "title": "Protesters blame 'vulture funds' for Spain's housing crisis",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c6zxjdw8rdl5o?at_medium=RSS&at_campaign=rss",
+          "title": "Italy approves elections overhaul as opposition accuse Meloni of 'scam'",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss",
+          "title": "Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
+          "title": "'We always respond in kind' — Zelensky addresses Ukrainian attacks on Russian data center",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.nature.com/articles/d41586-026-03215-8",
+          "title": "Plague scare: what scientists know — and what Russia won’t say",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.youtube.com/watch?v=IC4ArMD41AU",
+          "title": "ВОЙНА В УКРАИНЕ ПЕРЕСТРАИВАЕТ МИР / ПУТИН ТЕРЯЕТ ЯДЕРНЫЙ БЛЕФ /№1218/ Юрий Швец",
+          "published": "2026-10-08",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09007",
+          "title": "Sigma-Hunter: A Domain-Specific Language Model for Threat Hunting and Detection Engineering",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09053",
+          "title": "Justice After Identity: Large Language Models and the View from Everywhere",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09545",
+          "title": "Time-Bin Properties of Photon Pairs from a 2GHz Waveguide Resonator",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09322",
+          "title": "Cross-Validation of Open-Source Quantum Network Simulators",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03199-5",
+          "title": "Big dogs age faster than little ones — rogue ‘jumping genes’ might be to blame",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755792v1?rss=1",
+          "title": "Connectomics by Sequencing Reveals Self-Organizing Principles of Neuronal Networks in Cerebral Organoids",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756068v1?rss=1",
+          "title": "Self-Exciting Population Event Models Reveal Abnormal Temporal Amplification in MAPT-Mutant Human Brain Assembloids",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-20/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-08-20/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-08-20/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-08-20/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-08-20/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-08-20/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-08-20.mp3",
+      "thumb": "thumbs/2026-10-08-20.webp",
+      "cover_video": "thumbs/2026-10-08-20.mp4"
+    },
+    {
       "id": "2026-10-08-19",
       "hour": "19:00",
       "date": "2026-10-08",
@@ -95,7 +226,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-08-19/f01.webp"
           },
           {
@@ -125,7 +256,7 @@
       "thumb": "thumbs/2026-10-08-19.webp",
       "cover_video": "thumbs/2026-10-08-19.mp4",
       "cues": [
-        0.0,
+        0,
         30.74,
         56.66,
         79.9,
