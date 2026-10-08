@@ -1,0 +1,43 @@
+name: Ingest snapshot (commit this hour's collected items)
+
+# Runs engine/ingest.mjs for the current UTC hour on a GitHub runner and
+# commits data/ingest/<YYYY-MM-DD-HH>.json back to the branch. That snapshot
+# is what an episode for this hour may cite (engine/editorial.mjs). Used when
+# the producing machine cannot reach the feeds.
+#
+# Trigger: push a change to bridge/ingest-request.json on any claude/** branch,
+# or run it by hand.
+
+on:
+  push:
+    branches: [ 'claude/**' ]
+    paths: [ 'bridge/ingest-request.json' ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Collect this hour's items
+        run: |
+          node engine/ingest.mjs | tee /tmp/ingest.log
+          grep -q '^ok ' /tmp/ingest.log
+      - name: Commit the snapshot
+        run: |
+          git config user.name "zerofilter-ingest-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/ingest
+          git commit -m "ingest: snapshot $(ls -t data/ingest | head -1)" || echo "nothing to commit"
+          git pull --rebase -q
+          git push
