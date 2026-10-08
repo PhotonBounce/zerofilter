@@ -2,6 +2,151 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-08-00",
+      "hour": "00:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-08-00",
+      "title": "Pryluky Strike, a Suspected Plague Death on Trump's Call List & Nuclear Clocks Start Ticking",
+      "subject": "Hourly sourced brief: Trump to raise a plague lab worker's death with Putin, a $1.5 billion conditional War Department loan to Wolfspeed, the Pryluky strike, Russian sabotage against Danish defense firms, Lithuanian troops on the Kaliningrad border, the EU's largest Russia sanctions list, Yuri Shvets' broadcast #1217, OpenAI's 700 maths preprints, a byte-level language model, the first nuclear clocks, and decisions that outlast alertness.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is midnight UTC on the eighth of October. Washington first. The BBC reports that President Trump will speak to Vladimir Putin about the death of a plague lab worker in Russia. Fears that the death may have been caused by pneumonic plague have prompted calls for more transparency from Moscow. Also tonight, the War Department's Office of Strategic Capital announced a one and a half billion dollar conditional loan commitment to Wolfspeed, an American manufacturer of semiconductor materials. Conditional is the word to watch.",
+        "To Ukraine and its neighbours. The Kyiv Independent reports that a Russian attack on Pryluky killed at least twenty people, five of them children, on a day of strikes that fell on Putin's seventy-fourth birthday. Danish intelligence says Russia carried out sabotage against Danish defense firms, increasingly aiming at targets tied to Western military support for Ukraine. Lithuania will deploy troops along its border with Kaliningrad, a preventative step, its interior minister said, against signals that Russia may announce mobilization. And EU ambassadors waved through the largest-ever list of Russia sanctions, reaching shipyards, aviation, electronics and aerospace firms. Yuri Shvets titled his latest broadcast, number twelve seventeen: Ukraine is striking Russia systematically, Europe is lifting its nuclear taboos.",
+        "Frontier compute. Nature reports that OpenAI has posted seven hundred mathematics preprints online, and that mathematicians are up in arms. The same issue carries a paper on retrofitting language models to operate over bytes, which Nature's news desk summed up in one headline: the retrofitted model can count the letter i in artificial intelligence. Models that read text in chunks called tokens have long stumbled on spelling questions exactly like that one.",
+        "Precision physics. Nuclear clocks are ticking for the first time, Nature reports. Two papers describe a thorium two twenty-nine optical nuclear clock with a feedback loop, and a nuclear clock synchronized to thorium two twenty-nine. Atomic clocks count the rhythm of electrons. A nuclear clock listens to a transition inside the nucleus itself, far better shielded from the noise of the outside world, which is why physicists have chased one for decades.",
+        "Consciousness desk. A new bioRxiv study followed people as they drifted from wakefulness toward sleep while locating sounds and touches, with EEG tracking their alertness moment to moment. Drowsiness slowed their responses and made them miss more trials. But when they answered, they stayed largely accurate, and agreeing or conflicting touch signals kept shaping their choices. The authors report that this decision-making persists as alertness fades, even when no overt response comes. The mind keeps working the problem while awareness dims.",
+        "So, tonight's receipts. A suspected plague death that made it onto a presidential call list. A conditional loan for American chip materials. Twenty dead in Pryluky, sabotage in Denmark, troops on the Kaliningrad line and Europe's biggest sanctions list yet. Seven hundred maths preprints from OpenAI, a model that can finally count its letters, and clocks that tick inside the nucleus. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cqgm0vrl3xp7o?at_medium=RSS&at_campaign=rss",
+          "title": "Trump to speak to Putin about plague lab worker's death in Russia",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4621223/department-of-wars-office-of-strategic-capital-announces-15-billion-conditional/",
+          "title": "Department of War's Office of Strategic Capital Announces $1.5 Billion Conditional Loan Commitment to Wolfspeed, Inc.",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-war-latest-russian-attack-on-pryluky-kills-at-least-20-including-5-children/",
+          "title": "Ukraine war latest: Russian attack on Pryluky kills at least 20, including 5 children",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russia-carried-out-sabotage-against-danish-defense-firms-intelligence-says/",
+          "title": "Russia carried out sabotage against Danish defense firms, intelligence says",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/lithuania-to-deploy-troops-along-border-with-russias-kaliningrad-after-latvia-incident/",
+          "title": "Lithuania to deploy troops along border with Russia's Kaliningrad after Latvia incident",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/eu-ambassadors-wave-through-largest-ever-list-of-russia-sanctions-2/",
+          "title": "EU ambassadors wave through largest-ever list of Russia sanctions",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 1,
+          "url": "https://www.youtube.com/watch?v=q4emu6edBlI",
+          "title": "УКРАИНА НАНОСИТ СИСТЕМНЫЕ УДАРЫ ПО РФ / ЕВРОПА СНИМАЕТ ЯДЕРНЫЕ ТАБУ /№1217/ Юрий Швец",
+          "published": "2026-10-06",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03196-8",
+          "title": "OpenAI posts 700 maths preprints online: mathematicians are up in arms",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/s41586-026-11111-4",
+          "title": "Retrofitting language models to operate over bytes",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03059-2",
+          "title": "Retrofitted LLM can count the letter ‘i’s in ‘artificial intelligence’",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03060-9",
+          "title": "Nuclear clocks tick for the first time",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11084-4",
+          "title": "A thorium-229 optical nuclear clock with feedback loop",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11122-1",
+          "title": "A nuclear clock synchronized to 229 Th",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.754917v1?rss=1",
+          "title": "Multisensory perceptual decision-making persists as alertness fades, even in the absence of an overt response",
+          "published": "2026-10-07"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-08-00/f01.webp"
+          },
+          {
+            "t": 29.62,
+            "src": "art/2026-10-08-00/f02.webp"
+          },
+          {
+            "t": 75.46,
+            "src": "art/2026-10-08-00/f03.webp"
+          },
+          {
+            "t": 100.08,
+            "src": "art/2026-10-08-00/f04.webp"
+          },
+          {
+            "t": 125.14,
+            "src": "art/2026-10-08-00/f05.webp"
+          },
+          {
+            "t": 155.09,
+            "src": "art/2026-10-08-00/f06.webp"
+          }
+        ]
+      },
+      "seconds": 182,
+      "audio": "audio/2026-10-08-00.mp3",
+      "thumb": "thumbs/2026-10-08-00.webp",
+      "cover_video": "thumbs/2026-10-08-00.mp4",
+      "cues": [
+        0.0,
+        29.62,
+        75.46,
+        100.08,
+        125.14,
+        155.09
+      ]
+    },
+    {
       "id": "2026-10-06-22",
       "hour": "22:00",
       "date": "2026-10-06",
@@ -76,35 +221,35 @@
             "src": "art/2026-10-06-22/f01.webp"
           },
           {
-            "t": 33.26,
+            "t": 31.58,
             "src": "art/2026-10-06-22/f02.webp"
           },
           {
-            "t": 69.07,
+            "t": 66.31,
             "src": "art/2026-10-06-22/f03.webp"
           },
           {
-            "t": 97.9,
+            "t": 92.78,
             "src": "art/2026-10-06-22/f04.webp"
           },
           {
-            "t": 123.14,
+            "t": 115.44,
             "src": "art/2026-10-06-22/f05.webp"
           },
           {
-            "t": 150.19,
+            "t": 141.6,
             "src": "art/2026-10-06-22/f06.webp"
           }
         ]
       },
-      "seconds": 178,
+      "seconds": 165,
       "cues": [
         0,
-        33.26,
-        69.07,
-        97.9,
-        123.14,
-        150.19
+        31.58,
+        66.31,
+        92.78,
+        115.44,
+        141.6
       ],
       "audio": "audio/2026-10-06-22.mp3",
       "thumb": "thumbs/2026-10-06-22.webp",

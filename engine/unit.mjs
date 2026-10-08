@@ -60,8 +60,10 @@ for (const ep of episodes) {
 }
 for (const f of existsSync(join(ROOT, "data/held")) ? readdirSync(join(ROOT, "data/held")).filter((n) => n.endsWith(".json")) : []) {
   const held = JSON.parse(readFileSync(join(ROOT, "data/held", f), "utf8"));
-  const publishedIds = new Set(episodes.map((e) => e.id));
-  ok(`held episodes in ${f} (${held.episodes.length}) are not in the published feed`, held.episodes.every((e) => !publishedIds.has(e.id)));
+  // Compared by content, not id: a real episode may later be written for an
+  // hour a held one had claimed (2026-10-08-00 was one of the 151).
+  const published = new Set(episodes.map((e) => e.paragraphs.join("\n")));
+  ok(`held episodes in ${f} (${held.episodes.length}) are not in the published feed`, held.episodes.every((e) => !published.has((e.paragraphs || []).join("\n"))));
 }
 
 // 2. Strict episode schema & duration rules
