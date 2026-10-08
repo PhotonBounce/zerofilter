@@ -2,6 +2,148 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-08-16",
+      "hour": "16:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-08-16",
+      "title": "Kramatorsk Bus Strike, a Stalled Peace Push & the Pentagon's Quantum Bet",
+      "subject": "Hourly sourced brief: $350 million in War Department quantum initiatives and a $150 million conditional loan to PsiQuantum, Trump's Camp David-style retreat plan, the Kramatorsk bus strike, Rubio on the collapse of the peace push, Ukraine's strike on the Omsk refinery, Polish SIM cards in Russian drones, UK sanctions on the shadow fleet and crypto, Margaret Hamilton's death, AI agents doing open-ended science, quantum Darwinism, psychedelics and the brain, and monkeys replaying the day in REM-like sleep.",
+      "paragraphs": [
+        "This is ZeroFilter, at sixteen hundred hours UTC on the eighth of October. Washington first, and it is a quantum day. The War Department announced new initiatives and programme updates worth about three hundred and fifty million dollars to strengthen US quantum computing for national security. Its Office of Strategic Capital also signed a one hundred and fifty million dollar conditional loan commitment with PsiQuantum, for manufacturing and prototyping in the United States. And NPR reports the President wants to turn one of his Florida golf courses into a presidential retreat, sort of a Camp David, he said.",
+        "Ukraine. The Kyiv Independent reports at least thirty-three dead after a Russian glide bomb struck buses in Kramatorsk. On diplomacy, both Washington and Moscow now confirm the latest peace push is falling apart; Secretary of State Rubio said there appears to be no prospect of a negotiated settlement. Ukraine's General Staff confirms a strike on Russia's Omsk oil refinery, deep in Siberia. An investigation into the mass Russian drone incursion into Polish airspace on September ninth found Polish SIM cards inside the downed Russian drones. And Britain ramped up sanctions on Russia's shadow fleet, its crypto industry and big oil.",
+        "Frontier compute, and a farewell. Margaret Hamilton has died at ninety, the BBC reports. She led the software for NASA's Apollo missions, the code that helped land Apollo eleven on the Moon. Today's arXiv asks whether AI agents can do open-ended science, testing them in Station, a world where many agents simulate a scientific ecosystem. Another paper probes how fragile safety is in language models running on our own devices, and whether it hangs on a small set of parameters.",
+        "Quantum. A new arXiv paper tries to unite two ideas about how the past gets written into the world. Decoherent histories asks which past events leave formal records. Quantum Darwinism asks which present facts get copied redundantly into the environment. Neither implies the other. The authors build a bridge on one insight: only redundant records of past events count. A second paper shows how a programmable two-qubit gate can be teleported, with a third party holding the program.",
+        "Consciousness desk. A new bioRxiv preprint maps how five psychedelics, LSD, psilocybin, ketamine, DMT and five-MeO-DMT, restructure the way information is stored, transferred and transformed across the human cortex, in eighty participants. And in monkeys, wireless recordings from the high-level visual cortex ask whether the brain replays what it saw while awake during REM-like sleep. The preprint's title answers: neural signatures of food come back while they sleep.",
+        "So, this hour's receipts. Half a billion dollars of Pentagon quantum money and loans. Thirty-three dead on buses in Kramatorsk, and a peace push that both sides now call finished. Refineries burning in Siberia, Polish SIM cards in Russian drones. A goodbye to the woman whose code reached the Moon. And brains that keep rewriting themselves, awake, asleep or on psychedelics. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622109/department-of-war-announces-350-million-in-quantum-computing-initiatives/",
+          "title": "Department of War Announces $350 Million in Quantum Computing Initiatives",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622113/department-of-wars-office-of-strategic-capital-signs-150-million-conditional-lo/",
+          "title": "Department of War's Office of Strategic Capital Signs $150 Million Conditional Loan Commitment With PsiQuantum",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/08/g-s1-147101/trump-presidential-retreat-golf-club",
+          "title": "Trump proposes Camp David-style presidential retreat at his private Florida golf club",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/at-least-12-dead-after-russian-glide-bomb-strikes-kramatorsk-bus-stop/",
+          "title": "At least 33 dead after Russian glide bomb strikes Kramatorsk buses",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/us-russia-confirm-trumps-latest-ukraine-peace-push-is-falling-apart/",
+          "title": "US, Russia confirm Trump's latest Ukraine peace push is falling apart",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/drones-reportedly-strike-russias-omsk-oil-refinery-in-siberia/",
+          "title": "Ukraine strikes Russia's Omsk oil refinery in Siberia, General Staff confirms",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/polish-sim-cards-found-in-russian-drones-downed-in-poland/",
+          "title": "Polish SIM cards found in Russian drones downed in Poland",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
+          "title": "UK ramps up sanctions against Russian shadow fleet, crypto industry, big oil",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cx5yn46j41zpo?at_medium=RSS&at_campaign=rss",
+          "title": "Margaret Hamilton, whose software helped land Apollo 11 on the Moon, dies at 90",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.08927",
+          "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09000",
+          "title": "How Fragile Is On-Device Language Model Safety? Localizing Safety-Critical Parameters for Sparse Fault Analysis",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09845",
+          "title": "Redundant Records of the Past: Unifying Quantum Darwinism and Decoherent Histories",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09022",
+          "title": "Teleportation of a programmable gate",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755915v1?rss=1",
+          "title": "Psychedelics restructure information in the human brain",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755371v1?rss=1",
+          "title": "Reactivation of neural signatures of food during REM-like sleep in the high-level visual cortex of monkeys",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-16/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-08-16/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-08-16/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-08-16/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-08-16/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-08-16/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-08-16.mp3",
+      "thumb": "thumbs/2026-10-08-16.webp",
+      "cover_video": "thumbs/2026-10-08-16.mp4"
+    },
+    {
       "id": "2026-10-08-00",
       "hour": "00:00",
       "date": "2026-10-08",
@@ -108,7 +250,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-08-00/f01.webp"
           },
           {
@@ -138,7 +280,7 @@
       "thumb": "thumbs/2026-10-08-00.webp",
       "cover_video": "thumbs/2026-10-08-00.mp4",
       "cues": [
-        0.0,
+        0,
         29.62,
         75.46,
         100.08,
