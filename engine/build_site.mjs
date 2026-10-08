@@ -19,8 +19,8 @@ const DIST = join(ROOT, "dist");
 const SHELL = [
   "index.html", "style.css", ".htaccess",
   "css/studio.css",
-  "js/app.js", "js/episodes.js", "js/categories.js",
-  "assets/rex_vance.webp", "assets/studio_bunker.webp", "assets/test_rex.mp3",
+  "js/app.js", "js/episodes.js", "js/categories.js", "js/ambient.js", "js/telemetry-canvas.js",
+  "assets/ava_vance.webp", "assets/rex_vance.webp", "assets/studio_bunker.webp", "assets/test_rex.mp3",
 ];
 
 const FEEDS = JSON.parse(readFileSync(join(ROOT, "data/feeds.json"), "utf8")).feeds;
@@ -51,6 +51,25 @@ const copy = (rel) => {
 SHELL.forEach(copy);
 for (const ep of episodes) {
   [ep.audio, ep.thumb, ep.cover_video, ...ep.art.frames.map((f) => f.src)].filter(Boolean).forEach(copy);
+}
+// Every module the shell imports must ship with it: a missing one 404s on
+// the host and the whole player fails to start (2026-10-08: ambient.js and
+// telemetry-canvas.js were imported by app.js but never copied).
+for (const rel of SHELL.filter((f) => f.endsWith(".js"))) {
+  const code = readFileSync(join(DIST, rel), "utf8");
+  for (const [, spec] of code.matchAll(/(?:import|from)\s*\(?\s*["'](\.{1,2}\/[^"']+)["']/g)) {
+    if (!existsSync(join(dirname(join(DIST, rel)), spec))) {
+      console.error(`${rel} imports ${spec}, which is not in the build (add it to SHELL)`);
+      process.exit(1);
+    }
+  }
+}
+// Same for the page's own images and scripts (assets/ava_vance.webp 404ed).
+for (const [, ref] of readFileSync(join(DIST, "index.html"), "utf8").matchAll(/(?:src|href)="((?:assets|css|js)\/[^"]+)"|url\('((?:assets)\/[^']+)'\)/g).map((m) => [m[0], m[1] || m[2]])) {
+  if (!existsSync(join(DIST, ref))) {
+    console.error(`index.html references ${ref}, which is not in the build (add it to SHELL)`);
+    process.exit(1);
+  }
 }
 mkdirSync(join(DIST, "data"), { recursive: true });
 writeFileSync(join(DIST, "data/episodes.json"), JSON.stringify(manifest, null, 2));
