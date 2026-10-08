@@ -1,6 +1,127 @@
 {
-  "updated": "2026-10-07T23:30:04.916274+00:00",
+  "updated": "2026-10-08T12:14:24.082Z",
   "episodes": [
+    {
+      "id": "2026-10-08-12",
+      "hour": "12:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-08-12",
+      "title": "ICE's Secret Jersey Warehouse, UK Squeezes Shadow Tankers & Two-Photon Rydberg Gates",
+      "subject": "Hourly sourced brief: secret ICE warehouse detention in New Jersey, .5 billion conditional Pentagon loan to Wolfspeed, 10 killed across Ukraine in Russian strikes, UK sanctions on shadow fleet and crypto, South Korea recalls Ukraine envoy over North Korean POW dispute, Yuri Shvets broadcast #1217, quantum readout complexity bounds, two-photon inter-species Rydberg gates, and neural latent signatures of implicit decision confidence before awareness.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is twelve hundred hours UTC on the eighth of October. In Washington and across the homeland, NPR reports that federal immigration authorities have quietly converted a New Jersey commercial warehouse into an operational detention facility throughout the summer. At the same time, the Department of War's Office of Strategic Capital finalized a one point five billion dollar conditional loan commitment to semiconductor producer Wolfspeed. The domestic infrastructure pivots rapidly while federal oversight recedes.",
+        "Across Eastern Europe, the frontline broadens. The Kyiv Independent confirms Russian strikes killed ten civilians and wounded forty-five across Ukraine over the past twenty-four hours. In London, the British government unveiled sweeping sanctions targeting Russia's maritime shadow fleet, its crypto transaction network, and major oil syndicates. Meanwhile, Seoul announced it will recall its envoy to Kyiv over an escalating diplomatic dispute involving North Korean prisoners of war. Yuri Shvets titled his latest analysis, broadcast twelve seventeen, outlining how Ukraine's systematic strikes are forcing European powers to reconsider their longstanding nuclear taboos.",
+        "Frontier compute and quantum complexity. A new research paper on arXiv tackles the fundamental readout bottleneck in quantum processors. The authors map the exact query complexity required to estimate normalized linear functionals, demonstrating sharp computational bounds for decoding physical quantum states into classical registers. As superconducting and photonic architectures scale up, readout latency remains the primary engineering barrier between theoretical speedup and practical real-world execution.",
+        "Precision quantum physics. A team on arXiv reports high-fidelity inter-species Rydberg gates powered by two-photon driving. By coupling two distinct neutral-atom species with targeted laser fields, the protocol suppresses unwanted crosstalk and achieves robust entanglement across species boundaries. A companion paper introduces geometric visualization for two-qubit Hilbert space. The physics of quantum control is progressing rapidly from raw proof-of-concept into predictable, observable engineering.",
+        "Consciousness desk. How does the human brain know it is right before it even responds? A new bioRxiv study using brain-wide intracranial EEG in human patients tracked the neural latent representations of decision confidence. The researchers discovered that implicit signatures of confidence emerge spontaneously across deep cortical networks long before any overt movement or conscious verbal report occurs. Your brain actively computes its own certainty beneath the threshold of awareness.",
+        "So, tonight's receipts. A quiet detention warehouse in Jersey, and billions committed to defense silicon. Ten dead across Ukraine, British sanctions squeezing Russian shadow tankers and crypto, and an envoy recalled over North Korean captives. Sharp limits on quantum readout, two-photon Rydberg gates, and neural networks calculating certainty before you speak. Every link is in the source drawer. Check them yourself. I'm Ava Vance for ZeroFilter. Stay lucid."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/08/nx-s1-5983441/ice-warehouses-new-jersey-roxbury",
+          "title": "ICE has quietly used this warehouse as a detention facility all summer, neighbors say",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4621223/department-of-wars-office-of-strategic-capital-announces-15-billion-conditional/",
+          "title": "Department of War's Office of Strategic Capital Announces .5 Billion Conditional Loan Commitment to Wolfspeed, Inc.",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-strikes-kill-at-least-10-injure-45-across-ukraine-over-past-day/",
+          "title": "Russian strikes kill at least 10, injure 45 across Ukraine over past day",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/uk-ramps-up-sanctions-against-russian-shadow-fleet-crypto-industry/",
+          "title": "UK ramps up sanctions against Russian shadow fleet, crypto industry, big oil",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/south-korea-to-recall-ukraine-envoy-amid-north-korean-pows-dispute/",
+          "title": "South Korea to recall Ukraine envoy amid North Korean POWs dispute",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.youtube.com/watch?v=q4emu6edBlI",
+          "title": "УКРАИНА НАНОСИТ СИСТЕМНЫЕ УДАРЫ ПО РФ / ЕВРОПА СНИМАЕТ ЯДЕРНЫЕ ТАБУ /№1217/ Юрий Швец",
+          "published": "2026-10-06",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.08890",
+          "title": "Quantum Readout Complexity for Normalized Linear Functionals",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.08926",
+          "title": "High-Fidelity Inter-Species Rydberg Gates with Two-Photon Driving",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.08897",
+          "title": "Visualizing two qubits",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755781v1?rss=1",
+          "title": "Neural latent representation of implicit perceptual decision confidence signatures from brain-wide intracranial EEG",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-08-12/f01.webp"
+          },
+          {
+            "t": 29.66,
+            "src": "art/2026-10-08-12/f02.webp"
+          },
+          {
+            "t": 66.36,
+            "src": "art/2026-10-08-12/f03.webp"
+          },
+          {
+            "t": 95.02,
+            "src": "art/2026-10-08-12/f04.webp"
+          },
+          {
+            "t": 123.79,
+            "src": "art/2026-10-08-12/f05.webp"
+          },
+          {
+            "t": 150.24,
+            "src": "art/2026-10-08-12/f06.webp"
+          }
+        ]
+      },
+      "seconds": 177,
+      "audio": "audio/2026-10-08-12.mp3",
+      "thumb": "thumbs/2026-10-08-12.webp",
+      "cover_video": "thumbs/2026-10-08-12.mp4",
+      "cues": [
+        0.0,
+        29.66,
+        66.36,
+        95.02,
+        123.79,
+        150.24
+      ]
+    },
     {
       "id": "2026-10-08-00",
       "hour": "00:00",
@@ -108,7 +229,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-08-00/f01.webp"
           },
           {
@@ -138,7 +259,7 @@
       "thumb": "thumbs/2026-10-08-00.webp",
       "cover_video": "thumbs/2026-10-08-00.mp4",
       "cues": [
-        0.0,
+        0,
         29.62,
         75.46,
         100.08,
