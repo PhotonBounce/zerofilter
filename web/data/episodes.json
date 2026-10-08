@@ -1,6 +1,103 @@
 {
-  "updated": "2026-10-08T13:05:46.930Z",
+  "updated": "2026-10-08T150000Z",
   "episodes": [
+    {
+      "id": "2026-10-08-15",
+      "hour": "15:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-08-15",
+      "title": "Kramatorsk Strike, $1.5B Defense Silicon & Quantum Gate Teleportation",
+      "subject": "Hourly sourced brief: Russian glide bomb strike kills 33 in Kramatorsk, War Department commits $1.5B to Wolfspeed for silicon carbide semiconductors, Apollo software pioneer Margaret Hamilton passes at 90, Yuri Shvets broadcast #1217, teleportation of programmable quantum gates on arXiv, and microglial P2Y12 receptor inhibition in Parkinson's disease.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is fifteen hundred hours UTC on the eighth of October. In eastern Ukraine, tragedy unfolded in Donetsk Oblast as a Russian glide bomb struck a municipal bus stop and commuter transit vehicles in Kramatorsk, killing at least thirty-three people and wounding dozens more. Donetsk Governor Vadym Filashkin confirmed that emergency rescue teams are sifting through heavy debris across the transit corridor. Meanwhile in Washington, the War Department's Office of Strategic Capital announced a 1.5 billion dollar conditional loan commitment to Wolfspeed, aiming to secure domestic manufacturing of military-grade silicon carbide semiconductor wafers across commercial fabrication facilities.",
+        "Computing history loses a titan today. Margaret Hamilton, the visionary software engineer whose team developed the onboard flight guidance software for Apollo 11, has died at ninety. Hamilton famously coined the discipline name 'software engineering' and designed asynchronous priority scheduling algorithms that prevented Apollo's guidance computer from crashing during its historic 1969 lunar descent. Awarded the Presidential Medal of Freedom, her rigorous testing principles laid the mathematical bedrock for modern aerospace systems and mission-critical concurrent computing architecture.",
+        "Geopolitical and military strategy. In his broadcast number twelve seventeen, Yuri Shvets examines how Ukraine's expanding campaign of precision drone strikes against Russian logistical hubs and domestic oil refineries is systematically disrupting rear-area operations. Shvets outlines how sustained interdiction is accelerating debate across European capitals, steadily dismantling historic diplomatic taboos regarding collective defense and long-range tactical deterrence.",
+        "Frontier quantum information science. A new paper on arXiv demonstrates the teleportation of a programmable quantum gate. Researchers show how two distributed nodes, Alice and Bob, can successfully execute an arbitrary two-qubit gate with the assistance of a third node transmitting classical parameters. By leveraging shared entangled pairs alongside classical feedforward, this hybrid protocol opens realistic architectures for modular quantum networks, allowing distributed processing nodes to execute entangling operations without direct physical interaction.",
+        "Neurobiology desk. Chronic neuroinflammation remains a primary driver of dopaminergic cell loss in Parkinson's disease. A new study on bioRxiv investigates microglial receptor signaling, demonstrating that targeted pharmacological inhibition of the microglial P2Y12 receptor significantly reduces inflammatory neurodegeneration. By decoupling harmful immune overactivation, researchers successfully preserved vulnerable dopamine pathways in the substantia nigra across experimental models, revealing a compelling therapeutic target for future clinical interventions.",
+        "So, tonight's receipts. The deadly Kramatorsk bus stop strike, and a 1.5 billion dollar military semiconductor commitment. Honoring Apollo guidance pioneer Margaret Hamilton, systemic deep strike doctrines forcing European strategic realignments, programmable quantum gate teleportation, and microglial P2Y12 targets in Parkinson's research. Every single receipt is linked in the drawer. Verify them for yourself. I'm Ava Vance for ZeroFilter. Stay lucid."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/at-least-12-dead-after-russian-glide-bomb-strikes-kramatorsk-bus-stop/",
+          "title": "At least 33 dead after Russian glide bomb strikes Kramatorsk buses",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4621223/department-of-wars-office-of-strategic-capital-announces-15-billion-conditional/",
+          "title": "Department of War's Office of Strategic Capital Announces $1.5 Billion Conditional Loan Commitment to Wolfspeed, Inc.",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cx5yn46j41zpo?at_medium=RSS&at_campaign=rss",
+          "title": "Margaret Hamilton, whose software helped land Apollo 11 on the Moon, dies at 90",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://www.youtube.com/watch?v=q4emu6edBlI",
+          "title": "УКРАИНА НАНОСИТ СИСТЕМНЫЕ УДАРЫ ПО РФ / ЕВРОПА СНИМАЕТ ЯДЕРНЫЕ ТАБУ /№1217/ Юрий Швец",
+          "published": "2026-10-06",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09022",
+          "title": "Teleportation of a programmable gate",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756181v1?rss=1",
+          "title": "Targeting microglial P2Y12-receptor signalling attenuates neurodegeneration in experimental Parkinsons disease",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-08-15/f01.webp"
+          },
+          {
+            "t": 39.17,
+            "src": "art/2026-10-08-15/f02.webp"
+          },
+          {
+            "t": 70.13,
+            "src": "art/2026-10-08-15/f03.webp"
+          },
+          {
+            "t": 95.83,
+            "src": "art/2026-10-08-15/f04.webp"
+          },
+          {
+            "t": 127.22,
+            "src": "art/2026-10-08-15/f05.webp"
+          },
+          {
+            "t": 158.69,
+            "src": "art/2026-10-08-15/f06.webp"
+          }
+        ]
+      },
+      "seconds": 186,
+      "audio": "audio/2026-10-08-15.mp3",
+      "thumb": "thumbs/2026-10-08-15.webp",
+      "cover_video": "thumbs/2026-10-08-15.mp4",
+      "cues": [
+        0.0,
+        39.17,
+        70.13,
+        95.83,
+        127.22,
+        158.69
+      ]
+    },
     {
       "id": "2026-10-08-14",
       "hour": "14:00",
