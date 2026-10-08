@@ -2,6 +2,109 @@
   "updated": "2026-10-08T13:05:46.930Z",
   "episodes": [
     {
+      "id": "2026-10-08-14",
+      "hour": "14:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-08-14",
+      "title": "Polish SIMs in Russian Drones, Operation Vivaldi & Neural Food Signatures in REM",
+      "subject": "Hourly sourced brief: domestic Polish telecom SIM cards recovered from downed Russian reconnaissance drones inside Poland, ground-robot assault tactics in Ukraine's Operation Vivaldi, Italian parliament passes polarizing electoral overhaul, Yuri Shvets broadcast #1217, Arctic permafrost insulation blankets to halt carbon feedback loops, procedure-conditioned self-consistency in LLM reasoning, and cortical visual replay during primate REM sleep.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is fourteen hundred hours UTC on the eighth of October. On NATO's eastern frontier, Polish security services confirmed today that commercial Polish SIM cards were discovered inside Russian military reconnaissance drones recovered on Polish sovereign territory. The discovery points to sophisticated local relay networks used to bypass border electronic jamming systems. Meanwhile in Rome, the Italian parliament enacted a contentious overhaul of its national electoral system, triggering immediate political confrontations and protests across southern Europe as coalition lines fracture.",
+        "In eastern Ukraine, autonomous mechanized warfare is rapidly reshaping the frontline. The Kyiv Independent reports on Operation Vivaldi, a major counter-offensive in Donetsk Oblast where Ukrainian combined units deployed ground-based robotic combat vehicles and tactical FPV swarms to clear fortified enemy trenches without human lead assault teams taking direct fire. In his analysis number twelve seventeen, Yuri Shvets emphasizes that Ukraine's accelerating domestic robotics and long-range strike doctrine are systematically altering Russia's operational depth while shifting European strategic calculations toward durable military deterrence.",
+        "Frontier compute and reasoning architecture. A new paper on arXiv introduces Route-Verify-Vote, a procedure-conditioned self-consistency framework for large language models. Rather than relying on naive majority voting, the system dynamically routes individual reasoning traces through domain-specific verification protocols, dramatically reducing hallucination across complex symbolic calculations and mathematical derivations. Symbolic reasoning is moving from statistical guesswork to deterministic computational verifiability.",
+        "Planetary thermodynamics and Arctic engineering. Nature reports on an ambitious field deployment across the melting permafrost of the Siberian Arctic: engineered woody geotextile blankets. By shielding ancient organic soil from intense summer solar radiation, the physical barriers suppress dangerous methane emissions and delay critical permafrost thaw across sensitive northern basins. Geoengineering is transitioning from theoretical modeling to localized physical ground deployment.",
+        "Consciousness desk. What does the primate brain truly experience during dream states? A new bioRxiv study recorded from high-level visual cortex in non-human primates during natural REM-like sleep cycles. The researchers discovered that specific neural activity patterns originally registered while viewing food items reactivate spontaneously during rapid eye movement phases. Even in deep slumber, sensory memory reactivation actively replays high-reward real-world stimuli across visual networks.",
+        "So, tonight's receipts. Polish telecom hardware discovered inside Russian surveillance drones, and a controversial electoral overhaul passed in Rome. Ground combat robots pushing through Donetsk in Operation Vivaldi, systemic frontline doctrine shifting European deterrence, Route-Verify-Vote tightening algorithmic reasoning, thermal blankets insulating Arctic permafrost, and visual brain cells dreaming of food. Every single receipt is linked in the drawer. Verify them for yourself. I'm Ava Vance for ZeroFilter. Stay lucid."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/polish-sim-cards-found-in-russian-drones-downed-in-poland/",
+          "title": "Polish SIM cards found in Russian drones downed in Poland",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c6zxjdw8rdl5o?at_medium=RSS&at_campaign=rss",
+          "title": "Italy overhauls electoral system after fiercely contested debate",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/inside-operation-vivaldi-how-ukraine-uses-drones-robots-to-liberate-territory-in-donetsk-oblast/",
+          "title": "Inside Operation Vivaldi — how Ukraine uses drones, robots to liberate territory in Donetsk Oblast",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.youtube.com/watch?v=q4emu6edBlI",
+          "title": "УКРАИНА НАНОСИТ СИСТЕМНЫЕ УДАРЫ ПО РФ / ЕВРОПА СНИМАЕТ ЯДЕРНЫЕ ТАБУ /№1217/ Юрий Швец",
+          "published": "2026-10-06",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.08814",
+          "title": "Route-Verify-Vote: Procedure-Conditioned Self-Consistency for Mixed-Domain Reasoning",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03045-8",
+          "title": "Woody ‘blankets’ are being deployed on Arctic permafrost to reduce carbon emissions",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755371v1?rss=1",
+          "title": "Reactivation of neural signatures of food during REM-like sleep in the high-level visual cortex of monkeys",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-08-14/f01.webp"
+          },
+          {
+            "t": 33.82,
+            "src": "art/2026-10-08-14/f02.webp"
+          },
+          {
+            "t": 69.48,
+            "src": "art/2026-10-08-14/f03.webp"
+          },
+          {
+            "t": 99.74,
+            "src": "art/2026-10-08-14/f04.webp"
+          },
+          {
+            "t": 126.79,
+            "src": "art/2026-10-08-14/f05.webp"
+          },
+          {
+            "t": 154.73,
+            "src": "art/2026-10-08-14/f06.webp"
+          }
+        ]
+      },
+      "seconds": 184,
+      "audio": "audio/2026-10-08-14.mp3",
+      "thumb": "thumbs/2026-10-08-14.webp",
+      "cover_video": "thumbs/2026-10-08-14.mp4",
+      "cues": [
+        0.0,
+        33.82,
+        69.48,
+        99.74,
+        126.79,
+        154.73
+      ]
+    },
+    {
       "id": "2026-10-08-13",
       "hour": "13:00",
       "date": "2026-10-08",
