@@ -19,7 +19,7 @@ const DIST = join(ROOT, "dist");
 const SHELL = [
   "index.html", "style.css", ".htaccess",
   "css/studio.css",
-  "js/app.js", "js/episodes.js", "js/categories.js",
+  "js/app.js", "js/episodes.js", "js/categories.js", "js/access.js", "js/ambient.js", "js/telemetry-canvas.js",
   "assets/rex_vance.webp", "assets/studio_bunker.webp", "assets/test_rex.mp3",
 ];
 

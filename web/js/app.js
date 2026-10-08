@@ -4,6 +4,7 @@ import { parseEpisodes, formatTime, cueStarts, paragraphAt, escapeHtml } from ".
 import { categoryOf } from "./categories.js";
 import { initTelemetryBackground } from "./telemetry-canvas.js";
 import { cyberAudio } from "./ambient.js";
+import { checkAccess, canPlayTime, verifyAndApplyDevKey } from "./access.js";
 
 const $ = (id) => document.getElementById(id);
 const $$ = (sel) => document.querySelectorAll(sel);
@@ -55,6 +56,81 @@ const btnCloseDossier = $("btn-close-dossier");
 const dossierBackdrop = $("dossier-backdrop");
 const btnTestVoice = $("btn-test-voice");
 const sampleAudio = $("sample-audio");
+
+// Access Control & Paywall State
+let accessState = checkAccess();
+const accessPill = $("access-pill");
+const accessIcon = $("access-icon");
+const accessLabel = $("access-label");
+const paywallBackdrop = $("paywall-backdrop");
+const btnClosePaywall = $("btn-close-paywall");
+const cryptoToggle = $("crypto-toggle-header");
+const cryptoContent = $("crypto-content");
+const cryptoArrow = $("crypto-arrow");
+
+function updateAccessUI() {
+  if (!accessPill || !accessLabel) return;
+  accessPill.classList.remove("is-dev", "is-trial", "is-preview");
+
+  if (accessState.tier === "developer") {
+    accessPill.classList.add("is-dev");
+    if (accessIcon) accessIcon.textContent = "👑";
+    accessLabel.textContent = "DEV UNLIMITED";
+    accessPill.title = "Developer Mode: Permanent Unlocked Access Active";
+  } else if (accessState.tier === "trial") {
+    accessPill.classList.add("is-trial");
+    if (accessIcon) accessIcon.textContent = "⏳";
+    accessLabel.textContent = `TRIAL: ${accessState.trialDaysLeft}d`;
+    accessPill.title = `7-Day Free Trial Active (${accessState.trialDaysLeft} days remaining). Full Access.`;
+  } else {
+    accessPill.classList.add("is-preview");
+    if (accessIcon) accessIcon.textContent = "🔒";
+    accessLabel.textContent = "PREVIEW (50%)";
+    accessPill.title = "Free Preview Mode: 50% audio cutoff. Click to unlock full access.";
+  }
+}
+
+function openPaywallModal() {
+  if (paywallBackdrop) {
+    paywallBackdrop.classList.remove("hidden");
+    cyberAudio.playClick();
+  }
+}
+
+function closePaywallModal() {
+  if (paywallBackdrop) {
+    paywallBackdrop.classList.add("hidden");
+    cyberAudio.playClick();
+  }
+}
+
+async function handleUrlDevKey() {
+  try {
+    const url = new URL(window.location.href);
+    let devKey = url.searchParams.get("key") || url.searchParams.get("dev");
+    if (!devKey && window.location.hash.startsWith("#key=")) {
+      devKey = window.location.hash.slice(5);
+    }
+    if (!devKey && window.location.hash.startsWith("#dev=")) {
+      devKey = window.location.hash.slice(5);
+    }
+
+    if (devKey) {
+      const valid = await verifyAndApplyDevKey(devKey);
+      if (valid) {
+        accessState = checkAccess();
+        // Clean URL parameter so the secret key is removed from address bar
+        url.searchParams.delete("key");
+        url.searchParams.delete("dev");
+        const cleanPath = url.pathname + (url.search ? url.search : "");
+        window.history.replaceState({}, document.title, cleanPath);
+      }
+    }
+  } catch (err) {
+    console.debug("Dev key parse:", err);
+  }
+  updateAccessUI();
+}
 
 function markAsPlayed(epId) {
   if (!epId) return;
@@ -118,6 +194,7 @@ function setSleepTimer(val) {
 
 // Initialize application
 async function init() {
+  await handleUrlDevKey();
   // Start interactive background telemetry & radar animation
   initTelemetryBackground("bg-telemetry-canvas");
 
@@ -316,6 +393,15 @@ function togglePlay() {
 
 function syncPlayback() {
   const t = audio.currentTime;
+
+  // Paywall guard: enforce 50% cutoff for non-unlocked visitors
+  if (!accessState.isUnlocked && audio.duration > 0 && t >= audio.duration * 0.5) {
+    audio.pause();
+    audio.currentTime = audio.duration * 0.5;
+    openPaywallModal();
+    return;
+  }
+
   seekBar.value = t;
   currentTimeEl.textContent = formatTime(t);
 
@@ -616,7 +702,13 @@ function setupEventListeners() {
   });
 
   seekBar.addEventListener("input", () => {
-    audio.currentTime = Number(seekBar.value);
+    let target = Number(seekBar.value);
+    if (!accessState.isUnlocked && audio.duration > 0 && target >= audio.duration * 0.5) {
+      target = audio.duration * 0.5;
+      seekBar.value = target;
+      openPaywallModal();
+    }
+    audio.currentTime = target;
     syncPlayback();
   });
 
@@ -745,6 +837,34 @@ function setupEventListeners() {
     } else if (e.key === "m" || e.key === "M") {
       audio.muted = !audio.muted;
     }
+  });
+
+  // Access Pill & Paywall listeners
+  accessPill?.addEventListener("click", () => {
+    openPaywallModal();
+  });
+  btnClosePaywall?.addEventListener("click", closePaywallModal);
+  paywallBackdrop?.addEventListener("click", (e) => {
+    if (e.target === paywallBackdrop) closePaywallModal();
+  });
+  cryptoToggle?.addEventListener("click", () => {
+    cryptoContent?.classList.toggle("hidden");
+    if (cryptoArrow) {
+      cryptoArrow.textContent = cryptoContent?.classList.contains("hidden") ? "▼" : "▲";
+    }
+  });
+  $$(".btn-copy").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const targetId = btn.getAttribute("data-target");
+      const codeEl = $(targetId);
+      if (codeEl) {
+        navigator.clipboard.writeText(codeEl.textContent.trim()).then(() => {
+          const oldText = btn.textContent;
+          btn.textContent = "COPIED!";
+          setTimeout(() => { btn.textContent = oldText; }, 2000);
+        }).catch(() => {});
+      }
+    });
   });
 
 }

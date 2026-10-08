@@ -32,6 +32,10 @@
         <button type="button" class="nav-btn" data-filter="consciousness">Consciousness</button>
       </nav>
       <div class="header-actions">
+        <button type="button" class="access-pill" id="access-pill" title="Access Tier & Subscription">
+          <span class="access-icon" id="access-icon">👑</span>
+          <span class="access-label" id="access-label">ACCESS</span>
+        </button>
         <button type="button" class="ambient-toggle-btn" id="btn-toggle-ambient" title="Toggle Procedural Cyber Ambient Drone Bed">
           <span class="ambient-icon">📻</span> <span id="ambient-status-text">AMBIENT: OFF</span>
         </button>
@@ -264,6 +268,65 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  <!-- Paywall / Subscription Modal -->
+  <div class="paywall-backdrop hidden" id="paywall-backdrop">
+    <div class="paywall-modal" id="paywall-modal" role="dialog" aria-labelledby="paywall-title">
+      <button type="button" class="paywall-close" id="btn-close-paywall" aria-label="Close Preview Modal">✕</button>
+      
+      <div class="paywall-badge">50% FREE PREVIEW LIMIT REACHED</div>
+      <h2 class="paywall-title" id="paywall-title">Unlock Full Episodes &amp; Support Unfiltered Truth</h2>
+      <p class="paywall-sub">
+        ZeroFilter has zero advertising sponsors, zero corporate backing, and zero algorithmic censorship.
+        All sources, research papers, and evidentiary receipts remain 100% free and visible below.
+      </p>
+
+      <div class="paywall-tier-card">
+        <div class="tier-header">
+          <div class="tier-title">ZeroFilter Supporter Pass</div>
+          <div class="tier-price">$5 <span class="tier-period">/ month</span></div>
+        </div>
+        <p class="tier-desc">Full uninterrupted hourly audio, lossless downloads, and permanent VIP archive access.</p>
+        
+        <div class="payment-methods">
+          <a href="https://checkout.square.site" target="_blank" rel="noopener noreferrer" class="btn-payment btn-square" id="btn-square-checkout">
+            💳 Pay via Card (Square Hosted Checkout)
+          </a>
+        </div>
+      </div>
+
+      <div class="crypto-accordion" id="crypto-accordion">
+        <div class="crypto-header" id="crypto-toggle-header">
+          <span>⚡ Support Directly via Crypto</span>
+          <span class="accordion-arrow" id="crypto-arrow">▼</span>
+        </div>
+        <div class="crypto-content hidden" id="crypto-content">
+          <div class="crypto-row">
+            <span class="crypto-symbol">USDT (TRC-20):</span>
+            <code class="crypto-addr" id="addr-usdt">TLp5wK8bK8fN3uE9oP1vW7xY2zA3bC4dE5</code>
+            <button type="button" class="btn-copy" data-target="addr-usdt" title="Copy Address">COPY</button>
+          </div>
+          <div class="crypto-row">
+            <span class="crypto-symbol">BTC:</span>
+            <code class="crypto-addr" id="addr-btc">bc1q4e2b1a7d6e5c8b3a0f7e4d2c1b9a8f7e6d5c</code>
+            <button type="button" class="btn-copy" data-target="addr-btc" title="Copy Address">COPY</button>
+          </div>
+          <div class="crypto-row">
+            <span class="crypto-symbol">ETH / ERC-20:</span>
+            <code class="crypto-addr" id="addr-eth">0x71C836e568434a4968C09087c53d939634eF564e</code>
+            <button type="button" class="btn-copy" data-target="addr-eth" title="Copy Address">COPY</button>
+          </div>
+          <div class="crypto-row">
+            <span class="crypto-symbol">TON:</span>
+            <code class="crypto-addr" id="addr-ton">EQD-ZeroFilterSupportersTonWalletReceiver001</code>
+            <button type="button" class="btn-copy" data-target="addr-ton" title="Copy Address">COPY</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="paywall-footer-note">
+        Already have a developer or VIP pass? Access with your secure link.
       </div>
     </div>
   </div>
