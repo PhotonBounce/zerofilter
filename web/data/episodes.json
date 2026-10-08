@@ -2,6 +2,136 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-08-22",
+      "hour": "22:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-08-22",
+      "title": "A $6.3 Billion Interceptor Deal, a Sheltered Syrian General & Freezing on the Turn",
+      "subject": "Hourly sourced brief: a contract worth up to $6.3 billion for SM-3 Block IB interceptors, the 9/11 families' lawsuit against Saudi Arabia, the US and Lebanon sheltering a wanted Syrian general, Houthi attacks on Saudi airports, two trains colliding in Lviv, blind spots in AI agent verifiers, structured output for language models, will AI scoop your science, slimmer fault-tolerant quantum circuits, relativity bending the chemistry of seaborgium, freezing of gait in Parkinson's, and ear-nerve stimulation for working memory.",
+      "paragraphs": [
+        "This is ZeroFilter, at twenty-two hundred hours UTC on the eighth of October. The War Department and the Missile Defense Agency have awarded Raytheon a multiyear contract worth up to six point three billion dollars to produce SM-3 Block IB interceptors. In New York, a court heard arguments in the 9/11 families' lawsuit against Saudi Arabia; the families allege men with links to the Saudi government helped the attackers, which Riyadh denies. And the BBC finds the US and Lebanon are protecting a wanted Syrian general, Bassam al-Hassan, in return for information, including about abducted American reporter Austin Tice.",
+        "The Middle East and Ukraine. Three people were killed in Houthi attacks on airports in Saudi Arabia, officials say; the Houthis claimed responsibility, and the BBC calls it an escalation. In western Ukraine, two trains collided in Lviv, injuring eight, the Kyiv Independent reports; the passenger train's driver suffered a leg injury, and the locomotive crew was unharmed.",
+        "Frontier compute. Who checks the checkers? A new arXiv paper audits the verifiers that decide whether AI agents succeeded on two popular benchmarks, AppWorld and WorkArena, and finds blind spots: in one case, duplicating a write leaves an extra record behind, and the checker still passes it. Another paper looks at structured output, the JSON and tool calls models are asked to produce, and exploits a rare property of the small machine that enforces the format. And Nature asks: will AI scoop your science? Some researchers see a gloomy future.",
+        "Quantum and chemistry. Fault-tolerant quantum circuits are expensive. A new arXiv paper automatically trims them with rewrites that keep their fault tolerance intact, each step removing an ancilla preparation and a CNOT gate. In Nature, researchers report the observation of relativistic bond weakening in seaborgium hexacarbonyl, a molecule of one of the heaviest elements. And the chemistry Nobel was awarded for solving the mystery of how handed, mirror-image organic molecules can emerge.",
+        "Consciousness desk. In Parkinson's disease, the most disabling symptom is freezing of gait, a sudden halt that strikes most often at turns, obstacles and narrow paths. A new bioRxiv preprint models it with a reinforcement learning system inspired by the cortex and basal ganglia, and proposes that impaired estimates of value over space explain freezing on the turn. Another study tests gentle vibration of the ear's branch of the vagus nerve during working memory tasks, reporting signs of more efficient cortical activity.",
+        "So, this hour's receipts. Six point three billion dollars of interceptors. A 9/11 lawsuit back in court, and a wanted general traded for information. Houthi strikes on Saudi airports, and a train crash in Lviv. Verifiers with blind spots, a heavy element bent by relativity, and a brain that freezes at the turn. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622796/department-of-war-awards-63-billion-multi-year-contract-to-rtxs-raytheon-for-sm/",
+          "title": "Department of War Awards $6.3 Billion Multi-Year Contract to RTX's Raytheon for SM-3 BLOCK IB Interceptors",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cwvgrxlylj72o?at_medium=RSS&at_campaign=rss",
+          "title": "New York court hears arguments in ongoing 9/11 families' lawsuit against Saudi Arabia",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c81dldewl5gwo?at_medium=RSS&at_campaign=rss",
+          "title": "US and Lebanon protecting wanted Syrian general, BBC finds",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwn8d5rx22rdo?at_medium=RSS&at_campaign=rss",
+          "title": "Three people killed in Houthi attacks on Saudi Arabia airports, officials say",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/8-injured-as-passenger-train-collides-with-locomotive-in-lviv/",
+          "title": "Two trains collide in Lviv, injuring 8",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09142",
+          "title": "Finding Blind Spots in AppWorld and WorkArena Task Verifiers",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09139",
+          "title": "Breaking the Space Barrier and its Application to Language Model Inference",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03128-6",
+          "title": "Will AI scoop your science? Some researchers see a gloomy future",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09749",
+          "title": "Automated reduction of fault-tolerant circuits",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11105-2",
+          "title": "Observation of relativistic bond weakening in seaborgium hexacarbonyl",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03093-0",
+          "title": "Chemistry Nobel awarded for solving mystery of how ‘handed’ organic molecules can emerge",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755546v1?rss=1",
+          "title": "Impaired value estimation over space explains turn-induced freezing of gait in Parkinson's disease: A cortico-basal ganglia-inspired reinforcement learning model",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.756069v1?rss=1",
+          "title": "Vibrotactile transcutaneous auricular vagus nerve stimulation (taVNS) during working memory: convergent electrophysiological evidence for cortical efficiency",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-22/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-08-22/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-08-22/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-08-22/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-08-22/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-08-22/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-08-22.mp3",
+      "thumb": "thumbs/2026-10-08-22.webp",
+      "cover_video": "thumbs/2026-10-08-22.mp4"
+    },
+    {
       "id": "2026-10-08-21",
       "hour": "21:00",
       "date": "2026-10-08",
@@ -101,7 +231,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-08-21/f01.webp"
           },
           {
@@ -131,7 +261,7 @@
       "thumb": "thumbs/2026-10-08-21.webp",
       "cover_video": "thumbs/2026-10-08-21.mp4",
       "cues": [
-        0.0,
+        0,
         28.08,
         58.06,
         83.54,
