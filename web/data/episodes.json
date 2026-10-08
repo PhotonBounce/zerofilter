@@ -2,6 +2,130 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-08-19",
+      "hour": "19:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-08-19",
+      "title": "Zelensky's Delegation, Putin's G20 Invitation & the Plague Quarantine Lifted",
+      "subject": "Hourly sourced brief: Zelensky sends a delegation to meet Trump's envoys and hints at secret US-Russia economic talks, the G20 invitation to Putin, the 2026 House battleground, Russia lifting the Irkutsk quarantine after the plague lab worker's death, Moldova ready for more refugees, AI agents that learn to report unsafe work, looped language models, quantum error-correcting codes found with SAT solvers, the mouse embryo in detail, brain organoids on a 3D interface, and how the brain routes credit for its actions.",
+      "paragraphs": [
+        "This is ZeroFilter, at nineteen hundred hours UTC on the eighth of October. The Kyiv Independent reports President Zelensky is sending a delegation to meet the Trump administration's envoys over two days, and is counting on a European team to join, as he hints at secret US-Russia economic talks. The same paper carries an open letter on the administration's invitation to Vladimir Putin for December's G20 summit in Miami, arguing it should come with conditions. And NPR finds both parties spending heavily in some sixty House districts that could decide control of the chamber.",
+        "Russia and its neighbours. Russia has lifted the quarantine in the Irkutsk region, the Kyiv Independent reports, where a twenty-eight-year-old worker at the Anti-Plague Institute, Darya Shipilova, allegedly died of plague; initial reports raised fears of pneumonic plague after a laboratory accident. And in Chisinau, Moldovan President Maia Sandu said that if this winter in Ukraine is as hard as the world expects, Moldova is ready to receive as many people as need safety.",
+        "Frontier compute. When AI agents share a reward for finished tasks, reporting unsafe work costs the reporter. A new arXiv paper studies a game where any witness can stop a task by reporting, and asks whether training can teach a silent team to speak up. Another paper looks at looped language models, which promise to save memory and compute on easy words, and finds the current open models fail to deliver it in practice.",
+        "Quantum, and life. Error correction is the price of a useful quantum computer. A new arXiv paper builds codes with three logical qubits whose CCZ gate is applied transversally, using projective geometry for the structure and a SAT solver to find the rest, at thirteen sizes from forty-eight to four hundred and ninety-six qubits. Another paper defines quantum versions of the classes that grade how well hard optimisation problems can be approximated. And Nature captures how to build a mouse, embryo development in stunning detail.",
+        "Consciousness desk. Cortical organoids, small lab-grown pieces of brain tissue, reproduce key steps of development. A new bioRxiv preprint presents a flexible three-dimensional interface that reveals functional subnetworks and coordinated circuit activity inside them. Another asks how the brain gives credit: when an action pays off, how does the signal find its way back from the basal ganglia and cerebellum, through the thalamus, to the cortical circuits that chose it?",
+        "So, this hour's receipts. A Ukrainian delegation heading to Trump's envoys, and an invitation for Putin to Miami. A quarantine lifted in Irkutsk after a lab worker's suspected plague death. Moldova bracing for a hard winter next door. Agents learning to blow the whistle, and organoids lighting up in three dimensions. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/zelensky-sends-delegation-to-meet-trump-envoys-as-he-hints-at-secret-us-russia-economic-talks/",
+          "title": "Zelensky sends delegation to meet Trump envoys as he hints at secret US-Russia economic talks",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
+          "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/08/nx-s1-5993809/2026-house-map-democrats-flip-republicans-tossup-triage",
+          "title": "Toss-ups, triage and targets: How to read the wide-open 2026 House map",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russia-lifts-quarantine-in-irkutsk-region-where-lab-worker-allegedly-died-of-plague/",
+          "title": "Russia lifts quarantine in Irkutsk region, where lab worker allegedly died of plague",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/moldova-ready-to-take-in-more-ukrainian-refugees-come-winter-sandu-says/",
+          "title": "Moldova ready to take in more Ukrainian refugees come winter, Sandu says",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09002",
+          "title": "Learning to Report Unsafe Tasks in a Multi-Agent Game",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09013",
+          "title": "Enabling Dynamic Computation in Looped LMs",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09341",
+          "title": "Building codes with transversal CCZ using projective geometry and SAT solvers",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09584",
+          "title": "Quantum Approximation Complexity of Classical Optimization Problems",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03193-x",
+          "title": "How to build a mouse: Embryo development captured in stunning detail",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756317v1?rss=1",
+          "title": "Flexible 3D multimodal organoid interface reveals functional subnetworks and coordinated circuit activity in cortical organoids",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755501v1?rss=1",
+          "title": "Thalamocortical credit routing from the basal ganglia and cerebellum: anatomical constraints and circuit principles",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-19/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-08-19/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-08-19/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-08-19/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-08-19/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-08-19/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-08-19.mp3",
+      "thumb": "thumbs/2026-10-08-19.webp",
+      "cover_video": "thumbs/2026-10-08-19.mp4"
+    },
+    {
       "id": "2026-10-08-18",
       "hour": "18:00",
       "date": "2026-10-08",
@@ -101,7 +225,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-08-18/f01.webp"
           },
           {
@@ -131,7 +255,7 @@
       "thumb": "thumbs/2026-10-08-18.webp",
       "cover_video": "thumbs/2026-10-08-18.mp4",
       "cues": [
-        0.0,
+        0,
         27.24,
         59.64,
         90.1,
