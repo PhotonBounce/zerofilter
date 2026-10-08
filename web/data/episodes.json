@@ -2,6 +2,136 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-08-21",
+      "hour": "21:00",
+      "date": "2026-10-08",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-08-21",
+      "title": "A Ukrainian Reporter Detained in Vienna, Floods in Chile & Thinking Pain Down",
+      "subject": "Hourly sourced brief: the War Department's Golden Age of Science initiatives, April Ryan on reporting under attack, Alex Gibney on Elon Musk, investigative journalist Mykhailo Tkach detained in Austria, actor Serhii Strelnikov joining Ukraine's drone forces, floods in central Chile, steering AI agents, checkpoints for coding agents, leakage in superconducting qubits, quantum kernels on real malware traffic, a gut microbe against heart disease, new neurons in the adult brain, and turning pain down by thought.",
+      "paragraphs": [
+        "This is ZeroFilter, at twenty-one hundred hours UTC on the eighth of October. The War Department announced a series of initiatives to advance the President's vision of a new golden age of American science. NPR talks to White House correspondent April Ryan about decades of pressing presidents for answers, and how asking questions put her in the President's crosshairs. And NPR reports on how documentary director Alex Gibney became a critic of Elon Musk, drawing on a trove of documents and interviews with people close to him.",
+        "Ukraine and beyond. The acclaimed Ukrainian investigative journalist Mykhailo Tkach has been detained by Austrian authorities in Vienna, the Kyiv Independent reports; he was reportedly there on an editorial assignment with his colleague Yaroslav Bondarenko. Actor Serhii Strelnikov, who played a special forces commander in this year's thriller Killhouse, has enlisted in Ukraine's Unmanned Systems Forces. And in Chile, residents were airlifted to safety after the Mapocho river burst its banks following unusually heavy rain, the BBC reports.",
+        "Frontier compute. When should you correct an AI agent, at which step, and how? A new arXiv paper steered agents at every step with four different mechanisms and ran each version to the end, about eighty-two thousand counterfactual outcomes, to test whether the agent's own uncertainty is a good guide. Another paper asks which save points are worth keeping when coding agents work, measuring how much a checkpoint actually cuts the cost of recovering from a mistake.",
+        "Quantum, and life. Superconducting qubits use only the two lowest energy levels of a circuit, and information easily leaks into higher ones. A new arXiv paper uses geodesic-based optimal control to suppress that leakage. Another team tests quantum kernel methods for spotting anomalies in real malware beaconing data, weighing performance against how far each kernel departs from classical ones. And Nature reveals how a common gut microbe protects against heart disease.",
+        "Consciousness desk. Can you think pain down? A new bioRxiv study reanalysed more than three thousand heat-stimulation trials from thirty-three participants told to turn their pain up or down. Both instructions shifted ratings the intended way, and turning pain down came with lower activity in the brain's secondary sensory areas. And Nature asks a century-old question: can your brain grow new neurons, and how are researchers solving the puzzle?",
+        "So, this hour's receipts. A golden-age promise for American science, and a reporter recalling life in the President's crosshairs. A Ukrainian journalist detained in Vienna, an actor turned drone soldier, and a river over its banks in Chile. Agents that need to know when to be corrected, qubits that leak, and a mind that can turn its own pain down. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622104/department-of-war-executes-white-house-strategy-for-a-new-golden-age-of-science/",
+          "title": "Department of War Executes White House Strategy for a New Golden Age of Science",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/08/nx-s1-5994416/white-house-correspondent-april-ryan-reflects-on-reporting-while-under-attack",
+          "title": "White House correspondent April Ryan reflects on reporting while under attack",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/07/nx-s1-5960380/musk-film-alex-gibney",
+          "title": "How 'Musk' director Alex Gibney became a critic",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukrainian-investigative-journalist-mykhailo-tkach-detained-in-austria-while-on-assignment/",
+          "title": "Ukrainian investigative journalist Mykhailo Tkach detained in Austria while on assignment",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukrainian-actor-serhii-strelnikov-enlists-in-unmanned-systems-forces-2/",
+          "title": "Ukrainian actor Serhii Strelnikov enlists in Unmanned Systems Forces",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ck5yn8jn677vo?at_medium=RSS&at_campaign=rss",
+          "title": "Residents airlifted to safety after flooding in central Chile",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09115",
+          "title": "From Uncertainty to Action: Learning to Steer LLM Agents",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09088",
+          "title": "RippleCP: Measuring Counterfactual Checkpoint Advantage in Coding Agents",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09666",
+          "title": "Geodesic-based optimal control for leakage suppression in superconducting qubits",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09717",
+          "title": "Pareto-optimal quantum kernel selection for unsupervised anomaly detection on real malware beaconing data",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03189-7",
+          "title": "Revealed: how this common gut microbe protects against heart disease",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756083v1?rss=1",
+          "title": "Direction-sensitive neural correlates of voluntary pain regulation: regional response attenuation during down-regulation and exploratory prefrontal-valuation coupling",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03132-w",
+          "title": "Can your brain grow new neurons? How researchers are solving a century-old puzzle",
+          "published": "2026-10-07"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-08-21/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-08-21/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-08-21/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-08-21/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-08-21/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-08-21/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-08-21.mp3",
+      "thumb": "thumbs/2026-10-08-21.webp",
+      "cover_video": "thumbs/2026-10-08-21.mp4"
+    },
+    {
       "id": "2026-10-08-20",
       "hour": "20:00",
       "date": "2026-10-08",
@@ -102,7 +232,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-08-20/f01.webp"
           },
           {
@@ -132,7 +262,7 @@
       "thumb": "thumbs/2026-10-08-20.webp",
       "cover_video": "thumbs/2026-10-08-20.mp4",
       "cues": [
-        0.0,
+        0,
         30.46,
         55.68,
         84.84,
