@@ -2,6 +2,132 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-03",
+      "hour": "03:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-03",
+      "title": "Night Edition: Kramatorsk Revisited, the Eavesdropper's Blind Spot & Paying the Brain to Remember",
+      "subject": "Hourly sourced brief, night edition: the BBC on the Kramatorsk bus strike and Seoul recalling its Kyiv envoy, a bear attack near Ulaanbaatar, Trump's Camp David-like retreat plan, a test of AI's intuitive 'sixth sense', when agent skills actually help, a quantum cheat a monitor cannot see, negative-energy ghosts in physics, Australia's wildfires and colonial land use, the ageing brain and financial exploitation, and rewards that sharpen working memory.",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-three hundred hours UTC on the ninth of October, a night edition with little fresh news, so we take a second look at the day through the BBC's reporting. On Kramatorsk, the BBC counts at least thirty dead in the Russian strike on two buses, and reports Ukraine's accusation that Russia targeted the crowded vehicles to kill as many civilians as possible. And South Korea has recalled its envoy to Kyiv, the latest step in a spat after Ukraine disclosed that two North Korean prisoners of war were transferred to Seoul.",
+        "Elsewhere. Near the Mongolian capital, Ulaanbaatar, police say a bear entered a traditional nomadic dwelling, killing a man and seriously injuring a woman. And in Washington, the BBC looks at the President's wish for a new Camp David-like retreat at his Florida golf club, an estate that would stand in stark contrast to the rustic original, and, the BBC writes, another tradition transformed.",
+        "Frontier compute. People see far more than a scene shows: in a single glance we sense what caused it, where things are heading, whether a car will fit between two others, who holds authority in a room. A new arXiv benchmark calls that humanity's sixth sense and tests whether multimodal AI models have it. Another study runs eighty-seven tasks to ask when packaged agent skills actually help, noting that a relevant skill does not necessarily improve performance, and examining how the gain depends on its content, how it is run, and how skills are organised together.",
+        "Quantum, and Earth. An eavesdropper sees two average photon counts, and a monitor watching for leaks sees nothing. Can she conclude the two sealed devices did not communicate? A new arXiv paper builds a counterexample, a hidden shared interaction that a standard test would miss. Another paper studies the negative-energy ghost states that some theories of gravity introduce, and asks whether they must make the theory unstable. And Nature links Australia's current wildfire crisis to land-use change that began with colonisation.",
+        "Consciousness desk. Financial exploitation often begins with a judgement of fairness and trust. A new bioRxiv study scanned three hundred and ten adults aged twenty-one to eighty-nine playing a game in which they accept or reject offers from people and computers, and finds that links between the brain's response to fairness and vulnerability to exploitation vary with age and emotional intelligence. Another study finds rewards improve working memory by sharpening the memories themselves, rather than by making people answer more cautiously.",
+        "So, this hour's receipts. A second look at the Kramatorsk strike, and a diplomatic rift between Seoul and Kyiv. A bear in a nomadic dwelling and a presidential retreat on a golf course. A machine sixth sense, a quantum cheat no monitor can see, and a brain that remembers better when the stakes rise. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
+          "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/ckwy48rrz95vo?at_medium=RSS&at_campaign=rss",
+          "title": "South Korea recalls Ukraine envoy over prisoner-of-war row",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ckvg79wz9v2yo?at_medium=RSS&at_campaign=rss",
+          "title": "Bear kills man in home attack near Mongolian capital",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c9gkvxjvl7v3o?at_medium=RSS&at_campaign=rss",
+          "title": "Trump wants a new Camp David-like retreat at his Florida golf club",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.08966",
+          "title": "Humanity's Sixth Sense: Benchmarking Intuitive Visual Reasoning in Multimodal Models",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.08875",
+          "title": "An Empirical Study of Agent Skills' Downstream Utility",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09103",
+          "title": "The coupler Eve did not monitor: a black-box cavity cheat",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10040",
+          "title": "Can we make sense out of negative kinetic energy?",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11097-z",
+          "title": "Australia’s current wildfire crisis linked to colonial land-use change",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755119v1?rss=1",
+          "title": "Associations Between Neural Responses to Social Fairness and Financial Exploitation Vulnerability Vary With Age and Emotional Intelligence",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755939v1?rss=1",
+          "title": "Motivational incentives improve working memory performance by enhancing memory-based representations rather than altering response strategies",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-09-03/f01.webp"
+          },
+          {
+            "t": 29.06,
+            "src": "art/2026-10-09-03/f02.webp"
+          },
+          {
+            "t": 51.17,
+            "src": "art/2026-10-09-03/f03.webp"
+          },
+          {
+            "t": 81.36,
+            "src": "art/2026-10-09-03/f04.webp"
+          },
+          {
+            "t": 110.3,
+            "src": "art/2026-10-09-03/f05.webp"
+          },
+          {
+            "t": 139.2,
+            "src": "art/2026-10-09-03/f06.webp"
+          }
+        ]
+      },
+      "seconds": 162,
+      "audio": "audio/2026-10-09-03.mp3",
+      "thumb": "thumbs/2026-10-09-03.webp",
+      "cover_video": "thumbs/2026-10-09-03.mp4",
+      "cues": [
+        0.0,
+        29.06,
+        51.17,
+        81.36,
+        110.3,
+        139.2
+      ]
+    },
+    {
       "id": "2026-10-09-02",
       "hour": "02:00",
       "date": "2026-10-09",
@@ -83,7 +209,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-02/f01.webp"
           },
           {
@@ -113,7 +239,7 @@
       "thumb": "thumbs/2026-10-09-02.webp",
       "cover_video": "thumbs/2026-10-09-02.mp4",
       "cues": [
-        0.0,
+        0,
         22.58,
         48.24,
         83.69,
