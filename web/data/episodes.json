@@ -2,6 +2,136 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-22",
+      "hour": "22:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-22",
+      "title": "Guilty Verdicts in the Murder of Two Australian Surfers, Diesel Before the Midterms & Benchmarks That Check AI's Confidence",
+      "subject": "A verdict in the Robinson brothers case, how the Russian diesel deal reads in Washington and Kyiv, AI that must be calibrated, and a quick read on quantum noise",
+      "paragraphs": [
+        "This is ZeroFilter, at twenty-two hundred hours UTC on the ninth of October. Three men have been found guilty of murdering two Australian surfer brothers, Jake and Callum Robinson, and their American friend Carter Rhoad, the BBC reports; their bodies were found at the bottom of a well. And Nature has two stories on the microbes we carry: how one common gut microbe protects against heart disease, and the prehistoric global migration, with humans, of gut microbes that are now vanishing.",
+        "Ukraine and Russia. NPR reports that President Trump says the United States will obtain diesel from Russia, relaxing years of US pressure on Moscow to combat prices before the midterms; he said he struck the deal with Vladimir Putin in a phone call. President Zelensky has called it a gift to Putin, saying that allowing Russia to sell petroleum products would prolong a war that must be ended. And the Kyiv Independent's daily round-up leads with drones striking another Yandex data center in Russia.",
+        "Frontier compute. Some AI systems output probabilities over fixed answers, and software acts on them through thresholds and escalation rules, so miscalibrated or wording-sensitive probabilities can trigger unintended actions with no rationale for a human to inspect. A new arXiv benchmark, TypedBench, tests these models for calibration, framing sensitivity and cost. Another paper, MedBenchAgent, goes a step further in automating medical AI evaluation: rather than only generating test items, it tries to derive the benchmark's specification itself, deciding what to evaluate and which annotations support each task.",
+        "Quantum desk. Randomised benchmarking with structured circuits scales well, but gives biased fidelity estimates at short depths, and waiting for deeper circuits can push the signal below the noise floor. A new arXiv paper overcomes this through classical post-processing alone, with a family of estimators for quickly extracting fidelity decay rates. Another team uncovers a new class of superradiant phase transition that is topologically distinct from those known before. And Nature reports on hydrogen bonding in water under extreme confinement.",
+        "Consciousness desk. Human brain assembloids let scientists study how a mutation disrupts a network. A bioRxiv study introduces a model that separates how often activity starts from how strongly past activity amplifies it, and applies it to one hundred and seventy-five recordings from assembloids carrying a MAPT mutation or its corrected version, reporting abnormal amplification over time. And another team adds six thousand three hundred and sixty-eight annotations across one thousand seven hundred and seventy-two fruit fly driver lines, to identify which neuron types each line targets.",
+        "So, this hour's receipts. Guilty verdicts in the murder of two surfers and their friend, and the microbes that travel with us. Diesel from Russia ahead of the midterms, and Kyiv's objection. Calibration tests for AI that acts on probabilities, faster quantum benchmarks, and abnormal amplification in mutant brain networks. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss",
+          "title": "Three men found guilty of murdering two Australian surfer brothers and US friend",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/d41586-026-03189-7",
+          "title": "Revealed: how this common gut microbe protects against heart disease",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/s41586-026-11106-1",
+          "title": "Prehistoric global migration of vanishing gut microbes with humans",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 1,
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms",
+          "title": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+          "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
+          "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11392",
+          "title": "TypedBench: A Benchmark for Calibration, Framing Sensitivity, and Cost in System One Decision Models",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11312",
+          "title": "MedBenchAgent: Towards Systematic Automation of Medical VLM Benchmark Construction",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11540",
+          "title": "Quickly extracting fidelity decay rates in random circuit benchmarking experiments",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11495",
+          "title": "Topological Superradiant Universality Classes in Cavity-Mediated Spin Chains",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-10858-0",
+          "title": "Hydrogen bonding in water under extreme confinement",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756068v1?rss=1",
+          "title": "Self-Exciting Population Event Models Reveal Abnormal Temporal Amplification in MAPT-Mutant Human Brain Assembloids",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.756975v1?rss=1",
+          "title": "Neuron types and distribution of a Drosophila driver line collection",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-22/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-22/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-22/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-22/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-09-22/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-09-22/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-09-22.mp3",
+      "thumb": "thumbs/2026-10-09-22.webp",
+      "cover_video": "thumbs/2026-10-09-22.mp4"
+    },
+    {
       "id": "2026-10-09-21",
       "hour": "21:00",
       "date": "2026-10-09",
@@ -95,7 +225,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-21/f01.webp"
           },
           {
@@ -125,7 +255,7 @@
       "thumb": "thumbs/2026-10-09-21.webp",
       "cover_video": "thumbs/2026-10-09-21.mp4",
       "cues": [
-        0.0,
+        0,
         29.9,
         60.96,
         91.85,
