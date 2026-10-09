@@ -2,6 +2,130 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-09",
+      "hour": "09:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-09",
+      "title": "Maduro Charged With Torture, Kyiv's Delegation to Trump's Envoys & the Quantum Jumps of Sound",
+      "subject": "Maduro's torture charge, Iran and the midterms, Zelensky's delegation, and counting phonons one at a time",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-nine hundred hours UTC on the ninth of October. Venezuela's former leader Nicolás Maduro has been charged with conspiracy to commit torture, the BBC reports; the new accusations concern the alleged torture of US citizens held in Venezuela while he was in power. Human Rights Watch says US deportations to African countries are unlawful and exploit suffering, citing US data showing more than five hundred migrants expelled. And NPR reports that after President Trump slapped down reports he is considering renewed strikes on Iran before the midterms, the politics of the war he started are in the spotlight.",
+        "Ukraine and Russia. President Zelensky is sending a delegation to meet Trump's envoys and hints at secret US-Russia economic talks. He said meetings are expected to take place over two days, and that Kyiv is counting on a European team to join its negotiating group. The investigative journalist Mykhailo Tkach has been detained by Austrian authorities in Vienna, reportedly while on an editorial assignment with his colleague Yaroslav Bondarenko. And Russia has lifted a quarantine in the Irkutsk region, where a lab worker at the Anti-Plague Institute allegedly died of plague.",
+        "Frontier compute. The US Department of War's Office of Strategic Capital has announced a one point five billion dollar conditional loan commitment to Wolfspeed, a vertically integrated American manufacturer of semiconductor materials. And on arXiv, a paper on verification and self-improvement in agentic AI argues that a performance score cannot tell apart the ways an agent gets better, whether by searching longer, receiving more support, or changing how it proposes and checks its answers, and it sets out a framework for comparing them.",
+        "Quantum desk. Quantum mechanics predicts that a vibrating object's energy comes in discrete packets, yet no measurement of its position shows it. A new arXiv paper, titled Quantum jumps of sound, couples a superconducting qubit to a nanomechanical resonator to make repeated non-demolition measurements of the number of phonons. Another team scaled a quantum-assisted optimisation method to a test case representing a transmission grid of one thousand three hundred and fifty-four buses and one thousand seven hundred and ten lines.",
+        "Consciousness desk. A bioRxiv study asked whether rewards improve working memory when every item is equally valuable, or whether they simply make people slower and more cautious; the authors' title gives the answer: incentives enhance memory-based representations rather than altering response strategies. Another preprint models freezing of gait in Parkinson's disease, the sudden arrest of walking that comes mostly at turns, obstacles and narrow paths, as impaired estimation of value over space, using a model inspired by cortico-basal ganglia circuitry.",
+        "So, this hour's receipts. A torture charge for Maduro, deportations to Africa under scrutiny, and Iran in the midterm spotlight. Talks with Trump's envoys, a Ukrainian journalist detained in Vienna, and a plague quarantine lifted. A loan for chip materials, a test for self-improving agents, sound counted one quantum at a time, and the brain's sense of value on a turn. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
+          "title": "Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c9p8gn55433jo?at_medium=RSS&at_campaign=rss",
+          "title": "US deportations to African countries unlawful and exploit suffering, rights group says",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5995532/trumps-war-in-iran-in-spotlight-ahead-of-midterms",
+          "title": "Trump's War in Iran in spotlight ahead of midterms",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/zelensky-sends-delegation-to-meet-trump-envoys-as-he-hints-at-secret-us-russia-economic-talks/",
+          "title": "Zelensky sends delegation to meet Trump envoys as he hints at secret US-Russia economic talks",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukrainian-investigative-journalist-mykhailo-tkach-detained-in-austria-while-on-assignment/",
+          "title": "Ukrainian investigative journalist Mykhailo Tkach detained in Austria while on assignment",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russia-lifts-quarantine-in-irkutsk-region-where-lab-worker-allegedly-died-of-plague/",
+          "title": "Russia lifts quarantine in Irkutsk region, where lab worker allegedly died of plague",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4621223/department-of-wars-office-of-strategic-capital-announces-15-billion-conditional/",
+          "title": "Department of War's Office of Strategic Capital Announces $1.5 Billion Conditional Loan Commitment to Wolfspeed, Inc.",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10611",
+          "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10714",
+          "title": "Quantum jumps of sound",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10772",
+          "title": "Scaling Quantum Optimization to the Thousand-Qubit Scale with Distributed Quantum Sampling",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755939v1?rss=1",
+          "title": "Motivational incentives improve working memory performance by enhancing memory-based representations rather than altering response strategies",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755546v1?rss=1",
+          "title": "Impaired value estimation over space explains turn-induced freezing of gait in Parkinson's disease: A cortico-basal ganglia-inspired reinforcement learning model",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-09/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-09/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-09/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-09/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-09-09/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-09-09/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-09-09.mp3",
+      "thumb": "thumbs/2026-10-09-09.webp",
+      "cover_video": "thumbs/2026-10-09-09.mp4"
+    },
+    {
       "id": "2026-10-09-08",
       "hour": "08:00",
       "date": "2026-10-09",
@@ -101,7 +225,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-08/f01.webp"
           },
           {
@@ -131,7 +255,7 @@
       "thumb": "thumbs/2026-10-09-08.webp",
       "cover_video": "thumbs/2026-10-09-08.mp4",
       "cues": [
-        0.0,
+        0,
         38.38,
         72.94,
         97.06,
