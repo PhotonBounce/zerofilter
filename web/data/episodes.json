@@ -2,6 +2,144 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-11",
+      "hour": "11:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-11",
+      "title": "Houthi Missiles on Riyadh Airport, Rybar's Founder Detained & Drones Hit a Second Yandex Data Center",
+      "subject": "A Houthi strike on Riyadh, a Russian propagandist detained in Montenegro, data centers under drones, and quantum noise that remembers",
+      "paragraphs": [
+        "This is ZeroFilter, at eleven hundred hours UTC on the ninth of October. Three Saudi nationals have been killed in Houthi missile attacks on Riyadh airport, the BBC reports, amid an escalation in fighting between the Iran-backed group and Saudi Arabia, which backs Yemen's government. Lawyers for Christa Pike say she has had a profound and remarkable health turnaround after surviving an execution attempt by lethal injection. And in Italy, thieves reportedly stole thirty thousand bottles of wine worth five million euros from a Florence-based winery, believed to be one of the largest thefts of its kind there.",
+        "Ukraine and Russia. Mikhail Zvinchuk, founder of the Russian war propaganda channel Rybar, has been detained in Montenegro, the Kyiv Independent reports; local media say his wife Valeria and three other associates were also held in an operation by Montenegrin police and the security service on the morning of the ninth of October. And the BBC hears from a Kyiv resident who has moved to the countryside, away from everything that can be a Russian target, as Ukraine braces for another cold winter under intense attacks.",
+        "Frontier compute. A second Russian Yandex data center has been damaged by a drone attack in two days, the company says, with several modules completely knocked out of operation. On arXiv, a new benchmark finds that safety-aligned language models often refuse a harmful request stated directly but answer it inside a role-play or story; on one small model, attack success reached eighty-nine point four percent in English and ninety-five point seven in Classical Chinese. And a bioRxiv team describes an AI-enabled drug discovery framework for an ultra-rare neurodevelopmental disease with no approved treatment.",
+        "Quantum desk. Quantum systems are rarely isolated: hidden environments can retain information and return it later, so on a quantum processor one job can leave a trace that affects the next, even after the qubits are reset. A new arXiv paper on non-Markovian response spectra studies how to learn that hidden influence. Another paper argues that point estimates of quantum fidelity lack rigorous uncertainty quantification, and sets out to provide it. And Nature reports semiconductors pushed into insulator territory.",
+        "Consciousness desk. On bioRxiv, researchers studied neurons of the ventral tegmental area, which contributes to both the euphoric and dysphoric phases of opioid use disorder, and report that neurons defined by where they project show distinct molecular adaptations during acute fentanyl withdrawal. A second preprint puts courting male fruit flies in front of a fictive heat stimulus, forcing a choice between staying to court and switching to escape, and finds that social feedback structures that stay-or-switch decision.",
+        "So, this hour's receipts. Missiles on Riyadh airport, a survivor of a botched execution, and a five-million-euro wine heist. A propagandist detained in Montenegro and a resident leaving Kyiv before winter. Drones against data centers, stories that slip past AI refusals, hidden quantum memory, and the brain in fentanyl withdrawal. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
+          "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c6dxw90kdp5yo?at_medium=RSS&at_campaign=rss",
+          "title": "Christa Pike has 'profound' health turnaround after botched execution, lawyers say",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cme3xl8ln2vko?at_medium=RSS&at_campaign=rss",
+          "title": "Thieves steal 30,000 wine bottles worth €5m in Italy, reports say",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/founder-of-russian-war-propaganda-channel-rybar-detained-in-montenegro/",
+          "title": "Founder of Rybar, Russian war propaganda channel, detained in Montenegro",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/videos/cqe8rn83088zo?at_medium=RSS&at_campaign=rss",
+          "title": "Watch: Fleeing Kyiv for the countryside ahead of winter",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://kyivindependent.com/second-russian-yandex-data-center-damaged-by-drone-attack-in-two-days-company-says/",
+          "title": "Second Russian Yandex data center damaged by drone attack in two days, company says",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11005",
+          "title": "How Narrative Wrapping Affects LLM Refusal: A Cross-Language Benchmark and Defense",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757476v1?rss=1",
+          "title": "An AI-Enabled Translational Drug Discovery Framework for NALCN Channelopathy: From High-Throughput Screening to Therapeutic Candidate",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10684",
+          "title": "Quantum non-Markovian response spectra",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10885",
+          "title": "Uncertainty Quantification for Quantum Fidelity Estimation",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02968-6",
+          "title": "Semiconductors pushed into insulator territory",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756315v1?rss=1",
+          "title": "Projection-defined ventral tegmental area neurons exhibit distinct molecular adaptations during acute fentanyl withdrawal",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756036v1?rss=1",
+          "title": "Social feedback structures stay/switch decision-making in Drosophila",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-09-11/f01.webp"
+          },
+          {
+            "t": 32.88,
+            "src": "art/2026-10-09-11/f02.webp"
+          },
+          {
+            "t": 61.15,
+            "src": "art/2026-10-09-11/f03.webp"
+          },
+          {
+            "t": 94.61,
+            "src": "art/2026-10-09-11/f04.webp"
+          },
+          {
+            "t": 123.48,
+            "src": "art/2026-10-09-11/f05.webp"
+          },
+          {
+            "t": 150.46,
+            "src": "art/2026-10-09-11/f06.webp"
+          }
+        ]
+      },
+      "seconds": 176,
+      "audio": "audio/2026-10-09-11.mp3",
+      "thumb": "thumbs/2026-10-09-11.webp",
+      "cover_video": "thumbs/2026-10-09-11.mp4",
+      "cues": [
+        0.0,
+        32.88,
+        61.15,
+        94.61,
+        123.48,
+        150.46
+      ]
+    },
+    {
       "id": "2026-10-09-10",
       "hour": "10:00",
       "date": "2026-10-09",
@@ -101,7 +239,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-10/f01.webp"
           },
           {
@@ -131,7 +269,7 @@
       "thumb": "thumbs/2026-10-09-10.webp",
       "cover_video": "thumbs/2026-10-09-10.mp4",
       "cues": [
-        0.0,
+        0,
         33.1,
         66.17,
         99.1,
