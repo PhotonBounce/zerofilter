@@ -2,6 +2,150 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-20",
+      "hour": "20:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-20",
+      "title": "A 7.7 Earthquake Strikes Panama, Trump's Diesel Numbers & OpenAI's 700 Maths Preprints Anger Mathematicians",
+      "subject": "A powerful quake and tsunami warnings in Panama, Russian diesel for US markets, a maths preprint backlash, and two nuclear clocks built on thorium-229",
+      "paragraphs": [
+        "This is ZeroFilter, at twenty hundred hours UTC on the ninth of October. A powerful magnitude seven point seven earthquake has hit Panama, damaging buildings, the BBC reports; tsunami warnings have been issued for neighbouring countries as videos of destruction circulate online. In Thailand, Queen Suthida has made her first solo flight in a fighter jet, according to the Thai Royal Household. And with midterm polls everywhere, NPR asks how much one data point can really tell us about who will win in November.",
+        "Ukraine and Russia. President Trump has allowed Russia to supply millions of tons of diesel to the United States and global markets, the Kyiv Independent reports. On Truth Social, he wrote that Russia will immediately supply over three hundred thousand tons of diesel fuel to the American and global marketplace, another five hundred thousand tons during November, and one million tons immediately thereafter. And Nature looks at a plague scare: what scientists know, and what Russia won't say.",
+        "Frontier compute. Nature reports that OpenAI has posted seven hundred mathematics preprints online, and mathematicians are up in arms. A new arXiv paper finds that recent GPT versions, asked to revise researchers' papers, often narrow or even retract the authors' claims, and tests whether the model is correcting overclaiming or writing for an anticipated reviewer. And TokenBank proposes financial infrastructure for AI services, which pay inference costs up front while revenue arrives later, and face changing API prices and service failures.",
+        "Quantum desk. Two papers in Nature report thorium-229 nuclear clocks: one with a feedback loop, and one synchronised to thorium-229. On arXiv, a team runs a dynamic compass code for error-corrected memory and logic on one hundred and fifty-six superconducting qubits arranged in a heavy-hexagonal lattice, working around the unavoidable variation in component quality. And another group reports the deterministic generation of large photonic GHZ states, using spin echo in a solid-state quantum light source.",
+        "Consciousness desk. Affective science describes emotion as an unfolding process shaped by appraisal, regulation and social interpretation. A new arXiv framework, TRACE, models an emotional episode in three stages, condition, affect and effect, combining what can be observed with cognitive factors such as internal stance and the regulation of emotion. And on bioRxiv, researchers use advanced diffusion imaging to map how white matter changes with age, and how those changes relate to performance across six cognitive domains.",
+        "So, this hour's receipts. An earthquake in Panama, a queen at the controls of a fighter jet, and the limits of polls. Diesel from Russia, and what Russia won't say about a plague scare. Seven hundred maths preprints from OpenAI, chatbots that soften claims, nuclear clocks built on thorium-229, and emotion traced from cause to consequence. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
+          "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cqm263x40y37o?at_medium=RSS&at_campaign=rss",
+          "title": "Thai Queen makes first solo flight in fighter jet",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5995525/political-polls-are-everywhere-how-much-can-they-predict-about-november",
+          "title": "Political polls are everywhere, how much can they predict about November?",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
+          "title": "Trump allows Russia to supply millions of tons of diesel to US, global markets",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.nature.com/articles/d41586-026-03215-8",
+          "title": "Plague scare: what scientists know — and what Russia won’t say",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03196-8",
+          "title": "OpenAI posts 700 maths preprints online: mathematicians are up in arms",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11355",
+          "title": "Writing for the Reviewer: Defensive Writing in GPT Models",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11333",
+          "title": "TokenBank: Financial Infrastructure for AI Services",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11084-4",
+          "title": "A thorium-229 optical nuclear clock with feedback loop",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11122-1",
+          "title": "A nuclear clock synchronized to 229 Th",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11658",
+          "title": "Error-Corrected Memory and Logic on a Heavy-Hex Superconducting-Qubit Processor",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11445",
+          "title": "Deterministic generation of large-scale photonic GHZ states utilizing spin echo in a solid-state quantum light source",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://arxiv.org/abs/2610.11410",
+          "title": "Cognition-Oriented Emotion Tracing from Causes to Consequences in Real-World Social Scenes",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757817v1?rss=1",
+          "title": "Microstructural heterogeneity of white-matter aging and its age-dependent coupling to cognition",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-09-20/f01.webp"
+          },
+          {
+            "t": 28.78,
+            "src": "art/2026-10-09-20/f02.webp"
+          },
+          {
+            "t": 54.48,
+            "src": "art/2026-10-09-20/f03.webp"
+          },
+          {
+            "t": 85.66,
+            "src": "art/2026-10-09-20/f04.webp"
+          },
+          {
+            "t": 116.42,
+            "src": "art/2026-10-09-20/f05.webp"
+          },
+          {
+            "t": 146.9,
+            "src": "art/2026-10-09-20/f06.webp"
+          }
+        ]
+      },
+      "seconds": 172,
+      "audio": "audio/2026-10-09-20.mp3",
+      "thumb": "thumbs/2026-10-09-20.webp",
+      "cover_video": "thumbs/2026-10-09-20.mp4",
+      "cues": [
+        0.0,
+        28.78,
+        54.48,
+        85.66,
+        116.42,
+        146.9
+      ]
+    },
+    {
       "id": "2026-10-09-19",
       "hour": "19:00",
       "date": "2026-10-09",
@@ -95,7 +239,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-19/f01.webp"
           },
           {
@@ -125,7 +269,7 @@
       "thumb": "thumbs/2026-10-09-19.webp",
       "cover_video": "thumbs/2026-10-09-19.mp4",
       "cues": [
-        0.0,
+        0,
         32.4,
         58.08,
         92.54,
