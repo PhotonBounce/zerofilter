@@ -2,6 +2,130 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-01",
+      "hour": "01:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-01",
+      "title": "America's Execution Debate, Europe's Street Anger & the Winner's Curse in Self-Improving AI",
+      "subject": "Hourly sourced brief: Texas carries out the first US execution since Christa Pike's botched lethal injections, Pike now walking, the death of the Spanish pensioner whose eviction sparked protests, the anger behind France's school protests, the winner's curse in self-improving AI, a science of agent behaviour, recording what a quantum computation must keep, a chiral route to topological antiferromagnets, how life became multicellular, zebrafish that regrow their spinal cords, and the Nobel's light switches in the brain.",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-one hundred hours UTC on the ninth of October, a quieter hour for breaking news, so we pick up threads from the past day. In America, the death penalty. Texas carried out the first US execution since Christa Pike's botched lethal injections, the BBC reports; lawyers for Jamaal Howard had asked a judge to pause it. Pike herself, the murderer of Colleen Slemmer, is now moving around her hospital room after surviving two lethal injections, her lawyer told the BBC.",
+        "Europe. In Spain, Maricarmen Abascal has died at eighty-seven, the BBC reports. Her eviction in September, carried out on a stretcher from the apartment she had lived in for more than seventy years, sparked nationwide protests. In France, students are blockading and marching, and the BBC asks what lies behind the anger: real grievances, it argues, and the country's habit of settling policy on the street.",
+        "Frontier compute. AI systems that improve themselves usually keep a change only if it scores better on a small test set. A new arXiv paper calls that the winner's curse: picking the best-looking candidate under measurement noise, then reusing the same test, can lock in changes that are not real gains. The authors had Qwen models rewrite their own instructions and checked each candidate on six hundred held-out questions. Another paper proposes a science of agent behaviour, building testable variables out of what agents actually do.",
+        "Quantum and life. When a quantum computation is run, which details of its execution must be kept, and how precisely, to compare results honestly? A new arXiv paper defines a sufficient record and derives a certificate for recording precision straight from the circuit. In Nature: a chiral superlattice route to spin-split topological antiferromagnetism, and a paper on overcoming key challenges in life's evolutionary transition to multicellularity.",
+        "Consciousness desk. Some vertebrates regrow a severed spinal cord on their own. A new bioRxiv preprint watched single nerve fibres regrow in zebrafish after laser cuts and, from a genetic screen, finds roles for two genes, huntingtin and Celsr3, in that long-distance regeneration. Another study trains a graph neural network on EEG from children and adolescents with and without ADHD, distilling noisy trial-by-trial signals into stable portraits of each person. And Nature's Nobel roundup includes light switches in the brain.",
+        "So, this hour's receipts. An execution in Texas after a botched one that left the prisoner alive. A pensioner's death in Spain, and students on French streets. Self-improving AI that fools itself, quantum results that need honest records, and fish that rebuild their spinal cords. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cw4g1j2z5zvzo?at_medium=RSS&at_campaign=rss",
+          "title": "Texas carries out first US execution since Christa Pike's botched lethal injections",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c60rln74yzvxo?at_medium=RSS&at_campaign=rss",
+          "title": "Christa Pike now walking after failed US execution, lawyer tells BBC",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
+          "title": "Spanish pensioner whose eviction sparked nationwide protests dies",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c6n9rgg80z94o?at_medium=RSS&at_campaign=rss",
+          "title": "France's school protests: What lies behind the anger",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09239",
+          "title": "The Winner's Curse in LLM Self-Improvement Loops: Selection Noise, Lock-in, and Acceptance Rules",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09237",
+          "title": "Trajectory Abstraction for the Science of Language Agent Behavior",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09931",
+          "title": "Sufficient quantum provenance: retained fields and certified recording precision",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11073-7",
+          "title": "A chiral superlattice route to spin-split topological antiferromagnetism",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11038-w",
+          "title": "Overcoming key challenges in the evolutionary transition to multicellularity",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755968v1?rss=1",
+          "title": "Huntingtin and Celsr3 Orchestrate Spontaneous Long-Distance Spinal Cord Regeneration",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755897v1?rss=1",
+          "title": "Distilling Trial-Level EEG Variability into Participant Representations: Neurophysiologically Constrained Graph Learning in ADHD",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03208-7",
+          "title": "Nobel prizes 2026: ‘ghost’ particles, mirror molecules and light switches in the brain",
+          "published": "2026-10-07"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-01/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-01/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-01/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-01/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-09-01/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-09-01/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-09-01.mp3",
+      "thumb": "thumbs/2026-10-09-01.webp",
+      "cover_video": "thumbs/2026-10-09-01.mp4"
+    },
+    {
       "id": "2026-10-09-00",
       "hour": "00:00",
       "date": "2026-10-09",
@@ -95,7 +219,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-00/f01.webp"
           },
           {
@@ -125,7 +249,7 @@
       "thumb": "thumbs/2026-10-09-00.webp",
       "cover_video": "thumbs/2026-10-09-00.mp4",
       "cues": [
-        0.0,
+        0,
         22.68,
         54.41,
         84.22,
