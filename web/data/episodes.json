@@ -2,6 +2,148 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-17",
+      "hour": "17:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-17",
+      "title": "US Sanctions the International Criminal Court, Balloons Over Moscow & the Hidden Cost of an Agent's Context File",
+      "subject": "Washington targets the ICC, Russian airports close during an alleged balloon and drone raid, Montenegro expels Rybar's founder, and smarter context for AI agents",
+      "paragraphs": [
+        "This is ZeroFilter, at seventeen hundred hours UTC on the ninth of October. The United States has imposed sanctions on the International Criminal Court, the BBC reports; Washington says the measures are aimed at restricting the tribunal's resources and its ability to operate. Protests against sexual violence, under the banner I am Jane Doe, took place across more than forty US states on the eighth of October. And in Peru, a left-wing candidate named Hitler Mussolini has narrowly won a mayoral race in a remote district of the Andes, exit polls show.",
+        "Ukraine and Russia. Russian airports have closed amid an alleged Ukrainian balloon and drone raid, the Kyiv Independent reports; local Russian Telegram channels showed mysterious balloons in the skies near Moscow, and air defence activity. Montenegro will expel the founder of the Russian war blog Rybar, citing security reasons; its police described a targeted and coordinated operation carried out with the National Security Agency and the support of international partners. And the Kyiv Independent asks why European Union sanctions have missed the company behind Russia's tank industry, pointing to what it calls a visibility problem.",
+        "Frontier compute. At the start of every session, AI agents load a fixed context file, and every token in it is charged again in every later round, while the file tends to grow by appending. A new arXiv paper treats curating that file as a capacitated assortment problem, noting that adding an instruction never raises compliance with the others. Another paper finds that, when language models are compressed to low precision, lower reconstruction loss can actually make them perform worse. And a third, TaReD, breaks long tasks into subtasks matched to the tools an agent actually has.",
+        "Quantum desk. Variational quantum algorithms often stall on barren plateaus, where gradients vanish as circuits grow. A new arXiv paper proposes Q-Capsule, which splits a quantum neural network into small, loosely coupled capsules to keep it trainable. Another team studies how to test quantum compiler passes when the correct output of large entangled circuits is too hard to compute. And a third proposes fast entanglement generation in atomic ensembles through cavity-mediated nematic tensor dynamics, with sensing in mind.",
+        "Consciousness desk. Inspired by the insect fan-shaped body, a new bioRxiv model shows how a recurrent network can guide future movement using a memory of past movement, letting a navigating agent shape the structure of its paths. Another preprint introduces a method for learning interpretable switching dynamics in a latent space shared by neural activity and behaviour. And researchers report how Ogerin, a compound reported to reduce infarct volume after an induced stroke, is distributed through the body of mice, a step toward judging its therapeutic potential.",
+        "So, this hour's receipts. US sanctions on the International Criminal Court, protests across America, and an unlikely mayor in Peru. Balloons near Moscow, a propagandist expelled, and a sanctions blind spot. Leaner context for AI agents, capsules against barren plateaus, and a brain model that steers by memory. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
+          "title": "US imposes sanctions on International Criminal Court",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cmy83pp3904vo?at_medium=RSS&at_campaign=rss",
+          "title": "Watch: 'I am Jane Doe' protests across US call for end to sexual violence",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo?at_medium=RSS&at_campaign=rss",
+          "title": "Man named Hitler Mussolini elected mayor in Peru",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-airports-closed-amid-alleged-ukrainian-balloon-and-drone-raid/",
+          "title": "Russian airports closed amid alleged Ukrainian balloon and drone raid",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/founder-of-russian-war-propaganda-channel-rybar-detained-in-montenegro/",
+          "title": "Montenegro to expel founder of Russian war blog Rybar, citing security reasons",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/why-eu-sanctions-have-missed-company-behind-russias-tank-industry-2/",
+          "title": "Why have EU sanctions missed the company behind Russia’s tank industry?",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11007",
+          "title": "Curating Always-Loaded Context for LLM Agents: A Capacitated Assortment Model with Censored Feedback",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11226",
+          "title": "When Lower Reconstruction Loss Hurts: Distributionally Robust Refinement for Low-Bit LLM Quantization",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11268",
+          "title": "TaReD: Tool-Aware Recursive Decomposition for Long-Horizon Tasks",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11261",
+          "title": "Q-Capsule: A Localized Capsule-Based Quantum Neural Architecture for Barren Plateau Mitigation",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11195",
+          "title": "Retromorphic Testing of Quantum Compiler Passes",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11018",
+          "title": "Fast entanglement generation via cavity-mediated nematic tensor dynamics",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756268v1?rss=1",
+          "title": "A network model of path control",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756323v1?rss=1",
+          "title": "Learning Interpretable Switching Dynamics in Shared Neural-Behavioral Latent Space",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.754522v1?rss=1",
+          "title": "Pharmacokinetic properties of Ogerin and its regulation of post-ischemia signaling in mice",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-17/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-17/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-17/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-17/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-09-17/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-09-17/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-09-17.mp3",
+      "thumb": "thumbs/2026-10-09-17.webp",
+      "cover_video": "thumbs/2026-10-09-17.mp4"
+    },
+    {
       "id": "2026-10-09-16",
       "hour": "16:00",
       "date": "2026-10-09",
@@ -107,7 +249,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-16/f01.webp"
           },
           {
@@ -137,7 +279,7 @@
       "thumb": "thumbs/2026-10-09-16.webp",
       "cover_video": "thumbs/2026-10-09-16.mp4",
       "cues": [
-        0.0,
+        0,
         32.59,
         60.26,
         93.19,
