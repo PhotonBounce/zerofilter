@@ -2,6 +2,144 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-08",
+      "hour": "08:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-08",
+      "title": "Kramatorsk Bus Strikes, a Livestreamed Execution & Nuclear Clocks That Tick",
+      "subject": "Kramatorsk, the Pentagon's firing-squad plan, US quantum spending and the first nuclear clocks",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-eight hundred hours UTC on the ninth of October. The Pentagon says a firing squad execution will be livestreamed. Pete Hegseth says the execution will be public, and a legal expert tells the BBC the unprecedented decision is on uncertain legal terrain. In the Gulf off Qatar, a tanker has been hit by multiple projectiles, a maritime agency says; casualties are reported on the vessel, which a maritime intelligence firm identified as the oil and chemical tanker Acers. And the Canadian poet Anne Carson, seventy-six, has won the Nobel Prize in Literature, celebrated for work that crosses the boundaries between poetry, fiction and scholarship.",
+        "Ukraine and Russia. At least thirty-three people are dead after Russian glide bomb strikes on buses in Kramatorsk, the Kyiv Independent reports. Donetsk Governor Vadym Filashkin said: Russia comes to the Ukrainian land with death. In Kyiv, Russian attacks plunged the capital into near-total darkness; the drop in voltage temporarily halted metro trains and escalators, city authorities said, and more than three million residents lost power on the eighth of October. Britain has announced a seventy-one million dollar winter aid package for Ukraine. And in Lviv, two trains collided, injuring eight.",
+        "Frontier compute. The US Department of War announced quantum computing initiatives and programmatic updates totalling about three hundred and fifty million dollars, aimed at strengthening US leadership in quantum capabilities that support national security. Its Office of Strategic Capital also signed a one hundred and fifty million dollar conditional loan commitment with PsiQuantum, to expand the company's advanced manufacturing and prototyping in the United States.",
+        "Quantum desk. Nature reports that nuclear clocks have ticked for the first time. And on arXiv, a team entangled a trapped barium ion with a silicon-vacancy centre in a diamond nanophotonic cavity: a photon emitted by the ion is converted in wavelength and encoding, reflected from the diamond cavity and detected, so a single detected photon heralds the entanglement. The goal, in the paper's title, is quantum networking at the speed of quantum computation, with kilohertz entanglement between separate processor modules.",
+        "Consciousness desk. Nature's guide to this year's Nobel prizes headlines ghost particles, mirror molecules and light switches in the brain. And on bioRxiv, a study of dietary magnesium, which the authors say enhances memory in mammals and fruit flies, used single-cell RNA sequencing to find changes in Hippo-pathway genes in memory-relevant neurons of the fly brain. Knocking down those genes removed the magnesium boost to memory, but not ordinary baseline memory.",
+        "So, this hour's receipts. A livestreamed execution announced by the Pentagon, a tanker struck off Qatar, and a Nobel for a poet. Thirty-three dead in Kramatorsk and a capital in the dark. Hundreds of millions of defence dollars for quantum computing, nuclear clocks ticking for the first time, and magnesium, memory and the fly brain. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
+          "title": "Firing squad execution to be livestreamed, Pentagon says",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cqlydk7796wdo?at_medium=RSS&at_campaign=rss",
+          "title": "Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cq4g1j54nepyo?at_medium=RSS&at_campaign=rss",
+          "title": "'Bold and inventive' Canadian poet Anne Carson wins Nobel Literature Prize",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/at-least-12-dead-after-russian-glide-bomb-strikes-kramatorsk-bus-stop/",
+          "title": "At least 33 dead after Russian glide bomb strikes Kramatorsk buses",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+          "title": "Russian attacks plunge Kyiv into near-total darkness, disrupt power, metro, water supply",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/uk-to-provide-71-million-winter-aid-package-to-ukraine/",
+          "title": "UK to provide $71 million winter aid package to Ukraine",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/8-injured-as-passenger-train-collides-with-locomotive-in-lviv/",
+          "title": "Two trains collide in Lviv, injuring 8",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622109/department-of-war-announces-350-million-in-quantum-computing-initiatives/",
+          "title": "Department of War Announces $350 Million in Quantum Computing Initiatives",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622113/department-of-wars-office-of-strategic-capital-signs-150-million-conditional-lo/",
+          "title": "Department of War's Office of Strategic Capital Signs $150 Million Conditional Loan Commitment With PsiQuantum",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03060-9",
+          "title": "Nuclear clocks tick for the first time",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10705",
+          "title": "Quantum Networking at the Speed of Quantum Computation: Kilohertz Entanglement in a Heterogeneous Quantum System",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03208-7",
+          "title": "Nobel prizes 2026: ‘ghost’ particles, mirror molecules and light switches in the brain",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756214v1?rss=1",
+          "title": "Dietary magnesium supplement enhances memory through Hippo signaling",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-09-08/f01.webp"
+          },
+          {
+            "t": 38.38,
+            "src": "art/2026-10-09-08/f02.webp"
+          },
+          {
+            "t": 72.94,
+            "src": "art/2026-10-09-08/f03.webp"
+          },
+          {
+            "t": 97.06,
+            "src": "art/2026-10-09-08/f04.webp"
+          },
+          {
+            "t": 125.95,
+            "src": "art/2026-10-09-08/f05.webp"
+          },
+          {
+            "t": 151.49,
+            "src": "art/2026-10-09-08/f06.webp"
+          }
+        ]
+      },
+      "seconds": 176,
+      "audio": "audio/2026-10-09-08.mp3",
+      "thumb": "thumbs/2026-10-09-08.webp",
+      "cover_video": "thumbs/2026-10-09-08.mp4",
+      "cues": [
+        0.0,
+        38.38,
+        72.94,
+        97.06,
+        125.95,
+        151.49
+      ]
+    },
+    {
       "id": "2026-10-09-07",
       "hour": "07:00",
       "date": "2026-10-09",
@@ -108,7 +246,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-07/f01.webp"
           },
           {
@@ -138,7 +276,7 @@
       "thumb": "thumbs/2026-10-09-07.webp",
       "cover_video": "thumbs/2026-10-09-07.mp4",
       "cues": [
-        0.0,
+        0,
         32.59,
         67.75,
         96.43,
