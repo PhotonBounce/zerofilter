@@ -2,6 +2,150 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-16",
+      "hour": "16:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-16",
+      "title": "Ethiopia and Eritrea Trade Blame, a Journalist Describes a Brutal Arrest & AI Judges That Miss Side Effects",
+      "subject": "A widening Horn of Africa crisis, a Ukrainian reporter's account of his Austrian detention, AI peer review, and a stroke patient who kept improving",
+      "paragraphs": [
+        "This is ZeroFilter, at sixteen hundred hours UTC on the ninth of October. Ethiopia and Eritrea are accusing each other of starting a conflict after troops crossed the border, the BBC reports; truckloads of Eritrean soldiers have been seen driving into Ethiopia, which has reportedly responded with drone strikes. Nature reports that this year's chemistry Nobel goes to researchers who solved the mystery of how handed, mirror-image organic molecules can emerge. And Nature also asks whether the world can still end AIDS, quoting a warning that when prevention disappears, infections rise.",
+        "Ukraine and Russia. The Ukrainian journalist detained in Austria says his detention was brutal: we were being arrested like terrorists, he says, in the Kyiv Independent's report. He was reportedly on an editorial assignment in Vienna with his colleague Yaroslav Bondarenko when Austrian authorities detained him. And the BBC reports that a renewed Russian campaign of strikes on power and energy infrastructure, with winter approaching, has made some people in Kyiv contemplate leaving the capital, and some are packing their bags.",
+        "Frontier compute. Computer-use agents are increasingly graded by automatic judges, but a long trajectory of screenshots and actions can look complete while breaking a rule in the instruction or causing an unwanted side effect. A new arXiv benchmark, AgentHorizon, tests whether those AI judges catch it. Another paper argues that language models used in peer review have been built to imitate human reviews, and proposes instead to focus them on detecting errors. And a third introduces an agent scientist that checks whether a model can even be identified from its data before running more experiments.",
+        "Quantum desk. Surface codes remain strong candidates for fault-tolerant quantum computing, and a new arXiv paper presents geometry-optimised hyperbolic codes for modular quantum architectures. Another team extends high-rate concatenated codes from qubits to qudits, which offer a larger space per particle. And a third describes how turbulence degrades photons that carry information in orbital angular momentum, treating the damage as leakage out of the logical subspace.",
+        "Consciousness desk. Recovery from aphasia after a stroke is traditionally thought to plateau within a year. A bioRxiv case study followed one patient with behavioural testing and brain scans at nine, twenty-two, thirty-three and seventy-one months, and argues against that plateau assumption. Another preprint combines barcoded rabies tracing with single-cell sequencing to reconstruct more than ten thousand networks in cerebral organoids, and finds that their circuitry self-organises into stereotyped motifs. And a third reports that reducing APOE4 in fibroblasts around blood vessels decreases vascular amyloid in the brain.",
+        "So, this hour's receipts. Blame across the Ethiopia-Eritrea border, a Nobel for mirror molecules, and the fight against AIDS. A detained journalist describing his arrest and a capital bracing for winter. Judges for AI agents, error-hunting peer review, codes for qudits, and language still recovering years after a stroke. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c65ynvw250y1o?at_medium=RSS&at_campaign=rss",
+          "title": "Ethiopia and Eritrea accuse each other of starting conflict after troops cross border",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/d41586-026-03093-0",
+          "title": "Chemistry Nobel awarded for solving mystery of how ‘handed’ organic molecules can emerge",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/d41586-026-03127-7",
+          "title": "‘When prevention disappears, infections rise’: can the world still end AIDS?",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukrainian-investigative-journalist-mykhailo-tkach-detained-in-austria-while-on-assignment/",
+          "title": "'We were being arrested like terrorists' - Ukrainian journalist says his detention in Austria was brutal",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c6zjx7jexz1do?at_medium=RSS&at_campaign=rss",
+          "title": "Russian strikes and approaching winter force some in Kyiv to pack bags and flee",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11050",
+          "title": "AgentHorizon: Evaluating Agentic Judges for Long-Horizon Computer-Use Tasks",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11087",
+          "title": "Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11253",
+          "title": "LLM-IDEA: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10948",
+          "title": "Geometry-optimized hyperbolic codes for modular fault-tolerant quantum architectures",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11225",
+          "title": "High-Rate Concatenated Quantum Error-Correcting Codes for Qudits",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11001",
+          "title": "Structured leakage in OAM-encoded qubits revealed by distributed quantum feature extraction",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.755714v1?rss=1",
+          "title": "Dispelling the Plateau Assumption: Case-Based Evidence for Language Recovery in Chronic-Post Stroke Aphasia",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755792v1?rss=1",
+          "title": "Connectomics by Sequencing Reveals Self-Organizing Principles of Neuronal Networks in Cerebral Organoids",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756327v1?rss=1",
+          "title": "APOE4 reduction in vascular-associated fibroblasts decreases cerebral amyloid angiopathy and associated vascular dysfunction",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-09-16/f01.webp"
+          },
+          {
+            "t": 32.59,
+            "src": "art/2026-10-09-16/f02.webp"
+          },
+          {
+            "t": 60.26,
+            "src": "art/2026-10-09-16/f03.webp"
+          },
+          {
+            "t": 93.19,
+            "src": "art/2026-10-09-16/f04.webp"
+          },
+          {
+            "t": 104.71,
+            "src": "art/2026-10-09-16/f05.webp"
+          },
+          {
+            "t": 138.07,
+            "src": "art/2026-10-09-16/f06.webp"
+          }
+        ]
+      },
+      "seconds": 162,
+      "audio": "audio/2026-10-09-16.mp3",
+      "thumb": "thumbs/2026-10-09-16.webp",
+      "cover_video": "thumbs/2026-10-09-16.mp4",
+      "cues": [
+        0.0,
+        32.59,
+        60.26,
+        93.19,
+        104.71,
+        138.07
+      ]
+    },
+    {
       "id": "2026-10-09-15",
       "hour": "15:00",
       "date": "2026-10-09",
@@ -114,7 +258,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-15/f01.webp"
           },
           {
@@ -144,7 +288,7 @@
       "thumb": "thumbs/2026-10-09-15.webp",
       "cover_video": "thumbs/2026-10-09-15.mp4",
       "cues": [
-        0.0,
+        0,
         33.96,
         66.67,
         98.21,
