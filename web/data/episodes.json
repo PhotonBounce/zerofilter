@@ -2,6 +2,143 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-07",
+      "hour": "07:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-07",
+      "title": "Anti-Migrant Violence in South Africa, Kyiv's Loss Count & Quantum Keys Across 300 Kilometres",
+      "subject": "Hourly sourced brief: anti-migrant violence in South Africa, the ICE shooting in New York, the USS Lincoln home, Ukraine's General Staff count of Russian losses, the reported Tver strike, Yuri Shvets' broadcast #1218, AI that embraces human disagreement, memory that makes agents sycophantic, spatial intelligence in Minecraft-style worlds, quantum keys over 300 km, simulating quantum fields on a chip, and how social pain shows up in adolescent brain dynamics.",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-seven hundred hours UTC on the ninth of October. In South Africa, cars have been torched and shops looted as anti-migrant violence erupts again, the BBC reports; the country has seen recurrent outbreaks, often targeting migrants from neighbouring countries. In New York City, an ICE agent shot a man during what the Department of Homeland Security called the arrest of a criminal illegal alien, and the mayor has expressed outrage. And the carrier USS Lincoln has docked in San Diego after a ten-month mission; it was due back in May, but the war with Iran kept it at sea.",
+        "Ukraine and Russia. Ukraine's General Staff says Russia has lost one million, five hundred and forty-nine thousand, four hundred and ninety troops since February 2022, including one thousand seven hundred and ten casualties over the past day; these are Ukraine's figures, reported by the Kyiv Independent. Overnight, Ukraine reportedly targeted a cruise-missile fuel plant and an oil depot in Russia's Tver Oblast, according to Russian Telegram channels. And Yuri Shvets' YouTube feed is reachable again; his latest broadcast, number twelve eighteen, is titled: the war in Ukraine is reshaping the world, Putin is losing his nuclear bluff.",
+        "Frontier compute. AI is usually trained as if there were one right answer, with human disagreement averaged away. A new arXiv paper asks whose ground truth that is, and argues for embracing ambiguity in AI that makes decisions about people. Another shows how persistent memory can make agents sycophantic and leak information across domains, and separates two choices: what memories to admit, and how to present them. And Mine Odyssey benchmarks agents' spatial intelligence in open, unfamiliar worlds.",
+        "Quantum. A new arXiv paper reports measurement-device-independent quantum key distribution over three hundred kilometres, even with flawed state preparation in the sources, the kind of device imperfection that has dogged practical security. Another proposes a superconducting transmission line to simulate an interacting quantum field theory directly, encoding the field without truncating it. And a third introduces Heisenberg-echo symmetrization, to fix an error-mitigation trick that fails when real gate noise does not commute.",
+        "Consciousness desk. A new study, posted to arXiv, recorded EEG from one hundred and six adolescents with depression, sixty-seven of whom self-harm, during social pain, physical pain and rest, and modelled the rapid shifts between brain states. Its title reports that social pain disrupts the dynamics linking emotion to action in those who self-harm. And on bioRxiv, researchers separate two kinds of fibres in the thin layer of white matter beneath the cortex, short tangential U-fibres and long radial ones, and relate them to large-scale brain function.",
+        "So, this hour's receipts. Violence against migrants in South Africa and a shooting in New York. A loss count from Kyiv, a strike on Russian missile fuel, and Shvets back on the wire. AI learning that people disagree, keys shared across three hundred kilometres, and a closer look at how pain moves through young brains. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cwm24v45p4jgo?at_medium=RSS&at_campaign=rss",
+          "title": "Cars torched and shops looted as anti-migrant violence erupts in South Africa",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c59vzk9yypn3o?at_medium=RSS&at_campaign=rss",
+          "title": "ICE agent shoots man in New York City",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cwp8gnp14xr2o?at_medium=RSS&at_campaign=rss",
+          "title": "​​USS Lincoln docks in San Diego after 10-month mission",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-549-490-troops-in-ukraine-since-feb-24-2022/",
+          "title": "General Staff: Russia has lost 1,549,490 troops in Ukraine since Feb. 24, 2022",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+          "title": "Ukraine reportedly targets Russian cruise missile fuel plant, oil depot in overnight attack",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.youtube.com/watch?v=IC4ArMD41AU",
+          "title": "ВОЙНА В УКРАИНЕ ПЕРЕСТРАИВАЕТ МИР / ПУТИН ТЕРЯЕТ ЯДЕРНЫЙ БЛЕФ /№1218/ Юрий Швец",
+          "published": "2026-10-08",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10805",
+          "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11188",
+          "title": "What to Admit and How to Present: Governing Persistent Memory in LLM Agents",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11328",
+          "title": "Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11428",
+          "title": "Experimental Measurement-Device-Independent Quantum Key distribution with Flawed State-Preparation over 300 km",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11071",
+          "title": "Analog quantum simulation of $\\phi^4$ field theory with a superconducting transmission line",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11372",
+          "title": "Heisenberg Echo Symmetrization for Gate-Insertion Error Mitigation",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://arxiv.org/abs/2610.11155",
+          "title": "Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756249v1?rss=1",
+          "title": "RADIAL AND TANGENTIAL FIBER COMPONENTS IN HUMAN SUPERFICIAL WHITE MATTER AND THEIR ASSOCIATIONS WITH MACROSCALE FUNCTION",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-07/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-07/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-07/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-07/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-09-07/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-09-07/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-09-07.mp3",
+      "thumb": "thumbs/2026-10-09-07.webp",
+      "cover_video": "thumbs/2026-10-09-07.mp4"
+    },
+    {
       "id": "2026-10-09-06",
       "hour": "06:00",
       "date": "2026-10-09",
@@ -95,7 +232,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-06/f01.webp"
           },
           {
@@ -125,7 +262,7 @@
       "thumb": "thumbs/2026-10-09-06.webp",
       "cover_video": "thumbs/2026-10-09-06.mp4",
       "cues": [
-        0.0,
+        0,
         27.22,
         49.27,
         82.46,
