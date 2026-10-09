@@ -63,8 +63,9 @@
       "speaker": "Yuri Shvets",
       "max_age_hours": 72,
       "enabled": true,
-      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb2oej0JtxlnywlqoSiHHVQ",
-      "verified": "Owner confirmed 2026-10-07: UCb2oej0JtxlnywlqoSiHHVQ is Yuri Shvets' own channel."
+      "url": "https://www.youtube.com/feeds/videos.xml?playlist_id=UUb2oej0JtxlnywlqoSiHHVQ",
+      "verified": "Owner confirmed 2026-10-07: UCb2oej0JtxlnywlqoSiHHVQ is Yuri Shvets' own channel.",
+      "_note": "2026-10-09: the channel_id feed returned HTTP 404 for 4+ hours; this is the same channel's uploads playlist (UC… -> UU…)."
     }
   ]
 }
