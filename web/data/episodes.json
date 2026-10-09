@@ -2,6 +2,130 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-14",
+      "hour": "14:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-14",
+      "title": "Eritrean Troops Cross Into Ethiopia, the EU Takes a Seat at Ukraine Talks & Drones That Follow Plain Instructions",
+      "subject": "An Ethiopia-Eritrea border crisis, Europe's place at the peace talks, sham academic societies, and how brains refine what they see",
+      "paragraphs": [
+        "This is ZeroFilter, at fourteen hundred hours UTC on the ninth of October. Ethiopia has warned Eritrea that it will defend itself after troops crossed the border, the BBC reports; truckloads of Eritrean soldiers have been seen driving into Ethiopia, which has reportedly responded with drone strikes. Elon Musk has taken pot-shots at India's richest man, the Reliance owner Mukesh Ambani, as Starlink struggles to launch in India. And Nature warns that top researchers are being misled by sham academic societies.",
+        "Ukraine and Russia. The European Union will be represented at the Ukraine peace talks by Bjoern Seibert, Ursula von der Leyen's right-hand man, two EU officials have confirmed to the Kyiv Independent; he will sit alongside the national security advisers of the E3 countries, France, Germany and the United Kingdom. And Ukraine has now confirmed its strikes on a Russian cruise missile fuel plant and missile facilities. The overnight attack on Russia's Tver Oblast on the ninth of October reportedly targeted a factory making fuel components for Kh-55 and Kh-101 cruise missiles, Russian Telegram channels had reported.",
+        "Frontier compute. Aerial navigation agents are usually trained on detailed, step-by-step commands, but people give short, intent-driven instructions. A new arXiv paper measures that gap: on one frozen drone navigator, the success rate drops from thirty-one percent to about eleven, and the authors build a translator, grounded in flight trajectories, that turns plain intentions into the language the navigator understands. Another paper, Synthesis Through Simulation, generates coherent enterprise data by letting agents interact with simulated systems, because business and legal restrictions make real company data hard to use for training.",
+        "Quantum desk. A new arXiv paper sets out a unified framework for building and validating the effective models that make complex quantum dynamics tractable, keeping only the states, processes and timescales a question needs. Another team speeds up the design of Josephson microwave devices with a two-stage method, fast linear simulations to select promising circuits followed by nonlinear ones to tune them, applied to a Kerr-reversal travelling-wave parametric amplifier. And a third study examines how quantum noise erodes entanglement between qudits.",
+        "Consciousness desk. Recurrent connections are everywhere in the visual cortex, but how they reshape what we see over time is poorly understood. A bioRxiv team trained recurrent networks on face and object recognition and reports that lateral recurrence dynamically refines visual representations for the task at hand. In fruit flies, another preprint finds that the sex identity of neurons shapes social buffering of defensive freezing behaviour.",
+        "So, this hour's receipts. Soldiers across the Ethiopian border, Musk's jabs at India's richest man over Starlink, and fake societies fooling scientists. Europe's envoy at the peace table and Ukraine confirming its missile-fuel strikes. Drones that understand plain language, synthetic company data, cleaner quantum models, and brains that sharpen what they see. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c65ynvw250y1o?at_medium=RSS&at_campaign=rss",
+          "title": "Ethiopia warns Eritrea it will defend itself after troops cross border",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cvglw9ryjrylo?at_medium=RSS&at_campaign=rss",
+          "title": "Why Elon Musk is taking on India's richest man over Starlink",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/d41586-026-03216-7",
+          "title": "Briefing Chat: Top researchers are being mislead by sham academic societies",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/eu-represented-by-von-der-leyens-right-hand-at-ukraine-peace-talks-sources-say/",
+          "title": "EU represented by von der Leyen's right-hand at Ukraine peace talks, sources say",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+          "title": "Ukraine confirms strikes on Russian cruise missile fuel plant, missile facilities",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10635",
+          "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10549",
+          "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10763",
+          "title": "Engineering Quantum Interactions: From Effective Models to Validated Physical Predictions",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10715",
+          "title": "Nonlinear Feedback in Josephson Circuit Optimization: Application to a Kerr-Reversal JTWPA",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10820",
+          "title": "Susceptibility of qudit-qudit entanglement to quantum noise: insights from the negativity rank",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756219v1?rss=1",
+          "title": "Lateral recurrence dynamically refines visual representations for task performance",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.756549v1?rss=1",
+          "title": "Neuronal sex identity shapes social buffering of defensive freezing behaviour in fruit flies",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-14/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-14/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-14/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-14/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-09-14/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-09-14/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-09-14.mp3",
+      "thumb": "thumbs/2026-10-09-14.webp",
+      "cover_video": "thumbs/2026-10-09-14.mp4"
+    },
+    {
       "id": "2026-10-09-13",
       "hour": "13:00",
       "date": "2026-10-09",
@@ -95,7 +219,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-13/f01.webp"
           },
           {
@@ -125,7 +249,7 @@
       "thumb": "thumbs/2026-10-09-13.webp",
       "cover_video": "thumbs/2026-10-09-13.mp4",
       "cues": [
-        0.0,
+        0,
         32.06,
         67.51,
         99.43,
