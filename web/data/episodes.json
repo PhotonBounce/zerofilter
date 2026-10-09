@@ -2,6 +2,156 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-18",
+      "hour": "18:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-18",
+      "title": "Backlash Over US Sanctions on the ICC, a Record Strike on Russian Officers & Yandex Struggles After Data Centre Hits",
+      "subject": "The court that seeks Putin's arrest under US sanctions, twenty Russian officers killed in Donetsk, Yandex disruption, and nerve-cell scaffolds and chronic pain",
+      "paragraphs": [
+        "This is ZeroFilter, at eighteen hundred hours UTC on the ninth of October. The International Criminal Court has condemned new US sanctions as an assault on the rule of law, the BBC reports, and several member states, including the United Kingdom, say they strongly disagree. The Kyiv Independent notes that this is the court that issued an arrest warrant for Vladimir Putin in 2023; the sanctions would prohibit transactions with it after a six-month grace period. US immigration officials are defending ICE agents who shot a man in the same car as a child. And NPR reports the US is working to reverse the deportation of an Egyptian man, Ahmed Soliman, to a third country in Africa, after an Arizona judge said it violated due process.",
+        "Ukraine and Russia. A record twenty Russian officers were killed in Ukrainian strikes on a headquarters in Donetsk, monitors say; according to Mediazona, eighteen died immediately in the missile strike and two later succumbed to their injuries. And Russia's search engine Yandex, often dubbed Russia's Google, is struggling after Ukrainian strikes on its data centres, the BBC reports; the company admits customers may experience disruption to digital services.",
+        "Frontier compute. On arXiv, Harness Compilation lets a large teacher model rework the tools and instructions around a small, frozen vision-language model, improving it without any weight updates. Another paper pairs a tool agent with an interface-coding agent, so that an assistant can answer with a generated on-screen interface rather than with text alone. And Nature explains the science of superintelligence, and why AI is still a useful word.",
+        "Quantum desk. A new arXiv paper proves a lower bound for lattice surgery on sparse stabiliser codes: with sparse ancillas it needs, in the worst case, a number of extra qubits that grows with the square of the number of logical qubits. Another team simulates hyperbolic geometry, home to exotic phenomena from holographic duality to new topological phases, with superconducting circuits. And a third reports the first experimental demonstration of a subspace-search variational eigensolver for excited states, using photonic qudits.",
+        "Consciousness desk. Nature reports that breaking down a nerve-cell scaffold relieves chronic pain in mice. On bioRxiv, a study of nearly three thousand people across three cohorts finds that sex differences in human subcortical anatomy are robust and replicable in adulthood and already evident before puberty. And in head-fixed mice shown nothing more than a moving vertical bar of light, without any task or reward, sixty-six percent of a class of neurons in the medial entorhinal cortex responded topographically.",
+        "So, this hour's receipts. A court under sanctions, a shooting with a child in the car, and a deportation the government now wants reversed. A record strike on Russian officers and a search giant knocked off balance. Small models with smarter harnesses, the cost of quantum surgery, and pain relief from loosening a scaffold. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
+          "title": "US unveils sanctions on ICC in move court condems as 'assault on rule of law'",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/us-sanctions-court-that-seeks-to-arrest-putin-prompts-backlash-2/",
+          "title": "US sanctions court that seeks to arrest Putin, prompts backlash",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cq78px5y1zmzo?at_medium=RSS&at_campaign=rss",
+          "title": "US immigration officials defend ICE agents who shot man in same car as child",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/record-20-russian-officers-killed-in-ukrainian-strikes-on-headquarters-in-donetsk-monitors-say/",
+          "title": "Record 20 Russian officers killed in Ukrainian strikes on headquarters in Donetsk, monitors say",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss",
+          "title": "Russian search engine Yandex struggles after Ukrainian strikes on data centres",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/09/g-s1-147476/trump-third-country-deportation-africa-reverse",
+          "title": "U.S. working to reverse an Egyptian man's third-country deportation to Africa",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11231",
+          "title": "Harness Compilation: Which Decisions Should a Small Vision-Language Model Keep?",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11123",
+          "title": "When Interfaces Speak: Data-Aware Generative UI Harness for Active Interaction",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03198-6",
+          "title": "The science of superintelligence and why AI is still a useful word",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11097",
+          "title": "A lower bound on the overhead of surgery on sparse stabiliser codes",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11081",
+          "title": "Quantum Simulation of a Hyperbolically Driven Quantum System with Superconducting Circuits",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11026",
+          "title": "Demonstration of subspace-search variational quantum eigensolver using photonic orbital angular momentum qudits",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03159-z",
+          "title": "Breaking down nerve-cell scaffold relieves chronic pain in mice",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756728v1?rss=1",
+          "title": "Sex Differences in Human Subcortical Anatomy are Robust and Replicable in Adulthood, Already Evident Prepubertally, and Aligned with Sex Chromosomal and Gonadal Influences",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756590v1?rss=1",
+          "title": "Moving object generates topographic responses in the majority of entorhinal neurons",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-09-18/f01.webp"
+          },
+          {
+            "t": 41.14,
+            "src": "art/2026-10-09-18/f02.webp"
+          },
+          {
+            "t": 65.45,
+            "src": "art/2026-10-09-18/f03.webp"
+          },
+          {
+            "t": 90.02,
+            "src": "art/2026-10-09-18/f04.webp"
+          },
+          {
+            "t": 120.53,
+            "src": "art/2026-10-09-18/f05.webp"
+          },
+          {
+            "t": 149.28,
+            "src": "art/2026-10-09-18/f06.webp"
+          }
+        ]
+      },
+      "seconds": 173,
+      "audio": "audio/2026-10-09-18.mp3",
+      "thumb": "thumbs/2026-10-09-18.webp",
+      "cover_video": "thumbs/2026-10-09-18.mp4",
+      "cues": [
+        0.0,
+        41.14,
+        65.45,
+        90.02,
+        120.53,
+        149.28
+      ]
+    },
+    {
       "id": "2026-10-09-17",
       "hour": "17:00",
       "date": "2026-10-09",
@@ -113,7 +263,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-17/f01.webp"
           },
           {
@@ -143,7 +293,7 @@
       "thumb": "thumbs/2026-10-09-17.webp",
       "cover_video": "thumbs/2026-10-09-17.mp4",
       "cues": [
-        0.0,
+        0,
         30.34,
         63.77,
         96.1,
