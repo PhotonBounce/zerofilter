@@ -2,6 +2,138 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-00",
+      "hour": "00:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-00",
+      "title": "A British Soldier Charged with Spying for Russia, the Monaco Bomb Suspect Speaks & the Infant Brain",
+      "subject": "Hourly sourced brief: why Meta keeps booming despite Mark Zuckerberg's image problem, Americans on the death penalty, a 24-year-old British intelligence specialist charged with spying for Russia, the Monaco bomb suspect's account, a memory benchmark one simple rule mostly answers, self-designing AI agent evolvers, extreme low-bit compression, a semiconductor with a 7-electronvolt bandgap, directional quantum light, and memory circuits in the first two years of life.",
+      "paragraphs": [
+        "This is ZeroFilter, at midnight UTC on the ninth of October. Mark Zuckerberg has an image problem, the BBC's North America tech correspondent writes: a new film paints the Meta founder as a villain, yet the company seems immune to bad publicity and its business is booming. And after the botched execution of Christa Pike in Tennessee, the BBC asked Americans and visitors in Washington what they think of the death penalty.",
+        "Russia's long reach. A British service member charged with spying for Russia has made his first court appearance, the Kyiv Independent reports. Junior intelligence specialist Teddy Young, twenty-four, faces two charges under the National Security Act for allegedly trying to pass protected information to a foreign power between November 2024 and May 2025. And in Monaco, a suspect linked to a bomb attack on a millionaire has broken his silence to the BBC: Vitalii Zhykovych gives his own account of the attempted assassination of Ukrainian-born businessman Vadym Yermolayev.",
+        "Frontier compute. A benchmark meant to test whether AI agents can selectively forget outdated facts may be measuring something simpler. A new arXiv paper applies the benchmark's own rule, the newest statement wins, with no learning at all, and answers about eighty percent of its questions. Another paper, FreeEvolve, lets agent evolvers design their own search, deciding how to evaluate, what to keep and when to stop. And a third pushes compression to two-bit weights, four-bit activations and a two-bit memory cache.",
+        "Quantum and matter. In Nature, a semiconductor based on silicon-doped aluminium gallium oxide with a bandgap of seven electron volts, pushing semiconductors, as Nature's news desk puts it, into insulator territory. On arXiv, a team identifies a path-complementarity mechanism in hybridized cavity polaritons that could deliver directional quantum light without sacrificing coherence between paths.",
+        "Consciousness desk. Episodic memory changes fast in the first two years of life, but little is known about how its circuitry develops. A new bioRxiv study collected precision brain scans from five infants between their first and second birthdays and maps distinct cortical networks tied to subregions of the hippocampus and entorhinal cortex. Another team, using light-based brain imaging on freely moving infants rather than tightly controlled tasks, finds distinct patterns of cortical reorganisation that accompany specific behaviours as babies develop.",
+        "So, this hour's receipts. A villain on screen and a booming business. A country arguing over how it executes. A young British specialist accused of spying for Moscow, and a bomb suspect telling his own story. A memory benchmark where one simple rule answers four questions in five, and infant brains building the circuits of memory. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cq8rzjv8g7ejo?at_medium=RSS&at_campaign=rss",
+          "title": "Mark Zuckerberg has an image problem - so why is Meta's business booming?",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cjx236wl9416o?at_medium=RSS&at_campaign=rss",
+          "title": "What Americans think about the death penalty",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/uk-service-member-charged-with-spying-for-russia-makes-first-court-appearance/",
+          "title": "UK service member charged with spying for Russia makes first court appearance",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ckgel9044vqeo?at_medium=RSS&at_campaign=rss",
+          "title": "Suspect linked to Monaco bomb attack on millionaire breaks silence to BBC",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09193",
+          "title": "Bookkeeping, Composition, or Unreachable Gold? Reading MemoryAgentBench's Conflict-Resolution Scores Against a Frozen Last-Write Resolver",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09197",
+          "title": "FreeEvolve: Learning to Evolve Beyond Fixed Loops",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.09202",
+          "title": "Few Bits, One Law: Toward W2A4KV2",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11085-3",
+          "title": "A 7-eV bandgap semiconductor based on silicon-doped α-(Al x Ga 1− x ) 2 O 3",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02968-6",
+          "title": "Semiconductors pushed into insulator territory",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.09893",
+          "title": "Path Complementarity Enables Directional Quantum Light in Hybridized Cavity Polaritons",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755949v1?rss=1",
+          "title": "Distinct cortical networks associated with subregions of the hippocampal-entorhinal system in the first two years of human life",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.756058v1?rss=1",
+          "title": "Distinct Patterns of Cortical Reorganisation Accompany Behaviour-Specific Development in Freely Behaving Infants",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-09-00/f01.webp"
+          },
+          {
+            "t": 22.68,
+            "src": "art/2026-10-09-00/f02.webp"
+          },
+          {
+            "t": 54.41,
+            "src": "art/2026-10-09-00/f03.webp"
+          },
+          {
+            "t": 84.22,
+            "src": "art/2026-10-09-00/f04.webp"
+          },
+          {
+            "t": 108.26,
+            "src": "art/2026-10-09-00/f05.webp"
+          },
+          {
+            "t": 138.74,
+            "src": "art/2026-10-09-00/f06.webp"
+          }
+        ]
+      },
+      "seconds": 164,
+      "audio": "audio/2026-10-09-00.mp3",
+      "thumb": "thumbs/2026-10-09-00.webp",
+      "cover_video": "thumbs/2026-10-09-00.mp4",
+      "cues": [
+        0.0,
+        22.68,
+        54.41,
+        84.22,
+        108.26,
+        138.74
+      ]
+    },
+    {
       "id": "2026-10-08-23",
       "hour": "23:00",
       "date": "2026-10-08",
@@ -101,7 +233,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-08-23/f01.webp"
           },
           {
@@ -131,7 +263,7 @@
       "thumb": "thumbs/2026-10-08-23.webp",
       "cover_video": "thumbs/2026-10-08-23.mp4",
       "cues": [
-        0.0,
+        0,
         34.1,
         65.33,
         94.97,
