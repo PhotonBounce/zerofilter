@@ -2,6 +2,150 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-05",
+      "hour": "05:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-05",
+      "title": "Tver Strike Update, Hearing the Quantum Jumps of Sound & AI That Refuses Until You Tell a Story",
+      "subject": "Hourly sourced brief: the reported Ukrainian strike on a cruise-missile fuel plant and an oil depot in Tver Oblast, Zelensky's delegation to Trump's envoys, the headlines from Kyiv, how narrative wrapping breaks AI refusals, what verification can and cannot add to self-improving agents, 82 open problems for AI, quantum jumps of sound, kilohertz entanglement between an ion and a diamond, magic-state factories for qLDPC codes, and how rats and flies decide.",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-five hundred hours UTC on the ninth of October. An update on the overnight attack on Russia's Tver Oblast: the Kyiv Independent now reports Ukraine targeted both a cruise-missile fuel plant and an oil depot. According to Russian Telegram media channels, the factory makes fuel components for Kh-55 and Kh-101 cruise missiles. On diplomacy, President Zelensky says his delegation's meetings with the Trump administration's envoys are expected to take place over two days, and that he is counting on a European team to join.",
+        "The headlines from the past day. Russian attacks plunged Kyiv into near-total darkness, and more than three million residents lost power; Britain has announced a seventy-one million dollar winter aid package. A twenty-four-year-old British intelligence specialist charged with spying for Russia has made his first court appearance. And in Lviv, two trains collided, injuring eight.",
+        "Frontier compute. Ask a safety-trained model for something harmful and it refuses; wrap the same request in a story or a role-play and it often answers. A new arXiv benchmark, GUISE, measures that weakness across languages: on one small Qwen model, attacks succeeded eighty-nine percent of the time in English, ninety-three in modern Chinese and nearly ninety-six in Classical Chinese. Another paper asks what self-improving agents actually gain from longer search, extra help or better verification, since one score cannot tell them apart. And OpenProblemBench gives AI eighty-two unsolved problems from mathematics and theoretical physics.",
+        "Quantum. Quantum mechanics says a vibrating object's energy comes in discrete packets, but no measurement of its position can show it. A new arXiv paper couples a superconducting qubit to a nanomechanical resonator and watches the quantum jumps of sound, repeatedly measuring the number of phonons without destroying them. Another team entangles a trapped barium ion with a silicon-vacancy centre in a diamond cavity, reporting kilohertz-rate entanglement between modules for distributed quantum computing. And a third proposes single-shot magic-state factories for high-rate qLDPC error-correcting codes.",
+        "Consciousness desk. How do brains decide when the world changes? A new bioRxiv study trained rats to reach the same goal by two different paths from different starting points, and finds that path integration, keeping track of where you are by your own movements, promotes flexible navigational decisions. Another study gave courting male fruit flies a sudden virtual heat stimulus, forcing a choice between staying with courtship or escaping, and finds that social feedback structures that stay-or-switch decision.",
+        "So, this hour's receipts. A fuel plant and an oil depot behind Russian lines, and a delegation heading to Trump's envoys. A capital in the dark and British winter aid. Stories that talk AI out of its safety rules, sound that jumps in quantum steps, and rats and flies deciding on the move. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+          "title": "Ukraine reportedly targets Russian cruise missile fuel plant, oil depot in overnight attack",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/zelensky-sends-delegation-to-meet-trump-envoys-as-he-hints-at-secret-us-russia-economic-talks/",
+          "title": "Zelensky sends delegation to meet Trump envoys as he hints at secret US-Russia economic talks",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+          "title": "Russian attacks plunge Kyiv into near-total darkness, disrupt power, metro, water supply",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/uk-to-provide-71-million-winter-aid-package-to-ukraine/",
+          "title": "UK to provide $71 million winter aid package to Ukraine",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/uk-service-member-charged-with-spying-for-russia-makes-first-court-appearance/",
+          "title": "UK service member charged with spying for Russia makes first court appearance",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/8-injured-as-passenger-train-collides-with-locomotive-in-lviv/",
+          "title": "Two trains collide in Lviv, injuring 8",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11005",
+          "title": "How Narrative Wrapping Affects LLM Refusal: A Cross-Language Benchmark and Defense",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10611",
+          "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11118",
+          "title": "OpenProblemBench: Benchmarking AI on Open Problems in the Foundational Theoretical Sciences",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10714",
+          "title": "Quantum jumps of sound",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10705",
+          "title": "Quantum Networking at the Speed of Quantum Computation: Kilohertz Entanglement in a Heterogeneous Quantum System",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10731",
+          "title": "Single-shot magic state factories for quantum LDPC codes",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756060v1?rss=1",
+          "title": "Path Integration Promotes Flexible Navigational Decision Making",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756036v1?rss=1",
+          "title": "Social feedback structures stay/switch decision-making in Drosophila",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-09-05/f01.webp"
+          },
+          {
+            "t": 30.77,
+            "src": "art/2026-10-09-05/f02.webp"
+          },
+          {
+            "t": 51.41,
+            "src": "art/2026-10-09-05/f03.webp"
+          },
+          {
+            "t": 87.29,
+            "src": "art/2026-10-09-05/f04.webp"
+          },
+          {
+            "t": 120.96,
+            "src": "art/2026-10-09-05/f05.webp"
+          },
+          {
+            "t": 147.7,
+            "src": "art/2026-10-09-05/f06.webp"
+          }
+        ]
+      },
+      "seconds": 169,
+      "audio": "audio/2026-10-09-05.mp3",
+      "thumb": "thumbs/2026-10-09-05.webp",
+      "cover_video": "thumbs/2026-10-09-05.mp4",
+      "cues": [
+        0.0,
+        30.77,
+        51.41,
+        87.29,
+        120.96,
+        147.7
+      ]
+    },
+    {
       "id": "2026-10-09-04",
       "hour": "04:00",
       "date": "2026-10-09",
@@ -89,7 +233,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-04/f01.webp"
           },
           {
@@ -119,7 +263,7 @@
       "thumb": "thumbs/2026-10-09-04.webp",
       "cover_video": "thumbs/2026-10-09-04.mp4",
       "cues": [
-        0.0,
+        0,
         29.42,
         61.75,
         85.54,
