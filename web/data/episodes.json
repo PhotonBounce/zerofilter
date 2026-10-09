@@ -2,6 +2,138 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-21",
+      "hour": "21:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-21",
+      "title": "Zelensky Calls the Diesel Deal a 'Gift to Putin', a Pledge to Accept Election Results & Calibrating Quantum Chips at Scale",
+      "subject": "Kyiv's objection to Trump's Russian diesel deal, a new EU ambassador, a congressional pledge on election results, and keeping a 66-qubit processor in tune",
+      "paragraphs": [
+        "This is ZeroFilter, at twenty-one hundred hours UTC on the ninth of October. Representative Josh Gottheimer of New Jersey is co-leading an effort to get House colleagues to pledge that they will accept this fall's election results and oppose any effort to block the seating of fellow members next year, NPR reports. NPR also looks at President Trump's apparent choice to wear a suit from the budget menswear chain Jos. A. Bank. And in Panama, a powerful magnitude seven point seven earthquake has damaged buildings, with tsunami warnings issued for neighbouring countries.",
+        "Ukraine and Russia. President Trump has announced a deal for Russian diesel, and President Zelensky has criticised it as a gift to Putin, the BBC reports; Ukraine's president said allowing Russia to sell petroleum products would prolong a war that must be ended. Zelensky has also appointed Kachka, the former European integration minister, as Ukraine's ambassador to the European Union, the Kyiv Independent reports; during his tenure, Ukraine opened its first two accession negotiation clusters, the groups of policy areas in which candidates must meet EU requirements.",
+        "Frontier compute. Reasoning models are often trained with reinforcement learning on verifiable rewards, which a new arXiv paper says can leave them badly calibrated and overconfident; its method, RL-ARC, uses the model's reasoning to estimate its own uncertainty. Another paper, RaReCache, tackles a cost of switching models mid-session: because each model's key-value cache is model-specific, the receiving model usually has to reprocess the whole context, so the authors selectively recompute parts of the cache, guided by where the two models disagree.",
+        "Quantum desk. As superconducting processors grow toward hundreds of qubits, manual calibration gets costly. On a sixty-six-qubit processor, a new arXiv study finds that single-qubit calibration tolerates full-chip parallel operation with minimal fidelity loss, while two-qubit gate calibration needs to keep simultaneous operations at least four couplers apart. Another paper proposes nonreciprocal entanglement between distant magnons using a rotating crystal sphere and the Barnett effect. And a review surveys photonic chips for universal quantum computing.",
+        "Consciousness desk. Frontotemporal lobar degeneration is a common cause of early-onset dementia, but biomarkers that tell its subtypes apart are limited. A bioRxiv study ran large-scale cerebrospinal fluid proteomics on five hundred and sixty-six people to identify diagnostic biomarker candidates. Another preprint reports compounds that selectively lower the mutant form of ataxin-3, the protein behind spinocerebellar ataxia type three, in preclinical models, while sparing the healthy form the cell needs.",
+        "So, this hour's receipts. A pledge to accept election results, a budget suit, and an earthquake in Panama. A diesel deal Kyiv calls a gift to Putin, and a new envoy to the EU. Overconfident reasoning models, caches shared between models, quantum chips kept in tune, and new leads against dementia and ataxia. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/08/nx-s1-5995371/a-congressman-wants-his-colleagues-to-pledge-to-accept-election-results",
+          "title": "A congressman wants his House colleagues to pledge to accept election results",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5996586/trumps-affordable-suit",
+          "title": "Trump's Affordable Suit",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
+          "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+          "title": "Trump announces deal for Russian diesel as Zelensky criticises 'gift to Putin'",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/zelensky-appoints-former-european-integration-minister-kachka-as-eu-ambassador/",
+          "title": "Zelensky appoints former European integration minister Kachka as EU ambassador",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11352",
+          "title": "RL-ARC: Calibrating Large Reasoning Models via Reasoning-guided Uncertainty",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11358",
+          "title": "RaReCache: Bridging the Gap in Cross-Model KV Cache Reuse via Rank disagreement-based Selective Recomputation",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11477",
+          "title": "Quantitative Rules for Parallel Calibration and Drift-Resilient Maintenance of Large-Scale Superconducting Quantum Processors",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11607",
+          "title": "Remote nonreciprocal magnon magnon entanglement via the Barnett effect with coherent feedback",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11321",
+          "title": "Photonic Chips for Universal Quantum Computing: Retrospective and Prospective",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755483v1?rss=1",
+          "title": "Large-scale cerebrospinal fluid proteomics identifies diagnostic biomarker candidates across the clinico-pathological continuum of frontotemporal lobar degeneration",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756117v1?rss=1",
+          "title": "Autophagosome-tethering compounds selectively lower mutant ataxin-3 in preclinical models of spinocerebellar ataxia type 3",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-09-21/f01.webp"
+          },
+          {
+            "t": 29.9,
+            "src": "art/2026-10-09-21/f02.webp"
+          },
+          {
+            "t": 60.96,
+            "src": "art/2026-10-09-21/f03.webp"
+          },
+          {
+            "t": 91.85,
+            "src": "art/2026-10-09-21/f04.webp"
+          },
+          {
+            "t": 122.86,
+            "src": "art/2026-10-09-21/f05.webp"
+          },
+          {
+            "t": 151.87,
+            "src": "art/2026-10-09-21/f06.webp"
+          }
+        ]
+      },
+      "seconds": 176,
+      "audio": "audio/2026-10-09-21.mp3",
+      "thumb": "thumbs/2026-10-09-21.webp",
+      "cover_video": "thumbs/2026-10-09-21.mp4",
+      "cues": [
+        0.0,
+        29.9,
+        60.96,
+        91.85,
+        122.86,
+        151.87
+      ]
+    },
+    {
       "id": "2026-10-09-20",
       "hour": "20:00",
       "date": "2026-10-09",
@@ -107,7 +239,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-20/f01.webp"
           },
           {
@@ -137,7 +269,7 @@
       "thumb": "thumbs/2026-10-09-20.webp",
       "cover_video": "thumbs/2026-10-09-20.mp4",
       "cues": [
-        0.0,
+        0,
         28.78,
         54.48,
         85.66,
