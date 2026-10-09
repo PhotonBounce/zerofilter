@@ -2,6 +2,136 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-12",
+      "hour": "12:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-12",
+      "title": "Putin's Price for an Energy Truce, a Rwanda Genocide Trial in Britain & an AI That Runs a Shop",
+      "subject": "Russia's demands in the energy-ceasefire talks, a UK genocide trial, France's teacher offer, and agents running a live store",
+      "paragraphs": [
+        "This is ZeroFilter, at twelve hundred hours UTC on the ninth of October. A doctor accused of offences in the 1994 Rwanda genocide will face trial in the United Kingdom, the BBC reports; Dr Vincent Brown was allegedly a leader or supervisor of violent acts carried out by others in the early days of the genocide. In France, education minister Edouard Geffray has promised three thousand extra teachers as a first step to calm student protests, after another day of sometimes violent demonstrations by high-school students. And Zambia has signed a one point five billion dollar health deal with the United States, negotiated after disputes over data-sharing and after Trump cut USAID funding.",
+        "Ukraine and Russia. In an exclusive, the Kyiv Independent reports that Russia has demanded sanctions relief from the United States as part of talks over a possible energy ceasefire with Ukraine, while also seeking to link the initiative to a ceasefire in the Black Sea, according to US and Ukrainian officials familiar with the talks. Kyiv fears the cost. President Zelensky, addressing Ukrainian attacks on Russian data centers, said: we always respond in kind; they have been and still are striking our data centers. And in Britain, a twenty-four-year-old junior intelligence specialist charged with spying for Russia has made his first court appearance.",
+        "Frontier compute. A new arXiv benchmark, StoreBench, puts an AI agent in charge of a mid-size online apparel store on a production-grade commerce backend, testing long-horizon planning and economic judgment under uncertainty while customers order around the clock. Another paper tackles the memory cost of planning: heuristic search can store exponentially many states, so the authors learn a search policy for each domain instead, aiming to plan with exponentially less space.",
+        "Quantum desk. Predicting rare, devastating events, from earthquakes to financial black swans, can demand ever more memory as the systems behind them grow complex. A new arXiv paper proposes quantum-enhanced inference of conditional future probabilities at reduced memory cost. And another team shows that polaritons and quantum vacuum dressing, usually regarded as intertwined, can be controlled independently through helicity, using a cyclotron resonance coupled to a chiral cavity.",
+        "Consciousness desk. Nature reports that chimpanzee and gorilla brains resist weight loss with age, unlike human brains. On bioRxiv, three hundred and ten adults aged twenty-one to eighty-nine played an Ultimatum Game in a brain scanner, and the authors report that links between neural responses to fairness and vulnerability to financial exploitation vary with age and emotional intelligence. And a reanalysis of more than three thousand heat trials finds that turning pain down was associated with lower activity in insular and opercular regions.",
+        "So, this hour's receipts. A genocide trial in Britain, three thousand teachers for France, and a health deal for Zambia. A price on an energy truce and a promise to respond in kind. An AI running a shop, plans in less space, quantum help for rare-event forecasts, and ageing brains that differ between apes and humans. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cmwy47lzd1vyo?at_medium=RSS&at_campaign=rss",
+          "title": "Doctor accused of 1994 Rwanda genocide offences to face trial in UK",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c6vg98lw017po?at_medium=RSS&at_campaign=rss",
+          "title": "France promises 3,000 extra teachers in first step to calm student protests",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cqd09eyk0g8no?at_medium=RSS&at_campaign=rss",
+          "title": "Zambia signs US health deal after disputes over data-sharing",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/putin-puts-a-price-on-trumps-ukraine-energy-truce/",
+          "title": "Exclusive: Putin puts a price on Trump's Ukraine energy truce — Kyiv fears the cost",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
+          "title": "'We always respond in kind' — Zelensky addresses Ukrainian attacks on Russian data center",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/uk-service-member-charged-with-spying-for-russia-makes-first-court-appearance/",
+          "title": "UK service member charged with spying for Russia makes first court appearance",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10942",
+          "title": "StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10954",
+          "title": "Learning How to Search for Plans with Exponentially Less Space",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10756",
+          "title": "Quantum-Enhanced Inference of Conditional Future Probabilities with Reduced Memory Cost",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10944",
+          "title": "Helicity decoupling ultrastrong Rabi splitting from quantum vacuum dressing",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03158-0",
+          "title": "Chimp and gorilla brains resist weight loss with age — unlike human brains",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755119v1?rss=1",
+          "title": "Associations Between Neural Responses to Social Fairness and Financial Exploitation Vulnerability Vary With Age and Emotional Intelligence",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756083v1?rss=1",
+          "title": "Direction-sensitive neural correlates of voluntary pain regulation: regional response attenuation during down-regulation and exploratory prefrontal-valuation coupling",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-12/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-12/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-12/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-12/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-09-12/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-09-12/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-09-12.mp3",
+      "thumb": "thumbs/2026-10-09-12.webp",
+      "cover_video": "thumbs/2026-10-09-12.mp4"
+    },
+    {
       "id": "2026-10-09-11",
       "hour": "11:00",
       "date": "2026-10-09",
@@ -101,7 +231,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-11/f01.webp"
           },
           {
@@ -131,7 +261,7 @@
       "thumb": "thumbs/2026-10-09-11.webp",
       "cover_video": "thumbs/2026-10-09-11.mp4",
       "cues": [
-        0.0,
+        0,
         32.88,
         61.15,
         94.61,
