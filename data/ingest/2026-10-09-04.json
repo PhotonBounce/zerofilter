@@ -1,0 +1,1123 @@
+{
+  "hour": "2026-10-09T04:00:00.000Z",
+  "captured_at": "2026-10-09T04:07:12.708Z",
+  "clock_skew_s": 0,
+  "feeds": [
+    {
+      "id": "kyiv-independent",
+      "status": "ok",
+      "count": 15
+    },
+    {
+      "id": "dod-releases",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "bbc-world",
+      "status": "ok",
+      "count": 27
+    },
+    {
+      "id": "npr-politics",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "arxiv-quant-ph",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "id": "nature",
+      "status": "ok",
+      "count": 50
+    },
+    {
+      "id": "prl",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "id": "biorxiv-neuro",
+      "status": "ok",
+      "count": 30
+    },
+    {
+      "id": "shvets-youtube",
+      "status": "error",
+      "error": "HTTP 404"
+    }
+  ],
+  "items": [
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+      "title": "Ukraine reportedly targets Russian cruise missile fuel plant in Tver Oblast",
+      "published": "2026-10-09T03:51:11.000Z",
+      "summary": "Ukraine's military launched an attack on Russia's Tver Oblast overnight on Oct. 9, reportedly targeting a Russian factory that manufactures fuel components for Kh-55 and Kh-101 cruise missiles, Russian Telegram media channels reported."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/uk-to-provide-71-million-winter-aid-package-to-ukraine/",
+      "title": "UK to provide $71 million winter aid package to Ukraine",
+      "published": "2026-10-09T01:59:45.000Z",
+      "summary": "The latest announcement comes as Kyiv experienced widespread power outages on Oct. 8 following a Russian attack on Ukrainian energy infrastructure. Over 3 million residents in the capital lost power in what officials described as \"an attack on one of the energy facilities important for the city of Kyiv.\""
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/uk-service-member-charged-with-spying-for-russia-makes-first-court-appearance/",
+      "title": "UK service member charged with spying for Russia makes first court appearance",
+      "published": "2026-10-08T23:42:55.000Z",
+      "summary": "Under the U.K.'s National Security Act 2023, junior intelligence specialist Teddy Young, 24, was charged with two offenses for allegedly trying to pass protected information to a foreign power between November 2024 and May 2025."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/8-injured-as-passenger-train-collides-with-locomotive-in-lviv/",
+      "title": "Two trains collide in Lviv, injuring 8",
+      "published": "2026-10-08T21:13:47.000Z",
+      "summary": "The railway operator initially reported that the passenger train's driver suffered a leg injury and four passengers required medical attention. The crew of the electric locomotive was unharmed."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/ukrainian-investigative-journalist-mykhailo-tkach-detained-in-austria-while-on-assignment/",
+      "title": "Ukrainian investigative journalist Mykhailo Tkach detained in Austria while on assignment",
+      "published": "2026-10-08T20:52:34.000Z",
+      "summary": "The acclaimed journalist was reportedly on an editorial assignment in Vienna with his colleague Yaroslav Bondarenko when he was detained by Austrian authorities."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/we-always-respond-in-kind-zelensky-addresses-ukrainian-attacks-on-russian-data-center/",
+      "title": "'We always respond in kind' — Zelensky addresses Ukrainian attacks on Russian data center",
+      "published": "2026-10-08T19:15:07.000Z",
+      "summary": "\"We certainly are capable,\" Zelensky said about striking Russian data centers. \"We always respond in kind. Regarding data centers, as you all know, they have been and still are striking our data centers.\""
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/zelensky-sends-delegation-to-meet-trump-envoys-as-he-hints-at-secret-us-russia-economic-talks/",
+      "title": "Zelensky sends delegation to meet Trump envoys as he hints at secret US-Russia economic talks",
+      "published": "2026-10-08T18:37:08.000Z",
+      "summary": "\"Meetings are expected to take place over two days... we are counting on a European team to join our negotiating group,\" President Volodymyr Zelensky said."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/russia-lifts-quarantine-in-irkutsk-region-where-lab-worker-allegedly-died-of-plague/",
+      "title": "Russia lifts quarantine in Irkutsk region, where lab worker allegedly died of plague",
+      "published": "2026-10-08T18:33:52.000Z",
+      "summary": "Initial reports raised concerns that 28-year-old Darya Shipilova, who worked at the Anti-Plague Institute, might have died of pneumonic plague after a laboratory accident."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/open-letter-to-the-us-administration-the-g20-invitation-to-putin-should-come-with-conditions-2/",
+      "title": "Open letter to the US administration: The G20 invitation to Putin should come with conditions",
+      "published": "2026-10-08T18:15:11.000Z",
+      "summary": "The Trump administration recently announced that it has invited Russian President Vladimir Putin to December's G20 summit in Miami. This invitation erodes the well-deserved isolation of Putin for his brutal and unprovoked invasion of Ukraine . Putin last appeared on U.S. soil for a bilateral meeting with President"
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/ukraine-war-latest-russian-glide-bomb-strikes-in-kramatorsk-kill-at-least-33/",
+      "title": "Ukraine war latest: Russian glide bomb strikes in Kramatorsk kill at least 33",
+      "published": "2026-10-08T17:55:11.000Z",
+      "summary": "Key developments on Oct. 8: At least 33 dead after Russian glide bomb strikes Kramatorsk buses Russian drone barrage on Kyiv kills 4, injures 19, disrupts electricity, water supplies Polish SIM cards found in Russian drones downed in Poland US, Russia confirm Trump's latest Ukraine peace push is"
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+      "title": "Russian attacks plunge Kyiv into near-total darkness, disrupt power, metro, water supply",
+      "published": "2026-10-08T17:36:35.000Z",
+      "summary": "The drop in voltage temporarily halted Kyiv Metro train services and escalator operations, the Kyiv City State Administration (KMDA) said. Other parts of the capital's public transport network were also affected."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/moldova-ready-to-take-in-more-ukrainian-refugees-come-winter-sandu-says/",
+      "title": "Moldova ready to take in more Ukrainian refugees come winter, Sandu says",
+      "published": "2026-10-08T15:25:11.000Z",
+      "summary": "\"If this winter in Ukraine is as difficult as the whole world expects, we are ready to receive as many people as need safety,\" Moldovan President Maia Sandu said at the Moldova Security Forum in Chisinau on Oct. 8."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/south-korea-to-recall-ukraine-envoy-amid-north-korean-pows-dispute/",
+      "title": "South Korea to recall Ukraine envoy amid North Korean POWs dispute",
+      "published": "2026-10-08T09:54:14.000Z",
+      "summary": "\"The government looks forward to the smooth resolution of all pending issues between the two countries and will continue consultations with the Ukrainian side to this end,\" the South Korean Foreign Ministry said in a press release."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/russian-drone-barrage-on-kyiv-kills-3-injures-13-disrupts-electricity-water-supplies/",
+      "title": "Russian drone barrage on Kyiv kills 4, injures 19, disrupts electricity, water supplies",
+      "published": "2026-10-08T09:54:00.000Z",
+      "summary": "At 10:00 a.m. local time, Ukraine’s biggest private energy firm DTEK announced emergency energy shutdowns in Brovary, Buchanskyi, Vyshgorod, and Boryspil districts of the capital."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/at-least-12-dead-after-russian-glide-bomb-strikes-kramatorsk-bus-stop/",
+      "title": "At least 33 dead after Russian glide bomb strikes Kramatorsk buses",
+      "published": "2026-10-08T09:12:31.000Z",
+      "summary": "\"Russia comes to the Ukrainian land with death,\" Donetsk Governor Vadym Filashkin said."
+    },
+    {
+      "feed": "dod-releases",
+      "kind": "news",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4622796/department-of-war-awards-63-billion-multi-year-contract-to-rtxs-raytheon-for-sm/",
+      "title": "Department of War Awards $6.3 Billion Multi-Year Contract to RTX's Raytheon for SM-3 BLOCK IB Interceptors",
+      "published": "2026-10-08T21:00:08.000Z",
+      "summary": "The War Department and the Missile Defense Agency awarded Raytheon, an RTX business, a multiyear procurement contract valued at up to $6.3 billion to produce Standard Missile–3 Block IB interceptors."
+    },
+    {
+      "feed": "dod-releases",
+      "kind": "news",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4622109/department-of-war-announces-350-million-in-quantum-computing-initiatives/",
+      "title": "Department of War Announces $350 Million in Quantum Computing Initiatives",
+      "published": "2026-10-08T14:44:00.000Z",
+      "summary": "The Office of the Undersecretary of War for Research and Engineering announced new initiatives and programmatic updates totaling approximately $350 million to strengthen U.S. leadership in quantum computing capabilities that support national security."
+    },
+    {
+      "feed": "dod-releases",
+      "kind": "news",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4622113/department-of-wars-office-of-strategic-capital-signs-150-million-conditional-lo/",
+      "title": "Department of War's Office of Strategic Capital Signs $150 Million Conditional Loan Commitment With PsiQuantum",
+      "published": "2026-10-08T14:36:10.000Z",
+      "summary": "DOW's Office of Strategic Capital announced a $150 million conditional loan commitment to PsiQuantum Corp. to enhance the company’s advanced manufacturing and prototyping capabilities in the United States."
+    },
+    {
+      "feed": "dod-releases",
+      "kind": "news",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4622104/department-of-war-executes-white-house-strategy-for-a-new-golden-age-of-science/",
+      "title": "Department of War Executes White House Strategy for a New Golden Age of Science",
+      "published": "2026-10-08T14:36:00.000Z",
+      "summary": "The War Department announced a series of initiatives to advance President Donald J. Trump's vision for a New Golden Age of American science."
+    },
+    {
+      "feed": "dod-releases",
+      "kind": "news",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4621223/department-of-wars-office-of-strategic-capital-announces-15-billion-conditional/",
+      "title": "Department of War's Office of Strategic Capital Announces $1.5 Billion Conditional Loan Commitment to Wolfspeed, Inc.",
+      "published": "2026-10-07T20:00:24.000Z",
+      "summary": "The War Department's Office of Strategic Capital announced a $1.5 billion conditional loan commitment to a vertically integrated U.S. manufacturer of semiconductor materials."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c9e8ld448km8o?at_medium=RSS&at_campaign=rss",
+      "title": "Adidas sues Australian label White Fox over four stripes design",
+      "published": "2026-10-09T03:36:41.000Z",
+      "summary": "The German sportswear brand wants the Sydney-based label to stop selling the clothes and pay damages."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmy0r96xygx6o?at_medium=RSS&at_campaign=rss",
+      "title": "Fort Hood attacker's execution by firing squad will be livestreamed, Pentagon says",
+      "published": "2026-10-09T03:36:12.000Z",
+      "summary": "The US Defence Secretary says the execution will be public, but a legal expert says the \"unprecedented\" decision is on \"uncertain legal terrain\"."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cq8rzjv8g7ejo?at_medium=RSS&at_campaign=rss",
+      "title": "Mark Zuckerberg has an image problem - so why is Meta's business booming?",
+      "published": "2026-10-08T23:14:02.000Z",
+      "summary": "A new film paints the Meta founder as a villain. But the tech firm seems immune to bad publicity, writes our North America tech correspondent."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel9044vqeo?at_medium=RSS&at_campaign=rss",
+      "title": "Suspect linked to Monaco bomb attack on millionaire speaks to BBC from Ukrainian prison",
+      "published": "2026-10-08T23:11:10.000Z",
+      "summary": "Vitalii Zhykovych gives his own account of the attempted assassination of Ukrainian-born businessman Vadym Yermolayev."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cjx236wl9416o?at_medium=RSS&at_campaign=rss",
+      "title": "What Americans think about the death penalty",
+      "published": "2026-10-08T21:49:14.000Z",
+      "summary": "The BBC spoke to Americans and international tourists in Washington DC about their views on the death penalty following the botched execution of Christa Pike in Tennessee."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cj3vqr5rknpeo?at_medium=RSS&at_campaign=rss",
+      "title": "Outspoken Indian actor Nana Patekar dies suddenly at 75",
+      "published": "2026-10-08T20:38:11.000Z",
+      "summary": "Known for his intense performances, Patekar carved out a distinctive place in Indian cinema."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/ckz65l2gne1po?at_medium=RSS&at_campaign=rss",
+      "title": "BBC on Hurricane Isaias and its expected Gulf Coast landfall",
+      "published": "2026-10-08T19:39:32.000Z",
+      "summary": "BBC Weather's Chris Fawkes says the first hurricane of the 2026 Atlantic season could bring dangerous winds, storm surge and heavy rains to the Gulf Coast Friday."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c3j4790elkx7o?at_medium=RSS&at_campaign=rss",
+      "title": "Protesters blame 'vulture funds' for Spain's housing crisis",
+      "published": "2026-10-08T19:10:06.000Z",
+      "summary": "Hundreds have pitched their tents in central Madrid, while the Spanish prime minister has called a snap election."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c5pvgn7xvxpzo?at_medium=RSS&at_campaign=rss",
+      "title": "Venezuela's ex-leader Nicolás Maduro charged with conspiracy to commit torture",
+      "published": "2026-10-08T17:38:59.000Z",
+      "summary": "The new accusations relate to the alleged torture of US citizens held in Venezuela while Maduro was in power."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c9p8gn55433jo?at_medium=RSS&at_campaign=rss",
+      "title": "US deportations to African countries unlawful and exploit suffering, rights group says",
+      "published": "2026-10-08T17:16:32.000Z",
+      "summary": "More than 500 migrants have been expelled from the US to African countries, HRW says, citing US data."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o?at_medium=RSS&at_campaign=rss",
+      "title": "Russian strike on buses kills at least 30, say officials, as deadly attacks on Ukraine surge",
+      "published": "2026-10-08T16:31:29.000Z",
+      "summary": "Ukraine accused Russia of targeting two crowded vehicles in the front line city of Kramatorsk to kill as many civilians as possible."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqd09eyk0g8no?at_medium=RSS&at_campaign=rss",
+      "title": "Zambia signs US health deal after disputes over data-sharing",
+      "published": "2026-10-08T16:24:05.000Z",
+      "summary": "The US will provide $1.5bn (£1.1bn) under the deal that was negotiated after Trump cut USAID funding."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckwy48rrz95vo?at_medium=RSS&at_campaign=rss",
+      "title": "South Korea recalls Ukraine envoy over prisoner-of-war row",
+      "published": "2026-10-08T16:23:09.000Z",
+      "summary": "It is the latest in a diplomatic spat after Kyiv disclosed that two North Korean prisoners were transferred to Seoul."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cw33xd6vegnno?at_medium=RSS&at_campaign=rss",
+      "title": "Most UK diplomats to leave East Jerusalem consulate, Israel says, as Miliband says 'vital services' to remain",
+      "published": "2026-10-08T15:21:46.000Z",
+      "summary": "Israel said in September it would act in response to UK sanctions on illegal Israeli settlements in the West Bank."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c60rln74yzvxo?at_medium=RSS&at_campaign=rss",
+      "title": "Christa Pike now walking after failed US execution, lawyer tells BBC",
+      "published": "2026-10-08T15:02:32.000Z",
+      "summary": "A lawyer says the murderer of Colleen Slemmer is moving around her hospital room after surviving two lethal injections."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cq4g1j54nepyo?at_medium=RSS&at_campaign=rss",
+      "title": "'Bold and inventive' Canadian poet Anne Carson wins Nobel Literature Prize",
+      "published": "2026-10-08T14:33:23.000Z",
+      "summary": "Carson, 76, is celebrated for works that often cross boundaries between poetry, fiction and scholarship."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c65yndpnk5qdo?at_medium=RSS&at_campaign=rss",
+      "title": "Arizona congressional candidate says she was raped while repairing campaign sign",
+      "published": "2026-10-08T14:10:58.000Z",
+      "summary": "Bernadette Greene-Placentia says her memory of the attack is spotty and that she was knocked unconscious."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6zxjdw8rdl5o?at_medium=RSS&at_campaign=rss",
+      "title": "Italy approves elections overhaul as opposition accuse Meloni of 'scam'",
+      "published": "2026-10-08T12:32:12.000Z",
+      "summary": "Prime Minister Giorgia Meloni says the move will deliver more stable government, but opposition parties say her aim is to stay in power."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqlydk7796wdo?at_medium=RSS&at_campaign=rss",
+      "title": "Tanker hit by multiple projectiles in Gulf off Qatar, maritime agency says",
+      "published": "2026-10-08T12:11:31.000Z",
+      "summary": "Casualties have been reported on the vessel, identified by a maritime intelligence firm as the oil and chemical tanker, Acers."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel9r341gdo?at_medium=RSS&at_campaign=rss",
+      "title": "Teacher who sexually abused pupil back in Indonesia jail after BBC investigation",
+      "published": "2026-10-08T12:04:25.000Z",
+      "summary": "Mochamad Subchi Azal Tsani had been secretly released on parole in 2025, after serving less than half his sentence."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/c962yz01l7mmo?at_medium=RSS&at_campaign=rss",
+      "title": "Watch: Why was the sign at the British consulate in East Jerusalem removed?",
+      "published": "2026-10-08T12:01:55.000Z",
+      "summary": "The consulate, first established in 1838, was set to be closed by the Israeli government in retaliation for UK sanctions."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckvg79wz9v2yo?at_medium=RSS&at_campaign=rss",
+      "title": "Bear kills man in home attack near Mongolian capital",
+      "published": "2026-10-08T11:52:59.000Z",
+      "summary": "Police say the bear entered a traditional nomadic dwelling near Ulaanbaatar, killing a man and seriously injured a woman."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ck5yn8jn677vo?at_medium=RSS&at_campaign=rss",
+      "title": "Residents airlifted to safety after flooding in central Chile",
+      "published": "2026-10-08T11:31:22.000Z",
+      "summary": "The Mapocho river has burst its banks after an unusually large amount of rain fell in recent days."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
+      "title": "Spanish pensioner whose eviction sparked nationwide protests dies",
+      "published": "2026-10-08T07:15:45.000Z",
+      "summary": "Maricarmen Abascal, 87, was forcibly removed on a stretcher from her apartment of more than 70 years in September."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cx5yn46j41zpo?at_medium=RSS&at_campaign=rss",
+      "title": "Margaret Hamilton, whose software helped land Apollo 11 on the Moon, dies at 90",
+      "published": "2026-10-08T05:10:40.000Z",
+      "summary": "Pioneering computer scientist led the development of the software for Nasa's Apollo mission and was awarded the Presidential Medal of Freedom."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2qlz7qrd4o?at_medium=RSS&at_campaign=rss",
+      "title": "'Every day there is killing': Palestinians in Gaza face Israeli strikes despite ceasefire as peace deal stalls",
+      "published": "2026-10-08T05:06:09.000Z",
+      "summary": "Many Palestinians are still living in cramped tent cities, with the US plan to end the war largely stalled."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c81dldewl5gwo?at_medium=RSS&at_campaign=rss",
+      "title": "US and Lebanon protecting wanted Syrian general, BBC finds",
+      "published": "2026-10-08T05:00:44.000Z",
+      "summary": "Bassam al-Hassan is being sheltered in return for information - including about abducted US reporter Austin Tice."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/08/nx-s1-5994416/white-house-correspondent-april-ryan-reflects-on-reporting-while-under-attack",
+      "title": "White House correspondent April Ryan reflects on reporting while under attack",
+      "published": "2026-10-08T15:24:23.000Z",
+      "summary": "Ryan has spent decades pressing presidents for answers. She talks about access, power, race and how asking questions put her in President Trump's crosshairs. Her new book is Notes on a Blacklash ."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/08/nx-s1-5983441/ice-warehouses-new-jersey-roxbury",
+      "title": "ICE has quietly used this warehouse as a detention facility all summer, neighbors say",
+      "published": "2026-10-08T10:13:18.000Z",
+      "summary": "Throughout the summer, rumors have been bubbling in North New Jersey that ICE has quietly been using a warehouse as a detention center. NPR investigated."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/08/nx-s1-5993809/2026-house-map-democrats-flip-republicans-tossup-triage",
+      "title": "Toss-ups, triage and targets: How to read the wide-open 2026 House map",
+      "published": "2026-10-08T09:00:00.000Z",
+      "summary": "Both parties are spending heavily in roughly 60 House districts — where Trump won by an average of 9 points in 2024 — that could be key to deciding control of the chamber, an NPR analysis finds."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/08/nx-s1-5903204/crypto-prediction-markets-cftc-weakens",
+      "title": "As crypto and prediction markets expand, their regulator shrinks",
+      "published": "2026-10-08T09:00:00.000Z",
+      "summary": "Even as the agency is tasked with drawing up new rules for crypto and prediction markets, its staffing and enforcement actions have dropped precipitously during the second Trump administration."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/07/nx-s1-5960380/musk-film-alex-gibney",
+      "title": "How 'Musk' director Alex Gibney became a critic",
+      "published": "2026-10-08T08:45:37.000Z",
+      "summary": "A trove of documents and interviews with people close to tech billionaire Elon Musk reveal a damning picture of his rise as one of the world's richest and most powerful men."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/08/g-s1-147101/trump-presidential-retreat-golf-club",
+      "title": "Trump proposes Camp David-style presidential retreat at his private Florida golf club",
+      "published": "2026-10-08T06:27:50.000Z",
+      "summary": "President Trump said he wants to develop one of his Florida golf courses into a presidential retreat where his successors can spend quiet weekends, describing it as \"sort of a Camp David.\""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11266-0",
+      "title": "Author Correction: Histone readers MLLT1 and MLLT3 concentrate AID to confer locus specificity",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11070-w",
+      "title": "Editorial Expression of Concern: Maternal gut bacteria promote neurodevelopmental abnormalities in mouse offspring",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03218-5",
+      "title": "Women are talking about menopause — health systems must listen",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02921-7",
+      "title": "US proposes $100,000 charge for international students to do post-graduate work",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03193-x",
+      "title": "How to build a mouse: embryo development captured in stunning detail",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03045-8",
+      "title": "Woody ‘blankets’ are being deployed on Arctic permafrost to reduce carbon emissions",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03128-6",
+      "title": "Will AI scoop your science? Some researchers see a gloomy future",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03215-8",
+      "title": "Plague scare: what scientists know — and what Russia won’t say",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03199-5",
+      "title": "Big dogs age faster than little ones — rogue ‘jumping genes’ might be to blame",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03154-4",
+      "title": "UAE completes Arab world's first solo space probe – and sets course for an asteroid",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02999-z",
+      "title": "A guide to Nature Index tables",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03208-7",
+      "title": "Nobel prizes 2026: ‘ghost’ particles, mirror molecules and light switches in the brain",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03197-7",
+      "title": "NASA releases trove of Moon data from historic Artemis II flight",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02836-3",
+      "title": "How we ditched presentations and embraced silence in our lab meetings",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02864-z",
+      "title": "Blend",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02968-6",
+      "title": "Semiconductors pushed into insulator territory",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03072-5",
+      "title": "Genome accessibility reveals disease risk that gene expression misses",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03060-9",
+      "title": "Nuclear clocks tick for the first time",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03059-2",
+      "title": "Retrofitted LLM can count the letter ‘i’s in ‘artificial intelligence’",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02985-5",
+      "title": "Why sound, strong science alone isn’t enough in pandemic preparedness",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03127-7",
+      "title": "‘When prevention disappears, infections rise’: can the world still end AIDS?",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03198-6",
+      "title": "The science of superintelligence and why AI is still a useful word",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02969-5",
+      "title": "Gut microbes that trace ancient human journeys",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03069-0",
+      "title": "An early predecessor to mammals could swim, suckle and swallow",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03212-x",
+      "title": "Daily briefing: Chemistry Nobel goes to mirror-molecule researchers",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03132-w",
+      "title": "Can your brain grow new neurons? How researchers are solving a century-old puzzle",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03184-y",
+      "title": "Australia’s bush fires got worse after British colonization — this is why",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02983-7",
+      "title": "Why we must advocate for proper care on the frontlines of the Ebola outbreak",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03189-7",
+      "title": "Revealed: how this common gut microbe protects against heart disease",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03196-8",
+      "title": "OpenAI posts 700 maths preprints online: mathematicians are up in arms",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02934-2",
+      "title": "How to control where semiconductor crystals start growing",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03093-0",
+      "title": "Chemistry Nobel awarded for solving mystery of how ‘handed’ organic molecules can emerge",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11105-2",
+      "title": "Observation of relativistic bond weakening in seaborgium hexacarbonyl",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11140-z",
+      "title": "RNA catalysis emerges from dynamic structural ensembles",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11084-4",
+      "title": "A thorium-229 optical nuclear clock with feedback loop",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11129-8",
+      "title": "Structural basis for regulating lipopolysaccharide transmembrane transport",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11122-1",
+      "title": "A nuclear clock synchronized to 229 Th",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-10858-0",
+      "title": "Hydrogen bonding in water under extreme confinement",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11127-w",
+      "title": "Alveolar stem cells transdifferentiate to drive bronchiolar regeneration",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11099-x",
+      "title": "Experimental observation of critical topology",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11106-1",
+      "title": "Prehistoric global migration of vanishing gut microbes with humans",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11066-6",
+      "title": "A preinvasive regulatory T cell axis for lung cancer interception",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11101-6",
+      "title": "Mechanism of spliceosome termination",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11085-3",
+      "title": "A 7-eV bandgap semiconductor based on silicon-doped α-(Al x Ga 1− x ) 2 O 3",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11038-w",
+      "title": "Overcoming key challenges in the evolutionary transition to multicellularity",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11153-8",
+      "title": "tRNA dosage regulates lineage dependency and resistance in prostate cancer",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11073-7",
+      "title": "A chiral superlattice route to spin-split topological antiferromagnetism",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11125-y",
+      "title": "Dynamics of human cardiogenesis and its disruption in trisomy 21",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11097-z",
+      "title": "Australia’s current wildfire crisis linked to colonial land-use change",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11111-4",
+      "title": "Retrofitting language models to operate over bytes",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756214v1?rss=1",
+      "title": "Dietary magnesium supplement enhances memory through Hippo signaling",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Dietary magnesium (Mg2+) supplement enhances memory in mammals and Drosophila, but whether and how Mg2+ changes molecular states of neurons, remains unknown. Here we used single-cell RNA sequencing to map cell-type specific transcriptional responses to memory-enhancing dietary Mg2+. These analyses revealed changes in Hippo-pathway gene expression in memory-relevant {beta} Kenyon Cells (KCs) of the mushroom bodies. Targeted knock-down of Merlin, hippo (hpo) and warts demonstrated requirement in {beta} KCs for Mg2+-enhanced, but not baseline memory. Further study of Hippo signaling identified Yo"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755119v1?rss=1",
+      "title": "Associations Between Neural Responses to Social Fairness and Financial Exploitation Vulnerability Vary With Age and Emotional Intelligence",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Financial exploitation often arises in social contexts in which individuals must evaluate fairness, trust, and interpersonal information during financial decisions. We examined whether neural responses to fairness in social versus nonsocial contexts relate to financial exploitation vulnerability and whether these relationships vary with age, emotional intelligence, and affect. A total of 310 adults spanning ages 21-89 completed an fMRI Ultimatum Game in which they accepted or rejected offers from human and computer partners, along with measures of financial exploitation vulnerability, emotiona"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755939v1?rss=1",
+      "title": "Motivational incentives improve working memory performance by enhancing memory-based representations rather than altering response strategies",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Motivational incentives are known to improve working memory (WM) when items differ in value, but whether they enhance performance when all items are equally valued, and if so, by what mechanism, remains unclear. Improvements could reflect enhanced memory-based representations or speed-accuracy trade-offs, whereby incentives promote slower, more cautious responding without improving memory itself. Here, we tested these alternatives across two experiments using an auditory WM task in which incentives varied across trials, but all items on a trial were equally incentivised. In Experiment 1,we all"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756083v1?rss=1",
+      "title": "Direction-sensitive neural correlates of voluntary pain regulation: regional response attenuation during down-regulation and exploratory prefrontal-valuation coupling",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Voluntary cognitive regulation can increase or decrease pain, but direction-sensitive neural correlates may emerge at different analytical levels. We reanalyzed 3,201 thermal-stimulation trials from 33 participants, integrating 0-200 warmth/pain ratings, regional fMRI activity, and trial-wise lagged coupling. Both instructions shifted ratings in the intended direction, with no reliable difference in mean success. Down-regulation was associated with lower bilateral S2/opercular and insular activity and higher left dlPFC/IFJ activity after FDR correction across 32 regions; run-matched comparison"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756068v1?rss=1",
+      "title": "Self-Exciting Population Event Models Reveal Abnormal Temporal Amplification in MAPT-Mutant Human Brain Assembloids",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Human brain assembloids provide a tractable platform for studying mutation-specific network dysfunction, but most studies do not distinguish whether abnormal activity arises from increased spontaneous initiation or stronger history-dependent amplification. We introduce a low-dimensional discrete-time self-exciting population model for calcium-imaging event sequences that separates baseline initiation (%[mu]), integrated history-dependent gain (%[eta]), and memory decay (%[tau]). Across 175 recordings from 13 MAPT p.R406W or CRISPR-corrected isogenic assembloids, biological-unit inference ident"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756317v1?rss=1",
+      "title": "Flexible 3D multimodal organoid interface reveals functional subnetworks and coordinated circuit activity in cortical organoids",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "The balance between excitatory and inhibitory (E/I) neurons is fundamental to cortical function, and its disruption underlies a wide range of neurological disorders, including epilepsy, Alzheimers disease and autism spectrum disorder. Cortical organoids offer a promising model to study this balance, as they recapitulate key features of brain development, including the emergence of E/I circuitry. However, no existing technology can simultaneously resolve neuronal identity, spatial organization, and dynamic network activity within intact organoids, limiting precise interrogation of E/I circuit f"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755960v1?rss=1",
+      "title": "Neural circuit mechanisms for multi-tasking",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Neural activity during performance of a cognitive or motor task is often described as lying on a low-dimensional manifold in the space of all possible activity patterns. When multiple tasks are performed, an individual brain region's activity may generate multiple such manifolds. Several models have been introduced to explain this capability, each with different assumptions concerning architecture and inputs. Here, we develop a theory of multi-tasking according to which models and experimental paradigms can be organized. We introduce a distinction between sequential and simultaneous multi-task"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755994v1?rss=1",
+      "title": "LLM-powered automatic scoring tools for memory recall",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Free recall of naturalistic stimuli, such as films and stories, reveals what people remember and how they organize it. Scoring such recall requires matching each recalled utterance to the encoded stimulus, and doing this manually often makes large studies impractical. Existing automated methods mostly return similarity or aggregate scores rather than explicit matches between recalled and stimulus content. Here we introduce an open-source, model-agnostic pipeline that uses a large language model (LLM) to divide the stimulus and the recall into information units and to match units between the tw"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755968v1?rss=1",
+      "title": "Huntingtin and Celsr3 Orchestrate Spontaneous Long-Distance Spinal Cord Regeneration",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Spontaneous spinal cord regeneration is an endogenous process operational in diverse vertebrate and select mammalian species. Yet despite resulting in functional regeneration, axonal regrowth dynamics as well as underlying molecular programs are largely unknown. Live-cell imaging following laser axotomy of individual zebrafish spinal cord M-cell axons reveals a time-sensitive multistep process. From a genetic screen we uncover previously unrecognized roles for two evolutionary conserved genes, celsr3 and huntingtin (htt) in spontaneous spinal cord regeneration. Specifically, we find that htt i"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755546v1?rss=1",
+      "title": "Impaired value estimation over space explains turn-induced freezing of gait in Parkinson's disease: A cortico-basal ganglia-inspired reinforcement learning model",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Parkinson's disease (PD) gait is characterized by reduced walking speed, short shuffling steps, increased double stance time, and increased step time variability. The most debilitating symptom in PD is freezing of gait (FOG), a context-dependent locomotion arrest, mostly occurring while encountering turns, obstacles, and narrow pathways. FOG is more pronounced during turning, a complex task that challenges motor planning and execution. Here, we simulate this phenomenon using a computational model inspired by the cortico-basal ganglia circuitry, based on reinforcement learning (RL) principles. "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756249v1?rss=1",
+      "title": "RADIAL AND TANGENTIAL FIBER COMPONENTS IN HUMAN SUPERFICIAL WHITE MATTER AND THEIR ASSOCIATIONS WITH MACROSCALE FUNCTION",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "The superficial white matter (SWM), a thin layer of white matter beneath the cortex, contains a complex arrangement of short- and long-range fiber systems that support communication between cortical regions. These fiber populations include subcortical U-shaped fibers (U-fibers) that predominantly follow a tangential trajectory along the gray matter-white matter interface and long-range fibers that extend more radially through the deeper white matter to connect distant cortical regions. Here, we developed a surface-based framework to dissociate radial and tangential fiber components within the "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.753775v1?rss=1",
+      "title": "Auditory and visual mismatch negativity responses to numerical and non-numerical magnitudes in adults",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "We investigated how auditory and visual presentation of small numerical magnitudes and non- numerical magnitudes are passively processed at the neural level. Earlier research suggests automatic processing of quantities occurs rapidly in the brain. However, there are no studies on passive, pre-attentive change detection of magnitudes utilizing mismatch negativity (MMN) across sensory modalities in same participants, important to understand amodal processing of magnitudes. We recorded EEG in passive auditory and visual multi-feature oddball and control paradigms from the same adult individuals ("
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755501v1?rss=1",
+      "title": "Thalamocortical credit routing from the basal ganglia and cerebellum: anatomical constraints and circuit principles",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Animals learn to select actions that maximize reward in complex environments. A central challenge in this process is credit routing: behavioral outcomes must be routed back to the neural populations that contributed to generating the relevant actions. One possible route is through thalamocortical pathways conveying learning signals from the basal ganglia and cerebellum, where plasticity is shaped by reward-prediction errors. However, how these pathways route such signals back to specific cortical circuits remains unclear. To address this question, we combined anatomical circuit mapping in mice"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756327v1?rss=1",
+      "title": "APOE4 reduction in vascular-associated fibroblasts decreases cerebral amyloid angiopathy and associated vascular dysfunction",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Cerebral amyloid angiopathy (CAA), characterized by cerebrovascular amyloid deposition, is strongly associated with Alzheimers disease, ischemic injury, and lobar hemorrhages. APOE4 is the strongest known genetic risk factor for CAA, yet the cellular sources of APOE4 that drive pathogenic vascular amyloid deposition remain poorly defined. Here, we identify vascular-associated fibroblasts (VAFs) as a key source of APOE4 that mediates CAA and cerebrovascular dysfunction. In post-mortem brain tissue from APOE4/E4 patients with confirmed CAA, APOE colocalizes with COL6 VAFs around A{beta}-laden ve"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755483v1?rss=1",
+      "title": "Large-scale cerebrospinal fluid proteomics identifies diagnostic biomarker candidates across the clinico-pathological continuum of frontotemporal lobar degeneration",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Frontotemporal lobar degeneration (FTLD), predominantly comprised of tau and TDP-43 proteinopathies, is a common cause of early-onset dementia. Biomarkers that reliably classify FTLD subtypes are limited, thereby hindering in-vivo diagnosis and clinical trial stratification. We conducted large-scale, multi-platform cerebrospinal fluid proteomics in 566 individuals, including 274 FTLD-spectrum (48 autopsy-confirmed FTLD-TDP, 90 autopsy-confirmed FTLD-tau), 171 Alzheimers disease, and 95 controls. In neuropathological subtype contrasts, elevated matrix metalloproteinase MMP10 classified Picks di"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756117v1?rss=1",
+      "title": "Autophagosome-tethering compounds selectively lower mutant ataxin-3 in preclinical models of spinocerebellar ataxia type 3",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Spinocerebellar ataxia type 3 (SCA3) is most common subtype of autosomal dominant spinocerebellar ataxia worldwide and the most prevalent CAG expansion disorder in the east Asian population, but disease-modifying therapies remain unavailable. SCA3 is caused by the accumulation of polyglutamine- (polyQ-) expanded mutant ataxin-3 (mAtxn3), while the wild-type ataxin-3 (wtAtxn3) plays an important cellular role. Thus, allele-selective clearance of mAtxn3 without affecting wtAtxn3 is highly desired for SCA3 treatment. To achieve this goal, we tested previously reported compounds that have been sho"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755792v1?rss=1",
+      "title": "Connectomics by Sequencing Reveals Self-Organizing Principles of Neuronal Networks in Cerebral Organoids",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Functional neural networks emerge as developing neurons form synaptic connections. Revealing how these connections are organized and perturbed in disease requires linking single-neuron connectivity to molecular state across thousands of networks, which is challenging with current methods. We developed COSCO (Connectomics by Sequencing in Cerebral Organoids), combining barcoded monosynaptic rabies tracing with single-cell RNA sequencing to reconstruct over 10,000 networks across organoids. We demonstrate that organoid circuitry self-organizes into stereotyped network motifs governed by cell-int"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.753000v1?rss=1",
+      "title": "Genetically distinct neurodegenerative proteinopathies engage overlapping proteostasis components",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Neurodegenerative proteinopathies are defined by distinct proteins whose folding, trafficking and clearance depend on shared proteostasis machinery. Whether these disorders engage common components or only common processes has been unresolved. We mapped 16 disease proteins from 12 disorders onto a fixed 990-protein proteostasis network. Across the 12 disorders, the neighborhoods of these proteins shared specific proteins beyond expectations from process composition and connectivity. The same held for the two disorders defined by more than one protein. Nine proteins contributed disproportionate"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756257v1?rss=1",
+      "title": "Estimating the duration of perceptual moments from early infancy to adulthood",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Although human perception appears continuous, converging evidence suggests that sensory input is integrated over discrete temporal windows. The duration of these Temporal Integration Windows (TIWs) determines the temporal resolution of perception, but how this fundamental property develops across infancy and childhood remains unknown. Here, we estimate TIW duration from 5 months of age to adulthood using a novel, instruction-free eye-tracking paradigm that isolates pre-attentive visual integration. Across four experiments with the same paradigm (N = 308 participants), we measured spontaneous d"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755949v1?rss=1",
+      "title": "Distinct cortical networks associated with subregions of the hippocampal-entorhinal system in the first two years of human life",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Episodic memory critically depends on the hippocampus and the entorhinal cortex. Despite a rapid developmental change in human episodic memory during the first two years of life, little is known about the developmental trajectory of the hippocampal-entorhinal circuitry during this critical time period. In the current study, we collected high-quality precision fMRI data from five typically developing infants over the time period between 1 and 2 years of life and examined, in great anatomical detail, the developmental profile of distinct parts of the infant hippocampal-entorhinal system and thei"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.755714v1?rss=1",
+      "title": "Dispelling the Plateau Assumption: Case-Based Evidence for Language Recovery in Chronic-Post Stroke Aphasia",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "ObjectiveRecovery from post-stroke aphasia is traditionally thought to plateau within a year after stroke. As such, no studies have characterized long-term recovery using comprehensive behavioral assessment and longitudinal functional MRI. We sought to characterize behavioral and neuroplastic changes over nearly six years in a patient with chronic post-stroke aphasia. MethodsA patient with chronic left hemisphere stroke underwent behavioral assessment and task-based fMRI at 9, 22, 33 and 71 months after stroke. Testing assessed auditory comprehension, semantic and phonological processing, nami"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.756069v1?rss=1",
+      "title": "Vibrotactile transcutaneous auricular vagus nerve stimulation (taVNS) during working memory: convergent electrophysiological evidence for cortical efficiency",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Background: Working memory, the cognitive ability to maintain and manipulate a finite amount of information, is fundamental in reasoning, learning, and decision-making. Working memory erodes in conditions from Alzheimer's disease to stroke to healthy aging. Transcutaneous auricular vagus nerve stimulation (taVNS) is a promising neuromodulation method for improving working memory. By stimulating the auricular branch of the vagus nerve, taVNS is thought to engage ascending arousal systems such as the locus coeruleus-norepinephrine (LC-NE) system. However, the physiological link between LC-NE sys"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755047v1?rss=1",
+      "title": "Engineered Chimeric Proteins Functionally Replace ALS-causing Endogenous FUS and TDP-43 to Improve Neuronal Health",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Mislocalization and aggregation of the RNA-binding proteins (RBPs) FUS and TDP-43 are pathological hallmarks of amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD), contributing to combined loss- and gain-of-function toxicity. Here, we present a protein engineering strategy that appends optimized anti-aggregation motifs to FUS and TDP-43, thereby enhancing their nuclear localization and solubility, and enabling functional replacement of disease-associated proteins. We show that these engineered chimeric RBPs reduce levels of aggregation-prone endogenous proteins through autor"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.28.755018v1?rss=1",
+      "title": "Biphasic Modulation of Absence Seizures by Lisuride in GAERS: Dissecting the Role of 5-HT2A Receptors",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "BackgroundSerotonergic signaling plays an important role in the modulation of absence seizures (ASs), and activation of serotonin 2A receptors (5-HT2ARs) with TCB-2 suppresses spontaneous absence seizures (ASs) in Genetic Absence Epilepsy Rats from Strasbourg (GAERS). Lisuride is a pharmacologically complex serotonergic and dopaminergic ligand with low 5-HT2AR signaling efficacy and a receptor profile distinct from that of TCB-2. We therefore investigated its effects on spontaneous ASs and the contribution of 5-HT2ARs to its actions. MethodsThe effects of systemic lisuride (0.1 and 0.5 mg/kg) "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.754450v1?rss=1",
+      "title": "Metabolite Relaxation Times at 3T From Birth to 7 Years",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "PurposeWith growing interest in pediatric MRS to understand the neurochemistry of brain development, it is essential to establish pediatric-specific metabolite T1 and T2 relaxation times for reliable quantification of metabolites. Furthermore, characterization of age-related changes in relaxation times may provide insight into developmental differences in tissue microstructure and cellular composition. Therefore, the goals of this study were two-fold: (1) to estimate metabolite T1 and T2 relaxation times in a pediatric cohort; and (2) to assess linear relationships between age and relaxation t"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755879v1?rss=1",
+      "title": "Transient Vascular Cell Integration and Intrinsic Media-Stimulated Endothelial Activation Reveal Diabetic Retinopathy Signatures in Human Retinal Organoids",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Retinal organoids (ROs) model human retinogenesis but remain avascular and lack immune components, limiting their utility for studying vascular retinopathies. We generated vascular organoids (VOrs) from human pluripotent stem cells and evaluated their integration into developing ROs. Dissociated VOr cells (day 12 or day 30) were seeded onto 2D retinal neuroepithelium before 3D transition, followed by long-term culture to day 210. VOr derived cells migrated into ROs and transiently persisted. V30 ROs preserved retinal lamination, major neuronal subtypes and light evoked retinal ganglion cell re"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.751407v1?rss=1",
+      "title": "Accurate Hippocampal Electric Field Modeling for Electroconvulsive Therapy: Numerical Accuracy and Convergence",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Accurate hippocampal electric field (E-field) prediction is important for individualized electroconvulsive therapy (ECT) dosing and emerging deep-brain stimulation approaches such as temporal interference. Because hippocampal fields are far weaker than those beneath the stimulation electrodes, they are highly sensitive to tissue interfaces, conductivity contrasts, and numerical discretization, so numerical error can rival the physical uncertainties of anatomy and conductivity. We investigate this numerical component of hippocampal dosimetry using individualized head models from eleven ECT pati"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.03.751882v1?rss=1",
+      "title": "Widely Used Calculations of Intracranial Volume Provide Inaccurate Estimates in Developmental Cohorts: Evidence and Solutions for the Neuroimaging Community",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Intracranial volume (ICV) is often estimated as part of automated neuroimaging processing pipelines and commonly used to account for and characterize cranial size. FreeSurfer's estimated intracranial volume (eTIV) produces implausible longitudinal estimates in developmental samples when using versions prior to FreeSurfer 8. Across two different adolescent datasets, we document eTIV changes of up to 39% between 1.5 - 2 year sessions for FreeSurfer 7, with errors more pronounced on Siemens scanners and in female participants. These errors are markedly reduced in FreeSurfer 8 and AssemblyNet. How"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755897v1?rss=1",
+      "title": "Distilling Trial-Level EEG Variability into Participant Representations: Neurophysiologically Constrained Graph Learning in ADHD",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Extracting stable individual-level representations from noisy and variable trial-wise EEG remains a major challenge in computational cognitive neuroscience. We developed a spatiotemporal graph attention network to analyze Go/NoGo EEG from children and adolescents with and without ADHD. The framework combines ERP-informed temporal windows, phase-synchrony graph priors, and trial-to-participant transfer learning, making both information routing and representation geometry explicitly testable. The model learned reproducible attention trajectories, yet ADHD and control participants did not differ "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756163v1?rss=1",
+      "title": "Dynamic Modulation of Neural Cell Identity Maintenance via Lysine Acetyltransferase Type 3 Protein Targeted Degradation",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Cell identity acquisition during central nervous system development leads to the establishment of cell-specific transcriptional programs. Once acquired, this identity must be actively maintained, among other molecular mechanisms, by the acetylation of cell-type-specific regulatory regions carried out by the lysine acetyltransferases type 3 (KAT3) proteins CBP and p300. Here, we characterize the rapid transcriptional and physiological consequences of KAT3 elimination in neuronal and glial lineages by means of a KAT3-specific PROTAC degrader, providing strong evidence for their central role as n"
+    }
+  ]
+}
