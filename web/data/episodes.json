@@ -2,6 +2,138 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-19",
+      "hour": "19:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-19",
+      "title": "Trump Says Russia Will Supply Diesel, Vance Doubts the Firing Squad & AI Learns From Part of a Solution",
+      "subject": "A Trump–Putin diesel claim, JD Vance on the Nidal Hasan execution, a new White House press secretary, and how much of a worked answer a reasoning model should see",
+      "paragraphs": [
+        "This is ZeroFilter, at nineteen hundred hours UTC on the ninth of October. JD Vance has cast doubt on the firing squad execution of Nidal Hasan and says he will not watch it, the BBC reports; it would be the first military execution in more than sixty years. The conservative commentator Katie Zacharia, a communications adviser at Trump Media and Technology Group, has been picked as the new White House press secretary. And the BBC explains how Nobel Peace Prize winner Navi Pillay's childhood in South Africa led her to become a driving force in international law, from Myanmar to Gaza.",
+        "Ukraine and Russia. President Trump said on the ninth of October that Russia had agreed to supply millions of tons of diesel fuel to the United States and global markets, following a call with Vladimir Putin, the Kyiv Independent reports. Its daily round-up leads with drones striking another Yandex data center in Russia, along with independent monitors' claim that twenty Russian officers were killed in Ukrainian strikes on Donetsk, and Russian airports closed amid an alleged balloon and drone raid.",
+        "Frontier compute. When training a reasoning model, a verified reference solution gives a correct answer to learn from, but a prefix of that solution can instead guide the model to write the rest itself. A new arXiv paper asks how much of the reference to show, keeping the model's own continuation when it passes verification and falling back to the reference otherwise. Another paper, Keyframe Mnemonics, targets the weaknesses of recurrent and attention-based memory when imitation-learning policies must reason over long histories. And GameCommBench is a new benchmark for AI commentary across board games, sports and esports.",
+        "Quantum desk. Conventional quantum resource theories measure usefulness against an idealised set of free states. A new arXiv paper instead proposes benchmarking quantum states against what current equipment can actually prepare. Another team, studying coupled cavities with nonlinear Stark coupling, identifies exact many-body states that stay analytically tractable on any lattice; embedded in the chaotic spectrum, they behave as quantum scars that violate the eigenstate thermalisation hypothesis.",
+        "Consciousness desk. How do outcomes get routed back to the brain circuits that produced an action? A bioRxiv study uses anatomical circuit mapping in mice to examine how thalamocortical pathways carry learning signals from the basal ganglia and cerebellum, where plasticity is shaped by reward-prediction errors. Another team recorded brain activity in the same adults as they passively heard and saw small numbers and other magnitudes, to test whether the brain detects changes in quantity automatically across the senses.",
+        "So, this hour's receipts. JD Vance's doubts about an execution, a new press secretary, and the story behind a Nobel. A diesel pledge from Moscow and another data center hit. Reasoning models learning from part of an answer, quantum resources measured against real equipment, and the brain's wiring for credit and quantity. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
+          "title": "JD Vance casts doubt on firing squad execution and says he will not watch it",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss",
+          "title": "Commentator Katie Zacharia picked as new White House press secretary",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cq8ezdww6w0do?at_medium=RSS&at_campaign=rss",
+          "title": "Watch: Who is Nobel Peace Prize winner Navi Pillay?",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
+          "title": "Trump says Russia agreed to supply millions of tons of diesel to US, global markets",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
+          "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11128",
+          "title": "Balancing Reference Guidance and Free Generation in Trajectory Rollouts for Reasoning RL",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10857",
+          "title": "Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11129",
+          "title": "GameCommBench: A Unified Benchmark and Type-Aware Evaluation for AI-Generated Game Commentary",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11094",
+          "title": "Attainable Boundaries versus Operational Equivalence: Dual Benchmarks for the Hierarchical Assessment of Quantum Resources",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11234",
+          "title": "Exact polariton-condensate states via nonlinear Stark coupling",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755501v1?rss=1",
+          "title": "Thalamocortical credit routing from the basal ganglia and cerebellum: anatomical constraints and circuit principles",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.753775v1?rss=1",
+          "title": "Auditory and visual mismatch negativity responses to numerical and non-numerical magnitudes in adults",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-09-19/f01.webp"
+          },
+          {
+            "t": 32.4,
+            "src": "art/2026-10-09-19/f02.webp"
+          },
+          {
+            "t": 58.08,
+            "src": "art/2026-10-09-19/f03.webp"
+          },
+          {
+            "t": 92.54,
+            "src": "art/2026-10-09-19/f04.webp"
+          },
+          {
+            "t": 121.32,
+            "src": "art/2026-10-09-19/f05.webp"
+          },
+          {
+            "t": 148.87,
+            "src": "art/2026-10-09-19/f06.webp"
+          }
+        ]
+      },
+      "seconds": 173,
+      "audio": "audio/2026-10-09-19.mp3",
+      "thumb": "thumbs/2026-10-09-19.webp",
+      "cover_video": "thumbs/2026-10-09-19.mp4",
+      "cues": [
+        0.0,
+        32.4,
+        58.08,
+        92.54,
+        121.32,
+        148.87
+      ]
+    },
+    {
       "id": "2026-10-09-18",
       "hour": "18:00",
       "date": "2026-10-09",
@@ -113,7 +245,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-18/f01.webp"
           },
           {
@@ -143,7 +275,7 @@
       "thumb": "thumbs/2026-10-09-18.webp",
       "cover_video": "thumbs/2026-10-09-18.mp4",
       "cues": [
-        0.0,
+        0,
         41.14,
         65.45,
         90.02,
