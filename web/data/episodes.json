@@ -16,7 +16,7 @@
         "Frontier compute. On arXiv, Harness Compilation lets a large teacher model rework the tools and instructions around a small, frozen vision-language model, improving it without any weight updates. Another paper pairs a tool agent with an interface-coding agent, so that an assistant can answer with a generated on-screen interface rather than with text alone. And Nature explains the science of superintelligence, and why AI is still a useful word.",
         "Quantum desk. A new arXiv paper proves a lower bound for lattice surgery on sparse stabiliser codes: with sparse ancillas it needs, in the worst case, a number of extra qubits that grows with the square of the number of logical qubits. Another team simulates hyperbolic geometry, home to exotic phenomena from holographic duality to new topological phases, with superconducting circuits. And a third reports the first experimental demonstration of a subspace-search variational eigensolver for excited states, using photonic qudits.",
         "Consciousness desk. Nature reports that breaking down a nerve-cell scaffold relieves chronic pain in mice. On bioRxiv, a study of nearly three thousand people across three cohorts finds that sex differences in human subcortical anatomy are robust and replicable in adulthood and already evident before puberty. And in head-fixed mice shown nothing more than a moving vertical bar of light, without any task or reward, sixty-six percent of a class of neurons in the medial entorhinal cortex responded topographically.",
-        "So, this hour's receipts. A court under sanctions, a shooting with a child in the car, and a deportation the government now wants reversed. A record strike on Russian officers and a search giant knocked off balance. small models with smarter harnesses, the cost of quantum surgery, and pain relief from loosening a scaffold. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+        "So, this hour's receipts. A court under sanctions, a shooting with a child in the car, and a deportation the government now wants reversed. A record strike on Russian officers and a search giant knocked off balance. Small models with smarter harnesses, the cost of quantum surgery, and pain relief from loosening a scaffold. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
       ],
       "sources": [
         {
@@ -113,43 +113,35 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-18/f01.webp"
           },
           {
-            "t": 41.14,
+            "t": 30,
             "src": "art/2026-10-09-18/f02.webp"
           },
           {
-            "t": 65.45,
+            "t": 60,
             "src": "art/2026-10-09-18/f03.webp"
           },
           {
-            "t": 90.02,
+            "t": 90,
             "src": "art/2026-10-09-18/f04.webp"
           },
           {
-            "t": 120.53,
+            "t": 120,
             "src": "art/2026-10-09-18/f05.webp"
           },
           {
-            "t": 149.28,
+            "t": 150,
             "src": "art/2026-10-09-18/f06.webp"
           }
         ]
       },
-      "seconds": 173,
+      "seconds": 180,
       "audio": "audio/2026-10-09-18.mp3",
       "thumb": "thumbs/2026-10-09-18.webp",
-      "cover_video": "thumbs/2026-10-09-18.mp4",
-      "cues": [
-        0.0,
-        41.14,
-        65.45,
-        90.02,
-        120.53,
-        149.28
-      ]
+      "cover_video": "thumbs/2026-10-09-18.mp4"
     },
     {
       "id": "2026-10-09-17",
