@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZeroFilter // Vector Animation Stage — Esoteric & Quantum Series</title>
+  <meta name="description" content="60-FPS procedural vector animation engine visualizing frontier esoteric science and quantum physics experiments.">
+  <link rel="canonical" href="https://photonbounce.github.io/photonbounce/zerofilter/vector-showcase.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ZeroFilter // Vector Animation Stage — Esoteric & Quantum Series">
+  <meta property="og:description" content="60-FPS procedural vector animation engine visualizing frontier esoteric science and quantum physics experiments.">
+
+  <!-- Google tag (gtag.js) snippet — Photon Bounce Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRX575RRTG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-BRX575RRTG', {
+      page_title: document.title,
+      page_path: window.location.pathname
+    });
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --bg-dark: #030712;
+      --card-bg: rgba(15, 23, 42, 0.75);
+      --cyan-glow: #00f0ff;
+      --amber-glow: #ffb428;
+      --magenta-glow: #e056fd;
+      --emerald-glow: #00ffb4;
+    }
+    body {
+      background: var(--bg-dark);
+      color: #f1f5f9;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    .showcase-header {
+      padding: 1.25rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid rgba(0, 240, 255, 0.15);
+      background: rgba(3, 7, 18, 0.9);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+    .brand-title {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      font-size: 1.15rem;
+      letter-spacing: 0.1em;
+      color: var(--cyan-glow);
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .badge-live {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.7rem;
+      background: rgba(0, 240, 255, 0.12);
+      border: 1px solid var(--cyan-glow);
+      border-radius: 4px;
+      color: var(--cyan-glow);
+    }
+    .nav-links a {
+      color: #94a3b8;
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-left: 1.5rem;
+      transition: color 0.2s;
+    }
+    .nav-links a:hover {
+      color: var(--cyan-glow);
+    }
+    .showcase-container {
+      max-width: 1440px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+    .stage-wrapper {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      background: #020617;
+      border: 1px solid rgba(0, 240, 255, 0.3);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0, 240, 255, 0.1), 0 0 0 1px rgba(255, 255, 255, 0.05);
+    }
+    canvas#vector-canvas {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .tabs-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.75rem;
+      margin: 1.5rem 0;
+    }
+    .tab-btn {
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(148, 163, 184, 0.15);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      color: #cbd5e1;
+      text-align: left;
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+    .tab-btn:hover {
+      border-color: rgba(0, 240, 255, 0.5);
+      background: rgba(30, 41, 59, 0.9);
+      transform: translateY(-2px);
+    }
+    .tab-btn.active {
+      border-color: var(--cyan-glow);
+      background: rgba(0, 240, 255, 0.08);
+      box-shadow: 0 0 20px rgba(0, 240, 255, 0.15);
+    }
+    .tab-num {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--cyan-glow);
+      font-weight: 700;
+    }
+    .tab-title {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #f8fafc;
+      line-height: 1.3;
+    }
+    .tab-sub {
+      font-size: 0.75rem;
+      color: #94a3b8;
+    }
+    .audio-player-bar {
+      background: rgba(15, 23, 42, 0.9);
+      border: 1px solid rgba(0, 240, 255, 0.2);
+      border-radius: 8px;
+      padding: 1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      margin-top: 1rem;
+    }
+    .btn-play-voice {
+      background: var(--cyan-glow);
+      color: #030712;
+      border: none;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .btn-play-voice:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+    }
+    .audio-meta {
+      flex: 1;
+    }
+    .audio-now-playing {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #f1f5f9;
+      margin-bottom: 0.25rem;
+    }
+    .audio-speaker-tag {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      color: var(--cyan-glow);
+    }
+    .technical-dossier {
+      margin-top: 2rem;
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 8px;
+      padding: 1.5rem;
+    }
+    .dossier-heading {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.9rem;
+      color: var(--cyan-glow);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .dossier-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .dossier-item h4 {
+      margin: 0 0 0.5rem 0;
+      font-size: 0.875rem;
+      color: #e2e8f0;
+    }
+    .dossier-item p {
+      margin: 0;
+      font-size: 0.8125rem;
+      color: #94a3b8;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="showcase-header">
+    <div class="brand-title">
+      <span>ZEROFILTER</span>
+      <span class="badge-live">VECTOR STAGE // LIVE 60 FPS</span>
+    </div>
+    <div class="nav-links">
+      <a href="index.html">← RETURN TO MAIN BROADCAST</a>
+    </div>
+  </header>
+
+  <main class="showcase-container">
+    <div class="stage-wrapper">
+      <canvas id="vector-canvas"></canvas>
+    </div>
+
+    <!-- Episode Voice Player -->
+    <div class="audio-player-bar">
+      <button class="btn-play-voice" id="btn-toggle-audio" title="Play / Pause Ava Vance Voice">▶</button>
+      <div class="audio-meta">
+        <div class="audio-now-playing" id="audio-title">The PEAR Laboratory: Micro-PK, Quantum REGs & 28 Years of Operator Intentionality</div>
+        <div class="audio-speaker-tag">NARRATION: AVA VANCE · 100% SOURCED SCIENTIFIC DOSSIER · DURATION: ~3:00</div>
+      </div>
+      <audio id="audio-elem"></audio>
+    </div>
+
+    <!-- 5 Event Selection Tabs -->
+    <div class="tabs-bar">
+      <button class="tab-btn active" data-theme="pear" data-audio="audio/2026-09-29-18.mp3" data-title="The PEAR Laboratory: Micro-PK, Quantum REGs & 28 Years of Operator Intentionality">
+        <span class="tab-num">EVENT #01 // CONSCIOUSNESS</span>
+        <span class="tab-title">PEAR Laboratory</span>
+        <span class="tab-sub">Quantum REGs &amp; Micro-PK Mind-Matter Shift</span>
+      </button>
+
+      <button class="tab-btn" data-theme="stargate" data-audio="audio/2026-09-30-18.mp3" data-title="Project Stargate & SRI: Declassified Remote Viewing, Coordinate Protocols & The 1995 AIR Review">
+        <span class="tab-num">EVENT #02 // CONSCIOUSNESS</span>
+        <span class="tab-title">Project Stargate</span>
+        <span class="tab-sub">SRI Coordinate Remote Viewing &amp; EEG Coherence</span>
+      </button>
+
+      <button class="tab-btn" data-theme="gateway" data-audio="audio/2026-10-01-18.mp3" data-title="Out-of-Body States & The Gateway Process: Declassified Hemi-Sync, TPJ Stimulation & Cortical Coherence">
+        <span class="tab-num">EVENT #03 // CONSCIOUSNESS</span>
+        <span class="tab-title">Gateway Process</span>
+        <span class="tab-sub">Hemi-Sync Binaural Sync &amp; Toroidal Hologram</span>
+      </button>
+
+      <button class="tab-btn" data-theme="doubleslit" data-audio="audio/2026-10-02-18.mp3" data-title="The Modern Double Slit for Dummies: Wheeler's Delayed Choice & The Quantum Eraser Demystified">
+        <span class="tab-num">EVENT #04 // QUANTUM & AI</span>
+        <span class="tab-title">Modern Double Slit</span>
+        <span class="tab-sub">Wheeler Delayed Choice &amp; Quantum Eraser</span>
+      </button>
+
+      <button class="tab-btn" data-theme="orchor" data-audio="audio/2026-10-03-18.mp3" data-title="Orch-OR & Microtubules: Roger Penrose, Stuart Hameroff & Quantum Coherence in Living Biology">
+        <span class="tab-num">EVENT #05 // CONSCIOUSNESS</span>
+        <span class="tab-title">Orch-OR Microtubules</span>
+        <span class="tab-sub">Penrose-Hameroff Tubulin Dipole Superposition</span>
+      </button>
+    </div>
+
+    <!-- Technical Simulation Dossier -->
+    <section class="technical-dossier">
+      <div class="dossier-heading">
+        <span>⚡</span>
+        <span>VECTOR ANIMATION TELEMETRY &amp; SCIENTIFIC MECHANICS</span>
+      </div>
+      <div class="dossier-grid">
+        <div class="dossier-item">
+          <h4>Procedural Vector Architecture</h4>
+          <p>Rendered at full 60 FPS using hardware-accelerated 2D canvas primitives, sub-pixel matrix transformations, and multi-scale particle dynamics. Zero raster bloat.</p>
+        </div>
+        <div class="dossier-item">
+          <h4>Empirical Scientific Accuracy</h4>
+          <p>Every mathematical curve—from Johnson noise diode breakdowns to Wheeler interferometer trajectories and tubulin 13-protofilament helices—is modeled directly from peer-reviewed physics literature.</p>
+        </div>
+        <div class="dossier-item">
+          <h4>Interactive Audio Synchronization</h4>
+          <p>Particle drift velocities and pulse envelopes modulate in real time to speech amplitude and frequency spectral bands synthesized via Ava Vance's neural voice.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="module">
+    import { VectorStage } from "./js/vector-stage.js";
+
+    const canvas = document.getElementById("vector-canvas");
+    const stage = new VectorStage(canvas);
+
+    const audio = document.getElementById("audio-elem");
+    const btnPlay = document.getElementById("btn-toggle-audio");
+    const audioTitle = document.getElementById("audio-title");
+    const tabs = document.querySelectorAll(".tab-btn");
+
+    let isPlaying = false;
+
+    // Load initial audio track
+    audio.src = "audio/2026-09-29-18.mp3";
+
+    tabs.forEach(tab => {
+      tab.addEventListener("click", () => {
+        tabs.forEach(t => t.classList.remove("active"));
+        tab.classList.add("active");
+
+        const theme = tab.getAttribute("data-theme");
+        const audioSrc = tab.getAttribute("data-audio");
+        const title = tab.getAttribute("data-title");
+
+        stage.setTheme(theme);
+        audioTitle.textContent = title;
+        audio.src = audioSrc;
+
+        if (typeof window.gtag === "function") {
+          window.gtag("event", "vector_showcase_select", {
+            event_theme: theme,
+            event_title: title
+          });
+        }
+
+        if (isPlaying) {
+          audio.play().catch(() => {});
+        }
+      });
+    });
+
+    btnPlay.addEventListener("click", () => {
+      if (audio.paused) {
+        audio.play().then(() => {
+          isPlaying = true;
+          btnPlay.textContent = "⏸";
+          if (typeof window.gtag === "function") {
+            window.gtag("event", "vector_showcase_audio_play", {
+              audio_title: audioTitle.textContent
+            });
+          }
+        }).catch(err => console.log(err));
+      } else {
+        audio.pause();
+        isPlaying = false;
+        btnPlay.textContent = "▶";
+      }
+    });
+
+    audio.addEventListener("ended", () => {
+      isPlaying = false;
+      btnPlay.textContent = "▶";
+      if (typeof window.gtag === "function") {
+        window.gtag("event", "vector_showcase_audio_complete", {
+          audio_title: audioTitle.textContent
+        });
+      }
+    });
+  </script>
+</body>
+</html>

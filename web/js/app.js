@@ -5,9 +5,20 @@ import { categoryOf } from "./categories.js";
 import { initTelemetryBackground } from "./telemetry-canvas.js";
 import { cyberAudio } from "./ambient.js";
 import { checkAccess, canPlayTime, verifyAndApplyDevKey } from "./access.js";
+import { VectorStage } from "./vector-stage.js";
 
 const $ = (id) => document.getElementById(id);
 const $$ = (sel) => document.querySelectorAll(sel);
+
+function trackAnalytics(eventName, params = {}) {
+  if (typeof window.gtag === "function") {
+    try {
+      window.gtag("event", eventName, params);
+    } catch (e) {
+      console.debug("Analytics event error:", e);
+    }
+  }
+}
 
 let episodes = [];
 let currentEpisode = null;
@@ -38,6 +49,9 @@ const stageImg = $("stage-img");
 const stageCaption = $("stage-caption");
 const cueText = $("cue-text");
 const episodesGrid = $("episodes-grid");
+const vectorLayer = $("vector-layer");
+const vectorCanvas = $("vector-stage-canvas");
+let vectorStage = null;
 
 // Spectrum visualizer
 const canvas = $("audio-spectrum");
@@ -223,10 +237,17 @@ async function init() {
   updateToolbar();
   setupEventListeners();
   setupSpectrumVisualizer();
+  if (vectorCanvas) {
+    vectorStage = new VectorStage(vectorCanvas);
+  }
 }
 
 function switchCamera(cam) {
   activeCam = cam;
+  trackAnalytics("camera_switch", {
+    camera: cam,
+    episode_id: currentEpisode ? currentEpisode.id : "none"
+  });
   const camSelect = $("cam-select");
   if (camSelect && camSelect.value !== cam) camSelect.value = cam;
   $$(".cam-btn").forEach(btn => {
@@ -237,6 +258,7 @@ function switchCamera(cam) {
   hostLayer.classList.add("hidden");
   bunkerLayer.classList.add("hidden");
   stageOverlay.classList.add("hidden");
+  if (vectorLayer) vectorLayer.classList.add("hidden");
 
   // The cover video only decodes while it is the visible camera.
   if (heroVideo) {
@@ -246,6 +268,9 @@ function switchCamera(cam) {
 
   if (cam === "loop") {
     // Let video display
+  } else if (cam === "vector") {
+    if (vectorLayer) vectorLayer.classList.remove("hidden");
+    if (vectorStage && currentEpisode) vectorStage.setThemeByEpisode(currentEpisode);
   } else if (cam === "host") {
     hostLayer.classList.remove("hidden");
   } else if (cam === "bunker") {
@@ -271,6 +296,22 @@ function loadEpisode(ep, autoPlay = true) {
   $("ep-category").textContent = categoryOf(ep.category).label.toUpperCase();
   $("ep-duration").textContent = `⏱ ${formatTime(ep.seconds)} MIN`;
   $("ep-time").textContent = `${ep.date} · ${ep.hour || "HOURLY"} UTC`;
+
+  trackAnalytics("page_view", {
+    page_title: `${ep.title} | ZeroFilter`,
+    page_location: window.location.href,
+    page_path: `${window.location.pathname}#${ep.id}`
+  });
+  trackAnalytics("episode_view", {
+    episode_id: ep.id,
+    episode_title: ep.title,
+    category: ep.category,
+    kind: ep.kind || "hourly"
+  });
+
+  if (vectorStage) {
+    vectorStage.setThemeByEpisode(ep);
+  }
 
   // Update media
   if (heroVideo) {
@@ -360,6 +401,13 @@ function renderSources(ep) {
     a.target = "_blank";
     a.rel = "noopener noreferrer";
     a.textContent = s.title || s.url;
+    a.addEventListener("click", () => {
+      trackAnalytics("citation_click", {
+        episode_id: ep.id,
+        citation_url: s.url,
+        citation_title: s.title || s.url
+      });
+    });
     li.append(a, ` · ${s.published || ""}${s.speaker ? ` · ${s.speaker}` : ""}`);
     list.append(li);
   }
@@ -368,6 +416,13 @@ function renderSources(ep) {
 
 function playAudio() {
   initAudioContext();
+  if (currentEpisode) {
+    trackAnalytics("audio_play", {
+      episode_id: currentEpisode.id,
+      episode_title: currentEpisode.title,
+      category: currentEpisode.category
+    });
+  }
   audio.play().then(() => {
     btnPlay.classList.add("playing");
     playIcon.textContent = "❚❚";
@@ -680,7 +735,14 @@ function setupEventListeners() {
     }
   });
   audio.addEventListener("ended", () => {
-    if (currentEpisode) markAsPlayed(currentEpisode.id);
+    if (currentEpisode) {
+      markAsPlayed(currentEpisode.id);
+      trackAnalytics("audio_complete", {
+        episode_id: currentEpisode.id,
+        episode_title: currentEpisode.title,
+        duration: audio.duration
+      });
+    }
     stageOverlay.classList.add("hidden");
     
     // Sleep timer 'end of episode'
@@ -772,6 +834,7 @@ function setupEventListeners() {
       $$(".nav-btn").forEach(b => b.classList.remove("active"));
       btn.classList.add("active");
       activeFilter = btn.getAttribute("data-filter");
+      trackAnalytics("filter_category", { category: activeFilter });
       renderFeed();
     });
   });

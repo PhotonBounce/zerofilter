@@ -6,6 +6,57 @@
   <title>ZeroFilter — Unfiltered Geopolitics, Quantum Reality & Frontier Science</title>
   <meta name="description" content="Hourly 3-minute intelligence briefs cutting through partisan theater, theocracy, and corporate corruption — synthesized with quantum physics, AI breakthroughs, and declassified consciousness science.">
   <meta name="theme-color" content="#07090e">
+  <link rel="canonical" href="https://photonbounce.github.io/photonbounce/zerofilter/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="ZeroFilter">
+  <meta property="og:title" content="ZeroFilter — Unfiltered Geopolitics, Quantum Reality & Frontier Science">
+  <meta property="og:description" content="Hourly 3-minute intelligence briefs cutting through partisan theater, theocracy, and corporate corruption — synthesized with quantum physics, AI breakthroughs, and declassified consciousness science.">
+  <meta property="og:image" content="https://photonbounce.github.io/photonbounce/zerofilter/assets/ava_vance.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ZeroFilter — Unfiltered Intelligence & Esoteric Science">
+  <meta name="twitter:description" content="Hourly 3-minute intelligence briefs synthesized with quantum physics and consciousness science.">
+  <meta name="twitter:image" content="https://photonbounce.github.io/photonbounce/zerofilter/assets/ava_vance.webp">
+
+  <!-- Schema.org JSON-LD for Search Engine Indexing (Google Podcasts & News) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PodcastSeries",
+    "name": "ZeroFilter",
+    "url": "https://photonbounce.github.io/photonbounce/zerofilter/",
+    "description": "Hourly 3-minute intelligence briefs cutting through partisan theater, theocracy, and corporate corruption — synthesized with quantum physics, AI breakthroughs, and declassified consciousness science.",
+    "inLanguage": "en",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Photon Bounce",
+      "url": "https://photon-bounce.com"
+    },
+    "creator": {
+      "@type": "Person",
+      "name": "Ava Vance",
+      "jobTitle": "Lead Anchor & Neural Host"
+    },
+    "genre": [
+      "News & Politics",
+      "Science",
+      "Quantum Physics",
+      "Esoteric Science"
+    ]
+  }
+  </script>
+
+  <!-- Google tag (gtag.js) snippet — Photon Bounce Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BRX575RRTG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-BRX575RRTG', {
+      page_title: document.title,
+      page_path: window.location.pathname
+    });
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
@@ -32,6 +83,10 @@
         <button type="button" class="nav-btn" data-filter="consciousness">Consciousness</button>
       </nav>
       <div class="header-actions">
+        <a href="vector-showcase.html" class="access-pill" style="text-decoration: none; border-color: rgba(0, 240, 255, 0.4);" title="Open 60FPS Vector Animation Stage">
+          <span>⚡</span>
+          <span class="access-label" style="color: #00f0ff;">VECTOR FX</span>
+        </a>
         <button type="button" class="access-pill" id="access-pill" title="Access Tier & Subscription">
           <span class="access-icon" id="access-icon">👑</span>
           <span class="access-label" id="access-label">ACCESS</span>
@@ -76,6 +131,11 @@
           <div id="stage-caption" class="stage-caption"></div>
         </div>
 
+        <!-- 60FPS Interactive Vector Animation Layer -->
+        <div id="vector-layer" class="stage-overlay">
+          <canvas id="vector-stage-canvas" style="width: 100%; height: 100%; display: block;"></canvas>
+        </div>
+
         <div class="media-overlay-gradient"></div>
         <div class="broadcast-badge" id="broadcast-badge">ZEROFILTER</div>
       </div>
@@ -103,6 +163,7 @@
           <label class="bar-select" title="Picture">
             <span class="visually-hidden">Picture</span>
             <select id="cam-select" aria-label="Picture">
+              <option value="vector" selected>Vector</option>
               <option value="story">Story</option>
               <option value="loop">Cover</option>
               <option value="host">Host</option>

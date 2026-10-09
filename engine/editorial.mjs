@@ -87,6 +87,18 @@ export const NEWS_PARAGRAPHS = [0, 1];
 export const MAX_CAPTURE_LAG_MS = 3 * 3600e3;
 
 export function provenanceProblems(ep, snapshot, now = Date.now(), feeds = null) {
+  if (ep.kind === "daily") {
+    const problems = [];
+    for (const [i, s] of (ep.sources || []).entries()) {
+      if (!s || !/^https:\/\/\S+$/.test(s.url || "")) problems.push(`daily source #${i} has no https url`);
+      if (!s?.title) problems.push(`daily source #${i} has no title`);
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(s?.published || "")) problems.push(`daily source #${i} has no published date (YYYY-MM-DD)`);
+      if (s?.kind !== "reference" && (!snapshot || !snapshot.items?.some(it => it.url === s.url))) {
+        problems.push(`daily source #${i} is neither in the snapshot nor marked kind: "reference"`);
+      }
+    }
+    return problems;
+  }
   if (!ep.ingest) return ["no ingest snapshot named (ep.ingest)"];
   if (!snapshot) return [`ingest snapshot data/ingest/${ep.ingest}.json is missing`];
   const problems = [];
