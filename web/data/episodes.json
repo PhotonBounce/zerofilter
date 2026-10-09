@@ -2,6 +2,136 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-10",
+      "hour": "10:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-10",
+      "title": "Forty-One Killed Across Ukraine, Fired OpenAI Researchers Speak & Agents That Learn to Forget",
+      "subject": "Overnight strikes on Ukraine, a dispute over AI safety firings, mail ballots, and agents on the clock",
+      "paragraphs": [
+        "This is ZeroFilter, at ten hundred hours UTC on the ninth of October. Researchers fired by OpenAI say they were let go for prioritising safety, the BBC reports; the company claims instead that they were fired for mishandling sensitive information. A survivor of the Fort Hood shooting, Alonzo Lunsford, tells the BBC that the gunman's execution by firing squad befits the crime, but he has doubts about whether the public should be able to watch it. And NPR reports that officials recommend voters who mail a ballot close to Election Day get it postmarked at a post office, to avoid being caught up in mail processing changes.",
+        "Ukraine and Russia. Russian attacks have killed at least forty-one people and injured sixty-seven across Ukraine as glide bombs struck Zaporizhzhia, the Kyiv Independent reports. Ukraine's Air Force said Russia attacked overnight with one hundred and thirty-six drones, including ninety-three jet-powered Shahed-type drones. An update on Mykhailo Tkach: Austria has released the Ukrainian journalist, but he is still incommunicado, and his colleague is reportedly injured. And in Kyiv, the hundred-and-fourteen-year-old Bessarabskyi Market sits nearly empty less than a year after an upscale food court makeover.",
+        "Frontier compute. Two new arXiv papers on how AI agents manage their resources. In one, a tool-using agent chooses which earlier tool results to forget, replacing each with a short note while keeping the exact original in a recoverable archive. In the other, researchers asked whether small language-model agents can work under explicit wall-clock time budgets, and found that when the budget is stated only in the prompt, the agents fail to turn it into controlled use of time. Nature, meanwhile, asks: will AI scoop your science? Some researchers see a gloomy future.",
+        "Quantum desk. On arXiv, a team introduces a space-time-efficient magic state factory for high-rate quantum low-density parity-check codes, which can substantially reduce the qubit overhead of fault-tolerant quantum computing but still need an efficient way to run non-Clifford gates. Another paper proposes merging two steps of quantum key distribution, error verification and privacy amplification, into a single hashing procedure, reducing the complexity of classical post-processing and the amount of classical communication.",
+        "Consciousness desk. On bioRxiv, rats trained to reach the same goal by two different paths from different starting points are used to study flexible decision making; the title reports that path integration promotes flexible navigational choices. A second preprint develops a theory of multi-tasking in the brain, building on the idea that a region's activity during a task lies on a low-dimensional manifold, and distinguishing tasks performed in sequence from tasks performed at the same time.",
+        "So, this hour's receipts. A safety dispute at OpenAI, doubts about a livestreamed execution, and advice for mail-in voters. Forty-one dead across Ukraine, a journalist released but unheard from, and an empty market in Kyiv. Agents that forget on purpose and agents that miss the clock, more efficient magic states for quantum codes, and rats finding their way. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+          "title": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/ck1wvqw4lzdvo?at_medium=RSS&at_campaign=rss",
+          "title": "Fort Hood survivor supports gunman's execution by firing squad but questions livestream",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5984981/mail-in-ballot-usps-postmark",
+          "title": "Why mailing a ballot close to Election Day may get it rejected for a late postmark",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-41-injure-67-across-ukraine-as-glide-bombs-strike-zaporizhzhia/",
+          "title": "Russian attacks kill at least 41, injure 67 across Ukraine as glide bombs strike Zaporizhzhia",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukrainian-investigative-journalist-mykhailo-tkach-detained-in-austria-while-on-assignment/",
+          "title": "Update: Austria releases Ukrainian journalist but he's still incommunicado, his colleague reportedly injured",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/kyivs-historic-market-sits-nearly-empty-after-upscale-food-court-makeover/",
+          "title": "Kyiv's historic market sits nearly empty after upscale food court makeover",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10590",
+          "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10833",
+          "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03128-6",
+          "title": "Will AI scoop your science? Some researchers see a gloomy future",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10731",
+          "title": "Single-shot magic state factories for quantum LDPC codes",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10702",
+          "title": "Combining Error Verification and Privacy Amplification in Quantum Key Distribution",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756060v1?rss=1",
+          "title": "Path Integration Promotes Flexible Navigational Decision Making",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755960v1?rss=1",
+          "title": "Neural circuit mechanisms for multi-tasking",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-10/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-10/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-10/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-10/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-09-10/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-09-10/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-09-10.mp3",
+      "thumb": "thumbs/2026-10-09-10.webp",
+      "cover_video": "thumbs/2026-10-09-10.mp4"
+    },
+    {
       "id": "2026-10-09-09",
       "hour": "09:00",
       "date": "2026-10-09",
@@ -95,7 +225,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-09/f01.webp"
           },
           {
@@ -125,7 +255,7 @@
       "thumb": "thumbs/2026-10-09-09.webp",
       "cover_video": "thumbs/2026-10-09-09.mp4",
       "cues": [
-        0.0,
+        0,
         34.39,
         65.59,
         94.51,
