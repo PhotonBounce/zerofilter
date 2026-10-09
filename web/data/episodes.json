@@ -2,6 +2,130 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-23",
+      "hour": "23:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-23",
+      "title": "A Tornado Tears Through Sicily, the EU's Sanctions Blind Spot & AI That Learns to Read the Room",
+      "subject": "A tornado in Marsala and Petrosino, why EU sanctions miss a tank-industry company, a toss-up House race, and teaching AI the unwritten rules",
+      "paragraphs": [
+        "This is ZeroFilter, at twenty-three hundred hours UTC on the ninth of October. A huge tornado has ripped through the Sicilian town of Petrosino and the city of Marsala, the BBC reports; dramatic footage shows damage to buildings and cars. In New York, Republican congressman Mike Lawler is in a tight race for re-election in a toss-up district that could help determine control of Congress in November, NPR reports. And in India, the BBC profiles Neha Bora, one of the most recognisable faces of the country's recent Gen Z-led protests, who is taking on Modi.",
+        "Ukraine and Russia. More than four years into the full-scale war, and twelve years since Russia first invaded Ukraine, the European Union has built an extensive arsenal of sanctions, but the Kyiv Independent asks why they have missed the company behind Russia's tank industry, pointing to a persistent visibility problem that begins with two companies sharing a name. And in Kyiv, the hundred-and-fourteen-year-old Bessarabskyi Market, once a labyrinth of produce stalls, has emptied: less than a year after an upscale reopening in late 2025, most of its restaurants are gone.",
+        "Frontier compute. Voice agents are converging on a pattern in which a full-duplex model keeps talking and listening while search, reasoning and coding are delegated in the background. A new arXiv paper, DuplexAgent-RSI, builds a harness to coordinate that hand-off. Another paper, SynCo, has a self-evolving agent co-train with the system that synthesises its training tasks, so the tasks keep pace as the agent improves. And RIT-RAG lets retrieval agents navigate large document collections through trees built from the search results themselves.",
+        "Quantum desk. Experiments on photonic quantum reservoirs have reported advantages, null results and train-only effects that cannot be compared. A new arXiv paper settles the question independently of any task, finding that multi-photon interference spreads feature variance across roughly twice as many effective dimensions as distinguishable particles. Another analyses the security of quantum key distribution when state preparation is imperfect. And a third develops an iterative Bayesian eigensolver that learns a ground state from single-ancilla measurements.",
+        "Consciousness desk. Human communities run on norms, from dress codes to ways of speaking, that are vast in number, change quickly and are often arbitrary. A new arXiv paper, Reading the Room, argues that aligning autonomous AI with them requires normative competence: the ability to work out, from interaction alone, which norms a community actually enforces. It sets out the foundations, design choices and open challenges for building that ability into language models.",
+        "So, this hour's receipts. A tornado in Sicily, a toss-up seat in New York, and a young protester taking on Modi. A blind spot in Europe's sanctions and an empty market hall in Kyiv. Voice agents that delegate, interference in photonic quantum reservoirs, and machines learning the unwritten rules. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cm4g1wwl0lxko?at_medium=RSS&at_campaign=rss",
+          "title": "Tornado rips through Sicilian town and city",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5986150/lawler-new-york-congress-trump",
+          "title": "Republican congressman tries to outrun a potential blue wave in New York toss-up seat",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c5n49xln3lz0o?at_medium=RSS&at_campaign=rss",
+          "title": "Meet India's feisty Gen Z protester who is taking on Modi",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/why-eu-sanctions-have-missed-company-behind-russias-tank-industry-2/",
+          "title": "Why have EU sanctions missed the company behind Russia’s tank industry?",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/kyivs-historic-market-sits-nearly-empty-after-upscale-food-court-makeover/",
+          "title": "Food court flop? Kyiv’s historic market empties after million-dollar makeover",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11299",
+          "title": "DuplexAgent-RSI: Recursive Harness Improvement for Full-Duplex Voice Agent Collaboration",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11345",
+          "title": "SynCo: Data Synthesis Co-Training for Self-Evolving LLMs via Multi-Agent Reinforcement Learning",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11370",
+          "title": "RIT-RAG: Navigating Document Corpora with Retrieval-Induced Trees",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11360",
+          "title": "When Does Interference Help Learning? Kernel Geometry as a Pre-Experimental Test for Photonic Reservoir Computing",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11438",
+          "title": "Robust quantum key distribution with imperfections in state preparation and characterization",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11466",
+          "title": "An iterative Bayesian variational quantum eigensolver with the von Mises-Fisher distribution",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://arxiv.org/abs/2610.10906",
+          "title": "Reading the Room: Foundations, Design, and Challenges of Normative Competence in LLMs",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-23/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-23/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-23/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-23/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-09-23/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-09-23/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-09-23.mp3",
+      "thumb": "thumbs/2026-10-09-23.webp",
+      "cover_video": "thumbs/2026-10-09-23.mp4"
+    },
+    {
       "id": "2026-10-09-22",
       "hour": "22:00",
       "date": "2026-10-09",
@@ -101,7 +225,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-22/f01.webp"
           },
           {
@@ -131,7 +255,7 @@
       "thumb": "thumbs/2026-10-09-22.webp",
       "cover_video": "thumbs/2026-10-09-22.mp4",
       "cues": [
-        0.0,
+        0,
         26.14,
         51.86,
         87.43,
