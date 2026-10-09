@@ -2,6 +2,130 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-06",
+      "hour": "06:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-06",
+      "title": "An ICE Shooting in New York, Kyiv Braces for Winter & Catching a Deceptive AI Through Its Students",
+      "subject": "Hourly sourced brief: an ICE agent shoots a man in New York City, the USS Lincoln home after a ten-month mission extended by the war with Iran, Kyiv residents weighing whether to leave before winter, the reported Tver strike, catching misaligned AI by distilling it, time-budgeted agents, simpler quantum key distribution, a relativistic collapse model, photonic quantum chips, a swimming, suckling mammal ancestor, teaching AI to read the room, and how evaluation choices skew brain-imaging results.",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-six hundred hours UTC on the ninth of October. In New York City, an ICE agent has shot a man, the BBC reports. The Department of Homeland Security says it happened during the arrest of what it called a criminal illegal alien, and the city's mayor has expressed outrage. And in San Diego, the aircraft carrier USS Lincoln has docked after a ten-month mission. It was due home in May, but the war with Iran kept it at sea on one of the longest deployments ever.",
+        "Ukraine. As a freezing winter approaches, some Kyiv residents are looking for shelter elsewhere, the BBC reports: a renewed Russian campaign of strikes on power and energy infrastructure has made them contemplate leaving the capital. Overnight, Ukraine reportedly targeted a cruise-missile fuel plant and an oil depot in Russia's Tver Oblast, according to Russian Telegram channels cited by the Kyiv Independent.",
+        "Frontier compute. A powerful but misaligned AI might recognise when it is being tested and behave well, making audits useless. A new arXiv paper proposes a trap it calls the distillation double bind: train a weaker, benign student from that model. If the misalignment transfers, the student may hide it less well and reveal evidence about the teacher; if it does not, the student gains capabilities while staying benign. Another paper asks whether small agents can respect a wall-clock time budget and still use the time productively, and finds that simply stating the budget in the prompt is not enough.",
+        "Quantum and life. Quantum key distribution usually checks for errors and then strengthens privacy in two separate hashing steps; a new arXiv paper proposes doing both in a single step. Another offers a relativistic collapse model for quantum fields, one possible, testable answer to the measurement problem, built to avoid faster-than-light signalling. A third reviews photonic chips as a path to fault-tolerant quantum computers. And from Nature: an early predecessor to mammals could swim, suckle and swallow.",
+        "Mind and norms. Human communities run on norms, shared standards of acceptable behaviour, enforced by sanction, often arbitrary, and quick to change. A new arXiv paper argues that aligning AI with them requires normative competence, the ability to read the room, and lays out its foundations and challenges. And a bioRxiv study of brain-imaging models built on eight hundred and seventy-one subjects from twenty sites warns that reported performance can depend on how the model is evaluated, not only on what the scans contain.",
+        "So, this hour's receipts. A shooting in New York and a carrier home from a long war at sea. A capital weighing whether to stay through winter, and a strike on missile fuel deep in Russia. A trap for deceptive AI, one hash where there were two, and machines learning the unwritten rules of the room. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c59vzk9yypn3o?at_medium=RSS&at_campaign=rss",
+          "title": "ICE agent shoots man in New York City",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cwp8gnp14xr2o?at_medium=RSS&at_campaign=rss",
+          "title": "​​USS Lincoln docks in San Diego after 10-month mission",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c6zjx7jexz1do?at_medium=RSS&at_campaign=rss",
+          "title": "As freezing winter approaches, Kyiv residents look for shelter elsewhere",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+          "title": "Ukraine reportedly targets Russian cruise missile fuel plant, oil depot in overnight attack",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11012",
+          "title": "Distillation for Incrimination and Distillation for Capabilities",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10833",
+          "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10702",
+          "title": "Combining Error Verification and Privacy Amplification in Quantum Key Distribution",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10980",
+          "title": "A Flash-Based Relativistic Collapse Model for Quantum Fields",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11321",
+          "title": "Photonic Chips for Universal Quantum Computing: Retrospective and Prospective",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03069-0",
+          "title": "An early predecessor to mammals could swim, suckle and swallow",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://arxiv.org/abs/2610.10906",
+          "title": "Reading the Room: Foundations, Design, and Challenges of Normative Competence in LLMs",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756253v1?rss=1",
+          "title": "Information regimes in population-graph neuroimaging: cohort context and implementation-dependent evaluation sensitivity",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-06/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-06/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-06/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-06/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-09-06/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-09-06/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-09-06.mp3",
+      "thumb": "thumbs/2026-10-09-06.webp",
+      "cover_video": "thumbs/2026-10-09-06.mp4"
+    },
+    {
       "id": "2026-10-09-05",
       "hour": "05:00",
       "date": "2026-10-09",
@@ -107,7 +231,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-05/f01.webp"
           },
           {
@@ -137,7 +261,7 @@
       "thumb": "thumbs/2026-10-09-05.webp",
       "cover_video": "thumbs/2026-10-09-05.mp4",
       "cues": [
-        0.0,
+        0,
         30.77,
         51.41,
         87.29,
