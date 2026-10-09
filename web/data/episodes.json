@@ -2,6 +2,130 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-13",
+      "hour": "13:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-13",
+      "title": "Ukrainian Civilians Removed From Kharkiv Oblast, Stolen Renoirs Recovered & Agents That Rewrite Only Their Harness",
+      "subject": "Forced removals from occupied Kharkiv Oblast, spying claims in Austria, recovered Renoirs, and reviewable self-improving AI",
+      "paragraphs": [
+        "This is ZeroFilter, at thirteen hundred hours UTC on the ninth of October. Two Renoir paintings stolen from a French museum have been recovered, the BBC reports; they were seized last month when thieves cut through a fence and smashed a window at the Renoir Museum on the French Riviera. The BBC also explains why Indonesia's peatland fires are so hard to put out, and why they produce so much of the toxic haze shrouding the region. And a suspect linked to a bomb attack in Monaco gives the BBC his own account of the attempted assassination of the Ukrainian-born businessman Vadym Yermolayev.",
+        "Ukraine and Russia. Russia has forcibly removed twenty-five Ukrainian civilians, including children, from occupied Kharkiv Oblast, Ukraine's ombudsman Dmytro Lubinets says. He said: Russia calls this an evacuation, but when people are taken away against their will, intimidated, and left with no choice, it is not a rescue; it is coercion. And an update from Austria: the Ukrainian journalists detained there are suspected of spying, a minister claims. The acclaimed journalist at the centre of the case was reportedly on an editorial assignment in Vienna with his colleague Yaroslav Bondarenko when Austrian authorities detained him.",
+        "Frontier compute. A new arXiv paper argues that a self-improving AI agent which rewrites itself destroys what a supervisor needs to review: a named change, a recorded test, an approval. Its answer, tested on credit pipelines, is to confine self-evolution to the runtime harness, the instructions and tool-call logic, while the model weights stay fixed, so that every adaptation is a diff with a cause and a test attached. Another paper, Plan-and-Patch, uses diffusion language models to revise only the broken part of an agent's plan rather than regenerating all of it.",
+        "Quantum desk. Simulating chaotic quantum many-body dynamics is a major challenge for classical computers, because entanglement builds up and spreads so quickly. A new arXiv study asks whether machine learning can help, treating quantum dynamics as a time-series forecasting problem on a few-qubit chain that can be realised with Rydberg-atom arrays. Another paper finds that coherence in a qubit's environment can be a resource, expanding the set of steady states that dissipation can prepare.",
+        "Consciousness desk. Scoring what people remember from films and stories usually means matching every recalled sentence by hand. A new bioRxiv preprint introduces an open-source pipeline that uses a large language model to split stimulus and recall into units of information and match them. In zebrafish, another team reports previously unrecognised roles for two conserved genes, huntingtin and celsr3, in spontaneous long-distance spinal cord regeneration. And a flexible three-dimensional interface reveals coordinated circuit activity inside cortical organoids.",
+        "So, this hour's receipts. Recovered Renoirs, peatland smoke over Indonesia, and a Monaco bomb suspect's account. Civilians taken from occupied Kharkiv Oblast and spying claims against journalists in Austria. Self-improving agents that leave a paper trail, plans patched instead of rewritten, machine learning for quantum chaos, and genes that help a spinal cord grow back. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cwkg50v1vn07o?at_medium=RSS&at_campaign=rss",
+          "title": "Two Renoir paintings stolen from French museum are recovered",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/c862y63x657no?at_medium=RSS&at_campaign=rss",
+          "title": "Why is it so hard to put out Indonesian fires shrouding the region in toxic smog?",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/ckgel9044vqeo?at_medium=RSS&at_campaign=rss",
+          "title": "Suspect linked to Monaco bomb attack on millionaire speaks to BBC",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russia-forcibly-removes-25-ukrainian-civilians-including-children-from-occupied-kharkiv-oblast-ombudsman-says/",
+          "title": "Russia forcibly removes 25 Ukrainian civilians, including children, from occupied Kharkiv Oblast, ombudsman says",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukrainian-investigative-journalist-mykhailo-tkach-detained-in-austria-while-on-assignment/",
+          "title": "Update: Ukrainian journalists detained in Austria suspected of spying, minister claims",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10629",
+          "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10786",
+          "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10697",
+          "title": "On linearity or non-linearity in machine learning for quantum chaotic dynamics",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10794",
+          "title": "Coherence-assisted quantum state preparation and thermal control through repeated interactions",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755994v1?rss=1",
+          "title": "LLM-powered automatic scoring tools for memory recall",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755968v1?rss=1",
+          "title": "Huntingtin and Celsr3 Orchestrate Spontaneous Long-Distance Spinal Cord Regeneration",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756317v1?rss=1",
+          "title": "Flexible 3D multimodal organoid interface reveals functional subnetworks and coordinated circuit activity in cortical organoids",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-13/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-13/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-13/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-13/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-09-13/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-09-13/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-09-13.mp3",
+      "thumb": "thumbs/2026-10-09-13.webp",
+      "cover_video": "thumbs/2026-10-09-13.mp4"
+    },
+    {
       "id": "2026-10-09-12",
       "hour": "12:00",
       "date": "2026-10-09",
@@ -101,7 +225,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-12/f01.webp"
           },
           {
@@ -131,7 +255,7 @@
       "thumb": "thumbs/2026-10-09-12.webp",
       "cover_video": "thumbs/2026-10-09-12.mp4",
       "cues": [
-        0.0,
+        0,
         38.28,
         72.89,
         100.39,
