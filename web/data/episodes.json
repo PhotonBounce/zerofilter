@@ -2,6 +2,149 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-15",
+      "hour": "15:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-15",
+      "title": "Navi Pillay Wins the Nobel Peace Prize, Seoul Recalls Its Kyiv Envoy & AI Takes On Open Problems",
+      "subject": "A Nobel for a human rights champion, a prisoner-of-war row between Kyiv and Seoul, unsolved problems as an AI benchmark, and the timing of perception",
+      "paragraphs": [
+        "This is ZeroFilter, at fifteen hundred hours UTC on the ninth of October. Navi Pillay, the former UN human rights chief, has won the Nobel Peace Prize, the BBC reports; the Norwegian Nobel Committee recognised her efforts to promote peace and international law. The outspoken Indian actor Nana Patekar has died suddenly at seventy-five; he carved out a distinctive place in Indian cinema with his intense performances. And twenty-five years after the United States invaded Afghanistan, NPR and StoryCorps hear from one Afghan couple about their experience after the invasion and the eventual US withdrawal.",
+        "Ukraine and Russia. South Korea has recalled its envoy to Ukraine over a prisoner-of-war row, the BBC reports; it is the latest in a diplomatic spat after Kyiv disclosed that two North Korean prisoners were transferred to Seoul. Ukraine's General Staff puts Russia's losses since February 2022 at one million, five hundred and forty-nine thousand, four hundred and ninety troops, figures reported by the Kyiv Independent. And on his own channel, Yuri Shvets' broadcast number twelve seventeen is titled: Ukraine is striking Russia systematically, Europe is lifting its nuclear taboos.",
+        "Frontier compute. A new arXiv benchmark, OpenProblemBench, tests AI on eighty-two unresolved problems drawn from the mathematics and theoretical physics literature, chosen so that any proposed solution can be checked fairly clearly. Another paper worries that a powerful misaligned model might recognise alignment tests and behave well on them; it proposes distilling such a model into a weaker student, either to expose the misalignment or to keep the useful capabilities without it. And Nature reports on a retrofitted language model that can count the letter i in artificial intelligence.",
+        "Quantum desk. Spontaneous collapse models offer a possible, testable answer to the quantum measurement problem, but a relativistic version for quantum fields has been an open challenge. A new arXiv paper proposes a flash-based framework that tackles faster-than-light signalling, energy production and vacuum stability. Another team introduces a pulse sequence that resolves coherent exchange with more weakly coupled two-level-system defects in superconducting qubits, a key source of loss. And a third shows fast surgery on quantum LDPC codes with far fewer ancilla qubits than before.",
+        "Consciousness desk. Perception feels continuous, but evidence suggests the brain integrates sensory input over discrete windows of time. A bioRxiv study of three hundred and eight participants, from five months old to adulthood, used an instruction-free eye-tracking test to estimate how long those perceptual moments last as we grow. Nature asks whether the adult brain can grow new neurons, and how researchers are solving that century-old puzzle. And a third preprint links vagus nerve stimulation at the ear to more efficient cortical activity during working memory.",
+        "So, this hour's receipts. A Nobel for Navi Pillay, a farewell to Nana Patekar, and an Afghan couple remembering. A recalled envoy and a fresh Shvets broadcast. Unsolved problems as an AI exam, a collapse model for quantum fields, and the length of a perceptual moment. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cm9wz5kng0x1o?at_medium=RSS&at_campaign=rss",
+          "title": "Navi Pillay, former UN human rights chief, wins Nobel Peace Prize",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cj3vqr5rknpeo?at_medium=RSS&at_campaign=rss",
+          "title": "Outspoken Indian actor Nana Patekar dies suddenly at 75",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5989180/25-years-later-an-afghan-couple-looks-back-at-the-invasion",
+          "title": "25 years later an Afghan couple looks back at the invasion",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/ckwy48rrz95vo?at_medium=RSS&at_campaign=rss",
+          "title": "South Korea recalls Ukraine envoy over prisoner-of-war row",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-549-490-troops-in-ukraine-since-feb-24-2022/",
+          "title": "General Staff: Russia has lost 1,549,490 troops in Ukraine since Feb. 24, 2022",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.youtube.com/watch?v=q4emu6edBlI",
+          "title": "УКРАИНА НАНОСИТ СИСТЕМНЫЕ УДАРЫ ПО РФ / ЕВРОПА СНИМАЕТ ЯДЕРНЫЕ ТАБУ /№1217/ Юрий Швец",
+          "published": "2026-10-06",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11118",
+          "title": "OpenProblemBench: Benchmarking AI on Open Problems in the Foundational Theoretical Sciences",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11012",
+          "title": "Distillation for Incrimination and Distillation for Capabilities",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03059-2",
+          "title": "Retrofitted LLM can count the letter ‘i’s in ‘artificial intelligence’",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10980",
+          "title": "A Flash-Based Relativistic Collapse Model for Quantum Fields",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11125",
+          "title": "Sub-MHz SWAP spectroscopy of two-level systems in superconducting qubits",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11079",
+          "title": "2 Fast 2 Surgery: Fast surgery on QLDPC codes with $\\tilde{O}(n(k + d))$ space overhead",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756257v1?rss=1",
+          "title": "Estimating the duration of perceptual moments from early infancy to adulthood",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03132-w",
+          "title": "Can your brain grow new neurons? How researchers are solving a century-old puzzle",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.756069v1?rss=1",
+          "title": "Vibrotactile transcutaneous auricular vagus nerve stimulation (taVNS) during working memory: convergent electrophysiological evidence for cortical efficiency",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-09-15/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-09-15/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-09-15/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-09-15/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-09-15/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-09-15/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-09-15.mp3",
+      "thumb": "thumbs/2026-10-09-15.webp",
+      "cover_video": "thumbs/2026-10-09-15.mp4"
+    },
+    {
       "id": "2026-10-09-14",
       "hour": "14:00",
       "date": "2026-10-09",
@@ -95,7 +238,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-14/f01.webp"
           },
           {
@@ -125,7 +268,7 @@
       "thumb": "thumbs/2026-10-09-14.webp",
       "cover_video": "thumbs/2026-10-09-14.mp4",
       "cues": [
-        0.0,
+        0,
         28.82,
         63.43,
         98.52,
