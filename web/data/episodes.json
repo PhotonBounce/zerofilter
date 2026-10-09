@@ -2,6 +2,132 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-09-04",
+      "hour": "04:00",
+      "date": "2026-10-09",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-09-04",
+      "title": "Ukraine Hits a Cruise-Missile Fuel Plant in Tver, Kyiv's Blackout Day in Review & Magnesium for Memory",
+      "subject": "Hourly sourced brief: Ukraine reportedly strikes a factory in Tver Oblast that makes fuel components for Russian cruise missiles, a review of the past day in Ukraine (Kramatorsk, the Kyiv blackout, Britain's winter aid), Nature on superintelligence, controlling where semiconductor crystals grow, gut microbes that trace ancient human journeys, woody blankets on Arctic permafrost, and a bioRxiv study on how dietary magnesium enhances memory.",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-four hundred hours UTC on the ninth of October. One new story overnight. Ukraine's military launched an attack on Russia's Tver Oblast early on the ninth, the Kyiv Independent reports, citing Russian Telegram media channels. The reported target: a factory that manufactures fuel components for Kh-55 and Kh-101 cruise missiles. That identification of the target comes from those Russian channels, so treat it as reported rather than confirmed; we will follow up when there is more.",
+        "Because the hour is otherwise quiet, here is the past day in Ukraine, from the Kyiv Independent. At least thirty-three people were killed when a Russian glide bomb struck buses in Kramatorsk; Russia comes to the Ukrainian land with death, Donetsk Governor Vadym Filashkin said. Russian attacks plunged Kyiv into near-total darkness. The drop in voltage halted metro trains and escalators, the city administration said, and other parts of public transport were affected too; more than three million residents lost electricity. And Britain has announced a seventy-one million dollar winter aid package for Ukraine.",
+        "Frontier compute. The arXiv computer science feed has not yet posted its new batch for today, so we turn to Nature, which asks about the science of superintelligence, and argues why AI is still a useful word. As the systems we cover each hour grow more capable, the question of what we should even call them, and how we would measure something beyond human ability, is not only academic. We will bring you the new research as soon as it lands.",
+        "Matter, Earth and life. With the quantum physics feed also between batches, four stories from Nature. Researchers report how to control where semiconductor crystals start growing. Up north, woody blankets are being deployed on Arctic permafrost to reduce carbon emissions. And gut microbes, Nature reports, trace ancient human journeys, including microbes that are now vanishing. And in genetics, Nature reports that genome accessibility reveals disease risk that gene expression alone misses.",
+        "Consciousness desk. Magnesium in the diet has been shown to enhance memory in mammals and in fruit flies, but how it changes the neurons themselves has been unknown. A new bioRxiv study used single-cell RNA sequencing in flies to map how memory-relevant cells respond, and found changes in genes of the Hippo signalling pathway in the mushroom bodies, the fly brain's memory centre. Knocking down Hippo-pathway genes, the authors report, shows the pathway is involved in how magnesium boosts memory.",
+        "So, this hour's receipts. A reported Ukrainian strike on the fuel behind Russia's cruise missiles. A day of death in Kramatorsk, darkness in Kyiv, and British winter aid. Crystals placed where engineers want them, blankets laid on permafrost, microbes that remember our migrations, and a mineral that helps a brain remember. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/ukraine-reportedly-targets-russian-cruise-missile-fuel-plant-in-tver-oblast/",
+          "title": "Ukraine reportedly targets Russian cruise missile fuel plant in Tver Oblast",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/at-least-12-dead-after-russian-glide-bomb-strikes-kramatorsk-bus-stop/",
+          "title": "At least 33 dead after Russian glide bomb strikes Kramatorsk buses",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-attacks-plunge-kyiv-into-near-total-darkness-disrupt-power-metro-water-supply/",
+          "title": "Russian attacks plunge Kyiv into near-total darkness, disrupt power, metro, water supply",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/uk-to-provide-71-million-winter-aid-package-to-ukraine/",
+          "title": "UK to provide $71 million winter aid package to Ukraine",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03198-6",
+          "title": "The science of superintelligence and why AI is still a useful word",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02934-2",
+          "title": "How to control where semiconductor crystals start growing",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03045-8",
+          "title": "Woody ‘blankets’ are being deployed on Arctic permafrost to reduce carbon emissions",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02969-5",
+          "title": "Gut microbes that trace ancient human journeys",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11106-1",
+          "title": "Prehistoric global migration of vanishing gut microbes with humans",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03072-5",
+          "title": "Genome accessibility reveals disease risk that gene expression misses",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756214v1?rss=1",
+          "title": "Dietary magnesium supplement enhances memory through Hippo signaling",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-09-04/f01.webp"
+          },
+          {
+            "t": 29.42,
+            "src": "art/2026-10-09-04/f02.webp"
+          },
+          {
+            "t": 61.75,
+            "src": "art/2026-10-09-04/f03.webp"
+          },
+          {
+            "t": 85.54,
+            "src": "art/2026-10-09-04/f04.webp"
+          },
+          {
+            "t": 113.02,
+            "src": "art/2026-10-09-04/f05.webp"
+          },
+          {
+            "t": 140.38,
+            "src": "art/2026-10-09-04/f06.webp"
+          }
+        ]
+      },
+      "seconds": 165,
+      "audio": "audio/2026-10-09-04.mp3",
+      "thumb": "thumbs/2026-10-09-04.webp",
+      "cover_video": "thumbs/2026-10-09-04.mp4",
+      "cues": [
+        0.0,
+        29.42,
+        61.75,
+        85.54,
+        113.02,
+        140.38
+      ]
+    },
+    {
       "id": "2026-10-09-03",
       "hour": "03:00",
       "date": "2026-10-09",
@@ -89,7 +215,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-03/f01.webp"
           },
           {
@@ -119,7 +245,7 @@
       "thumb": "thumbs/2026-10-09-03.webp",
       "cover_video": "thumbs/2026-10-09-03.mp4",
       "cues": [
-        0.0,
+        0,
         29.06,
         51.17,
         81.36,
