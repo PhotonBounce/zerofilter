@@ -2,6 +2,154 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-07",
+      "hour": "07:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-07",
+      "title": "Isaias Weakens Over Florida, Guilty Verdicts for the Surfers' Killers & Trump's Russian Diesel Deal Draws Zelensky's Fire",
+      "subject": "Hurricane Isaias downgraded, verdicts in Mexico over the murdered surfers, a Panama earthquake, Trump's Russian diesel deal, and agents racing the clock",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-seven hundred hours UTC on the tenth of October. Hurricane Isaias has been downgraded after making landfall in Florida; the BBC says it is continuing across the Southeastern US as a post-tropical cyclone. In Mexico, three men have been found guilty of murdering Australian brothers Jake and Callum Robinson and their American friend Carter Rhoad, killed on a surf trip in an apparent botched robbery; the brothers' mother said accountability matters. A powerful magnitude seven point seven earthquake has hit Panama, damaging buildings, and tsunami warnings have been issued for neighbouring countries.",
+        "Ukraine and Russia. President Trump says Russia will supply millions of tons of diesel to the American and global markets after a call with Vladimir Putin. Zelensky called the move an investment in war that must be ended, not prolonged, the BBC reports, and NPR notes the deal relaxes years of US pressure on Moscow to ease prices before the midterms. The announcement coincided with a Miami meeting where US, Ukrainian and European officials discussed ending the war, the Kyiv Independent says. And Ukraine's General Staff claims Russia has lost one million five hundred fifty thousand nine hundred ten troops since February twenty twenty-two, including one thousand four hundred twenty over the past day.",
+        "Frontier compute. Can small agents keep time? A new arXiv paper gives agents explicit wall-clock budgets and finds that when the budget is stated only in the prompt, they fail to turn it into controlled use of time. Another measures how wrapping a harmful request inside a story or role-play gets past refusals; attack success on one small model reaches eighty-nine point four percent in English and ninety-five point seven in Classical Chinese.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds are empty this hour, so the money leads. The Department of War has announced about three hundred fifty million dollars in quantum computing initiatives, and its Office of Strategic Capital has signed a one hundred fifty million dollar conditional loan commitment with PsiQuantum, to enhance the company's manufacturing and prototyping in the United States. Nature, meanwhile, reports that nuclear clocks have ticked for the first time.",
+        "Consciousness desk. Dietary magnesium is known to enhance memory in mammals and fruit flies; a bioRxiv study maps how, finding changes in Hippo-pathway genes in memory-relevant neurons of the fly's mushroom bodies, which proved necessary for the magnesium boost but not for baseline memory. Another asks whether rewards improve working memory or just make people slower and more careful. And Nature asks a century-old question: can your brain grow new neurons?",
+        "So, this hour's receipts. A storm that weakened, a verdict for three murdered surfers, and a quake in Panama. A diesel deal that Zelensky calls a gift to Putin, alongside peace talks in Miami. Agents that lose track of time, stories that slip past refusals, quantum dollars from the Pentagon, and magnesium in the fly brain. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+          "title": "Hurricane Isaias downgraded after making landfall in Florida",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss",
+          "title": "Three men found guilty of murdering Australian brothers and US friend in Mexico",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cr86z34vz95yo?at_medium=RSS&at_campaign=rss",
+          "title": "How the trial of murdered Australian brothers and US friend unfolded",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
+          "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+          "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms",
+          "title": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/us-ukrainian-european-officials-discuss-ending-russias-war-at-miami-meeting/",
+          "title": "US, Ukrainian, European officials discuss ending Russia's war at Miami meeting",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-550-910-troops-in-ukraine-since-feb-24-2022/",
+          "title": "General Staff: Russia has lost 1,550,910 troops in Ukraine since Feb. 24, 2022",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10833",
+          "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11005",
+          "title": "How Narrative Wrapping Affects LLM Refusal: A Cross-Language Benchmark and Defense",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622109/department-of-war-announces-350-million-in-quantum-computing-initiatives/",
+          "title": "Department of War Announces $350 Million in Quantum Computing Initiatives",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622113/department-of-wars-office-of-strategic-capital-signs-150-million-conditional-lo/",
+          "title": "Department of War's Office of Strategic Capital Signs $150 Million Conditional Loan Commitment With PsiQuantum",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03060-9",
+          "title": "Nuclear clocks tick for the first time",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756214v1?rss=1",
+          "title": "Dietary magnesium supplement enhances memory through Hippo signaling",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755939v1?rss=1",
+          "title": "Motivational incentives improve working memory performance by enhancing memory-based representations rather than altering response strategies",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03132-w",
+          "title": "Can your brain grow new neurons? How researchers are solving a century-old puzzle",
+          "published": "2026-10-07"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-07/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-07/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-07/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-07/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-10-07/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-10-07/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-10-07.mp3",
+      "thumb": "thumbs/2026-10-10-07.webp",
+      "cover_video": "thumbs/2026-10-10-07.mp4"
+    },
+    {
       "id": "2026-10-10-06",
       "hour": "06:00",
       "date": "2026-10-10",
@@ -101,7 +249,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-06/f01.webp"
           },
           {
@@ -131,7 +279,7 @@
       "thumb": "thumbs/2026-10-10-06.webp",
       "cover_video": "thumbs/2026-10-10-06.mp4",
       "cues": [
-        0.0,
+        0,
         41.35,
         63.31,
         90.6,
