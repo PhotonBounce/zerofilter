@@ -2,6 +2,156 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-08",
+      "hour": "08:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-08",
+      "title": "Eritrean Troops Cross Into Ethiopia, Houthi Missiles Hit Riyadh Airport & a Record Toll of Russian Officers in Donetsk",
+      "subject": "Ethiopia and Eritrea on the brink, Houthi strikes on Riyadh, US sanctions on the ICC, a strike on Russian officers in Donetsk, and a virus that stunts growing neurons",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-eight hundred hours UTC on the tenth of October. Ethiopia has warned Eritrea it will defend itself after troops crossed the border; truckloads of Eritrean soldiers have been seen driving into Ethiopia, which has reportedly responded with drone strikes, the BBC reports. Three Saudi nationals have been killed in Houthi missile attacks on Riyadh airport, amid escalating fighting between the Iran-backed group and Saudi Arabia. The US has unveiled sanctions on the International Criminal Court, which the court condemns as an assault on the rule of law; several member states, including the UK, say they strongly disagree.",
+        "Ukraine and Russia. Independent monitors say a record twenty Russian officers were killed in Ukrainian strikes on a headquarters in Donetsk; according to Mediazona, eighteen died immediately in the missile strike and two later of their injuries, the Kyiv Independent reports. A major fire was reported at an oil terminal linked to Russia's Novoshakhtinsk refinery after a suspected drone strike. And Montenegro says it will expel the founder of the Russian war blog Rybar, citing security reasons.",
+        "Frontier compute. Every agent session starts by loading a fixed instruction file, and each token in it is charged again in every later round; a new arXiv paper treats curating that file as a capacity problem, since adding an instruction never raises compliance with the others. Another proposes distilling a possibly misaligned model into a weaker, benign student, so that either the misalignment shows itself or useful skills transfer without it. A third, OpenProblemBench, sets AI eighty-two unresolved problems from mathematics and theoretical physics. And the BBC reports that fired OpenAI researchers say they were let go for prioritising safety; the company says they mishandled sensitive information.",
+        "Quantum desk. Once again the quantum arXiv and Physical Review Letters feeds came back empty. The Department of War says it is executing a White House strategy for a new golden age of American science, and Nature's physics pages this hour explain how to control where semiconductor crystals start growing.",
+        "Consciousness desk. Venezuelan equine encephalitis virus is a re-emerging virus that affects the developing human brain; a bioRxiv study using stem-cell-derived neurospheres finds that both neurons and glial cells can be infected, and that the virus impairs neurite outgrowth. Another reanalysed three thousand two hundred and one heat trials from thirty-three people told to turn their pain up or down; both instructions shifted ratings in the intended direction. And Nature reports that chimp and gorilla brains resist weight loss with age, unlike human brains.",
+        "So, this hour's receipts. Troops across the Ethiopian border, missiles on Riyadh, and sanctions on the ICC. A record strike on Russian officers, a burning oil terminal, and a war blogger facing expulsion. Agents with a budget for instructions, a trap for hidden misalignment, and eighty-two open problems. A virus that stunts young neurons, and minds that turn pain down. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c65ynvw250y1o?at_medium=RSS&at_campaign=rss",
+          "title": "Ethiopia warns Eritrea it will defend itself after troops cross border",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
+          "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
+          "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/record-20-russian-officers-killed-in-ukrainian-strikes-on-headquarters-in-donetsk-monitors-say/",
+          "title": "Record 20 Russian officers killed in Ukrainian strikes on headquarters in Donetsk, monitors say",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+          "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/founder-of-russian-war-propaganda-channel-rybar-detained-in-montenegro/",
+          "title": "Montenegro to expel founder of Russian war blog Rybar, citing security reasons",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11007",
+          "title": "Curating Always-Loaded Context for LLM Agents: A Capacitated Assortment Model with Censored Feedback",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11012",
+          "title": "Distillation for Incrimination and Distillation for Capabilities",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11118",
+          "title": "OpenProblemBench: Benchmarking AI on Open Problems in the Foundational Theoretical Sciences",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+          "title": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622104/department-of-war-executes-white-house-strategy-for-a-new-golden-age-of-science/",
+          "title": "Department of War Executes White House Strategy for a New Golden Age of Science",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02934-2",
+          "title": "How to control where semiconductor crystals start growing",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.755254v1?rss=1",
+          "title": "Encephalitic alphavirus infection reduces neurite outgrowth and downregulates Rho GTPase pathways in human iPSC-derived neurospheres",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756083v1?rss=1",
+          "title": "Direction-sensitive neural correlates of voluntary pain regulation: regional response attenuation during down-regulation and exploratory prefrontal-valuation coupling",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03158-0",
+          "title": "Chimp and gorilla brains resist weight loss with age — unlike human brains",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-08/f01.webp"
+          },
+          {
+            "t": 34.22,
+            "src": "art/2026-10-10-08/f02.webp"
+          },
+          {
+            "t": 60.67,
+            "src": "art/2026-10-10-08/f03.webp"
+          },
+          {
+            "t": 99.38,
+            "src": "art/2026-10-10-08/f04.webp"
+          },
+          {
+            "t": 116.21,
+            "src": "art/2026-10-10-08/f05.webp"
+          },
+          {
+            "t": 146.62,
+            "src": "art/2026-10-10-08/f06.webp"
+          }
+        ]
+      },
+      "seconds": 174,
+      "audio": "audio/2026-10-10-08.mp3",
+      "thumb": "thumbs/2026-10-10-08.webp",
+      "cover_video": "thumbs/2026-10-10-08.mp4",
+      "cues": [
+        0.0,
+        34.22,
+        60.67,
+        99.38,
+        116.21,
+        146.62
+      ]
+    },
+    {
       "id": "2026-10-10-07",
       "hour": "07:00",
       "date": "2026-10-10",
@@ -119,7 +269,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-07/f01.webp"
           },
           {
@@ -149,7 +299,7 @@
       "thumb": "thumbs/2026-10-10-07.webp",
       "cover_video": "thumbs/2026-10-10-07.mp4",
       "cues": [
-        0.0,
+        0,
         33.41,
         72.34,
         97.13,
