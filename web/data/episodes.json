@@ -2,6 +2,150 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-17",
+      "hour": "17:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-17",
+      "title": "Russian Attacks Kill at Least 24 Across Ukraine, Several Injured at Riyadh's Airport & Christa Pike Leaves Hospital",
+      "subject": "A rising toll from Russia's overnight barrage, another attack on Riyadh's King Khalid airport, Christa Pike back in prison ten days after a failed execution, and an AI framework for an ultra-rare disease",
+      "paragraphs": [
+        "This is ZeroFilter, at seventeen hundred hours UTC on the tenth of October. Several people have been injured in an attack on King Khalid International Airport in the Saudi capital, Riyadh, the BBC reports; the US embassy says it is aware of the attacks, which come days after Yemen's Houthis said they had struck the airport. US murderer Christa Pike has been discharged from hospital ten days after her failed execution; her lawyers say she is grateful to the medical team who cared for her after she survived two lethal injections last month. And Nobel peace laureate Navi Pillay calls the US sanctions on the International Criminal Court unacceptable and unheard of.",
+        "Ukraine and Russia. Russian attacks have killed at least twenty-four people and injured forty-seven across Ukraine, as rescue operations continue in Zaporizhzhia, the Kyiv Independent reports. Russia attacked overnight with one hundred sixty drones, including one hundred ten jet-powered drones as well as Gerbera drones, Ukraine's Air Force said. In Zaporizhzhia, guided bombs on a residential neighbourhood killed at least twenty people, three children among them, and some victims were trapped for hours beneath the rubble.",
+        "Frontier compute. Agents meant to help in the physical world need spatial intelligence: exploring unfamiliar places and adapting as they go. A new arXiv benchmark, Mine Odyssey, tests that with Minecraft reconstructions. Another, MedBenchAgent, goes beyond generating test items for medical vision-language models and tries to derive the benchmark specification itself: what to evaluate, and which annotations support each task. And RIT-RAG lets a retrieval system navigate document structure across a large corpus, instead of committing to a single document it cannot recover from.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds remain empty. From Nature's physics and chemistry pages this hour: a nuclear clock synchronised to thorium-two-twenty-nine, the observation of relativistic bond weakening in seaborgium hexacarbonyl, and hydrogen bonding in water under extreme confinement.",
+        "Consciousness desk. More than ninety percent of rare diseases lack an approved therapy. A bioRxiv study builds a low-cost, AI-enabled drug discovery framework for an ultra-rare neurodevelopmental disease often caused by gain-of-function variants in the sodium leak channel NALCN, which has no approved treatment. In fruit flies, a study finds that neuronal sex identity shapes how the company of others buffers defensive freezing. And Nature reports that breaking down a nerve-cell scaffold relieves chronic pain in mice.",
+        "So, this hour's receipts. Another attack on Riyadh's airport, a prisoner who survived two lethal injections, and a laureate's rebuke of sanctions on the court. At least twenty-four dead across Ukraine and rescue operations continuing in Zaporizhzhia. Agents learning space in Minecraft, benchmarks that write their own specifications, and retrieval that reads the structure. Nuclear clocks, and an AI-enabled drug search for an ultra-rare disease. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+          "title": "Several injured in attack on airport in Saudi capital Riyadh",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&at_campaign=rss",
+          "title": "US murderer Christa Pike discharged from hospital 10 days after failed execution",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss",
+          "title": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-19-injure-39-across-ukraine-as-rescue-operations-continue-in-zaporizhzhia/",
+          "title": "Russian attacks kill at least 24, injure 47 across Ukraine as rescue operations continue in Zaporizhzhia",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-guided-bombs-hit-zaporizhzhia-apartment-building-killing-4-injuring-4/",
+          "title": "Russian guided bombs hit Zaporizhzhia residential neighborhood, killing at least 20, injuring 18",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11328",
+          "title": "Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11312",
+          "title": "MedBenchAgent: Towards Systematic Automation of Medical VLM Benchmark Construction",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11370",
+          "title": "RIT-RAG: Navigating Document Corpora with Retrieval-Induced Trees",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11122-1",
+          "title": "A nuclear clock synchronized to 229 Th",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-10858-0",
+          "title": "Hydrogen bonding in water under extreme confinement",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11105-2",
+          "title": "Observation of relativistic bond weakening in seaborgium hexacarbonyl",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757476v1?rss=1",
+          "title": "An AI-Enabled Translational Drug Discovery Framework for NALCN Channelopathy: From High-Throughput Screening to Therapeutic Candidate",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.756549v1?rss=1",
+          "title": "Neuronal sex identity shapes social buffering of defensive freezing behaviour in fruit flies",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03159-z",
+          "title": "Breaking down nerve-cell scaffold relieves chronic pain in mice",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-17/f01.webp"
+          },
+          {
+            "t": 35.98,
+            "src": "art/2026-10-10-17/f02.webp"
+          },
+          {
+            "t": 63.94,
+            "src": "art/2026-10-10-17/f03.webp"
+          },
+          {
+            "t": 98.45,
+            "src": "art/2026-10-10-17/f04.webp"
+          },
+          {
+            "t": 117.02,
+            "src": "art/2026-10-10-17/f05.webp"
+          },
+          {
+            "t": 145.97,
+            "src": "art/2026-10-10-17/f06.webp"
+          }
+        ]
+      },
+      "seconds": 176,
+      "audio": "audio/2026-10-10-17.mp3",
+      "thumb": "thumbs/2026-10-10-17.webp",
+      "cover_video": "thumbs/2026-10-10-17.mp4",
+      "cues": [
+        0.0,
+        35.98,
+        63.94,
+        98.45,
+        117.02,
+        145.97
+      ]
+    },
+    {
       "id": "2026-10-10-16",
       "hour": "16:00",
       "date": "2026-10-10",
@@ -101,7 +245,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-16/f01.webp"
           },
           {
@@ -131,7 +275,7 @@
       "thumb": "thumbs/2026-10-10-16.webp",
       "cover_video": "thumbs/2026-10-10-16.mp4",
       "cues": [
-        0.0,
+        0,
         32.23,
         65.9,
         96.29,
