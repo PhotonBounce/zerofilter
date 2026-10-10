@@ -2,6 +2,142 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-14",
+      "hour": "14:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-14",
+      "title": "Saturday's Ledger: Zaporizhzhia's Dead, the Court Under Sanctions & a Peace Prize Winner Trump Says He Never Heard Of",
+      "subject": "No new reports in the last hour, so the day's ledger: the Zaporizhzhia toll, missiles on Kyiv, sanctions on the International Criminal Court, Navi Pillay's path, and agents that build their own interfaces",
+      "paragraphs": [
+        "This is ZeroFilter, at fourteen hundred hours UTC on the tenth of October. Our feeds brought no new reports in the last hour, so this is the day's ledger. The US has unveiled sanctions on the International Criminal Court, which the court condemns as an assault on the rule of law; several member states, including the UK, say they strongly disagree. The peace prize winner President Trump told a rally he had never heard of, former ICC judge Navi Pillay, grew up in South Africa and became a driving force in international law from Myanmar to Gaza, the BBC explains. And new body-camera footage shows the tense moments when police arrived after a New York City ICE shooting.",
+        "Ukraine and Russia. A Russian glide bomb attack on Zaporizhzhia has killed at least fifteen people, children among them, and authorities say more victims could still be buried in the rubble of a destroyed apartment block, the BBC reports. In Kyiv, loud explosions rang out around two in the afternoon as Russian missiles followed a morning drone attack on energy infrastructure. The Kyiv Independent notes the US sanctions target the court that, in twenty twenty-three, issued arrest warrants for Putin and Maria Lvova-Belova over the unlawful transfer of Ukrainian children.",
+        "Frontier compute. Most human-agent interaction is still text, which a new arXiv paper says can mean overload, ambiguity and slow input; it pairs a tool agent with a coder agent that spots ambiguities and writes structured interfaces on the fly. Another asks how much of a verified reference solution a reasoning model should be shown before generating the rest itself. And a third proposes Keyframe Mnemonics, a self-supervised method for imitation-learning policies that must reason over long horizons, aimed at the hidden-state collapse of recurrent models and the context limits of attention.",
+        "Quantum desk. No new papers again from the quantum arXiv or Physical Review Letters feeds. In Nature's physics pages, semiconductors have been pushed into insulator territory, and a separate report explains how to control where semiconductor crystals start growing.",
+        "Consciousness desk. Scoring what people remember from a film or story usually means matching every recalled line by hand, which makes large studies impractical; a new open-source bioRxiv pipeline uses a large language model to split stimulus and recall into units of information and match them. Another develops a theory of how one brain region multi-tasks, distinguishing sequential from simultaneous tasks. And in zebrafish, a genetic screen finds roles for two conserved genes, huntingtin and celsr3, in spontaneous spinal cord regeneration.",
+        "So, this hour's receipts. A quiet hour for new reports, but not for the day: sanctions on the court, a prize winner's long road, and body-camera footage from New York. At least fifteen dead in Zaporizhzhia and missiles on Kyiv. Agents that draw their own interfaces, a language model that scores memory, and fish that regrow spinal cords. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
+          "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cq8ezdww6w0do?at_medium=RSS&at_campaign=rss",
+          "title": "Watch: Who is Nobel Peace Prize winner Navi Pillay?",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cm36905w7zl4o?at_medium=RSS&at_campaign=rss",
+          "title": "BBC breaks down video of the aftermath of New York City ICE shooting",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+          "title": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/loud-explosions-heard-in-kyiv-as-city-comes-under-daytime-attack/",
+          "title": "'Every extra billion will be spent on this' — Zelensky warns as missiles hit Kyiv after Russia sanctions relief",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/us-sanctions-court-that-seeks-to-arrest-putin-prompts-backlash-2/",
+          "title": "US sanctions court that seeks to arrest Putin, prompts backlash",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11123",
+          "title": "When Interfaces Speak: Data-Aware Generative UI Harness for Active Interaction",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11128",
+          "title": "Balancing Reference Guidance and Free Generation in Trajectory Rollouts for Reasoning RL",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10857",
+          "title": "Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02968-6",
+          "title": "Semiconductors pushed into insulator territory",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02934-2",
+          "title": "How to control where semiconductor crystals start growing",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755994v1?rss=1",
+          "title": "LLM-powered automatic scoring tools for memory recall",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755960v1?rss=1",
+          "title": "Neural circuit mechanisms for multi-tasking",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755968v1?rss=1",
+          "title": "Huntingtin and Celsr3 Orchestrate Spontaneous Long-Distance Spinal Cord Regeneration",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-14/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-14/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-14/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-14/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-10-14/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-10-14/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-10-14.mp3",
+      "thumb": "thumbs/2026-10-10-14.webp",
+      "cover_video": "thumbs/2026-10-10-14.mp4"
+    },
+    {
       "id": "2026-10-10-13",
       "hour": "13:00",
       "date": "2026-10-10",
@@ -107,7 +243,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-13/f01.webp"
           },
           {
@@ -137,7 +273,7 @@
       "thumb": "thumbs/2026-10-10-13.webp",
       "cover_video": "thumbs/2026-10-10-13.mp4",
       "cues": [
-        0.0,
+        0,
         35.71,
         73.9,
         101.26,
