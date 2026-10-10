@@ -65,6 +65,22 @@
       "enabled": true,
       "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCb2oej0JtxlnywlqoSiHHVQ",
       "verified": "Owner confirmed 2026-10-07: UCb2oej0JtxlnywlqoSiHHVQ is Yuri Shvets' own channel."
+    },
+    {
+      "id": "24-kanal-youtube",
+      "kind": "news",
+      "max_age_hours": 48,
+      "enabled": true,
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCEC4D0dTTJr_EEnEJz15hnQ",
+      "verified": "24 Kanal Ukrainian independent news and frontline investigative broadcasting"
+    },
+    {
+      "id": "buro-youtube",
+      "kind": "news",
+      "max_age_hours": 72,
+      "enabled": true,
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCRRDti3Xgb8lLdClZdQa1qQ",
+      "verified": "Buro / Бюро independent investigative journalism channel"
     }
   ]
 }
