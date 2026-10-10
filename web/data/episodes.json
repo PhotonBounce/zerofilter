@@ -2,6 +2,142 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-02",
+      "hour": "02:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-02",
+      "title": "US, Ukrainian and European Officials Meet in Miami, a $100,000 Charge for Foreign Graduates & Sex Differences in the Brain",
+      "subject": "Peace talks in Miami, a proposed fee on international students, care on the Ebola frontlines, and how sex shapes brain anatomy and behaviour",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-two hundred hours UTC on the tenth of October. Nature reports that the United States has proposed a one hundred thousand dollar charge for international students to do post-graduate work. Nature also argues that we must advocate for proper care on the frontlines of the Ebola outbreak, as the BBC reports that questions remain over an Ebola patient, a forty-year-old businessman, who flew and crossed regional borders across three nations while seriously ill. And Nature explains why Australia's bush fires got worse after British colonisation.",
+        "Ukraine and Russia. US, Ukrainian and European officials have discussed ending Russia's war at a meeting in Miami, the Kyiv Independent reports; the meeting coincided with President Trump's announcement that Russia would supply millions of tons of diesel to the United States and global markets after a call with Vladimir Putin. Two EU officials had confirmed that Bjoern Seibert, Ursula von der Leyen's right-hand man, would represent the European Commission at those talks, alongside the national security advisers of France, Germany and the United Kingdom.",
+        "Frontier compute. Presolve strongly affects the performance of mixed-integer programming, and the order of its actions matters: shuffling the same sequence can inflate the slowest solve times several-fold. A new arXiv paper, ORDO, treats presolve planning as sequence generation and learns the order. Another paper finds that long-term forecasting models, used for weather and electricity planning, often give different predictions for the same moment as their input window shifts, and proposes aligning those outputs. And UniData turns simple user requirements into multimodal, multi-round instruction data for training.",
+        "Quantum desk. Nature reports the observation of relativistic bond weakening in seaborgium hexacarbonyl. On arXiv, a paper extends earlier results on how to compute when and where a quantum particle is detected, showing how absorbing boundary conditions arise as limits of complex absorbing potentials under more general assumptions. And another finds a common spectral quantisation linking a singular sextic oscillator to fractional-power potentials.",
+        "Consciousness desk. Two preprints on sex differences in the brain. One combines brain scans from nearly three thousand people across three cohorts with clinical cohorts that include sex chromosome conditions and a hormone deficiency, and reports that sex differences in subcortical anatomy are robust, already evident before puberty, and aligned with chromosomal and gonadal influences. The other finds that the sex identity of neurons in fruit flies shapes social buffering of defensive freezing behaviour.",
+        "So, this hour's receipts. A proposed fee for foreign graduates, the Ebola frontline, and fire history in Australia. Peace talks in Miami as diesel flows from Russia. Smarter solver ordering, steadier forecasts, relativistic bond weakening in seaborgium, and sex differences written into the brain. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/d41586-026-02921-7",
+          "title": "US proposes $100,000 charge for international students to do post-graduate work",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/d41586-026-02983-7",
+          "title": "Why we must advocate for proper care on the frontlines of the Ebola outbreak",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cqp8gknl1njjo?at_medium=RSS&at_campaign=rss",
+          "title": "Questions remain over Ebola patient who travelled across three nations undetected",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/d41586-026-03184-y",
+          "title": "Australia’s bush fires got worse after British colonization — this is why",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/us-ukrainian-european-officials-discuss-ending-russias-war-at-miami-meeting/",
+          "title": "US, Ukrainian, European officials discuss ending Russia's war at Miami meeting",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/eu-represented-by-von-der-leyens-right-hand-at-ukraine-peace-talks-sources-say/",
+          "title": "EU represented by von der Leyen's right-hand at Ukraine peace talks, sources say",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11294",
+          "title": "ORDO: Operation-level Round-aware Dynamic Ordering for MIP Presolve",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11213",
+          "title": "AliO: Output Alignment Matters in Long-Term Time Series Forecasing",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11363",
+          "title": "UniData: Universal Multimodal Instruction Generation Pipeline",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11105-2",
+          "title": "Observation of relativistic bond weakening in seaborgium hexacarbonyl",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11865",
+          "title": "Extended Results on Absorbing Boundary Conditions as Limits of Complex Potentials",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11533",
+          "title": "A Power-Liouville Hermite Orbit: Common Spectral Quantization of the Singular Sextic Oscillator and Fractional-Power Potentials",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756728v1?rss=1",
+          "title": "Sex Differences in Human Subcortical Anatomy are Robust and Replicable in Adulthood, Already Evident Prepubertally, and Aligned with Sex Chromosomal and Gonadal Influences",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.756549v1?rss=1",
+          "title": "Neuronal sex identity shapes social buffering of defensive freezing behaviour in fruit flies",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-02/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-02/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-02/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-02/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-10-02/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-10-02/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-10-02.mp3",
+      "thumb": "thumbs/2026-10-10-02.webp",
+      "cover_video": "thumbs/2026-10-10-02.mp4"
+    },
+    {
       "id": "2026-10-10-01",
       "hour": "01:00",
       "date": "2026-10-10",
@@ -113,7 +249,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-01/f01.webp"
           },
           {
@@ -143,7 +279,7 @@
       "thumb": "thumbs/2026-10-10-01.webp",
       "cover_video": "thumbs/2026-10-10-01.mp4",
       "cues": [
-        0.0,
+        0,
         34.63,
         69.38,
         91.34,
