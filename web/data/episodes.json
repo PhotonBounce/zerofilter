@@ -2,6 +2,118 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-15",
+      "hour": "15:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-15",
+      "title": "Russian Attacks Kill at Least 19 Across Ukraine, a Sudan Drone Strike Kills 41 & a Third School Knife Attack in Poland",
+      "subject": "Russia's overnight drone barrage and the rising Zaporizhzhia toll, a paramilitary drone strike on displaced people in Sudan, Poland's third school knife attack in a week, and GPT models that hedge for reviewers",
+      "paragraphs": [
+        "This is ZeroFilter, at fifteen hundred hours UTC on the tenth of October. A drone strike by Sudan's paramilitary has killed forty-one people near the Ethiopian border, a rights group says; eight children are said to be among the dead, after the strike hit a gathering of displaced people, the BBC reports. In Poland, a woman has injured three people in the third school knife attack in a week; police had already deployed to schools after a female caretaker was killed and several others injured in two earlier attacks in two days.",
+        "Ukraine and Russia. Russian attacks have killed at least nineteen people and injured forty-six across Ukraine as rescue operations continue in Zaporizhzhia, the Kyiv Independent reports. Russia attacked overnight with one hundred sixty drones, including one hundred ten jet-powered drones as well as Gerbera drones, Ukraine's Air Force said. In Zaporizhzhia itself, the Kyiv Independent now counts at least fifteen dead and seventeen injured after guided bombs hit a residential neighbourhood, a day after bombs struck residential areas on October ninth.",
+        "Frontier compute. Researchers increasingly use ChatGPT to revise their papers, and a new arXiv study finds recent GPT versions often narrow or even retract authors' claims; it calls this defensive writing when the material does not support the change, and tests whether the model is correcting overclaims or writing for an anticipated reviewer. Another proposes an agent scientist that checks whether its world model is identifiable from the data at all, so it knows when more of the same experiments cannot help.",
+        "Quantum desk. Every physics feed we watch came back empty this hour: no quantum arXiv papers, no Physical Review Letters, and nothing from Nature. The nearest thing is a near-namesake: quantization, which shrinks a language model's weights to low precision. A new arXiv paper finds that the weights that best minimise reconstruction loss need not perform better on new tasks, and can even do worse on the same calibration data.",
+        "Consciousness desk. In one hundred and six adolescents with depression, sixty-seven of whom self-injure, researchers combined a pain paradigm, EEG microstates and deep sequence modelling to study how social pain disrupts the links between emotion and action. A bioRxiv study of one hundred seventy-five recordings from thirteen human brain assembloids carrying a MAPT mutation, or corrected copies, separates how often activity starts from how strongly it amplifies itself. And a flexible 3D interface reads identity, position and activity of neurons inside intact cortical organoids.",
+        "So, this hour's receipts. Forty-one dead in a strike on displaced people in Sudan, and a third school knife attack in Poland in a week. At least nineteen killed across Ukraine, with rescuers still working in Zaporizhzhia. Language models that hedge for reviewers, and agents that know when to stop. Silence from the physics feeds, a lesson in quantization, and brain tissue in a dish under closer watch. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c8vgx9ew571wo?at_medium=RSS&at_campaign=rss",
+          "title": "Drone strike by Sudan paramilitary kills 41 near Ethiopian border, rights group says",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cv8ezd246z1wo?at_medium=RSS&at_campaign=rss",
+          "title": "Woman injures three people in third Poland school knife attack in a week",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-19-injure-39-across-ukraine-as-rescue-operations-continue-in-zaporizhzhia/",
+          "title": "Russian attacks kill at least 19, injure 46 across Ukraine as rescue operations continue in Zaporizhzhia",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-guided-bombs-hit-zaporizhzhia-apartment-building-killing-4-injuring-4/",
+          "title": "Russian guided bombs hit Zaporizhzhia residential neighborhood, killing at least 15, injuring 17",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11355",
+          "title": "Writing for the Reviewer: Defensive Writing in GPT Models",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11253",
+          "title": "LLM-IDEA: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11226",
+          "title": "When Lower Reconstruction Loss Hurts: Distributionally Robust Refinement for Low-Bit LLM Quantization",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 4,
+          "url": "https://arxiv.org/abs/2610.11155",
+          "title": "Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756068v1?rss=1",
+          "title": "Self-Exciting Population Event Models Reveal Abnormal Temporal Amplification in MAPT-Mutant Human Brain Assembloids",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756317v1?rss=1",
+          "title": "Flexible 3D multimodal organoid interface reveals functional subnetworks and coordinated circuit activity in cortical organoids",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-15/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-15/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-15/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-15/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-10-15/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-10-15/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-10-15.mp3",
+      "thumb": "thumbs/2026-10-10-15.webp",
+      "cover_video": "thumbs/2026-10-10-15.mp4"
+    },
+    {
       "id": "2026-10-10-14",
       "hour": "14:00",
       "date": "2026-10-10",
@@ -107,7 +219,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-14/f01.webp"
           },
           {
@@ -137,7 +249,7 @@
       "thumb": "thumbs/2026-10-10-14.webp",
       "cover_video": "thumbs/2026-10-10-14.mp4",
       "cues": [
-        0.0,
+        0,
         37.85,
         68.35,
         100.25,
