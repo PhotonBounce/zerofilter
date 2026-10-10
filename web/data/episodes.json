@@ -2,6 +2,157 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-20",
+      "hour": "20:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-20",
+      "title": "Russia Partly Lifts Its Diesel Export Ban After the Trump–Putin Deal, Isaias Leaves Four Dead & a Three-Year Budget for Occupation",
+      "subject": "Moscow reopens diesel sales abroad, Hurricane Isaias kills four in the US, Russia budgets for occupying Ukrainian land for three more years, and Yuri Shvets' broadcast #1219",
+      "paragraphs": [
+        "This is ZeroFilter, at twenty hundred hours UTC on the tenth of October. Four people are dead and thousands are without power after Hurricane Isaias lashed the US, the BBC reports; roofs were ripped off buildings after Isaias barrelled into the US on Friday evening, before it weakened to a post-tropical cyclone. Two House Democrats, Jamie Raskin and Jim Himes, have urged FBI Director Kash Patel to cancel an upcoming trip to Russia, citing urgent national security concerns. And an expedition is heading to a remote island hoping to find Amelia Earhart's plane and solve her nineteen thirty-seven disappearance.",
+        "Ukraine and Russia. Russia has partially lifted its ban on diesel exports after the Trump–Putin deal, the Kyiv Independent reports; from October tenth, Moscow will allow the sale of five hundred thousand tons of diesel to foreign markets, after banning exports in July in response to Ukrainian strikes. In occupied Ukraine, the Kyiv Independent's weekly update says Russia prepared a series of disinformation operations around Oleshky and has budgeted for the occupation for the next three years. And Yuri Shvets' latest broadcast, number twelve nineteen, is titled: the Putin–Trump pact, there will be a secret channel of communication.",
+        "Frontier compute. Many uses of language models depend not on one answer but on an average over many; a new arXiv paper makes such estimates cheaper by reusing the next-token probabilities that sampling already produces. Another builds a theory of how small perturbations to a diffusion model's sampling path spread into the final output. And RaReCache tackles reusing one model's key-value cache in another, recomputing only where the two models' rankings disagree, so less work is repeated.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds are empty again. In Nature's physics pages: a thorium-two-twenty-nine optical nuclear clock with a feedback loop, semiconductors pushed into insulator territory, and hydrogen bonding in water under extreme confinement.",
+        "Consciousness desk. A bioRxiv study uses an advanced diffusion imaging model to map how ageing white matter differs region by region and how it couples to six domains of cognition. Another traces molecular changes in neurons of the ventral tegmental area, sorted by where they project, during acute fentanyl withdrawal. And in three hundred and ten adults playing an Ultimatum Game in a scanner, links between the brain's response to fairness and vulnerability to financial exploitation varied with age and emotional intelligence.",
+        "So, this hour's receipts. Four dead after Isaias, a Russia trip under question, and a search for Earhart. Russian diesel exports partly reopened, an occupation budgeted for three years, and a broadcaster's headline about a secret channel. Cheaper averages, perturbations that propagate, and caches shared between models. Nuclear clocks, ageing white matter and the brain's sense of fairness. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss",
+          "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/us-democrats-call-on-fbi-director-kash-patel-to-cancel-upcoming-trip-to-russia/",
+          "title": "US Democrats call on FBI Director Kash Patel to cancel upcoming trip to Russia",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c3y0e871rk4vo?at_medium=RSS&at_campaign=rss",
+          "title": "Expedition hopes to find aviator Amelia Earhart's plane on remote island",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russia-partially-lifts-ban-on-diesel-exports-after-trump-putin-deal/",
+          "title": "Russia partially lifts ban on diesel exports after Trump-Putin deal",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/news-from-occupied-ukraine-russia-prepares-oleshky-disinformation-campaign-budgets-for-occupation-for-next-three-years/",
+          "title": "News from occupied Ukraine: Russia prepares Oleshky disinformation campaign, budgets for occupation for next three years",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.youtube.com/watch?v=H2n6t32rnM0",
+          "title": "СГОВОР ПУТИНА И ТРАМПА / БУДЕТ ТАЙНЫЙ КАНАЛ СВЯЗИ /№1219/ Юрий Швец",
+          "published": "2026-10-10",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11399",
+          "title": "Estimating great expectations under autoregressive language models with potentials",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11380",
+          "title": "Equal Path Cost, Unequal Output Effects: Understanding Perturbation Propagation in Diffusion Models",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11358",
+          "title": "RaReCache: Bridging the Gap in Cross-Model KV Cache Reuse via Rank disagreement-based Selective Recomputation",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11084-4",
+          "title": "A thorium-229 optical nuclear clock with feedback loop",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02968-6",
+          "title": "Semiconductors pushed into insulator territory",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-10858-0",
+          "title": "Hydrogen bonding in water under extreme confinement",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757817v1?rss=1",
+          "title": "Microstructural heterogeneity of white-matter aging and its age-dependent coupling to cognition",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756315v1?rss=1",
+          "title": "Projection-defined ventral tegmental area neurons exhibit distinct molecular adaptations during acute fentanyl withdrawal",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755119v1?rss=1",
+          "title": "Associations Between Neural Responses to Social Fairness and Financial Exploitation Vulnerability Vary With Age and Emotional Intelligence",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-20/f01.webp"
+          },
+          {
+            "t": 34.32,
+            "src": "art/2026-10-10-20/f02.webp"
+          },
+          {
+            "t": 68.59,
+            "src": "art/2026-10-10-20/f03.webp"
+          },
+          {
+            "t": 95.64,
+            "src": "art/2026-10-10-20/f04.webp"
+          },
+          {
+            "t": 112.39,
+            "src": "art/2026-10-10-20/f05.webp"
+          },
+          {
+            "t": 141.46,
+            "src": "art/2026-10-10-20/f06.webp"
+          }
+        ]
+      },
+      "seconds": 170,
+      "audio": "audio/2026-10-10-20.mp3",
+      "thumb": "thumbs/2026-10-10-20.webp",
+      "cover_video": "thumbs/2026-10-10-20.mp4",
+      "cues": [
+        0.0,
+        34.32,
+        68.59,
+        95.64,
+        112.39,
+        141.46
+      ]
+    },
+    {
       "id": "2026-10-10-19",
       "hour": "19:00",
       "date": "2026-10-10",
@@ -107,7 +258,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-19/f01.webp"
           },
           {
@@ -123,11 +274,11 @@
             "src": "art/2026-10-10-19/f04.webp"
           },
           {
-            "t": 111.0,
+            "t": 111,
             "src": "art/2026-10-10-19/f05.webp"
           },
           {
-            "t": 138.0,
+            "t": 138,
             "src": "art/2026-10-10-19/f06.webp"
           }
         ]
@@ -137,12 +288,12 @@
       "thumb": "thumbs/2026-10-10-19.webp",
       "cover_video": "thumbs/2026-10-10-19.mp4",
       "cues": [
-        0.0,
+        0,
         33.05,
         64.08,
         96.74,
-        111.0,
-        138.0
+        111,
+        138
       ]
     },
     {
