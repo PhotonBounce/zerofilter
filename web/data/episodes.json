@@ -2,6 +2,142 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-23",
+      "hour": "23:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-23",
+      "title": "Twelve Killed, 309 Injured in Attack on Riyadh's Airport & an 11-Year-Old Boy Killed by a Russian Drone in Dnipropetrovsk",
+      "subject": "A deadly attack on King Khalid International Airport after Houthi claims, a child killed by a drone in Dnipropetrovsk Oblast, Trump's split with Zelensky, and AI that learns to plan in less space",
+      "paragraphs": [
+        "This is ZeroFilter, at twenty-three hundred hours UTC on the tenth of October. Twelve people have been killed and three hundred and nine injured in an attack on the airport in the Saudi capital, Riyadh, the BBC reports; it comes days after Yemen's Houthis said they had struck the airport. In the United States, Hurricane Isaias has left four people dead and thousands without power. And Nobel peace laureate Navi Pillay says the Trump administration's sweeping sanctions on the International Criminal Court are unacceptable and unheard of.",
+        "Ukraine and Russia. An eleven-year-old boy has been killed and five people injured by a Russian drone attack in Dnipropetrovsk Oblast, the Kyiv Independent reports. The attacks follow several days of deadly Russian strikes across Ukraine that have hit residential buildings and critical civilian infrastructure, killing civilians, disrupting power and water supplies, and damaging bridges. In Zaporizhzhia, the BBC counts at least twenty dead from a glide bomb attack. And Trump says it is time for Ukraine to get a new president, after Zelensky condemned the diesel deal as helping Moscow fund the war.",
+        "Frontier compute. Planning by heuristic search can store exponentially many states even with a near-perfect heuristic; a new arXiv paper instead learns search control, one specification per domain, as a general policy that needs far less space. Another argues that AI-assisted peer review should focus on error detection, the costly core of reviewing, rather than imitating human-written reviews. And a third, LLM-IDEA, gives an AI scientist a way to tell whether it has stalled because it is not yet capable enough or because its model simply cannot be identified from the data.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds are empty again this hour. In Nature's physics pages: the experimental observation of critical topology, and hydrogen bonding in water under extreme confinement.",
+        "Consciousness desk. Across three cohorts totalling two thousand eight hundred and eighty-six people, a bioRxiv study finds sex differences in human subcortical anatomy are robust and replicable in adulthood and, its title says, already evident before puberty. Another builds a low-cost, AI-enabled drug discovery framework for an ultra-rare neurodevelopmental disease often caused by variants in the sodium leak channel NALCN, which has no approved treatment. And an open-source pipeline uses a language model to score what people remember from films and stories.",
+        "So, this hour's receipts. Twelve dead at Riyadh's airport, a storm's toll in the US, and a laureate's rebuke of the sanctions on the court. An eleven-year-old killed by a drone, Zaporizhzhia counting its dead, and a President who wants a new one in Kyiv. Planning in less space, peer review that hunts errors, and an AI scientist that knows when to stop. Critical topology, and brains that differ before puberty. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+          "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss",
+          "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss",
+          "title": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/11-year-old-boy-killed-five-injured-by-russian-drone-attack-in-dnipropetrovsk-oblast/",
+          "title": "11-year-old boy killed, five injured by Russian drone attack in Dnipropetrovsk Oblast",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+          "title": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
+          "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10954",
+          "title": "Learning How to Search for Plans with Exponentially Less Space",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11087",
+          "title": "Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11253",
+          "title": "LLM-IDEA: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11099-x",
+          "title": "Experimental observation of critical topology",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-10858-0",
+          "title": "Hydrogen bonding in water under extreme confinement",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756728v1?rss=1",
+          "title": "Sex Differences in Human Subcortical Anatomy are Robust and Replicable in Adulthood, Already Evident Prepubertally, and Aligned with Sex Chromosomal and Gonadal Influences",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757476v1?rss=1",
+          "title": "An AI-Enabled Translational Drug Discovery Framework for NALCN Channelopathy: From High-Throughput Screening to Therapeutic Candidate",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755994v1?rss=1",
+          "title": "LLM-powered automatic scoring tools for memory recall",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-23/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-23/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-23/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-23/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-10-23/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-10-23/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-10-23.mp3",
+      "thumb": "thumbs/2026-10-10-23.webp",
+      "cover_video": "thumbs/2026-10-10-23.mp4"
+    },
+    {
       "id": "2026-10-10-22",
       "hour": "22:00",
       "date": "2026-10-10",
@@ -107,7 +243,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-22/f01.webp"
           },
           {
@@ -137,7 +273,7 @@
       "thumb": "thumbs/2026-10-10-22.webp",
       "cover_video": "thumbs/2026-10-10-22.mp4",
       "cues": [
-        0.0,
+        0,
         35.23,
         70.51,
         103.34,
