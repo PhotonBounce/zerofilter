@@ -1,0 +1,1548 @@
+{
+  "hour": "2026-10-10T09:00:00.000Z",
+  "captured_at": "2026-10-10T09:06:38.912Z",
+  "clock_skew_s": -1,
+  "feeds": [
+    {
+      "id": "kyiv-independent",
+      "status": "ok",
+      "count": 13
+    },
+    {
+      "id": "dod-releases",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "id": "bbc-world",
+      "status": "ok",
+      "count": 33
+    },
+    {
+      "id": "npr-politics",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "arxiv-quant-ph",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "id": "arxiv-cs-ai",
+      "status": "ok",
+      "count": 50
+    },
+    {
+      "id": "nature",
+      "status": "ok",
+      "count": 50
+    },
+    {
+      "id": "prl",
+      "status": "ok",
+      "count": 0
+    },
+    {
+      "id": "biorxiv-neuro",
+      "status": "ok",
+      "count": 30
+    },
+    {
+      "id": "shvets-youtube",
+      "status": "ok",
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-550-910-troops-in-ukraine-since-feb-24-2022/",
+      "title": "General Staff: Russia has lost 1,550,910 troops in Ukraine since Feb. 24, 2022",
+      "published": "2026-10-10T06:57:52.000Z",
+      "summary": "The number includes 1,420 casualties that Russian forces suffered over the past day."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/russian-guided-bombs-hit-zaporizhzhia-apartment-building-killing-4-injuring-4/",
+      "title": "Russian guided bombs hit Zaporizhzhia apartment building, killing 4, injuring 4",
+      "published": "2026-10-10T04:55:22.000Z",
+      "summary": "The attack came a day after Russian guided aerial bombs struck residential areas of Zaporizhzhia on Oct. 9, killing at least one person and injuring seven others, including a child, according to regional officials."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+      "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+      "published": "2026-10-10T03:22:53.000Z",
+      "summary": "ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, identifying its location through footage posted by residents. It remained unclear what struck the building amid reports of continued drone activity and Russian air defense operations."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/us-ukrainian-european-officials-discuss-ending-russias-war-at-miami-meeting/",
+      "title": "US, Ukrainian, European officials discuss ending Russia's war at Miami meeting",
+      "published": "2026-10-10T01:50:28.000Z",
+      "summary": "The meeting coincided with U.S. President Donald Trump's announcement that Russia would supply millions of tons of diesel to the United States and global markets following a call with Russian President Vladimir Putin."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/zelensky-appoints-former-european-integration-minister-kachka-as-eu-ambassador/",
+      "title": "Zelensky appoints former European integration minister Kachka as EU ambassador",
+      "published": "2026-10-09T20:47:00.000Z",
+      "summary": "During Kachka’s tenure overseeing EU integration, Ukraine opened its first two accession negotiation clusters — groups of policy areas in which candidates must meet EU requirements."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
+      "title": "Trump allows Russia to supply millions of tons of diesel to US, global markets",
+      "published": "2026-10-09T18:53:55.000Z",
+      "summary": "\"Russia will immediately supply over 300,000 Tons of Diesel Fuel to the American and Global Marketplace, another 500,000 Tons during the month of November, and 1,000,000 Tons immediately thereafter,\" U.S. President Donald Trump wrote on Truth Social."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
+      "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
+      "published": "2026-10-09T18:12:16.000Z",
+      "summary": "Key developments on October 09: Second Russian Yandex data center damaged by drone attack in two days, company says Twenty Russian officers killed in Ukrainian strikes on Donetsk, independent monitors claim Russia forcibly removes 25 Ukrainian civilians, including children, from occupied Kharkiv Oblast, ombudsman says Russian airports closed amid alleged"
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/us-sanctions-court-that-seeks-to-arrest-putin-prompts-backlash-2/",
+      "title": "US sanctions court that seeks to arrest Putin, prompts backlash",
+      "published": "2026-10-09T17:57:08.000Z",
+      "summary": "In 2023, the ICC issued arrest warrants for Putin and another Russian official, Maria Lvova-Belova, for \"unlawful transfer of population (children) from occupied areas of Ukraine to the Russian Federation.\""
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/record-20-russian-officers-killed-in-ukrainian-strikes-on-headquarters-in-donetsk-monitors-say/",
+      "title": "Record 20 Russian officers killed in Ukrainian strikes on headquarters in Donetsk, monitors say",
+      "published": "2026-10-09T17:48:21.000Z",
+      "summary": "According to Mediazona, 18 of the Russian officers died immediately in the missile strike, while two succumbed to their injuries."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/why-eu-sanctions-have-missed-company-behind-russias-tank-industry-2/",
+      "title": "Why have EU sanctions missed the company behind Russia’s tank industry?",
+      "published": "2026-10-09T16:34:56.000Z",
+      "summary": "With more than four years of full-scale war and 12 years since Russia first invaded Ukraine, it seems the European Union has developed an extensive arsenal of tools to sanction Moscow, but one problem appears to persist: the visibility problem. Consider two companies that share a name. The first is"
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/russian-airports-closed-amid-alleged-ukrainian-balloon-and-drone-raid/",
+      "title": "Russian airports closed amid alleged Ukrainian balloon and drone raid",
+      "published": "2026-10-09T16:30:44.000Z",
+      "summary": "Local Russian Telegram channels showed mysterious balloons in the skies near Moscow, and air defense activity."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/eu-represented-by-von-der-leyens-right-hand-at-ukraine-peace-talks-sources-say/",
+      "title": "EU represented by von der Leyen's right-hand at Ukraine peace talks, sources say",
+      "published": "2026-10-09T13:14:50.000Z",
+      "summary": "Two EU officials confirmed that Bjoern Seibert would be representing the European Commission at those talks, alongside the National Security Advisers of the E3 countries: France, Germany, and the U.K."
+    },
+    {
+      "feed": "kyiv-independent",
+      "kind": "news",
+      "url": "https://kyivindependent.com/founder-of-russian-war-propaganda-channel-rybar-detained-in-montenegro/",
+      "title": "Montenegro to expel founder of Russian war blog Rybar, citing security reasons",
+      "published": "2026-10-09T10:47:31.000Z",
+      "summary": "\"Today, employees of the Police Department, together with the National Security Agency and with the support of international partners, conducted a targeted and coordinated operation aimed at preventing, detecting, and neutralizing illegal activities on the territory of Montenegro,\" Montenegro's police said."
+    },
+    {
+      "feed": "dod-releases",
+      "kind": "news",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4622796/department-of-war-awards-63-billion-multi-year-contract-to-rtxs-raytheon-for-sm/",
+      "title": "Department of War Awards $6.3 Billion Multi-Year Contract to RTX's Raytheon for SM-3 BLOCK IB Interceptors",
+      "published": "2026-10-08T21:00:08.000Z",
+      "summary": "The War Department and the Missile Defense Agency awarded Raytheon, an RTX business, a multiyear procurement contract valued at up to $6.3 billion to produce Standard Missile–3 Block IB interceptors."
+    },
+    {
+      "feed": "dod-releases",
+      "kind": "news",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4622109/department-of-war-announces-350-million-in-quantum-computing-initiatives/",
+      "title": "Department of War Announces $350 Million in Quantum Computing Initiatives",
+      "published": "2026-10-08T14:44:00.000Z",
+      "summary": "The Office of the Undersecretary of War for Research and Engineering announced new initiatives and programmatic updates totaling approximately $350 million to strengthen U.S. leadership in quantum computing capabilities that support national security."
+    },
+    {
+      "feed": "dod-releases",
+      "kind": "news",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4622113/department-of-wars-office-of-strategic-capital-signs-150-million-conditional-lo/",
+      "title": "Department of War's Office of Strategic Capital Signs $150 Million Conditional Loan Commitment With PsiQuantum",
+      "published": "2026-10-08T14:36:10.000Z",
+      "summary": "DOW's Office of Strategic Capital announced a $150 million conditional loan commitment to PsiQuantum Corp. to enhance the company’s advanced manufacturing and prototyping capabilities in the United States."
+    },
+    {
+      "feed": "dod-releases",
+      "kind": "news",
+      "url": "https://www.war.gov/News/Releases/Release/Article/4622104/department-of-war-executes-white-house-strategy-for-a-new-golden-age-of-science/",
+      "title": "Department of War Executes White House Strategy for a New Golden Age of Science",
+      "published": "2026-10-08T14:36:00.000Z",
+      "summary": "The War Department announced a series of initiatives to advance President Donald J. Trump's vision for a New Golden Age of American science."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+      "title": "Hurricane Isaias downgraded after making landfall in Florida",
+      "published": "2026-10-10T08:29:59.000Z",
+      "summary": "Hundreds of thousands of households are without power in Florida and Alabama as Isaias continues its path across south-eastern US."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cr86z34vz95yo?at_medium=RSS&at_campaign=rss",
+      "title": "How the trial of murdered Australian brothers and US friend unfolded",
+      "published": "2026-10-10T06:04:35.000Z",
+      "summary": "The mother of two Australian surfers murdered in Mexico two years ago with their American friend said \"accountability matters\"."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6kgq7rqdql7o?at_medium=RSS&at_campaign=rss",
+      "title": "Public executions in the US stopped nearly a century ago - why are they resuming now?",
+      "published": "2026-10-10T05:48:54.000Z",
+      "summary": "The Pentagon says the execution of Fort Hood shooter Nidal Hasan will be livestreamed, but experts suggest officials are reading the country wrong."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c317ke5ngrq7o?at_medium=RSS&at_campaign=rss",
+      "title": "Nord Stream trial: How German police followed the evidence - to Ukraine",
+      "published": "2026-10-10T04:51:57.000Z",
+      "summary": "After four years, a Ukrainian man is set to stand trial in Hamburg accused of sabotaging the Nord Stream pipelines."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+      "published": "2026-10-10T04:38:20.000Z",
+      "summary": "Ukraine's president sharply criticised the move, calling it an \"investment in war that must be ended, not prolonged\"."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_medium=RSS&at_campaign=rss",
+      "title": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
+      "published": "2026-10-10T04:34:55.000Z",
+      "summary": "The United Arab Emirates' attorney-general also alleges the co-pilot was trying to crash the plane into Tel Aviv's airport."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckgj921e14jdo?at_medium=RSS&at_campaign=rss",
+      "title": "'Stain on the country': Trump criticises Norway over Nobel Peace Prize",
+      "published": "2026-10-10T04:07:11.000Z",
+      "summary": "The US president told a rally he had \"never heard of\" the winner, former International Criminal Court judge Navi Pillay."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm79pdlywqd4o?at_medium=RSS&at_campaign=rss",
+      "title": "US country music star Ella Langley cancels show due to 'security threat'",
+      "published": "2026-10-10T02:02:54.000Z",
+      "summary": "Police say they checked the concert venue in Tulsa, Oklahoma but \"could not find any threat\"."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cq78px5y1zmzo?at_medium=RSS&at_campaign=rss",
+      "title": "US immigration officials defend ICE agents who shot man in same car as child",
+      "published": "2026-10-10T00:13:12.000Z",
+      "summary": "Oscar Belgal, the 28-year-old man, survived the shooting and is now being held at a detention facility outside of New York, officials said."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqp8gknl1njjo?at_medium=RSS&at_campaign=rss",
+      "title": "Questions remain over Ebola patient who travelled across three nations undetected",
+      "published": "2026-10-10T00:00:08.000Z",
+      "summary": "Fresh details reveal how the 40-year-old businessman flew and crossed regional borders while seriously ill."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/crq5nlqnn184o?at_medium=RSS&at_campaign=rss",
+      "title": "'Everyone hates the police' – what France's school protests reveal about a divided nation",
+      "published": "2026-10-09T23:24:33.000Z",
+      "summary": "Students taking to the streets have become a focal point in the country's increasingly polarised politics."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss",
+      "title": "Commentator Katie Zacharia picked as new White House press secretary",
+      "published": "2026-10-09T22:41:21.000Z",
+      "summary": "The conservative commentator currently works as a communications adviser at Trump Media & Technology Group."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+      "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+      "published": "2026-10-09T22:30:22.000Z",
+      "summary": "The US president hopes to ease his party's pain before next month's midterm elections, writes the BBC's North America correspondent."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cj5ynwnye009o?at_medium=RSS&at_campaign=rss",
+      "title": "Three men found guilty of murdering Australian brothers and US friend in Mexico",
+      "published": "2026-10-09T21:55:51.000Z",
+      "summary": "Jake and Callum Robinson and their friend Carter Rhoad were on a surf trip when they were killed in an apparent botched robbery."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
+      "title": "JD Vance casts doubt on firing squad execution and says he would not watch it",
+      "published": "2026-10-09T21:50:47.000Z",
+      "summary": "The planned execution of Nidal Hasan by firing squad would be the first military execution in more than 60 years."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c620r39zdp9wo?at_medium=RSS&at_campaign=rss",
+      "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
+      "published": "2026-10-09T21:26:30.000Z",
+      "summary": "Tsunami warnings are issued for neighbouring countries as videos of destruction circulate online."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cm36905w7zl4o?at_medium=RSS&at_campaign=rss",
+      "title": "BBC breaks down video of the aftermath of New York City ICE shooting",
+      "published": "2026-10-09T20:20:09.000Z",
+      "summary": "The BBC's Nada Tawfik goes through new dramatic body cam footage that shows the tense moments when police arrive on scene."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cqm263x40y37o?at_medium=RSS&at_campaign=rss",
+      "title": "Thai Queen makes first solo flight in fighter jet",
+      "published": "2026-10-09T19:48:26.000Z",
+      "summary": "Thailand’s Queen Suthida made her first solo flight in a fighter jet, according to the Thai Royal Household."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cj20vkkx3rdvo?at_medium=RSS&at_campaign=rss",
+      "title": "US unveils sanctions on ICC in move court condemns as 'assault on rule of law'",
+      "published": "2026-10-09T18:40:10.000Z",
+      "summary": "Several member states of the international tribunal, including the UK, say they \"strongly disagree\" with the sanctions."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c68xzqqn4ekro?at_medium=RSS&at_campaign=rss",
+      "title": "Russian search engine Yandex struggles after Ukrainian strikes on data centres",
+      "published": "2026-10-09T17:14:44.000Z",
+      "summary": "Often dubbed \"Russia's Google\", the tech firm admits customers may experience disruption to digital services due to the attacks."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo?at_medium=RSS&at_campaign=rss",
+      "title": "Man named Hitler Mussolini elected mayor in Peru",
+      "published": "2026-10-09T16:32:22.000Z",
+      "summary": "The left-wing candidate won a narrow victory in a remote district in the Peruvian Andes, exit polls show."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cm4g1wwl0lxko?at_medium=RSS&at_campaign=rss",
+      "title": "Tornado rips through Sicilian town and city",
+      "published": "2026-10-09T16:25:00.000Z",
+      "summary": "Dramatic footage shows huge tornado moving through Marsala and Petrosino, causing damage to buildings and cars."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cq8ezdww6w0do?at_medium=RSS&at_campaign=rss",
+      "title": "Watch: Who is Nobel Peace Prize winner Navi Pillay?",
+      "published": "2026-10-09T15:26:33.000Z",
+      "summary": "BBC correspondent Joe Inwood explains how Pillay's childhood in South Africa led her to become a driving force in international law from Myanmar to Gaza."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c65ynvw250y1o?at_medium=RSS&at_campaign=rss",
+      "title": "Ethiopia warns Eritrea it will defend itself after troops cross border",
+      "published": "2026-10-09T15:24:43.000Z",
+      "summary": "Truckloads of Eritrean soldiers have been seen driving into Ethiopia, which has reportedly responded with drone strikes."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cwkg50v1vn07o?at_medium=RSS&at_campaign=rss",
+      "title": "Two Renoir paintings stolen from French museum are recovered",
+      "published": "2026-10-09T14:25:18.000Z",
+      "summary": "The two works were seized last month when thieves cut through a fence and smashed a window at the Renoir Museum on the French Riviera."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmz7xe37g5wro?at_medium=RSS&at_campaign=rss",
+      "title": "Three Saudi nationals killed in Houthi attacks on Riyadh airport",
+      "published": "2026-10-09T13:50:25.000Z",
+      "summary": "The missile attacks come amid an escalation in fighting between the Iran-backed group and Saudi Arabia, which backs Yemen's government."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmwy47lzd1vyo?at_medium=RSS&at_campaign=rss",
+      "title": "Doctor accused of 1994 Rwanda genocide offences to face trial in UK",
+      "published": "2026-10-09T11:44:49.000Z",
+      "summary": "Dr Vincent Brown was allegedly a \"leader\" or \"supervisor\" of violent acts carried out by others in the early days of the genocide."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6vg98lw017po?at_medium=RSS&at_campaign=rss",
+      "title": "France promises 3,000 extra teachers in first step to calm student protests",
+      "published": "2026-10-09T11:35:00.000Z",
+      "summary": "Education minister Edouard Geffray makes the offer after another day of sometimes violent demonstrations by high-school students."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm5yne8k6zw8o?at_medium=RSS&at_campaign=rss",
+      "title": "Crazy Rich Asians to return as TV show with original film's stars",
+      "published": "2026-10-09T10:54:21.000Z",
+      "summary": "It will pick up after the hit 2018 film, starring Constance Wu, Henry Golding, Michelle Yeoh and Ronny Chieng."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ck1wvqw4lzdvo?at_medium=RSS&at_campaign=rss",
+      "title": "Fort Hood survivor supports gunman's execution by firing squad but questions livestream",
+      "published": "2026-10-09T09:43:22.000Z",
+      "summary": "Alonzo Lunsford tells the BBC the punishment befits the crime but he has some doubts whether the public should be able to watch it."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/videos/c862y63x657no?at_medium=RSS&at_campaign=rss",
+      "title": "Why is it so hard to put out Indonesian fires shrouding the region in toxic smog?",
+      "published": "2026-10-09T09:37:56.000Z",
+      "summary": "We explain why Indonesia’s peatland fires are so difficult to battle and produce so much haze."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cvlydn8d3lkjo?at_medium=RSS&at_campaign=rss",
+      "title": "Fired OpenAI researchers say they were let go for 'prioritising safety'",
+      "published": "2026-10-09T09:30:49.000Z",
+      "summary": "The AI firm instead claims the researchers were fired for mishandling sensitive information."
+    },
+    {
+      "feed": "bbc-world",
+      "kind": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cme3xl8ln2vko?at_medium=RSS&at_campaign=rss",
+      "title": "Thieves steal 30,000 bottles of wine worth €5m in Italy, reports say",
+      "published": "2026-10-09T09:09:03.000Z",
+      "summary": "The heist at the Florence-based winery is believed to be one of the largest thefts of its kind in Italy."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms",
+      "title": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms",
+      "published": "2026-10-09T21:24:13.000Z",
+      "summary": "Trump says the U.S. will obtain diesel from Russia, relaxing years of U.S. pressure on Moscow, to combat prices before midterms. He said he struck the deal with Russian President Vladimir Putin in a phone call."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/09/nx-s1-5996586/trumps-affordable-suit",
+      "title": "Trump's Affordable Suit",
+      "published": "2026-10-09T20:03:22.000Z",
+      "summary": "NPR's Mary Louise Kelly speaks with New York Times fashion reporter Jacob Gallagher about President Trump's apparent choice to wear a suit from the budget menswear chain Jos. A. Bank."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/09/g-s1-147476/trump-third-country-deportation-africa-reverse",
+      "title": "U.S. working to reverse an Egyptian man's third-country deportation to Africa",
+      "published": "2026-10-09T17:49:28.000Z",
+      "summary": "The Trump administration's effort to return Ahmed Soliman to the U.S. come after an Arizona judge said his deportation violated due process."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/09/nx-s1-5986150/lawler-new-york-congress-trump",
+      "title": "Republican congressman tries to outrun a potential blue wave in New York toss-up seat",
+      "published": "2026-10-09T09:00:00.000Z",
+      "summary": "Rep. Mike Lawler, R-NY, is in a tight race for re-election in a toss-up district that could help determine control of Congress in November."
+    },
+    {
+      "feed": "npr-politics",
+      "kind": "news",
+      "url": "https://www.npr.org/2026/10/09/nx-s1-5984981/mail-in-ballot-usps-postmark",
+      "title": "Why mailing a ballot close to Election Day may get it rejected for a late postmark",
+      "published": "2026-10-09T09:00:00.000Z",
+      "summary": "If you're using the U.S. Postal Service to return a ballot close to Election Day, officials recommend getting it postmarked at a post office to avoid getting caught up in mail processing changes."
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.10541",
+      "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.10541v1 Announce Type: new Abstract: Knowledge Graph (KG) quality depends not only on downstream graph validation, but also on the quality of tabular metadata used before integration. In metadata-only Semantic Table Interpretation (STI), where cell values are unavailable, noisy, or unsuitable, column headers become a critical source of semantic evidence for traceable KG preparation. We present an explainable, header-centric framework for metadata-only Column Type Annotation (CTA) and Data Quality Assessment (DQA). The framework maps headers to 39 interpretable FinalFormat types usin"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.10549",
+      "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.10549v1 Announce Type: new Abstract: Tool-calling agents have become central to enterprise AI, yet training and evaluating them at scale remains severely constrained due to business and legal restrictions on enterprise systems, data, and database schemas. Tabular data synthesis offers a natural alternative, but its effectiveness is fundamentally limited by structural validity and schema availability, while procedure-based approaches yield the opposite weakness, typically lacking distributional fidelity without per-domain authoring. We introduce **Synthesis Through Simulation** (STS)"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.10590",
+      "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.10590v1 Announce Type: new Abstract: Tool-using agents repeatedly carry observations whose useful content can be much smaller than their original payload. We study agent-controlled forgetting: the acting model selects previously observed tool results, replaces each with a short note at its original position, and retains the exact original in a recoverable archive. A Python harness exposes batch archival and explicit recovery without task-specific model training, while protecting user instructions and assistant messages from these operations. In an exploratory OpenTelemetry debugging"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.10611",
+      "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.10611v1 Announce Type: new Abstract: Agentic AI systems can improve by searching longer, receiving additional support, or modifying how they propose and verify outputs. A performance score does not distinguish these mechanisms. We compare these changes through bounded verification with hidden terminal randomness. A stage specifies admissible transcripts, polynomial bounds, an alternating verification protocol, and a terminal checker. Its native reach uses default support; its closure frontier permits all support already admitted by the interface. Under a uniform pointwise probabilit"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.10629",
+      "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.10629v1 Announce Type: new Abstract: Self-improving LLM agents can adapt a credit pipeline to a changed rule, but an agent that rewrites itself destroys the artefact a supervisor reviews: a named change, a recorded test, an approval. We argue that self-evolution is reviewable only if it is confined to the runtime harness (instruction text, tool-call logic and primitive composition) while model weights stay fixed, so that every adaptation is a diff with a cause and a test attached. We give a dual-loop engine built on that bound, with one admission gate that writes a hash-chained reco"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.10635",
+      "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.10635v1 Announce Type: new Abstract: Aerial vision-and-language navigation (VLN) agents are typically trained on detail-rich, trajectory-aligned commands, whereas users issue short, intent-driven instructions; on a frozen OpenFly navigator, this \\emph{instruction gap} drops success rate (SR) from $31.03\\%$ to $11.33\\%$. To scale translator training, we prompt a language model with human-written style examples to convert original commands into paired, intent-centered Weak commands, which yield $15.27\\%$ SR. We introduce the \\textbf{Trajectory-Grounded Instruction Translator (TGIT)}, "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.10786",
+      "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.10786v1 Announce Type: new Abstract: Planning is increasingly important for long-horizon agents, where successful execution requires coordinating subgoals, tool use, and intermediate outcomes over many steps. Yet assumptions made during planning may be invalidated by the environment, tools may return unexpected results, or actions may fail. Effective agents must therefore not only generate plans, but also revise them. Such revisions often affect only part of a plan, leaving the preceding and subsequent structure intact. Rather than regenerate the entire plan and risk unnecessary cha"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.10805",
+      "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.10805v1 Announce Type: new Abstract: As AI systems increasingly interact with people and make decisions about them, understanding human interpretations becomes an important part of developing human-centered AI. Conventional machine learning and AI systems are largely developed under the assumption that a single definitive ground truth exists, with variability in human annotations often resolved through aggregation or treated as noise. However, for many human-centered tasks, human interpretation is inherently ambiguous, and multiple interpretations of the same input may be simultaneo"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.10833",
+      "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.10833v1 Announce Type: new Abstract: We study whether small LLM agents can operate effectively under explicit wall-clock time budgets by both respecting the allocated runtime and using available time productively. We evaluate Qwen3.6-27B on five competitions from MLE-Bench Lite and Qwen3-4B on Zork I (Jericho), two agentic benchmarks where additional computational time can meaningfully improve performance. In the simplest setting, where the budget is stated only in the prompt, agents fail to translate the stated budget into controlled use of time. These failures arise from gaps in t"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.10857",
+      "title": "Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.10857v1 Announce Type: new Abstract: Behavior cloning (BC) in non-Markovian environments is a challenging problem because policies have to reason over contextual information over long horizons. Existing policy architectures rely on recurrent or attention-based mechanisms to capture long-term dependencies. However, recurrent models suffer from hidden-state collapse and gradient instability under backpropagation through time, while attention-based models are fundamentally limited by context length. To address these issues, we propose Keyframe Mnemonics, a novel self-supervised method "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.10906",
+      "title": "Reading the Room: Foundations, Design, and Challenges of Normative Competence in LLMs",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.10906v1 Announce Type: new Abstract: Human communities are governed by normative systems: shared standards that produce \\textit{norms} dictating acceptable behavior, enforced through community sanctioning. Aligning increasingly autonomous AI systems with these norms is a central alignment challenge, complicated by the fact that norms are vast in number, change quickly, and are often arbitrary (e.g., dress or language conventions). Thus, alignment requires \\textit{normative competence}: the ability to discern from interaction alone what norms a community enforces without relying on s"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.10942",
+      "title": "StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.10942v1 Announce Type: new Abstract: Reinforcement learning environments are now a primary lever for improving large language model (LLM) capabilities in post-training, yet most agentic benchmarks remain static: the world moves only when the agent acts, the reward is a terminal verdict, and the pass bar is set arbitrarily. We introduce StoreBench, a live-commerce environment in which an agent runs a mid-size online apparel store on a production-grade commerce backend, testing long-horizon planning and economic judgment under uncertainty. Customers order around the clock, suppliers r"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.10954",
+      "title": "Learning How to Search for Plans with Exponentially Less Space",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.10954v1 Announce Type: new Abstract: Heuristic search for a plan can store exponentially many states, even when its heuristic is almost perfect. We instead learn search control, one specification per domain, written as an indexical policy: a generalized policy with registers that hold objects and modes that sequence its rules. We add the choose rule, which loads an object into a register and marks a backtracking point, where one candidate suffices; every other rule must work for all of its outcomes and needs no search. Our main result is that structural termination, which rules out "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11005",
+      "title": "How Narrative Wrapping Affects LLM Refusal: A Cross-Language Benchmark and Defense",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11005v1 Announce Type: new Abstract: Safety-aligned language models often refuse a harmful request stated directly but answer the same request inside a role-play or narrative wrapper. We measure this vulnerability across languages and registers: attack success on Qwen3-1.7B is already 89.4% in English and 93.0% in modern Chinese, and reaches 95.7% in Classical Chinese. We build GUISE, a benchmark for systematically studying this vulnerability. It includes parallel requests in English, modern Chinese, and Classical Chinese, matched harmful and benign pairs, wrapper types held out for"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11007",
+      "title": "Curating Always-Loaded Context for LLM Agents: A Capacitated Assortment Model with Censored Feedback",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11007v1 Announce Type: new Abstract: At the start of every session, LLM agents load a fixed context file, such as $\\texttt{AGENTS.md}$. Each loaded token in the file is charged again in every later round of the session, and these files can degrade performance as they grow in size. However, in practice, human or automated curators usually grow these files by appending. We formulate context curation as a capacitated assortment problem. Instructions consume tokens under a finite attention capacity; adding an instruction never raises the compliance of the others, while retained instruct"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11012",
+      "title": "Distillation for Incrimination and Distillation for Capabilities",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11012v1 Announce Type: new Abstract: Powerful misaligned AI models might recognize alignment evaluations and strategically behave well on them, rendering direct audits uninformative. However, distilling such a model into a weaker benign student places the teacher in a Distillation Double Bind: if misalignment transfers, the student may conceal it less effectively, revealing evidence about the teacher; if it does not, the student may learn useful capabilities while remaining benign. We introduce two distinct distillation approaches, one targeting each outcome. Distillation for Incrim"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11050",
+      "title": "AgentHorizon: Evaluating Agentic Judges for Long-Horizon Computer-Use Tasks",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11050v1 Announce Type: new Abstract: Computer-use agents are capable of completing complex tasks, increasing the use of automatic judges to determine success, either for training or for evaluation without human involvement. Despite their flexibility, their reliability on long tasks spanning multiple applications remains unclear. A trajectory, composed of long sequences of screenshots and actions, may appear complete, but in reality violates constraints from the instruction or introduces an unwanted side effect. To identify these errors, a judge needs to examine the trajectory with r"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11087",
+      "title": "Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11087v1 Announce Type: new Abstract: The rapid growth of scientific publishing has strained peer review, particularly in machine learning, raising concerns about declining review quality and increasing reviewer workload. Large language models (LLMs) have been proposed as automated review assistants, yet their evaluation has focused largely on imitating human-written reviews rather than supporting the core functions of peer review. Here, we introduce a verification-centric perspective on LLM-assisted peer review, emphasizing error detection as a critical and resource-intensive task. "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11118",
+      "title": "OpenProblemBench: Benchmarking AI on Open Problems in the Foundational Theoretical Sciences",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11118v1 Announce Type: new Abstract: The next frontier for artificial general intelligence is tackling unresolved scientific problems, calling for benchmarks that assess progress beyond established knowledge. We introduce OpenProblemBench, a benchmark of 82 unresolved problems drawn from the mathematics and theoretical physics literature. Each problem supplies the research context, assumptions, and prior progress needed to investigate the question. We select problems whose proposed solutions admit comparatively clear checks of their decisive mathematical or computational claims. Fou"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11123",
+      "title": "When Interfaces Speak: Data-Aware Generative UI Harness for Active Interaction",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11123v1 Announce Type: new Abstract: Most human-agent interaction today remains text-based. Natural language can impose cognitive overload, ambiguity, information chaos, and slow input for complex tasks; ephemeral generative UIs can present structured information and guide users toward task completion. We propose GenUI-Harness, a multi-agent harness pairing a Tool Agent for information retrieval and task execution with a GUI Coder Agent that identifies ambiguities and generates front-end code for structured interfaces. Training the coder with reinforcement learning is challenging: v"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11128",
+      "title": "Balancing Reference Guidance and Free Generation in Trajectory Rollouts for Reasoning RL",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11128v1 Announce Type: new Abstract: A verified reference solution provides a correct trajectory for training a reasoning model. Alternatively, a prefix of the reference can guide the model in generating a trajectory of its own. How much reference guidance should we provide? We study this question through prefix continuation, where the model continues from a reference prefix and keeps the resulting trajectory if it passes verification, falling back to the reference otherwise. Since both procedures produce correct trajectories, we compare their distributions with the ideal distributi"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11129",
+      "title": "GameCommBench: A Unified Benchmark and Type-Aware Evaluation for AI-Generated Game Commentary",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11129v1 Announce Type: new Abstract: Game commentary is an open-ended generation task requiring multimodal perception, strategic reasoning, and contextual knowledge. Existing AI-Generated Game Commentary (AI-GGC) studies remain fragmented across games, modalities, and evaluation protocols, while overlap-based or holistic evaluators fail to capture the functional heterogeneity of commentary. We introduce \\textsc{GameCommBench}, a unified benchmark spanning board games, sports, and esports, with commentary aligned to heterogeneous game contexts and annotated by commentary type. We fur"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11155",
+      "title": "Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11155v1 Announce Type: new Abstract: Non-suicidal self-injury (NSSI) is prevalent among adolescents with depression, but the rapid brain-state dynamics linking social distress to maladaptive behavior remain unclear. We combine an experimental pain paradigm, electroencephalography (EEG) microstate analysis, and interpretable deep sequence modeling to investigate NSSI-related neurodynamics in 106 adolescents with depression, including 67 with NSSI (DN+) and 39 without NSSI (DN-), during social pain, physical pain, and resting-state conditions. A model integrating disease-specific, dom"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11188",
+      "title": "What to Admit and How to Present: Governing Persistent Memory in LLM Agents",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11188v1 Announce Type: new Abstract: Persistent memory can improve personalization in LLM agents but can also induce sycophancy and cross-domain leakage. We distinguish two governance decisions: admission, which determines what recalled information enters the working context, and presentation, which determines how admitted information is expressed. We implement two inference-time designs without retraining: factor-compiled admission (FC), which assesses whole memory entries, and permission-semantic admission (PS), which decomposes entries into typed units; both translate adjudicated"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11213",
+      "title": "AliO: Output Alignment Matters in Long-Term Time Series Forecasing",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11213v1 Announce Type: new Abstract: Long-term Time Series Forecasting (LTSF) tasks, which leverage the current data sequence as input to predict the future sequence, have become increasingly crucial in real-world applications such as weather forecasting and planning of electricity consumption. However, state-of-the-art LTSF models often fail to achieve prediction output alignment for the same timestamps across lagged input sequences. Instead, these models exhibit low output alignment, resulting in fluctuation in prediction outputs for the same timestamps, undermining the model's re"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11226",
+      "title": "When Lower Reconstruction Loss Hurts: Distributionally Robust Refinement for Low-Bit LLM Quantization",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11226v1 Announce Type: new Abstract: Weight-only post-training quantization (PTQ) relies heavily on reconstruction loss minimization to preserve model quality at low precision. We show that the weights favored by minimizing this loss need not yield better model performance on new tasks. In fact, we find that lower reconstruction loss can even degrade model performance on the same calibration data. Our analysis further shows that weights with lower reconstruction loss on calibration data can have higher loss than other weights when the distribution of input activations changes. Motiv"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11231",
+      "title": "Harness Compilation: Which Decisions Should a Small Vision-Language Model Keep?",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11231v1 Announce Type: new Abstract: Small vision-language models may be able to read external evidence yet struggle to obtain it. We introduce Harness Compilation (HC), an offline procedure that adapts the division of work between a frozen small VLM and its external harness. A large teacher uses student execution traces to revise reusable content and control, while a separate validation set selects the deployed harness. Deployment requires neither weight updates nor teacher calls. Across seven visual question-answering settings with students of at most 9B parameters, HC improves sc"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11253",
+      "title": "LLM-IDEA: Identifiability-Driven Experimental Agent for Autonomous Discovery of Mechanistic World Models",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11253v1 Announce Type: new Abstract: Large language model agents are being increasingly deployed as autonomous scientists, designing experiments and inferring mechanistic world models with minimal human oversight. Yet identifiability is often overlooked: when a plateau is reached, the agent needs to know whether it is not yet capable enough or the model simply is not identifiable from the data, in which case no amount of further experimentation of the same kind can help. We propose the Identifiability-Driven Experimental Agent (LLM-IDEA) for closed-loop discovery with an identifiabi"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11268",
+      "title": "TaReD: Tool-Aware Recursive Decomposition for Long-Horizon Tasks",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11268v1 Announce Type: new Abstract: Agents combine reasoning with tools to interact with external systems and complete real-world tasks. Early agents typically interleave reasoning and actions along a single execution chain. On complex tasks, this chain becomes unreliable because growing histories obscure intermediate dependencies and allow early planning errors to propagate. Recursively decomposing a complex task into smaller subtasks offers a natural solution, yet effective decomposition must account for the system's capabilities so that each subtask can be executed by the availa"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11289",
+      "title": "Open-ended Scientific Discovery with Possibilistic Reasoning",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11289v1 Announce Type: new Abstract: Autonomous scientific discovery with LLMs requires generating and testing hypotheses adaptively as evidence accumulates while maintaining statistical validity. Existing anytime-valid methods can handle data-dependent hypotheses, but open-ended discovery poses a deeper challenge: the best discovered hypothesis may still be the best of a bad lot, with better explanations yet undiscovered, while even background knowledge such as physical laws may require revision in light of new findings. In response, we formalize the problem as Abductive Autonomous"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11294",
+      "title": "ORDO: Operation-level Round-aware Dynamic Ordering for MIP Presolve",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11294v1 Announce Type: new Abstract: Presolve strongly affects mixed-integer programming (MIP) performance, yet learning-based methods only optimize parameter configurations and cannot express the non-commutative temporal dependencies among actions, whose default order is nearly unique on most domains, yet functionally necessary: artificially shuffling the order of the same sequence inflates the tail of the solve-time distribution by up to several-fold. We recast presolve planning as autoregressive sequence generation over a unified atomic action space, moving the decision object to"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11299",
+      "title": "DuplexAgent-RSI: Recursive Harness Improvement for Full-Duplex Voice Agent Collaboration",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11299v1 Announce Type: new Abstract: Voice agents are converging on a collaboration pattern: a full-duplex interaction model stays on the live channel as the entry to the conversation, while search, reasoning, and coding are handled through asynchronous delegation. A duplex model supports continuous listening and speaking, but complex reasoning and tool use may exceed its capabilities. A coding agent can plan and execute extended tasks, but its sequential interface is a poor fit for live conversation. Combining them requires a harness that coordinates task acceptance, progress, canc"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11312",
+      "title": "MedBenchAgent: Towards Systematic Automation of Medical VLM Benchmark Construction",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11312v1 Announce Type: new Abstract: Large-scale construction of medical vision-language model (VLM) benchmarks is increasingly feasible with richly annotated imaging datasets and large language models (LLMs), yet existing automation largely focuses on generating evaluation items within predefined benchmark specifications. We study the broader problem of automatically deriving the specification itself: what to evaluate, which annotations support each task, and how to translate this evidence into reliable evaluation items. We formulate benchmark construction as constrained compilatio"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11317",
+      "title": "DivMoE: Fine-Grained MoE Upcycling via Cross-Domain Expert Composition",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11317v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) architectures have become essential for scaling large language models, with recent work demonstrating the benefits of fine-grained expert designs. Training such models from scratch is expensive, and sparse upcycling from pre-trained dense models is an attractive alternative. However, we identify a structural pathology of fine-grained upcycling: when fine-grained experts are derived from a single source model, naive routing collapses and downstream accuracy drops to near-random (e.g., on Qwen3-1.7B, Drop-Upcycling-fine-gra"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11318",
+      "title": "Finsler Flow Matching: Dynamics-Aware Geodesic Interpolation for Single-Snapshot Trajectory Inference",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11318v1 Announce Type: new Abstract: Single-cell snapshot data can resolve a continuum of cellular states but do not uniquely determine the dynamics governing transitions between them. However, additional dynamical information can often be encoded in a cell-cell Markov transition kernel. Existing generative approaches for single cell trajectory inference either infer transport only from population marginals, impose a symmetric geometry on the state space, or incorporate directionality through a single velocity vector at each observed state. We introduce Finsler Flow Matching (FFM), "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11328",
+      "title": "Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11328v1 Announce Type: new Abstract: Advances in foundation models are driving efforts to introduce agents to assist people in the physical world. Such agents require agentic spatial intelligence: exploring unfamiliar environments, updating spatial understanding through interaction, and adapting actions based on feedback to sustain progress toward a sequence of goals. Existing benchmarks cover only a limited range of spatial layouts, scales, and traversal requirements. We introduce Mine Odyssey, a benchmark for evaluating agentic spatial intelligence using Minecraft reconstructions "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11333",
+      "title": "TokenBank: Financial Infrastructure for AI Services",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11333v1 Announce Type: new Abstract: AI services incur inference costs during execution, while revenue may arrive later. Changing API prices, limited upfront capital, and service failures can limit operators' ability to sustain or expand their services. Beyond reducing per-request costs, operators need to plan future spending, fund execution before revenue arrives, and obtain compensation for specified losses. This requires clear agreements across services with different pricing and execution conditions. These agreements must distinguish rights to consume services from rights to rec"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11334",
+      "title": "ReCast: Attribution-Oriented Step Representation Learning for LLM-Based Agent Systems",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11334v1 Announce Type: new Abstract: In LLM-based agent systems, failures can originate from early steps whose effects propagate through subsequent interactions, making their origins difficult to identify. To trace such failures back to their origin, failure attribution has been formulated as the task of identifying the earliest step responsible for the failure. Recent methods leverage LLM internal signals for failure attribution, typically using hidden states as step representations. We therefore conduct an empirical study to evaluate how effectively these representations distingui"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11344",
+      "title": "EvoSim: Learning to Model, Modeling to Learn",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11344v1 Announce Type: new Abstract: Physics-based models connect scientific explanation with quantitative prediction. Constructing them requires selecting physical processes, defining states and governing equations, specifying couplings, and identifying parameters from experiments. Existing AI systems remain limited in making these model structure decisions autonomously. We introduce EvoSim, a self-evolving AI scientist for physical modeling. It uses experimental discrepancies to drive mechanism and equation revisions and held-out experimental data to test physical plausibility. Ex"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11345",
+      "title": "SynCo: Data Synthesis Co-Training for Self-Evolving LLMs via Multi-Agent Reinforcement Learning",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11345v1 Announce Type: new Abstract: Self-evolving LLM agents promise to improve autonomously through continual interaction and learning, reducing their dependence on manually curated supervision. Realizing this promise requires not only updating the agent, but also evolving its training experience as its capabilities change. However, most existing pipelines rely on static datasets or separately updated synthesis models, causing previously useful tasks to become trivial while overly difficult tasks remain uninformative. This growing mismatch between agent capability and training exp"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11352",
+      "title": "RL-ARC: Calibrating Large Reasoning Models via Reasoning-guided Uncertainty",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11352v1 Announce Type: new Abstract: Language models (LMs) are commonly trained with Reinforcement Learning with Verifiable Rewards (RLVR) to enhance their reasoning capabilities. However, since RLVR does not explicitly account for calibration during training, it can lead to severe calibration degradation, including overconfidence. Recent calibration-aware training methods for LMs, which incorporate objectives for uncertainty estimation into training, improve calibration but still exhibit overconfidence under distribution shift, while sacrificing reasoning performance. To this end, "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11355",
+      "title": "Writing for the Reviewer: Defensive Writing in GPT Models",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11355v1 Announce Type: new Abstract: Researchers increasingly use ChatGPT to revise their papers, and recent GPT versions often narrow or even retract the authors' claims. We call such changes defensive writing when the given material does not support them, and we test two explanations: the model corrects the authors' overclaiming, or it writes for an anticipated reviewer. We ask GPT versions and models from other developers to rewrite paragraphs from papers written before ChatGPT, or to write from an evidence sheet that lists a paper's method and results. Defensive writing grows wi"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11358",
+      "title": "RaReCache: Bridging the Gap in Cross-Model KV Cache Reuse via Rank disagreement-based Selective Recomputation",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11358v1 Announce Type: new Abstract: Cross-model KV-cache reuse remains a key challenge in modern LLM serving. Coding agents and multi-model systems increasingly route a shared context across models: a user may switch models mid-session, or a cascade may escalate a difficult query. Because KV caches contain model-specific representations, each switch typically forces the receiving model to prefill the entire context from scratch. Recent work shows that closed-form linear maps can translate KV caches between models in the same family, but transfer accuracy degrades as the model-size "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11363",
+      "title": "UniData: Universal Multimodal Instruction Generation Pipeline",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11363v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) are increasingly being applied in a wider range of real-world scenarios. However, due to the substantial labor cost, creating high-quality multimodal instruction datasets for MLLMs remains a significant challenge. Although some methods propose to generate instruction data, they often face limitations in modality support and struggle with generating multi-round instructions. To address these problems, we introduce UniData, a universal instruction generation pipeline, to transform simple user requirements in"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11370",
+      "title": "RIT-RAG: Navigating Document Corpora with Retrieval-Induced Trees",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11370v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) grounds language models in external corpora. Agentic RAG enables iterative search, yet exposes the model to isolated chunks without document structure, making it difficult to distinguish relevant evidence from chunks that merely resemble the query. Structure-aware methods such as PageIndex navigate document structure but cannot scale to the structures of large corpora, which do not fit in the LLM context. Hence, they first commit to a single document using a document retriever and cannot recover from a wrong c"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11380",
+      "title": "Equal Path Cost, Unequal Output Effects: Understanding Perturbation Propagation in Diffusion Models",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11380v1 Announce Type: new Abstract: Diffusion models have achieved remarkable success in generative modeling, with their sampling procedures routinely modified to control generation and improve efficiency. These modifications introduce perturbations along the sampling trajectory, raising a central question: how do such perturbations affect generated output? To address this question, we develop a theoretical framework to investigate perturbation propagation, combining dynamical analysis of the sampling process with an information-theoretic characterization of output responses. Withi"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11384",
+      "title": "Environmental Feedback Modeling Matters: Rethinking Feedback Treatment in Agentic Hindsight Self-Distillation",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11384v1 Announce Type: new Abstract: Reinforcement learning is commonly used to train language agents in interactive environments, but cannot be directly applied when rewards are unavailable. Recent methods use environmental feedback as privileged context for hindsight self-distillation, but our analysis suggests that simply conditioning the teacher on feedback is insufficient, motivating us to rethink how environmental feedback is used in agentic self-distillation. Given that environmental feedback contains rich supervision for modeling how the environment responds to agent actions"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11392",
+      "title": "TypedBench: A Benchmark for Calibration, Framing Sensitivity, and Cost in System One Decision Models",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11392v1 Announce Type: new Abstract: System One models output calibrated probabilities over typed answers such as categorical choices, ordinal levels, or binary outcomes, via a non-generative interface. Software can act on these probabilities through thresholds, cost-weighted choices, and escalation rules. Consequently, if these probabilities are miscalibrated or wording-sensitive, the software ma take unintended actions leaving human operators with no textual rationale to inspect. Current evaluations largely report accuracy and calibration on public classification datasets without "
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11399",
+      "title": "Estimating great expectations under autoregressive language models with potentials",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11399v1 Announce Type: new Abstract: Many applications of language models hinge not on individual samples but on the expectation of a test functional under the model. Estimating such expectations reliably can be computationally expensive. In this paper, we show how to make estimation more efficient by exploiting the next-token conditional probabilities which are available as a by-product of sampling. We do so through potentials: real-valued functions on prefixes that decompose the test functional additively. We construct an estimator whose variance depends on the chosen potential, a"
+    },
+    {
+      "feed": "arxiv-cs-ai",
+      "kind": "science",
+      "url": "https://arxiv.org/abs/2610.11410",
+      "title": "Cognition-Oriented Emotion Tracing from Causes to Consequences in Real-World Social Scenes",
+      "published": "2026-10-10T04:00:00.000Z",
+      "summary": "arXiv:2610.11410v1 Announce Type: new Abstract: Affective computing has progressed from categorical emotion recognition to open-ended affective analysis with large multimodal models. Yet affective science describes emotion as an unfolding process shaped by appraisal, regulation, and social interpretation, which remains underexplored computationally. We propose TRACE, a cognition-oriented framework that formalizes an affective episode through three interrelated stages: Condition, Affect, and Effect, integrating observable cues with cognitive factors such as internal stance and regulation of emo"
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03159-z",
+      "title": "Breaking down nerve-cell scaffold relieves chronic pain in mice",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03216-7",
+      "title": "Briefing Chat: Top researchers are being misled by sham academic societies",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03158-0",
+      "title": "Chimp and gorilla brains resist weight loss with age — unlike human brains",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03217-6",
+      "title": "The life of Darwin and the science of clouds: Books in brief",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03210-z",
+      "title": "Watch this invisible tattoo appear under UV light",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02909-3",
+      "title": "An experiment to glimpse the future Amazon — in pictures",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11273-1",
+      "title": "Publisher Correction: Sleep chart of biological ageing clocks in middle and late life",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03116-w",
+      "title": "Five movements from the edge of the singularity",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11266-0",
+      "title": "Author Correction: Histone readers MLLT1 and MLLT3 concentrate AID to confer locus specificity",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11070-w",
+      "title": "Editorial Expression of Concern: Maternal gut bacteria promote neurodevelopmental abnormalities in mouse offspring",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03218-5",
+      "title": "Women are talking about menopause — health systems must listen",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02921-7",
+      "title": "US proposes $100,000 charge for international students to do post-graduate work",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03193-x",
+      "title": "How to build a mouse: embryo development captured in stunning detail",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03045-8",
+      "title": "Woody ‘blankets’ are being deployed on Arctic permafrost to reduce carbon emissions",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03128-6",
+      "title": "Will AI scoop your science? Some researchers see a gloomy future",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03215-8",
+      "title": "Plague scare: what scientists know — and what Russia won’t say",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03199-5",
+      "title": "Big dogs age faster than little ones — rogue ‘jumping genes’ might be to blame",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03154-4",
+      "title": "UAE completes Arab world's first solo space probe – and sets course for an asteroid",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02999-z",
+      "title": "A guide to Nature Index tables",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03208-7",
+      "title": "Nobel prizes 2026: ‘ghost’ particles, mirror molecules and light switches in the brain",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03197-7",
+      "title": "NASA releases trove of Moon data from historic Artemis II flight",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02836-3",
+      "title": "How we ditched presentations and embraced silence in our lab meetings",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02864-z",
+      "title": "Blend",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02968-6",
+      "title": "Semiconductors pushed into insulator territory",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03072-5",
+      "title": "Genome accessibility reveals disease risk that gene expression misses",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03060-9",
+      "title": "Nuclear clocks tick for the first time",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03059-2",
+      "title": "Retrofitted LLM can count the letter ‘i’s in ‘artificial intelligence’",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02985-5",
+      "title": "Why sound, strong science alone isn’t enough in pandemic preparedness",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03127-7",
+      "title": "‘When prevention disappears, infections rise’: can the world still end AIDS?",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03198-6",
+      "title": "The science of superintelligence and why AI is still a useful word",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02969-5",
+      "title": "Gut microbes that trace ancient human journeys",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03069-0",
+      "title": "An early predecessor to mammals could swim, suckle and swallow",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03212-x",
+      "title": "Daily briefing: Chemistry Nobel goes to mirror-molecule researchers",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03132-w",
+      "title": "Can your brain grow new neurons? How researchers are solving a century-old puzzle",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03184-y",
+      "title": "Australia’s bush fires got worse after British colonization — this is why",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02983-7",
+      "title": "Why we must advocate for proper care on the frontlines of the Ebola outbreak",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03189-7",
+      "title": "Revealed: how this common gut microbe protects against heart disease",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03196-8",
+      "title": "OpenAI posts 700 maths preprints online: mathematicians are up in arms",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-02934-2",
+      "title": "How to control where semiconductor crystals start growing",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/d41586-026-03093-0",
+      "title": "Chemistry Nobel awarded for solving mystery of how ‘handed’ organic molecules can emerge",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11105-2",
+      "title": "Observation of relativistic bond weakening in seaborgium hexacarbonyl",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11140-z",
+      "title": "RNA catalysis emerges from dynamic structural ensembles",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11084-4",
+      "title": "A thorium-229 optical nuclear clock with feedback loop",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11129-8",
+      "title": "Structural basis for regulating lipopolysaccharide transmembrane transport",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11122-1",
+      "title": "A nuclear clock synchronized to 229 Th",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-10858-0",
+      "title": "Hydrogen bonding in water under extreme confinement",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11127-w",
+      "title": "Alveolar stem cells transdifferentiate to drive bronchiolar regeneration",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11099-x",
+      "title": "Experimental observation of critical topology",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11106-1",
+      "title": "Prehistoric global migration of vanishing gut microbes with humans",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "nature",
+      "kind": "science",
+      "url": "https://www.nature.com/articles/s41586-026-11066-6",
+      "title": "A preinvasive regulatory T cell axis for lung cancer interception",
+      "published": "2026-10-07T00:00:00.000Z",
+      "summary": ""
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.755254v1?rss=1",
+      "title": "Encephalitic alphavirus infection reduces neurite outgrowth and downregulates Rho GTPase pathways in human iPSC-derived neurospheres",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": "Venezuelan equine encephalitis virus (VEEV) is a re-emerging neurotropic arbovirus, which affects the developing human brain, potentially leading to miscarriage, stillbirth, or long-term neurological sequelae. Currently, the mechanisms underlying these sequelae remain largely elusive. Using human induced pluripotent stem cell (iPSC)-derived neurospheres as a model for brain development, we show that both human neurons and glial cells are susceptible to VEEV infection. Microscopy-based quantification reveals that VEEV impairs neurite outgrowth in the human neurospheres. To mechanistically asses"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756728v1?rss=1",
+      "title": "Sex Differences in Human Subcortical Anatomy are Robust and Replicable in Adulthood, Already Evident Prepubertally, and Aligned with Sex Chromosomal and Gonadal Influences",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": "The existence and mechanistic bases of sex effects on human subcortical anatomy remain unclear. To address these gaps, we combined structural neuroimaging of sex differences in subcortical volume and shape across three independent cohorts (combined N=2,886) with neuroimaging maps of sex chromosomal and endocrine effects from three clinical cohorts (combined N=313, including sex chromosome aneuploidies and isolated gonadotropin-releasing hormone deficiency). We found that human subcortical anatomy shows focal sex differences of moderate-strong effect size during young adulthood (male-biased sur"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756590v1?rss=1",
+      "title": "Moving object generates topographic responses in the majority of entorhinal neurons",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": "Vision is crucial in generating a complex array of responses in rodents during spatial exploration and in humans during memory tasks. These tasks involve other variables too, e.g. multisensory cues in rodents and complex memories in humans. Further, there are major differences between the medial and lateral entorhinal cortical (MEC and LEC) functional cell types. To understand the contribution of purely visual information to entorhinal responses, we presented a simple, moving vertical bar of light to head-fixed mice, without any task or reward. Surprisingly, 66% (2391/3601) of the MEC broad sp"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756268v1?rss=1",
+      "title": "A network model of path control",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": "We present a network model that enables a navigating agent to shape the spatial and temporal structure of its paths through its environment. The model is inspired by the insect fan-shaped body. In it, a recurrent neural network receives an input that encodes an agent's velocity vector. Meanwhile, network activity determines the setpoint of a control loop that influences this velocity vector through motor outputs. The network thus guides future movement using memory of past movement. We illustrate how the network's dynamics determine the trajectory features it extracts to produce the setpoint. "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756323v1?rss=1",
+      "title": "Learning Interpretable Switching Dynamics in Shared Neural-Behavioral Latent Space",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": "Modern recording technologies enable simultaneous measurement of high-dimensional neural activity and rich behavioral variables, creating both an opportunity and a modeling challenge: identifying the shared latent structure that mediates the brain-behavior relationship and the underlying dynamics through which it evolves across behavioral states. Existing approaches focus on different parts of this challenge: shared representation learning methods identify neural-behavioral subspaces but typically do not model dynamical structure, while dynamical models capture temporal variation and discrete "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.754522v1?rss=1",
+      "title": "Pharmacokinetic properties of Ogerin and its regulation of post-ischemia signaling in mice",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": "Ogerin, a positive regulator of GPR68, reduces infarct volume and attenuates blood-brain barrier (BBB) leakage post transient middle cerebral artery occlusion (tMCAO). These data support the potential use of Ogerin for ischemic protection. For therapeutic interventions, tissue distribution, kinetics, and brain penetration are important characteristics for a compound. For these reasons, we performed liquid chromatography-mass spectrometry (LC-MS) analysis of Ogerin in mice. At 3 hours following intraperitoneal (IP) injection, liver exhibited highest level of Ogerin among all major organs assess"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757817v1?rss=1",
+      "title": "Microstructural heterogeneity of white-matter aging and its age-dependent coupling to cognition",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": "Brain white matter (WM) microstructure undergoes extensive changes with age, yet the regional and cellular heterogeneity of age-related WM alterations and their impact on cognition remain unclear. Leveraging Neurite Orientation Dispersion and Density Imaging (NODDI), an advanced microstructural modelling to capture specific WM cellular properties, we investigated age-dependent relationships between advanced microstructural markers and cognitive performance, indexed by six cognitive domains derived from principal component analysis. Using a suite of standard diffusion tensor imaging (DTI) and N"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756219v1?rss=1",
+      "title": "Lateral recurrence dynamically refines visual representations for task performance",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": "Recurrent connections are pervasive in visual cortex, and visual representations evolve as recurrent processing unfolds. Yet the mechanism underlying this temporal transformation remains poorly understood. To address this question, we trained recurrent convolutional networks on face and object recognition and tested them on a parametric stimulus set in which category, identity, and pose were systematically varied. This design isolates how lateral recurrence reshapes neural-population representational geometry and single-unit tuning across recurrent timesteps. Within the trained domain, recurre"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.756549v1?rss=1",
+      "title": "Neuronal sex identity shapes social buffering of defensive freezing behaviour in fruit flies",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": "Sex differences are pervasive across the animal kingdom1,2, shaped by reproductive strategies, ecological roles, and physiological demands. Neurobiological studies have largely focused on sex differences in reproduction and aggression3,4, leaving understudied how sex shapes other survival-relevant behaviours such as responses to predatory threats. Previous work in vertebrates uncovered sex differences in individual defence responses deployed by rats5 and in social modulation of freezing responses in zebrafish6. The origin of these differences and their potential underlying neuronal circuitry r"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.756975v1?rss=1",
+      "title": "Neuron types and distribution of a Drosophila driver line collection",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": "Cell type designations label uniquely-identifiable groups of related cells that typically function in similar ways. Cell types divide the Drosophila melanogaster central nervous system into functional units, but remain challenging to target and identify. Previously we generated a driver line and image resource for targeting many neuron types (Meissner et al., 2025). Here we improve on identifying the targeted neurons by automated searching against electron microscopy datasets and manual scoring of search results to add 6,368 annotations across 1,772 driver lines in the collection. These annota"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756315v1?rss=1",
+      "title": "Projection-defined ventral tegmental area neurons exhibit distinct molecular adaptations during acute fentanyl withdrawal",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": "Opioid use disorder (OUD) remains a major public health concern, with potent synthetic opioids driving overdose deaths. Understanding how synthetic opioids like fentanyl alter brain circuits to promote persistent use is critical for advancing OUD treatment. The ventral tegmental area (VTA), which projects to several other brain regions including prefrontal cortex (PFC), nucleus accumbens (NAc) and amygdala (Amy), contributes to both the euphoric and dysphoric phases of OUD. Projection target influences the baseline properties and opioid-induced neuroadaptations of VTA neurons, yet less is know"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.08.757476v1?rss=1",
+      "title": "An AI-Enabled Translational Drug Discovery Framework for NALCN Channelopathy: From High-Throughput Screening to Therapeutic Candidate",
+      "published": "2026-10-09T00:00:00.000Z",
+      "summary": "Background: More than 90% of rare diseases lack an approved therapy, partly reflecting economic barriers in developing treatments for small patient populations. A common bottleneck is costly and resource-intensive hit-to-lead prioritization. Congenital contractures of the limbs and face, hypotonia, and developmental delay (CLIFAHDD) is an ultra-rare neurodevelopmental disease often caused by de novo gain-of-function variants in the sodium leak channel NALCN, with no approved treatments. Methods: We developed a cost and resource-efficient, AI-enabled translational drug discovery framework integ"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756253v1?rss=1",
+      "title": "Information regimes in population-graph neuroimaging: cohort context and implementation-dependent evaluation sensitivity",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Population-graph models aggregate a query subject with an unlabeled cohort, so their reported performance can depend on the evaluation regime rather than on predictive information alone. Evaluation context has two separable axes: the visibility of the cohort during training, and the context available at inference. We study the training-time axis under a protocol fixed before analysis, on an ABIDE-I cohort of 871 subjects (20 acquisition sites). Two population-graph implementations are compared: a learned/adaptive graph (EV-GCN) and a static weighted graph (Parisot-GCN). Within each implementat"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756060v1?rss=1",
+      "title": "Path Integration Promotes Flexible Navigational Decision Making",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Flexible decision making depends on internal representations that capture the latent structure of a task, allowing prior knowledge to be applied in novel circumstances. Spatial navigation provides a useful model for studying flexible choice behavior, because spatial location is itself a latent variable that must be inferred rather than directly perceived. Here, we trained rats on a navigation task that required them to reach the same goal via two distinct paths from different starting locations, and then return to one of the two starting locations before beginning the next trial. Some rats wer"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756036v1?rss=1",
+      "title": "Social feedback structures stay/switch decision-making in Drosophila",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Within natural environments, different sensory stimuli can drive mutually-exclusive behaviors such as fighting, feeding, or courting. When experiencing competing cues, how do animals decide to continue executing the current behavior or to switch to a new behavior? To address this question, we developed a closed-loop behavioral paradigm that presents actively courting male Drosophila with a fictive heat stimulus, forcing the male to choose between two competing behaviors: continue courting (stay) or escape the heat (switch). By modeling the sensorimotor transformations underlying this decision "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756214v1?rss=1",
+      "title": "Dietary magnesium supplement enhances memory through Hippo signaling",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Dietary magnesium (Mg2+) supplement enhances memory in mammals and Drosophila, but whether and how Mg2+ changes molecular states of neurons, remains unknown. Here we used single-cell RNA sequencing to map cell-type specific transcriptional responses to memory-enhancing dietary Mg2+. These analyses revealed changes in Hippo-pathway gene expression in memory-relevant {beta} Kenyon Cells (KCs) of the mushroom bodies. Targeted knock-down of Merlin, hippo (hpo) and warts demonstrated requirement in {beta} KCs for Mg2+-enhanced, but not baseline memory. Further study of Hippo signaling identified Yo"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755119v1?rss=1",
+      "title": "Associations Between Neural Responses to Social Fairness and Financial Exploitation Vulnerability Vary With Age and Emotional Intelligence",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Financial exploitation often arises in social contexts in which individuals must evaluate fairness, trust, and interpersonal information during financial decisions. We examined whether neural responses to fairness in social versus nonsocial contexts relate to financial exploitation vulnerability and whether these relationships vary with age, emotional intelligence, and affect. A total of 310 adults spanning ages 21-89 completed an fMRI Ultimatum Game in which they accepted or rejected offers from human and computer partners, along with measures of financial exploitation vulnerability, emotiona"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755939v1?rss=1",
+      "title": "Motivational incentives improve working memory performance by enhancing memory-based representations rather than altering response strategies",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Motivational incentives are known to improve working memory (WM) when items differ in value, but whether they enhance performance when all items are equally valued, and if so, by what mechanism, remains unclear. Improvements could reflect enhanced memory-based representations or speed-accuracy trade-offs, whereby incentives promote slower, more cautious responding without improving memory itself. Here, we tested these alternatives across two experiments using an auditory WM task in which incentives varied across trials, but all items on a trial were equally incentivised. In Experiment 1,we all"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756083v1?rss=1",
+      "title": "Direction-sensitive neural correlates of voluntary pain regulation: regional response attenuation during down-regulation and exploratory prefrontal-valuation coupling",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Voluntary cognitive regulation can increase or decrease pain, but direction-sensitive neural correlates may emerge at different analytical levels. We reanalyzed 3,201 thermal-stimulation trials from 33 participants, integrating 0-200 warmth/pain ratings, regional fMRI activity, and trial-wise lagged coupling. Both instructions shifted ratings in the intended direction, with no reliable difference in mean success. Down-regulation was associated with lower bilateral S2/opercular and insular activity and higher left dlPFC/IFJ activity after FDR correction across 32 regions; run-matched comparison"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756068v1?rss=1",
+      "title": "Self-Exciting Population Event Models Reveal Abnormal Temporal Amplification in MAPT-Mutant Human Brain Assembloids",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Human brain assembloids provide a tractable platform for studying mutation-specific network dysfunction, but most studies do not distinguish whether abnormal activity arises from increased spontaneous initiation or stronger history-dependent amplification. We introduce a low-dimensional discrete-time self-exciting population model for calcium-imaging event sequences that separates baseline initiation (%[mu]), integrated history-dependent gain (%[eta]), and memory decay (%[tau]). Across 175 recordings from 13 MAPT p.R406W or CRISPR-corrected isogenic assembloids, biological-unit inference ident"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756317v1?rss=1",
+      "title": "Flexible 3D multimodal organoid interface reveals functional subnetworks and coordinated circuit activity in cortical organoids",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "The balance between excitatory and inhibitory (E/I) neurons is fundamental to cortical function, and its disruption underlies a wide range of neurological disorders, including epilepsy, Alzheimers disease and autism spectrum disorder. Cortical organoids offer a promising model to study this balance, as they recapitulate key features of brain development, including the emergence of E/I circuitry. However, no existing technology can simultaneously resolve neuronal identity, spatial organization, and dynamic network activity within intact organoids, limiting precise interrogation of E/I circuit f"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755960v1?rss=1",
+      "title": "Neural circuit mechanisms for multi-tasking",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Neural activity during performance of a cognitive or motor task is often described as lying on a low-dimensional manifold in the space of all possible activity patterns. When multiple tasks are performed, an individual brain region's activity may generate multiple such manifolds. Several models have been introduced to explain this capability, each with different assumptions concerning architecture and inputs. Here, we develop a theory of multi-tasking according to which models and experimental paradigms can be organized. We introduce a distinction between sequential and simultaneous multi-task"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755994v1?rss=1",
+      "title": "LLM-powered automatic scoring tools for memory recall",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Free recall of naturalistic stimuli, such as films and stories, reveals what people remember and how they organize it. Scoring such recall requires matching each recalled utterance to the encoded stimulus, and doing this manually often makes large studies impractical. Existing automated methods mostly return similarity or aggregate scores rather than explicit matches between recalled and stimulus content. Here we introduce an open-source, model-agnostic pipeline that uses a large language model (LLM) to divide the stimulus and the recall into information units and to match units between the tw"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755968v1?rss=1",
+      "title": "Huntingtin and Celsr3 Orchestrate Spontaneous Long-Distance Spinal Cord Regeneration",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Spontaneous spinal cord regeneration is an endogenous process operational in diverse vertebrate and select mammalian species. Yet despite resulting in functional regeneration, axonal regrowth dynamics as well as underlying molecular programs are largely unknown. Live-cell imaging following laser axotomy of individual zebrafish spinal cord M-cell axons reveals a time-sensitive multistep process. From a genetic screen we uncover previously unrecognized roles for two evolutionary conserved genes, celsr3 and huntingtin (htt) in spontaneous spinal cord regeneration. Specifically, we find that htt i"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755546v1?rss=1",
+      "title": "Impaired value estimation over space explains turn-induced freezing of gait in Parkinson's disease: A cortico-basal ganglia-inspired reinforcement learning model",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Parkinson's disease (PD) gait is characterized by reduced walking speed, short shuffling steps, increased double stance time, and increased step time variability. The most debilitating symptom in PD is freezing of gait (FOG), a context-dependent locomotion arrest, mostly occurring while encountering turns, obstacles, and narrow pathways. FOG is more pronounced during turning, a complex task that challenges motor planning and execution. Here, we simulate this phenomenon using a computational model inspired by the cortico-basal ganglia circuitry, based on reinforcement learning (RL) principles. "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756249v1?rss=1",
+      "title": "RADIAL AND TANGENTIAL FIBER COMPONENTS IN HUMAN SUPERFICIAL WHITE MATTER AND THEIR ASSOCIATIONS WITH MACROSCALE FUNCTION",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "The superficial white matter (SWM), a thin layer of white matter beneath the cortex, contains a complex arrangement of short- and long-range fiber systems that support communication between cortical regions. These fiber populations include subcortical U-shaped fibers (U-fibers) that predominantly follow a tangential trajectory along the gray matter-white matter interface and long-range fibers that extend more radially through the deeper white matter to connect distant cortical regions. Here, we developed a surface-based framework to dissociate radial and tangential fiber components within the "
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.753775v1?rss=1",
+      "title": "Auditory and visual mismatch negativity responses to numerical and non-numerical magnitudes in adults",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "We investigated how auditory and visual presentation of small numerical magnitudes and non- numerical magnitudes are passively processed at the neural level. Earlier research suggests automatic processing of quantities occurs rapidly in the brain. However, there are no studies on passive, pre-attentive change detection of magnitudes utilizing mismatch negativity (MMN) across sensory modalities in same participants, important to understand amodal processing of magnitudes. We recorded EEG in passive auditory and visual multi-feature oddball and control paradigms from the same adult individuals ("
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755501v1?rss=1",
+      "title": "Thalamocortical credit routing from the basal ganglia and cerebellum: anatomical constraints and circuit principles",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Animals learn to select actions that maximize reward in complex environments. A central challenge in this process is credit routing: behavioral outcomes must be routed back to the neural populations that contributed to generating the relevant actions. One possible route is through thalamocortical pathways conveying learning signals from the basal ganglia and cerebellum, where plasticity is shaped by reward-prediction errors. However, how these pathways route such signals back to specific cortical circuits remains unclear. To address this question, we combined anatomical circuit mapping in mice"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756327v1?rss=1",
+      "title": "APOE4 reduction in vascular-associated fibroblasts decreases cerebral amyloid angiopathy and associated vascular dysfunction",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Cerebral amyloid angiopathy (CAA), characterized by cerebrovascular amyloid deposition, is strongly associated with Alzheimers disease, ischemic injury, and lobar hemorrhages. APOE4 is the strongest known genetic risk factor for CAA, yet the cellular sources of APOE4 that drive pathogenic vascular amyloid deposition remain poorly defined. Here, we identify vascular-associated fibroblasts (VAFs) as a key source of APOE4 that mediates CAA and cerebrovascular dysfunction. In post-mortem brain tissue from APOE4/E4 patients with confirmed CAA, APOE colocalizes with COL6 VAFs around A{beta}-laden ve"
+    },
+    {
+      "feed": "biorxiv-neuro",
+      "kind": "science",
+      "url": "https://www.biorxiv.org/content/10.64898/2026.09.29.755483v1?rss=1",
+      "title": "Large-scale cerebrospinal fluid proteomics identifies diagnostic biomarker candidates across the clinico-pathological continuum of frontotemporal lobar degeneration",
+      "published": "2026-10-08T00:00:00.000Z",
+      "summary": "Frontotemporal lobar degeneration (FTLD), predominantly comprised of tau and TDP-43 proteinopathies, is a common cause of early-onset dementia. Biomarkers that reliably classify FTLD subtypes are limited, thereby hindering in-vivo diagnosis and clinical trial stratification. We conducted large-scale, multi-platform cerebrospinal fluid proteomics in 566 individuals, including 274 FTLD-spectrum (48 autopsy-confirmed FTLD-TDP, 90 autopsy-confirmed FTLD-tau), 171 Alzheimers disease, and 95 controls. In neuropathological subtype contrasts, elevated matrix metalloproteinase MMP10 classified Picks di"
+    },
+    {
+      "feed": "shvets-youtube",
+      "kind": "speaker",
+      "speaker": "Yuri Shvets",
+      "url": "https://www.youtube.com/watch?v=IC4ArMD41AU",
+      "title": "ВОЙНА В УКРАИНЕ ПЕРЕСТРАИВАЕТ МИР / ПУТИН ТЕРЯЕТ ЯДЕРНЫЙ БЛЕФ /№1218/ Юрий Швец",
+      "published": "2026-10-08T19:59:54.000Z",
+      "summary": "Загадочная смерть сотрудницы Иркутского противочумного института превращается в международный вопрос биобезопасности. США и ВОЗ требуют от Москвы назвать патоген. Российские власти утверждают, что чума не выявлена, но одновременно признают наличие инфекции, которую пока не готовы идентифицировать. Особое значение приобретает свидетельство бывшего высокопоставленного участника советской программы биологического оружия Кена Алибека. Бывший американский чиновник Маршалл Биллингсли, лично работавший с ним после его переезда в США, напоминает: Алибек рассказывал об антибиотикоустойчивых штаммах чум"
+    }
+  ]
+}
