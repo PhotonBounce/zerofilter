@@ -2,6 +2,148 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-12",
+      "hour": "12:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-12",
+      "title": "Kyiv Under Daytime Missile Attack, Rubio Vows to Dismantle the ICC & Bipartisan Blowback Over a Livestreamed Execution",
+      "subject": "A daytime missile attack on Kyiv, sweeping US sanctions on the International Criminal Court, backlash over Hegseth's livestream plan, and courting flies forced to choose",
+      "paragraphs": [
+        "This is ZeroFilter, at twelve hundred hours UTC on the tenth of October. The US has imposed sweeping sanctions on the International Criminal Court, with Secretary of State Marco Rubio vowing to dismantle the world's only permanent war crimes tribunal, NPR reports. There is bipartisan blowback on Defense Secretary Pete Hegseth's plans to livestream a military execution, alongside a scandal involving Kimberly Guilfoyle, the US ambassador to Greece. And in Ohio's ninth congressional district, a critical battleground for next month's midterms, NPR's Scott Simon has been hearing from voters about their priorities.",
+        "Ukraine and Russia. Loud explosions have been heard in Kyiv as the city comes under a daytime missile attack, the Kyiv Independent reports; the capital is under a red air raid alert, which signifies a missile threat, including ballistic strikes and mass combined drone and missile attacks. Ukraine's General Staff claims Russia has lost one million five hundred fifty thousand nine hundred ten troops since February twenty twenty-two. And a new compromise EU budget keeps support for Ukraine while trimming help for EU integration.",
+        "Frontier compute. Aerial navigation agents are trained on detailed commands, but people give short, intent-driven ones; on one frozen navigator that gap drops success from thirty-one percent to about eleven, and a new arXiv paper trains a translator between the two. Another shows that heuristic search can store exponentially many states even with a near-perfect heuristic, and instead learns search control, one specification per domain. A third, GameCommBench, gathers AI-generated commentary across board games, sports and esports. And Nature reports that a retrofitted language model can count the letter i in artificial intelligence.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds remain empty this hour. Nature's physics coverage carries over from earlier today: nuclear clocks have ticked for the first time, and its guide to this year's Nobel prizes headlines ghost particles and mirror molecules.",
+        "Consciousness desk. When an actively courting male fruit fly meets a fictive heat stimulus, it must choose: keep courting or escape. A bioRxiv study built a closed-loop paradigm around that choice and reports that social feedback structures the stay-or-switch decision. In another, rats trained to reach the same goal by two paths from different starts show, in the title's words, that path integration promotes flexible navigational decisions. And a third finds that ASC specks and alpha-synuclein amplify inflammasome activation in microglia and co-localise with Lewy body pathology; the study is set against Parkinson's disease, where neuroinflammation is a hallmark.",
+        "So, this hour's receipts. A vow to dismantle the war crimes court, blowback over a livestreamed execution, and voters in an Ohio battleground. Explosions in Kyiv under a red alert, and a budget that keeps Ukraine central. Navigators that need translation, search that learns its own control, and a model that counts its i's. Nuclear clocks, and a courting fly deciding whether to stay or go. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/10/nx-s1-5996606/u-s-imposes-sweeping-sanctions-on-international-criminal-court",
+          "title": "U.S. imposes sweeping sanctions on International Criminal Court",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/10/nx-s1-5995114/week-in-politics-hegseths-livestream-backlash-greece-ambassador-guilfoyle-scandal",
+          "title": "Week in Politics: Hegseth's livestream backlash; Greece ambassador Guilfoyle scandal",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/10/nx-s1-5965798/on-the-ground-in-ohios-9th-district-the-battleground-shaping-next-months-midterms",
+          "title": "On the ground in Ohio's 9th District: The battleground shaping next month's midterms",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/loud-explosions-heard-in-kyiv-as-city-comes-under-daytime-attack/",
+          "title": "Loud explosions heard in Kyiv as city comes under daytime missile attack",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-550-910-troops-in-ukraine-since-feb-24-2022/",
+          "title": "General Staff: Russia has lost 1,550,910 troops in Ukraine since Feb. 24, 2022",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/new-compromise-eu-budget-maintains-ukraine-support-but-trims-help-for-eu-integration/",
+          "title": "New compromise EU budget maintains Ukraine support, but trims help for EU integration",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10635",
+          "title": "Speaking the Navigator's Language: Trajectory-Grounded Instruction Translation for Frozen Aerial VLN Agents",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10954",
+          "title": "Learning How to Search for Plans with Exponentially Less Space",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11129",
+          "title": "GameCommBench: A Unified Benchmark and Type-Aware Evaluation for AI-Generated Game Commentary",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03059-2",
+          "title": "Retrofitted LLM can count the letter ‘i’s in ‘artificial intelligence’",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03060-9",
+          "title": "Nuclear clocks tick for the first time",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03208-7",
+          "title": "Nobel prizes 2026: ‘ghost’ particles, mirror molecules and light switches in the brain",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756036v1?rss=1",
+          "title": "Social feedback structures stay/switch decision-making in Drosophila",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756060v1?rss=1",
+          "title": "Path Integration Promotes Flexible Navigational Decision Making",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756339v1?rss=1",
+          "title": "ASC specks and α-synuclein amplify microglial NLRP3 inflammasome activation and co-localize with Lewy body pathology",
+          "published": "2026-10-10"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-12/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-12/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-12/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-12/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-10-12/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-10-12/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-10-12.mp3",
+      "thumb": "thumbs/2026-10-10-12.webp",
+      "cover_video": "thumbs/2026-10-10-12.mp4"
+    },
+    {
       "id": "2026-10-10-11",
       "hour": "11:00",
       "date": "2026-10-10",
@@ -113,7 +255,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-11/f01.webp"
           },
           {
@@ -143,7 +285,7 @@
       "thumb": "thumbs/2026-10-10-11.webp",
       "cover_video": "thumbs/2026-10-10-11.mp4",
       "cues": [
-        0.0,
+        0,
         33.98,
         67.63,
         100.42,
