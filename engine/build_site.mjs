@@ -17,10 +17,10 @@ const WEB = join(ROOT, "web");
 const DIST = join(ROOT, "dist");
 
 const SHELL = [
-  "index.html", "style.css", ".htaccess",
+  "index.html", "style.css", ".htaccess", "vector-showcase.html",
   "css/studio.css",
-  "js/app.js", "js/episodes.js", "js/categories.js", "js/access.js", "js/ambient.js", "js/telemetry-canvas.js",
-  "assets/rex_vance.webp", "assets/studio_bunker.webp", "assets/test_rex.mp3",
+  "js/app.js", "js/episodes.js", "js/categories.js", "js/access.js", "js/ambient.js", "js/telemetry-canvas.js", "js/vector-stage.js",
+  "assets/rex_vance.webp", "assets/ava_vance.webp", "assets/studio_bunker.webp", "assets/test_rex.mp3",
 ];
 
 const FEEDS = JSON.parse(readFileSync(join(ROOT, "data/feeds.json"), "utf8")).feeds;

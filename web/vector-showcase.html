@@ -354,6 +354,15 @@
       });
     });
 
+    function selectTabByIndex(idx) {
+      const targetIdx = (idx + tabs.length) % tabs.length;
+      tabs[targetIdx]?.click();
+    }
+
+    function getCurrentTabIndex() {
+      return Array.from(tabs).findIndex(t => t.classList.contains("active"));
+    }
+
     btnPlay.addEventListener("click", () => {
       if (audio.paused) {
         audio.play().then(() => {
@@ -373,12 +382,32 @@
     });
 
     audio.addEventListener("ended", () => {
-      isPlaying = false;
-      btnPlay.textContent = "▶";
       if (typeof window.gtag === "function") {
         window.gtag("event", "vector_showcase_audio_complete", {
           audio_title: audioTitle.textContent
         });
+      }
+      // Advance to next event tab
+      const current = getCurrentTabIndex();
+      if (current >= 0 && current + 1 < tabs.length) {
+        selectTabByIndex(current + 1);
+      } else {
+        isPlaying = false;
+        btnPlay.textContent = "▶";
+      }
+    });
+
+    window.addEventListener("keydown", (e) => {
+      if (e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA") return;
+      if (e.code === "Space") {
+        e.preventDefault();
+        btnPlay.click();
+      } else if (e.code === "ArrowRight" || e.key === "n" || e.key === "N" || e.code === "MediaTrackNext") {
+        e.preventDefault();
+        selectTabByIndex(getCurrentTabIndex() + 1);
+      } else if (e.code === "ArrowLeft" || e.key === "p" || e.key === "P" || e.code === "MediaTrackPrevious") {
+        e.preventDefault();
+        selectTabByIndex(getCurrentTabIndex() - 1);
       }
     });
   </script>

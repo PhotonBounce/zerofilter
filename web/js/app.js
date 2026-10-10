@@ -36,6 +36,8 @@ let sleepTimerMode = "0";
 
 const audio = $("main-audio");
 const btnPlay = $("btn-play");
+const btnPrev = $("btn-prev");
+const btnNext = $("btn-next");
 const playIcon = $("play-icon");
 const seekBar = $("seek-bar");
 const seekProgress = $("seek-progress");
@@ -281,7 +283,16 @@ function switchCamera(cam) {
   }
 }
 
+function getCurrentPlaylist() {
+  if (activeFilter && activeFilter !== "all") {
+    const filtered = episodes.filter(e => e.category === activeFilter);
+    if (filtered.length > 0) return filtered;
+  }
+  return episodes;
+}
+
 function loadEpisode(ep, autoPlay = true) {
+  if (!ep) return;
   currentEpisode = ep;
   currentStarts = cueStarts(ep);
   currentPara = -1;
@@ -323,8 +334,13 @@ function loadEpisode(ep, autoPlay = true) {
     }
   }
 
-  // Update audio
-  audio.src = ep.audio;
+  // Update audio cleanly
+  const currentAudioSrc = audio.getAttribute("src") || "";
+  if (currentAudioSrc !== ep.audio && !currentAudioSrc.endsWith(ep.audio)) {
+    audio.pause();
+    audio.src = ep.audio;
+    audio.load();
+  }
   audio.currentTime = 0;
   seekBar.max = ep.seconds || 180;
   seekBar.value = 0;
@@ -332,6 +348,11 @@ function loadEpisode(ep, autoPlay = true) {
   currentTimeEl.textContent = "0:00";
 
   cueText.textContent = `"${ep.paragraphs[0] || 'Broadcasting now...'}"`;
+
+  // Highlight active episode in grid
+  $$(".episode-card").forEach(card => {
+    card.classList.toggle("is-active", card.getAttribute("data-id") === ep.id);
+  });
 
   // Reset to active camera
   switchCamera(activeCam);
@@ -372,19 +393,62 @@ function updateMediaSession(ep) {
 }
 
 function playNextEpisode() {
-  if (!currentEpisode || episodes.length <= 1) return;
-  const idx = episodes.findIndex(e => e.id === currentEpisode.id);
-  if (idx >= 0 && idx + 1 < episodes.length) {
-    loadEpisode(episodes[idx + 1], true);
+  const list = getCurrentPlaylist();
+  if (!currentEpisode || list.length === 0) return;
+  
+  let idx = list.findIndex(e => e.id === currentEpisode.id);
+  if (idx === -1) {
+    idx = episodes.findIndex(e => e.id === currentEpisode.id);
+    if (idx >= 0 && idx + 1 < episodes.length) {
+      loadEpisode(episodes[idx + 1], true);
+      return;
+    }
   }
+  
+  const nextIdx = idx >= 0 ? (idx + 1) % list.length : 0;
+  const nextEp = list[nextIdx];
+
+  // Prevent loading the exact same episode when more than one exists
+  if (nextEp.id === currentEpisode.id && list.length > 1) {
+    const altIdx = (nextIdx + 1) % list.length;
+    loadEpisode(list[altIdx], true);
+    return;
+  }
+
+  // Synchronize activeQueue so it doesn't replay stale episodes
+  if (activeQueue.length > 0) {
+    const qIdx = activeQueue.findIndex(e => e.id === nextEp.id);
+    if (qIdx >= 0) {
+      activeQueue.splice(0, qIdx + 1);
+    }
+  }
+
+  loadEpisode(nextEp, true);
 }
 
 function playPreviousEpisode() {
-  if (!currentEpisode || episodes.length <= 1) return;
-  const idx = episodes.findIndex(e => e.id === currentEpisode.id);
-  if (idx > 0) {
-    loadEpisode(episodes[idx - 1], true);
+  const list = getCurrentPlaylist();
+  if (!currentEpisode || list.length === 0) return;
+  
+  let idx = list.findIndex(e => e.id === currentEpisode.id);
+  if (idx === -1) {
+    idx = episodes.findIndex(e => e.id === currentEpisode.id);
+    if (idx > 0) {
+      loadEpisode(episodes[idx - 1], true);
+      return;
+    }
   }
+  
+  const prevIdx = idx > 0 ? idx - 1 : list.length - 1;
+  const prevEp = list[prevIdx];
+
+  if (prevEp.id === currentEpisode.id && list.length > 1) {
+    const altIdx = (prevIdx - 1 + list.length) % list.length;
+    loadEpisode(list[altIdx], true);
+    return;
+  }
+
+  loadEpisode(prevEp, true);
 }
 
 // Every published episode carries its sources (engine/editorial.mjs).
@@ -658,7 +722,8 @@ function renderFeed() {
 
   filtered.forEach(ep => {
     const card = document.createElement("article");
-    card.className = "episode-card";
+    const isCurrent = currentEpisode && currentEpisode.id === ep.id;
+    card.className = `episode-card${isCurrent ? ' is-active' : ''}`;
     card.setAttribute("data-id", ep.id);
 
     card.innerHTML = `
@@ -703,6 +768,11 @@ function renderFeed() {
 
     card.addEventListener("click", () => {
       cyberAudio.playClick();
+      const list = getCurrentPlaylist();
+      const clickedIdx = list.findIndex(e => e.id === ep.id);
+      if (clickedIdx >= 0) {
+        activeQueue = [...list.slice(clickedIdx + 1)];
+      }
       loadEpisode(ep, true);
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
@@ -713,6 +783,14 @@ function renderFeed() {
 
 function setupEventListeners() {
   btnPlay.addEventListener("click", togglePlay);
+  btnPrev?.addEventListener("click", () => {
+    cyberAudio.playClick();
+    playPreviousEpisode();
+  });
+  btnNext?.addEventListener("click", () => {
+    cyberAudio.playClick();
+    playNextEpisode();
+  });
 
   audio.addEventListener("timeupdate", syncPlayback);
   // Lock-screen controls, headsets and other tabs can pause/play the element
@@ -753,9 +831,18 @@ function setupEventListeners() {
     }
 
     if (activeQueue.length > 0) {
-      const nextEp = activeQueue.shift();
-      loadEpisode(nextEp, true);
-    } else if (autoplayEnabled && episodes.length > 1) {
+      let nextEp = activeQueue.shift();
+      // Ensure we don't accidentally repeat the same episode
+      while (nextEp && currentEpisode && nextEp.id === currentEpisode.id && activeQueue.length > 0) {
+        nextEp = activeQueue.shift();
+      }
+      if (nextEp && (!currentEpisode || nextEp.id !== currentEpisode.id)) {
+        loadEpisode(nextEp, true);
+        return;
+      }
+    }
+    
+    if (autoplayEnabled && episodes.length > 1) {
       playNextEpisode();
     } else {
       pauseAudio();
@@ -777,9 +864,14 @@ function setupEventListeners() {
   // Podcasting Toolbar Listeners
   $("btn-play-all")?.addEventListener("click", () => {
     cyberAudio.playClick();
-    if (episodes.length === 0) return;
-    activeQueue = [...episodes.slice(1)];
-    loadEpisode(episodes[0], true);
+    const list = getCurrentPlaylist();
+    if (list.length === 0) return;
+    let startIdx = 0;
+    if (currentEpisode && currentEpisode.id === list[0].id && list.length > 1) {
+      startIdx = 1;
+    }
+    activeQueue = [...list.slice(startIdx + 1)];
+    loadEpisode(list[startIdx], true);
   });
 
   $("btn-play-unheard")?.addEventListener("click", () => {
@@ -890,11 +982,36 @@ function setupEventListeners() {
     } else if (e.code === "Escape") {
       closeDossier();
     } else if (e.code === "ArrowRight") {
-      audio.currentTime = Math.min(audio.duration || 180, audio.currentTime + 5);
+      if (e.shiftKey || e.ctrlKey || e.altKey) {
+        e.preventDefault();
+        playNextEpisode();
+      } else {
+        const remaining = (audio.duration || 180) - audio.currentTime;
+        if (remaining <= 5) {
+          playNextEpisode();
+        } else {
+          audio.currentTime = Math.min(audio.duration || 180, audio.currentTime + 5);
+        }
+      }
     } else if (e.code === "ArrowLeft") {
-      audio.currentTime = Math.max(0, audio.currentTime - 5);
+      if (e.shiftKey || e.ctrlKey || e.altKey) {
+        e.preventDefault();
+        playPreviousEpisode();
+      } else {
+        if (audio.currentTime <= 3) {
+          playPreviousEpisode();
+        } else {
+          audio.currentTime = Math.max(0, audio.currentTime - 5);
+        }
+      }
+    } else if (e.key === "n" || e.key === "N" || e.code === "MediaTrackNext") {
+      e.preventDefault();
+      playNextEpisode();
+    } else if (e.key === "p" || e.key === "P" || e.code === "MediaTrackPrevious") {
+      e.preventDefault();
+      playPreviousEpisode();
     } else if (e.key === "c" || e.key === "C") {
-      const cams = ["loop", "host", "bunker", "story"];
+      const cams = ["vector", "story", "loop", "host", "bunker"];
       const nextCam = cams[(cams.indexOf(activeCam) + 1) % cams.length];
       switchCamera(nextCam);
     } else if (e.key === "m" || e.key === "M") {

@@ -144,8 +144,14 @@
         <div class="control-bar" id="control-bar">
           <audio id="main-audio" preload="metadata"></audio>
           <canvas id="audio-spectrum" class="bar-spectrum" height="36" width="600" aria-hidden="true"></canvas>
+          <button type="button" class="btn-ctrl btn-prev" id="btn-prev" aria-label="Previous Episode" title="Previous Episode (← or Shift+Left)">
+            <span class="ctrl-icon" id="prev-icon">⏮</span>
+          </button>
           <button type="button" class="btn-play" id="btn-play" aria-label="Play or Pause">
             <span class="play-icon" id="play-icon">▶</span>
+          </button>
+          <button type="button" class="btn-ctrl btn-next" id="btn-next" aria-label="Next Episode" title="Next Episode (→ or Shift+Right)">
+            <span class="ctrl-icon" id="next-icon">⏭</span>
           </button>
           <span class="time-readout"><span id="current-time">0:00</span><span class="separator">/</span><span id="total-time">0:00</span></span>
           <div class="seek-container">
