@@ -2,6 +2,138 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-03",
+      "hour": "03:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-03",
+      "title": "Hurricane Isaias Makes Landfall in Florida, a $6.3 Billion Interceptor Contract & Mapping Cell Fates With Finsler Geometry",
+      "subject": "A life-threatening hurricane, a missile-defence deal, peace talks in Miami, and AI that infers how cells change from a single snapshot",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-three hundred hours UTC on the tenth of October. Life-threatening Hurricane Isaias has made landfall in Florida, the BBC reports; the storm took direct aim at the state and is expected to impact Alabama, Georgia and Louisiana. The US Department of War and the Missile Defense Agency have awarded Raytheon, an RTX business, a multiyear contract worth up to six point three billion dollars to produce Standard Missile-3 Block IB interceptors. And Nature reports that NASA has released a trove of Moon data from the historic Artemis II flight, and that woody blankets are being deployed on Arctic permafrost to reduce carbon emissions.",
+        "Ukraine and Russia. US, Ukrainian and European officials have discussed ending Russia's war at a meeting in Miami, the Kyiv Independent reports; it coincided with President Trump's announcement that Russia would supply millions of tons of diesel to the United States and global markets after a call with Vladimir Putin. President Zelensky has sharply criticised that deal, calling it an investment in war that must be ended, not prolonged, the BBC reports.",
+        "Frontier compute. Single-cell snapshots can capture a continuum of cell states, but not the dynamics that move cells between them. A new arXiv paper introduces Finsler flow matching, which uses the directional information in a cell-to-cell transition kernel to infer those trajectories, rather than assuming a symmetric geometry. Another paper presents an explainable framework that reads only the column headers of large tables, mapping them to thirty-nine interpretable types, to annotate data and assess its quality before it enters a knowledge graph, when cell values are missing, noisy or unsuitable.",
+        "Quantum desk. Nature explains how to control where semiconductor crystals start growing. And on arXiv, a team working toward distributed quantum computing has entangled a trapped barium ion with a silicon-vacancy centre in a diamond nanophotonic cavity. A photon from the ion is converted in wavelength and encoding, reflected from the diamond cavity and detected, so a single detected photon heralds the entanglement, aiming at kilohertz rates between separate processor modules.",
+        "Consciousness desk. How does the visual cortex refine what it sees over time? A bioRxiv team trained recurrent networks on face and object recognition, varying category, identity and pose, and reports that lateral recurrence dynamically refines visual representations for the task at hand. And in head-fixed mice shown nothing but a simple moving bar of light, with no task or reward, a majority of a class of medial entorhinal neurons responded topographically.",
+        "So, this hour's receipts. A hurricane ashore in Florida, interceptors for missile defence, Moon data from Artemis II, and blankets for permafrost. Peace talks in Miami and Kyiv's verdict on the diesel deal. Cell fates from a single snapshot, quantum links at speed, and recurrent networks that refine what they see. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+          "title": "Life-threatening Hurricane Isaias makes landfall in Florida",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622796/department-of-war-awards-63-billion-multi-year-contract-to-rtxs-raytheon-for-sm/",
+          "title": "Department of War Awards $6.3 Billion Multi-Year Contract to RTX's Raytheon for SM-3 BLOCK IB Interceptors",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/d41586-026-03197-7",
+          "title": "NASA releases trove of Moon data from historic Artemis II flight",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/d41586-026-03045-8",
+          "title": "Woody ‘blankets’ are being deployed on Arctic permafrost to reduce carbon emissions",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/us-ukrainian-european-officials-discuss-ending-russias-war-at-miami-meeting/",
+          "title": "US, Ukrainian, European officials discuss ending Russia's war at Miami meeting",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+          "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11318",
+          "title": "Finsler Flow Matching: Dynamics-Aware Geodesic Interpolation for Single-Snapshot Trajectory Inference",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10541",
+          "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02934-2",
+          "title": "How to control where semiconductor crystals start growing",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10705",
+          "title": "Quantum Networking at the Speed of Quantum Computation: Kilohertz Entanglement in a Heterogeneous Quantum System",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756219v1?rss=1",
+          "title": "Lateral recurrence dynamically refines visual representations for task performance",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756590v1?rss=1",
+          "title": "Moving object generates topographic responses in the majority of entorhinal neurons",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-03/f01.webp"
+          },
+          {
+            "t": 37.01,
+            "src": "art/2026-10-10-03/f02.webp"
+          },
+          {
+            "t": 61.92,
+            "src": "art/2026-10-10-03/f03.webp"
+          },
+          {
+            "t": 95.42,
+            "src": "art/2026-10-10-03/f04.webp"
+          },
+          {
+            "t": 122.3,
+            "src": "art/2026-10-10-03/f05.webp"
+          },
+          {
+            "t": 148.42,
+            "src": "art/2026-10-10-03/f06.webp"
+          }
+        ]
+      },
+      "seconds": 172,
+      "audio": "audio/2026-10-10-03.mp3",
+      "thumb": "thumbs/2026-10-10-03.webp",
+      "cover_video": "thumbs/2026-10-10-03.mp4",
+      "cues": [
+        0.0,
+        37.01,
+        61.92,
+        95.42,
+        122.3,
+        148.42
+      ]
+    },
+    {
       "id": "2026-10-10-02",
       "hour": "02:00",
       "date": "2026-10-10",
@@ -107,7 +239,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-02/f01.webp"
           },
           {
@@ -137,7 +269,7 @@
       "thumb": "thumbs/2026-10-10-02.webp",
       "cover_video": "thumbs/2026-10-10-02.mp4",
       "cues": [
-        0.0,
+        0,
         31.2,
         60.34,
         95.45,
