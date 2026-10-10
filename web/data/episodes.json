@@ -2,6 +2,136 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-06",
+      "hour": "06:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-06",
+      "title": "Trump Calls the Peace Prize a 'Stain on the Country', the Nord Stream Trial Points to Ukraine & Why Public Executions Are Returning",
+      "subject": "Trump's attack on Norway over the Nobel, a Nord Stream sabotage trial in Hamburg, the Flydubai attacker's path, and the debate over a livestreamed execution",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-six hundred hours UTC on the tenth of October. President Trump has criticised Norway over the Nobel Peace Prize, calling it a stain on the country; he told a rally he had never heard of the winner, former International Criminal Court judge Navi Pillay, the BBC reports. Public executions in the US stopped nearly a century ago; the Pentagon says the execution of Fort Hood shooter Nidal Hasan will be livestreamed, but experts suggest officials are reading the country wrong. The BBC also breaks down new body-camera footage from the aftermath of the New York City ICE shooting. And the UAE alleges the Flydubai attacker, a co-pilot, drifted towards extremism in Australia and was trying to crash the plane into Tel Aviv's airport.",
+        "Ukraine and Russia. After four years, a Ukrainian man is set to stand trial in Hamburg, accused of sabotaging the Nord Stream pipelines, and the BBC traces how German police followed the evidence to Ukraine. Russian guided bombs have hit an apartment building in Zaporizhzhia, killing four and injuring four, the Kyiv Independent reports, a day after guided bombs struck residential areas of the city.",
+        "Frontier compute. Agents improve by searching longer, getting more support, or changing how they propose and check answers, and a performance score alone cannot tell those apart; a new arXiv paper sets out a framework for comparing them. Another lets a tool-using agent choose which earlier tool results to forget, replacing each with a short note while keeping the exact original in a recoverable archive; a Python harness provides batch archiving and explicit recovery, without any task-specific model training.",
+        "Quantum desk. The quantum arXiv feed returned no papers this hour, so Nature carries the physics. Its guide to this year's Nobel prizes headlines ghost particles and mirror molecules. Nature also reports that nuclear clocks have ticked for the first time, that semiconductors have been pushed into insulator territory, and the experimental observation of critical topology.",
+        "Consciousness desk. The same Nobel guide points to light switches in the brain. On bioRxiv, three hundred and ten adults aged twenty-one to eighty-nine played an Ultimatum Game in a brain scanner, accepting or rejecting offers from human and computer partners. The authors report that the links between neural responses to fairness and vulnerability to financial exploitation vary with age and emotional intelligence.",
+        "So, this hour's receipts. A president's fury at a Peace Prize, the debate over a livestreamed execution, and an attacker's path to extremism. A Nord Stream trial in Hamburg and deadly bombs in Zaporizhzhia. Agents that know how they improve, agents that forget on purpose, nuclear clocks ticking, and how age shapes the brain's response to fairness. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/ckgj921e14jdo?at_medium=RSS&at_campaign=rss",
+          "title": "'Stain on the country': Trump criticises Norway over Nobel Peace Prize",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c6kgq7rqdql7o?at_medium=RSS&at_campaign=rss",
+          "title": "Public executions in the US stopped nearly a century ago - why are they resuming now?",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_medium=RSS&at_campaign=rss",
+          "title": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cm36905w7zl4o?at_medium=RSS&at_campaign=rss",
+          "title": "BBC breaks down video of the aftermath of New York City ICE shooting",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c317ke5ngrq7o?at_medium=RSS&at_campaign=rss",
+          "title": "Nord Stream trial: How German police followed the evidence - to Ukraine",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-guided-bombs-hit-zaporizhzhia-apartment-building-killing-4-injuring-4/",
+          "title": "Russian guided bombs hit Zaporizhzhia apartment building, killing 4, injuring 4",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10611",
+          "title": "Verification and Self-Improvement in Agentic AI: Foundations and Limits",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10590",
+          "title": "Agent-Controlled Forgetting for Tool-Using Agents: Reversible Context Curation in Practice",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03208-7",
+          "title": "Nobel prizes 2026: ‘ghost’ particles, mirror molecules and light switches in the brain",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03060-9",
+          "title": "Nuclear clocks tick for the first time",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02968-6",
+          "title": "Semiconductors pushed into insulator territory",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11099-x",
+          "title": "Experimental observation of critical topology",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755119v1?rss=1",
+          "title": "Associations Between Neural Responses to Social Fairness and Financial Exploitation Vulnerability Vary With Age and Emotional Intelligence",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-06/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-06/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-06/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-06/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-10-06/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-10-06/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-10-06.mp3",
+      "thumb": "thumbs/2026-10-10-06.webp",
+      "cover_video": "thumbs/2026-10-10-06.mp4"
+    },
+    {
       "id": "2026-10-10-05",
       "hour": "05:00",
       "date": "2026-10-10",
@@ -107,7 +237,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-05/f01.webp"
           },
           {
@@ -137,7 +267,7 @@
       "thumb": "thumbs/2026-10-10-05.webp",
       "cover_video": "thumbs/2026-10-10-05.mp4",
       "cues": [
-        0.0,
+        0,
         34.39,
         65.54,
         98.81,
