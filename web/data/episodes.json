@@ -2,6 +2,148 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-01",
+      "hour": "01:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-01",
+      "title": "An Ebola Patient Crossed Three Nations Undetected, Delhi Braces for a 'Cockroach' Protest & When Upcycled AI Experts Collapse",
+      "subject": "Questions over an Ebola case, a locked-down Delhi, France's divided classrooms, Zelensky on the diesel deal, and the hidden pathology of AI upcycling",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-one hundred hours UTC on the tenth of October. Questions remain over an Ebola patient who travelled across three nations undetected, the BBC reports; fresh details reveal how the forty-year-old businessman flew and crossed regional borders while seriously ill. In India, thousands of security personnel have been deployed as Delhi braces for what is being called a cockroach protest; several trains to the city have been cancelled and dozens of metro stations shut to stop protesters gathering. And in France, students taking to the streets have become a focal point in the country's increasingly polarised politics.",
+        "Ukraine and Russia. President Trump wrote on Truth Social that Russia will immediately supply over three hundred thousand tons of diesel to the American and global marketplace, another five hundred thousand tons in November, and one million tons after that, the Kyiv Independent reports. President Zelensky has sharply criticised President Trump's deal for Russian diesel, calling it an investment in war that must be ended, not prolonged, the BBC reports. In an analysis, the BBC's North America correspondent writes that the shock deal highlights mounting pressure to curb fuel prices, as the president hopes to ease his party's pain before next month's midterm elections.",
+        "Frontier compute. Mixture-of-experts models are often built by upcycling a pre-trained dense model rather than training from scratch. A new arXiv paper, DivMoE, identifies a structural pathology: when fine-grained experts all come from a single source model, routing collapses and downstream accuracy can drop to near random, so the authors compose experts across domains instead. Another paper builds a theory of how perturbations to a diffusion model's sampling path propagate into its output. And a third shows how to estimate expectations under language models more efficiently, using the next-token probabilities that sampling already produces.",
+        "Quantum desk. Nature reports the experimental observation of critical topology. On arXiv, one team studies how to simulate wavefunction flow, a formal link between generative flow models and quantum dynamics, with efficient quantum circuits. And another analyses Bhabha scattering, an electron colliding with a positron that is itself entangled with a spectator electron, to track how measurement uncertainty and entanglement are shared between the three particles.",
+        "Consciousness desk. Nature has published an editorial expression of concern about a paper titled Maternal gut bacteria promote neurodevelopmental abnormalities in mouse offspring. Nature also reports that chimpanzee and gorilla brains resist weight loss with age, unlike human brains. And it asks whether the adult brain can grow new neurons, and how researchers are solving that century-old puzzle.",
+        "So, this hour's receipts. An Ebola case that slipped across borders, a capital braced for protest, and a divided France. Zelensky's verdict on the diesel deal and the midterm politics behind it. Collapsing AI experts, perturbed diffusion models, critical topology, and an expression of concern over a gut-brain study. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cqp8gknl1njjo?at_medium=RSS&at_campaign=rss",
+          "title": "Questions remain over Ebola patient who travelled across three nations undetected",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cm2d6xd2g4w2o?at_medium=RSS&at_campaign=rss",
+          "title": "Thousands of security personnel deployed as Delhi braces for ‘cockroach’ protest",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/crq5nlqnn184o?at_medium=RSS&at_campaign=rss",
+          "title": "'Everyone hates the police' – what France's school protests reveal about a divided nation",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
+          "title": "Trump allows Russia to supply millions of tons of diesel to US, global markets",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+          "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+          "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11317",
+          "title": "DivMoE: Fine-Grained MoE Upcycling via Cross-Domain Expert Composition",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11380",
+          "title": "Equal Path Cost, Unequal Output Effects: Understanding Perturbation Propagation in Diffusion Models",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11399",
+          "title": "Estimating great expectations under autoregressive language models with potentials",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11099-x",
+          "title": "Experimental observation of critical topology",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11537",
+          "title": "An Efficient Quantum Circuit for Flow Model Execution Using Quantum Neural Networks",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11629",
+          "title": "Spin-outcome correlations and memory-assisted entropic uncertainty in Bhabha scattering with an entangled spectator",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/s41586-026-11070-w",
+          "title": "Editorial Expression of Concern: Maternal gut bacteria promote neurodevelopmental abnormalities in mouse offspring",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03158-0",
+          "title": "Chimp and gorilla brains resist weight loss with age — unlike human brains",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03132-w",
+          "title": "Can your brain grow new neurons? How researchers are solving a century-old puzzle",
+          "published": "2026-10-07"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-01/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-01/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-01/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-01/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-10-01/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-10-01/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-10-01.mp3",
+      "thumb": "thumbs/2026-10-10-01.webp",
+      "cover_video": "thumbs/2026-10-10-01.mp4"
+    },
+    {
       "id": "2026-10-10-00",
       "hour": "00:00",
       "date": "2026-10-10",
@@ -96,7 +238,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-00/f01.webp"
           },
           {
@@ -126,7 +268,7 @@
       "thumb": "thumbs/2026-10-10-00.webp",
       "cover_video": "thumbs/2026-10-10-00.mp4",
       "cues": [
-        0.0,
+        0,
         27.79,
         60.48,
         93.31,
