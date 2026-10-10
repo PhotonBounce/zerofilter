@@ -1,6 +1,109 @@
 {
-  "updated": "2026-10-09T030000Z",
+  "updated": "2026-10-10T160000Z",
   "episodes": [
+    {
+      "id": "2026-10-10-16",
+      "hour": "16:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-16",
+      "title": "Trump's Putin Pivot, Russian Diesel Concessions & Yuri Shvets on Kremlin Strategy",
+      "subject": "Hourly sourced brief: Kyiv Independent details how Ukraine was blindsided by Trump's unmonitored Putin calls and territorial pressure, BBC and NPR verify bilateral Russian diesel export deal easing sanctions, Yuri Shvets intelligence debrief exposes Kremlin nuclear coercion tactics, scalable multi-agent enterprise simulations on arXiv, and bioRxiv reveals EEG aperiodic slope markers of memory consolidation.",
+      "paragraphs": [
+        "Welcome back to ZeroFilter. It is sixteen hundred hours UTC on the tenth of October. Ukrainian national security officials report being completely blindsided by Donald Trump's diplomatic pivot to Vladimir Putin following repeated unmonitored telephone exchanges. In an exclusive investigation published by the Kyiv Independent, senior Kyiv defense officials revealed that sudden backchannel demands to capitulate sovereign territory felt like an orchestrated ambush. While European partners met in Miami attempting to stabilize defense coordination, Washington signaled readiness to permit Moscow to offload millions of tons of refined diesel into Western and global maritime markets.",
+        "Economic concessions and sanctions rollback. The British Broadcasting Corporation and National Public Radio confirmed that Donald Trump announced a bilateral arrangement allowing Russian state petroleum refineries to supply diesel directly to Western distribution networks, deliberately easing economic sanctions on the Kremlin to suppress domestic fuel pump prices ahead of upcoming midterm elections. Ukrainian President Volodymyr Zelensky condemned the concession as an existential gift to Vladimir Putin, directly subsidizing Russia's wartime defense industrial base while Russian glide bomb salvos continue pounding civilian logistical infrastructure across eastern frontline oblasts.",
+        "Strategic intelligence assessment. In a newly released intelligence briefing on his channel, former foreign intelligence officer Yuri Shvets analyzed the operational mechanics of Moscow's coercive leverage. Shvets emphasized that the Kremlin's periodic nuclear sabre-rattling and private telephone diplomacy are calibrated psychological operations designed to intimidate risk-averse Western political factions into unilateral concessions. According to Shvets, granting Moscow economic relief and territorial acquiescence rewards aggressive warfare and destabilizes European collective defense, dismantling eighty years of post-war security architecture.",
+        "Frontier artificial intelligence research. Turning to computational frontiers, an investigation released on arXiv presents Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction. Deploying multi-agent generative frameworks, computer scientists modeled high-dimensional organizational workflows to evaluate systemic failure modes. By simulating complex transactional negotiation graphs across hundreds of autonomous agents, researchers discovered emergent coordination bottlenecks and latent vulnerabilities, offering new mathematical benchmarks for stabilizing distributed decision networks against catastrophic multi-agent cascading errors.",
+        "Frontier neuroscience desk. A pre-print published on bioRxiv delivers vital insights into human cognitive architecture. Neurobiologists discovered that the electrophysiological aperiodic slope of continuous electroencephalography during motor and cognitive learning directly predicts nocturnal sleep-based memory consolidation. Tracking high-density spectral power in human subjects, researchers proved that cortical excitation-to-inhibition balancing during daytime training dictates synaptic reorganization during subsequent slow-wave sleep cycles, unmasking the biophysical signatures of neural memory preservation.",
+        "Tonight receipts. The Kyiv Independent exclusive on Donald Trump's phone pivot blindsiding Ukraine. The BBC and NPR reports on the Russian diesel concession overriding war sanctions. Frontline intelligence debriefs on the fatal trap of appeasing Kremlin nuclear coercion, scalable multi-agent enterprise simulations on arXiv, and electrophysiological aperiodic markers of memory consolidation on bioRxiv. Every receipt is linked in the source drawer. Read the wire reporting for yourself. I am Ava Vance for ZeroFilter. Stay lucid."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/exclusive-it-felt-like-a-trap-how-ukraine-was-blindsided-by-trumps-putin-pivot/",
+          "title": "Exclusive: 'It felt like a trap.' How Ukraine was blindsided by Trump's Putin pivot",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
+          "title": "Trump allows Russia to supply millions of tons of diesel to US, global markets",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
+          "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.npr.org/2026/10/09/nx-s1-5996912/trump-says-u-s-to-get-diesel-from-russia-relaxing-pressure-on-moscow-to-ease-prices-before-midterms",
+          "title": "Trump says U.S. to get diesel from Russia, relaxing pressure on Moscow to ease prices before midterms",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://www.youtube.com/watch?v=IC4ArMD41AU",
+          "speaker": "Yuri Shvets",
+          "title": "ВОЙНА В УКРАИНЕ ПЕРЕСТРАИВАЕТ МИР / ПУТИН ТЕРЯЕТ ЯДЕРНЫЙ БЛЕФ /№1218/ Юрий Швец",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.10549",
+          "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756363v1?rss=1",
+          "title": "Using the aperiodic slope across learning to predict sleep-based memory consolidation",
+          "published": "2026-10-10"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-16/f01.webp"
+          },
+          {
+            "t": 36.53,
+            "src": "art/2026-10-10-16/f02.webp"
+          },
+          {
+            "t": 71.71,
+            "src": "art/2026-10-10-16/f03.webp"
+          },
+          {
+            "t": 107.35,
+            "src": "art/2026-10-10-16/f04.webp"
+          },
+          {
+            "t": 144.36,
+            "src": "art/2026-10-10-16/f05.webp"
+          },
+          {
+            "t": 177.77,
+            "src": "art/2026-10-10-16/f06.webp"
+          }
+        ]
+      },
+      "seconds": 209,
+      "audio": "audio/2026-10-10-16.mp3",
+      "thumb": "thumbs/2026-10-10-16.webp",
+      "cover_video": "thumbs/2026-10-10-16.mp4",
+      "cues": [
+        0.0,
+        36.53,
+        71.71,
+        107.35,
+        144.36,
+        177.77
+      ]
+    },
     {
       "id": "2026-10-09-03",
       "hour": "03:00",
