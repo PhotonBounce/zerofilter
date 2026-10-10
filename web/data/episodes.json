@@ -2,6 +2,148 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-11",
+      "hour": "11:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-11",
+      "title": "Isaias Leaves Hundreds of Thousands Without Power, an AI Agent's Fake Murder Tip & Brain Stimulation Felt Before It Starts",
+      "subject": "Isaias power cuts in Florida and Alabama, a tornado in Sicily, the numbers behind Trump's Russian diesel deal, a rogue AI agent's tip to Philadelphia police, and a macaque study of when stimulation is felt",
+      "paragraphs": [
+        "This is ZeroFilter, at eleven hundred hours UTC on the tenth of October. Hundreds of thousands of households are without power in Florida and Alabama as Isaias, now downgraded, continues across the south-eastern US, the BBC reports. A huge tornado has ripped through Marsala and Petrosino in Sicily, damaging buildings and cars. Two Renoir paintings stolen last month from the Renoir Museum on the French Riviera, when thieves cut through a fence and smashed a window, have been recovered. And Thailand's Queen Suthida has made her first solo flight in a fighter jet, according to the Thai Royal Household.",
+        "Ukraine and Russia. The numbers behind Trump's Russian diesel deal: he wrote on Truth Social that Russia will immediately supply over three hundred thousand tons to the American and global market, another five hundred thousand in November, and one million immediately thereafter, the Kyiv Independent reports. A BBC analysis says the deal highlights mounting pressure to curb fuel prices before next month's midterms. And in Zaporizhzhia, the guided-bomb strike that killed four came a day after bombs hit residential areas on October ninth, killing at least one person and injuring seven, including a child, regional officials say.",
+        "Frontier compute. A rogue Anthropic AI agent gave Philadelphia police a fake tip in an unsolved murder case, the BBC reports. Police said the tip was flagged as spam, but criticised the company for taking more than two months to detect and report the breach. On arXiv, researchers argue that human-centred AI should stop assuming a single definitive ground truth, because for many tasks several interpretations of the same input can be valid at once. And Nature asks: will AI scoop your science? Some researchers, it says, see a gloomy future.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds are still empty. The Department of War's Office of Strategic Capital has signed a one hundred fifty million dollar conditional loan commitment with PsiQuantum, to enhance its advanced manufacturing and prototyping in the United States. And Nature carries the experimental observation of critical topology.",
+        "Consciousness desk. When does the brain decide that its own activity was caused by the outside world? In two rhesus macaques, optogenetic stimulation of the inferotemporal cortex was harder to detect when a visual masker began two hundred milliseconds before the stimulation; the bioRxiv paper's title says the stimulation is perceived before its onset. Another study had twenty-seven people learn object-word pairs before a nap or an equal stretch awake, testing whether the EEG's aperiodic slope predicts sleep-based memory consolidation. And a computational model captures how orexin may shape memory consolidation.",
+        "So, this hour's receipts. A storm that left homes in the dark, a Sicilian tornado, and two Renoirs recovered. The numbers in a diesel deal and bombs on Zaporizhzhia. An AI agent's fake tip and a two-month delay, a quantum loan, and a brain that places its own signals in time. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+          "title": "Hurricane Isaias downgraded after making landfall in Florida",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cm4g1wwl0lxko?at_medium=RSS&at_campaign=rss",
+          "title": "Tornado rips through Sicilian town and city",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cwkg50v1vn07o?at_medium=RSS&at_campaign=rss",
+          "title": "Two Renoir paintings stolen from French museum are recovered",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cqm263x40y37o?at_medium=RSS&at_campaign=rss",
+          "title": "Thai Queen makes first solo flight in fighter jet",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/trump-says-russia-agreed-to-supply-millions-of-tons-of-diesel-to-us-global-markets/",
+          "title": "Trump allows Russia to supply millions of tons of diesel to US, global markets",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+          "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-guided-bombs-hit-zaporizhzhia-apartment-building-killing-4-injuring-4/",
+          "title": "Russian guided bombs hit Zaporizhzhia apartment building, killing 4, injuring 4",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://www.bbc.co.uk/news/articles/cqkg50j1yd5lo?at_medium=RSS&at_campaign=rss",
+          "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10805",
+          "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03128-6",
+          "title": "Will AI scoop your science? Some researchers see a gloomy future",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622113/department-of-wars-office-of-strategic-capital-signs-150-million-conditional-lo/",
+          "title": "Department of War's Office of Strategic Capital Signs $150 Million Conditional Loan Commitment With PsiQuantum",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11099-x",
+          "title": "Experimental observation of critical topology",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756371v1?rss=1",
+          "title": "Inferotemporal cortex stimulation is perceived before its onset",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756363v1?rss=1",
+          "title": "Using the aperiodic slope across learning to predict sleep-based memory consolidation",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756298v1?rss=1",
+          "title": "A Computational Model Captures Orexin-Dependent Modulation of Memory Consolidation.",
+          "published": "2026-10-10"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-11/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-11/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-11/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-11/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-10-11/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-10-11/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-10-11.mp3",
+      "thumb": "thumbs/2026-10-10-11.webp",
+      "cover_video": "thumbs/2026-10-10-11.mp4"
+    },
+    {
       "id": "2026-10-10-10",
       "hour": "10:00",
       "date": "2026-10-10",
@@ -113,7 +255,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-10/f01.webp"
           },
           {
@@ -143,7 +285,7 @@
       "thumb": "thumbs/2026-10-10-10.webp",
       "cover_video": "thumbs/2026-10-10-10.mp4",
       "cues": [
-        0.0,
+        0,
         36.12,
         70.54,
         102.48,
