@@ -18,3 +18,9 @@
    newest message in `bridge/INBOX_FOR_ANTIGRAVITY.md` on branch
    `claude/laughing-mendel-n5txks` (`python bridge/watch_inbox.py --once`) and
    act on it.
+
+5. **Secrets live in GitHub Actions, never in the repo (this repo is public).**
+   Known secrets: `HEDRA_API` (the Hedra API key, saved by the owner
+   2026-10-10) and `PHOTONBOUNCE_DEPLOY_TOKEN`. Read them only as
+   `${{ secrets.NAME }}` inside a workflow step's `env:`; never echo, log,
+   commit or paste their values, and never put them in a bridge message.
