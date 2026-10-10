@@ -2,6 +2,150 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-19",
+      "hour": "19:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-19",
+      "title": "Democrats Urge FBI Director Patel to Cancel His Russia Trip, Trump Says Ukraine Needs a New President & the Hunt for Amelia Earhart's Plane",
+      "subject": "Raskin and Himes press Kash Patel to call off a trip to Russia, Trump turns on Zelensky after he condemns the diesel deal, and an expedition sets out for the Earhart crash site",
+      "paragraphs": [
+        "This is ZeroFilter, at nineteen hundred hours UTC on the tenth of October. US Democrats are calling on FBI Director Kash Patel to cancel an upcoming trip to Russia, the Kyiv Independent reports; in a letter, Representatives Jamie Raskin and Jim Himes cited urgent national security concerns, including the FSB's history of conducting espionage operations against American officials. And an expedition is on its way to a remote island in the hope of finding aviator Amelia Earhart's plane; the team aims finally to solve the mystery of her nineteen thirty-seven disappearance, the BBC reports.",
+        "Ukraine and Russia. 'Time for Ukraine to get a new president,' Trump says, after Zelensky condemned the diesel deal, the BBC reports; Ukraine's leader had said the deal to release Russian diesel into the US would help Moscow fund the war. The Kyiv Independent reports Trump also said Zelensky better damn well stop attacking Russian refineries. Zelensky says the glide bomb attack on Zaporizhzhia, which left children dead, was Russia expressing its thanks for the deal. And across Ukraine, Russian attacks have killed at least twenty-four people and injured forty-seven.",
+        "Frontier compute. Some AI systems output probabilities over typed answers, and software acts on them through thresholds and escalation rules; a new arXiv benchmark, TypedBench, tests whether those probabilities are calibrated, sensitive to wording, and worth their cost. Another formalises open-ended scientific discovery, where the best hypothesis found may still be the best of a bad lot and even physical laws may need revising. And a third, TRACE, models an emotion as an unfolding episode, from its causes to its consequences, in real-world social scenes.",
+        "Quantum desk. No new papers again from the quantum arXiv or Physical Review Letters feeds. In Nature's physics coverage this hour: nuclear clocks have ticked for the first time, and researchers report the experimental observation of critical topology.",
+        "Consciousness desk. Brain-imaging models that pool a subject with a whole cohort can report results that depend on the evaluation setup rather than on real predictive information; a bioRxiv study tests that on eight hundred seventy-one subjects from twenty acquisition sites. In head-fixed mice shown only a moving bar of light, the majority of entorhinal neurons responded topographically, with no task or reward. And Nature reports that chimp and gorilla brains resist weight loss with age, unlike human brains.",
+        "So, this hour's receipts. Two Democrats who want the FBI director to cancel his Russia trip, and an expedition chasing a mystery from nineteen thirty-seven. A President who says Ukraine needs a new one, and a Ukrainian leader who says the diesel deal will fund the war. Probabilities put to the test, discovery without a final answer, and emotions traced from cause to effect. Nuclear clocks, and brains that respond to a simple bar of light. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/us-democrats-call-on-fbi-director-kash-patel-to-cancel-upcoming-trip-to-russia/",
+          "title": "US Democrats call on FBI Director Kash Patel to cancel upcoming trip to Russia",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c3y0e871rk4vo?at_medium=RSS&at_campaign=rss",
+          "title": "Expedition hopes to find aviator Amelia Earhart's plane on remote island",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo?at_medium=RSS&at_campaign=rss",
+          "title": "'Time for Ukraine to get new president,' says Trump after Zelensky condemns diesel deal",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+          "title": "'He better damn well stop' — Trump slams Zelensky for attacking Russian refineries, says Ukraine should get 'new president'",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+          "title": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-19-injure-39-across-ukraine-as-rescue-operations-continue-in-zaporizhzhia/",
+          "title": "Russian attacks kill at least 24, injure 47 across Ukraine as rescue operations continue in Zaporizhzhia",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11392",
+          "title": "TypedBench: A Benchmark for Calibration, Framing Sensitivity, and Cost in System One Decision Models",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11289",
+          "title": "Open-ended Scientific Discovery with Possibilistic Reasoning",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11410",
+          "title": "Cognition-Oriented Emotion Tracing from Causes to Consequences in Real-World Social Scenes",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03060-9",
+          "title": "Nuclear clocks tick for the first time",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11099-x",
+          "title": "Experimental observation of critical topology",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756253v1?rss=1",
+          "title": "Information regimes in population-graph neuroimaging: cohort context and implementation-dependent evaluation sensitivity",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756590v1?rss=1",
+          "title": "Moving object generates topographic responses in the majority of entorhinal neurons",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03158-0",
+          "title": "Chimp and gorilla brains resist weight loss with age — unlike human brains",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-19/f01.webp"
+          },
+          {
+            "t": 33.05,
+            "src": "art/2026-10-10-19/f02.webp"
+          },
+          {
+            "t": 64.08,
+            "src": "art/2026-10-10-19/f03.webp"
+          },
+          {
+            "t": 96.74,
+            "src": "art/2026-10-10-19/f04.webp"
+          },
+          {
+            "t": 111.0,
+            "src": "art/2026-10-10-19/f05.webp"
+          },
+          {
+            "t": 138.0,
+            "src": "art/2026-10-10-19/f06.webp"
+          }
+        ]
+      },
+      "seconds": 168,
+      "audio": "audio/2026-10-10-19.mp3",
+      "thumb": "thumbs/2026-10-10-19.webp",
+      "cover_video": "thumbs/2026-10-10-19.mp4",
+      "cues": [
+        0.0,
+        33.05,
+        64.08,
+        96.74,
+        111.0,
+        138.0
+      ]
+    },
+    {
       "id": "2026-10-10-18",
       "hour": "18:00",
       "date": "2026-10-10",
@@ -107,11 +251,11 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-18/f01.webp"
           },
           {
-            "t": 33.0,
+            "t": 33,
             "src": "art/2026-10-10-18/f02.webp"
           },
           {
@@ -137,8 +281,8 @@
       "thumb": "thumbs/2026-10-10-18.webp",
       "cover_video": "thumbs/2026-10-10-18.mp4",
       "cues": [
-        0.0,
-        33.0,
+        0,
+        33,
         66.17,
         97.01,
         110.98,
