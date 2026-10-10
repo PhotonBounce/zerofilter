@@ -2,6 +2,150 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-05",
+      "hour": "05:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-05",
+      "title": "Guided Bombs Hit a Zaporizhzhia Apartment Block, the UAE Sets Course for an Asteroid & AI That Softens Scientists' Claims",
+      "subject": "Four killed in Zaporizhzhia, a hurricane in Florida, the Arab world's first solo space probe, and what chatbots do to research papers",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-five hundred hours UTC on the tenth of October. Life-threatening Hurricane Isaias has made landfall in Florida, the BBC reports, and is expected to impact Alabama, Georgia and Louisiana. In India, thousands of security personnel are deployed as Delhi braces for a so-called cockroach protest, with trains cancelled and dozens of metro stations shut. Nature reports that the United Arab Emirates has completed the Arab world's first solo space probe and set course for an asteroid. And Nature argues that women are talking about menopause, and health systems must listen.",
+        "Ukraine and Russia. Russian guided bombs have hit an apartment building in Zaporizhzhia, killing four people and injuring four, the Kyiv Independent reports. The attack came a day after Russian guided aerial bombs struck residential areas of the city on the ninth of October, killing at least one person and injuring seven, including a child, according to regional officials. In Russia, a major fire has been reported at an oil terminal linked to the Novoshakhtinsk refinery after a suspected drone strike, and the outlet ASTRA reported damage to a residential building in Rostov-on-Don.",
+        "Frontier compute. Researchers increasingly use ChatGPT to revise their papers, and a new arXiv study finds that recent GPT versions often narrow or even retract the authors' claims. The authors call this defensive writing when the material does not support the change, and test whether the model is correcting overclaiming or writing for an anticipated reviewer. Another benchmark, OpenProblemBench, sets AI eighty-two unresolved problems from mathematics and theoretical physics, each with its research context, assumptions and prior progress, chosen so proposed solutions can be checked fairly clearly.",
+        "Quantum desk. The quantum arXiv feed returned no papers this hour, so Nature carries the physics. It reports that semiconductors have been pushed into insulator territory, and it reports the experimental observation of critical topology. Nature also explains how to control where semiconductor crystals start growing. And in chemistry, it reports that RNA catalysis emerges from dynamic structural ensembles.",
+        "Consciousness desk. A bioRxiv preprint develops a theory of multi-tasking in the brain: activity during a single task is often described as lying on a low-dimensional manifold, and when a region handles several tasks it may generate several such manifolds. The theory organises competing models and experiments, distinguishing tasks done in sequence from tasks done at the same time. And Nature reports that an early predecessor to mammals could swim, suckle and swallow.",
+        "So, this hour's receipts. A hurricane in Florida, a capital braced for protest, an Arab probe bound for an asteroid, and a call to take menopause seriously. Deaths in Zaporizhzhia and fire at a Russian oil terminal. Chatbots that soften scientific claims, open problems as an AI exam, and the brain's way of juggling tasks. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+          "title": "Life-threatening Hurricane Isaias makes landfall in Florida",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cm2d6xd2g4w2o?at_medium=RSS&at_campaign=rss",
+          "title": "Thousands of security personnel deployed as Delhi braces for ‘cockroach’ protest",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/d41586-026-03154-4",
+          "title": "UAE completes Arab world's first solo space probe – and sets course for an asteroid",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/d41586-026-03218-5",
+          "title": "Women are talking about menopause — health systems must listen",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-guided-bombs-hit-zaporizhzhia-apartment-building-killing-4-injuring-4/",
+          "title": "Russian guided bombs hit Zaporizhzhia apartment building, killing 4, injuring 4",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+          "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11355",
+          "title": "Writing for the Reviewer: Defensive Writing in GPT Models",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11118",
+          "title": "OpenProblemBench: Benchmarking AI on Open Problems in the Foundational Theoretical Sciences",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02968-6",
+          "title": "Semiconductors pushed into insulator territory",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11099-x",
+          "title": "Experimental observation of critical topology",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02934-2",
+          "title": "How to control where semiconductor crystals start growing",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11140-z",
+          "title": "RNA catalysis emerges from dynamic structural ensembles",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755960v1?rss=1",
+          "title": "Neural circuit mechanisms for multi-tasking",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03069-0",
+          "title": "An early predecessor to mammals could swim, suckle and swallow",
+          "published": "2026-10-07"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-05/f01.webp"
+          },
+          {
+            "t": 34.39,
+            "src": "art/2026-10-10-05/f02.webp"
+          },
+          {
+            "t": 65.54,
+            "src": "art/2026-10-10-05/f03.webp"
+          },
+          {
+            "t": 98.81,
+            "src": "art/2026-10-10-05/f04.webp"
+          },
+          {
+            "t": 122.88,
+            "src": "art/2026-10-10-05/f05.webp"
+          },
+          {
+            "t": 149.23,
+            "src": "art/2026-10-10-05/f06.webp"
+          }
+        ]
+      },
+      "seconds": 174,
+      "audio": "audio/2026-10-10-05.mp3",
+      "thumb": "thumbs/2026-10-10-05.webp",
+      "cover_video": "thumbs/2026-10-10-05.mp4",
+      "cues": [
+        0.0,
+        34.39,
+        65.54,
+        98.81,
+        122.88,
+        149.23
+      ]
+    },
+    {
       "id": "2026-10-10-04",
       "hour": "04:00",
       "date": "2026-10-10",
@@ -131,7 +275,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-04/f01.webp"
           },
           {
@@ -161,7 +305,7 @@
       "thumb": "thumbs/2026-10-10-04.webp",
       "cover_video": "thumbs/2026-10-10-04.mp4",
       "cues": [
-        0.0,
+        0,
         41.38,
         82.03,
         103.8,
