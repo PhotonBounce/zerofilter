@@ -2,6 +2,150 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-18",
+      "hour": "18:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-18",
+      "title": "'Time for Ukraine to Get a New President': Trump Turns on Zelensky Over Refinery Strikes as Zelensky Calls Zaporizhzhia Russia's 'Thanks'",
+      "subject": "Trump says Ukraine should get a new president and must stop hitting Russian refineries, Zelensky ties the Zaporizhzhia strike to the diesel deal, and Delhi's Cockroach group demands electoral reform",
+      "paragraphs": [
+        "This is ZeroFilter, at eighteen hundred hours UTC on the tenth of October. A BBC analysis says Trump's shock Russia deal highlights mounting pressure to curb fuel prices, as the President hopes to ease his party's pain before next month's midterm elections. In Ohio's ninth congressional district, a critical battleground, NPR's Scott Simon has been hearing from voters about their priorities. And in India, the BBC says the Cockroach group, whose leaders were among hundreds detained at a Delhi protest, is not registered as a political party and wants electoral reforms ahead of crucial state elections.",
+        "Ukraine and Russia. President Trump has slammed Zelensky for attacking Russian refineries, saying he better damn well stop, the Kyiv Independent reports; asked about his deal to ease sanctions on Russia in exchange for diesel, Trump said: I think it's time for Ukraine to get a new president. Zelensky, for his part, says the glide bomb attack on Zaporizhzhia, which left children dead, was Russia expressing its thanks for the US diesel deal, the BBC reports. Across Ukraine, Russian attacks have killed at least twenty-four people and injured forty-seven, as rescue operations continue in Zaporizhzhia.",
+        "Frontier compute. When an AI agent fails, the cause can lie many steps back; a new arXiv study, ReCast, tests how well a model's internal signals can trace a failure to the earliest step responsible. Another, SynCo, co-trains an agent and its own data generator, so that its training tasks keep pace with its abilities instead of becoming trivial or uselessly hard. And a third designs a harness that lets a live, full-duplex voice agent hand off search, reasoning and coding to slower agents without losing the conversation.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds remain empty this hour. On Nature's physics pages this hour: semiconductors pushed into insulator territory, and a guide to controlling where semiconductor crystals start growing.",
+        "Consciousness desk. Brain networks are constantly built, maintained and reorganised; a bioRxiv study models how local connections form and dissolve over time in an ageing cohort, across both structural and functional networks. Another asks whether the EEG's aperiodic slope, a candidate marker of the brain's balance of excitation and inhibition, predicts how well a nap consolidates newly learned object-word pairs, in twenty-seven participants. And Nature asks a century-old question: can your brain grow new neurons?",
+        "So, this hour's receipts. A fuel-price deal under midterm pressure, Ohio voters weighing in, and a Delhi movement that wants electoral reform. A President who says Ukraine needs a new one, and a Ukrainian leader who calls a deadly strike Russia's thanks. Agents that trace their own failures, training that keeps pace, and voices that delegate. Semiconductors, ageing brain networks and napping memories. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+          "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/10/nx-s1-5965798/on-the-ground-in-ohios-9th-district-the-battleground-shaping-next-months-midterms",
+          "title": "On the ground in Ohio's 9th District: The battleground shaping next month's midterms",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_medium=RSS&at_campaign=rss",
+          "title": "'Cockroach' group leaders among hundreds detained in Delhi protest",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+          "title": "'He better damn well stop' — Trump slams Zelensky for attacking Russian refineries, says Ukraine should get 'new president'",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+          "title": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-attacks-kill-at-least-19-injure-39-across-ukraine-as-rescue-operations-continue-in-zaporizhzhia/",
+          "title": "Russian attacks kill at least 24, injure 47 across Ukraine as rescue operations continue in Zaporizhzhia",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11334",
+          "title": "ReCast: Attribution-Oriented Step Representation Learning for LLM-Based Agent Systems",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11345",
+          "title": "SynCo: Data Synthesis Co-Training for Self-Evolving LLMs via Multi-Agent Reinforcement Learning",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11299",
+          "title": "DuplexAgent-RSI: Recursive Harness Improvement for Full-Duplex Voice Agent Collaboration",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02968-6",
+          "title": "Semiconductors pushed into insulator territory",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02934-2",
+          "title": "How to control where semiconductor crystals start growing",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756273v1?rss=1",
+          "title": "Identifying Network Factors Driving Changes in Brain Connectivity During Aging via Stochastic Actor-Oriented Models",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756363v1?rss=1",
+          "title": "Using the aperiodic slope across learning to predict sleep-based memory consolidation",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03132-w",
+          "title": "Can your brain grow new neurons? How researchers are solving a century-old puzzle",
+          "published": "2026-10-07"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-18/f01.webp"
+          },
+          {
+            "t": 33.0,
+            "src": "art/2026-10-10-18/f02.webp"
+          },
+          {
+            "t": 66.17,
+            "src": "art/2026-10-10-18/f03.webp"
+          },
+          {
+            "t": 97.01,
+            "src": "art/2026-10-10-18/f04.webp"
+          },
+          {
+            "t": 110.98,
+            "src": "art/2026-10-10-18/f05.webp"
+          },
+          {
+            "t": 141.14,
+            "src": "art/2026-10-10-18/f06.webp"
+          }
+        ]
+      },
+      "seconds": 170,
+      "audio": "audio/2026-10-10-18.mp3",
+      "thumb": "thumbs/2026-10-10-18.webp",
+      "cover_video": "thumbs/2026-10-10-18.mp4",
+      "cues": [
+        0.0,
+        33.0,
+        66.17,
+        97.01,
+        110.98,
+        141.14
+      ]
+    },
+    {
       "id": "2026-10-10-17",
       "hour": "17:00",
       "date": "2026-10-10",
@@ -107,7 +251,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-17/f01.webp"
           },
           {
@@ -137,7 +281,7 @@
       "thumb": "thumbs/2026-10-10-17.webp",
       "cover_video": "thumbs/2026-10-10-17.mp4",
       "cues": [
-        0.0,
+        0,
         35.98,
         63.94,
         98.45,
