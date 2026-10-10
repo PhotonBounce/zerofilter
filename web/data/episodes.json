@@ -2,6 +2,174 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-04",
+      "hour": "04:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-04",
+      "title": "Fire at an Oil Terminal Near Russia's Novoshakhtinsk Refinery, Hurricane Isaias Ashore & Why Big Dogs Age Faster",
+      "subject": "A suspected drone strike on a Russian oil terminal, a hurricane in Florida, Delhi on lockdown, and the jumping genes that may age big dogs",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-four hundred hours UTC on the tenth of October. Life-threatening Hurricane Isaias has made landfall in Florida, the BBC reports; the storm took direct aim at the state and is expected to impact Alabama, Georgia and Louisiana. In India, thousands of security personnel are deployed as Delhi braces for a so-called cockroach protest, with several trains to the city cancelled and dozens of metro stations shut. In France, students taking to the streets have become a focal point in the country's increasingly polarised politics, the BBC reports. And questions remain over an Ebola patient, a forty-year-old businessman, who flew and crossed regional borders across three nations while seriously ill.",
+        "Ukraine and Russia. A major fire has been reported at an oil terminal linked to Russia's Novoshakhtinsk refinery after a suspected drone strike, the Kyiv Independent reports. The outlet ASTRA also reported damage to a residential building in Rostov-on-Don's Donskaya Sloboda complex, located through footage posted by residents; it remained unclear what struck the building, amid reports of continued drone activity and Russian air defence operations. Meanwhile, US, Ukrainian and European officials have discussed ending the war at a meeting in Miami, which coincided with President Trump's announcement of Russian diesel supplies; the BBC's North America correspondent writes that the deal highlights mounting pressure to curb fuel prices before next month's midterm elections.",
+        "Frontier compute. The US Department of War has announced initiatives and programme updates worth about three hundred and fifty million dollars, to strengthen American leadership in quantum computing that supports national security. Nature asks whether AI will scoop your science, as some researchers see a gloomy future. And it explains the science of superintelligence, and why AI is still a useful word.",
+        "Quantum desk. Nature reports that nuclear clocks have ticked for the first time. Nature also reports the experimental observation of critical topology. Two more Nature papers report nuclear clocks built on thorium-229: one with a feedback loop, and one synchronised to thorium-229. And Nature reports hydrogen bonding in water under extreme confinement. The arXiv feeds returned no papers this hour.",
+        "Consciousness desk. Nature reports that breaking down a nerve-cell scaffold relieves chronic pain in mice. It also captures how to build a mouse, with embryo development recorded in stunning detail. And it asks why big dogs age faster than little ones, pointing to rogue jumping genes that might be to blame.",
+        "So, this hour's receipts. A hurricane ashore in Florida, a capital braced for protest, and an Ebola case that crossed borders. Fire at a Russian oil terminal and peace talks in Miami. Quantum money from the Pentagon, nuclear clocks ticking, pain relief in mice, and the genes that may age big dogs. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo?at_medium=RSS&at_campaign=rss",
+          "title": "Life-threatening Hurricane Isaias makes landfall in Florida",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cm2d6xd2g4w2o?at_medium=RSS&at_campaign=rss",
+          "title": "Thousands of security personnel deployed as Delhi braces for ‘cockroach’ protest",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/crq5nlqnn184o?at_medium=RSS&at_campaign=rss",
+          "title": "'Everyone hates the police' – what France's school protests reveal about a divided nation",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cqp8gknl1njjo?at_medium=RSS&at_campaign=rss",
+          "title": "Questions remain over Ebola patient who travelled across three nations undetected",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+          "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/us-ukrainian-european-officials-discuss-ending-russias-war-at-miami-meeting/",
+          "title": "US, Ukrainian, European officials discuss ending Russia's war at Miami meeting",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/c5lye9z4xw4yo?at_medium=RSS&at_campaign=rss",
+          "title": "Analysis: Trump's shock Russia deal highlights mounting pressure to curb fuel prices",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622109/department-of-war-announces-350-million-in-quantum-computing-initiatives/",
+          "title": "Department of War Announces $350 Million in Quantum Computing Initiatives",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03128-6",
+          "title": "Will AI scoop your science? Some researchers see a gloomy future",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03198-6",
+          "title": "The science of superintelligence and why AI is still a useful word",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03060-9",
+          "title": "Nuclear clocks tick for the first time",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11099-x",
+          "title": "Experimental observation of critical topology",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11084-4",
+          "title": "A thorium-229 optical nuclear clock with feedback loop",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11122-1",
+          "title": "A nuclear clock synchronized to 229 Th",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-10858-0",
+          "title": "Hydrogen bonding in water under extreme confinement",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03159-z",
+          "title": "Breaking down nerve-cell scaffold relieves chronic pain in mice",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03193-x",
+          "title": "How to build a mouse: embryo development captured in stunning detail",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03199-5",
+          "title": "Big dogs age faster than little ones — rogue ‘jumping genes’ might be to blame",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-04/f01.webp"
+          },
+          {
+            "t": 41.38,
+            "src": "art/2026-10-10-04/f02.webp"
+          },
+          {
+            "t": 82.03,
+            "src": "art/2026-10-10-04/f03.webp"
+          },
+          {
+            "t": 103.8,
+            "src": "art/2026-10-10-04/f04.webp"
+          },
+          {
+            "t": 128.18,
+            "src": "art/2026-10-10-04/f05.webp"
+          },
+          {
+            "t": 144.7,
+            "src": "art/2026-10-10-04/f06.webp"
+          }
+        ]
+      },
+      "seconds": 167,
+      "audio": "audio/2026-10-10-04.mp3",
+      "thumb": "thumbs/2026-10-10-04.webp",
+      "cover_video": "thumbs/2026-10-10-04.mp4",
+      "cues": [
+        0.0,
+        41.38,
+        82.03,
+        103.8,
+        128.18,
+        144.7
+      ]
+    },
+    {
       "id": "2026-10-10-03",
       "hour": "03:00",
       "date": "2026-10-10",
@@ -95,7 +263,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-03/f01.webp"
           },
           {
@@ -125,7 +293,7 @@
       "thumb": "thumbs/2026-10-10-03.webp",
       "cover_video": "thumbs/2026-10-10-03.mp4",
       "cues": [
-        0.0,
+        0,
         37.01,
         61.92,
         95.42,
