@@ -2,6 +2,156 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-10",
+      "hour": "10:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-10",
+      "title": "The EU's Compromise Budget Keeps Ukraine Support, the ICC Sanctions Reach Putin's Case & Democrats Court Latino Influencers",
+      "subject": "A compromise EU budget, US sanctions on the court seeking Putin's arrest, Democrats turning to Latino creators, and a moving bar of light lighting up the entorhinal cortex",
+      "paragraphs": [
+        "This is ZeroFilter, at ten hundred hours UTC on the tenth of October. After losing ground with Latino voters, who have soured on both parties, Democrats are turning to Latino content creators to help bridge the gap, NPR reports. The Trump administration is working to reverse an Egyptian man's third-country deportation to Africa, after an Arizona judge said it violated due process. In France, students taking to the streets have become a focal point in increasingly polarised politics, the BBC reports. And in Peru, a left-wing candidate named Hitler Mussolini has won a narrow victory for mayor in a remote Andean district, exit polls show.",
+        "Ukraine and Russia. A new compromise EU budget maintains support for Ukraine but trims help for EU integration, the Kyiv Independent reports; the explanatory text says commitment to Ukraine is central to the EU's overall ambitions. The US has sanctioned the International Criminal Court, the court that seeks to arrest Putin, prompting backlash; in twenty twenty-three it issued warrants for Putin and Russian official Maria Lvova-Belova over the unlawful transfer of children from occupied areas of Ukraine to Russia. And the Kyiv Independent asks why EU sanctions have missed the company behind Russia's tank industry, pointing to a visibility problem.",
+        "Frontier compute. StoreBench puts an agent in charge of a mid-size online apparel store on a production-grade commerce backend, where customers order around the clock; it tests long-horizon planning and economic judgment under uncertainty. Another arXiv paper argues that aligned AI needs normative competence: discerning, from interaction alone, which norms a community enforces, since norms are vast, change quickly and are often arbitrary. A third reframes AI-assisted peer review around error detection, rather than imitating human-written reviews.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds are empty for another hour, so the latest quantum news in this snapshot is still the Department of War's roughly three hundred fifty million dollars in quantum computing initiatives, to strengthen US leadership in capabilities that support national security. In Nature's physics pages, semiconductors have been pushed into insulator territory.",
+        "Consciousness desk. A bioRxiv study across three cohorts totalling two thousand eight hundred and eighty-six people finds that sex differences in human subcortical anatomy are robust and replicable in adulthood, and, its title says, already evident before puberty. In head-fixed mice shown nothing more than a moving vertical bar of light, with no task or reward, sixty-six percent of the medial entorhinal neurons recorded responded. And a third study traces molecular changes in ventral tegmental area neurons during acute fentanyl withdrawal.",
+        "So, this hour's receipts. Influencers enlisted, a deportation being reversed, and a mayor with a startling name. An EU budget that keeps Ukraine central, sanctions on the court pursuing Putin, and a tank-industry company the sanctions missed. An agent running a store, norms read from interaction, and peer review that hunts errors. And a bar of light that wakes the entorhinal cortex. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/10/nx-s1-5991897/democrats-latino-voters-influencers-bold-pac",
+          "title": "After losing ground with Latino voters, Democrats are turning to influencers for help",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/09/g-s1-147476/trump-third-country-deportation-africa-reverse",
+          "title": "U.S. working to reverse an Egyptian man's third-country deportation to Africa",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/crq5nlqnn184o?at_medium=RSS&at_campaign=rss",
+          "title": "'Everyone hates the police' – what France's school protests reveal about a divided nation",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cmdxwn9dr42yo?at_medium=RSS&at_campaign=rss",
+          "title": "Man named Hitler Mussolini elected mayor in Peru",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/new-compromise-eu-budget-maintains-ukraine-support-but-trims-help-for-eu-integration/",
+          "title": "New compromise EU budget maintains Ukraine support, but trims help for EU integration",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/us-sanctions-court-that-seeks-to-arrest-putin-prompts-backlash-2/",
+          "title": "US sanctions court that seeks to arrest Putin, prompts backlash",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/why-eu-sanctions-have-missed-company-behind-russias-tank-industry-2/",
+          "title": "Why have EU sanctions missed the company behind Russia’s tank industry?",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10942",
+          "title": "StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10906",
+          "title": "Reading the Room: Foundations, Design, and Challenges of Normative Competence in LLMs",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11087",
+          "title": "Beyond Imitation: A Framework and Benchmark for LLM-Assisted Peer Review",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622109/department-of-war-announces-350-million-in-quantum-computing-initiatives/",
+          "title": "Department of War Announces $350 Million in Quantum Computing Initiatives",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02968-6",
+          "title": "Semiconductors pushed into insulator territory",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756728v1?rss=1",
+          "title": "Sex Differences in Human Subcortical Anatomy are Robust and Replicable in Adulthood, Already Evident Prepubertally, and Aligned with Sex Chromosomal and Gonadal Influences",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756590v1?rss=1",
+          "title": "Moving object generates topographic responses in the majority of entorhinal neurons",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756315v1?rss=1",
+          "title": "Projection-defined ventral tegmental area neurons exhibit distinct molecular adaptations during acute fentanyl withdrawal",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-10/f01.webp"
+          },
+          {
+            "t": 36.12,
+            "src": "art/2026-10-10-10/f02.webp"
+          },
+          {
+            "t": 70.54,
+            "src": "art/2026-10-10-10/f03.webp"
+          },
+          {
+            "t": 102.48,
+            "src": "art/2026-10-10-10/f04.webp"
+          },
+          {
+            "t": 123.34,
+            "src": "art/2026-10-10-10/f05.webp"
+          },
+          {
+            "t": 153.74,
+            "src": "art/2026-10-10-10/f06.webp"
+          }
+        ]
+      },
+      "seconds": 182,
+      "audio": "audio/2026-10-10-10.mp3",
+      "thumb": "thumbs/2026-10-10-10.webp",
+      "cover_video": "thumbs/2026-10-10-10.mp4",
+      "cues": [
+        0.0,
+        36.12,
+        70.54,
+        102.48,
+        123.34,
+        153.74
+      ]
+    },
+    {
       "id": "2026-10-10-09",
       "hour": "09:00",
       "date": "2026-10-10",
@@ -125,7 +275,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-09/f01.webp"
           },
           {
@@ -155,7 +305,7 @@
       "thumb": "thumbs/2026-10-10-09.webp",
       "cover_video": "thumbs/2026-10-10-09.mp4",
       "cues": [
-        0.0,
+        0,
         32.52,
         67.56,
         101.86,
