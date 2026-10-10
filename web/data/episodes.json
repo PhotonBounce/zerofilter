@@ -2,6 +2,150 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-22",
+      "hour": "22:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-22",
+      "title": "Trump's Economic Playbook Borrows From East Asia, a Sudan Drone Strike Kills 41 & Inside Ukraine's Robot Army",
+      "subject": "NPR on the East Asian roots of Trump's industrial policy, a paramilitary strike on displaced people in Sudan, Poland's school knife attacks, the envoys who blindsided Ukraine, and Ukraine's unmanned ground vehicles",
+      "paragraphs": [
+        "This is ZeroFilter, at twenty-two hundred hours UTC on the tenth of October. Much of the Trump administration's economic policy has been inspired by industrial policies that succeeded in East Asia, including those of its competitor China, NPR reports, asking whether they will work in the United States. In Sudan, a paramilitary drone strike has killed forty-one people near the Ethiopian border, among them eight children, according to a rights group; it hit a gathering of displaced people. And in Poland, a woman injured three people in the third school knife attack in a week, after a female caretaker was killed in one of two earlier attacks.",
+        "Ukraine and Russia. The Kyiv Independent's exclusive on how Ukraine was blindsided: US envoys Steve Witkoff and Jared Kushner told Ukraine's delegation on October ninth that President Trump was preparing to lift sanctions on Russian diesel exports, and the Ukrainians struggled to believe what they were hearing; they had travelled to the United States for talks. Separately, a Miami meeting of US, Ukrainian and European officials, discussing how to end the war, coincided with Trump's diesel announcement. And the Kyiv Independent's Francis Farrell joined the Alter Ego Battalion of the ninety-third Mechanized Brigade to see how soldiers develop and deploy unmanned ground vehicles.",
+        "Frontier compute. When cell values are missing or unreliable, a table's column headers carry its meaning; a new arXiv framework maps headers to thirty-nine interpretable types to annotate columns and assess data quality before tables join a knowledge graph. Another measures how wrapping a harmful request in a story slips past a model's refusals, with attack success on one small model reaching ninety-five point seven percent in Classical Chinese. And a third separates what an agent's persistent memory lets in from how that memory is presented, to curb sycophancy and leakage across domains.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds are still empty. In Nature: a nuclear clock synchronised to thorium-two-twenty-nine, and a guide to controlling where semiconductor crystals start growing.",
+        "Consciousness desk. A bioRxiv paper develops a theory of how a single brain region performs several tasks, separating tasks done one after another from tasks done at once. Another builds a flexible 3D interface that reads the identity, position and activity of neurons inside intact cortical organoids, to study the balance of excitation and inhibition. And in zebrafish, two conserved genes, huntingtin and celsr3, turn out to play roles in spontaneous spinal cord regeneration.",
+        "So, this hour's receipts. An American economic strategy borrowed from East Asia, forty-one killed among Sudan's displaced, and a third school attack in Poland. Envoys who blindsided Kyiv, peace talks in Miami, and robots on Ukraine's front line. Column headers that carry meaning, stories that slip past refusals, and memory kept in check. Nuclear clocks, multitasking brains and regrowing spinal cords. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.npr.org/2026/10/10/nx-s1-5992884/trumps-economic-strategy-resemble-similar-policies-in-east-asia",
+          "title": "Trump's economic strategy resemble similar policies in East Asia",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c8vgx9ew571wo?at_medium=RSS&at_campaign=rss",
+          "title": "Drone strike by Sudan paramilitary kills 41 near Ethiopian border, rights group says",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cv8ezd246z1wo?at_medium=RSS&at_campaign=rss",
+          "title": "Woman injures three people in third Poland school knife attack in a week",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/exclusive-it-felt-like-a-trap-how-ukraine-was-blindsided-by-trumps-putin-pivot/",
+          "title": "Exclusive: 'It felt like a trap.' How Ukraine was blindsided by Trump's Putin pivot",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/us-ukrainian-european-officials-discuss-ending-russias-war-at-miami-meeting/",
+          "title": "US, Ukrainian, European officials discuss ending Russia's war at Miami meeting",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/inside-ukraines-robot-army-fighting-russia/",
+          "title": "Inside Ukraine’s robot army fighting Russia",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10541",
+          "title": "An Explainable Header-Centric Framework for Large-Scale Semantic Table Interpretation and Data Quality Assessment",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11005",
+          "title": "How Narrative Wrapping Affects LLM Refusal: A Cross-Language Benchmark and Defense",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11188",
+          "title": "What to Admit and How to Present: Governing Persistent Memory in LLM Agents",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11122-1",
+          "title": "A nuclear clock synchronized to 229 Th",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02934-2",
+          "title": "How to control where semiconductor crystals start growing",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755960v1?rss=1",
+          "title": "Neural circuit mechanisms for multi-tasking",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756317v1?rss=1",
+          "title": "Flexible 3D multimodal organoid interface reveals functional subnetworks and coordinated circuit activity in cortical organoids",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.755968v1?rss=1",
+          "title": "Huntingtin and Celsr3 Orchestrate Spontaneous Long-Distance Spinal Cord Regeneration",
+          "published": "2026-10-08"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-22/f01.webp"
+          },
+          {
+            "t": 35.23,
+            "src": "art/2026-10-10-22/f02.webp"
+          },
+          {
+            "t": 70.51,
+            "src": "art/2026-10-10-22/f03.webp"
+          },
+          {
+            "t": 103.34,
+            "src": "art/2026-10-10-22/f04.webp"
+          },
+          {
+            "t": 116.42,
+            "src": "art/2026-10-10-22/f05.webp"
+          },
+          {
+            "t": 144.48,
+            "src": "art/2026-10-10-22/f06.webp"
+          }
+        ]
+      },
+      "seconds": 174,
+      "audio": "audio/2026-10-10-22.mp3",
+      "thumb": "thumbs/2026-10-10-22.webp",
+      "cover_video": "thumbs/2026-10-10-22.mp4",
+      "cues": [
+        0.0,
+        35.23,
+        70.51,
+        103.34,
+        116.42,
+        144.48
+      ]
+    },
+    {
       "id": "2026-10-10-21",
       "hour": "21:00",
       "date": "2026-10-10",
@@ -101,7 +245,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-21/f01.webp"
           },
           {
@@ -131,7 +275,7 @@
       "thumb": "thumbs/2026-10-10-21.webp",
       "cover_video": "thumbs/2026-10-10-21.mp4",
       "cues": [
-        0.0,
+        0,
         33.65,
         64.2,
         93.14,
