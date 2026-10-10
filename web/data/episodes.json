@@ -2,6 +2,142 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-13",
+      "hour": "13:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-13",
+      "title": "A Glide Bomb Kills at Least 15 in Zaporizhzhia, Missiles Hit Kyiv After Sanctions Relief & Hundreds Detained in Delhi",
+      "subject": "A deadly glide-bomb strike on Zaporizhzhia, a daytime missile attack on Kyiv, Zelensky's warning about sanctions relief, Ukraine's robot army, and mass detentions at a Delhi protest",
+      "paragraphs": [
+        "This is ZeroFilter, at thirteen hundred hours UTC on the tenth of October. In India, leaders of a group known as Cockroach are among hundreds detained at a protest in Delhi, where tens of thousands of security personnel were deployed and roads barricaded ahead of the demonstration, the BBC reports. A headmaster has been detained after a BBC investigation into alleged sexual abuse of students; former students spent years collecting evidence and testimony from others who say they were abused. And the Department of War has awarded Raytheon a multiyear contract worth up to six point three billion dollars for Standard Missile three Block one-B interceptors.",
+        "Ukraine and Russia. A Russian glide bomb attack on Zaporizhzhia has killed at least fifteen people, children among them, the BBC reports; authorities say more victims could still be buried in the rubble of a large apartment block that was destroyed. In Kyiv, loud explosions rang out around two in the afternoon as Russia launched missiles at the city after a morning drone attack on energy infrastructure, the Kyiv Independent reports. It came after Russia sanctions relief, and Zelensky warned that every extra billion will be spent on this. And the Kyiv Independent's Francis Farrell joined the Alter Ego Battalion of the ninety-third Mechanized Brigade to see how Ukrainian soldiers develop and deploy unmanned ground vehicles.",
+        "Frontier compute. Training enterprise agents is held back by legal and business limits on real systems and data, so a new arXiv paper generates coherent enterprise data by simulating agents interacting with systems. Another finds that language agents learning without rewards gain little from simply conditioning a teacher on environmental feedback, and rethinks how that feedback is used. And a third shows that long-range forecasting models give fluctuating predictions for the same moment as their input window shifts.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds are still empty this hour. The quantum items in this snapshot remain the Department of War's roughly three hundred fifty million dollars in quantum computing initiatives and its one hundred fifty million dollar conditional loan commitment to PsiQuantum.",
+        "Consciousness desk. Researchers trained recurrent networks on face and object recognition to see how lateral connections, which are pervasive in visual cortex, refine visual representations over time; the bioRxiv paper's title says they do so for task performance. A fruit-fly resource adds six thousand three hundred sixty-eight annotations across one thousand seven hundred seventy-two driver lines, to identify the neurons each targets. And a study tests Bayesian modelling of brain atrophy in two rare disorders, progressive supranuclear palsy and corticobasal syndrome.",
+        "So, this hour's receipts. Mass detentions in Delhi, a headmaster detained after former students gathered evidence, and an interceptor contract. At least fifteen dead in Zaporizhzhia, missiles on Kyiv, and robots on the front line. Simulated enterprises, agents learning from feedback, and forecasts that wobble. And recurrence sharpening sight. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c65yn7xvde7vo?at_medium=RSS&at_campaign=rss",
+          "title": "'Cockroach' group leaders among hundreds detained in Delhi protest",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cwy8lx1r2vrro?at_medium=RSS&at_campaign=rss",
+          "title": "Headmaster detained after BBC investigation into alleged sexual abuse of students",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622796/department-of-war-awards-63-billion-multi-year-contract-to-rtxs-raytheon-for-sm/",
+          "title": "Department of War Awards $6.3 Billion Multi-Year Contract to RTX's Raytheon for SM-3 BLOCK IB Interceptors",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+          "title": "Russian glide bomb attack on Zaporizhzhia kills at least 15 people",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/loud-explosions-heard-in-kyiv-as-city-comes-under-daytime-attack/",
+          "title": "'Every extra billion will be spent on this' — Zelensky warns as missiles hit Kyiv after Russia sanctions relief",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/inside-ukraines-robot-army-fighting-russia/",
+          "title": "Inside Ukraine’s robot army fighting Russia",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10549",
+          "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11384",
+          "title": "Environmental Feedback Modeling Matters: Rethinking Feedback Treatment in Agentic Hindsight Self-Distillation",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11213",
+          "title": "AliO: Output Alignment Matters in Long-Term Time Series Forecasing",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622109/department-of-war-announces-350-million-in-quantum-computing-initiatives/",
+          "title": "Department of War Announces $350 Million in Quantum Computing Initiatives",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622113/department-of-wars-office-of-strategic-capital-signs-150-million-conditional-lo/",
+          "title": "Department of War's Office of Strategic Capital Signs $150 Million Conditional Loan Commitment With PsiQuantum",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756219v1?rss=1",
+          "title": "Lateral recurrence dynamically refines visual representations for task performance",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.06.756975v1?rss=1",
+          "title": "Neuron types and distribution of a Drosophila driver line collection",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756349v1?rss=1",
+          "title": "A Bayesian approach to volumetric analysis in rare neurodegenerative disorders",
+          "published": "2026-10-10"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-13/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-13/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-13/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-13/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-10-13/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-10-13/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-10-13.mp3",
+      "thumb": "thumbs/2026-10-10-13.webp",
+      "cover_video": "thumbs/2026-10-10-13.mp4"
+    },
+    {
       "id": "2026-10-10-12",
       "hour": "12:00",
       "date": "2026-10-10",
@@ -113,7 +249,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-12/f01.webp"
           },
           {
@@ -143,7 +279,7 @@
       "thumb": "thumbs/2026-10-10-12.webp",
       "cover_video": "thumbs/2026-10-10-12.mp4",
       "cues": [
-        0.0,
+        0,
         34.68,
         63.48,
         100.22,
