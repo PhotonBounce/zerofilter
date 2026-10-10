@@ -2,6 +2,131 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-00",
+      "hour": "00:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-00",
+      "title": "A Quiet Midnight: Crazy Rich Asians Returns, Adidas Sues Over Stripes & AI Scientists That Revise Their Own Equations",
+      "subject": "A slow news hour: a TV revival, a four-stripes lawsuit, Ukraine's day in review, and self-correcting AI models of physics",
+      "paragraphs": [
+        "This is ZeroFilter, at midnight UTC on the tenth of October, a quiet hour on the wires. Crazy Rich Asians is returning as a television series, the BBC reports; it will pick up after the hit 2018 film and stars its original cast, Constance Wu, Henry Golding, Michelle Yeoh and Ronny Chieng. And the German sportswear brand Adidas is suing the Australian label White Fox over a four-stripes design, asking the Sydney-based company to stop selling the clothes and pay damages.",
+        "Ukraine and Russia. The Kyiv Independent's round-up of the ninth of October leads with drones striking another Yandex data center in Russia, the second damaged in two days according to the company. It also lists independent monitors' claim that twenty Russian officers were killed in Ukrainian strikes on Donetsk, the forced removal of twenty-five Ukrainian civilians, including children, from occupied Kharkiv Oblast, and the closure of Russian airports. And Yuri Shvets' latest broadcast on his own channel, number twelve eighteen, is titled: the war in Ukraine is reshaping the world, Putin is losing his nuclear bluff.",
+        "Frontier compute. Building physics-based models means choosing processes, equations and couplings, decisions most AI systems cannot yet make on their own. A new arXiv paper introduces EvoSim, a self-evolving AI scientist that uses mismatches with experiments to revise its mechanisms and equations, and held-out data to test whether they are physically plausible. Another paper rethinks how language agents learn from environmental feedback when no reward is available. And the US Department of War has announced a series of initiatives to advance what it calls a New Golden Age of American science.",
+        "Quantum desk. The quantum approximate optimisation algorithm is a leading candidate for near-term hardware, but noise can bury its results. A new arXiv paper finds that how well it withstands noise depends on its variational parameters. A companion review describes adaptive workflows in which machine learning decides, instance by instance, how to formulate a problem and even whether to call a quantum processor at all. And another study finds the minimal five-party scenarios that witness a strong form of genuine multipartite nonlocality.",
+        "Consciousness desk. Population-graph models predict from brain scans by placing each person among an unlabelled cohort, so their reported accuracy can depend on how they are evaluated rather than on real predictive information. A bioRxiv study tests this on eight hundred and seventy-one subjects from twenty sites, under a protocol fixed before analysis. And a new perspective traces quantum optical sensing from diamond spin defects toward bio-integrated, fluorescent-protein spin qubits for biomedical use.",
+        "So, this hour's receipts. A film franchise reborn on television and a fight over four stripes. A day of strikes and removals in Ukraine, and a fresh broadcast on a familiar channel. AI scientists that rewrite their own physics, noise-tolerant quantum optimisation, and a warning about how brain-scan models are graded. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cm5yne8k6zw8o?at_medium=RSS&at_campaign=rss",
+          "title": "Crazy Rich Asians to return as TV show with original film's stars",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c9e8ld448km8o?at_medium=RSS&at_campaign=rss",
+          "title": "Adidas sues Australian label White Fox over four stripes design",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
+          "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://www.youtube.com/watch?v=IC4ArMD41AU",
+          "title": "ВОЙНА В УКРАИНЕ ПЕРЕСТРАИВАЕТ МИР / ПУТИН ТЕРЯЕТ ЯДЕРНЫЙ БЛЕФ /№1218/ Юрий Швец",
+          "published": "2026-10-08",
+          "speaker": "Yuri Shvets"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11344",
+          "title": "EvoSim: Learning to Model, Modeling to Learn",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11384",
+          "title": "Environmental Feedback Modeling Matters: Rethinking Feedback Treatment in Agentic Hindsight Self-Distillation",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://www.war.gov/News/Releases/Release/Article/4622104/department-of-war-executes-white-house-strategy-for-a-new-golden-age-of-science/",
+          "title": "Department of War Executes White House Strategy for a New Golden Age of Science",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11710",
+          "title": "Parameter-Dependent Noise Resilience in the Quantum Approximate Optimization Algorithm",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11759",
+          "title": "Beyond QAOA: A Review of AI and Quantum Computing for Adaptive Combinatorial Optimization",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 3,
+          "url": "https://arxiv.org/abs/2610.11377",
+          "title": "Minimal Scenarios Witnessing Genuine Multipartite Nonlocality Possibilistically",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756253v1?rss=1",
+          "title": "Information regimes in population-graph neuroimaging: cohort context and implementation-dependent evaluation sensitivity",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://arxiv.org/abs/2610.11644",
+          "title": "From Solid-State Spin Defects to Fluorescent Proteins: A Perspective on Quantum Optical Sensing Platforms for Biomedical Applications",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-10-00/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-10-00/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-10-00/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-10-00/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-10-00/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-10-00/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-10-00.mp3",
+      "thumb": "thumbs/2026-10-10-00.webp",
+      "cover_video": "thumbs/2026-10-10-00.mp4"
+    },
+    {
       "id": "2026-10-09-23",
       "hour": "23:00",
       "date": "2026-10-09",
@@ -95,7 +220,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-09-23/f01.webp"
           },
           {
@@ -125,7 +250,7 @@
       "thumb": "thumbs/2026-10-09-23.webp",
       "cover_video": "thumbs/2026-10-09-23.mp4",
       "cues": [
-        0.0,
+        0,
         31.97,
         63.12,
         94.61,
