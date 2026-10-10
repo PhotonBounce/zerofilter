@@ -2,6 +2,144 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-16",
+      "hour": "16:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-16",
+      "title": "'It Felt Like a Trap': How Ukraine Was Blindsided by Trump's Putin Pivot, Zaporizhzhia's Toll Rises to 20 & Pillay Calls ICC Sanctions Unacceptable",
+      "subject": "Ukraine's delegation blindsided by a diesel sanctions reversal, the Zaporizhzhia death toll rising to at least 20, Navi Pillay on the ICC sanctions, and Christa Pike back in prison",
+      "paragraphs": [
+        "This is ZeroFilter, at sixteen hundred hours UTC on the tenth of October. Nobel peace laureate Navi Pillay says the US sanctions on the International Criminal Court are unacceptable, calling the Trump administration's sweeping penalties on the tribunal unheard of, the BBC reports. Christa Pike, the convicted murderer left in a critical condition after she survived two lethal injections, has been discharged from hospital and returned to prison, her lawyers say. And Nature reports the US has proposed a one hundred thousand dollar charge for international students to do post-graduate work.",
+        "Ukraine and Russia. In an exclusive headlined 'It felt like a trap', the Kyiv Independent reports how Ukraine was blindsided by Trump's Putin pivot: when US envoys Steve Witkoff and Jared Kushner told Ukraine's delegation on October ninth that the President was preparing to lift sanctions on Russian diesel exports, the Ukrainians struggled to believe what they were hearing. In Zaporizhzhia, the toll from Russian guided bombs on a residential neighbourhood has risen to at least twenty dead and eighteen injured. Three children were among those killed in the early hours of October tenth, and some victims were trapped for hours beneath the rubble.",
+        "Frontier compute. Small vision-language models can read evidence but struggle to obtain it; a new arXiv method, Harness Compilation, has a large teacher revise the tools around a frozen small model, with no weight updates, across seven question-answering settings. Another, TaReD, recursively splits long tasks into subtasks matched to the tools available, because a single long chain lets early planning errors spread. And a third warns that reinforcement learning with verifiable rewards can leave reasoning models badly overconfident.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds are still empty, but Nature is back in this hour's snapshot, carrying a thorium-two-twenty-nine optical nuclear clock with a feedback loop and the experimental observation of critical topology.",
+        "Consciousness desk. A bioRxiv network model, inspired by the insect fan-shaped body, lets a navigating agent shape its own paths, guiding future movement with a memory of past movement. Another study measured where the compound Ogerin goes in mice: three hours after injection, the liver held the highest level of any major organ assessed; earlier work found it reduces infarct volume and blood-brain barrier leakage after a brain artery is blocked. And a third learns the shared, switching dynamics that link neural activity to behaviour.",
+        "So, this hour's receipts. A laureate's rebuke of the sanctions on the court, a prisoner who survived two lethal injections, and a proposed one hundred thousand dollar charge for international students. A Ukrainian delegation blindsided in America, and at least twenty dead in Zaporizhzhia. Small models with better harnesses, tasks split to fit the tools, and a check on overconfident reasoners. Nuclear clocks, and an insect-inspired network for finding the way. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cqkgjrpmr47vo?at_medium=RSS&at_campaign=rss",
+          "title": "Nobel peace laureate says US sanctions on ICC 'unacceptable'",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o?at_medium=RSS&at_campaign=rss",
+          "title": "Christa Pike discharged from hospital and returned to prison, her lawyers say",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.nature.com/articles/d41586-026-02921-7",
+          "title": "US proposes $100,000 charge for international students to do post-graduate work",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/exclusive-it-felt-like-a-trap-how-ukraine-was-blindsided-by-trumps-putin-pivot/",
+          "title": "Exclusive: 'It felt like a trap.' How Ukraine was blindsided by Trump's Putin pivot",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-guided-bombs-hit-zaporizhzhia-apartment-building-killing-4-injuring-4/",
+          "title": "Russian guided bombs hit Zaporizhzhia residential neighborhood, killing at least 20, injuring 18",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11231",
+          "title": "Harness Compilation: Which Decisions Should a Small Vision-Language Model Keep?",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11268",
+          "title": "TaReD: Tool-Aware Recursive Decomposition for Long-Horizon Tasks",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11352",
+          "title": "RL-ARC: Calibrating Large Reasoning Models via Reasoning-guided Uncertainty",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11084-4",
+          "title": "A thorium-229 optical nuclear clock with feedback loop",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11099-x",
+          "title": "Experimental observation of critical topology",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756268v1?rss=1",
+          "title": "A network model of path control",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.754522v1?rss=1",
+          "title": "Pharmacokinetic properties of Ogerin and its regulation of post-ischemia signaling in mice",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756323v1?rss=1",
+          "title": "Learning Interpretable Switching Dynamics in Shared Neural-Behavioral Latent Space",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-16/f01.webp"
+          },
+          {
+            "t": 32.23,
+            "src": "art/2026-10-10-16/f02.webp"
+          },
+          {
+            "t": 65.9,
+            "src": "art/2026-10-10-16/f03.webp"
+          },
+          {
+            "t": 96.29,
+            "src": "art/2026-10-10-16/f04.webp"
+          },
+          {
+            "t": 110.9,
+            "src": "art/2026-10-10-16/f05.webp"
+          },
+          {
+            "t": 141.31,
+            "src": "art/2026-10-10-16/f06.webp"
+          }
+        ]
+      },
+      "seconds": 172,
+      "audio": "audio/2026-10-10-16.mp3",
+      "thumb": "thumbs/2026-10-10-16.webp",
+      "cover_video": "thumbs/2026-10-10-16.mp4",
+      "cues": [
+        0.0,
+        32.23,
+        65.9,
+        96.29,
+        110.9,
+        141.31
+      ]
+    },
+    {
       "id": "2026-10-10-15",
       "hour": "15:00",
       "date": "2026-10-10",
@@ -83,7 +221,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-15/f01.webp"
           },
           {
@@ -113,7 +251,7 @@
       "thumb": "thumbs/2026-10-10-15.webp",
       "cover_video": "thumbs/2026-10-10-15.mp4",
       "cues": [
-        0.0,
+        0,
         28.97,
         58.7,
         86.11,
