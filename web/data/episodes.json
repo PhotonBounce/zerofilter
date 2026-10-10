@@ -2,6 +2,168 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-09",
+      "hour": "09:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-09",
+      "title": "Vance Won't Watch the Firing Squad, Russia Removes 25 Civilians From Kharkiv Oblast & Nuclear Clocks Get a Feedback Loop",
+      "subject": "JD Vance's doubts about a firing-squad execution, a new White House press secretary, civilians removed from occupied Kharkiv Oblast, and thorium nuclear clocks",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-nine hundred hours UTC on the tenth of October. JD Vance has cast doubt on the firing squad execution of Fort Hood shooter Nidal Hasan and says he would not watch it; it would be the first military execution in more than sixty years, the BBC reports. Conservative commentator Katie Zacharia, a communications adviser at Trump Media and Technology Group, has been picked as the new White House press secretary. Questions remain over an Ebola patient, a forty-year-old businessman who flew and crossed borders through three nations undetected while seriously ill.",
+        "Ukraine and Russia. Russia has forcibly removed twenty-five Ukrainian civilians, including children, from occupied Kharkiv Oblast, Ukraine's ombudsman says, according to the Kyiv Independent's daily roundup. The same roundup reports that a second Yandex data centre was damaged by drones in two days. Russian airports were closed amid an alleged Ukrainian balloon and drone raid, with local Telegram channels showing mysterious balloons near Moscow. And Zelensky has appointed former European integration minister Kachka as ambassador to the EU; during Kachka's tenure, Ukraine opened its first two accession negotiation clusters.",
+        "Frontier compute. Agents' plans break when tools misbehave, and a new arXiv paper uses diffusion language models to patch only the broken part of a plan instead of regenerating it. Another, AgentHorizon, tests the automatic judges that grade long computer-use tasks, since a trajectory can look complete while breaking the instructions or causing unwanted side effects. A third warns that persistent memory can make agents sycophantic and leak across domains, and separates what memory gets admitted from how it is presented. And Nature reports mathematicians are up in arms after OpenAI posted seven hundred maths preprints online.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds are still empty, but Nature's research pages are full of clocks. It publishes a thorium-two-twenty-nine optical nuclear clock with a feedback loop, and a nuclear clock synchronised to thorium-two-twenty-nine. Also in Nature: the observation of relativistic bond weakening in seaborgium hexacarbonyl, and hydrogen bonding in water under extreme confinement.",
+        "Consciousness desk. A bioRxiv study uses an advanced diffusion imaging method to map how the brain's white matter changes with age, and how those changes relate to performance across six cognitive domains. Another tested, across two experiments with an auditory task, whether rewards improve working memory itself or just make people slower and more cautious; its title says the memory representations themselves get stronger. And Nature reports that breaking down a nerve-cell scaffold relieves chronic pain in mice.",
+        "So, this hour's receipts. Vance's doubts about a firing squad, a new press secretary, and an Ebola case that slipped through three borders. Children removed from occupied Kharkiv Oblast and balloons near Moscow. Agents that patch their plans, judges that check the work, and mathematicians angry about machine preprints. Nuclear clocks, and rewards that sharpen memory. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/ck20r39nl3qzo?at_medium=RSS&at_campaign=rss",
+          "title": "JD Vance casts doubt on firing squad execution and says he would not watch it",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c5rmy73zr0rro?at_medium=RSS&at_campaign=rss",
+          "title": "Commentator Katie Zacharia picked as new White House press secretary",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cqp8gknl1njjo?at_medium=RSS&at_campaign=rss",
+          "title": "Questions remain over Ebola patient who travelled across three nations undetected",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/ukraine-war-latest-drones-strike-another-yandex-data-center-in-russia/",
+          "title": "Ukraine war latest: Drones strike another Yandex data center in Russia",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russian-airports-closed-amid-alleged-ukrainian-balloon-and-drone-raid/",
+          "title": "Russian airports closed amid alleged Ukrainian balloon and drone raid",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/zelensky-appoints-former-european-integration-minister-kachka-as-eu-ambassador/",
+          "title": "Zelensky appoints former European integration minister Kachka as EU ambassador",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10786",
+          "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11050",
+          "title": "AgentHorizon: Evaluating Agentic Judges for Long-Horizon Computer-Use Tasks",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11188",
+          "title": "What to Admit and How to Present: Governing Persistent Memory in LLM Agents",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://www.nature.com/articles/d41586-026-03196-8",
+          "title": "OpenAI posts 700 maths preprints online: mathematicians are up in arms",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11084-4",
+          "title": "A thorium-229 optical nuclear clock with feedback loop",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11122-1",
+          "title": "A nuclear clock synchronized to 229 Th",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11105-2",
+          "title": "Observation of relativistic bond weakening in seaborgium hexacarbonyl",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-10858-0",
+          "title": "Hydrogen bonding in water under extreme confinement",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.09.757817v1?rss=1",
+          "title": "Microstructural heterogeneity of white-matter aging and its age-dependent coupling to cognition",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755939v1?rss=1",
+          "title": "Motivational incentives improve working memory performance by enhancing memory-based representations rather than altering response strategies",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03159-z",
+          "title": "Breaking down nerve-cell scaffold relieves chronic pain in mice",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-09/f01.webp"
+          },
+          {
+            "t": 32.52,
+            "src": "art/2026-10-10-09/f02.webp"
+          },
+          {
+            "t": 67.56,
+            "src": "art/2026-10-10-09/f03.webp"
+          },
+          {
+            "t": 101.86,
+            "src": "art/2026-10-10-09/f04.webp"
+          },
+          {
+            "t": 126.17,
+            "src": "art/2026-10-10-09/f05.webp"
+          },
+          {
+            "t": 154.1,
+            "src": "art/2026-10-10-09/f06.webp"
+          }
+        ]
+      },
+      "seconds": 181,
+      "audio": "audio/2026-10-10-09.mp3",
+      "thumb": "thumbs/2026-10-10-09.webp",
+      "cover_video": "thumbs/2026-10-10-09.mp4",
+      "cues": [
+        0.0,
+        32.52,
+        67.56,
+        101.86,
+        126.17,
+        154.1
+      ]
+    },
+    {
       "id": "2026-10-10-08",
       "hour": "08:00",
       "date": "2026-10-10",
@@ -113,7 +275,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-08/f01.webp"
           },
           {
@@ -143,7 +305,7 @@
       "thumb": "thumbs/2026-10-10-08.webp",
       "cover_video": "thumbs/2026-10-10-08.mp4",
       "cues": [
-        0.0,
+        0,
         34.22,
         60.67,
         99.38,
