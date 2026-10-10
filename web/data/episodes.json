@@ -2,6 +2,144 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-10-21",
+      "hour": "21:00",
+      "date": "2026-10-10",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-10-21",
+      "title": "'Will Only Lead to More Slaughter': Bipartisan Backlash Over Trump's Russian Diesel Deal as Zaporizhzhia's Dead Reach 20",
+      "subject": "Lawmakers from both parties attack the diesel deal, Trump says Zelensky wants to make problems for the world, the Zaporizhzhia toll rises to at least 20, and Russia reopens diesel exports",
+      "paragraphs": [
+        "This is ZeroFilter, at twenty-one hundred hours UTC on the tenth of October. A bipartisan backlash has erupted in the US over the Trump–Russia diesel deal, the Kyiv Independent reports, under the headline: will only lead to more slaughter. Lawmakers from both major parties argued the move would undermine recently enacted sanctions against Russia, could give Moscow billions of dollars in revenue, and contradicts Congress's efforts to pressure Vladimir Putin to end the war in Ukraine. Meanwhile, Hurricane Isaias has left four people dead and thousands without power across the US, the BBC reports.",
+        "Ukraine and Russia. In a BBC video, Trump says it is time for Ukraine to get a new president, and that Zelensky wants to make problems for the world. The BBC now counts at least twenty dead in the Russian glide bomb attack on Zaporizhzhia, and Zelensky says the attack, which left children dead, was Russia expressing its thanks for the US diesel deal. Russia, for its part, has partially lifted its ban on diesel exports: from October tenth it will allow five hundred thousand tons to be sold abroad, after banning exports in July in response to Ukrainian strikes.",
+        "Frontier compute. A self-improving AI agent that rewrites itself destroys what a supervisor reviews, a new arXiv paper on credit pipelines argues; it confines self-evolution to the agent's harness, its instructions and tool logic, while the model's weights stay fixed. Another, TokenBank, proposes financial infrastructure for AI services, which pay for inference before revenue arrives. And Finsler Flow Matching infers how cells move between states from single snapshots of single-cell data.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds are still empty. From Nature's physics and chemistry pages: nuclear clocks have ticked for the first time, and researchers report the observation of relativistic bond weakening in seaborgium hexacarbonyl.",
+        "Consciousness desk. Dietary magnesium is known to improve memory in mammals and fruit flies; a bioRxiv study traces how in flies, finding Hippo-pathway genes in memory neurons that are needed for the magnesium boost but not for ordinary memory. In two rhesus macaques, optogenetic stimulation of the inferotemporal cortex was hardest to detect when a visual masker began two hundred milliseconds before it; the paper's title says the stimulation is perceived before its onset. And Nature reports that breaking down a nerve-cell scaffold relieves chronic pain in mice.",
+        "So, this hour's receipts. Lawmakers from both parties warning a diesel deal will lead to more slaughter, and a deadly storm in the US. A President who says Zelensky makes problems for the world, at least twenty dead in Zaporizhzhia, and Russian diesel exports partly reopened. Agents that may only change their harness, a bank for AI services, and cells traced from snapshots. Nuclear clocks, magnesium memories, and a brain that seems to feel stimulation before it starts. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+          "title": "'Will only lead to more slaughter' — bipartisan backlash erupts in US over Trump-Russia diesel deal",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cmje5x80yg70o?at_medium=RSS&at_campaign=rss",
+          "title": "Four dead and thousands without power after Hurricane Isaias lashes US",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/videos/cwkg50dgpml7o?at_medium=RSS&at_campaign=rss",
+          "title": "Watch: 'Time for Ukraine to get a new president', says Trump",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+          "title": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russia-partially-lifts-ban-on-diesel-exports-after-trump-putin-deal/",
+          "title": "Russia partially lifts ban on diesel exports after Trump-Putin deal",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10629",
+          "title": "The Harness as the Only Mutable Surface: Compliance-Bounded Self-Evolution of LLM Agents in Credit Pipelines, with a Measured Admission Gate",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11333",
+          "title": "TokenBank: Financial Infrastructure for AI Services",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11318",
+          "title": "Finsler Flow Matching: Dynamics-Aware Geodesic Interpolation for Single-Snapshot Trajectory Inference",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03060-9",
+          "title": "Nuclear clocks tick for the first time",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11105-2",
+          "title": "Observation of relativistic bond weakening in seaborgium hexacarbonyl",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756214v1?rss=1",
+          "title": "Dietary magnesium supplement enhances memory through Hippo signaling",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756371v1?rss=1",
+          "title": "Inferotemporal cortex stimulation is perceived before its onset",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03159-z",
+          "title": "Breaking down nerve-cell scaffold relieves chronic pain in mice",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-10-21/f01.webp"
+          },
+          {
+            "t": 33.65,
+            "src": "art/2026-10-10-21/f02.webp"
+          },
+          {
+            "t": 64.2,
+            "src": "art/2026-10-10-21/f03.webp"
+          },
+          {
+            "t": 93.14,
+            "src": "art/2026-10-10-21/f04.webp"
+          },
+          {
+            "t": 108.72,
+            "src": "art/2026-10-10-21/f05.webp"
+          },
+          {
+            "t": 139.82,
+            "src": "art/2026-10-10-21/f06.webp"
+          }
+        ]
+      },
+      "seconds": 172,
+      "audio": "audio/2026-10-10-21.mp3",
+      "thumb": "thumbs/2026-10-10-21.webp",
+      "cover_video": "thumbs/2026-10-10-21.mp4",
+      "cues": [
+        0.0,
+        33.65,
+        64.2,
+        93.14,
+        108.72,
+        139.82
+      ]
+    },
+    {
       "id": "2026-10-10-20",
       "hour": "20:00",
       "date": "2026-10-10",
@@ -114,7 +252,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-20/f01.webp"
           },
           {
@@ -144,7 +282,7 @@
       "thumb": "thumbs/2026-10-10-20.webp",
       "cover_video": "thumbs/2026-10-10-20.mp4",
       "cues": [
-        0.0,
+        0,
         34.32,
         68.59,
         95.64,
