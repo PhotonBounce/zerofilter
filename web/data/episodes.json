@@ -2,6 +2,148 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-11-02",
+      "hour": "02:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-11-02",
+      "title": "A Quiet Hour's Ledger: The Nord Stream Trial, a Headmaster Detained After a BBC Investigation & Fire at a Russian Oil Terminal",
+      "subject": "No new reports this hour, so a ledger from the current snapshot: the Nord Stream sabotage trial, a headmaster detained after former students' investigation, the Flydubai attacker, and a suspected drone strike on an oil terminal near Novoshakhtinsk",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-two hundred hours UTC on the eleventh of October. Our feeds brought no new reports this hour, so here is a ledger of stories still open. After four years, a Ukrainian man is set to stand trial in Hamburg accused of sabotaging the Nord Stream pipelines, and the BBC traces how German police followed the evidence to Ukraine. A headmaster has been detained after a BBC investigation into alleged sexual abuse of students; former students spent years collecting evidence themselves. And the UAE's attorney-general says the Flydubai attacker, a co-pilot, began a drift towards extremism in Australia and was trying to crash the plane into Tel Aviv's airport.",
+        "Ukraine and Russia. A major fire was reported at an oil terminal linked to Russia's Novoshakhtinsk refinery after a suspected drone strike, the Kyiv Independent reports, and the outlet ASTRA also reported damage to a residential building in Rostov-on-Don. Ukraine's General Staff claims Russia has lost one million five hundred fifty thousand nine hundred ten troops since February twenty twenty-two. When missiles hit Kyiv after the Russia sanctions relief, Zelensky warned that every extra billion will be spent on this. And a new compromise EU budget keeps support for Ukraine central while trimming help for EU integration.",
+        "Frontier compute. Long-horizon agents' plans break when tools return surprises, and a new arXiv paper uses diffusion language models to patch only the broken part of a plan. Another, AgentHorizon, tests the automatic judges that grade long computer-use tasks, since a run can look complete while breaking its instructions. And a third finds that small agents told a time budget only in their prompt fail to turn it into controlled use of time.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds remain empty. In Nature's physics pages: the experimental observation of critical topology, and a guide to controlling where semiconductor crystals start growing.",
+        "Consciousness desk. Do rewards sharpen working memory, or just make people slower and more careful? A bioRxiv study tested both across two experiments with an auditory task, and its title says the memory representations themselves improve. Another analyses one hundred seventy-five recordings from thirteen human brain assembloids carrying a MAPT mutation or corrected copies, separating how often activity starts from how strongly it amplifies itself. And Nature reports that breaking down a nerve-cell scaffold relieves chronic pain in mice.",
+        "So, this hour's receipts. A quiet hour for new reports, but open files: a Nord Stream trial, a headmaster detained, and a co-pilot's path to extremism. A burning oil terminal, Russia's losses as Kyiv counts them, and an EU budget that keeps Ukraine central. Plans patched, judges tested, and agents that lose track of time. Critical topology, rewarded memory, and relief from chronic pain in mice. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c317ke5ngrq7o?at_medium=RSS&at_campaign=rss",
+          "title": "Nord Stream trial: How German police followed the evidence - to Ukraine",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cwy8lx1r2vrro?at_medium=RSS&at_campaign=rss",
+          "title": "Headmaster detained after BBC investigation into alleged sexual abuse of students",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cw3dj5n538jpo?at_medium=RSS&at_campaign=rss",
+          "title": "Flydubai attacker began a 'drift towards extremism and terrorism' in Australia, UAE says",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/major-fire-reported-at-oil-terminal-linked-to-russias-novoshakhtinsk-refinery-after-suspected-drone-strike/",
+          "title": "Major fire reported at oil terminal linked to Russia's Novoshakhtinsk refinery after suspected drone strike",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/general-staff-russia-has-lost-1-550-910-troops-in-ukraine-since-feb-24-2022/",
+          "title": "General Staff: Russia has lost 1,550,910 troops in Ukraine since Feb. 24, 2022",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/new-compromise-eu-budget-maintains-ukraine-support-but-trims-help-for-eu-integration/",
+          "title": "New compromise EU budget maintains Ukraine support, but trims help for EU integration",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/loud-explosions-heard-in-kyiv-as-city-comes-under-daytime-attack/",
+          "title": "'Every extra billion will be spent on this' — Zelensky warns as missiles hit Kyiv after Russia sanctions relief",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10786",
+          "title": "Plan-and-Patch: Diffusion Language Models for Agentic Planning",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11050",
+          "title": "AgentHorizon: Evaluating Agentic Judges for Long-Horizon Computer-Use Tasks",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10833",
+          "title": "On the Clock: Towards Punctual and Productive Time-Budgeted AI Agents",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11099-x",
+          "title": "Experimental observation of critical topology",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02934-2",
+          "title": "How to control where semiconductor crystals start growing",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.755939v1?rss=1",
+          "title": "Motivational incentives improve working memory performance by enhancing memory-based representations rather than altering response strategies",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756068v1?rss=1",
+          "title": "Self-Exciting Population Event Models Reveal Abnormal Temporal Amplification in MAPT-Mutant Human Brain Assembloids",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03159-z",
+          "title": "Breaking down nerve-cell scaffold relieves chronic pain in mice",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-02/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-11-02/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-11-02/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-11-02/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-11-02/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-11-02/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-11-02.mp3",
+      "thumb": "thumbs/2026-10-11-02.webp",
+      "cover_video": "thumbs/2026-10-11-02.mp4"
+    },
+    {
       "id": "2026-10-11-01",
       "hour": "01:00",
       "date": "2026-10-11",
@@ -107,7 +249,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-11-01/f01.webp"
           },
           {
@@ -137,7 +279,7 @@
       "thumb": "thumbs/2026-10-11-01.webp",
       "cover_video": "thumbs/2026-10-11-01.mp4",
       "cues": [
-        0.0,
+        0,
         31.54,
         63.38,
         95.45,
