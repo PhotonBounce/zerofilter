@@ -2,6 +2,142 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-11-01",
+      "hour": "01:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-11-01",
+      "title": "Saudi-Led Coalition Calls the Riyadh Airport Attack a 'War Crime', Civilians Evacuated From Occupied Ukraine & Myanmar's Snatched Recruits",
+      "subject": "The coalition's response to the deadly Houthi attack on Riyadh's airport, quiet evacuations from Russian-occupied territory including a Chornobyl responder, and fear of forced recruitment in Myanmar",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-one hundred hours UTC on the eleventh of October. Twelve people were killed and three hundred and nine injured in the attack on the airport in the Saudi capital, Riyadh, and the Saudi-led coalition calls the attack by Yemen's Houthis a war crime, the BBC reports. In Myanmar, young men live in fear of being snatched off the streets and sold to the army, as the junta fights a war of attrition against ethnic militias and civilian resistance. And film-maker Sue Kim describes having unprecedented access to K-pop idol Lisa Manobal as a race scandal erupted.",
+        "Ukraine and Russia. Ukraine continues to quietly coordinate evacuations of civilians from Russian-occupied territories, the Kyiv Independent reports, among them a responder to the Chornobyl disaster; quality of life there is severely diminished, especially for people who are elderly, disabled or need medical treatment. An eleven-year-old boy has been killed and five people injured by a Russian drone attack in Dnipropetrovsk Oblast. And the Kyiv Independent's weekly update says Russia prepared disinformation operations around Oleshky and has budgeted for the occupation for the next three years.",
+        "Frontier compute. Researchers increasingly use ChatGPT to revise their papers, and a new arXiv study finds recent GPT versions often narrow or retract authors' claims, which it calls defensive writing, testing whether the model is correcting overclaims or writing for an expected reviewer. Another, Mine Odyssey, tests agents' spatial intelligence in Minecraft reconstructions of unfamiliar places. And a third proposes distilling a possibly misaligned model into a weaker, benign student, so that either hidden misalignment shows itself or useful skills transfer without it.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds are still quiet, with no new papers. In Nature's physics and chemistry pages this hour: a nuclear clock synchronised to thorium-two-twenty-nine, and the observation of relativistic bond weakening in seaborgium hexacarbonyl.",
+        "Consciousness desk. Rats trained to reach the same goal by two routes from different starting points help a bioRxiv study argue that path integration promotes flexible navigational decisions. In fruit flies, a closed-loop experiment that forces courting males to choose between continuing and escaping heat finds that social feedback structures the stay-or-switch decision. And Nature reports that chimp and gorilla brains resist weight loss with age, unlike human brains.",
+        "So, this hour's receipts. A war crime charge after twelve deaths in Riyadh, young men snatched for Myanmar's army, and a film-maker's rare access to a K-pop star as a scandal broke. Quiet evacuations from occupied Ukraine, a boy killed in Dnipropetrovsk, and an occupation budgeted for three years. Defensive language models, agents exploring Minecraft, and a trap for hidden misalignment. Nuclear clocks, rats finding their way, and flies deciding whether to stay. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+          "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
+          "published": "2026-10-11"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c680zlny0gk4o?at_medium=RSS&at_campaign=rss",
+          "title": "Young men live in fear of being snatched off the streets and sold to Myanmar's army",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cjzxl56q30k7o?at_medium=RSS&at_campaign=rss",
+          "title": "Inside the room: What it was like to be with Blackpink's Lisa as race scandal erupted",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/civilians-evacuated-from-russian-occupied-territories-including-chornobyl-disaster-responder/",
+          "title": "Civilians evacuated from Russian-occupied territories, including Chornobyl disaster responder",
+          "published": "2026-10-11"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/11-year-old-boy-killed-five-injured-by-russian-drone-attack-in-dnipropetrovsk-oblast/",
+          "title": "11-year-old boy killed, five injured by Russian drone attack in Dnipropetrovsk Oblast",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/news-from-occupied-ukraine-russia-prepares-oleshky-disinformation-campaign-budgets-for-occupation-for-next-three-years/",
+          "title": "News from occupied Ukraine: Russia prepares Oleshky disinformation campaign, budgets for occupation for next three years",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11355",
+          "title": "Writing for the Reviewer: Defensive Writing in GPT Models",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11328",
+          "title": "Mine Odyssey: Benchmarking Spatial Agentic Intelligence in the Wild",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11012",
+          "title": "Distillation for Incrimination and Distillation for Capabilities",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11122-1",
+          "title": "A nuclear clock synchronized to 229 Th",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11105-2",
+          "title": "Observation of relativistic bond weakening in seaborgium hexacarbonyl",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756060v1?rss=1",
+          "title": "Path Integration Promotes Flexible Navigational Decision Making",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756036v1?rss=1",
+          "title": "Social feedback structures stay/switch decision-making in Drosophila",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03158-0",
+          "title": "Chimp and gorilla brains resist weight loss with age — unlike human brains",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-01/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-11-01/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-11-01/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-11-01/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-11-01/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-11-01/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-11-01.mp3",
+      "thumb": "thumbs/2026-10-11-01.webp",
+      "cover_video": "thumbs/2026-10-11-01.mp4"
+    },
+    {
       "id": "2026-10-11-00",
       "hour": "00:00",
       "date": "2026-10-11",
@@ -107,7 +243,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-11-00/f01.webp"
           },
           {
@@ -137,7 +273,7 @@
       "thumb": "thumbs/2026-10-11-00.webp",
       "cover_video": "thumbs/2026-10-11-00.mp4",
       "cues": [
-        0.0,
+        0,
         35.78,
         65.4,
         96.91,
