@@ -2,6 +2,142 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-11-00",
+      "hour": "00:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-11-00",
+      "title": "Young Men Snatched for Myanmar's Army, Why Delhi Detained Hundreds of 'Cockroach' Protesters & Twelve Dead at Riyadh's Airport",
+      "subject": "Fear of forced recruitment in Myanmar, the Gen-Z Cockroach Janta Party protest in Delhi, the deadly attack on Riyadh's airport, and a boy killed by a drone in Dnipropetrovsk Oblast",
+      "paragraphs": [
+        "This is ZeroFilter, at midnight UTC on the eleventh of October. In Myanmar, young men live in fear of being snatched off the streets and sold to the army, the BBC reports, as a desperate junta fights a war of attrition against ethnic militias and civilian resistance. In India, the BBC explains why hundreds of protesters were detained in Delhi: thousands of security personnel were deployed ahead of the Gen-Z led Cockroach Janta Party protest on Saturday, which called for electoral reforms. And in Saudi Arabia, twelve people were killed and three hundred and nine injured in an attack on Riyadh's airport, days after Yemen's Houthis said they had struck it.",
+        "Ukraine and Russia. An eleven-year-old boy has been killed and five people injured by a Russian drone attack in Dnipropetrovsk Oblast, the Kyiv Independent reports, after several days of deadly strikes that have hit homes and critical civilian infrastructure, disrupting power and water and damaging bridges. In Zaporizhzhia, the BBC counts at least twenty dead from a glide bomb attack. And lawmakers from both major parties argue Trump's Russian diesel deal would undermine recently enacted sanctions and could give Moscow billions of dollars in revenue.",
+        "Frontier compute. AI agents load a fixed instruction file at the start of every session, and each of its tokens is charged again in every later round; a new arXiv paper treats curating that file as a capacity problem, because adding an instruction never raises compliance with the others. Another generates coherent enterprise data by simulating agents interacting with systems, since legal and business limits restrict training on the real thing. And a third proposes Keyframe Mnemonics, a self-supervised method for imitation-learning policies that must reason over long horizons.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds are empty at the turn of the day. In Nature's physics pages: a thorium-two-twenty-nine optical nuclear clock with a feedback loop, and semiconductors pushed into insulator territory.",
+        "Consciousness desk. Hippocampal sharp-wave ripples, which occur during rest and sleep, play a significant role in memory consolidation; a bioRxiv computational model captures how the neuromodulator orexin may shape that process. Another reanalysed three thousand two hundred and one heat trials from thirty-three people told to turn their pain up or down; both instructions worked, and turning pain down came with lower activity in the S2, opercular and insular regions. And Nature asks: can your brain grow new neurons?",
+        "So, this hour's receipts. Young men hunted for Myanmar's army, Delhi's Gen-Z protesters detained, and twelve dead at Riyadh's airport. A child killed in Dnipropetrovsk, Zaporizhzhia counting its dead, and both parties in Congress against the diesel deal. Instruction files on a budget, simulated enterprises, and long memories for imitation learning. Nuclear clocks, sleeping memories, and pain turned down by choice. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c680zlny0gk4o?at_medium=RSS&at_campaign=rss",
+          "title": "Young men live in fear of being snatched off the streets and sold to Myanmar's army",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cqwy7p2y20gxo?at_medium=RSS&at_campaign=rss",
+          "title": "Why have hundreds of 'cockroach' protesters been detained in Delhi",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+          "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/11-year-old-boy-killed-five-injured-by-russian-drone-attack-in-dnipropetrovsk-oblast/",
+          "title": "11-year-old boy killed, five injured by Russian drone attack in Dnipropetrovsk Oblast",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://www.bbc.co.uk/news/articles/cwvgdpv642g5o?at_medium=RSS&at_campaign=rss",
+          "title": "Russian glide bomb attack on Zaporizhzhia kills at least 20 people",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/will-only-lead-to-more-slaughter-bipartisan-backlash-erupts-in-us-over-trump-russia-diesel-deal/",
+          "title": "'Will only lead to more slaughter' — bipartisan backlash erupts in US over Trump-Russia diesel deal",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.11007",
+          "title": "Curating Always-Loaded Context for LLM Agents: A Capacitated Assortment Model with Censored Feedback",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10549",
+          "title": "Synthesis Through Simulation: Generating Coherent Enterprise Data via Scalable Agent-System Interaction",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10857",
+          "title": "Self-Supervised Keyframe Discovery for Horizon-Invariant Behavior Cloning",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-11084-4",
+          "title": "A thorium-229 optical nuclear clock with feedback loop",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-02968-6",
+          "title": "Semiconductors pushed into insulator territory",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.02.756298v1?rss=1",
+          "title": "A Computational Model Captures Orexin-Dependent Modulation of Memory Consolidation.",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.01.756083v1?rss=1",
+          "title": "Direction-sensitive neural correlates of voluntary pain regulation: regional response attenuation during down-regulation and exploratory prefrontal-valuation coupling",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.nature.com/articles/d41586-026-03132-w",
+          "title": "Can your brain grow new neurons? How researchers are solving a century-old puzzle",
+          "published": "2026-10-07"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0,
+            "src": "art/2026-10-11-00/f01.webp"
+          },
+          {
+            "t": 30,
+            "src": "art/2026-10-11-00/f02.webp"
+          },
+          {
+            "t": 60,
+            "src": "art/2026-10-11-00/f03.webp"
+          },
+          {
+            "t": 90,
+            "src": "art/2026-10-11-00/f04.webp"
+          },
+          {
+            "t": 120,
+            "src": "art/2026-10-11-00/f05.webp"
+          },
+          {
+            "t": 150,
+            "src": "art/2026-10-11-00/f06.webp"
+          }
+        ]
+      },
+      "seconds": 180,
+      "audio": "audio/2026-10-11-00.mp3",
+      "thumb": "thumbs/2026-10-11-00.webp",
+      "cover_video": "thumbs/2026-10-11-00.mp4"
+    },
+    {
       "id": "2026-10-10-23",
       "hour": "23:00",
       "date": "2026-10-10",
@@ -107,7 +243,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-10-23/f01.webp"
           },
           {
@@ -137,7 +273,7 @@
       "thumb": "thumbs/2026-10-10-23.webp",
       "cover_video": "thumbs/2026-10-10-23.mp4",
       "cues": [
-        0.0,
+        0,
         28.39,
         60.24,
         92.95,
