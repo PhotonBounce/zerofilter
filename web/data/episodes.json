@@ -2,6 +2,156 @@
   "updated": "2026-10-07T23:30:04.916274+00:00",
   "episodes": [
     {
+      "id": "2026-10-11-03",
+      "hour": "03:00",
+      "date": "2026-10-11",
+      "kind": "hourly",
+      "category": "geopolitics",
+      "ingest": "2026-10-11-03",
+      "title": "Another Quiet Hour: Riyadh's 'War Crime', a Livestreamed Execution Debate & Democrats Question Patel's Russia Trip",
+      "subject": "No new reports this hour beyond an update on Riyadh, so a ledger of open stories: the debate over a livestreamed execution, the murdered surfers' trial, the Earhart expedition, Kash Patel's planned Russia trip and Russia's diesel exports",
+      "paragraphs": [
+        "This is ZeroFilter, at oh-three hundred hours UTC on the eleventh of October. The only update this hour: the attack on Riyadh's airport, which killed twelve and injured three hundred and nine, is now called a war crime by a Saudi-led military coalition, the BBC reports. Beyond that, a ledger of open stories. Public executions in the US stopped nearly a century ago; the Pentagon says the execution of Fort Hood shooter Nidal Hasan will be livestreamed, but experts suggest officials are reading the country wrong. The mother of two Australian surfers murdered in Mexico two years ago with their American friend says accountability matters. And an expedition is heading to a remote island hoping to find Amelia Earhart's plane and solve her nineteen thirty-seven disappearance.",
+        "Ukraine and Russia. US Democrats Jamie Raskin and Jim Himes have urged FBI Director Kash Patel to cancel an upcoming trip to Russia, citing urgent national security concerns including the FSB's history of espionage against American officials, the Kyiv Independent reports. Russia has partially lifted its ban on diesel exports after the Trump–Putin deal, allowing five hundred thousand tons to be sold abroad. And Trump has said Zelensky better damn well stop attacking Russian refineries.",
+        "Frontier compute. AI systems are usually built as if every input had a single correct answer, but a new arXiv paper argues that for many human-centred tasks several interpretations can be valid at once. Another argues aligned AI needs normative competence: discerning from interaction alone which norms a community enforces, since norms are vast, change quickly and are often arbitrary. And StoreBench puts an agent in charge of a mid-size online apparel store, where customers order around the clock, to test long-horizon planning and economic judgment.",
+        "Quantum desk. The quantum arXiv and Physical Review Letters feeds are still empty. In Nature's physics coverage: nuclear clocks have ticked for the first time, and hydrogen bonding in water under extreme confinement.",
+        "Consciousness desk. In three hundred and ten adults aged twenty-one to eighty-nine playing an Ultimatum Game in a brain scanner, a bioRxiv study finds that links between neural responses to fairness and vulnerability to financial exploitation vary with age and emotional intelligence. In head-fixed mice shown only a moving bar of light, the majority of entorhinal neurons responded topographically, with no task or reward. And in fruit flies, neuronal sex identity shapes how the presence of others buffers defensive freezing.",
+        "So, this hour's receipts. A coalition calling Riyadh's attack a war crime, an execution set to be livestreamed, a mother's call for accountability, and a search for Earhart. Questions over an FBI director's Russia trip, diesel exports reopened, and a President's warning to Kyiv. AI that accepts more than one truth, norms learned from interaction, and an agent running a store. Nuclear clocks, the brain's sense of fairness, and flies that freeze less in company. Every link is in the source drawer. This has been ZeroFilter. Stay unfiltered."
+      ],
+      "sources": [
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/cw33x4y8k82no?at_medium=RSS&at_campaign=rss",
+          "title": "Twelve killed in attack on airport in Saudi capital Riyadh",
+          "published": "2026-10-11"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c6kgq7rqdql7o?at_medium=RSS&at_campaign=rss",
+          "title": "Public executions in the US stopped nearly a century ago - why are they resuming now?",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/videos/cr86z34vz95yo?at_medium=RSS&at_campaign=rss",
+          "title": "How the trial of murdered Australian brothers and US friend unfolded",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 0,
+          "url": "https://www.bbc.co.uk/news/articles/c3y0e871rk4vo?at_medium=RSS&at_campaign=rss",
+          "title": "Expedition hopes to find aviator Amelia Earhart's plane on remote island",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/us-democrats-call-on-fbi-director-kash-patel-to-cancel-upcoming-trip-to-russia/",
+          "title": "US Democrats call on FBI Director Kash Patel to cancel upcoming trip to Russia",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/russia-partially-lifts-ban-on-diesel-exports-after-trump-putin-deal/",
+          "title": "Russia partially lifts ban on diesel exports after Trump-Putin deal",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 1,
+          "url": "https://kyivindependent.com/he-better-damn-well-stop-trump-slams-zelensky-for-attacking-russian-refineries-says-ukraine-should-get-new-president/",
+          "title": "'He better damn well stop' — Trump slams Zelensky for attacking Russian refineries, says Ukraine should get 'new president'",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10805",
+          "title": "Whose Ground Truth? Embracing Ambiguity in Human-Centered AI",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10906",
+          "title": "Reading the Room: Foundations, Design, and Challenges of Normative Competence in LLMs",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 2,
+          "url": "https://arxiv.org/abs/2610.10942",
+          "title": "StoreBench: A Live-Commerce Environment for Evaluating and Training Autonomous Operator Agents",
+          "published": "2026-10-10"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/d41586-026-03060-9",
+          "title": "Nuclear clocks tick for the first time",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 3,
+          "url": "https://www.nature.com/articles/s41586-026-10858-0",
+          "title": "Hydrogen bonding in water under extreme confinement",
+          "published": "2026-10-07"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.09.30.755119v1?rss=1",
+          "title": "Associations Between Neural Responses to Social Fairness and Financial Exploitation Vulnerability Vary With Age and Emotional Intelligence",
+          "published": "2026-10-08"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.05.756590v1?rss=1",
+          "title": "Moving object generates topographic responses in the majority of entorhinal neurons",
+          "published": "2026-10-09"
+        },
+        {
+          "para": 4,
+          "url": "https://www.biorxiv.org/content/10.64898/2026.10.07.756549v1?rss=1",
+          "title": "Neuronal sex identity shapes social buffering of defensive freezing behaviour in fruit flies",
+          "published": "2026-10-09"
+        }
+      ],
+      "art": {
+        "frames": [
+          {
+            "t": 0.0,
+            "src": "art/2026-10-11-03/f01.webp"
+          },
+          {
+            "t": 43.22,
+            "src": "art/2026-10-11-03/f02.webp"
+          },
+          {
+            "t": 70.61,
+            "src": "art/2026-10-11-03/f03.webp"
+          },
+          {
+            "t": 102.89,
+            "src": "art/2026-10-11-03/f04.webp"
+          },
+          {
+            "t": 115.46,
+            "src": "art/2026-10-11-03/f05.webp"
+          },
+          {
+            "t": 144.82,
+            "src": "art/2026-10-11-03/f06.webp"
+          }
+        ]
+      },
+      "seconds": 178,
+      "audio": "audio/2026-10-11-03.mp3",
+      "thumb": "thumbs/2026-10-11-03.webp",
+      "cover_video": "thumbs/2026-10-11-03.mp4",
+      "cues": [
+        0.0,
+        43.22,
+        70.61,
+        102.89,
+        115.46,
+        144.82
+      ]
+    },
+    {
       "id": "2026-10-11-02",
       "hour": "02:00",
       "date": "2026-10-11",
@@ -113,7 +263,7 @@
       "art": {
         "frames": [
           {
-            "t": 0.0,
+            "t": 0,
             "src": "art/2026-10-11-02/f01.webp"
           },
           {
@@ -143,7 +293,7 @@
       "thumb": "thumbs/2026-10-11-02.webp",
       "cover_video": "thumbs/2026-10-11-02.mp4",
       "cues": [
-        0.0,
+        0,
         37.39,
         71.54,
         95.86,
