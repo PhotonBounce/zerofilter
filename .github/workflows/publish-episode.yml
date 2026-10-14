@@ -1,8 +1,9 @@
 name: ZeroFilter Hourly Release Pipeline
 
 on:
-  schedule:
-    - cron: '0 * * * *' # Every hour on the hour
+  # FROZEN 2026-10-14 by the owner (out of credits) — restore on "resume".
+  # schedule:
+  #   - cron: '0 * * * *' # Every hour on the hour
   pull_request:
     branches: [main]
   workflow_dispatch:
