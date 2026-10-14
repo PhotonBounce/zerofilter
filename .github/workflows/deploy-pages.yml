@@ -11,9 +11,10 @@ on:
   workflow_run:
     workflows: ["ZeroFilter Hourly Release Pipeline"]
     types: [completed]
-  schedule:
+  # FROZEN 2026-10-14 by the owner (out of credits) — restore on "resume".
+  # schedule:
     # Daily automated refresh at 04:00 UTC (100% free)
-    - cron: '0 4 * * *'
+  #   - cron: '0 4 * * *'
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
